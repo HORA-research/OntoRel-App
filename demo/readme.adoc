@@ -1,0 +1,114 @@
+// Settings
+:idprefix:
+:idseparator: -
+:page-component-title: Application for generating a relational database using an ontology
+:page-component-name: Ontorela
+= {page-component-name}
+
+== Use
+
+////
+Cette section doit décrire comment la bibliothèque logicielle (librairie) doit être intégrée au
+projet. Cette section doit fournir des explications simples.
+
+_Il faut indiquer où est généré l'artefact en spécifiant son nom et en précisant qu'il peut être
+utilisé dans l'environnement de travail du développeur selon les outils utilisés par celui-ci.
+
+////
+Provide a directory containing the following configuration files:
+
+- **`ontology_config.yml`** (mandatory):
+[title=“Ontology configuration YAML file”,options=“header,unbreakable”]
+|===
+|Field | Description | Mandatory
+|`String owlFilePath` | Location of the ontology (local path or URL) | Yes
+|`boolean loadEquivalentClass`|
+If true: load equivalent classes (default). +
+If false: ignore equivalent classes. | No
+| reduceRedundancyAxiom |
+If true: redundant axioms are eliminated. +
+If false: redundant axioms preserved (default). |  No
+|`List<String> annotations`| List of annotations of interest to consider as labels and definitions. |  No
+|`Set<String> classes`| Set of classes of interest. |  No
+|`Set<String> objectProperties`| Set of properties of interest.|  No
+|===
+
+- **`database_config.yml`** (Mandatory):
+[title=“Database configuration YAML file”,options=“header,unbreakable”]
+|===
+|Field | Description | Mandatory
+|`String schemaName` | The name of the base schema to be generated (default ONTORELA). |  No
+|`List<String> rdbmsName`| The list of target DBMS names (default postgresql).  |  No
+|`String defaultKeyName`| The suffix of the artificial key (default uid). |  No
+|`String defaultKeyDomainName` | The domain name of the artificial key (default uid_domain). |  No
+|`String defaultKeyType`| The type name of the artificial key (default UUID). |  No
+|`String defaultAttributeName`| The name of the default value attribute (default value). |  No
+|`String defaultAttributeDomaineName`| The domain name of the default value attribute (default values_domain). |  No
+|`String defaultAttributeType`| The type name of the default value attribute (default TEXT). |  No
+|`Integer maxIdentifierLength`| The maximum length of identifiers in the database (default 30). |  No
+|`boolean useIriAsTableId`|
+If true: the table identifier is built using the local short IRI . +
+If false: the table identifier is built using a hash function (default). |  No
+|`boolean normalizeDatatype`|
+If true: a type is converted into a table (key-value). +
+If false: a type is converted to an attribute in the table. |  No
+|`boolean generateOpTable`|
+If true: each object property is converted into a table (default).
+If false: no table are generated for the object properties. |  No
+|`boolean removeThingTable`|
+If true: a table for the class _Thing_ is *not* created. +
+If false: a table for the class _Thing_ is created (default). |  No
+|`Set<String> languages`| The set of languages of interest (default en, fr). |  No
+|`String owlSqlTypeMapperFilePath`| The location of the OWL-SQL type mapping file. |  No
+|`String ontoRelDicFilePath`| The location of ontoRel data dictionary. |  No
+|===
+
+NOTE:: It's important to note that the choice of configuration can have side effects on certain configuration combinations.
+
+[#launch]
+== Launch
+
+////
+Cette section doit décrire la procédure à suivre pour démarrer l'*application ou le service* et
+présenter, au besoin, toute information nécessaire au lecteur pour accomplir avec succès cette
+tâche. Il est possible que cette section ne s'applique pas à un projet particulier; si c'est le
+cas, il suffit de remplacer le contenu de la section par « S.O. » pour « sans objet ».
+////
+
+=== Generate the ontological-relational schema (OntoRel)
+----
+java -jar ontorela-application-<version>-SNAPSHOT.jar generate-ontorel <configuration_directory>
+----
+`<configuration_directory>` the location of the directory containing the configuration files.
+
+=== Generate ontology, relational and/or relational-ontology graphs
+----
+java -jar ontorela-application-<version>-SNAPSHOT.jar generate-graph <configuration_directory> [--type <graph_type>]
+----
+`<graph_type>` (**optional**) take the following values: initial_onto, normalized_onto, db, ontorel.
+
+=== Generate Cypher scripts for ontology, relational and/or relational-ontology graphs
+----
+java -jar ontorela-application-<version>-SNAPSHOT.jar generate-cypher <configuration_directory> [--type <graph_type>]
+----
+`<graph_type>` (**optional**) take the following values: initial_onto, normalized_onto, db, ontorel.
+
+=== Generate anomalie reports
+----
+java -jar ontorela-application-<version>-SNAPSHOT.jar generate-anomalies-reports <configuration_directory> [--type <anomaly_type>]
+----
+`<anomaly_type>` (**optional**) can take the following values: db, **ontology.
+
+=== Generate all outputs
+----
+java -jar ontorela-application-<version>-SNAPSHOT.jar generate-all <configuration_directory>
+----
+
+[WARNING]
+====
+Using an ontology file that lacks a declared Internationalized Resource Identifier (IRI) will cause the script generation process to fail. All input ontologies must have an explicitly declared IRI within their source files.
+====
+////
+== Documentation
+S.O.
+////

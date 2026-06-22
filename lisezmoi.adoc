@@ -7,7 +7,7 @@
 
 [#summary]
 == Sommaire
-*{page-component-name}* génère à partir d'une ontologie et des critères de modélisation, un ensemble de scripts qui créent une base de données relationnelle (BDR) entièrement fonctionnelle.
+*{page-component-name}* génère à partir d'une ontologie et des critères de modélisation, à la fois un ensemble de scripts qui créent une base de données relationnelle (BDR) entièrement fonctionnelle et des graphes de propriétés.
 
 
 [#techno]
@@ -15,113 +15,57 @@
 L' *{page-component-name}* est développée en Java et utilise Gradle comme outil de construction automatisée
 (« build automation tools »).
 
+Les libraires externes suivantes ont été utilisées:
+* [OWLAPI](https://github.com/owlcs/owlapi)
+* [SnakeYAML](https://github.com/snakeyaml/snakeyaml)
+* [JGraphT](https://jgrapht.org)
+* [JUnit Jupiter](https://junit.org)
+* [StringTemplate](https://www.stringtemplate.org)
+
 Le fichier exécutable sera dans le répertoire `build/libs`.
 
-== Utilisation
+=== Entrées
 
-////
-Cette section doit décrire comment la bibliothèque logicielle (librairie) doit être intégrée au
-projet. Cette section doit fournir des explications simples.
+Le logiciel prend en entrée deux fichiers de configuration :
 
-_Il faut indiquer où est généré l'artefact en spécifiant son nom et en précisant qu'il peut être
-utilisé dans l'environnement de travail du développeur selon les outils utilisés par celui-ci.
-////
+* [nom-de-l'ontologie]-database_config.yaml : contenant les paramètres nécessaires à la création de la base de données relationnelle
+* [nom-de-l'ontologie]-ontology_config.yaml : contenant les paramètres nécessaires à la lecture des composants ontologiques
 
-Fournir un répertoire qui contient les fichiers de configuration suivants :
+=== Sorties
 
-- **`ontology_config.yml`** (obligatoire) :
-[title=“Format du fichier de configuration de l'ontologie”,options=“header,unbreakable”]
-|===
-|Attribut | Description | Obligatoire
-|`String owlFilePath` | L'emplacement de l'ontologie (local ou URL) | Oui
-|`boolean loadEquivalentClass`|
-If true: traitement des classes équivalentes (default). +
-If false: ne pas traiter les classes équivalentes. | Non
-|`boolean reduceRedundancyAxiom`|
-If true: éliminer les axiomes redondants. +
-If false: préserver les axiomes redondants (default). |  Non
-|`List<String> annotations`| Liste des types d'annotations d'intérêts pour les étiquettes et les définitions. |  Non
-|`Set<String> classes`| L'ensemble des classes d'intérêt. |  Non
-|`Set<String> objectProperties`| L'ensemble des propriétés d'intérêt.|  Non
-|===
+Le logiciel génère, à partir d'une ontologie, un ensemble de scripts Cypher qui permettent de construire des graphes de propriétés compatibles avec Neo4j et AgensGraph.
 
-- **`database_config.yml`** (optionnel) :
-[title="Format du fichier de configuration de la base de données",options="header,unbreakable"]
-|===
-|Attribut | Description | Obligatoire
-|`String schemaName` | Le nom du schéma à générer (default ONTORELA). |  Non
-|`List<String> rdbmsName`| La liste des noms des SGBD cibles (default postgresql).  |  Non
-|`String defaultKeyName`| Le suffix de la clé artificielle (default uid). |  Non
-|`String defaultKeyDomainName` | Le domaine de la clé artificielle (default uid_domain). |  Non
-|`String defaultKeyType`| Le type de la clé artificielle(default UUID). | Non
-|`String defaultAttributeName`| Le nom de l'attribut de valeur (default value). |  Non
-|`String defaultAttributeDomaineName`| Le domaine de l'attribut de valeur (default values_domain). |  Non
-|`String defaultAttributeType`| Le type de l'attribut de valeur (default TEXT). |  Non
-|`Integer maxIdentifierLength`| La longueur maximal des identifiants de tables/vues (default 30). |  Non
-|`boolean useIriAsTableId`|
-si true: l'identifiant d'une table correspond à l'IRI court. +
-si false: l'identifiant artificiel généré en utilisant une fonction de hashage (default). | Non
-|`boolean normalizeDatatype`|
-si true: le type est converti en table (key-value). +
-si false: le type est converti en attribut dans la table. | Non
-|`boolean generateOpTable`|
-si true: chaque propriété de classes est convertie en table (default).
-si false: les propriétés de classes ne sont pas converties. | Non
-|`boolean removeThingTable`|
-si true: une table pour la classe _Thing_ n'est *pas* créée. +
-si false: une table pour la classe _Thing_ est créée (default). | Non
-|`Set<String> languages`| L'ensemble des languages d'intérêts (default en, fr). | Non
-|`String owlSqlTypeMapperFilePath`| L'emplacement du fichier de configuration des types. | Non
-|`String ontoRelDicFilePath`| L'emplacement du catalogue OntoRel | Non
-|===
+=== Utilisation client
 
-- **`owlsqltype_config.yml`** (optionnel) : une mise en correspondance entre les types de OWL et SQL. (voir src/resources/default_postgresql_owlsqltyle_config.yaml).
+Les pré-requis :
 
-NOTE:: Il est important de noter que le choix de configuration peut entraîner des effets de bord sur certaine combinaison de configuration.
+* Java 17+
+* AgensGraph v2.14.1+ ou
+* Neo4j v2.1.4+
 
-[#launch]
-== Démarrage
+Les étapes :
 
-////
-Cette section doit décrire la procédure à suivre pour démarrer l'*application ou le service* et
-présenter, au besoin, toute information nécessaire au lecteur pour accomplir avec succès cette
-tâche. Il est possible que cette section ne s'applique pas à un projet particulier; si c'est le
-cas, il suffit de remplacer le contenu de la section par « S.O. » pour « sans objet ».
-////
-
-=== Générer le schéma relationnel Ontorel.
+. Clôner le dépôt.
+. Dans le terminal exécuter : +
 ----
-java -jar ontorela-application-<version>-SNAPSHOT.jar generate-ontorel <configuration_directory>
-----
-`<configuration_directory>` l'emplacement du dossier qui contient les fichiers de configuration.
-
-=== Générer les graphes de l'ontologie, relationnel et relationnel-ontologique
-----
-java -jar ontorela-application-<version>-SNAPSHOT.jar generate-graph <configuration_directory> [--type <graph_type>]
-----
-`<graph_type>` (optionnel) peut prendre comme valeur : initial_onto, normalized_onto, db, ontorel.
-
-=== Générer les scripts Cypher des graphes de l'ontologie, relationnel et relationnel-ontologique
-----
-java -jar ontorela-application-<version>-SNAPSHOT.jar generate-cypher <configuration_directory> [--type <graph_type>]
-----
-`<graph_type>` (optionnel) peut prendre comme valeur : initial_onto, normalized_onto, db, ontorel.
-
-=== Générer les rapports et les anomalies
-----
-java -jar ontorela-application-<version>-SNAPSHOT.jar generate-anomalies-reports <configuration_directory> [--type <anomaly_type>]
-----
-`<anomaly_type>` (optionnel) peut prendre comme valeur : db, ontology.
-
-=== Générer tous les artéfacts
-----
-java -jar ontorela-application-<version>-SNAPSHOT.jar generate-all <configuration_directory>
+ java -jar build/libs/ontorela-application-2.3.0-SNAPSHOT.jar generate-cypher <configuration_directory>
 ----
 
-////
-== Documentation
-S.O.
-////
+== Équipe
+
+Pour plus d'information contacter: +
+Christina Khnaisser : Christina.Khnaisser@usherbrooke.ca
+
+Collaborateurs.trices : +
+Reine Sonkin Fozi : Reine.Sonkin.Fozi@usherbrooke.ca
+
+Merci à : +
+Ameni Souid :  Ameni.Souid@USherbrooke.ca+
+Mohamed Amin Gaied :  Mohamed.Amin.Gaied@USherbrooke.ca+
+Mouhamad Moustapha Mbaye : Mouhamad.Moustapha.Mbaye@USherbrooke.ca
+
+== Références
+Khnaisser, Chantal, Luc Lavoie, Benoit Fraikin, Alan Barton, Sébastien Dussault, Anita Burgun, et Jean-François Ethier. « Using an ontology to derive a sharable and interoperable relational data model for heterogeneous healthcare data and various applications ». In Methods of Information in Medicine, 61(S 02):e73–e88, (Jun 2022). https://doi.org/10.1055/a-1877-9498.
 
 [#licence]
 == Copyright et licences
