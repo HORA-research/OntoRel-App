@@ -9,6 +9,10 @@
 == Sommaire
 *{page-component-name}* génère à partir d'une ontologie et des critères de modélisation, à la fois un ensemble de scripts qui créent une base de données relationnelle (BDR) entièrement fonctionnelle et des graphes de propriétés.
 
+SGBDs actuellement pris en charge:
+
+* Relationnel: PostgreSQL
+* Graphe: Neo4j & AgensGraph
 
 [#techno]
 == Technologies utilisées
@@ -16,6 +20,7 @@ L' *{page-component-name}* est développée en Java et utilise Gradle comme outi
 (« build automation tools »).
 
 Les libraires externes suivantes ont été utilisées:
+
 * [OWLAPI](https://github.com/owlcs/owlapi)
 * [SnakeYAML](https://github.com/snakeyaml/snakeyaml)
 * [JGraphT](https://jgrapht.org)
@@ -35,13 +40,13 @@ Le logiciel prend en entrée deux fichiers de configuration :
 
 Le logiciel génère, à partir d'une ontologie, un ensemble de scripts Cypher qui permettent de construire des graphes de propriétés compatibles avec Neo4j et AgensGraph.
 
-=== Utilisation client
+=== Utilisation client pour génération des scripts Cypher
 
 Les pré-requis :
 
 * Java 17+
 * AgensGraph v2.14.1+ ou
-* Neo4j v2.1.4+
+* Neo4j Desktop v2.1.4+
 
 Les étapes :
 

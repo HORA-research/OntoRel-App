@@ -7,13 +7,19 @@
 
 [#summary]
 == Summary
-*{page-component-name}* generates from an ontology and modeling criteria, a set of scripts that create both a fully functional relational database (RDB) and property graphs compatible with Neo4j et AgensGraph.
+*{page-component-name}* generates from an ontology and modeling criteria, a set of scripts that create both a fully functional relational database (RDB) and property graphs.
+
+Currently supported DBMSs:
+
+* Relational: PostgreSQL
+* Graph: Neo4j & AgensGraph
 
 [#techno]
 == Technologies
 *{page-component-name}* is developed in Java and uses Gradle as a build automation tool.
 
 The following external libraries were used:
+
 * [OWLAPI](https://github.com/owlcs/owlapi)
 * [SnakeYAML](https://github.com/snakeyaml/snakeyaml)
 * [JGraphT](https://jgrapht.org)
@@ -33,13 +39,13 @@ The software takes two configuration files as input:
 
 The software generates for an ontology, a set of cypher scripts that construct property graphs compatible with Neo4j and AgensGraph.
 
-=== Usage
+=== Usage for Cypher scripts generation
 
 Prerequisites:
 
 * Java 17+
-* AgensGraph v2.14.1+
-* Neo4j v2.1.4
+* AgensGraph v2.14.1+ or
+* Neo4j Desktop v2.1.4+
 
 Steps :
 
