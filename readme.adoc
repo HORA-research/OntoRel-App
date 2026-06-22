@@ -58,8 +58,8 @@ Collaborators : +
 Reine Sonkin Fozi : Reine.Sonkin.Fozi@usherbrooke.ca
 
 Thanks to : +
-Ameni Souid :  Ameni.Souid@USherbrooke.ca+
-Mohamed Amin Gaied :  Mohamed.Amin.Gaied@USherbrooke.ca+
+Ameni Souid :  Ameni.Souid@USherbrooke.ca +
+Mohamed Amin Gaied :  Mohamed.Amin.Gaied@USherbrooke.ca +
 Mouhamad Moustapha Mbaye : Mouhamad.Moustapha.Mbaye@USherbrooke.ca
 
 == Références
