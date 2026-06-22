@@ -1,0 +1,127 @@
+= Guide d'Exécution des Bases de Données Graphes
+:toc: macro
+:toclevels: 2
+
+toc::[]
+
+== 1. Prérequis
+[IMPORTANT]
+====
+Ce guide part du principe que vous avez déjà téléchargé, installé et entièrement configuré l'environnement de votre choix. Vous **devez** suivre les liens officiels ci-dessous pour une configuration correcte avant de passer aux étapes d'exécution.
+
+*AgensGraph :*
+
+* https://tech.skaiworldwide.com/downloads//[Téléchargement]
+* https://tech.skaiworldwide.com/docs/en/agensgraph/latest/quick_guide/installation.html[Manuel d'Installation]
+
+*Neo4j Desktop :*
+
+* https://neo4j.com/deployment-center/[Téléchargement]
+* https://neo4j.com/docs/desktop/current/installation/[Guide d'Installation et de Configuration]
+====
+
+== 2. Neo4j Desktop : Configuration, Exécution et Visualisation
+
+=== Étape 2.1 : Configuration de l'Environnement
+Avant d'exécuter des scripts, vérifiez que votre environnement Neo4j Desktop est entièrement configuré à l'aide de la documentation officielle :
+
+* **Créer une Instance Locale :** Suivez les étapes pour créer un nouveau SGBD local. Consultez le https://neo4j.com/docs/desktop/current/operations/instance-management/[Guide de Gestion des Instances].
+* **Installer le Plugin APOC :** APOC est requis pour l'exécution avancée de scripts. Consultez le https://neo4j.com/docs/apoc/current/installation/[Guide d'Installation d'APOC].
+* **Activer la Lecture de Fichiers :** Vous devez autoriser APOC à lire des fichiers locaux en ajoutant `apoc.import.file.enabled=true` à votre configuration. Consultez le https://neo4j.com/labs/apoc/4.4/overview/apoc.cypher/apoc.cypher.runFile/#_reading_from_a_file[Guide d'Activation de la Lecture de Fichiers].
+
+=== Étape 2.2 : Création de la Base de Données et Exécution du Script
+Une fois l'environnement correctement configuré :
+
+1. **Créer la Base de Données Cible :** Démarrez votre instance et créez la base de données qui hébergera votre graphe. Référez-vous au https://neo4j.com/docs/desktop/current/operations/database-management/#_create_a_new_database[Guide de Création d'une Nouvelle Base de Données].
+2. **Se Connecter à la Base de Données :** OOuvrez l'outil Query et connectez-vous à votre instance active si ce n'est pas déjà fait. Référez-vous au https://neo4j.com/docs/desktop/current/operations/instance-management/#_connect_tools[Guide des Outils de Connexion].
+3. **Préparer le Script :** Déplacez votre script cible (par ex. `OntoRelGraph.cypher`) dans le répertoire d'importation de la base de données (`$NEO4J_HOME/import/`).
+4. **Exécuter le Script :** Basculez vers l'interface **Query** (Neo4j Browser). Pour plus de détails sur l'interface, consultez le https://neo4j.com/docs/desktop/current/query/[Guide de l'Interface de Requête Neo4j]. Exécutez la commande suivante pour lancer votre fichier :
++
+[source,cypher]
+----
+CALL apoc.cypher.runFile("OntoRelGraph.cypher")
+----
+_(Référence : https://neo4j.com/labs/apoc/4.4/overview/apoc.cypher/apoc.cypher.runFile/#usage-apoc.cypher.runFile[Utilisation de apoc.cypher.runFile])_
+
+=== Étape 2.3 : Visualisation du Sous-Graphe
+Une fois que le script a été exécuté avec succès et a généré votre graphe, vous pouvez filtrer et visualiser un sous-graphe spécifique.
+
+Selon si vous avez roulé OntoRelGraph.cypher pour MONDIAL ou MPHPO copiez la requête corrspondante ci-dessous, collez-la directement dans https://neo4j.com/docs/desktop/current/query/#_cypher_editor[l'editeur Cypher], puis appuyez sur `Ctrl + Entrée` (ou cliquez sur le bouton Lecture) :
+
+==== MONDIAL
+[source,cypher]
+----
+WITH [
+  'decimal',
+  'Measurement_value_decimal',
+  'Measurement',
+  'YearlyMeasurement',
+  'YearlyMeasurement_year_Literal',
+  'Literal',
+  'YearlyMeasurement_year_nonNegativeInteger',
+  'nonNegativeInteger',
+  'PopulationCount_population_nonNegativeInteger',
+  'PopulationCount',
+  'hadPopulation',
+  'Country_hadPopulation_PopulationCount',
+  'Country'
+] AS targetIds
+MATCH (n)-[r]->(m)
+WHERE n.relId IN targetIds AND m.relId IN targetIds
+RETURN n, r, m
+----
+
+==== MPHPO
+[source,cypher]
+----
+WITH [
+  'string',
+  'MPHPO_0000006_Ontorel-Core_0000002_string',
+  'MPHPO_0000006',
+  'HOSO_0000084',
+  'HEPRO_0000010_IAO_0000219_NCBITaxon_9606',
+  'IAO_0000219',
+  'HOSO_0000084_IAO_0000219_HOSO_0000079',
+  'HEPRO_0000009',
+  'HEPRO_0000010',
+  'NCBITaxon_9606'
+] AS targetIds
+MATCH (n)-[r]->(m)
+WHERE n.relId IN targetIds AND m.relId IN targetIds
+RETURN n, r, m
+----
+
+== 3. AgensGraph : Création de l'Instance et Exécution du Script
+
+=== Étape 3.1 : Initialisation de la Base de Données et du Schéma de Graphe
+1. Ouvrez le terminal de votre système ou votre invite de commande.
+2. Accédez à l'outil d'interface en ligne de commande interactif (`agens`) en exécutant la commande de connexion (ajustez les paramètres pour votre utilisateur personnalisé si nécessaire) :
++
+[source,bash]
+----
+agens -U postgres -d postgres
+----
+3. Initialisez une base de données propre destinée au stockage de votre graphe :
++
+[source,sql]
+----
+CREATE DATABASE agens;
+\c agens
+----
+4. Créez votre objet de schéma de graphe de propriétés cible, puis ajustez le chemin d'accès d'exécution pour en faire votre espace de travail actif :
++
+[source,sql]
+----
+CREATE GRAPH ontorelgraph;
+SET graph_path = ontorelgraph;
+----
+
+=== Étape 3.2 : Exécution du Script openCypher
+1. Quittez le shell interactif ou ouvrez un nouvel onglet de terminal. Exécutez votre fichier de script openCypher directement sur votre schéma fraîchement configuré à l'aide de l'option `-f` :
++
+[source,bash]
+----
+agens -U postgres -d agens -f /chemin/vers/votre/OntoRelGraph.cypher
+----
++
+_(Alternativement, vous pouvez copier les clauses de votre script et les coller directement dans votre invite interactive `agens` active après avoir défini le `graph_path`)._
