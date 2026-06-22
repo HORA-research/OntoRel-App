@@ -1,0 +1,10539 @@
+CREATE (n:OntoClass:Relvar {
+    relId: 'Thing',
+    shortIri: 'Thing',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_fr: 'Chose',
+    label_en: 'Thing',
+    definition_fr: 'Table mère',
+    definition_en: 'Top table',
+    description: 'TABLE Thing::Thing::{fr=Chose, en=Thing}\n  {\n    Thing_uid::Thing_uid uid_domain::{en=uid Thing, fr=uid Chose}\n  } \nKEY {Thing_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OBI_0100026',
+    shortIri: 'OBI_0100026',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'organism',
+    label_fr: 'OBI_0100026',
+    definition_en: 'A material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs.',
+    description: 'TABLE OBI_0100026::OBI_0100026::{en=organism, fr=OBI_0100026}\n  {\n    OBI_0100026_uid::OBI_0100026_uid uid_domain::{en=uid organism, fr=uid OBI_0100026}\n  } \nKEY {OBI_0100026_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000083',
+    shortIri: 'HOSO_0000083',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'human patient',
+    label_fr: 'HOSO_0000083',
+    definition_en: 'A patient that is a Homo sapiens.',
+    description: 'TABLE HOSO_0000083::HOSO_0000083::{en=human patient, fr=HOSO_0000083}\n  {\n    HOSO_0000083_uid::HOSO_0000083_uid uid_domain::{en=uid human patient, fr=uid HOSO_0000083}\n  } \nKEY {HOSO_0000083_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000071',
+    shortIri: 'HOSO_0000071',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'ambulance paramedics visit',
+    label_fr: 'HOSO_0000071',
+    definition_en: 'A healthcare organization clinical visit involving an ambulance and paramedics as healthcare provider.',
+    description: 'TABLE HOSO_0000071::HOSO_0000071::{en=ambulance paramedics visit, fr=HOSO_0000071}\n  {\n    HOSO_0000071_uid::HOSO_0000071_uid uid_domain::{en=uid ambulance paramedics visit, fr=uid HOSO_0000071}\n  } \nKEY {HOSO_0000071_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'NCBITaxon_2759',
+    shortIri: 'NCBITaxon_2759',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'Eukaryota',
+    label_fr: 'NCBITaxon_2759',
+    description: 'TABLE NCBITaxon_2759::NCBITaxon_2759::{en=Eukaryota, fr=NCBITaxon_2759}\n  {\n    NCBITaxon_2759_uid::NCBITaxon_2759_uid uid_domain::{en=uid Eukaryota, fr=uid NCBITaxon_2759}\n  } \nKEY {NCBITaxon_2759_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000003',
+    shortIri: 'HOSO_0000003',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'healthcare service organism specification',
+    label_fr: 'HOSO_0000003',
+    definition_en: 'A service agreement directive entity identifying an organism for whom a healthcare service delivery aims at providing a desired effect to its health status.',
+    description: 'TABLE HOSO_0000003::HOSO_0000003::{en=healthcare service organism specification, fr=HOSO_0000003}\n  {\n    HOSO_0000003_uid::HOSO_0000003_uid uid_domain::{en=uid healthcare service organism specification, fr=uid HOSO_0000003}\n  } \nKEY {HOSO_0000003_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000124',
+    shortIri: 'HOSO_0000124',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'healthcare organization clinical visit pathological condition impact statement',
+    label_fr: 'HOSO_0000124',
+    definition_en: 'A pragmatically accepted statement that states the impact of a pathological condition on a clinical visit.',
+    description: 'TABLE HOSO_0000124::HOSO_0000124::{en=healthcare organization clinical visit pathological condition impact statement, fr=HOSO_0000124}\n  {\n    HOSO_0000124_uid::HOSO_0000124_uid uid_domain::{en=uid healthcare organization clinical visit pathological condition impact statement, fr=uid HOSO_0000124}\n  } \nKEY {HOSO_0000124_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000100',
+    shortIri: 'HOSO_0000100',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'healthcare organization service delivery identifier',
+    label_fr: 'HOSO_0000100',
+    definition_en: 'An identifier that denotes a healthcare organization service delivery.',
+    description: 'TABLE HOSO_0000100::HOSO_0000100::{en=healthcare organization service delivery identifier, fr=HOSO_0000100}\n  {\n    HOSO_0000100_uid::HOSO_0000100_uid uid_domain::{en=uid healthcare organization service delivery identifier, fr=uid HOSO_0000100}\n  } \nKEY {HOSO_0000100_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'IAO_0020010',
+    shortIri: 'IAO_0020010',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'identifier creating process',
+    label_fr: 'IAO_0020010',
+    definition_en: 'A planned process that provides a reference to an individual entity shared by a group of subscribers to refer to that individual entity.',
+    description: 'TABLE IAO_0020010::IAO_0020010::{en=identifier creating process, fr=IAO_0020010}\n  {\n    IAO_0020010_uid::IAO_0020010_uid uid_domain::{en=uid identifier creating process, fr=uid IAO_0020010}\n  } \nKEY {IAO_0020010_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000039',
+    shortIri: 'HOSO_0000039',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'prior visit category to an inpatient visit',
+    label_fr: 'HOSO_0000039',
+    definition_en: 'An information content entity describing the type of visit that occured prior to an immediate inpatient subsequent visit.',
+    description: 'TABLE HOSO_0000039::HOSO_0000039::{en=prior visit category to an inpatient visit, fr=HOSO_0000039}\n  {\n    HOSO_0000039_uid::HOSO_0000039_uid uid_domain::{en=uid prior visit category to an inpatient visit, fr=uid HOSO_0000039}\n  } \nKEY {HOSO_0000039_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OMRSE_00000212',
+    shortIri: 'OMRSE_00000212',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'non-binary identity information content entity',
+    label_fr: 'OMRSE_00000212',
+    definition_en: 'A gender identity information content entity that is about some person"s identifying as non-binary in gender.',
+    description: 'TABLE OMRSE_00000212::OMRSE_00000212::{en=non-binary identity information content entity, fr=OMRSE_00000212}\n  {\n    OMRSE_00000212_uid::OMRSE_00000212_uid uid_domain::{en=uid non-binary identity information content entity, fr=uid OMRSE_00000212}\n  } \nKEY {OMRSE_00000212_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HEPRO_0000129',
+    shortIri: 'HEPRO_0000129',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'pathological condition start temporal information',
+    label_fr: 'HEPRO_0000129',
+    definition_en: 'A temporal information that is a component of a pathological condition start temporallly qualifying statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the clinically identified start of the pathological condition.',
+    description: 'TABLE HEPRO_0000129::HEPRO_0000129::{en=pathological condition start temporal information, fr=HEPRO_0000129}\n  {\n    HEPRO_0000129_uid::HEPRO_0000129_uid uid_domain::{en=uid pathological condition start temporal information, fr=uid HEPRO_0000129}\n  } \nKEY {HEPRO_0000129_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'BFO_0000035',
+    shortIri: 'BFO_0000035',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'process boundary',
+    label_fr: 'BFO_0000035',
+    definition_en: 'p is a process boundary =Def. p is a temporal part of a process & p has no proper temporal parts. (axiom label in BFO2 Reference: [084-001])',
+    description: 'TABLE BFO_0000035::BFO_0000035::{en=process boundary, fr=BFO_0000035}\n  {\n    BFO_0000035_uid::BFO_0000035_uid uid_domain::{en=uid process boundary, fr=uid BFO_0000035}\n  } \nKEY {BFO_0000035_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'BFO_0000144',
+    shortIri: 'BFO_0000144',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'process-profile',
+    label_fr: 'BFO_0000144',
+    definition_en: 'ProcessProfile',
+    description: 'TABLE BFO_0000144::BFO_0000144::{en=process-profile, fr=BFO_0000144}\n  {\n    BFO_0000144_uid::BFO_0000144_uid uid_domain::{en=uid process-profile, fr=uid BFO_0000144}\n  } \nKEY {BFO_0000144_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OpenLHS-Core_0000027',
+    shortIri: 'OpenLHS-Core_0000027',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'request',
+    label_fr: 'OpenLHS-Core_0000027',
+    definition_en: 'An information content entity specifiying one or several types of processes that a party, whether a person or an organization, wants to see instantiated for the benefit of itself or another party.',
+    description: 'TABLE OpenLHS-Core_0000027::OpenLHS-Core_0000027::{en=request, fr=OpenLHS-Core_0000027}\n  {\n    OpenLHS-Core_0000027_uid::OpenLHS-Core_0000027_uid uid_domain::{en=uid request, fr=uid OpenLHS-Core_0000027}\n  } \nKEY {OpenLHS-Core_0000027_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HEPRO_0000008',
+    shortIri: 'HEPRO_0000008',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'health activity outcome information',
+    label_fr: 'HEPRO_0000008',
+    definition_en: 'An information content entity that is a specified output of a health activity.',
+    description: 'TABLE HEPRO_0000008::HEPRO_0000008::{en=health activity outcome information, fr=HEPRO_0000008}\n  {\n    HEPRO_0000008_uid::HEPRO_0000008_uid uid_domain::{en=uid health activity outcome information, fr=uid HEPRO_0000008}\n  } \nKEY {HEPRO_0000008_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'IAO_0000033',
+    shortIri: 'IAO_0000033',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'directive information entity',
+    label_fr: 'IAO_0000033',
+    definition_en: 'An information content entity whose concretizations indicate to their bearer how to realize them in a process.',
+    description: 'TABLE IAO_0000033::IAO_0000033::{en=directive information entity, fr=IAO_0000033}\n  {\n    IAO_0000033_uid::IAO_0000033_uid uid_domain::{en=uid directive information entity, fr=uid IAO_0000033}\n  } \nKEY {IAO_0000033_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'BFO_0000011',
+    shortIri: 'BFO_0000011',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'st-region',
+    label_fr: 'BFO_0000011',
+    definition_en: 'SpatiotemporalRegion',
+    description: 'TABLE BFO_0000011::BFO_0000011::{en=st-region, fr=BFO_0000011}\n  {\n    BFO_0000011_uid::BFO_0000011_uid uid_domain::{en=uid st-region, fr=uid BFO_0000011}\n  } \nKEY {BFO_0000011_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'BFO_0000023',
+    shortIri: 'BFO_0000023',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'role',
+    label_fr: 'BFO_0000023',
+    definition_en: 'Role',
+    description: 'TABLE BFO_0000023::BFO_0000023::{en=role, fr=BFO_0000023}\n  {\n    BFO_0000023_uid::BFO_0000023_uid uid_domain::{en=uid role, fr=uid BFO_0000023}\n  } \nKEY {BFO_0000023_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HEPRO_0000105',
+    shortIri: 'HEPRO_0000105',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'health procedure ending temporal information',
+    label_fr: 'HEPRO_0000105',
+    definition_en: 'A temporal information that is a component of a health procedure ending statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the ending of the health procedure.',
+    description: 'TABLE HEPRO_0000105::HEPRO_0000105::{en=health procedure ending temporal information, fr=HEPRO_0000105}\n  {\n    HEPRO_0000105_uid::HEPRO_0000105_uid uid_domain::{en=uid health procedure ending temporal information, fr=uid HEPRO_0000105}\n  } \nKEY {HEPRO_0000105_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OMRSE_00000062',
+    shortIri: 'OMRSE_00000062',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'facility',
+    label_fr: 'OMRSE_00000062',
+    definition_en: 'An architectural structure that bears some function.',
+    description: 'TABLE OMRSE_00000062::OMRSE_00000062::{en=facility, fr=OMRSE_00000062}\n  {\n    OMRSE_00000062_uid::OMRSE_00000062_uid uid_domain::{en=uid facility, fr=uid OMRSE_00000062}\n  } \nKEY {OMRSE_00000062_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000082',
+    shortIri: 'HOSO_0000082',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'patient role',
+    label_fr: 'HOSO_0000082',
+    definition_en: 'A role born by an organism which is the primary recipient in a healthcare organization clinical visit.',
+    description: 'TABLE HOSO_0000082::HOSO_0000082::{en=patient role, fr=HOSO_0000082}\n  {\n    HOSO_0000082_uid::HOSO_0000082_uid uid_domain::{en=uid patient role, fr=uid HOSO_0000082}\n  } \nKEY {HOSO_0000082_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000070',
+    shortIri: 'HOSO_0000070',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'direct ambulance initiated hospitalization',
+    label_fr: 'HOSO_0000070',
+    definition_en: 'An hospitalization for a given patient that was participating in another healthcare organisation visit involving paramedics just prior to this visit.',
+    description: 'TABLE HOSO_0000070::HOSO_0000070::{en=direct ambulance initiated hospitalization, fr=HOSO_0000070}\n  {\n    HOSO_0000070_uid::HOSO_0000070_uid uid_domain::{en=uid direct ambulance initiated hospitalization, fr=uid HOSO_0000070}\n  } \nKEY {HOSO_0000070_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000014',
+    shortIri: 'HOSO_0000014',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'custodial care service delivery',
+    label_fr: 'HOSO_0000014',
+    definition_en: 'A service delivery from an organization that aims to provide for the activities of daily living of individuals or communities.',
+    description: 'TABLE HOSO_0000014::HOSO_0000014::{en=custodial care service delivery, fr=HOSO_0000014}\n  {\n    HOSO_0000014_uid::HOSO_0000014_uid uid_domain::{en=uid custodial care service delivery, fr=uid HOSO_0000014}\n  } \nKEY {HOSO_0000014_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000123',
+    shortIri: 'HOSO_0000123',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'canadian healthcare organization forward sorting area code',
+    label_fr: 'HOSO_0000123',
+    definition_en: 'A canadian forward sorting area code that denotes a geographical region where postal payloads are to be delivered for a canadian healthcare organization.',
+    description: 'TABLE HOSO_0000123::HOSO_0000123::{en=canadian healthcare organization forward sorting area code, fr=HOSO_0000123}\n  {\n    HOSO_0000123_uid::HOSO_0000123_uid uid_domain::{en=uid canadian healthcare organization forward sorting area code, fr=uid HOSO_0000123}\n  } \nKEY {HOSO_0000123_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'IAO_0000109',
+    shortIri: 'IAO_0000109',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'measurement datum',
+    label_fr: 'IAO_0000109',
+    definition_en: 'A measurement datum is an information content entity that is a recording of the output of a measurement such as produced by a device.',
+    description: 'TABLE IAO_0000109::IAO_0000109::{en=measurement datum, fr=IAO_0000109}\n  {\n    IAO_0000109_uid::IAO_0000109_uid uid_domain::{en=uid measurement datum, fr=uid IAO_0000109}\n  } \nKEY {IAO_0000109_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'MPHPO_0000020',
+    shortIri: 'MPHPO_0000020',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'MPHPO centrally registered identifier version',
+    label_fr: 'MPHPO_0000020',
+    description: 'TABLE MPHPO_0000020::MPHPO_0000020::{en=MPHPO centrally registered identifier version, fr=MPHPO_0000020}\n  {\n    MPHPO_0000020_uid::MPHPO_0000020_uid uid_domain::{en=uid MPHPO centrally registered identifier version, fr=uid MPHPO_0000020}\n  } \nKEY {MPHPO_0000020_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000038',
+    shortIri: 'HOSO_0000038',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'immediate inpatient subsequent visit',
+    label_fr: 'HOSO_0000038',
+    definition_en: 'An immediate subsequent visit healthcare organisation visit for a given patient that was participating in another healthcare organisation visit for the same organisation just prior to this visit.',
+    description: 'TABLE HOSO_0000038::HOSO_0000038::{en=immediate inpatient subsequent visit, fr=HOSO_0000038}\n  {\n    HOSO_0000038_uid::HOSO_0000038_uid uid_domain::{en=uid immediate inpatient subsequent visit, fr=uid HOSO_0000038}\n  } \nKEY {HOSO_0000038_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000026',
+    shortIri: 'HOSO_0000026',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'outpatient visit',
+    label_fr: 'HOSO_0000026',
+    definition_en: 'A healthcare organisation clinical visit where the patient physically attends to a healthcare facility, but where there is no expectation of providing support for activities of daily living (such as eating and bathing) nor accommodation for the patient.',
+    description: 'TABLE HOSO_0000026::HOSO_0000026::{en=outpatient visit, fr=HOSO_0000026}\n  {\n    HOSO_0000026_uid::HOSO_0000026_uid uid_domain::{en=uid outpatient visit, fr=uid HOSO_0000026}\n  } \nKEY {HOSO_0000026_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HEPRO_0000019',
+    shortIri: 'HEPRO_0000019',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'structured pathological condition sub-group name',
+    label_fr: 'HEPRO_0000019',
+    definition_en: 'A pathological condition sub-group name that is recorded in a structured manner.',
+    description: 'TABLE HEPRO_0000019::HEPRO_0000019::{en=structured pathological condition sub-group name, fr=HEPRO_0000019}\n  {\n    HEPRO_0000019_uid::HEPRO_0000019_uid uid_domain::{en=uid structured pathological condition sub-group name, fr=uid HEPRO_0000019}\n  } \nKEY {HEPRO_0000019_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HEPRO_0000128',
+    shortIri: 'HEPRO_0000128',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'pathological condition end temporally qualifying statement',
+    label_fr: 'HEPRO_0000128',
+    definition_en: 'A temporally qualifying statement that qualifies the clinically identified disappearance of a disorder or a disease, or the ending of a pathological process.',
+    description: 'TABLE HEPRO_0000128::HEPRO_0000128::{en=pathological condition end temporally qualifying statement, fr=HEPRO_0000128}\n  {\n    HEPRO_0000128_uid::HEPRO_0000128_uid uid_domain::{en=uid pathological condition end temporally qualifying statement, fr=uid HEPRO_0000128}\n  } \nKEY {HEPRO_0000128_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OMRSE_00000211',
+    shortIri: 'OMRSE_00000211',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'male gender identity information content entity',
+    label_fr: 'OMRSE_00000211',
+    definition_en: 'A gender identity information content entity that is about some person"s identifying as male in gender.',
+    description: 'TABLE OMRSE_00000211::OMRSE_00000211::{en=male gender identity information content entity, fr=OMRSE_00000211}\n  {\n    OMRSE_00000211_uid::OMRSE_00000211_uid uid_domain::{en=uid male gender identity information content entity, fr=uid OMRSE_00000211}\n  } \nKEY {OMRSE_00000211_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'BFO_0000034',
+    shortIri: 'BFO_0000034',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'function',
+    label_fr: 'BFO_0000034',
+    definition_en: 'Function',
+    description: 'TABLE BFO_0000034::BFO_0000034::{en=function, fr=BFO_0000034}\n  {\n    BFO_0000034_uid::BFO_0000034_uid uid_domain::{en=uid function, fr=uid BFO_0000034}\n  } \nKEY {BFO_0000034_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HEPRO_0000007',
+    shortIri: 'HEPRO_0000007',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'health procedure outcome information',
+    label_fr: 'HEPRO_0000007',
+    definition_en: 'An information content entity that is the output of a health procedure resulting process and that describes some outcomes of a health procedure.',
+    description: 'TABLE HEPRO_0000007::HEPRO_0000007::{en=health procedure outcome information, fr=HEPRO_0000007}\n  {\n    HEPRO_0000007_uid::HEPRO_0000007_uid uid_domain::{en=uid health procedure outcome information, fr=uid HEPRO_0000007}\n  } \nKEY {HEPRO_0000007_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OpenLHS-Core_0000026',
+    shortIri: 'OpenLHS-Core_0000026',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'canadian postal code',
+    label_fr: 'OpenLHS-Core_0000026',
+    definition_en: 'A postal code that denotes some geographical region in Canada.',
+    description: 'TABLE OpenLHS-Core_0000026::OpenLHS-Core_0000026::{en=canadian postal code, fr=OpenLHS-Core_0000026}\n  {\n    OpenLHS-Core_0000026_uid::OpenLHS-Core_0000026_uid uid_domain::{en=uid canadian postal code, fr=uid OpenLHS-Core_0000026}\n  } \nKEY {OpenLHS-Core_0000026_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'ONTORELA_C5c900f41',
+    shortIri: 'ONTORELA_C5c900f41',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'human death statement\n and (is about exactly 1 human clinical visit specified patient)',
+    label_fr: 'IOIO_0000003\n and (IAO_0000136 exactly 1 HOSO_0000137)',
+    definition_en: 'healthcare visit of expirationA process temporally qualifying statement about the death of a human including an identifier and a temporal information of the death of this human.',
+    definition_fr: 'HOSO_0000045',
+    description: 'TABLE ONTORELA_C5c900f41::ONTORELA_C5c900f41::{en=human death statement\n and (is about exactly 1 human clinical visit specified patient), fr=IOIO_0000003\n and (IAO_0000136 exactly 1 HOSO_0000137)}\n  {\n    ONTORELA_C5c900f41_uid::ONTORELA_C5c900f41_uid uid_domain::{en=uid human death statement\n and (is about exactly 1 human clinical visit specified patient), fr=uid IOIO_0000003\n and (IAO_0000136 exactly 1 HOSO_0000137)}\n  } \nKEY {ONTORELA_C5c900f41_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OMRSE_00000061',
+    shortIri: 'OMRSE_00000061',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'architectural structure',
+    label_fr: 'OMRSE_00000061',
+    definition_en: 'A material entity that is a human made strcuture with firm connection between its foundation and the ground.',
+    description: 'TABLE OMRSE_00000061::OMRSE_00000061::{en=architectural structure, fr=OMRSE_00000061}\n  {\n    OMRSE_00000061_uid::OMRSE_00000061_uid uid_domain::{en=uid architectural structure, fr=uid OMRSE_00000061}\n  } \nKEY {OMRSE_00000061_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HEPRO_0000104',
+    shortIri: 'HEPRO_0000104',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'health activity ending temporal information',
+    label_fr: 'HEPRO_0000104',
+    definition_en: 'A temporal information that is a component of a health activity ending statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the ending of the health activity.',
+    description: 'TABLE HEPRO_0000104::HEPRO_0000104::{en=health activity ending temporal information, fr=HEPRO_0000104}\n  {\n    HEPRO_0000104_uid::HEPRO_0000104_uid uid_domain::{en=uid health activity ending temporal information, fr=uid HEPRO_0000104}\n  } \nKEY {HEPRO_0000104_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OpenLHS-Core_0000025',
+    shortIri: 'OpenLHS-Core_0000025',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'postal address country',
+    label_fr: 'OpenLHS-Core_0000025',
+    definition_en: 'An identifier that denotes a country and is intended to be used as part of a postal address.',
+    description: 'TABLE OpenLHS-Core_0000025::OpenLHS-Core_0000025::{en=postal address country, fr=OpenLHS-Core_0000025}\n  {\n    OpenLHS-Core_0000025_uid::OpenLHS-Core_0000025_uid uid_domain::{en=uid postal address country, fr=uid OpenLHS-Core_0000025}\n  } \nKEY {OpenLHS-Core_0000025_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OpenLHS-Core_0000013',
+    shortIri: 'OpenLHS-Core_0000013',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'informational filler',
+    label_fr: 'OpenLHS-Core_0000013',
+    definition_en: 'An informational entity that fills an informational slot.',
+    description: 'TABLE OpenLHS-Core_0000013::OpenLHS-Core_0000013::{en=informational filler, fr=OpenLHS-Core_0000013}\n  {\n    OpenLHS-Core_0000013_uid::OpenLHS-Core_0000013_uid uid_domain::{en=uid informational filler, fr=uid OpenLHS-Core_0000013}\n  } \nKEY {OpenLHS-Core_0000013_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000061',
+    shortIri: 'HOSO_0000061',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'primary health insurance beneficiary human role',
+    label_fr: 'HOSO_0000061',
+    definition_en: 'A role that is borne by an human that is the primary beneficiary of a health insurance plan and so is responsible for its associated contract.',
+    description: 'TABLE HOSO_0000061::HOSO_0000061::{en=primary health insurance beneficiary human role, fr=HOSO_0000061}\n  {\n    HOSO_0000061_uid::HOSO_0000061_uid uid_domain::{en=uid primary health insurance beneficiary human role, fr=uid HOSO_0000061}\n  } \nKEY {HOSO_0000061_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000085',
+    shortIri: 'HOSO_0000085',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'hospitalization starting with ICU stay',
+    label_fr: 'HOSO_0000085',
+    definition_en: 'An hospitalization for a given patient that starts with a stay in an intensive care unit.',
+    description: 'TABLE HOSO_0000085::HOSO_0000085::{en=hospitalization starting with ICU stay, fr=HOSO_0000085}\n  {\n    HOSO_0000085_uid::HOSO_0000085_uid uid_domain::{en=uid hospitalization starting with ICU stay, fr=uid HOSO_0000085}\n  } \nKEY {HOSO_0000085_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'MPHPO_0000021',
+    shortIri: 'MPHPO_0000021',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'MPHPO centrally registered identifier label',
+    label_fr: 'MPHPO_0000021',
+    description: 'TABLE MPHPO_0000021::MPHPO_0000021::{en=MPHPO centrally registered identifier label, fr=MPHPO_0000021}\n  {\n    MPHPO_0000021_uid::MPHPO_0000021_uid uid_domain::{en=uid MPHPO centrally registered identifier label, fr=uid MPHPO_0000021}\n  } \nKEY {MPHPO_0000021_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000073',
+    shortIri: 'HOSO_0000073',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'ICU admission specification',
+    label_fr: 'HOSO_0000073',
+    definition_en: 'A clinical visit unit type specification mandating an hospitalization admission to an intensive care unit.',
+    description: 'TABLE HOSO_0000073::HOSO_0000073::{en=ICU admission specification, fr=HOSO_0000073}\n  {\n    HOSO_0000073_uid::HOSO_0000073_uid uid_domain::{en=uid ICU admission specification, fr=uid HOSO_0000073}\n  } \nKEY {HOSO_0000073_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OBI_0000245',
+    shortIri: 'OBI_0000245',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'organization',
+    label_fr: 'OBI_0000245',
+    definition_en: 'An entity that can bear roles, has members, and has a set of organization rules. Members of organizations are either organizations themselves or individual people. Members can bear specific organization member roles that are determined in the organization rules. The organization rules also determine how decisions are made on behalf of the organization by the organization members.',
+    description: 'TABLE OBI_0000245::OBI_0000245::{en=organization, fr=OBI_0000245}\n  {\n    OBI_0000245_uid::OBI_0000245_uid uid_domain::{en=uid organization, fr=uid OBI_0000245}\n  } \nKEY {OBI_0000245_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000102',
+    shortIri: 'HOSO_0000102',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'healthcare organization service delivery beginning temporal information',
+    label_fr: 'HOSO_0000102',
+    definition_en: 'A temporal information that is a component of a healthcare organization service delivery beginning statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the beginning of healthcare organization service delivery.',
+    description: 'TABLE HOSO_0000102::HOSO_0000102::{en=healthcare organization service delivery beginning temporal information, fr=HOSO_0000102}\n  {\n    HOSO_0000102_uid::HOSO_0000102_uid uid_domain::{en=uid healthcare organization service delivery beginning temporal information, fr=uid HOSO_0000102}\n  } \nKEY {HOSO_0000102_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'IAO_0020000',
+    shortIri: 'IAO_0020000',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'identifier',
+    label_fr: 'IAO_0020000',
+    definition_en: 'An information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity.',
+    description: 'TABLE IAO_0020000::IAO_0020000::{en=identifier, fr=IAO_0020000}\n  {\n    IAO_0020000_uid::IAO_0020000_uid uid_domain::{en=uid identifier, fr=uid IAO_0020000}\n  } \nKEY {IAO_0020000_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'IOIO_0000006',
+    shortIri: 'IOIO_0000006',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'human death temporal information',
+    label_fr: 'IOIO_0000006',
+    definition_en: 'A temporal information that is a component of a human death statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the death of this human.',
+    description: 'TABLE IOIO_0000006::IOIO_0000006::{en=human death temporal information, fr=IOIO_0000006}\n  {\n    IOIO_0000006_uid::IOIO_0000006_uid uid_domain::{en=uid human death temporal information, fr=uid IOIO_0000006}\n  } \nKEY {IOIO_0000006_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000029',
+    shortIri: 'HOSO_0000029',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'day inpatient visit',
+    label_fr: 'HOSO_0000029',
+    definition_en: 'An inpatient visit that does not extend overnight.',
+    description: 'TABLE HOSO_0000029::HOSO_0000029::{en=day inpatient visit, fr=HOSO_0000029}\n  {\n    HOSO_0000029_uid::HOSO_0000029_uid uid_domain::{en=uid day inpatient visit, fr=uid HOSO_0000029}\n  } \nKEY {HOSO_0000029_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000017',
+    shortIri: 'HOSO_0000017',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'healthcare organization clinical encounter',
+    label_fr: 'HOSO_0000017',
+    definition_en: 'A temporally-connected healthcare organization clinical visit that aims to improve, maintain or restore the health of some participating organism. It may have several healthcare organization clinical visits as components.',
+    description: 'TABLE HOSO_0000017::HOSO_0000017::{en=healthcare organization clinical encounter, fr=HOSO_0000017}\n  {\n    HOSO_0000017_uid::HOSO_0000017_uid uid_domain::{en=uid healthcare organization clinical encounter, fr=uid HOSO_0000017}\n  } \nKEY {HOSO_0000017_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000138',
+    shortIri: 'HOSO_0000138',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'healthcare provider identifier',
+    label_fr: 'HOSO_0000138',
+    definition_en: 'An identifier that denotes a healthcare provider.',
+    description: 'TABLE HOSO_0000138::HOSO_0000138::{en=healthcare provider identifier, fr=HOSO_0000138}\n  {\n    HOSO_0000138_uid::HOSO_0000138_uid uid_domain::{en=uid healthcare provider identifier, fr=uid HOSO_0000138}\n  } \nKEY {HOSO_0000138_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000126',
+    shortIri: 'HOSO_0000126',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'pathological condition impact type on clinical visit',
+    label_fr: 'HOSO_0000126',
+    definition_en: 'An information content entity that describes the type of impact of a pathological condition on a clinical visit.',
+    description: 'TABLE HOSO_0000126::HOSO_0000126::{en=pathological condition impact type on clinical visit, fr=HOSO_0000126}\n  {\n    HOSO_0000126_uid::HOSO_0000126_uid uid_domain::{en=uid pathological condition impact type on clinical visit, fr=uid HOSO_0000126}\n  } \nKEY {HOSO_0000126_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'BFO_0000146',
+    shortIri: 'BFO_0000146',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'two-dimensional continuant fiat boundary',
+    label_fr: 'BFO_0000146',
+    definition_en: 'TwoDimensionalContinuantFiatBoundary',
+    description: 'TABLE BFO_0000146::BFO_0000146::{en=two-dimensional continuant fiat boundary, fr=BFO_0000146}\n  {\n    BFO_0000146_uid::BFO_0000146_uid uid_domain::{en=uid two-dimensional continuant fiat boundary, fr=uid BFO_0000146}\n  } \nKEY {BFO_0000146_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HEPRO_0000018',
+    shortIri: 'HEPRO_0000018',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'free-text pathological condition sub-group name',
+    label_fr: 'HEPRO_0000018',
+    definition_en: 'A pathological condition sub-group name that is recorded in free-text.',
+    description: 'TABLE HEPRO_0000018::HEPRO_0000018::{en=free-text pathological condition sub-group name, fr=HEPRO_0000018}\n  {\n    HEPRO_0000018_uid::HEPRO_0000018_uid uid_domain::{en=uid free-text pathological condition sub-group name, fr=uid HEPRO_0000018}\n  } \nKEY {HEPRO_0000018_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'ONTORELA_Cdb7d47d',
+    shortIri: 'ONTORELA_Cdb7d47d',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'healthcare organization clinical visit\n and (immediately precedes some immediate inpatient subsequent visit)',
+    label_fr: 'HOSO_0000012\n and (RO_0002090 some HOSO_0000038)',
+    definition_en: 'prior visit category to an inpatient visitA healthcare organisation service delivery that aims at providing a desired effect on the health status of a specified organism. It is usually composed of health procedures and possibly associated ancillary processes. An immediate subsequent visit healthcare organisation visit for a given patient that was participating in another healthcare organisation visit for the same organisation just prior to this visit.',
+    definition_fr: 'HOSO_0000039',
+    description: 'TABLE ONTORELA_Cdb7d47d::ONTORELA_Cdb7d47d::{en=healthcare organization clinical visit\n and (immediately precedes some immediate inpatient subsequent visit), fr=HOSO_0000012\n and (RO_0002090 some HOSO_0000038)}\n  {\n    ONTORELA_Cdb7d47d_uid::ONTORELA_Cdb7d47d_uid uid_domain::{en=uid healthcare organization clinical visit\n and (immediately precedes some immediate inpatient subsequent visit), fr=uid HOSO_0000012\n and (RO_0002090 some HOSO_0000038)}\n  } \nKEY {ONTORELA_Cdb7d47d_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HEPRO_0000103',
+    shortIri: 'HEPRO_0000103',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'health procedure beginning temporal information',
+    label_fr: 'HEPRO_0000103',
+    definition_en: 'A temporal information that is a component of a health procedure beginning statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the beginning of the health procedure.',
+    description: 'TABLE HEPRO_0000103::HEPRO_0000103::{en=health procedure beginning temporal information, fr=HEPRO_0000103}\n  {\n    HEPRO_0000103_uid::HEPRO_0000103_uid uid_domain::{en=uid health procedure beginning temporal information, fr=uid HEPRO_0000103}\n  } \nKEY {HEPRO_0000103_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'BFO_0000001',
+    shortIri: 'BFO_0000001',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'entity',
+    label_fr: 'BFO_0000001',
+    definition_en: 'Entity',
+    description: 'TABLE BFO_0000001::BFO_0000001::{en=entity, fr=BFO_0000001}\n  {\n    BFO_0000001_uid::BFO_0000001_uid uid_domain::{en=uid entity, fr=uid BFO_0000001}\n  } \nKEY {BFO_0000001_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HEPRO_0000006',
+    shortIri: 'HEPRO_0000006',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'health procedure resulting process',
+    label_fr: 'HEPRO_0000006',
+    definition_en: 'A planned process that is a part of a health procedure, that has as specified input at least one health activity outcome information and aim at generating a health procedure outcome information.',
+    description: 'TABLE HEPRO_0000006::HEPRO_0000006::{en=health procedure resulting process, fr=HEPRO_0000006}\n  {\n    HEPRO_0000006_uid::HEPRO_0000006_uid uid_domain::{en=uid health procedure resulting process, fr=uid HEPRO_0000006}\n  } \nKEY {HEPRO_0000006_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HEPRO_0000127',
+    shortIri: 'HEPRO_0000127',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'pathological condition start temporally qualifying statement',
+    label_fr: 'HEPRO_0000127',
+    definition_en: 'A temporally qualifying statement that qualifies the clinically identified appearance of a disorder or a disease, or the beginning of a pathological process.',
+    description: 'TABLE HEPRO_0000127::HEPRO_0000127::{en=pathological condition start temporally qualifying statement, fr=HEPRO_0000127}\n  {\n    HEPRO_0000127_uid::HEPRO_0000127_uid uid_domain::{en=uid pathological condition start temporally qualifying statement, fr=uid HEPRO_0000127}\n  } \nKEY {HEPRO_0000127_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HEPRO_0000101',
+    shortIri: 'HEPRO_0000101',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'health procedure identifier',
+    label_fr: 'HEPRO_0000101',
+    definition_en: 'An identifier that denotes a health procedure.',
+    description: 'TABLE HEPRO_0000101::HEPRO_0000101::{en=health procedure identifier, fr=HEPRO_0000101}\n  {\n    HEPRO_0000101_uid::HEPRO_0000101_uid uid_domain::{en=uid health procedure identifier, fr=uid HEPRO_0000101}\n  } \nKEY {HEPRO_0000101_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OpenLHS-Core_0000036',
+    shortIri: 'OpenLHS-Core_0000036',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'service delivery',
+    label_fr: 'OpenLHS-Core_0000036',
+    definition_en: '- A planned process that aims at fulfilling the commitments of a service agreement.\n\n- A planned process that is maximally directed by a service agreement specification.',
+    description: 'TABLE OpenLHS-Core_0000036::OpenLHS-Core_0000036::{en=service delivery, fr=OpenLHS-Core_0000036}\n  {\n    OpenLHS-Core_0000036_uid::OpenLHS-Core_0000036_uid uid_domain::{en=uid service delivery, fr=uid OpenLHS-Core_0000036}\n  } \nKEY {OpenLHS-Core_0000036_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OpenLHS-Core_0000024',
+    shortIri: 'OpenLHS-Core_0000024',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'postal address city',
+    label_fr: 'OpenLHS-Core_0000024',
+    definition_en: 'An identifier that denotes a city and is intended to be used as part of a postal address.',
+    description: 'TABLE OpenLHS-Core_0000024::OpenLHS-Core_0000024::{en=postal address city, fr=OpenLHS-Core_0000024}\n  {\n    OpenLHS-Core_0000024_uid::OpenLHS-Core_0000024_uid uid_domain::{en=uid postal address city, fr=uid OpenLHS-Core_0000024}\n  } \nKEY {OpenLHS-Core_0000024_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OpenLHS-Core_0000012',
+    shortIri: 'OpenLHS-Core_0000012',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'informational slot',
+    label_fr: 'OpenLHS-Core_0000012',
+    definition_en: 'An informational entity that can be filled by an informational filler.',
+    description: 'TABLE OpenLHS-Core_0000012::OpenLHS-Core_0000012::{en=informational slot, fr=OpenLHS-Core_0000012}\n  {\n    OpenLHS-Core_0000012_uid::OpenLHS-Core_0000012_uid uid_domain::{en=uid informational slot, fr=uid OpenLHS-Core_0000012}\n  } \nKEY {OpenLHS-Core_0000012_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000072',
+    shortIri: 'HOSO_0000072',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'ED by ambulance initiated hospitalization',
+    label_fr: 'HOSO_0000072',
+    definition_en: 'An hospitalization for a given patient that was participating in an ambulance initiated emergency departement visit.',
+    description: 'TABLE HOSO_0000072::HOSO_0000072::{en=ED by ambulance initiated hospitalization, fr=HOSO_0000072}\n  {\n    HOSO_0000072_uid::HOSO_0000072_uid uid_domain::{en=uid ED by ambulance initiated hospitalization, fr=uid HOSO_0000072}\n  } \nKEY {HOSO_0000072_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000060',
+    shortIri: 'HOSO_0000060',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'public provincial health insurance record',
+    label_fr: 'HOSO_0000060',
+    definition_en: 'An information content entity that contains the information required to manage the insurance coverage of an insured individual.',
+    description: 'TABLE HOSO_0000060::HOSO_0000060::{en=public provincial health insurance record, fr=HOSO_0000060}\n  {\n    HOSO_0000060_uid::HOSO_0000060_uid uid_domain::{en=uid public provincial health insurance record, fr=uid HOSO_0000060}\n  } \nKEY {HOSO_0000060_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'MPHPO_0000010',
+    shortIri: 'MPHPO_0000010',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'MPHPO human biological sex information content entity',
+    label_fr: 'MPHPO_0000010',
+    description: 'TABLE MPHPO_0000010::MPHPO_0000010::{en=MPHPO human biological sex information content entity, fr=MPHPO_0000010}\n  {\n    MPHPO_0000010_uid::MPHPO_0000010_uid uid_domain::{en=uid MPHPO human biological sex information content entity, fr=uid MPHPO_0000010}\n  } \nKEY {MPHPO_0000010_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000084',
+    shortIri: 'HOSO_0000084',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'healthcare physician service identifier',
+    label_fr: 'HOSO_0000084',
+    definition_en: 'A healthcare organization identifier that denotes a physician service.',
+    description: 'TABLE HOSO_0000084::HOSO_0000084::{en=healthcare physician service identifier, fr=HOSO_0000084}\n  {\n    HOSO_0000084_uid::HOSO_0000084_uid uid_domain::{en=uid healthcare physician service identifier, fr=uid HOSO_0000084}\n  } \nKEY {HOSO_0000084_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000028',
+    shortIri: 'HOSO_0000028',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'inpatient visit',
+    label_fr: 'HOSO_0000028',
+    definition_en: 'A healthcare organisation clinical visit where there is expectation of providing support for activities of daily living (such as eating and bathing) and accommodation for the patient.',
+    description: 'TABLE HOSO_0000028::HOSO_0000028::{en=inpatient visit, fr=HOSO_0000028}\n  {\n    HOSO_0000028_uid::HOSO_0000028_uid uid_domain::{en=uid inpatient visit, fr=uid HOSO_0000028}\n  } \nKEY {HOSO_0000028_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000016',
+    shortIri: 'HOSO_0000016',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'populational healthcare service',
+    label_fr: 'HOSO_0000016',
+    definition_en: 'A healthcare service that aims at providing a desired effect on the health status of a community.',
+    description: 'TABLE HOSO_0000016::HOSO_0000016::{en=populational healthcare service, fr=HOSO_0000016}\n  {\n    HOSO_0000016_uid::HOSO_0000016_uid uid_domain::{en=uid populational healthcare service, fr=uid HOSO_0000016}\n  } \nKEY {HOSO_0000016_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000137',
+    shortIri: 'HOSO_0000137',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'human clinical visit specified patient',
+    label_fr: 'HOSO_0000137',
+    description: 'TABLE HOSO_0000137::HOSO_0000137::{en=human clinical visit specified patient, fr=HOSO_0000137}\n  {\n    HOSO_0000137_uid::HOSO_0000137_uid uid_domain::{en=uid human clinical visit specified patient, fr=uid HOSO_0000137}\n  } \nKEY {HOSO_0000137_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000004',
+    shortIri: 'HOSO_0000004',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'healthcare facility',
+    label_fr: 'HOSO_0000004',
+    definition_en: 'A facility that bears a healthcare function - WiP.',
+    description: 'TABLE HOSO_0000004::HOSO_0000004::{en=healthcare facility, fr=HOSO_0000004}\n  {\n    HOSO_0000004_uid::HOSO_0000004_uid uid_domain::{en=uid healthcare facility, fr=uid HOSO_0000004}\n  } \nKEY {HOSO_0000004_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000125',
+    shortIri: 'HOSO_0000125',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'clinical visit ending determination',
+    label_fr: 'HOSO_0000125',
+    definition_en: 'A healthcare procedure where the responsible healthcare worker comes to the conclusion that a clinical visit can end.',
+    description: 'TABLE HOSO_0000125::HOSO_0000125::{en=clinical visit ending determination, fr=HOSO_0000125}\n  {\n    HOSO_0000125_uid::HOSO_0000125_uid uid_domain::{en=uid clinical visit ending determination, fr=uid HOSO_0000125}\n  } \nKEY {HOSO_0000125_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'BFO_0000145',
+    shortIri: 'BFO_0000145',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'relational quality',
+    label_fr: 'BFO_0000145',
+    definition_en: 'b is a relational quality = Def. for some independent continuants c, d and for some time t: b quality_of c at t & b quality_of d at t. (axiom label in BFO2 Reference: [057-001])',
+    description: 'TABLE BFO_0000145::BFO_0000145::{en=relational quality, fr=BFO_0000145}\n  {\n    BFO_0000145_uid::BFO_0000145_uid uid_domain::{en=uid relational quality, fr=uid BFO_0000145}\n  } \nKEY {BFO_0000145_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HEPRO_0000005',
+    shortIri: 'HEPRO_0000005',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'health activity',
+    label_fr: 'HEPRO_0000005',
+    definition_en: 'A planned process that aims to produce a truthful statement about the health status of an organism or modify it.',
+    description: 'TABLE HEPRO_0000005::HEPRO_0000005::{en=health activity, fr=HEPRO_0000005}\n  {\n    HEPRO_0000005_uid::HEPRO_0000005_uid uid_domain::{en=uid health activity, fr=uid HEPRO_0000005}\n  } \nKEY {HEPRO_0000005_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HEPRO_0000102',
+    shortIri: 'HEPRO_0000102',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'health activity beginning temporal information',
+    label_fr: 'HEPRO_0000102',
+    definition_en: 'A temporal information that is a component of a health activity beginning statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the beginning of the health activity.',
+    description: 'TABLE HEPRO_0000102::HEPRO_0000102::{en=health activity beginning temporal information, fr=HEPRO_0000102}\n  {\n    HEPRO_0000102_uid::HEPRO_0000102_uid uid_domain::{en=uid health activity beginning temporal information, fr=uid HEPRO_0000102}\n  } \nKEY {HEPRO_0000102_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'BFO_0000024',
+    shortIri: 'BFO_0000024',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'fiat-object-part',
+    label_fr: 'BFO_0000024',
+    definition_en: 'FiatObjectPart',
+    description: 'TABLE BFO_0000024::BFO_0000024::{en=fiat-object-part, fr=BFO_0000024}\n  {\n    BFO_0000024_uid::BFO_0000024_uid uid_domain::{en=uid fiat-object-part, fr=uid BFO_0000024}\n  } \nKEY {BFO_0000024_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HEPRO_0000017',
+    shortIri: 'HEPRO_0000017',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'pathological condition sub-group name',
+    label_fr: 'HEPRO_0000017',
+    definition_en: 'An information content entity that is about a sub-group of pathological conditions.',
+    description: 'TABLE HEPRO_0000017::HEPRO_0000017::{en=pathological condition sub-group name, fr=HEPRO_0000017}\n  {\n    HEPRO_0000017_uid::HEPRO_0000017_uid uid_domain::{en=uid pathological condition sub-group name, fr=uid HEPRO_0000017}\n  } \nKEY {HEPRO_0000017_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'ONTORELA_C3f6f3e4f',
+    shortIri: 'ONTORELA_C3f6f3e4f',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'denotes some centrally registered identifier registry',
+    label_fr: 'IAO_0000219 some IAO_0000579',
+    definition_en: 'centrally registered identifierA code set of CRID records, each consisting of a CRID symbol and additional information which was recorded in the code set through an assigning a centrally registered identifier process.',
+    definition_fr: 'IAO_0000578',
+    description: 'TABLE ONTORELA_C3f6f3e4f::ONTORELA_C3f6f3e4f::{en=denotes some centrally registered identifier registry, fr=IAO_0000219 some IAO_0000579}\n  {\n    ONTORELA_C3f6f3e4f_uid::ONTORELA_C3f6f3e4f_uid uid_domain::{en=uid denotes some centrally registered identifier registry, fr=uid IAO_0000219 some IAO_0000579}\n  } \nKEY {ONTORELA_C3f6f3e4f_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OpenLHS-Core_0000051',
+    shortIri: 'OpenLHS-Core_0000051',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'continuant temporally qualifying statement',
+    label_fr: 'OpenLHS-Core_0000051',
+    definition_en: 'A temporally qualifying statement stating that a temporal region overlaps with a temporal region during which some continuant exists.',
+    description: 'TABLE OpenLHS-Core_0000051::OpenLHS-Core_0000051::{en=continuant temporally qualifying statement, fr=OpenLHS-Core_0000051}\n  {\n    OpenLHS-Core_0000051_uid::OpenLHS-Core_0000051_uid uid_domain::{en=uid continuant temporally qualifying statement, fr=uid OpenLHS-Core_0000051}\n  } \nKEY {OpenLHS-Core_0000051_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000075',
+    shortIri: 'HOSO_0000075',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'clinical visit urgency level specification',
+    label_fr: 'HOSO_0000075',
+    definition_en: 'A clinical visit agreement directive entity mandating the urgency level of the clinical visit.',
+    description: 'TABLE HOSO_0000075::HOSO_0000075::{en=clinical visit urgency level specification, fr=HOSO_0000075}\n  {\n    HOSO_0000075_uid::HOSO_0000075_uid uid_domain::{en=uid clinical visit urgency level specification, fr=uid HOSO_0000075}\n  } \nKEY {HOSO_0000075_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000063',
+    shortIri: 'HOSO_0000063',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'public provincial health insurance primary residence statement',
+    label_fr: 'HOSO_0000063',
+    description: 'TABLE HOSO_0000063::HOSO_0000063::{en=public provincial health insurance primary residence statement, fr=HOSO_0000063}\n  {\n    HOSO_0000063_uid::HOSO_0000063_uid uid_domain::{en=uid public provincial health insurance primary residence statement, fr=uid HOSO_0000063}\n  } \nKEY {HOSO_0000063_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000051',
+    shortIri: 'HOSO_0000051',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'visit ended by the patient without notification',
+    label_fr: 'HOSO_0000051',
+    definition_en: 'A visit ended by the patient without notifying the healthcare organization.',
+    description: 'TABLE HOSO_0000051::HOSO_0000051::{en=visit ended by the patient without notification, fr=HOSO_0000051}\n  {\n    HOSO_0000051_uid::HOSO_0000051_uid uid_domain::{en=uid visit ended by the patient without notification, fr=uid HOSO_0000051}\n  } \nKEY {HOSO_0000051_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'MPHPO_0000011',
+    shortIri: 'MPHPO_0000011',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'MPHPO human death date',
+    label_fr: 'MPHPO_0000011',
+    description: 'TABLE MPHPO_0000011::MPHPO_0000011::{en=MPHPO human death date, fr=MPHPO_0000011}\n  {\n    MPHPO_0000011_uid::MPHPO_0000011_uid uid_domain::{en=uid MPHPO human death date, fr=uid MPHPO_0000011}\n  } \nKEY {MPHPO_0000011_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'IOIO_0000004',
+    shortIri: 'IOIO_0000004',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'civil death record',
+    label_fr: 'IOIO_0000004',
+    definition_en: 'A state sanctioned human death statement.',
+    description: 'TABLE IOIO_0000004::IOIO_0000004::{en=civil death record, fr=IOIO_0000004}\n  {\n    IOIO_0000004_uid::IOIO_0000004_uid uid_domain::{en=uid civil death record, fr=uid IOIO_0000004}\n  } \nKEY {IOIO_0000004_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'BFO_0000031',
+    shortIri: 'BFO_0000031',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'gdc',
+    label_fr: 'BFO_0000031',
+    definition_en: 'GenericallyDependentContinuant',
+    description: 'TABLE BFO_0000031::BFO_0000031::{en=gdc, fr=BFO_0000031}\n  {\n    BFO_0000031_uid::BFO_0000031_uid uid_domain::{en=uid gdc, fr=uid BFO_0000031}\n  } \nKEY {BFO_0000031_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OMRSE_00000204',
+    shortIri: 'OMRSE_00000204',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'social identity information content entity',
+    label_fr: 'OMRSE_00000204',
+    definition_en: 'An information content entity that is intended to be a truthful statement about some person and whether that person identifies as some particular aspect of social identity—such as a gender, an ethnicity, a race, or a sexual orientation—where the sense of identifying may correspond to either (i) an aspect of one’s cognitive representation of oneself, (ii) how one prefers to be regarded by others within some social context, or (iii) how one chooses to present oneself to others within some social context.',
+    description: 'TABLE OMRSE_00000204::OMRSE_00000204::{en=social identity information content entity, fr=OMRSE_00000204}\n  {\n    OMRSE_00000204_uid::OMRSE_00000204_uid uid_domain::{en=uid social identity information content entity, fr=uid OMRSE_00000204}\n  } \nKEY {OMRSE_00000204_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'BFO_0000140',
+    shortIri: 'BFO_0000140',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'cf-boundary',
+    label_fr: 'BFO_0000140',
+    definition_en: 'b is a continuant fiat boundary = Def. b is an immaterial entity that is of zero, one or two dimensions and does not include a spatial region as part. (axiom label in BFO2 Reference: [029-001])',
+    description: 'TABLE BFO_0000140::BFO_0000140::{en=cf-boundary, fr=BFO_0000140}\n  {\n    BFO_0000140_uid::BFO_0000140_uid uid_domain::{en=uid cf-boundary, fr=uid BFO_0000140}\n  } \nKEY {BFO_0000140_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000019',
+    shortIri: 'HOSO_0000019',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'public provincial health identifier',
+    label_fr: 'HOSO_0000019',
+    definition_en: 'An identifier that denotes a public provincial health insurance record.',
+    description: 'TABLE HOSO_0000019::HOSO_0000019::{en=public provincial health identifier, fr=HOSO_0000019}\n  {\n    HOSO_0000019_uid::HOSO_0000019_uid uid_domain::{en=uid public provincial health identifier, fr=uid HOSO_0000019}\n  } \nKEY {HOSO_0000019_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'NCBITaxon_10239',
+    shortIri: 'NCBITaxon_10239',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'Viruses',
+    label_fr: 'NCBITaxon_10239',
+    description: 'TABLE NCBITaxon_10239::NCBITaxon_10239::{en=Viruses, fr=NCBITaxon_10239}\n  {\n    NCBITaxon_10239_uid::NCBITaxon_10239_uid uid_domain::{en=uid Viruses, fr=uid NCBITaxon_10239}\n  } \nKEY {NCBITaxon_10239_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HEPRO_0000030',
+    shortIri: 'HEPRO_0000030',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'health procedure specification',
+    label_fr: 'HEPRO_0000030',
+    definition_en: 'A directive information entity that aims to direct a health procedure.',
+    description: 'TABLE HEPRO_0000030::HEPRO_0000030::{en=health procedure specification, fr=HEPRO_0000030}\n  {\n    HEPRO_0000030_uid::HEPRO_0000030_uid uid_domain::{en=uid health procedure specification, fr=uid HEPRO_0000030}\n  } \nKEY {HEPRO_0000030_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000050',
+    shortIri: 'HOSO_0000050',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'visit ended by the patient',
+    label_fr: 'HOSO_0000050',
+    definition_en: 'A healthcare organization clinical visit ended at the initiative of the patient without physician approval.',
+    description: 'TABLE HOSO_0000050::HOSO_0000050::{en=visit ended by the patient, fr=HOSO_0000050}\n  {\n    HOSO_0000050_uid::HOSO_0000050_uid uid_domain::{en=uid visit ended by the patient, fr=uid HOSO_0000050}\n  } \nKEY {HOSO_0000050_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000086',
+    shortIri: 'HOSO_0000086',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'clinical visit admission diagnosis',
+    label_fr: 'HOSO_0000086',
+    definition_en: 'A clinical visit agreement directive entity stating the diagnosis as the cause of the visit (TBD)',
+    description: 'TABLE HOSO_0000086::HOSO_0000086::{en=clinical visit admission diagnosis, fr=HOSO_0000086}\n  {\n    HOSO_0000086_uid::HOSO_0000086_uid uid_domain::{en=uid clinical visit admission diagnosis, fr=uid HOSO_0000086}\n  } \nKEY {HOSO_0000086_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000074',
+    shortIri: 'HOSO_0000074',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'clinical visit agreement directive entity',
+    label_fr: 'HOSO_0000074',
+    definition_en: 'A service agreement directive entity that directs a clinical visit admission.',
+    description: 'TABLE HOSO_0000074::HOSO_0000074::{en=clinical visit agreement directive entity, fr=HOSO_0000074}\n  {\n    HOSO_0000074_uid::HOSO_0000074_uid uid_domain::{en=uid clinical visit agreement directive entity, fr=uid HOSO_0000074}\n  } \nKEY {HOSO_0000074_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000062',
+    shortIri: 'HOSO_0000062',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'primary health insurance beneficiary human',
+    label_fr: 'HOSO_0000062',
+    definition_en: 'A human that has a role of primary health insurance benificiary role',
+    description: 'TABLE HOSO_0000062::HOSO_0000062::{en=primary health insurance beneficiary human, fr=HOSO_0000062}\n  {\n    HOSO_0000062_uid::HOSO_0000062_uid uid_domain::{en=uid primary health insurance beneficiary human, fr=uid HOSO_0000062}\n  } \nKEY {HOSO_0000062_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'NCBITaxon_2',
+    shortIri: 'NCBITaxon_2',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'Bacteria',
+    label_fr: 'NCBITaxon_2',
+    description: 'TABLE NCBITaxon_2::NCBITaxon_2::{en=Bacteria, fr=NCBITaxon_2}\n  {\n    NCBITaxon_2_uid::NCBITaxon_2_uid uid_domain::{en=uid Bacteria, fr=uid NCBITaxon_2}\n  } \nKEY {NCBITaxon_2_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'IAO_0000646',
+    shortIri: 'IAO_0000646',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'postal code',
+    label_fr: 'IAO_0000646',
+    definition_en: 'An identifier that denotes some postal delivery route, some aggregate of postal delivery routes or a geographical region and was created for the purpose of sorting and delivering mail.',
+    description: 'TABLE IAO_0000646::IAO_0000646::{en=postal code, fr=IAO_0000646}\n  {\n    IAO_0000646_uid::IAO_0000646_uid uid_domain::{en=uid postal code, fr=uid IAO_0000646}\n  } \nKEY {IAO_0000646_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'IOIO_0000005',
+    shortIri: 'IOIO_0000005',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'human birth temporal information',
+    label_fr: 'IOIO_0000005',
+    definition_en: 'A temporal information that is a component of a human birth statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the birth of this human.',
+    description: 'TABLE IOIO_0000005::IOIO_0000005::{en=human birth temporal information, fr=IOIO_0000005}\n  {\n    IOIO_0000005_uid::IOIO_0000005_uid uid_domain::{en=uid human birth temporal information, fr=uid IOIO_0000005}\n  } \nKEY {IOIO_0000005_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000018',
+    shortIri: 'HOSO_0000018',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'facility-supported healthcare encounter',
+    label_fr: 'HOSO_0000018',
+    definition_en: 'A healthcare encounter during which the recipient is located in a healthcare facility at some time.',
+    description: 'TABLE HOSO_0000018::HOSO_0000018::{en=facility-supported healthcare encounter, fr=HOSO_0000018}\n  {\n    HOSO_0000018_uid::HOSO_0000018_uid uid_domain::{en=uid facility-supported healthcare encounter, fr=uid HOSO_0000018}\n  } \nKEY {HOSO_0000018_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000139',
+    shortIri: 'HOSO_0000139',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'facility-supported clinical visit',
+    label_fr: 'HOSO_0000139',
+    description: 'TABLE HOSO_0000139::HOSO_0000139::{en=facility-supported clinical visit, fr=HOSO_0000139}\n  {\n    HOSO_0000139_uid::HOSO_0000139_uid uid_domain::{en=uid facility-supported clinical visit, fr=uid HOSO_0000139}\n  } \nKEY {HOSO_0000139_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000006',
+    shortIri: 'HOSO_0000006',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'healthcare organization role',
+    label_fr: 'HOSO_0000006',
+    definition_en: 'A role that inheres in an organisation and is realized by providing some healthcare service delivery.',
+    description: 'TABLE HOSO_0000006::HOSO_0000006::{en=healthcare organization role, fr=HOSO_0000006}\n  {\n    HOSO_0000006_uid::HOSO_0000006_uid uid_domain::{en=uid healthcare organization role, fr=uid HOSO_0000006}\n  } \nKEY {HOSO_0000006_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'BFO_0000030',
+    shortIri: 'BFO_0000030',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'object',
+    label_fr: 'BFO_0000030',
+    definition_en: 'Object',
+    description: 'TABLE BFO_0000030::BFO_0000030::{en=object, fr=BFO_0000030}\n  {\n    BFO_0000030_uid::BFO_0000030_uid uid_domain::{en=uid object, fr=uid BFO_0000030}\n  } \nKEY {BFO_0000030_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000103',
+    shortIri: 'HOSO_0000103',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'healthcare organization service delivery ending temporal information',
+    label_fr: 'HOSO_0000103',
+    definition_en: 'A temporal information that is a component of a healthcare organization service delivery ending statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the ending of healthcare organization service delivery.',
+    description: 'TABLE HOSO_0000103::HOSO_0000103::{en=healthcare organization service delivery ending temporal information, fr=HOSO_0000103}\n  {\n    HOSO_0000103_uid::HOSO_0000103_uid uid_domain::{en=uid healthcare organization service delivery ending temporal information, fr=uid HOSO_0000103}\n  } \nKEY {HOSO_0000103_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'MPHPO_0000001',
+    shortIri: 'MPHPO_0000001',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'MPHPO pathological condition impact type on clinical visit ',
+    label_fr: 'MPHPO_0000001',
+    description: 'TABLE MPHPO_0000001::MPHPO_0000001::{en=MPHPO pathological condition impact type on clinical visit , fr=MPHPO_0000001}\n  {\n    MPHPO_0000001_uid::MPHPO_0000001_uid uid_domain::{en=uid MPHPO pathological condition impact type on clinical visit , fr=uid MPHPO_0000001}\n  } \nKEY {MPHPO_0000001_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000053',
+    shortIri: 'HOSO_0000053',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'emergency department visit with partial treatment',
+    label_fr: 'HOSO_0000053',
+    definition_en: 'An emergency department visit and a visit ended by the patient and some treatment healthcare procedure was provided.',
+    description: 'TABLE HOSO_0000053::HOSO_0000053::{en=emergency department visit with partial treatment, fr=HOSO_0000053}\n  {\n    HOSO_0000053_uid::HOSO_0000053_uid uid_domain::{en=uid emergency department visit with partial treatment, fr=uid HOSO_0000053}\n  } \nKEY {HOSO_0000053_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000041',
+    shortIri: 'HOSO_0000041',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'healthcare birth visit',
+    label_fr: 'HOSO_0000041',
+    definition_en: 'A healthcare organization clinical visit during which a birth statement was produced regarding the birth of the main patient visit beneficiary.',
+    description: 'TABLE HOSO_0000041::HOSO_0000041::{en=healthcare birth visit, fr=HOSO_0000041}\n  {\n    HOSO_0000041_uid::HOSO_0000041_uid uid_domain::{en=uid healthcare birth visit, fr=uid HOSO_0000041}\n  } \nKEY {HOSO_0000041_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000150',
+    shortIri: 'HOSO_0000150',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'human age at beginning of the healthcare organization service delivery',
+    label_fr: 'HOSO_0000150',
+    definition_en: 'A human age at a specified temporal region where the temporal region is denoted by a healthcare organization service delivery beginning temporal information, and expressed according to ISO8601 standard.',
+    description: 'TABLE HOSO_0000150::HOSO_0000150::{en=human age at beginning of the healthcare organization service delivery, fr=HOSO_0000150}\n  {\n    HOSO_0000150_uid::HOSO_0000150_uid uid_domain::{en=uid human age at beginning of the healthcare organization service delivery, fr=uid HOSO_0000150}\n  } \nKEY {HOSO_0000150_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'IAO_0020020',
+    shortIri: 'IAO_0020020',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'code set',
+    label_fr: 'IAO_0020020',
+    definition_en: 'An information content entity that is a collection of other information content entities that has been created to identify or annotate things in a specified domain, and where the intention of its creators is that the collection has a one-to-one correspondence with those things.',
+    description: 'TABLE IAO_0020020::IAO_0020020::{en=code set, fr=IAO_0020020}\n  {\n    IAO_0020020_uid::IAO_0020020_uid uid_domain::{en=uid code set, fr=uid IAO_0020020}\n  } \nKEY {IAO_0020020_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000077',
+    shortIri: 'HOSO_0000077',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'clinical visit unit type specification',
+    label_fr: 'HOSO_0000077',
+    definition_en: 'A clinical visit agreement directive entity mandating the type of unit required for a clinical visit.',
+    description: 'TABLE HOSO_0000077::HOSO_0000077::{en=clinical visit unit type specification, fr=HOSO_0000077}\n  {\n    HOSO_0000077_uid::HOSO_0000077_uid uid_domain::{en=uid clinical visit unit type specification, fr=uid HOSO_0000077}\n  } \nKEY {HOSO_0000077_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'IOIO_0000014',
+    shortIri: 'IOIO_0000014',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'human identifier',
+    label_fr: 'IOIO_0000014',
+    definition_en: 'An organism identifier that denotes a particular human.',
+    description: 'TABLE IOIO_0000014::IOIO_0000014::{en=human identifier, fr=IOIO_0000014}\n  {\n    IOIO_0000014_uid::IOIO_0000014_uid uid_domain::{en=uid human identifier, fr=uid IOIO_0000014}\n  } \nKEY {IOIO_0000014_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'BFO_0000142',
+    shortIri: 'BFO_0000142',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: '1d-cf-boundary',
+    label_fr: 'BFO_0000142',
+    definition_en: 'OneDimensionalContinuantFiatBoundary',
+    description: 'TABLE BFO_0000142::BFO_0000142::{en=1d-cf-boundary, fr=BFO_0000142}\n  {\n    BFO_0000142_uid::BFO_0000142_uid uid_domain::{en=uid 1d-cf-boundary, fr=uid BFO_0000142}\n  } \nKEY {BFO_0000142_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'IOIO_0000002',
+    shortIri: 'IOIO_0000002',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'civil birth record',
+    label_fr: 'IOIO_0000002',
+    definition_en: 'A state sanctioned human birth statement.',
+    description: 'TABLE IOIO_0000002::IOIO_0000002::{en=civil birth record, fr=IOIO_0000002}\n  {\n    IOIO_0000002_uid::IOIO_0000002_uid uid_domain::{en=uid civil birth record, fr=uid IOIO_0000002}\n  } \nKEY {IOIO_0000002_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OGMS_0000060',
+    shortIri: 'OGMS_0000060',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'bodily process',
+    label_fr: 'OGMS_0000060',
+    description: 'TABLE OGMS_0000060::OGMS_0000060::{en=bodily process, fr=OGMS_0000060}\n  {\n    OGMS_0000060_uid::OGMS_0000060_uid uid_domain::{en=uid bodily process, fr=uid OGMS_0000060}\n  } \nKEY {OGMS_0000060_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'IAO_0000027',
+    shortIri: 'IAO_0000027',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'data item',
+    label_fr: 'IAO_0000027',
+    definition_en: 'An information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements.',
+    description: 'TABLE IAO_0000027::IAO_0000027::{en=data item, fr=IAO_0000027}\n  {\n    IAO_0000027_uid::IAO_0000027_uid uid_domain::{en=uid data item, fr=uid IAO_0000027}\n  } \nKEY {IAO_0000027_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OpenLHS-Core_0000029',
+    shortIri: 'OpenLHS-Core_0000029',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'service offer',
+    label_fr: 'OpenLHS-Core_0000029',
+    definition_en: 'An information content entity describing the processes a person or an organization is willing to perform for a third-party.',
+    description: 'TABLE OpenLHS-Core_0000029::OpenLHS-Core_0000029::{en=service offer, fr=OpenLHS-Core_0000029}\n  {\n    OpenLHS-Core_0000029_uid::OpenLHS-Core_0000029_uid uid_domain::{en=uid service offer, fr=uid OpenLHS-Core_0000029}\n  } \nKEY {OpenLHS-Core_0000029_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000009',
+    shortIri: 'HOSO_0000009',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'healthcare provider',
+    label_fr: 'HOSO_0000009',
+    definition_en: 'A health provider who is a member of a healthcare organisation.',
+    description: 'TABLE HOSO_0000009::HOSO_0000009::{en=healthcare provider, fr=HOSO_0000009}\n  {\n    HOSO_0000009_uid::HOSO_0000009_uid uid_domain::{en=uid healthcare provider, fr=uid HOSO_0000009}\n  } \nKEY {HOSO_0000009_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'ONTORELA_C6a3e089c',
+    shortIri: 'ONTORELA_C6a3e089c',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'process\n and (has agent some organization)',
+    label_fr: 'BFO_0000015\n and (has_agent some OBI_0000245)',
+    definition_en: 'government sanctioned statementProcess p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003]) An entity that can bear roles, has members, and has a set of organization rules. Members of organizations are either organizations themselves or individual people. Members can bear specific organization member roles that are determined in the organization rules. The organization rules also determine how decisions are made on behalf of the organization by the organization members.',
+    definition_fr: 'OpenLHS-Core_0000011',
+    description: 'TABLE ONTORELA_C6a3e089c::ONTORELA_C6a3e089c::{en=process\n and (has agent some organization), fr=BFO_0000015\n and (has_agent some OBI_0000245)}\n  {\n    ONTORELA_C6a3e089c_uid::ONTORELA_C6a3e089c_uid uid_domain::{en=uid process\n and (has agent some organization), fr=uid BFO_0000015\n and (has_agent some OBI_0000245)}\n  } \nKEY {ONTORELA_C6a3e089c_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000076',
+    shortIri: 'HOSO_0000076',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'hospitalization admission urgency level specification',
+    label_fr: 'HOSO_0000076',
+    definition_en: 'A clinical visit urgency level specification mandating the urgency level of the hospitalization admission.',
+    description: 'TABLE HOSO_0000076::HOSO_0000076::{en=hospitalization admission urgency level specification, fr=HOSO_0000076}\n  {\n    HOSO_0000076_uid::HOSO_0000076_uid uid_domain::{en=uid hospitalization admission urgency level specification, fr=uid HOSO_0000076}\n  } \nKEY {HOSO_0000076_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'MPHPO_0000002',
+    shortIri: 'MPHPO_0000002',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'MPHPO pathological condition sub-group name ',
+    label_fr: 'MPHPO_0000002',
+    description: 'TABLE MPHPO_0000002::MPHPO_0000002::{en=MPHPO pathological condition sub-group name , fr=MPHPO_0000002}\n  {\n    MPHPO_0000002_uid::MPHPO_0000002_uid uid_domain::{en=uid MPHPO pathological condition sub-group name , fr=uid MPHPO_0000002}\n  } \nKEY {MPHPO_0000002_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OpenLHS-Core_0000060',
+    shortIri: 'OpenLHS-Core_0000060',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'pathological condition',
+    label_fr: 'OpenLHS-Core_0000060',
+    definition_en: 'An entity that is a disorder, a disease or a pathological bodily process',
+    description: 'TABLE OpenLHS-Core_0000060::OpenLHS-Core_0000060::{en=pathological condition, fr=OpenLHS-Core_0000060}\n  {\n    OpenLHS-Core_0000060_uid::OpenLHS-Core_0000060_uid uid_domain::{en=uid pathological condition, fr=uid OpenLHS-Core_0000060}\n  } \nKEY {OpenLHS-Core_0000060_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000052',
+    shortIri: 'HOSO_0000052',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'triage-only emergency department visit',
+    label_fr: 'HOSO_0000052',
+    definition_en: 'An emergency department visit with a triage encounter but no further encounter.',
+    description: 'TABLE HOSO_0000052::HOSO_0000052::{en=triage-only emergency department visit, fr=HOSO_0000052}\n  {\n    HOSO_0000052_uid::HOSO_0000052_uid uid_domain::{en=uid triage-only emergency department visit, fr=uid HOSO_0000052}\n  } \nKEY {HOSO_0000052_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000040',
+    shortIri: 'HOSO_0000040',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'still born healthcare service',
+    label_fr: 'HOSO_0000040',
+    definition_en: 'A healthcare organisation service delivery where the main entity of interest is a still born.',
+    description: 'TABLE HOSO_0000040::HOSO_0000040::{en=still born healthcare service, fr=HOSO_0000040}\n  {\n    HOSO_0000040_uid::HOSO_0000040_uid uid_domain::{en=uid still born healthcare service, fr=uid HOSO_0000040}\n  } \nKEY {HOSO_0000040_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'BFO_0000020',
+    shortIri: 'BFO_0000020',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'sdc',
+    label_fr: 'BFO_0000020',
+    definition_en: 'SpecificallyDependentContinuant',
+    description: 'TABLE BFO_0000020::BFO_0000020::{en=sdc, fr=BFO_0000020}\n  {\n    BFO_0000020_uid::BFO_0000020_uid uid_domain::{en=uid sdc, fr=uid BFO_0000020}\n  } \nKEY {BFO_0000020_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'IOIO_0000015',
+    shortIri: 'IOIO_0000015',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'human biological sex statement',
+    label_fr: 'IOIO_0000015',
+    definition_en: 'A pragmatically accepted statement stating the biological sex of a human.',
+    description: 'TABLE IOIO_0000015::IOIO_0000015::{en=human biological sex statement, fr=IOIO_0000015}\n  {\n    IOIO_0000015_uid::IOIO_0000015_uid uid_domain::{en=uid human biological sex statement, fr=uid IOIO_0000015}\n  } \nKEY {IOIO_0000015_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'IOIO_0000003',
+    shortIri: 'IOIO_0000003',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'human death statement',
+    label_fr: 'IOIO_0000003',
+    definition_en: 'A process temporally qualifying statement about the death of a human including an identifier and a temporal information of the death of this human.',
+    description: 'TABLE IOIO_0000003::IOIO_0000003::{en=human death statement, fr=IOIO_0000003}\n  {\n    IOIO_0000003_uid::IOIO_0000003_uid uid_domain::{en=uid human death statement, fr=uid IOIO_0000003}\n  } \nKEY {IOIO_0000003_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'BFO_0000141',
+    shortIri: 'BFO_0000141',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'immaterial',
+    label_fr: 'BFO_0000141',
+    definition_en: 'ImmaterialEntity',
+    description: 'TABLE BFO_0000141::BFO_0000141::{en=immaterial, fr=BFO_0000141}\n  {\n    BFO_0000141_uid::BFO_0000141_uid uid_domain::{en=uid immaterial, fr=uid BFO_0000141}\n  } \nKEY {BFO_0000141_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OGMS_0000061',
+    shortIri: 'OGMS_0000061',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'pathological bodily process',
+    label_fr: 'OGMS_0000061',
+    definition_en: 'A bodily process that is clinically abnormal.',
+    description: 'TABLE OGMS_0000061::OGMS_0000061::{en=pathological bodily process, fr=OGMS_0000061}\n  {\n    OGMS_0000061_uid::OGMS_0000061_uid uid_domain::{en=uid pathological bodily process, fr=uid OGMS_0000061}\n  } \nKEY {OGMS_0000061_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HEPRO_0000009',
+    shortIri: 'HEPRO_0000009',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'health provider identifier',
+    label_fr: 'HEPRO_0000009',
+    definition_en: 'An individual identifier that denotes a health provider.',
+    description: 'TABLE HEPRO_0000009::HEPRO_0000009::{en=health provider identifier, fr=HEPRO_0000009}\n  {\n    HEPRO_0000009_uid::HEPRO_0000009_uid uid_domain::{en=uid health provider identifier, fr=uid HEPRO_0000009}\n  } \nKEY {HEPRO_0000009_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OpenLHS-Core_0000028',
+    shortIri: 'OpenLHS-Core_0000028',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'service agreement specification',
+    label_fr: 'OpenLHS-Core_0000028',
+    definition_en: 'An information content entity that specifies a service agreement made between a request party and a service offer party, and aim to direct some processes that correspond to what has been agreed between the parties.',
+    description: 'TABLE OpenLHS-Core_0000028::OpenLHS-Core_0000028::{en=service agreement specification, fr=OpenLHS-Core_0000028}\n  {\n    OpenLHS-Core_0000028_uid::OpenLHS-Core_0000028_uid uid_domain::{en=uid service agreement specification, fr=uid OpenLHS-Core_0000028}\n  } \nKEY {OpenLHS-Core_0000028_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000008',
+    shortIri: 'HOSO_0000008',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'healthcare organization',
+    label_fr: 'HOSO_0000008',
+    definition_en: 'An organisation that bears a healthcare organisation role.',
+    description: 'TABLE HOSO_0000008::HOSO_0000008::{en=healthcare organization, fr=HOSO_0000008}\n  {\n    HOSO_0000008_uid::HOSO_0000008_uid uid_domain::{en=uid healthcare organization, fr=uid HOSO_0000008}\n  } \nKEY {HOSO_0000008_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OGMS_0000102',
+    shortIri: 'OGMS_0000102',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'injury',
+    label_fr: 'OGMS_0000102',
+    definition_en: 'A disorder that involves some structural damage that is immediately caused by a catastrophic external force.',
+    description: 'TABLE OGMS_0000102::OGMS_0000102::{en=injury, fr=OGMS_0000102}\n  {\n    OGMS_0000102_uid::OGMS_0000102_uid uid_domain::{en=uid injury, fr=uid OGMS_0000102}\n  } \nKEY {OGMS_0000102_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OpenLHS-Core_0000043',
+    shortIri: 'OpenLHS-Core_0000043',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'agent plan to act as if some statement was true',
+    label_fr: 'OpenLHS-Core_0000043',
+    definition_en: 'A plan of an agent to act as if some statement was true.',
+    description: 'TABLE OpenLHS-Core_0000043::OpenLHS-Core_0000043::{en=agent plan to act as if some statement was true, fr=OpenLHS-Core_0000043}\n  {\n    OpenLHS-Core_0000043_uid::OpenLHS-Core_0000043_uid uid_domain::{en=uid agent plan to act as if some statement was true, fr=uid OpenLHS-Core_0000043}\n  } \nKEY {OpenLHS-Core_0000043_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OpenLHS-Core_0000031',
+    shortIri: 'OpenLHS-Core_0000031',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'process temporally qualifying statement',
+    label_fr: 'OpenLHS-Core_0000031',
+    definition_en: 'A temporally qualifying statement stating that a temporal region overlaps with a temporal region during which some process occurred, occurs or will occur.',
+    description: 'TABLE OpenLHS-Core_0000031::OpenLHS-Core_0000031::{en=process temporally qualifying statement, fr=OpenLHS-Core_0000031}\n  {\n    OpenLHS-Core_0000031_uid::OpenLHS-Core_0000031_uid uid_domain::{en=uid process temporally qualifying statement, fr=uid OpenLHS-Core_0000031}\n  } \nKEY {OpenLHS-Core_0000031_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HEPRO_0000011',
+    shortIri: 'HEPRO_0000011',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'health provider role',
+    label_fr: 'HEPRO_0000011',
+    definition_en: 'A role that inheres in an organism as a consequence of training in order to be able to participate as a performer in some health activities.',
+    description: 'TABLE HEPRO_0000011::HEPRO_0000011::{en=health provider role, fr=HEPRO_0000011}\n  {\n    HEPRO_0000011_uid::HEPRO_0000011_uid uid_domain::{en=uid health provider role, fr=uid HEPRO_0000011}\n  } \nKEY {HEPRO_0000011_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HEPRO_0000023',
+    shortIri: 'HEPRO_0000023',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'health activity ending statement',
+    label_fr: 'HEPRO_0000023',
+    definition_en: 'A process ending statement that temporally qualifies the end of a health activity.',
+    description: 'TABLE HEPRO_0000023::HEPRO_0000023::{en=health activity ending statement, fr=HEPRO_0000023}\n  {\n    HEPRO_0000023_uid::HEPRO_0000023_uid uid_domain::{en=uid health activity ending statement, fr=uid HEPRO_0000023}\n  } \nKEY {HEPRO_0000023_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'BFO_0000008',
+    shortIri: 'BFO_0000008',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 't-region',
+    label_fr: 'BFO_0000008',
+    definition_en: 'TemporalRegion',
+    description: 'TABLE BFO_0000008::BFO_0000008::{en=t-region, fr=BFO_0000008}\n  {\n    BFO_0000008_uid::BFO_0000008_uid uid_domain::{en=uid t-region, fr=uid BFO_0000008}\n  } \nKEY {BFO_0000008_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OpenLHS-Core_0000055',
+    shortIri: 'OpenLHS-Core_0000055',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'numerical specified value',
+    label_fr: 'OpenLHS-Core_0000055',
+    description: 'TABLE OpenLHS-Core_0000055::OpenLHS-Core_0000055::{en=numerical specified value, fr=OpenLHS-Core_0000055}\n  {\n    OpenLHS-Core_0000055_uid::OpenLHS-Core_0000055_uid uid_domain::{en=uid numerical specified value, fr=uid OpenLHS-Core_0000055}\n  } \nKEY {OpenLHS-Core_0000055_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'MPHPO_0000003',
+    shortIri: 'MPHPO_0000003',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'MPHPO HOSD beginning temporal information',
+    label_fr: 'MPHPO_0000003',
+    description: 'TABLE MPHPO_0000003::MPHPO_0000003::{en=MPHPO HOSD beginning temporal information, fr=MPHPO_0000003}\n  {\n    MPHPO_0000003_uid::MPHPO_0000003_uid uid_domain::{en=uid MPHPO HOSD beginning temporal information, fr=uid MPHPO_0000003}\n  } \nKEY {MPHPO_0000003_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'MPHPO_0000015',
+    shortIri: 'MPHPO_0000015',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'MPHPO human age at beginning of the HCOS',
+    label_fr: 'MPHPO_0000015',
+    description: 'TABLE MPHPO_0000015::MPHPO_0000015::{en=MPHPO human age at beginning of the HCOS, fr=MPHPO_0000015}\n  {\n    MPHPO_0000015_uid::MPHPO_0000015_uid uid_domain::{en=uid MPHPO human age at beginning of the HCOS, fr=uid MPHPO_0000015}\n  } \nKEY {MPHPO_0000015_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000043',
+    shortIri: 'HOSO_0000043',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'ambulance initiated emergency department visit',
+    label_fr: 'HOSO_0000043',
+    definition_en: 'An emergency department visit for a given patient that was participating in another healthcare organisation visit involving paramedics just prior to this visit.',
+    description: 'TABLE HOSO_0000043::HOSO_0000043::{en=ambulance initiated emergency department visit, fr=HOSO_0000043}\n  {\n    HOSO_0000043_uid::HOSO_0000043_uid uid_domain::{en=uid ambulance initiated emergency department visit, fr=uid HOSO_0000043}\n  } \nKEY {HOSO_0000043_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000031',
+    shortIri: 'HOSO_0000031',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'hospitalization',
+    label_fr: 'HOSO_0000031',
+    definition_en: 'An inpatient visit located in a hospital facility requested by a physician, where the healthcare organization can offer an extension overnight.',
+    description: 'TABLE HOSO_0000031::HOSO_0000031::{en=hospitalization, fr=HOSO_0000031}\n  {\n    HOSO_0000031_uid::HOSO_0000031_uid uid_domain::{en=uid hospitalization, fr=uid HOSO_0000031}\n  } \nKEY {HOSO_0000031_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000152',
+    shortIri: 'HOSO_0000152',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'human age at the beginning of the clinical visit statement',
+    label_fr: 'HOSO_0000152',
+    description: 'TABLE HOSO_0000152::HOSO_0000152::{en=human age at the beginning of the clinical visit statement, fr=HOSO_0000152}\n  {\n    HOSO_0000152_uid::HOSO_0000152_uid uid_domain::{en=uid human age at the beginning of the clinical visit statement, fr=uid HOSO_0000152}\n  } \nKEY {HOSO_0000152_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000140',
+    shortIri: 'HOSO_0000140',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'facility address',
+    label_fr: 'HOSO_0000140',
+    definition_en: 'A postal address that enables an agent to locate a facility.',
+    description: 'TABLE HOSO_0000140::HOSO_0000140::{en=facility address, fr=HOSO_0000140}\n  {\n    HOSO_0000140_uid::HOSO_0000140_uid uid_domain::{en=uid facility address, fr=uid HOSO_0000140}\n  } \nKEY {HOSO_0000140_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OMRSE_00000209',
+    shortIri: 'OMRSE_00000209',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'gender identity information content entity',
+    label_fr: 'OMRSE_00000209',
+    definition_en: 'A social identity information content entity that is about whether some person identifies as some gender.',
+    description: 'TABLE OMRSE_00000209::OMRSE_00000209::{en=gender identity information content entity, fr=OMRSE_00000209}\n  {\n    OMRSE_00000209_uid::OMRSE_00000209_uid uid_domain::{en=uid gender identity information content entity, fr=uid OMRSE_00000209}\n  } \nKEY {OMRSE_00000209_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000079',
+    shortIri: 'HOSO_0000079',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'healthcare physician service',
+    label_fr: 'HOSO_0000079',
+    definition_en: 'A healthcare organization with a mandate to manage and coordinate healthcare procedures deliveries under the responsability of its members',
+    description: 'TABLE HOSO_0000079::HOSO_0000079::{en=healthcare physician service, fr=HOSO_0000079}\n  {\n    HOSO_0000079_uid::HOSO_0000079_uid uid_domain::{en=uid healthcare physician service, fr=uid HOSO_0000079}\n  } \nKEY {HOSO_0000079_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'SEPIO_0000187',
+    shortIri: 'SEPIO_0000187',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'confidence level',
+    label_fr: 'SEPIO_0000187',
+    definition_en: 'A measurement datum that quantifies the level of confidence an agent has that a particular piece of information is true.',
+    description: 'TABLE SEPIO_0000187::SEPIO_0000187::{en=confidence level, fr=SEPIO_0000187}\n  {\n    SEPIO_0000187_uid::SEPIO_0000187_uid uid_domain::{en=uid confidence level, fr=uid SEPIO_0000187}\n  } \nKEY {SEPIO_0000187_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000067',
+    shortIri: 'HOSO_0000067',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'provincial health insurance primary residence statement beginning',
+    label_fr: 'HOSO_0000067',
+    description: 'TABLE HOSO_0000067::HOSO_0000067::{en=provincial health insurance primary residence statement beginning, fr=HOSO_0000067}\n  {\n    HOSO_0000067_uid::HOSO_0000067_uid uid_domain::{en=uid provincial health insurance primary residence statement beginning, fr=uid HOSO_0000067}\n  } \nKEY {HOSO_0000067_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000055',
+    shortIri: 'HOSO_0000055',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'healthcare organization service delivery beginning statement',
+    label_fr: 'HOSO_0000055',
+    definition_en: 'A process beginning statement that temporally qualifies the beginning of a healthcare organisation service delivery.',
+    description: 'TABLE HOSO_0000055::HOSO_0000055::{en=healthcare organization service delivery beginning statement, fr=HOSO_0000055}\n  {\n    HOSO_0000055_uid::HOSO_0000055_uid uid_domain::{en=uid healthcare organization service delivery beginning statement, fr=uid HOSO_0000055}\n  } \nKEY {HOSO_0000055_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'IOIO_0000012',
+    shortIri: 'IOIO_0000012',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'human biological sex or gender identity information content entity',
+    label_fr: 'IOIO_0000012',
+    definition_en: 'An information content entity that denotes a biological sex or a gender identity of a human.',
+    description: 'TABLE IOIO_0000012::IOIO_0000012::{en=human biological sex or gender identity information content entity, fr=IOIO_0000012}\n  {\n    IOIO_0000012_uid::IOIO_0000012_uid uid_domain::{en=uid human biological sex or gender identity information content entity, fr=uid IOIO_0000012}\n  } \nKEY {IOIO_0000012_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OGMS_0000086',
+    shortIri: 'OGMS_0000086',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'syndrome',
+    label_fr: 'OGMS_0000086',
+    definition_en: 'A pattern of signs and symptoms that typically co-occur.',
+    description: 'TABLE OGMS_0000086::OGMS_0000086::{en=syndrome, fr=OGMS_0000086}\n  {\n    OGMS_0000086_uid::OGMS_0000086_uid uid_domain::{en=uid syndrome, fr=uid OGMS_0000086}\n  } \nKEY {OGMS_0000086_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HEPRO_0000022',
+    shortIri: 'HEPRO_0000022',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'health activity beginning statement',
+    label_fr: 'HEPRO_0000022',
+    definition_en: 'A process beginning statement that temporally qualifies the beginning of a health activity.',
+    description: 'TABLE HEPRO_0000022::HEPRO_0000022::{en=health activity beginning statement, fr=HEPRO_0000022}\n  {\n    HEPRO_0000022_uid::HEPRO_0000022_uid uid_domain::{en=uid health activity beginning statement, fr=uid HEPRO_0000022}\n  } \nKEY {HEPRO_0000022_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OpenLHS-Core_0000054',
+    shortIri: 'OpenLHS-Core_0000054',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'specified value',
+    label_fr: 'OpenLHS-Core_0000054',
+    description: 'TABLE OpenLHS-Core_0000054::OpenLHS-Core_0000054::{en=specified value, fr=OpenLHS-Core_0000054}\n  {\n    OpenLHS-Core_0000054_uid::OpenLHS-Core_0000054_uid uid_domain::{en=uid specified value, fr=uid OpenLHS-Core_0000054}\n  } \nKEY {OpenLHS-Core_0000054_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HEPRO_0000010',
+    shortIri: 'HEPRO_0000010',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'physician identifier',
+    label_fr: 'HEPRO_0000010',
+    definition_en: 'A health provider identifier that is used to denote a person authorised to act as a physician.',
+    description: 'TABLE HEPRO_0000010::HEPRO_0000010::{en=physician identifier, fr=HEPRO_0000010}\n  {\n    HEPRO_0000010_uid::HEPRO_0000010_uid uid_domain::{en=uid physician identifier, fr=uid HEPRO_0000010}\n  } \nKEY {HEPRO_0000010_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OpenLHS-Core_0000030',
+    shortIri: 'OpenLHS-Core_0000030',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'temporally qualifying statement',
+    label_fr: 'OpenLHS-Core_0000030',
+    definition_en: 'A statement that states that an entity existed, exists or will exist at some point during a specified temporal region.',
+    description: 'TABLE OpenLHS-Core_0000030::OpenLHS-Core_0000030::{en=temporally qualifying statement, fr=OpenLHS-Core_0000030}\n  {\n    OpenLHS-Core_0000030_uid::OpenLHS-Core_0000030_uid uid_domain::{en=uid temporally qualifying statement, fr=uid OpenLHS-Core_0000030}\n  } \nKEY {OpenLHS-Core_0000030_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'BFO_0000019',
+    shortIri: 'BFO_0000019',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'quality',
+    label_fr: 'BFO_0000019',
+    definition_en: 'Quality',
+    description: 'TABLE BFO_0000019::BFO_0000019::{en=quality, fr=BFO_0000019}\n  {\n    BFO_0000019_uid::BFO_0000019_uid uid_domain::{en=uid quality, fr=uid BFO_0000019}\n  } \nKEY {BFO_0000019_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'MPHPO_0000016',
+    shortIri: 'MPHPO_0000016',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'MPHPO coded pathological condition sub-group name',
+    label_fr: 'MPHPO_0000016',
+    description: 'TABLE MPHPO_0000016::MPHPO_0000016::{en=MPHPO coded pathological condition sub-group name, fr=MPHPO_0000016}\n  {\n    MPHPO_0000016_uid::MPHPO_0000016_uid uid_domain::{en=uid MPHPO coded pathological condition sub-group name, fr=uid MPHPO_0000016}\n  } \nKEY {MPHPO_0000016_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'IAO_0000005',
+    shortIri: 'IAO_0000005',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'objective specification',
+    label_fr: 'IAO_0000005',
+    definition_en: 'A directive information entity that describes an intended process endpoint. When part of a plan specification the concretization is realized in a planned process in which the bearer tries to effect the world so that the process endpoint is achieved.',
+    description: 'TABLE IAO_0000005::IAO_0000005::{en=objective specification, fr=IAO_0000005}\n  {\n    IAO_0000005_uid::IAO_0000005_uid uid_domain::{en=uid objective specification, fr=uid IAO_0000005}\n  } \nKEY {IAO_0000005_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'MPHPO_0000004',
+    shortIri: 'MPHPO_0000004',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'MPHPO HOSD ending temporal information ',
+    label_fr: 'MPHPO_0000004',
+    description: 'TABLE MPHPO_0000004::MPHPO_0000004::{en=MPHPO HOSD ending temporal information , fr=MPHPO_0000004}\n  {\n    MPHPO_0000004_uid::MPHPO_0000004_uid uid_domain::{en=uid MPHPO HOSD ending temporal information , fr=uid MPHPO_0000004}\n  } \nKEY {MPHPO_0000004_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000054',
+    shortIri: 'HOSO_0000054',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'visit diagnosis related group code',
+    label_fr: 'HOSO_0000054',
+    definition_en: 'An identifier that denotes a diagnosis related group.',
+    description: 'TABLE HOSO_0000054::HOSO_0000054::{en=visit diagnosis related group code, fr=HOSO_0000054}\n  {\n    HOSO_0000054_uid::HOSO_0000054_uid uid_domain::{en=uid visit diagnosis related group code, fr=uid HOSO_0000054}\n  } \nKEY {HOSO_0000054_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'ONTORELA_C2875fe2d',
+    shortIri: 'ONTORELA_C2875fe2d',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'concretizes some plan specification',
+    label_fr: 'RO_0000059 some IAO_0000104',
+    definition_en: 'planned processA directive information entity with action specifications and objective specifications as parts, and that may be concretized as a realizable entity that, if realized, is realized in a process in which the bearer tries to achieve the objectives by taking the actions specified.',
+    definition_fr: 'OBI_0000011',
+    description: 'TABLE ONTORELA_C2875fe2d::ONTORELA_C2875fe2d::{en=concretizes some plan specification, fr=RO_0000059 some IAO_0000104}\n  {\n    ONTORELA_C2875fe2d_uid::ONTORELA_C2875fe2d_uid uid_domain::{en=uid concretizes some plan specification, fr=uid RO_0000059 some IAO_0000104}\n  } \nKEY {ONTORELA_C2875fe2d_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000042',
+    shortIri: 'HOSO_0000042',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'inpatient visit from an external location',
+    label_fr: 'HOSO_0000042',
+    definition_en: 'an inpatient visit that is not immedately following another healthcare organisation clinical visit in the same organisation, and is not a healthcare birth visit',
+    description: 'TABLE HOSO_0000042::HOSO_0000042::{en=inpatient visit from an external location, fr=HOSO_0000042}\n  {\n    HOSO_0000042_uid::HOSO_0000042_uid uid_domain::{en=uid inpatient visit from an external location, fr=uid HOSO_0000042}\n  } \nKEY {HOSO_0000042_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000030',
+    shortIri: 'HOSO_0000030',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'day inpatient surgery visit',
+    label_fr: 'HOSO_0000030',
+    definition_en: 'A day inpatient visit which includes a surgical procedure.',
+    description: 'TABLE HOSO_0000030::HOSO_0000030::{en=day inpatient surgery visit, fr=HOSO_0000030}\n  {\n    HOSO_0000030_uid::HOSO_0000030_uid uid_domain::{en=uid day inpatient surgery visit, fr=uid HOSO_0000030}\n  } \nKEY {HOSO_0000030_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000151',
+    shortIri: 'HOSO_0000151',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'human age at the beginning of the healthcare organization service delivery statement',
+    label_fr: 'HOSO_0000151',
+    definition_en: 'A human age at a specified temporal region statement that includes an human identifier, a healthcare organization service delivery identifier, and the human age at beginning of the healthcare organization service delivery of the human denoted by the human identifier, for the healthcare organization service delivery identified by the healthcare organization service delivery identifier.',
+    description: 'TABLE HOSO_0000151::HOSO_0000151::{en=human age at the beginning of the healthcare organization service delivery statement, fr=HOSO_0000151}\n  {\n    HOSO_0000151_uid::HOSO_0000151_uid uid_domain::{en=uid human age at the beginning of the healthcare organization service delivery statement, fr=uid HOSO_0000151}\n  } \nKEY {HOSO_0000151_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000078',
+    shortIri: 'HOSO_0000078',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'hospitalization admitting physician specification',
+    label_fr: 'HOSO_0000078',
+    definition_en: 'A clinical visit agreement directive entity mandating the admitting physician.',
+    description: 'TABLE HOSO_0000078::HOSO_0000078::{en=hospitalization admitting physician specification, fr=HOSO_0000078}\n  {\n    HOSO_0000078_uid::HOSO_0000078_uid uid_domain::{en=uid hospitalization admitting physician specification, fr=uid HOSO_0000078}\n  } \nKEY {HOSO_0000078_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'IOIO_0000013',
+    shortIri: 'IOIO_0000013',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'organism identifier',
+    label_fr: 'IOIO_0000013',
+    definition_en: 'An identifier that denotes a particular organism.',
+    description: 'TABLE IOIO_0000013::IOIO_0000013::{en=organism identifier, fr=IOIO_0000013}\n  {\n    IOIO_0000013_uid::IOIO_0000013_uid uid_domain::{en=uid organism identifier, fr=uid IOIO_0000013}\n  } \nKEY {IOIO_0000013_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'IAO_0000028',
+    shortIri: 'IAO_0000028',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'symbol',
+    label_fr: 'IAO_0000028',
+    definition_en: 'An information content entity that is a mark(s) or character(s) used as a conventional representation of another entity.',
+    description: 'TABLE IAO_0000028::IAO_0000028::{en=symbol, fr=IAO_0000028}\n  {\n    IAO_0000028_uid::IAO_0000028_uid uid_domain::{en=uid symbol, fr=uid IAO_0000028}\n  } \nKEY {IAO_0000028_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'IOIO_0000001',
+    shortIri: 'IOIO_0000001',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'human birth statement',
+    label_fr: 'IOIO_0000001',
+    definition_en: 'A process temporally qualifying statement about the birth of a human including an identifier and a temporal information of the birth of this human.',
+    description: 'TABLE IOIO_0000001::IOIO_0000001::{en=human birth statement, fr=IOIO_0000001}\n  {\n    IOIO_0000001_uid::IOIO_0000001_uid uid_domain::{en=uid human birth statement, fr=uid IOIO_0000001}\n  } \nKEY {IOIO_0000001_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'BFO_0000006',
+    shortIri: 'BFO_0000006',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 's-region',
+    label_fr: 'BFO_0000006',
+    definition_en: 'SpatialRegion',
+    description: 'TABLE BFO_0000006::BFO_0000006::{en=s-region, fr=BFO_0000006}\n  {\n    BFO_0000006_uid::BFO_0000006_uid uid_domain::{en=uid s-region, fr=uid BFO_0000006}\n  } \nKEY {BFO_0000006_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'BFO_0000018',
+    shortIri: 'BFO_0000018',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'zero-dimensional spatial region',
+    label_fr: 'BFO_0000018',
+    definition_en: 'ZeroDimensionalSpatialRegion',
+    description: 'TABLE BFO_0000018::BFO_0000018::{en=zero-dimensional spatial region, fr=BFO_0000018}\n  {\n    BFO_0000018_uid::BFO_0000018_uid uid_domain::{en=uid zero-dimensional spatial region, fr=uid BFO_0000018}\n  } \nKEY {BFO_0000018_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OpenLHS-Core_0000065',
+    shortIri: 'OpenLHS-Core_0000065',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'temporal information',
+    label_fr: 'OpenLHS-Core_0000065',
+    definition_en: 'An information content entity that denotes a one-dimension temporal region.',
+    description: 'TABLE OpenLHS-Core_0000065::OpenLHS-Core_0000065::{en=temporal information, fr=OpenLHS-Core_0000065}\n  {\n    OpenLHS-Core_0000065_uid::OpenLHS-Core_0000065_uid uid_domain::{en=uid temporal information, fr=uid OpenLHS-Core_0000065}\n  } \nKEY {OpenLHS-Core_0000065_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HEPRO_0000021',
+    shortIri: 'HEPRO_0000021',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'health procedure ending statement',
+    label_fr: 'HEPRO_0000021',
+    definition_en: 'A process ending statement that temporally qualifies the end of a health procedure.',
+    description: 'TABLE HEPRO_0000021::HEPRO_0000021::{en=health procedure ending statement, fr=HEPRO_0000021}\n  {\n    HEPRO_0000021_uid::HEPRO_0000021_uid uid_domain::{en=uid health procedure ending statement, fr=uid HEPRO_0000021}\n  } \nKEY {HEPRO_0000021_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OpenLHS-Core_0000053',
+    shortIri: 'OpenLHS-Core_0000053',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'continuant disappearance statement',
+    label_fr: 'OpenLHS-Core_0000053',
+    definition_en: 'A continuant temporally qualifying statement temporally qualifying the disappearance of a continuant.',
+    description: 'TABLE OpenLHS-Core_0000053::OpenLHS-Core_0000053::{en=continuant disappearance statement, fr=OpenLHS-Core_0000053}\n  {\n    OpenLHS-Core_0000053_uid::OpenLHS-Core_0000053_uid uid_domain::{en=uid continuant disappearance statement, fr=uid OpenLHS-Core_0000053}\n  } \nKEY {OpenLHS-Core_0000053_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OGMS_0000129',
+    shortIri: 'OGMS_0000129',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'physical sign',
+    label_fr: 'OGMS_0000129',
+    definition_en: 'An abnormal material entity that is part of a patient and hypothesized to be clinically relevant.',
+    description: 'TABLE OGMS_0000129::OGMS_0000129::{en=physical sign, fr=OGMS_0000129}\n  {\n    OGMS_0000129_uid::OGMS_0000129_uid uid_domain::{en=uid physical sign, fr=uid OGMS_0000129}\n  } \nKEY {OGMS_0000129_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HEPRO_0000130',
+    shortIri: 'HEPRO_0000130',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'pathological condition end temporal information',
+    label_fr: 'HEPRO_0000130',
+    definition_en: 'A temporal information that is a component of a pathological condition end temporallly qualifying statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the clinically identified end of the pathological condition.',
+    description: 'TABLE HEPRO_0000130::HEPRO_0000130::{en=pathological condition end temporal information, fr=HEPRO_0000130}\n  {\n    HEPRO_0000130_uid::HEPRO_0000130_uid uid_domain::{en=uid pathological condition end temporal information, fr=uid HEPRO_0000130}\n  } \nKEY {HEPRO_0000130_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'MPHPO_0000005',
+    shortIri: 'MPHPO_0000005',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'MPHPO living environment type ',
+    label_fr: 'MPHPO_0000005',
+    description: 'TABLE MPHPO_0000005::MPHPO_0000005::{en=MPHPO living environment type , fr=MPHPO_0000005}\n  {\n    MPHPO_0000005_uid::MPHPO_0000005_uid uid_domain::{en=uid MPHPO living environment type , fr=uid MPHPO_0000005}\n  } \nKEY {MPHPO_0000005_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'MPHPO_0000017',
+    shortIri: 'MPHPO_0000017',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'MPHPO free-text pathological condition sub-group name',
+    label_fr: 'MPHPO_0000017',
+    description: 'TABLE MPHPO_0000017::MPHPO_0000017::{en=MPHPO free-text pathological condition sub-group name, fr=MPHPO_0000017}\n  {\n    MPHPO_0000017_uid::MPHPO_0000017_uid uid_domain::{en=uid MPHPO free-text pathological condition sub-group name, fr=uid MPHPO_0000017}\n  } \nKEY {MPHPO_0000017_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'Agent',
+    shortIri: 'Agent',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'Agent',
+    label_fr: 'Agent',
+    definition_en: 'A Material Entity that is capable of performing Planned Acts',
+    description: 'TABLE Agent::Agent::{en=Agent, fr=Agent}\n  {\n    Agent_uid::Agent_uid uid_domain::{en=uid Agent, fr=uid Agent}\n  } \nKEY {Agent_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'ONTORELA_C624fa67d',
+    shortIri: 'ONTORELA_C624fa67d',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'human birth statement\n and (is about exactly 1 human clinical visit specified patient)',
+    label_fr: 'IOIO_0000001\n and (IAO_0000136 exactly 1 HOSO_0000137)',
+    definition_en: 'healthcare birth visitA process temporally qualifying statement about the birth of a human including an identifier and a temporal information of the birth of this human.',
+    definition_fr: 'HOSO_0000041',
+    description: 'TABLE ONTORELA_C624fa67d::ONTORELA_C624fa67d::{en=human birth statement\n and (is about exactly 1 human clinical visit specified patient), fr=IOIO_0000001\n and (IAO_0000136 exactly 1 HOSO_0000137)}\n  {\n    ONTORELA_C624fa67d_uid::ONTORELA_C624fa67d_uid uid_domain::{en=uid human birth statement\n and (is about exactly 1 human clinical visit specified patient), fr=uid IOIO_0000001\n and (IAO_0000136 exactly 1 HOSO_0000137)}\n  } \nKEY {ONTORELA_C624fa67d_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000142',
+    shortIri: 'HOSO_0000142',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'canadian facility address',
+    label_fr: 'HOSO_0000142',
+    description: 'TABLE HOSO_0000142::HOSO_0000142::{en=canadian facility address, fr=HOSO_0000142}\n  {\n    HOSO_0000142_uid::HOSO_0000142_uid uid_domain::{en=uid canadian facility address, fr=uid HOSO_0000142}\n  } \nKEY {HOSO_0000142_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000069',
+    shortIri: 'HOSO_0000069',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'immediate subsequent visit in same organization',
+    label_fr: 'HOSO_0000069',
+    definition_en: 'An immediate subsequent visit where both visits are under the responsability of the same healthcare organisation.',
+    description: 'TABLE HOSO_0000069::HOSO_0000069::{en=immediate subsequent visit in same organization, fr=HOSO_0000069}\n  {\n    HOSO_0000069_uid::HOSO_0000069_uid uid_domain::{en=uid immediate subsequent visit in same organization, fr=uid HOSO_0000069}\n  } \nKEY {HOSO_0000069_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000045',
+    shortIri: 'HOSO_0000045',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'healthcare visit of expiration',
+    label_fr: 'HOSO_0000045',
+    definition_en: 'A healthcare organization clinical visit during which a death statement was produced regarding the death of the main patient visit beneficiary.',
+    description: 'TABLE HOSO_0000045::HOSO_0000045::{en=healthcare visit of expiration, fr=HOSO_0000045}\n  {\n    HOSO_0000045_uid::HOSO_0000045_uid uid_domain::{en=uid healthcare visit of expiration, fr=uid HOSO_0000045}\n  } \nKEY {HOSO_0000045_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000033',
+    shortIri: 'HOSO_0000033',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'emergency department inpatient visit',
+    label_fr: 'HOSO_0000033',
+    definition_en: 'An emergency department visit and an inpatient visit, where there is usually limited accommodation and where the goal is to stabilise a life-threatening condition or decide whether the clinical situation requires a hospitalisation visit.',
+    description: 'TABLE HOSO_0000033::HOSO_0000033::{en=emergency department inpatient visit, fr=HOSO_0000033}\n  {\n    HOSO_0000033_uid::HOSO_0000033_uid uid_domain::{en=uid emergency department inpatient visit, fr=uid HOSO_0000033}\n  } \nKEY {HOSO_0000033_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'IAO_0000104',
+    shortIri: 'IAO_0000104',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'plan specification',
+    label_fr: 'IAO_0000104',
+    definition_en: 'A directive information entity with action specifications and objective specifications as parts, and that may be concretized as a realizable entity that, if realized, is realized in a process in which the bearer tries to achieve the objectives by taking the actions specified.',
+    description: 'TABLE IAO_0000104::IAO_0000104::{en=plan specification, fr=IAO_0000104}\n  {\n    IAO_0000104_uid::IAO_0000104_uid uid_domain::{en=uid plan specification, fr=uid IAO_0000104}\n  } \nKEY {IAO_0000104_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'IOIO_0000022',
+    shortIri: 'IOIO_0000022',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'primary residence statement',
+    label_fr: 'IOIO_0000022',
+    definition_en: 'A pragmatically accepted statement that states characteristics of the primary residence of an individual at a given moment in time.',
+    description: 'TABLE IOIO_0000022::IOIO_0000022::{en=primary residence statement, fr=IOIO_0000022}\n  {\n    IOIO_0000022_uid::IOIO_0000022_uid uid_domain::{en=uid primary residence statement, fr=uid IOIO_0000022}\n  } \nKEY {IOIO_0000022_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OBI_0000260',
+    shortIri: 'OBI_0000260',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'plan',
+    label_fr: 'OBI_0000260',
+    definition_en: 'A plan is a realizable entity that is the inheres in a bearer who is committed to realizing it as a planned process.',
+    description: 'TABLE OBI_0000260::OBI_0000260::{en=plan, fr=OBI_0000260}\n  {\n    OBI_0000260_uid::OBI_0000260_uid uid_domain::{en=uid plan, fr=uid OBI_0000260}\n  } \nKEY {OBI_0000260_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'IOIO_0000010',
+    shortIri: 'IOIO_0000010',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'biological sex information content entity',
+    label_fr: 'IOIO_0000010',
+    definition_en: 'An information content entity that denotes the biological sex of an organism.',
+    description: 'TABLE IOIO_0000010::IOIO_0000010::{en=biological sex information content entity, fr=IOIO_0000010}\n  {\n    IOIO_0000010_uid::IOIO_0000010_uid uid_domain::{en=uid biological sex information content entity, fr=uid IOIO_0000010}\n  } \nKEY {IOIO_0000010_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'IAO_0000310',
+    shortIri: 'IAO_0000310',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'document',
+    label_fr: 'IAO_0000310',
+    definition_en: 'A collection of information content entities intended to be understood together as a whole',
+    description: 'TABLE IAO_0000310::IAO_0000310::{en=document, fr=IAO_0000310}\n  {\n    IAO_0000310_uid::IAO_0000310_uid uid_domain::{en=uid document, fr=uid IAO_0000310}\n  } \nKEY {IAO_0000310_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OpenLHS-Core_0000009',
+    shortIri: 'OpenLHS-Core_0000009',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'informational entity',
+    label_fr: 'OpenLHS-Core_0000009',
+    description: 'TABLE OpenLHS-Core_0000009::OpenLHS-Core_0000009::{en=informational entity, fr=OpenLHS-Core_0000009}\n  {\n    OpenLHS-Core_0000009_uid::OpenLHS-Core_0000009_uid uid_domain::{en=uid informational entity, fr=uid OpenLHS-Core_0000009}\n  } \nKEY {OpenLHS-Core_0000009_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OpenLHS-Core_0000052',
+    shortIri: 'OpenLHS-Core_0000052',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'continuant appearance statement',
+    label_fr: 'OpenLHS-Core_0000052',
+    definition_en: 'A continuant temporally qualifying statement qualifying temporally the appearance of a continuant.',
+    description: 'TABLE OpenLHS-Core_0000052::OpenLHS-Core_0000052::{en=continuant appearance statement, fr=OpenLHS-Core_0000052}\n  {\n    OpenLHS-Core_0000052_uid::OpenLHS-Core_0000052_uid uid_domain::{en=uid continuant appearance statement, fr=uid OpenLHS-Core_0000052}\n  } \nKEY {OpenLHS-Core_0000052_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'BFO_0000009',
+    shortIri: 'BFO_0000009',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: '2d-s-region',
+    label_fr: 'BFO_0000009',
+    definition_en: 'TwoDimensionalSpatialRegion',
+    description: 'TABLE BFO_0000009::BFO_0000009::{en=2d-s-region, fr=BFO_0000009}\n  {\n    BFO_0000009_uid::BFO_0000009_uid uid_domain::{en=uid 2d-s-region, fr=uid BFO_0000009}\n  } \nKEY {BFO_0000009_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HEPRO_0000020',
+    shortIri: 'HEPRO_0000020',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'health procedure beginning statement',
+    label_fr: 'HEPRO_0000020',
+    definition_en: 'A process beginning statement that temporally qualifies the beginning of a health procedure.',
+    description: 'TABLE HEPRO_0000020::HEPRO_0000020::{en=health procedure beginning statement, fr=HEPRO_0000020}\n  {\n    HEPRO_0000020_uid::HEPRO_0000020_uid uid_domain::{en=uid health procedure beginning statement, fr=uid HEPRO_0000020}\n  } \nKEY {HEPRO_0000020_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'MPHPO_0000018',
+    shortIri: 'MPHPO_0000018',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'MPHPO centrally registered identifier symbol',
+    label_fr: 'MPHPO_0000018',
+    description: 'TABLE MPHPO_0000018::MPHPO_0000018::{en=MPHPO centrally registered identifier symbol, fr=MPHPO_0000018}\n  {\n    MPHPO_0000018_uid::MPHPO_0000018_uid uid_domain::{en=uid MPHPO centrally registered identifier symbol, fr=uid MPHPO_0000018}\n  } \nKEY {MPHPO_0000018_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'MPHPO_0000006',
+    shortIri: 'MPHPO_0000006',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'MPHPO healthcare physician service identifier ',
+    label_fr: 'MPHPO_0000006',
+    description: 'TABLE MPHPO_0000006::MPHPO_0000006::{en=MPHPO healthcare physician service identifier , fr=MPHPO_0000006}\n  {\n    MPHPO_0000006_uid::MPHPO_0000006_uid uid_domain::{en=uid MPHPO healthcare physician service identifier , fr=uid MPHPO_0000006}\n  } \nKEY {MPHPO_0000006_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'IAO_0000007',
+    shortIri: 'IAO_0000007',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'action specification',
+    label_fr: 'IAO_0000007',
+    definition_en: 'A directive information entity that describes an action the bearer will take.',
+    description: 'TABLE IAO_0000007::IAO_0000007::{en=action specification, fr=IAO_0000007}\n  {\n    IAO_0000007_uid::IAO_0000007_uid uid_domain::{en=uid action specification, fr=uid IAO_0000007}\n  } \nKEY {IAO_0000007_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000032',
+    shortIri: 'HOSO_0000032',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'emergency department visit',
+    label_fr: 'HOSO_0000032',
+    definition_en: 'A healthcare organisation clinical visit where there is expectation of providing unplanned, timely, urgent care, including handling life-threatening conditions.\nIt is not necessarily an immediate inpatient subsequent visit.',
+    description: 'TABLE HOSO_0000032::HOSO_0000032::{en=emergency department visit, fr=HOSO_0000032}\n  {\n    HOSO_0000032_uid::HOSO_0000032_uid uid_domain::{en=uid emergency department visit, fr=uid HOSO_0000032}\n  } \nKEY {HOSO_0000032_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'SEPIO_0000174',
+    shortIri: 'SEPIO_0000174',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'statement',
+    label_fr: 'SEPIO_0000174',
+    definition_en: 'An information content entity expressing a declarative sentence that is either true or false.',
+    description: 'TABLE SEPIO_0000174::SEPIO_0000174::{en=statement, fr=SEPIO_0000174}\n  {\n    SEPIO_0000174_uid::SEPIO_0000174_uid uid_domain::{en=uid statement, fr=uid SEPIO_0000174}\n  } \nKEY {SEPIO_0000174_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000068',
+    shortIri: 'HOSO_0000068',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'immediate subsequent visit',
+    label_fr: 'HOSO_0000068',
+    definition_en: 'A healthcare organization clinical visit for a given patient that was participating in another healthcare organisation clinical visit just prior to this visit.',
+    description: 'TABLE HOSO_0000068::HOSO_0000068::{en=immediate subsequent visit, fr=HOSO_0000068}\n  {\n    HOSO_0000068_uid::HOSO_0000068_uid uid_domain::{en=uid immediate subsequent visit, fr=uid HOSO_0000068}\n  } \nKEY {HOSO_0000068_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000056',
+    shortIri: 'HOSO_0000056',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'healthcare organization service delivery ending statement',
+    label_fr: 'HOSO_0000056',
+    definition_en: 'A process ending statement that temporally qualifies the ending of a healthcare organisation service delivery.',
+    description: 'TABLE HOSO_0000056::HOSO_0000056::{en=healthcare organization service delivery ending statement, fr=HOSO_0000056}\n  {\n    HOSO_0000056_uid::HOSO_0000056_uid uid_domain::{en=uid healthcare organization service delivery ending statement, fr=uid HOSO_0000056}\n  } \nKEY {HOSO_0000056_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000044',
+    shortIri: 'HOSO_0000044',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'cadaver service',
+    label_fr: 'HOSO_0000044',
+    definition_en: 'A healthcare organization service delivery where the main entity of interest is a human cadaver that was not delivered just prior to this service.',
+    description: 'TABLE HOSO_0000044::HOSO_0000044::{en=cadaver service, fr=HOSO_0000044}\n  {\n    HOSO_0000044_uid::HOSO_0000044_uid uid_domain::{en=uid cadaver service, fr=uid HOSO_0000044}\n  } \nKEY {HOSO_0000044_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'IOIO_0000023',
+    shortIri: 'IOIO_0000023',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'living environment type',
+    label_fr: 'IOIO_0000023',
+    definition_en: 'An information content entity that aims at representing a type of living environment applicable to a primary residence.',
+    description: 'TABLE IOIO_0000023::IOIO_0000023::{en=living environment type, fr=IOIO_0000023}\n  {\n    IOIO_0000023_uid::IOIO_0000023_uid uid_domain::{en=uid living environment type, fr=uid IOIO_0000023}\n  } \nKEY {IOIO_0000023_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'IOIO_0000011',
+    shortIri: 'IOIO_0000011',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'human biological sex information content entity',
+    label_fr: 'IOIO_0000011',
+    definition_en: 'A biological sex information content entity that denotes the biological sex of a human.',
+    description: 'TABLE IOIO_0000011::IOIO_0000011::{en=human biological sex information content entity, fr=IOIO_0000011}\n  {\n    IOIO_0000011_uid::IOIO_0000011_uid uid_domain::{en=uid human biological sex information content entity, fr=uid IOIO_0000011}\n  } \nKEY {IOIO_0000011_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'BFO_0000040',
+    shortIri: 'BFO_0000040',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'material',
+    label_fr: 'BFO_0000040',
+    definition_en: 'MaterialEntity',
+    description: 'TABLE BFO_0000040::BFO_0000040::{en=material, fr=BFO_0000040}\n  {\n    BFO_0000040_uid::BFO_0000040_uid uid_domain::{en=uid material, fr=uid BFO_0000040}\n  } \nKEY {BFO_0000040_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HEPRO_0000100',
+    shortIri: 'HEPRO_0000100',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'health activity identifier',
+    label_fr: 'HEPRO_0000100',
+    definition_en: 'An identifier that denotes a health activity.',
+    description: 'TABLE HEPRO_0000100::HEPRO_0000100::{en=health activity identifier, fr=HEPRO_0000100}\n  {\n    HEPRO_0000100_uid::HEPRO_0000100_uid uid_domain::{en=uid health activity identifier, fr=uid HEPRO_0000100}\n  } \nKEY {HEPRO_0000100_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OpenLHS-Core_0000035',
+    shortIri: 'OpenLHS-Core_0000035',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'service agreement negotiation',
+    label_fr: 'OpenLHS-Core_0000035',
+    definition_en: 'A planned process of interaction between a request party and a service offer party having as specified input some request and some service offer and that aims to generate as output a service agreement.',
+    description: 'TABLE OpenLHS-Core_0000035::OpenLHS-Core_0000035::{en=service agreement negotiation, fr=OpenLHS-Core_0000035}\n  {\n    OpenLHS-Core_0000035_uid::OpenLHS-Core_0000035_uid uid_domain::{en=uid service agreement negotiation, fr=uid OpenLHS-Core_0000035}\n  } \nKEY {OpenLHS-Core_0000035_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'MPHPO_0000007',
+    shortIri: 'MPHPO_0000007',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'MPHPO hospitalization admission urgency level specification ',
+    label_fr: 'MPHPO_0000007',
+    description: 'TABLE MPHPO_0000007::MPHPO_0000007::{en=MPHPO hospitalization admission urgency level specification , fr=MPHPO_0000007}\n  {\n    MPHPO_0000007_uid::MPHPO_0000007_uid uid_domain::{en=uid MPHPO hospitalization admission urgency level specification , fr=uid MPHPO_0000007}\n  } \nKEY {MPHPO_0000007_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OpenLHS-Core_0000023',
+    shortIri: 'OpenLHS-Core_0000023',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'canadian forward sorting area code',
+    label_fr: 'OpenLHS-Core_0000023',
+    definition_en: 'An identifier that denotes a geographical region on which is based the first three characters of a Canadian postal code.',
+    description: 'TABLE OpenLHS-Core_0000023::OpenLHS-Core_0000023::{en=canadian forward sorting area code, fr=OpenLHS-Core_0000023}\n  {\n    OpenLHS-Core_0000023_uid::OpenLHS-Core_0000023_uid uid_domain::{en=uid canadian forward sorting area code, fr=uid OpenLHS-Core_0000023}\n  } \nKEY {OpenLHS-Core_0000023_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'MPHPO_0000019',
+    shortIri: 'MPHPO_0000019',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'MPHPO centrally registered identifier registry',
+    label_fr: 'MPHPO_0000019',
+    description: 'TABLE MPHPO_0000019::MPHPO_0000019::{en=MPHPO centrally registered identifier registry, fr=MPHPO_0000019}\n  {\n    MPHPO_0000019_uid::MPHPO_0000019_uid uid_domain::{en=uid MPHPO centrally registered identifier registry, fr=uid MPHPO_0000019}\n  } \nKEY {MPHPO_0000019_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OpenLHS-Core_0000011',
+    shortIri: 'OpenLHS-Core_0000011',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'government sanctioned statement',
+    label_fr: 'OpenLHS-Core_0000011',
+    definition_en: 'A pragmatically accepted statement authored by a governement or a related organization such that if this organization acts upon it, it will treat it as true.',
+    description: 'TABLE OpenLHS-Core_0000011::OpenLHS-Core_0000011::{en=government sanctioned statement, fr=OpenLHS-Core_0000011}\n  {\n    OpenLHS-Core_0000011_uid::OpenLHS-Core_0000011_uid uid_domain::{en=uid government sanctioned statement, fr=uid OpenLHS-Core_0000011}\n  } \nKEY {OpenLHS-Core_0000011_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000120',
+    shortIri: 'HOSO_0000120',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'canadian healthcare facility postal code',
+    label_fr: 'HOSO_0000120',
+    definition_en: 'A canadian postal code that denotes a geographical region where a canadian healthcare facility is located.',
+    description: 'TABLE HOSO_0000120::HOSO_0000120::{en=canadian healthcare facility postal code, fr=HOSO_0000120}\n  {\n    HOSO_0000120_uid::HOSO_0000120_uid uid_domain::{en=uid canadian healthcare facility postal code, fr=uid HOSO_0000120}\n  } \nKEY {HOSO_0000120_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000047',
+    shortIri: 'HOSO_0000047',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'visit transfer specification',
+    label_fr: 'HOSO_0000047',
+    definition_en: 'A visit discharge specification that aims at directing to which healthcare organisation the patient should be transferred after the end of the current visit.',
+    description: 'TABLE HOSO_0000047::HOSO_0000047::{en=visit transfer specification, fr=HOSO_0000047}\n  {\n    HOSO_0000047_uid::HOSO_0000047_uid uid_domain::{en=uid visit transfer specification, fr=uid HOSO_0000047}\n  } \nKEY {HOSO_0000047_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000035',
+    shortIri: 'HOSO_0000035',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'walk-in clinic visit',
+    label_fr: 'HOSO_0000035',
+    definition_en: 'An outpatient visit where there is expectation of providing unplanned, timely care, but excluding handling life-threatening conditions.',
+    description: 'TABLE HOSO_0000035::HOSO_0000035::{en=walk-in clinic visit, fr=HOSO_0000035}\n  {\n    HOSO_0000035_uid::HOSO_0000035_uid uid_domain::{en=uid walk-in clinic visit, fr=uid HOSO_0000035}\n  } \nKEY {HOSO_0000035_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'NCBITaxon_2157',
+    shortIri: 'NCBITaxon_2157',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'Archaea',
+    label_fr: 'NCBITaxon_2157',
+    description: 'TABLE NCBITaxon_2157::NCBITaxon_2157::{en=Archaea, fr=NCBITaxon_2157}\n  {\n    NCBITaxon_2157_uid::NCBITaxon_2157_uid uid_domain::{en=uid Archaea, fr=uid NCBITaxon_2157}\n  } \nKEY {NCBITaxon_2157_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000023',
+    shortIri: 'HOSO_0000023',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'healthcare organization identifier',
+    label_fr: 'HOSO_0000023',
+    definition_en: 'An identifier that denotes a healthcare organization.',
+    description: 'TABLE HOSO_0000023::HOSO_0000023::{en=healthcare organization identifier, fr=HOSO_0000023}\n  {\n    HOSO_0000023_uid::HOSO_0000023_uid uid_domain::{en=uid healthcare organization identifier, fr=uid HOSO_0000023}\n  } \nKEY {HOSO_0000023_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000011',
+    shortIri: 'HOSO_0000011',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'healthcare organization service delivery',
+    label_fr: 'HOSO_0000011',
+    definition_en: 'A service delivery under the responsibility of a healthcare organisation. It stems from an agreement between a requesting agent and a healthcare organization.',
+    description: 'TABLE HOSO_0000011::HOSO_0000011::{en=healthcare organization service delivery, fr=HOSO_0000011}\n  {\n    HOSO_0000011_uid::HOSO_0000011_uid uid_domain::{en=uid healthcare organization service delivery, fr=uid HOSO_0000011}\n  } \nKEY {HOSO_0000011_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'IAO_0000578',
+    shortIri: 'IAO_0000578',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'centrally registered identifier',
+    label_fr: 'IAO_0000578',
+    definition_en: 'An information content entity that consists of a CRID symbol and additional information about the CRID registry to which it belongs.',
+    description: 'TABLE IAO_0000578::IAO_0000578::{en=centrally registered identifier, fr=IAO_0000578}\n  {\n    IAO_0000578_uid::IAO_0000578_uid uid_domain::{en=uid centrally registered identifier, fr=uid IAO_0000578}\n  } \nKEY {IAO_0000578_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'BFO_0000015',
+    shortIri: 'BFO_0000015',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'process',
+    label_fr: 'BFO_0000015',
+    definition_en: 'Process',
+    description: 'TABLE BFO_0000015::BFO_0000015::{en=process, fr=BFO_0000015}\n  {\n    BFO_0000015_uid::BFO_0000015_uid uid_domain::{en=uid process, fr=uid BFO_0000015}\n  } \nKEY {BFO_0000015_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'IOIO_0000020',
+    shortIri: 'IOIO_0000020',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'human birth date',
+    label_fr: 'IOIO_0000020',
+    definition_en: 'A human birth temporal information that denotes a time interval of one day as defined in a calendar accepted in a human society.',
+    description: 'TABLE IOIO_0000020::IOIO_0000020::{en=human birth date, fr=IOIO_0000020}\n  {\n    IOIO_0000020_uid::IOIO_0000020_uid uid_domain::{en=uid human birth date, fr=uid IOIO_0000020}\n  } \nKEY {IOIO_0000020_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'BFO_0000027',
+    shortIri: 'BFO_0000027',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'object-aggregate',
+    label_fr: 'BFO_0000027',
+    definition_en: 'ObjectAggregate',
+    description: 'TABLE BFO_0000027::BFO_0000027::{en=object-aggregate, fr=BFO_0000027}\n  {\n    BFO_0000027_uid::BFO_0000027_uid uid_domain::{en=uid object-aggregate, fr=uid BFO_0000027}\n  } \nKEY {BFO_0000027_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'IAO_0000300',
+    shortIri: 'IAO_0000300',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'textual entity',
+    label_fr: 'IAO_0000300',
+    definition_en: 'A textual entity is a part of a manifestation (FRBR sense), a generically dependent continuant whose concretizations are patterns of glyphs intended to be interpreted as words, formulas, etc.',
+    description: 'TABLE IAO_0000300::IAO_0000300::{en=textual entity, fr=IAO_0000300}\n  {\n    IAO_0000300_uid::IAO_0000300_uid uid_domain::{en=uid textual entity, fr=uid IAO_0000300}\n  } \nKEY {IAO_0000300_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HEPRO_0000016',
+    shortIri: 'HEPRO_0000016',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'health activity sub-group name',
+    label_fr: 'HEPRO_0000016',
+    definition_en: 'An information content entity that is about a sub-group of health activities.',
+    description: 'TABLE HEPRO_0000016::HEPRO_0000016::{en=health activity sub-group name, fr=HEPRO_0000016}\n  {\n    HEPRO_0000016_uid::HEPRO_0000016_uid uid_domain::{en=uid health activity sub-group name, fr=uid HEPRO_0000016}\n  } \nKEY {HEPRO_0000016_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HEPRO_0000125',
+    shortIri: 'HEPRO_0000125',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'pathological condition presence statement',
+    label_fr: 'HEPRO_0000125',
+    definition_en: 'A pragmatically accepted statement that states the presence of a pathological condition for an organism.',
+    description: 'TABLE HEPRO_0000125::HEPRO_0000125::{en=pathological condition presence statement, fr=HEPRO_0000125}\n  {\n    HEPRO_0000125_uid::HEPRO_0000125_uid uid_domain::{en=uid pathological condition presence statement, fr=uid HEPRO_0000125}\n  } \nKEY {HEPRO_0000125_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'BFO_0000148',
+    shortIri: 'BFO_0000148',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: '0d-t-region',
+    label_fr: 'BFO_0000148',
+    definition_en: 'ZeroDimensionalTemporalRegion',
+    description: 'TABLE BFO_0000148::BFO_0000148::{en=0d-t-region, fr=BFO_0000148}\n  {\n    BFO_0000148_uid::BFO_0000148_uid uid_domain::{en=uid 0d-t-region, fr=uid BFO_0000148}\n  } \nKEY {BFO_0000148_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'BFO_0000003',
+    shortIri: 'BFO_0000003',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'occurrent',
+    label_fr: 'BFO_0000003',
+    definition_en: 'Occurrent',
+    description: 'TABLE BFO_0000003::BFO_0000003::{en=occurrent, fr=BFO_0000003}\n  {\n    BFO_0000003_uid::BFO_0000003_uid uid_domain::{en=uid occurrent, fr=uid BFO_0000003}\n  } \nKEY {BFO_0000003_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HEPRO_0000004',
+    shortIri: 'HEPRO_0000004',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'health procedure',
+    label_fr: 'HEPRO_0000004',
+    definition_en: '- A planned process that is maximally directed by a health procedure specification.\n- A planned process that is guided by the objective of contributing to a desired effect on the health status of an organism or several organisms achieved through the treatment, diagnosis, or prevention of disease or injury.',
+    description: 'TABLE HEPRO_0000004::HEPRO_0000004::{en=health procedure, fr=HEPRO_0000004}\n  {\n    HEPRO_0000004_uid::HEPRO_0000004_uid uid_domain::{en=uid health procedure, fr=uid HEPRO_0000004}\n  } \nKEY {HEPRO_0000004_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OpenLHS-Core_0000010',
+    shortIri: 'OpenLHS-Core_0000010',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'pragmatically accepted statement',
+    label_fr: 'OpenLHS-Core_0000010',
+    definition_en: 'A statement for which there is at least one contributor such that if it/he acts upon it, it/he will treat it as true.',
+    description: 'TABLE OpenLHS-Core_0000010::OpenLHS-Core_0000010::{en=pragmatically accepted statement, fr=OpenLHS-Core_0000010}\n  {\n    OpenLHS-Core_0000010_uid::OpenLHS-Core_0000010_uid uid_domain::{en=uid pragmatically accepted statement, fr=uid OpenLHS-Core_0000010}\n  } \nKEY {OpenLHS-Core_0000010_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OpenLHS-Core_0000034',
+    shortIri: 'OpenLHS-Core_0000034',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'process ending statement',
+    label_fr: 'OpenLHS-Core_0000034',
+    definition_en: 'A process temporally qualifying statement qualifying temporally the ending of a process.',
+    description: 'TABLE OpenLHS-Core_0000034::OpenLHS-Core_0000034::{en=process ending statement, fr=OpenLHS-Core_0000034}\n  {\n    OpenLHS-Core_0000034_uid::OpenLHS-Core_0000034_uid uid_domain::{en=uid process ending statement, fr=uid OpenLHS-Core_0000034}\n  } \nKEY {OpenLHS-Core_0000034_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OpenLHS-Core_0000022',
+    shortIri: 'OpenLHS-Core_0000022',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'canadian first-order administrative region identifier',
+    label_fr: 'OpenLHS-Core_0000022',
+    definition_en: 'An identifier that denotes a Canadian province or a Canadian territory.',
+    description: 'TABLE OpenLHS-Core_0000022::OpenLHS-Core_0000022::{en=canadian first-order administrative region identifier, fr=OpenLHS-Core_0000022}\n  {\n    OpenLHS-Core_0000022_uid::OpenLHS-Core_0000022_uid uid_domain::{en=uid canadian first-order administrative region identifier, fr=uid OpenLHS-Core_0000022}\n  } \nKEY {OpenLHS-Core_0000022_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000010',
+    shortIri: 'HOSO_0000010',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'healthcare procedure',
+    label_fr: 'HOSO_0000010',
+    definition_en: 'A health procedure that is part of a healthcare service delivery and that is performed by a healthcare worker while realizing its health care worker role.',
+    description: 'TABLE HOSO_0000010::HOSO_0000010::{en=healthcare procedure, fr=HOSO_0000010}\n  {\n    HOSO_0000010_uid::HOSO_0000010_uid uid_domain::{en=uid healthcare procedure, fr=uid HOSO_0000010}\n  } \nKEY {HOSO_0000010_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000046',
+    shortIri: 'HOSO_0000046',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'visit discharge specification',
+    label_fr: 'HOSO_0000046',
+    definition_en: 'A directive information entity that aims at directing what health procedures or healthcare organization services are recommended after this visit.',
+    description: 'TABLE HOSO_0000046::HOSO_0000046::{en=visit discharge specification, fr=HOSO_0000046}\n  {\n    HOSO_0000046_uid::HOSO_0000046_uid uid_domain::{en=uid visit discharge specification, fr=uid HOSO_0000046}\n  } \nKEY {HOSO_0000046_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000034',
+    shortIri: 'HOSO_0000034',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'emergency department outpatient visit',
+    label_fr: 'HOSO_0000034',
+    definition_en: 'An emergency department visit and an outpatient visit.',
+    description: 'TABLE HOSO_0000034::HOSO_0000034::{en=emergency department outpatient visit, fr=HOSO_0000034}\n  {\n    HOSO_0000034_uid::HOSO_0000034_uid uid_domain::{en=uid emergency department outpatient visit, fr=uid HOSO_0000034}\n  } \nKEY {HOSO_0000034_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000022',
+    shortIri: 'HOSO_0000022',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'healthcare facility identifier',
+    label_fr: 'HOSO_0000022',
+    definition_en: 'An identifier that denotes a building administered by a healthcare organization for the purpose of providing healthcare to a patient or patient population.',
+    description: 'TABLE HOSO_0000022::HOSO_0000022::{en=healthcare facility identifier, fr=HOSO_0000022}\n  {\n    HOSO_0000022_uid::HOSO_0000022_uid uid_domain::{en=uid healthcare facility identifier, fr=uid HOSO_0000022}\n  } \nKEY {HOSO_0000022_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'IAO_0000577',
+    shortIri: 'IAO_0000577',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'centrally registered identifier symbol',
+    label_fr: 'IAO_0000577',
+    definition_en: 'A symbol that is part of a CRID and that is sufficient to look up a record from the CRID"s registry.',
+    description: 'TABLE IAO_0000577::IAO_0000577::{en=centrally registered identifier symbol, fr=IAO_0000577}\n  {\n    IAO_0000577_uid::IAO_0000577_uid uid_domain::{en=uid centrally registered identifier symbol, fr=uid IAO_0000577}\n  } \nKEY {IAO_0000577_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'IOIO_0000021',
+    shortIri: 'IOIO_0000021',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'human death date',
+    label_fr: 'IOIO_0000021',
+    definition_en: 'A human death temporal information that denotes a time interval of one day as defined in a calendar accepted in a human society.',
+    description: 'TABLE IOIO_0000021::IOIO_0000021::{en=human death date, fr=IOIO_0000021}\n  {\n    IOIO_0000021_uid::IOIO_0000021_uid uid_domain::{en=uid human death date, fr=uid IOIO_0000021}\n  } \nKEY {IOIO_0000021_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'BFO_0000026',
+    shortIri: 'BFO_0000026',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: '1d-s-region',
+    label_fr: 'BFO_0000026',
+    definition_en: 'OneDimensionalSpatialRegion',
+    description: 'TABLE BFO_0000026::BFO_0000026::{en=1d-s-region, fr=BFO_0000026}\n  {\n    BFO_0000026_uid::BFO_0000026_uid uid_domain::{en=uid 1d-s-region, fr=uid BFO_0000026}\n  } \nKEY {BFO_0000026_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OGMS_0000031',
+    shortIri: 'OGMS_0000031',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'disease',
+    label_fr: 'OGMS_0000031',
+    definition_en: 'A disposition (i) to undergo pathological processes that (ii) exists in an organism because of one or more disorders in that organism.',
+    description: 'TABLE OGMS_0000031::OGMS_0000031::{en=disease, fr=OGMS_0000031}\n  {\n    OGMS_0000031_uid::OGMS_0000031_uid uid_domain::{en=uid disease, fr=uid OGMS_0000031}\n  } \nKEY {OGMS_0000031_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'BFO_0000002',
+    shortIri: 'BFO_0000002',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'continuant',
+    label_fr: 'BFO_0000002',
+    definition_en: 'Continuant',
+    description: 'TABLE BFO_0000002::BFO_0000002::{en=continuant, fr=BFO_0000002}\n  {\n    BFO_0000002_uid::BFO_0000002_uid uid_domain::{en=uid continuant, fr=uid BFO_0000002}\n  } \nKEY {BFO_0000002_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'BFO_0000038',
+    shortIri: 'BFO_0000038',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: '1d-t-region',
+    label_fr: 'BFO_0000038',
+    definition_en: 'OneDimensionalTemporalRegion',
+    description: 'TABLE BFO_0000038::BFO_0000038::{en=1d-t-region, fr=BFO_0000038}\n  {\n    BFO_0000038_uid::BFO_0000038_uid uid_domain::{en=uid 1d-t-region, fr=uid BFO_0000038}\n  } \nKEY {BFO_0000038_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HEPRO_0000003',
+    shortIri: 'HEPRO_0000003',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'health procedure report',
+    label_fr: 'HEPRO_0000003',
+    definition_en: 'An information content entity containing information about some health procedure requests and possibly the associated health procedures.',
+    description: 'TABLE HEPRO_0000003::HEPRO_0000003::{en=health procedure report, fr=HEPRO_0000003}\n  {\n    HEPRO_0000003_uid::HEPRO_0000003_uid uid_domain::{en=uid health procedure report, fr=uid HEPRO_0000003}\n  } \nKEY {HEPRO_0000003_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'BFO_0000147',
+    shortIri: 'BFO_0000147',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'zero-dimensional continuant fiat boundary',
+    label_fr: 'BFO_0000147',
+    definition_en: 'ZeroDimensionalContinuantFiatBoundary',
+    description: 'TABLE BFO_0000147::BFO_0000147::{en=zero-dimensional continuant fiat boundary, fr=BFO_0000147}\n  {\n    BFO_0000147_uid::BFO_0000147_uid uid_domain::{en=uid zero-dimensional continuant fiat boundary, fr=uid BFO_0000147}\n  } \nKEY {BFO_0000147_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HEPRO_0000015',
+    shortIri: 'HEPRO_0000015',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'health procedure sub-group name',
+    label_fr: 'HEPRO_0000015',
+    definition_en: 'An information content entity that is about a sub-group of health procedures.',
+    description: 'TABLE HEPRO_0000015::HEPRO_0000015::{en=health procedure sub-group name, fr=HEPRO_0000015}\n  {\n    HEPRO_0000015_uid::HEPRO_0000015_uid uid_domain::{en=uid health procedure sub-group name, fr=uid HEPRO_0000015}\n  } \nKEY {HEPRO_0000015_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HEPRO_0000001',
+    shortIri: 'HEPRO_0000001',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'health procedure request',
+    label_fr: 'HEPRO_0000001',
+    definition_en: 'A request requesting the execution of some health procedure.',
+    description: 'TABLE HEPRO_0000001::HEPRO_0000001::{en=health procedure request, fr=HEPRO_0000001}\n  {\n    HEPRO_0000001_uid::HEPRO_0000001_uid uid_domain::{en=uid health procedure request, fr=uid HEPRO_0000001}\n  } \nKEY {HEPRO_0000001_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OpenLHS-Core_0000021',
+    shortIri: 'OpenLHS-Core_0000021',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'canadian census subdivision identifier',
+    label_fr: 'OpenLHS-Core_0000021',
+    definition_en: 'An identifier that denotes a Canadian municipality (as determined by provincial/territorial legislation) or a Canadian area treated as a municipal equivalent for statistical purposes (e.g., Indian reserves, Indian settlements and unorganized territories).',
+    description: 'TABLE OpenLHS-Core_0000021::OpenLHS-Core_0000021::{en=canadian census subdivision identifier, fr=OpenLHS-Core_0000021}\n  {\n    OpenLHS-Core_0000021_uid::OpenLHS-Core_0000021_uid uid_domain::{en=uid canadian census subdivision identifier, fr=uid OpenLHS-Core_0000021}\n  } \nKEY {OpenLHS-Core_0000021_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HEPRO_0000013',
+    shortIri: 'HEPRO_0000013',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'diagnostic health procedure',
+    label_fr: 'HEPRO_0000013',
+    definition_en: 'A health procedure that include a diagnostic procedure - TBD.',
+    description: 'TABLE HEPRO_0000013::HEPRO_0000013::{en=diagnostic health procedure, fr=HEPRO_0000013}\n  {\n    HEPRO_0000013_uid::HEPRO_0000013_uid uid_domain::{en=uid diagnostic health procedure, fr=uid HEPRO_0000013}\n  } \nKEY {HEPRO_0000013_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'MPHPO_0000009',
+    shortIri: 'MPHPO_0000009',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'MPHPO human birth date',
+    label_fr: 'MPHPO_0000009',
+    description: 'TABLE MPHPO_0000009::MPHPO_0000009::{en=MPHPO human birth date, fr=MPHPO_0000009}\n  {\n    MPHPO_0000009_uid::MPHPO_0000009_uid uid_domain::{en=uid MPHPO human birth date, fr=uid MPHPO_0000009}\n  } \nKEY {MPHPO_0000009_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OpenLHS-Core_0000057',
+    shortIri: 'OpenLHS-Core_0000057',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'unit',
+    label_fr: 'OpenLHS-Core_0000057',
+    description: 'TABLE OpenLHS-Core_0000057::OpenLHS-Core_0000057::{en=unit, fr=OpenLHS-Core_0000057}\n  {\n    OpenLHS-Core_0000057_uid::OpenLHS-Core_0000057_uid uid_domain::{en=uid unit, fr=uid OpenLHS-Core_0000057}\n  } \nKEY {OpenLHS-Core_0000057_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OpenLHS-Core_0000045',
+    shortIri: 'OpenLHS-Core_0000045',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'temporal qualification of the disappearance of a plan to act as if some statement was true',
+    label_fr: 'OpenLHS-Core_0000045',
+    definition_en: 'A continuant disappearance statement that temporally qualifies the disappearance of a plan to act as if some statement was true.',
+    description: 'TABLE OpenLHS-Core_0000045::OpenLHS-Core_0000045::{en=temporal qualification of the disappearance of a plan to act as if some statement was true, fr=OpenLHS-Core_0000045}\n  {\n    OpenLHS-Core_0000045_uid::OpenLHS-Core_0000045_uid uid_domain::{en=uid temporal qualification of the disappearance of a plan to act as if some statement was true, fr=uid OpenLHS-Core_0000045}\n  } \nKEY {OpenLHS-Core_0000045_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OpenLHS-Core_0000033',
+    shortIri: 'OpenLHS-Core_0000033',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'process beginning statement',
+    label_fr: 'OpenLHS-Core_0000033',
+    definition_en: 'A process temporally qualifying statement qualifying temporally the beginning of a process.',
+    description: 'TABLE OpenLHS-Core_0000033::OpenLHS-Core_0000033::{en=process beginning statement, fr=OpenLHS-Core_0000033}\n  {\n    OpenLHS-Core_0000033_uid::OpenLHS-Core_0000033_uid uid_domain::{en=uid process beginning statement, fr=uid OpenLHS-Core_0000033}\n  } \nKEY {OpenLHS-Core_0000033_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OBI_0000011',
+    shortIri: 'OBI_0000011',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'planned process',
+    label_fr: 'OBI_0000011',
+    definition_en: 'A process that realizes a plan which is the concretization of a plan specification.',
+    description: 'TABLE OBI_0000011::OBI_0000011::{en=planned process, fr=OBI_0000011}\n  {\n    OBI_0000011_uid::OBI_0000011_uid uid_domain::{en=uid planned process, fr=uid OBI_0000011}\n  } \nKEY {OBI_0000011_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000081',
+    shortIri: 'HOSO_0000081',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'patient',
+    label_fr: 'HOSO_0000081',
+    definition_en: 'An eukaryote that is the bearer of a patient role.',
+    description: 'TABLE HOSO_0000081::HOSO_0000081::{en=patient, fr=HOSO_0000081}\n  {\n    HOSO_0000081_uid::HOSO_0000081_uid uid_domain::{en=uid patient, fr=uid HOSO_0000081}\n  } \nKEY {HOSO_0000081_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'BFO_0000182',
+    shortIri: 'BFO_0000182',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'history',
+    label_fr: 'BFO_0000182',
+    definition_en: 'History',
+    description: 'TABLE BFO_0000182::BFO_0000182::{en=history, fr=BFO_0000182}\n  {\n    BFO_0000182_uid::BFO_0000182_uid uid_domain::{en=uid history, fr=uid BFO_0000182}\n  } \nKEY {BFO_0000182_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000013',
+    shortIri: 'HOSO_0000013',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'ancillary care service delivery',
+    label_fr: 'HOSO_0000013',
+    definition_en: 'A service delivery that aims to support health services without directly providing a desired effect on the health status of individuals or communities.',
+    description: 'TABLE HOSO_0000013::HOSO_0000013::{en=ancillary care service delivery, fr=HOSO_0000013}\n  {\n    HOSO_0000013_uid::HOSO_0000013_uid uid_domain::{en=uid ancillary care service delivery, fr=uid HOSO_0000013}\n  } \nKEY {HOSO_0000013_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000122',
+    shortIri: 'HOSO_0000122',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'canadian healthcare facility forward sorting area code',
+    label_fr: 'HOSO_0000122',
+    definition_en: 'A canadian forward sorting area code that denotes a geographical region where a canadian healthcare facility is located.',
+    description: 'TABLE HOSO_0000122::HOSO_0000122::{en=canadian healthcare facility forward sorting area code, fr=HOSO_0000122}\n  {\n    HOSO_0000122_uid::HOSO_0000122_uid uid_domain::{en=uid canadian healthcare facility forward sorting area code, fr=uid HOSO_0000122}\n  } \nKEY {HOSO_0000122_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000049',
+    shortIri: 'HOSO_0000049',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'visit discharge specification for home',
+    label_fr: 'HOSO_0000049',
+    definition_en: 'A visit discharge specification for a given clinical visit that has no visit transfer specification.',
+    description: 'TABLE HOSO_0000049::HOSO_0000049::{en=visit discharge specification for home, fr=HOSO_0000049}\n  {\n    HOSO_0000049_uid::HOSO_0000049_uid uid_domain::{en=uid visit discharge specification for home, fr=uid HOSO_0000049}\n  } \nKEY {HOSO_0000049_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000037',
+    shortIri: 'HOSO_0000037',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'outpatient diagnostic visit',
+    label_fr: 'HOSO_0000037',
+    definition_en: 'An outpatient visit which includes a diagnostic procedure.',
+    description: 'TABLE HOSO_0000037::HOSO_0000037::{en=outpatient diagnostic visit, fr=HOSO_0000037}\n  {\n    HOSO_0000037_uid::HOSO_0000037_uid uid_domain::{en=uid outpatient diagnostic visit, fr=uid HOSO_0000037}\n  } \nKEY {HOSO_0000037_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OGMS_0000020',
+    shortIri: 'OGMS_0000020',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'symptom',
+    label_fr: 'OGMS_0000020',
+    definition_en: 'A process experienced by the patient, which can only be experienced by the patient, that is hypothesized to be clinically relevant.',
+    description: 'TABLE OGMS_0000020::OGMS_0000020::{en=symptom, fr=OGMS_0000020}\n  {\n    OGMS_0000020_uid::OGMS_0000020_uid uid_domain::{en=uid symptom, fr=uid OGMS_0000020}\n  } \nKEY {OGMS_0000020_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OGMS_0000141',
+    shortIri: 'OGMS_0000141',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'processual sign',
+    label_fr: 'OGMS_0000141',
+    definition_en: 'An abnormal processual entity occuring in a patient that is hypothesized to be clinically relevant.',
+    description: 'TABLE OGMS_0000141::OGMS_0000141::{en=processual sign, fr=OGMS_0000141}\n  {\n    OGMS_0000141_uid::OGMS_0000141_uid uid_domain::{en=uid processual sign, fr=uid OGMS_0000141}\n  } \nKEY {OGMS_0000141_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OMRSE_00000210',
+    shortIri: 'OMRSE_00000210',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'female gender identity information content entity',
+    label_fr: 'OMRSE_00000210',
+    definition_en: 'A gender identity information content entity that is about some person"s identifying as female in gender.',
+    description: 'TABLE OMRSE_00000210::OMRSE_00000210::{en=female gender identity information content entity, fr=OMRSE_00000210}\n  {\n    OMRSE_00000210_uid::OMRSE_00000210_uid uid_domain::{en=uid female gender identity information content entity, fr=uid OMRSE_00000210}\n  } \nKEY {OMRSE_00000210_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'IOIO_0000030',
+    shortIri: 'IOIO_0000030',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'human age at a specified temporal region',
+    label_fr: 'IOIO_0000030',
+    definition_en: 'An information content entity that is about the size of the 1-D temporal region that overlaps with both the temporal region denoted by a human birth temporal information and the specified temporal region.',
+    description: 'TABLE IOIO_0000030::IOIO_0000030::{en=human age at a specified temporal region, fr=IOIO_0000030}\n  {\n    IOIO_0000030_uid::IOIO_0000030_uid uid_domain::{en=uid human age at a specified temporal region, fr=uid IOIO_0000030}\n  } \nKEY {IOIO_0000030_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'BFO_0000017',
+    shortIri: 'BFO_0000017',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'realizable entity',
+    label_fr: 'BFO_0000017',
+    definition_en: 'RealizableEntity',
+    description: 'TABLE BFO_0000017::BFO_0000017::{en=realizable entity, fr=BFO_0000017}\n  {\n    BFO_0000017_uid::BFO_0000017_uid uid_domain::{en=uid realizable entity, fr=uid BFO_0000017}\n  } \nKEY {BFO_0000017_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'BFO_0000029',
+    shortIri: 'BFO_0000029',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'site',
+    label_fr: 'BFO_0000029',
+    definition_en: 'Site',
+    description: 'TABLE BFO_0000029::BFO_0000029::{en=site, fr=BFO_0000029}\n  {\n    BFO_0000029_uid::BFO_0000029_uid uid_domain::{en=uid site, fr=uid BFO_0000029}\n  } \nKEY {BFO_0000029_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HEPRO_0000014',
+    shortIri: 'HEPRO_0000014',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'surgical health procedure',
+    label_fr: 'HEPRO_0000014',
+    definition_en: 'A health procedure that includes a surgical procedure - TBD.',
+    description: 'TABLE HEPRO_0000014::HEPRO_0000014::{en=surgical health procedure, fr=HEPRO_0000014}\n  {\n    HEPRO_0000014_uid::HEPRO_0000014_uid uid_domain::{en=uid surgical health procedure, fr=uid HEPRO_0000014}\n  } \nKEY {HEPRO_0000014_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HEPRO_0000012',
+    shortIri: 'HEPRO_0000012',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'health provider',
+    label_fr: 'HEPRO_0000012',
+    definition_en: 'An organism that is the bearer of a health provider role.',
+    description: 'TABLE HEPRO_0000012::HEPRO_0000012::{en=health provider, fr=HEPRO_0000012}\n  {\n    HEPRO_0000012_uid::HEPRO_0000012_uid uid_domain::{en=uid health provider, fr=uid HEPRO_0000012}\n  } \nKEY {HEPRO_0000012_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OpenLHS-Core_0000020',
+    shortIri: 'OpenLHS-Core_0000020',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'canadian postal address',
+    label_fr: 'OpenLHS-Core_0000020',
+    definition_en: 'A postal address that can be used to help the delivery of something in Canada.',
+    description: 'TABLE OpenLHS-Core_0000020::OpenLHS-Core_0000020::{en=canadian postal address, fr=OpenLHS-Core_0000020}\n  {\n    OpenLHS-Core_0000020_uid::OpenLHS-Core_0000020_uid uid_domain::{en=uid canadian postal address, fr=uid OpenLHS-Core_0000020}\n  } \nKEY {OpenLHS-Core_0000020_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OpenLHS-Core_0000056',
+    shortIri: 'OpenLHS-Core_0000056',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'unit qualified scalar specified value',
+    label_fr: 'OpenLHS-Core_0000056',
+    description: 'TABLE OpenLHS-Core_0000056::OpenLHS-Core_0000056::{en=unit qualified scalar specified value, fr=OpenLHS-Core_0000056}\n  {\n    OpenLHS-Core_0000056_uid::OpenLHS-Core_0000056_uid uid_domain::{en=uid unit qualified scalar specified value, fr=uid OpenLHS-Core_0000056}\n  } \nKEY {OpenLHS-Core_0000056_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'ONTORELA_C73b67cf5',
+    shortIri: 'ONTORELA_C73b67cf5',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'process\n and (realizes some agent plan to act as if some statement was true)',
+    label_fr: 'BFO_0000015\n and (BFO_0000055 some OpenLHS-Core_0000043)',
+    definition_en: 'pragmatically accepted statementProcess p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003]) A plan of an agent to act as if some statement was true.',
+    definition_fr: 'OpenLHS-Core_0000010',
+    description: 'TABLE ONTORELA_C73b67cf5::ONTORELA_C73b67cf5::{en=process\n and (realizes some agent plan to act as if some statement was true), fr=BFO_0000015\n and (BFO_0000055 some OpenLHS-Core_0000043)}\n  {\n    ONTORELA_C73b67cf5_uid::ONTORELA_C73b67cf5_uid uid_domain::{en=uid process\n and (realizes some agent plan to act as if some statement was true), fr=uid BFO_0000015\n and (BFO_0000055 some OpenLHS-Core_0000043)}\n  } \nKEY {ONTORELA_C73b67cf5_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OpenLHS-Core_0000044',
+    shortIri: 'OpenLHS-Core_0000044',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'temporal qualification of the appearance of a plan to act as if some statement was true',
+    label_fr: 'OpenLHS-Core_0000044',
+    definition_en: 'A continuant appearance statement that temporally qualifies the apparition of a plan to act as if some statement was true.',
+    description: 'TABLE OpenLHS-Core_0000044::OpenLHS-Core_0000044::{en=temporal qualification of the appearance of a plan to act as if some statement was true, fr=OpenLHS-Core_0000044}\n  {\n    OpenLHS-Core_0000044_uid::OpenLHS-Core_0000044_uid uid_domain::{en=uid temporal qualification of the appearance of a plan to act as if some statement was true, fr=uid OpenLHS-Core_0000044}\n  } \nKEY {OpenLHS-Core_0000044_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'NCBITaxon_9606',
+    shortIri: 'NCBITaxon_9606',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'Homo sapiens',
+    label_fr: 'NCBITaxon_9606',
+    description: 'TABLE NCBITaxon_9606::NCBITaxon_9606::{en=Homo sapiens, fr=NCBITaxon_9606}\n  {\n    NCBITaxon_9606_uid::NCBITaxon_9606_uid uid_domain::{en=uid Homo sapiens, fr=uid NCBITaxon_9606}\n  } \nKEY {NCBITaxon_9606_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000080',
+    shortIri: 'HOSO_0000080',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'living environment type prior to clinical visit statement',
+    label_fr: 'HOSO_0000080',
+    definition_en: 'A primary residence statement that states the type of living environment of a patient immediately prior to a clinical visit.',
+    description: 'TABLE HOSO_0000080::HOSO_0000080::{en=living environment type prior to clinical visit statement, fr=HOSO_0000080}\n  {\n    HOSO_0000080_uid::HOSO_0000080_uid uid_domain::{en=uid living environment type prior to clinical visit statement, fr=uid HOSO_0000080}\n  } \nKEY {HOSO_0000080_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'AgentCapability',
+    shortIri: 'AgentCapability',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'Agent Capability',
+    label_fr: 'AgentCapability',
+    definition_en: 'A Realizable Entity that inheres in an Agent to the extent of that Agent"s capacity to realize it in Intentional Acts of a certain type.',
+    description: 'TABLE AgentCapability::AgentCapability::{en=Agent Capability, fr=AgentCapability}\n  {\n    AgentCapability_uid::AgentCapability_uid uid_domain::{en=uid Agent Capability, fr=uid AgentCapability}\n  } \nKEY {AgentCapability_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000036',
+    shortIri: 'HOSO_0000036',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'outpatient surgery visit',
+    label_fr: 'HOSO_0000036',
+    definition_en: 'An outpatient visit which includes a surgical procedure.',
+    description: 'TABLE HOSO_0000036::HOSO_0000036::{en=outpatient surgery visit, fr=HOSO_0000036}\n  {\n    HOSO_0000036_uid::HOSO_0000036_uid uid_domain::{en=uid outpatient surgery visit, fr=uid HOSO_0000036}\n  } \nKEY {HOSO_0000036_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000145',
+    shortIri: 'HOSO_0000145',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'diagnosis related group',
+    label_fr: 'HOSO_0000145',
+    definition_en: 'An information content entity that aims at representing the various forms of care provided within the healthcare organization clinical visit as approximated by a case-mix group definition.',
+    description: 'TABLE HOSO_0000145::HOSO_0000145::{en=diagnosis related group, fr=HOSO_0000145}\n  {\n    HOSO_0000145_uid::HOSO_0000145_uid uid_domain::{en=uid diagnosis related group, fr=uid HOSO_0000145}\n  } \nKEY {HOSO_0000145_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000012',
+    shortIri: 'HOSO_0000012',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'healthcare organization clinical visit',
+    label_fr: 'HOSO_0000012',
+    definition_en: 'A healthcare organisation service delivery that aims at providing a desired effect on the health status of a specified organism. It is usually composed of health procedures and possibly associated ancillary processes.',
+    description: 'TABLE HOSO_0000012::HOSO_0000012::{en=healthcare organization clinical visit, fr=HOSO_0000012}\n  {\n    HOSO_0000012_uid::HOSO_0000012_uid uid_domain::{en=uid healthcare organization clinical visit, fr=uid HOSO_0000012}\n  } \nKEY {HOSO_0000012_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000121',
+    shortIri: 'HOSO_0000121',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'canadian healthcare organization postal code',
+    label_fr: 'HOSO_0000121',
+    definition_en: 'A canadian postal code that denotes a geographical region where postal payloads are to be delivered for a canadian healthcare organization.',
+    description: 'TABLE HOSO_0000121::HOSO_0000121::{en=canadian healthcare organization postal code, fr=HOSO_0000121}\n  {\n    HOSO_0000121_uid::HOSO_0000121_uid uid_domain::{en=uid canadian healthcare organization postal code, fr=uid HOSO_0000121}\n  } \nKEY {HOSO_0000121_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'IAO_0000422',
+    shortIri: 'IAO_0000422',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'postal address',
+    label_fr: 'IAO_0000422',
+    definition_en: 'A textual entity that is used as directive to deliver something to a person, or organization',
+    description: 'TABLE IAO_0000422::IAO_0000422::{en=postal address, fr=IAO_0000422}\n  {\n    IAO_0000422_uid::IAO_0000422_uid uid_domain::{en=uid postal address, fr=uid IAO_0000422}\n  } \nKEY {IAO_0000422_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'IAO_0000579',
+    shortIri: 'IAO_0000579',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'centrally registered identifier registry',
+    label_fr: 'IAO_0000579',
+    definition_en: 'A code set of CRID records, each consisting of a CRID symbol and additional information which was recorded in the code set through an assigning a centrally registered identifier process.',
+    description: 'TABLE IAO_0000579::IAO_0000579::{en=centrally registered identifier registry, fr=IAO_0000579}\n  {\n    IAO_0000579_uid::IAO_0000579_uid uid_domain::{en=uid centrally registered identifier registry, fr=uid IAO_0000579}\n  } \nKEY {IAO_0000579_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HOSO_0000048',
+    shortIri: 'HOSO_0000048',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'visit transfer specification category',
+    label_fr: 'HOSO_0000048',
+    definition_en: 'An information content entity that is part of a visit transfer specification and is about the type of healthcare organization specified.',
+    description: 'TABLE HOSO_0000048::HOSO_0000048::{en=visit transfer specification category, fr=HOSO_0000048}\n  {\n    HOSO_0000048_uid::HOSO_0000048_uid uid_domain::{en=uid visit transfer specification category, fr=uid HOSO_0000048}\n  } \nKEY {HOSO_0000048_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'BFO_0000004',
+    shortIri: 'BFO_0000004',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'independent continuant',
+    label_fr: 'BFO_0000004',
+    definition_en: 'b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])',
+    description: 'TABLE BFO_0000004::BFO_0000004::{en=independent continuant, fr=BFO_0000004}\n  {\n    BFO_0000004_uid::BFO_0000004_uid uid_domain::{en=uid independent continuant, fr=uid BFO_0000004}\n  } \nKEY {BFO_0000004_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'IOIO_0000031',
+    shortIri: 'IOIO_0000031',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'human age at a specified temporal region statement',
+    label_fr: 'IOIO_0000031',
+    definition_en: 'A  statement that includes an human identifier and the human age at a specified temporal region of the human denoted by the human identifier.',
+    description: 'TABLE IOIO_0000031::IOIO_0000031::{en=human age at a specified temporal region statement, fr=IOIO_0000031}\n  {\n    IOIO_0000031_uid::IOIO_0000031_uid uid_domain::{en=uid human age at a specified temporal region statement, fr=uid IOIO_0000031}\n  } \nKEY {IOIO_0000031_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'BFO_0000016',
+    shortIri: 'BFO_0000016',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'disposition',
+    label_fr: 'BFO_0000016',
+    definition_en: 'Disposition',
+    description: 'TABLE BFO_0000016::BFO_0000016::{en=disposition, fr=BFO_0000016}\n  {\n    BFO_0000016_uid::BFO_0000016_uid uid_domain::{en=uid disposition, fr=uid BFO_0000016}\n  } \nKEY {BFO_0000016_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'BFO_0000028',
+    shortIri: 'BFO_0000028',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'three-dimensional spatial region',
+    label_fr: 'BFO_0000028',
+    definition_en: 'ThreeDimensionalSpatialRegion',
+    description: 'TABLE BFO_0000028::BFO_0000028::{en=three-dimensional spatial region, fr=BFO_0000028}\n  {\n    BFO_0000028_uid::BFO_0000028_uid uid_domain::{en=uid three-dimensional spatial region, fr=uid BFO_0000028}\n  } \nKEY {BFO_0000028_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OGMS_0000142',
+    shortIri: 'OGMS_0000142',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'qualitative sign',
+    label_fr: 'OGMS_0000142',
+    definition_en: 'An abnormal observable quality of a part of a patient that is hypothesized to be clinically relevant.',
+    description: 'TABLE OGMS_0000142::OGMS_0000142::{en=qualitative sign, fr=OGMS_0000142}\n  {\n    OGMS_0000142_uid::OGMS_0000142_uid uid_domain::{en=uid qualitative sign, fr=uid OGMS_0000142}\n  } \nKEY {OGMS_0000142_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'HEPRO_0000025',
+    shortIri: 'HEPRO_0000025',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'health procedure agreement specification',
+    label_fr: 'HEPRO_0000025',
+    definition_en: 'A service agreement directive entity that aims to direct some health procedure.',
+    description: 'TABLE HEPRO_0000025::HEPRO_0000025::{en=health procedure agreement specification, fr=HEPRO_0000025}\n  {\n    HEPRO_0000025_uid::HEPRO_0000025_uid uid_domain::{en=uid health procedure agreement specification, fr=uid HEPRO_0000025}\n  } \nKEY {HEPRO_0000025_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'OGMS_0000045',
+    shortIri: 'OGMS_0000045',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'disorder',
+    label_fr: 'OGMS_0000045',
+    definition_en: 'A material entity which is clinically abnormal and part of an extended organism. Disorders are the physical basis of disease.',
+    description: 'TABLE OGMS_0000045::OGMS_0000045::{en=disorder, fr=OGMS_0000045}\n  {\n    OGMS_0000045_uid::OGMS_0000045_uid uid_domain::{en=uid disorder, fr=uid OGMS_0000045}\n  } \nKEY {OGMS_0000045_uid} \n'
+});
+
+CREATE (n:OntoClass:Relvar {
+    relId: 'IAO_0000030',
+    shortIri: 'IAO_0000030',
+    schemaId: 'MPHPO',
+    origin: 'ONTOCLASS',
+    label_en: 'information content entity',
+    label_fr: 'IAO_0000030',
+    definition_en: 'A generically dependent continuant that is about some thing.',
+    description: 'TABLE IAO_0000030::IAO_0000030::{en=information content entity, fr=IAO_0000030}\n  {\n    IAO_0000030_uid::IAO_0000030_uid uid_domain::{en=uid information content entity, fr=uid IAO_0000030}\n  } \nKEY {IAO_0000030_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'BFO_0000050',
+    shortIri: 'BFO_0000050',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'part of',
+    label_fr: 'BFO_0000050',
+    definition_en: 'a core relation that holds between a part and its whole',
+    description: 'JOINTABLE BFO_0000050::BFO_0000050::{en=part of, fr=BFO_0000050}\nThing::Thing JOIN Thing::Thing\n  {\n    domain_Thing_uid::domain_Thing_uid uid_domain::{en=domain_uid Thing, fr=domain_uid Chose}\n    range_Thing_uid::range_Thing_uid uid_domain::{en=range_uid Thing, fr=range_uid Chose}\n  } \nKEY {domain_Thing_uid, range_Thing_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'BFO_0000051',
+    shortIri: 'BFO_0000051',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'has part',
+    label_fr: 'BFO_0000051',
+    definition_en: 'a core relation that holds between a whole and its part',
+    description: 'JOINTABLE BFO_0000051::BFO_0000051::{en=has part, fr=BFO_0000051}\nThing::Thing JOIN Thing::Thing\n  {\n    domain_Thing_uid::domain_Thing_uid uid_domain::{en=domain_uid Thing, fr=domain_uid Chose}\n    range_Thing_uid::range_Thing_uid uid_domain::{en=range_uid Thing, fr=range_uid Chose}\n  } \nKEY {domain_Thing_uid, range_Thing_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'BFO_0000054',
+    shortIri: 'BFO_0000054',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'realized in',
+    label_fr: 'BFO_0000054',
+    description: 'JOINTABLE BFO_0000054::BFO_0000054::{en=realized in, fr=BFO_0000054}\nBFO_0000015::BFO_0000015 JOIN BFO_0000017::BFO_0000017\n  {\n    domain_BFO_0000017_uid::domain_BFO_0000017_uid uid_domain::{en=domain_uid realizable entity, fr=domain_uid BFO_0000017}\n    range_BFO_0000015_uid::range_BFO_0000015_uid uid_domain::{en=range_uid process, fr=range_uid BFO_0000015}\n  } \nKEY {domain_BFO_0000017_uid, range_BFO_0000015_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'BFO_0000055',
+    shortIri: 'BFO_0000055',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'realizes',
+    label_fr: 'BFO_0000055',
+    description: 'JOINTABLE BFO_0000055::BFO_0000055::{en=realizes, fr=BFO_0000055}\nBFO_0000017::BFO_0000017 JOIN BFO_0000015::BFO_0000015\n  {\n    domain_BFO_0000015_uid::domain_BFO_0000015_uid uid_domain::{en=domain_uid process, fr=domain_uid BFO_0000015}\n    range_BFO_0000017_uid::range_BFO_0000017_uid uid_domain::{en=range_uid realizable entity, fr=range_uid BFO_0000017}\n  } \nKEY {domain_BFO_0000015_uid, range_BFO_0000017_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'BFO_0000062',
+    shortIri: 'BFO_0000062',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'preceded by',
+    label_fr: 'BFO_0000062',
+    definition_en: 'x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) <= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.',
+    description: 'JOINTABLE BFO_0000062::BFO_0000062::{en=preceded by, fr=BFO_0000062}\nBFO_0000003::BFO_0000003 JOIN BFO_0000003::BFO_0000003\n  {\n    domain_BFO_0000003_uid::domain_BFO_0000003_uid uid_domain::{en=domain_uid occurrent, fr=domain_uid BFO_0000003}\n    range_BFO_0000003_uid::range_BFO_0000003_uid uid_domain::{en=range_uid occurrent, fr=range_uid BFO_0000003}\n  } \nKEY {domain_BFO_0000003_uid, range_BFO_0000003_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'BFO_0000063',
+    shortIri: 'BFO_0000063',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'precedes',
+    label_fr: 'BFO_0000063',
+    definition_en: 'x precedes y if and only if the time point at which x ends is before or equivalent to the time point at which y starts. Formally: x precedes y iff ω(x) <= α(y), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.',
+    description: 'JOINTABLE BFO_0000063::BFO_0000063::{en=precedes, fr=BFO_0000063}\nBFO_0000003::BFO_0000003 JOIN BFO_0000003::BFO_0000003\n  {\n    domain_BFO_0000003_uid::domain_BFO_0000003_uid uid_domain::{en=domain_uid occurrent, fr=domain_uid BFO_0000003}\n    range_BFO_0000003_uid::range_BFO_0000003_uid uid_domain::{en=range_uid occurrent, fr=range_uid BFO_0000003}\n  } \nKEY {domain_BFO_0000003_uid, range_BFO_0000003_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'BFO_0000066',
+    shortIri: 'BFO_0000066',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'occurs in',
+    label_fr: 'BFO_0000066',
+    definition_en: 'b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t',
+    description: 'JOINTABLE BFO_0000066::BFO_0000066::{en=occurs in, fr=BFO_0000066}\nBFO_0000004::BFO_0000004 JOIN BFO_0000003::BFO_0000003\n  {\n    domain_BFO_0000003_uid::domain_BFO_0000003_uid uid_domain::{en=domain_uid occurrent, fr=domain_uid BFO_0000003}\n    range_BFO_0000004_uid::range_BFO_0000004_uid uid_domain::{en=range_uid independent continuant, fr=range_uid BFO_0000004}\n  } \nKEY {domain_BFO_0000003_uid, range_BFO_0000004_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'BFO_0000067',
+    shortIri: 'BFO_0000067',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'contains process',
+    label_fr: 'BFO_0000067',
+    definition_en: '[copied from inverse property "occurs in"] b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t',
+    description: 'JOINTABLE BFO_0000067::BFO_0000067::{en=contains process, fr=BFO_0000067}\nThing::Thing JOIN Thing::Thing\n  {\n    domain_Thing_uid::domain_Thing_uid uid_domain::{en=domain_uid Thing, fr=domain_uid Chose}\n    range_Thing_uid::range_Thing_uid uid_domain::{en=range_uid Thing, fr=range_uid Chose}\n  } \nKEY {domain_Thing_uid, range_Thing_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'HOSO_0000001',
+    shortIri: 'HOSO_0000001',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'has participating performer',
+    label_fr: 'HOSO_0000001',
+    definition_en: 'TBD',
+    description: 'JOINTABLE HOSO_0000001::HOSO_0000001::{en=has participating performer, fr=HOSO_0000001}\nBFO_0000002::BFO_0000002 JOIN BFO_0000003::BFO_0000003\n  {\n    domain_BFO_0000003_uid::domain_BFO_0000003_uid uid_domain::{en=domain_uid occurrent, fr=domain_uid BFO_0000003}\n    range_BFO_0000002_uid::range_BFO_0000002_uid uid_domain::{en=range_uid continuant, fr=range_uid BFO_0000002}\n  } \nKEY {domain_BFO_0000003_uid, range_BFO_0000002_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'HOSO_0000002',
+    shortIri: 'HOSO_0000002',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'has participating recipient',
+    label_fr: 'HOSO_0000002',
+    definition_en: 'TBD',
+    description: 'JOINTABLE HOSO_0000002::HOSO_0000002::{en=has participating recipient, fr=HOSO_0000002}\nBFO_0000002::BFO_0000002 JOIN BFO_0000003::BFO_0000003\n  {\n    domain_BFO_0000003_uid::domain_BFO_0000003_uid uid_domain::{en=domain_uid occurrent, fr=domain_uid BFO_0000003}\n    range_BFO_0000002_uid::range_BFO_0000002_uid uid_domain::{en=range_uid continuant, fr=range_uid BFO_0000002}\n  } \nKEY {domain_BFO_0000003_uid, range_BFO_0000002_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'HOSO_0000087',
+    shortIri: 'HOSO_0000087',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'participates as recipient',
+    label_fr: 'HOSO_0000087',
+    description: 'JOINTABLE HOSO_0000087::HOSO_0000087::{en=participates as recipient, fr=HOSO_0000087}\nBFO_0000003::BFO_0000003 JOIN BFO_0000002::BFO_0000002\n  {\n    domain_BFO_0000002_uid::domain_BFO_0000002_uid uid_domain::{en=domain_uid continuant, fr=domain_uid BFO_0000002}\n    range_BFO_0000003_uid::range_BFO_0000003_uid uid_domain::{en=range_uid occurrent, fr=range_uid BFO_0000003}\n  } \nKEY {domain_BFO_0000002_uid, range_BFO_0000003_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'IAO_0000136',
+    shortIri: 'IAO_0000136',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'is about',
+    label_fr: 'IAO_0000136',
+    definition_en: 'A (currently) primitive relation that relates an information artifact to an entity.',
+    description: 'JOINTABLE IAO_0000136::IAO_0000136::{en=is about, fr=IAO_0000136}\nThing::Thing JOIN IAO_0000030::IAO_0000030\n  {\n    domain_IAO_0000030_uid::domain_IAO_0000030_uid uid_domain::{en=domain_uid information content entity, fr=domain_uid IAO_0000030}\n    range_Thing_uid::range_Thing_uid uid_domain::{en=range_uid Thing, fr=range_uid Chose}\n  } \nKEY {domain_IAO_0000030_uid, range_Thing_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'IAO_0000142',
+    shortIri: 'IAO_0000142',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'mentions',
+    label_fr: 'IAO_0000142',
+    definition_en: 'An information artifact IA mentions an entity E exactly when it has a component/part that denotes E',
+    description: 'JOINTABLE IAO_0000142::IAO_0000142::{en=mentions, fr=IAO_0000142}\nThing::Thing JOIN IAO_0000030::IAO_0000030\n  {\n    domain_IAO_0000030_uid::domain_IAO_0000030_uid uid_domain::{en=domain_uid information content entity, fr=domain_uid IAO_0000030}\n    range_Thing_uid::range_Thing_uid uid_domain::{en=range_uid Thing, fr=range_uid Chose}\n  } \nKEY {domain_IAO_0000030_uid, range_Thing_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'IAO_0000143',
+    shortIri: 'IAO_0000143',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'mentioned by',
+    label_fr: 'IAO_0000143',
+    definition_en: 'Inverse of the relation "mentions"',
+    description: 'JOINTABLE IAO_0000143::IAO_0000143::{en=mentioned by, fr=IAO_0000143}\nThing::Thing JOIN Thing::Thing\n  {\n    domain_Thing_uid::domain_Thing_uid uid_domain::{en=domain_uid Thing, fr=domain_uid Chose}\n    range_Thing_uid::range_Thing_uid uid_domain::{en=range_uid Thing, fr=range_uid Chose}\n  } \nKEY {domain_Thing_uid, range_Thing_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'IAO_0000219',
+    shortIri: 'IAO_0000219',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'denotes',
+    label_fr: 'IAO_0000219',
+    definition_en: 'A primitive, instance-level, relation obtaining between an information content entity and some portion of reality. Denotation is what happens when someone creates an information content entity E in order to specifically refer to something. The only relation between E and the thing is that E can be used to "pick out" the thing. This relation connects those two together. Freedictionary.com sense 3: To signify directly; refer to specifically',
+    description: 'JOINTABLE IAO_0000219::IAO_0000219::{en=denotes, fr=IAO_0000219}\nBFO_0000001::BFO_0000001 JOIN IAO_0000030::IAO_0000030\n  {\n    domain_IAO_0000030_uid::domain_IAO_0000030_uid uid_domain::{en=domain_uid information content entity, fr=domain_uid IAO_0000030}\n    range_BFO_0000001_uid::range_BFO_0000001_uid uid_domain::{en=range_uid entity, fr=range_uid BFO_0000001}\n  } \nKEY {domain_IAO_0000030_uid, range_BFO_0000001_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'IAO_0000235',
+    shortIri: 'IAO_0000235',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'denoted by',
+    label_fr: 'IAO_0000235',
+    definition_en: 'inverse of the relation "denotes"',
+    description: 'JOINTABLE IAO_0000235::IAO_0000235::{en=denoted by, fr=IAO_0000235}\nIAO_0000030::IAO_0000030 JOIN BFO_0000001::BFO_0000001\n  {\n    domain_BFO_0000001_uid::domain_BFO_0000001_uid uid_domain::{en=domain_uid entity, fr=domain_uid BFO_0000001}\n    range_IAO_0000030_uid::range_IAO_0000030_uid uid_domain::{en=range_uid information content entity, fr=range_uid IAO_0000030}\n  } \nKEY {domain_BFO_0000001_uid, range_IAO_0000030_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'OBI_0000293',
+    shortIri: 'OBI_0000293',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'has_specified_input',
+    label_fr: 'OBI_0000293',
+    definition_en: 'The inverse property of is_specified_input_of',
+    description: 'JOINTABLE OBI_0000293::OBI_0000293::{en=has_specified_input, fr=OBI_0000293}\nBFO_0000002::BFO_0000002 JOIN OBI_0000011::OBI_0000011\n  {\n    domain_OBI_0000011_uid::domain_OBI_0000011_uid uid_domain::{en=domain_uid planned process, fr=domain_uid OBI_0000011}\n    range_BFO_0000002_uid::range_BFO_0000002_uid uid_domain::{en=range_uid continuant, fr=range_uid BFO_0000002}\n  } \nKEY {domain_OBI_0000011_uid, range_BFO_0000002_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'OBI_0000295',
+    shortIri: 'OBI_0000295',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'is_specified_input_of',
+    label_fr: 'OBI_0000295',
+    definition_en: 'A relation between a planned process and a continuant participating in that process that is not created during  the process. The presence of the continuant during the process is explicitly specified in the plan specification which the process realizes the concretization of.',
+    description: 'JOINTABLE OBI_0000295::OBI_0000295::{en=is_specified_input_of, fr=OBI_0000295}\nOBI_0000011::OBI_0000011 JOIN BFO_0000002::BFO_0000002\n  {\n    domain_BFO_0000002_uid::domain_BFO_0000002_uid uid_domain::{en=domain_uid continuant, fr=domain_uid BFO_0000002}\n    range_OBI_0000011_uid::range_OBI_0000011_uid uid_domain::{en=range_uid planned process, fr=range_uid OBI_0000011}\n  } \nKEY {domain_BFO_0000002_uid, range_OBI_0000011_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'OBI_0000299',
+    shortIri: 'OBI_0000299',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'has_specified_output',
+    label_fr: 'OBI_0000299',
+    definition_en: 'The inverse property of is_specified_output_of',
+    description: 'JOINTABLE OBI_0000299::OBI_0000299::{en=has_specified_output, fr=OBI_0000299}\nBFO_0000002::BFO_0000002 JOIN OBI_0000011::OBI_0000011\n  {\n    domain_OBI_0000011_uid::domain_OBI_0000011_uid uid_domain::{en=domain_uid planned process, fr=domain_uid OBI_0000011}\n    range_BFO_0000002_uid::range_BFO_0000002_uid uid_domain::{en=range_uid continuant, fr=range_uid BFO_0000002}\n  } \nKEY {domain_OBI_0000011_uid, range_BFO_0000002_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'OBI_0000312',
+    shortIri: 'OBI_0000312',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'is_specified_output_of',
+    label_fr: 'OBI_0000312',
+    definition_en: 'A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of.',
+    description: 'JOINTABLE OBI_0000312::OBI_0000312::{en=is_specified_output_of, fr=OBI_0000312}\nOBI_0000011::OBI_0000011 JOIN BFO_0000002::BFO_0000002\n  {\n    domain_BFO_0000002_uid::domain_BFO_0000002_uid uid_domain::{en=domain_uid continuant, fr=domain_uid BFO_0000002}\n    range_OBI_0000011_uid::range_OBI_0000011_uid uid_domain::{en=range_uid planned process, fr=range_uid OBI_0000011}\n  } \nKEY {domain_BFO_0000002_uid, range_OBI_0000011_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'OMRSE_00000068',
+    shortIri: 'OMRSE_00000068',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'is administered by',
+    label_fr: 'OMRSE_00000068',
+    description: 'JOINTABLE OMRSE_00000068::OMRSE_00000068::{en=is administered by, fr=OMRSE_00000068}\nThing::Thing JOIN Thing::Thing\n  {\n    domain_Thing_uid::domain_Thing_uid uid_domain::{en=domain_uid Thing, fr=domain_uid Chose}\n    range_Thing_uid::range_Thing_uid uid_domain::{en=range_uid Thing, fr=range_uid Chose}\n  } \nKEY {domain_Thing_uid, range_Thing_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'OpenLHS-Core_0000001',
+    shortIri: 'OpenLHS-Core_0000001',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'fills',
+    label_fr: 'OpenLHS-Core_0000001',
+    description: 'JOINTABLE OpenLHS-Core_0000001::OpenLHS-Core_0000001::{en=fills, fr=OpenLHS-Core_0000001}\nOpenLHS-Core_0000012::OpenLHS-Core_0000012 JOIN OpenLHS-Core_0000013::OpenLHS-Core_0000013\n  {\n    domain_OpenLHS-Core_0000013_uid::domain_OpenLHS-Core_0000013_uid uid_domain::{en=domain_uid informational filler, fr=domain_uid OpenLHS-Core_0000013}\n    range_OpenLHS-Core_0000012_uid::range_OpenLHS-Core_0000012_uid uid_domain::{en=range_uid informational slot, fr=range_uid OpenLHS-Core_0000012}\n  } \nKEY {domain_OpenLHS-Core_0000013_uid, range_OpenLHS-Core_0000012_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'OpenLHS-Core_0000004',
+    shortIri: 'OpenLHS-Core_0000004',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'is directed by',
+    label_fr: 'OpenLHS-Core_0000004',
+    definition_en: 'The inverse relations of directs',
+    description: 'JOINTABLE OpenLHS-Core_0000004::OpenLHS-Core_0000004::{en=is directed by, fr=OpenLHS-Core_0000004}\nIAO_0000033::IAO_0000033 JOIN BFO_0000015::BFO_0000015\n  {\n    domain_BFO_0000015_uid::domain_BFO_0000015_uid uid_domain::{en=domain_uid process, fr=domain_uid BFO_0000015}\n    range_IAO_0000033_uid::range_IAO_0000033_uid uid_domain::{en=range_uid directive information entity, fr=range_uid IAO_0000033}\n  } \nKEY {domain_BFO_0000015_uid, range_IAO_0000033_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'OpenLHS-Core_0000005',
+    shortIri: 'OpenLHS-Core_0000005',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'is about an aspect of',
+    label_fr: 'OpenLHS-Core_0000005',
+    definition_en: 'A is about an aspect of B := A is about a specifically dependent continuant that inheres in B.',
+    description: 'JOINTABLE OpenLHS-Core_0000005::OpenLHS-Core_0000005::{en=is about an aspect of, fr=OpenLHS-Core_0000005}\nThing::Thing JOIN IAO_0000030::IAO_0000030\n  {\n    domain_IAO_0000030_uid::domain_IAO_0000030_uid uid_domain::{en=domain_uid information content entity, fr=domain_uid IAO_0000030}\n    range_Thing_uid::range_Thing_uid uid_domain::{en=range_uid Thing, fr=range_uid Chose}\n  } \nKEY {domain_IAO_0000030_uid, range_Thing_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'OpenLHS-Core_0000007',
+    shortIri: 'OpenLHS-Core_0000007',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'directs',
+    label_fr: 'OpenLHS-Core_0000007',
+    definition_en: 'A directs B := A is a directive information entity that guides an agent in the execution of B.',
+    description: 'JOINTABLE OpenLHS-Core_0000007::OpenLHS-Core_0000007::{en=directs, fr=OpenLHS-Core_0000007}\nBFO_0000015::BFO_0000015 JOIN IAO_0000033::IAO_0000033\n  {\n    domain_IAO_0000033_uid::domain_IAO_0000033_uid uid_domain::{en=domain_uid directive information entity, fr=domain_uid IAO_0000033}\n    range_BFO_0000015_uid::range_BFO_0000015_uid uid_domain::{en=range_uid process, fr=range_uid BFO_0000015}\n  } \nKEY {domain_IAO_0000033_uid, range_BFO_0000015_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'OpenLHS-Core_0000008',
+    shortIri: 'OpenLHS-Core_0000008',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'is filled by',
+    label_fr: 'OpenLHS-Core_0000008',
+    definition_en: 'The inverse relation of fills',
+    description: 'JOINTABLE OpenLHS-Core_0000008::OpenLHS-Core_0000008::{en=is filled by, fr=OpenLHS-Core_0000008}\nOpenLHS-Core_0000013::OpenLHS-Core_0000013 JOIN OpenLHS-Core_0000012::OpenLHS-Core_0000012\n  {\n    domain_OpenLHS-Core_0000012_uid::domain_OpenLHS-Core_0000012_uid uid_domain::{en=domain_uid informational slot, fr=domain_uid OpenLHS-Core_0000012}\n    range_OpenLHS-Core_0000013_uid::range_OpenLHS-Core_0000013_uid uid_domain::{en=range_uid informational filler, fr=range_uid OpenLHS-Core_0000013}\n  } \nKEY {domain_OpenLHS-Core_0000012_uid, range_OpenLHS-Core_0000013_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'OpenLHS-Core_0000066',
+    shortIri: 'OpenLHS-Core_0000066',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'maximally directs',
+    label_fr: 'OpenLHS-Core_0000066',
+    definition_en: 'A maximally directs B := A directs B, and B is compliant to A.',
+    description: 'JOINTABLE OpenLHS-Core_0000066::OpenLHS-Core_0000066::{en=maximally directs, fr=OpenLHS-Core_0000066}\nBFO_0000015::BFO_0000015 JOIN IAO_0000033::IAO_0000033\n  {\n    domain_IAO_0000033_uid::domain_IAO_0000033_uid uid_domain::{en=domain_uid directive information entity, fr=domain_uid IAO_0000033}\n    range_BFO_0000015_uid::range_BFO_0000015_uid uid_domain::{en=range_uid process, fr=range_uid BFO_0000015}\n  } \nKEY {domain_IAO_0000033_uid, range_BFO_0000015_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'OpenLHS-Core_0000067',
+    shortIri: 'OpenLHS-Core_0000067',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'is maximally directed by',
+    label_fr: 'OpenLHS-Core_0000067',
+    definition_en: 'The inverse relation of maximally directs.',
+    description: 'JOINTABLE OpenLHS-Core_0000067::OpenLHS-Core_0000067::{en=is maximally directed by, fr=OpenLHS-Core_0000067}\nIAO_0000033::IAO_0000033 JOIN BFO_0000015::BFO_0000015\n  {\n    domain_BFO_0000015_uid::domain_BFO_0000015_uid uid_domain::{en=domain_uid process, fr=domain_uid BFO_0000015}\n    range_IAO_0000033_uid::range_IAO_0000033_uid uid_domain::{en=range_uid directive information entity, fr=range_uid IAO_0000033}\n  } \nKEY {domain_BFO_0000015_uid, range_IAO_0000033_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'OpenLHS-Core_0000070',
+    shortIri: 'OpenLHS-Core_0000070',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'component of',
+    label_fr: 'OpenLHS-Core_0000070',
+    definition_en: 'The inverse relation of has component.',
+    description: 'JOINTABLE OpenLHS-Core_0000070::OpenLHS-Core_0000070::{en=component of, fr=OpenLHS-Core_0000070}\nThing::Thing JOIN Thing::Thing\n  {\n    domain_Thing_uid::domain_Thing_uid uid_domain::{en=domain_uid Thing, fr=domain_uid Chose}\n    range_Thing_uid::range_Thing_uid uid_domain::{en=range_uid Thing, fr=range_uid Chose}\n  } \nKEY {domain_Thing_uid, range_Thing_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'OpenLHS-Core_0000071',
+    shortIri: 'OpenLHS-Core_0000071',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'component process of',
+    label_fr: 'OpenLHS-Core_0000071',
+    definition_en: 'The inverse relation of has component process.',
+    description: 'JOINTABLE OpenLHS-Core_0000071::OpenLHS-Core_0000071::{en=component process of, fr=OpenLHS-Core_0000071}\nBFO_0000015::BFO_0000015 JOIN BFO_0000015::BFO_0000015\n  {\n    domain_BFO_0000015_uid::domain_BFO_0000015_uid uid_domain::{en=domain_uid process, fr=domain_uid BFO_0000015}\n    range_BFO_0000015_uid::range_BFO_0000015_uid uid_domain::{en=range_uid process, fr=range_uid BFO_0000015}\n  } \nKEY {domain_BFO_0000015_uid, range_BFO_0000015_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0000052',
+    shortIri: 'RO_0000052',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'characteristic of',
+    label_fr: 'RO_0000052',
+    definition_en: 'a relation between a specifically dependent continuant (the characteristic) and any other entity (the bearer), in which the characteristic depends on the bearer for its existence.',
+    description: 'JOINTABLE RO_0000052::RO_0000052::{en=characteristic of, fr=RO_0000052}\nThing::Thing JOIN Thing::Thing\n  {\n    domain_Thing_uid::domain_Thing_uid uid_domain::{en=domain_uid Thing, fr=domain_uid Chose}\n    range_Thing_uid::range_Thing_uid uid_domain::{en=range_uid Thing, fr=range_uid Chose}\n  } \nKEY {domain_Thing_uid, range_Thing_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0000053',
+    shortIri: 'RO_0000053',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'has characteristic',
+    label_fr: 'RO_0000053',
+    definition_en: 'Inverse of characteristic_of',
+    description: 'JOINTABLE RO_0000053::RO_0000053::{en=has characteristic, fr=RO_0000053}\nBFO_0000020::BFO_0000020 JOIN Thing::Thing\n  {\n    domain_Thing_uid::domain_Thing_uid uid_domain::{en=domain_uid Thing, fr=domain_uid Chose}\n    range_BFO_0000020_uid::range_BFO_0000020_uid uid_domain::{en=range_uid sdc, fr=range_uid BFO_0000020}\n  } \nKEY {domain_Thing_uid, range_BFO_0000020_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0000056',
+    shortIri: 'RO_0000056',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'participates in',
+    label_fr: 'RO_0000056',
+    definition_en: 'a relation between a continuant and a process, in which the continuant is somehow involved in the process',
+    description: 'JOINTABLE RO_0000056::RO_0000056::{en=participates in, fr=RO_0000056}\nBFO_0000003::BFO_0000003 JOIN BFO_0000002::BFO_0000002\n  {\n    domain_BFO_0000002_uid::domain_BFO_0000002_uid uid_domain::{en=domain_uid continuant, fr=domain_uid BFO_0000002}\n    range_BFO_0000003_uid::range_BFO_0000003_uid uid_domain::{en=range_uid occurrent, fr=range_uid BFO_0000003}\n  } \nKEY {domain_BFO_0000002_uid, range_BFO_0000003_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0000057',
+    shortIri: 'RO_0000057',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'has participant',
+    label_fr: 'RO_0000057',
+    definition_en: 'a relation between a process and a continuant, in which the continuant is somehow involved in the process',
+    description: 'JOINTABLE RO_0000057::RO_0000057::{en=has participant, fr=RO_0000057}\nBFO_0000002::BFO_0000002 JOIN BFO_0000003::BFO_0000003\n  {\n    domain_BFO_0000003_uid::domain_BFO_0000003_uid uid_domain::{en=domain_uid occurrent, fr=domain_uid BFO_0000003}\n    range_BFO_0000002_uid::range_BFO_0000002_uid uid_domain::{en=range_uid continuant, fr=range_uid BFO_0000002}\n  } \nKEY {domain_BFO_0000003_uid, range_BFO_0000002_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0000058',
+    shortIri: 'RO_0000058',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'is concretized as',
+    label_fr: 'RO_0000058',
+    definition_en: 'A relationship between a generically dependent continuant and a specifically dependent continuant, in which the generically dependent continuant depends on some independent continuant in virtue of the fact that the specifically dependent continuant also depends on that same independent continuant. A generically dependent continuant may be concretized as multiple specifically dependent continuants.',
+    description: 'JOINTABLE RO_0000058::RO_0000058::{en=is concretized as, fr=RO_0000058}\nBFO_0000020::BFO_0000020 JOIN BFO_0000031::BFO_0000031\n  {\n    domain_BFO_0000031_uid::domain_BFO_0000031_uid uid_domain::{en=domain_uid gdc, fr=domain_uid BFO_0000031}\n    range_BFO_0000020_uid::range_BFO_0000020_uid uid_domain::{en=range_uid sdc, fr=range_uid BFO_0000020}\n  } \nKEY {domain_BFO_0000031_uid, range_BFO_0000020_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0000059',
+    shortIri: 'RO_0000059',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'concretizes',
+    label_fr: 'RO_0000059',
+    definition_en: 'A relationship between a specifically dependent continuant and a generically dependent continuant, in which the generically dependent continuant depends on some independent continuant in virtue of the fact that the specifically dependent continuant also depends on that same independent continuant. Multiple specifically dependent continuants can concretize the same generically dependent continuant.',
+    description: 'JOINTABLE RO_0000059::RO_0000059::{en=concretizes, fr=RO_0000059}\nBFO_0000031::BFO_0000031 JOIN BFO_0000020::BFO_0000020\n  {\n    domain_BFO_0000020_uid::domain_BFO_0000020_uid uid_domain::{en=domain_uid sdc, fr=domain_uid BFO_0000020}\n    range_BFO_0000031_uid::range_BFO_0000031_uid uid_domain::{en=range_uid gdc, fr=range_uid BFO_0000031}\n  } \nKEY {domain_BFO_0000020_uid, range_BFO_0000031_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0000079',
+    shortIri: 'RO_0000079',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'function of',
+    label_fr: 'RO_0000079',
+    definition_en: 'a relation between a function and an independent continuant (the bearer), in which the function specifically depends on the bearer for its existence',
+    description: 'JOINTABLE RO_0000079::RO_0000079::{en=function of, fr=RO_0000079}\nThing::Thing JOIN BFO_0000034::BFO_0000034\n  {\n    domain_BFO_0000034_uid::domain_BFO_0000034_uid uid_domain::{en=domain_uid function, fr=domain_uid BFO_0000034}\n    range_Thing_uid::range_Thing_uid uid_domain::{en=range_uid Thing, fr=range_uid Chose}\n  } \nKEY {domain_BFO_0000034_uid, range_Thing_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0000080',
+    shortIri: 'RO_0000080',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'quality of',
+    label_fr: 'RO_0000080',
+    definition_en: 'a relation between a quality and an independent continuant (the bearer), in which the quality specifically depends on the bearer for its existence',
+    description: 'JOINTABLE RO_0000080::RO_0000080::{en=quality of, fr=RO_0000080}\nThing::Thing JOIN Thing::Thing\n  {\n    domain_Thing_uid::domain_Thing_uid uid_domain::{en=domain_uid Thing, fr=domain_uid Chose}\n    range_Thing_uid::range_Thing_uid uid_domain::{en=range_uid Thing, fr=range_uid Chose}\n  } \nKEY {domain_Thing_uid, range_Thing_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0000081',
+    shortIri: 'RO_0000081',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'role of',
+    label_fr: 'RO_0000081',
+    definition_en: 'a relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence',
+    description: 'JOINTABLE RO_0000081::RO_0000081::{en=role of, fr=RO_0000081}\nThing::Thing JOIN Thing::Thing\n  {\n    domain_Thing_uid::domain_Thing_uid uid_domain::{en=domain_uid Thing, fr=domain_uid Chose}\n    range_Thing_uid::range_Thing_uid uid_domain::{en=range_uid Thing, fr=range_uid Chose}\n  } \nKEY {domain_Thing_uid, range_Thing_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0000085',
+    shortIri: 'RO_0000085',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'has function',
+    label_fr: 'RO_0000085',
+    definition_en: 'a relation between an independent continuant (the bearer) and a function, in which the function specifically depends on the bearer for its existence',
+    description: 'JOINTABLE RO_0000085::RO_0000085::{en=has function, fr=RO_0000085}\nBFO_0000034::BFO_0000034 JOIN BFO_0000004::BFO_0000004\n  {\n    domain_BFO_0000004_uid::domain_BFO_0000004_uid uid_domain::{en=domain_uid independent continuant, fr=domain_uid BFO_0000004}\n    range_BFO_0000034_uid::range_BFO_0000034_uid uid_domain::{en=range_uid function, fr=range_uid BFO_0000034}\n  } \nKEY {domain_BFO_0000004_uid, range_BFO_0000034_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0000086',
+    shortIri: 'RO_0000086',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'has quality',
+    label_fr: 'RO_0000086',
+    definition_en: 'a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence',
+    description: 'JOINTABLE RO_0000086::RO_0000086::{en=has quality, fr=RO_0000086}\nBFO_0000019::BFO_0000019 JOIN Thing::Thing\n  {\n    domain_Thing_uid::domain_Thing_uid uid_domain::{en=domain_uid Thing, fr=domain_uid Chose}\n    range_BFO_0000019_uid::range_BFO_0000019_uid uid_domain::{en=range_uid quality, fr=range_uid BFO_0000019}\n  } \nKEY {domain_Thing_uid, range_BFO_0000019_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0000087',
+    shortIri: 'RO_0000087',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'has role',
+    label_fr: 'RO_0000087',
+    definition_en: 'a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence',
+    description: 'JOINTABLE RO_0000087::RO_0000087::{en=has role, fr=RO_0000087}\nBFO_0000023::BFO_0000023 JOIN BFO_0000004::BFO_0000004\n  {\n    domain_BFO_0000004_uid::domain_BFO_0000004_uid uid_domain::{en=domain_uid independent continuant, fr=domain_uid BFO_0000004}\n    range_BFO_0000023_uid::range_BFO_0000023_uid uid_domain::{en=range_uid role, fr=range_uid BFO_0000023}\n  } \nKEY {domain_BFO_0000004_uid, range_BFO_0000023_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0000091',
+    shortIri: 'RO_0000091',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'has disposition',
+    label_fr: 'RO_0000091',
+    definition_en: 'a relation between an independent continuant (the bearer) and a disposition, in which the disposition specifically depends on the bearer for its existence',
+    description: 'JOINTABLE RO_0000091::RO_0000091::{en=has disposition, fr=RO_0000091}\nBFO_0000016::BFO_0000016 JOIN BFO_0000004::BFO_0000004\n  {\n    domain_BFO_0000004_uid::domain_BFO_0000004_uid uid_domain::{en=domain_uid independent continuant, fr=domain_uid BFO_0000004}\n    range_BFO_0000016_uid::range_BFO_0000016_uid uid_domain::{en=range_uid disposition, fr=range_uid BFO_0000016}\n  } \nKEY {domain_BFO_0000004_uid, range_BFO_0000016_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0000092',
+    shortIri: 'RO_0000092',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'disposition of',
+    label_fr: 'RO_0000092',
+    definition_en: 'inverse of has disposition',
+    description: 'JOINTABLE RO_0000092::RO_0000092::{en=disposition of, fr=RO_0000092}\nThing::Thing JOIN Thing::Thing\n  {\n    domain_Thing_uid::domain_Thing_uid uid_domain::{en=domain_uid Thing, fr=domain_uid Chose}\n    range_Thing_uid::range_Thing_uid uid_domain::{en=range_uid Thing, fr=range_uid Chose}\n  } \nKEY {domain_Thing_uid, range_Thing_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0002018',
+    shortIri: 'RO_0002018',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'has component process',
+    label_fr: 'RO_0002018',
+    definition_en: 'w "has process component" p if p and w are processes,  w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type.',
+    description: 'JOINTABLE RO_0002018::RO_0002018::{en=has component process, fr=RO_0002018}\nBFO_0000015::BFO_0000015 JOIN BFO_0000015::BFO_0000015\n  {\n    domain_BFO_0000015_uid::domain_BFO_0000015_uid uid_domain::{en=domain_uid process, fr=domain_uid BFO_0000015}\n    range_BFO_0000015_uid::range_BFO_0000015_uid uid_domain::{en=range_uid process, fr=range_uid BFO_0000015}\n  } \nKEY {domain_BFO_0000015_uid, range_BFO_0000015_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0002081',
+    shortIri: 'RO_0002081',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'before or simultaneous with',
+    label_fr: 'RO_0002081',
+    description: 'JOINTABLE RO_0002081::RO_0002081::{en=before or simultaneous with, fr=RO_0002081}\nBFO_0000003::BFO_0000003 JOIN BFO_0000003::BFO_0000003\n  {\n    domain_BFO_0000003_uid::domain_BFO_0000003_uid uid_domain::{en=domain_uid occurrent, fr=domain_uid BFO_0000003}\n    range_BFO_0000003_uid::range_BFO_0000003_uid uid_domain::{en=range_uid occurrent, fr=range_uid BFO_0000003}\n  } \nKEY {domain_BFO_0000003_uid, range_BFO_0000003_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0002082',
+    shortIri: 'RO_0002082',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'simultaneous with',
+    label_fr: 'RO_0002082',
+    description: 'JOINTABLE RO_0002082::RO_0002082::{en=simultaneous with, fr=RO_0002082}\nThing::Thing JOIN Thing::Thing\n  {\n    domain_Thing_uid::domain_Thing_uid uid_domain::{en=domain_uid Thing, fr=domain_uid Chose}\n    range_Thing_uid::range_Thing_uid uid_domain::{en=range_uid Thing, fr=range_uid Chose}\n  } \nKEY {domain_Thing_uid, range_Thing_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0002083',
+    shortIri: 'RO_0002083',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'before',
+    label_fr: 'RO_0002083',
+    description: 'JOINTABLE RO_0002083::RO_0002083::{en=before, fr=RO_0002083}\nThing::Thing JOIN Thing::Thing\n  {\n    domain_Thing_uid::domain_Thing_uid uid_domain::{en=domain_uid Thing, fr=domain_uid Chose}\n    range_Thing_uid::range_Thing_uid uid_domain::{en=range_uid Thing, fr=range_uid Chose}\n  } \nKEY {domain_Thing_uid, range_Thing_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0002084',
+    shortIri: 'RO_0002084',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'during which ends',
+    label_fr: 'RO_0002084',
+    description: 'JOINTABLE RO_0002084::RO_0002084::{en=during which ends, fr=RO_0002084}\nBFO_0000003::BFO_0000003 JOIN BFO_0000003::BFO_0000003\n  {\n    domain_BFO_0000003_uid::domain_BFO_0000003_uid uid_domain::{en=domain_uid occurrent, fr=domain_uid BFO_0000003}\n    range_BFO_0000003_uid::range_BFO_0000003_uid uid_domain::{en=range_uid occurrent, fr=range_uid BFO_0000003}\n  } \nKEY {domain_BFO_0000003_uid, range_BFO_0000003_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0002085',
+    shortIri: 'RO_0002085',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'encompasses',
+    label_fr: 'RO_0002085',
+    description: 'JOINTABLE RO_0002085::RO_0002085::{en=encompasses, fr=RO_0002085}\nThing::Thing JOIN Thing::Thing\n  {\n    domain_Thing_uid::domain_Thing_uid uid_domain::{en=domain_uid Thing, fr=domain_uid Chose}\n    range_Thing_uid::range_Thing_uid uid_domain::{en=range_uid Thing, fr=range_uid Chose}\n  } \nKEY {domain_Thing_uid, range_Thing_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0002086',
+    shortIri: 'RO_0002086',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'ends after',
+    label_fr: 'RO_0002086',
+    description: 'JOINTABLE RO_0002086::RO_0002086::{en=ends after, fr=RO_0002086}\nBFO_0000003::BFO_0000003 JOIN BFO_0000003::BFO_0000003\n  {\n    domain_BFO_0000003_uid::domain_BFO_0000003_uid uid_domain::{en=domain_uid occurrent, fr=domain_uid BFO_0000003}\n    range_BFO_0000003_uid::range_BFO_0000003_uid uid_domain::{en=range_uid occurrent, fr=range_uid BFO_0000003}\n  } \nKEY {domain_BFO_0000003_uid, range_BFO_0000003_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0002087',
+    shortIri: 'RO_0002087',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'immediately preceded by',
+    label_fr: 'RO_0002087',
+    description: 'JOINTABLE RO_0002087::RO_0002087::{en=immediately preceded by, fr=RO_0002087}\nBFO_0000003::BFO_0000003 JOIN BFO_0000003::BFO_0000003\n  {\n    domain_BFO_0000003_uid::domain_BFO_0000003_uid uid_domain::{en=domain_uid occurrent, fr=domain_uid BFO_0000003}\n    range_BFO_0000003_uid::range_BFO_0000003_uid uid_domain::{en=range_uid occurrent, fr=range_uid BFO_0000003}\n  } \nKEY {domain_BFO_0000003_uid, range_BFO_0000003_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0002088',
+    shortIri: 'RO_0002088',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'during which starts',
+    label_fr: 'RO_0002088',
+    description: 'JOINTABLE RO_0002088::RO_0002088::{en=during which starts, fr=RO_0002088}\nBFO_0000003::BFO_0000003 JOIN BFO_0000003::BFO_0000003\n  {\n    domain_BFO_0000003_uid::domain_BFO_0000003_uid uid_domain::{en=domain_uid occurrent, fr=domain_uid BFO_0000003}\n    range_BFO_0000003_uid::range_BFO_0000003_uid uid_domain::{en=range_uid occurrent, fr=range_uid BFO_0000003}\n  } \nKEY {domain_BFO_0000003_uid, range_BFO_0000003_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0002089',
+    shortIri: 'RO_0002089',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'starts before',
+    label_fr: 'RO_0002089',
+    description: 'JOINTABLE RO_0002089::RO_0002089::{en=starts before, fr=RO_0002089}\nBFO_0000003::BFO_0000003 JOIN BFO_0000003::BFO_0000003\n  {\n    domain_BFO_0000003_uid::domain_BFO_0000003_uid uid_domain::{en=domain_uid occurrent, fr=domain_uid BFO_0000003}\n    range_BFO_0000003_uid::range_BFO_0000003_uid uid_domain::{en=range_uid occurrent, fr=range_uid BFO_0000003}\n  } \nKEY {domain_BFO_0000003_uid, range_BFO_0000003_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0002090',
+    shortIri: 'RO_0002090',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'immediately precedes',
+    label_fr: 'RO_0002090',
+    description: 'JOINTABLE RO_0002090::RO_0002090::{en=immediately precedes, fr=RO_0002090}\nBFO_0000003::BFO_0000003 JOIN BFO_0000003::BFO_0000003\n  {\n    domain_BFO_0000003_uid::domain_BFO_0000003_uid uid_domain::{en=domain_uid occurrent, fr=domain_uid BFO_0000003}\n    range_BFO_0000003_uid::range_BFO_0000003_uid uid_domain::{en=range_uid occurrent, fr=range_uid BFO_0000003}\n  } \nKEY {domain_BFO_0000003_uid, range_BFO_0000003_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0002091',
+    shortIri: 'RO_0002091',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'starts during',
+    label_fr: 'RO_0002091',
+    description: 'JOINTABLE RO_0002091::RO_0002091::{en=starts during, fr=RO_0002091}\nBFO_0000003::BFO_0000003 JOIN BFO_0000003::BFO_0000003\n  {\n    domain_BFO_0000003_uid::domain_BFO_0000003_uid uid_domain::{en=domain_uid occurrent, fr=domain_uid BFO_0000003}\n    range_BFO_0000003_uid::range_BFO_0000003_uid uid_domain::{en=range_uid occurrent, fr=range_uid BFO_0000003}\n  } \nKEY {domain_BFO_0000003_uid, range_BFO_0000003_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0002092',
+    shortIri: 'RO_0002092',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'happens during',
+    label_fr: 'RO_0002092',
+    description: 'JOINTABLE RO_0002092::RO_0002092::{en=happens during, fr=RO_0002092}\nBFO_0000003::BFO_0000003 JOIN BFO_0000003::BFO_0000003\n  {\n    domain_BFO_0000003_uid::domain_BFO_0000003_uid uid_domain::{en=domain_uid occurrent, fr=domain_uid BFO_0000003}\n    range_BFO_0000003_uid::range_BFO_0000003_uid uid_domain::{en=range_uid occurrent, fr=range_uid BFO_0000003}\n  } \nKEY {domain_BFO_0000003_uid, range_BFO_0000003_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0002093',
+    shortIri: 'RO_0002093',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'ends during',
+    label_fr: 'RO_0002093',
+    description: 'JOINTABLE RO_0002093::RO_0002093::{en=ends during, fr=RO_0002093}\nBFO_0000003::BFO_0000003 JOIN BFO_0000003::BFO_0000003\n  {\n    domain_BFO_0000003_uid::domain_BFO_0000003_uid uid_domain::{en=domain_uid occurrent, fr=domain_uid BFO_0000003}\n    range_BFO_0000003_uid::range_BFO_0000003_uid uid_domain::{en=range_uid occurrent, fr=range_uid BFO_0000003}\n  } \nKEY {domain_BFO_0000003_uid, range_BFO_0000003_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0002180',
+    shortIri: 'RO_0002180',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'has component',
+    label_fr: 'RO_0002180',
+    definition_en: 'w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type.',
+    description: 'JOINTABLE RO_0002180::RO_0002180::{en=has component, fr=RO_0002180}\nThing::Thing JOIN Thing::Thing\n  {\n    domain_Thing_uid::domain_Thing_uid uid_domain::{en=domain_uid Thing, fr=domain_uid Chose}\n    range_Thing_uid::range_Thing_uid uid_domain::{en=range_uid Thing, fr=range_uid Chose}\n  } \nKEY {domain_Thing_uid, range_Thing_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0002222',
+    shortIri: 'RO_0002222',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'temporally related to',
+    label_fr: 'RO_0002222',
+    description: 'JOINTABLE RO_0002222::RO_0002222::{en=temporally related to, fr=RO_0002222}\nBFO_0000003::BFO_0000003 JOIN BFO_0000003::BFO_0000003\n  {\n    domain_BFO_0000003_uid::domain_BFO_0000003_uid uid_domain::{en=domain_uid occurrent, fr=domain_uid BFO_0000003}\n    range_BFO_0000003_uid::range_BFO_0000003_uid uid_domain::{en=range_uid occurrent, fr=range_uid BFO_0000003}\n  } \nKEY {domain_BFO_0000003_uid, range_BFO_0000003_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0002223',
+    shortIri: 'RO_0002223',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'starts',
+    label_fr: 'RO_0002223',
+    definition_en: 'inverse of starts with',
+    description: 'JOINTABLE RO_0002223::RO_0002223::{en=starts, fr=RO_0002223}\nBFO_0000003::BFO_0000003 JOIN BFO_0000003::BFO_0000003\n  {\n    domain_BFO_0000003_uid::domain_BFO_0000003_uid uid_domain::{en=domain_uid occurrent, fr=domain_uid BFO_0000003}\n    range_BFO_0000003_uid::range_BFO_0000003_uid uid_domain::{en=range_uid occurrent, fr=range_uid BFO_0000003}\n  } \nKEY {domain_BFO_0000003_uid, range_BFO_0000003_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0002224',
+    shortIri: 'RO_0002224',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'starts with',
+    label_fr: 'RO_0002224',
+    definition_en: 'x starts with y if and only if x has part y and the time point at which x starts is equivalent to the time point at which y starts. Formally: α(y) = α(x) ∧ ω(y) < ω(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.',
+    description: 'JOINTABLE RO_0002224::RO_0002224::{en=starts with, fr=RO_0002224}\nThing::Thing JOIN Thing::Thing\n  {\n    domain_Thing_uid::domain_Thing_uid uid_domain::{en=domain_uid Thing, fr=domain_uid Chose}\n    range_Thing_uid::range_Thing_uid uid_domain::{en=range_uid Thing, fr=range_uid Chose}\n  } \nKEY {domain_Thing_uid, range_Thing_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0002229',
+    shortIri: 'RO_0002229',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'ends',
+    label_fr: 'RO_0002229',
+    definition_en: 'inverse of ends with',
+    description: 'JOINTABLE RO_0002229::RO_0002229::{en=ends, fr=RO_0002229}\nThing::Thing JOIN Thing::Thing\n  {\n    domain_Thing_uid::domain_Thing_uid uid_domain::{en=domain_uid Thing, fr=domain_uid Chose}\n    range_Thing_uid::range_Thing_uid uid_domain::{en=range_uid Thing, fr=range_uid Chose}\n  } \nKEY {domain_Thing_uid, range_Thing_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0002230',
+    shortIri: 'RO_0002230',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'ends with',
+    label_fr: 'RO_0002230',
+    definition_en: 'x ends with y if and only if x has part y and the time point at which x ends is equivalent to the time point at which y ends. Formally: α(y) > α(x) ∧ ω(y) = ω(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.',
+    description: 'JOINTABLE RO_0002230::RO_0002230::{en=ends with, fr=RO_0002230}\nThing::Thing JOIN Thing::Thing\n  {\n    domain_Thing_uid::domain_Thing_uid uid_domain::{en=domain_uid Thing, fr=domain_uid Chose}\n    range_Thing_uid::range_Thing_uid uid_domain::{en=range_uid Thing, fr=range_uid Chose}\n  } \nKEY {domain_Thing_uid, range_Thing_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0002233',
+    shortIri: 'RO_0002233',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'has input',
+    label_fr: 'RO_0002233',
+    definition_en: 'p has input c iff: p is a process, c is a material entity, c is a participant in p, c is present at the start of p, and the state of c is modified during p.',
+    description: 'JOINTABLE RO_0002233::RO_0002233::{en=has input, fr=RO_0002233}\nBFO_0000002::BFO_0000002 JOIN BFO_0000015::BFO_0000015\n  {\n    domain_BFO_0000015_uid::domain_BFO_0000015_uid uid_domain::{en=domain_uid process, fr=domain_uid BFO_0000015}\n    range_BFO_0000002_uid::range_BFO_0000002_uid uid_domain::{en=range_uid continuant, fr=range_uid BFO_0000002}\n  } \nKEY {domain_BFO_0000015_uid, range_BFO_0000002_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0002234',
+    shortIri: 'RO_0002234',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'has output',
+    label_fr: 'RO_0002234',
+    definition_en: 'p has output c iff c is a participant in p, c is present at the end of p, and c is not present in the same state at the beginning of p.',
+    description: 'JOINTABLE RO_0002234::RO_0002234::{en=has output, fr=RO_0002234}\nBFO_0000002::BFO_0000002 JOIN BFO_0000003::BFO_0000003\n  {\n    domain_BFO_0000003_uid::domain_BFO_0000003_uid uid_domain::{en=domain_uid occurrent, fr=domain_uid BFO_0000003}\n    range_BFO_0000002_uid::range_BFO_0000002_uid uid_domain::{en=range_uid continuant, fr=range_uid BFO_0000002}\n  } \nKEY {domain_BFO_0000003_uid, range_BFO_0000002_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0002350',
+    shortIri: 'RO_0002350',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'member of',
+    label_fr: 'RO_0002350',
+    definition_en: 'is member of is a mereological relation between a item and a collection.',
+    description: 'JOINTABLE RO_0002350::RO_0002350::{en=member of, fr=RO_0002350}\nThing::Thing JOIN Thing::Thing\n  {\n    domain_Thing_uid::domain_Thing_uid uid_domain::{en=domain_uid Thing, fr=domain_uid Chose}\n    range_Thing_uid::range_Thing_uid uid_domain::{en=range_uid Thing, fr=range_uid Chose}\n  } \nKEY {domain_Thing_uid, range_Thing_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0002351',
+    shortIri: 'RO_0002351',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'has member',
+    label_fr: 'RO_0002351',
+    definition_en: 'has member is a mereological relation between a collection and an item.',
+    description: 'JOINTABLE RO_0002351::RO_0002351::{en=has member, fr=RO_0002351}\nThing::Thing JOIN Thing::Thing\n  {\n    domain_Thing_uid::domain_Thing_uid uid_domain::{en=domain_uid Thing, fr=domain_uid Chose}\n    range_Thing_uid::range_Thing_uid uid_domain::{en=range_uid Thing, fr=range_uid Chose}\n  } \nKEY {domain_Thing_uid, range_Thing_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0002352',
+    shortIri: 'RO_0002352',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'input of',
+    label_fr: 'RO_0002352',
+    definition_en: 'inverse of has input',
+    description: 'JOINTABLE RO_0002352::RO_0002352::{en=input of, fr=RO_0002352}\nBFO_0000003::BFO_0000003 JOIN BFO_0000002::BFO_0000002\n  {\n    domain_BFO_0000002_uid::domain_BFO_0000002_uid uid_domain::{en=domain_uid continuant, fr=domain_uid BFO_0000002}\n    range_BFO_0000003_uid::range_BFO_0000003_uid uid_domain::{en=range_uid occurrent, fr=range_uid BFO_0000003}\n  } \nKEY {domain_BFO_0000002_uid, range_BFO_0000003_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0002353',
+    shortIri: 'RO_0002353',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'output of',
+    label_fr: 'RO_0002353',
+    definition_en: 'inverse of has output',
+    description: 'JOINTABLE RO_0002353::RO_0002353::{en=output of, fr=RO_0002353}\nBFO_0000003::BFO_0000003 JOIN BFO_0000002::BFO_0000002\n  {\n    domain_BFO_0000002_uid::domain_BFO_0000002_uid uid_domain::{en=domain_uid continuant, fr=domain_uid BFO_0000002}\n    range_BFO_0000003_uid::range_BFO_0000003_uid uid_domain::{en=range_uid occurrent, fr=range_uid BFO_0000003}\n  } \nKEY {domain_BFO_0000002_uid, range_BFO_0000003_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'RO_0002479',
+    shortIri: 'RO_0002479',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'has part that occurs in',
+    label_fr: 'RO_0002479',
+    definition_en: 'p has part that occurs in c if and only if there exists some p1, such that p has_part p1, and p1 occurs in c.',
+    description: 'JOINTABLE RO_0002479::RO_0002479::{en=has part that occurs in, fr=RO_0002479}\nBFO_0000004::BFO_0000004 JOIN BFO_0000003::BFO_0000003\n  {\n    domain_BFO_0000003_uid::domain_BFO_0000003_uid uid_domain::{en=domain_uid occurrent, fr=domain_uid BFO_0000003}\n    range_BFO_0000004_uid::range_BFO_0000004_uid uid_domain::{en=range_uid independent continuant, fr=range_uid BFO_0000004}\n  } \nKEY {domain_BFO_0000003_uid, range_BFO_0000004_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'agent_in',
+    shortIri: 'agent_in',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'agent in',
+    label_fr: 'agent_in',
+    definition_en: 'x agent_in y iff y is an instance of Process and x is an instance of Agent, such that x is causally active in y.',
+    description: 'JOINTABLE agent_in::agent_in::{en=agent in, fr=agent_in}\nBFO_0000003::BFO_0000003 JOIN BFO_0000002::BFO_0000002\n  {\n    domain_BFO_0000002_uid::domain_BFO_0000002_uid uid_domain::{en=domain_uid continuant, fr=domain_uid BFO_0000002}\n    range_BFO_0000003_uid::range_BFO_0000003_uid uid_domain::{en=range_uid occurrent, fr=range_uid BFO_0000003}\n  } \nKEY {domain_BFO_0000002_uid, range_BFO_0000003_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'capability_of',
+    shortIri: 'capability_of',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'capability_of',
+    label_fr: 'capability_of',
+    description: 'JOINTABLE capability_of::capability_of::{en=capability_of, fr=capability_of}\nAgent::Agent JOIN AgentCapability::AgentCapability\n  {\n    domain_AgentCapability_uid::domain_AgentCapability_uid uid_domain::{en=domain_uid Agent Capability, fr=domain_uid AgentCapability}\n    range_Agent_uid::range_Agent_uid uid_domain::{en=range_uid Agent, fr=range_uid Agent}\n  } \nKEY {domain_AgentCapability_uid, range_Agent_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'has_agent',
+    shortIri: 'has_agent',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'has agent',
+    label_fr: 'has_agent',
+    definition_en: 'x has_agent y iff x is an instance of Process and y is an instance of Agent, such that y is causally active in x.',
+    description: 'JOINTABLE has_agent::has_agent::{en=has agent, fr=has_agent}\nBFO_0000002::BFO_0000002 JOIN BFO_0000003::BFO_0000003\n  {\n    domain_BFO_0000003_uid::domain_BFO_0000003_uid uid_domain::{en=domain_uid occurrent, fr=domain_uid BFO_0000003}\n    range_BFO_0000002_uid::range_BFO_0000002_uid uid_domain::{en=range_uid continuant, fr=range_uid BFO_0000002}\n  } \nKEY {domain_BFO_0000003_uid, range_BFO_0000002_uid} \n'
+});
+
+CREATE (n:ObjectProperty:Relvar {
+    relId: 'has_capability',
+    shortIri: 'has_capability',
+    schemaId: 'MPHPO',
+    origin: 'OBJECTPROPERTY',
+    label_en: 'has capability',
+    label_fr: 'has_capability',
+    definition_en: 'x has_capability y iff x is an instance of Agent and y is an instance of Agent Capability, such that x bearer of y.',
+    description: 'JOINTABLE has_capability::has_capability::{en=has capability, fr=has_capability}\nAgentCapability::AgentCapability JOIN Agent::Agent\n  {\n    domain_Agent_uid::domain_Agent_uid uid_domain::{en=domain_uid Agent, fr=domain_uid Agent}\n    range_AgentCapability_uid::range_AgentCapability_uid uid_domain::{en=range_uid Agent Capability, fr=range_uid AgentCapability}\n  } \nKEY {domain_Agent_uid, range_AgentCapability_uid} \n'
+});
+
+CREATE (n:OntoDatatype:Relvar {
+    relId: 'string',
+    shortIri: 'string',
+    schemaId: 'MPHPO',
+    origin: 'ONTOTYPE',
+    label_en: 'string',
+    label_fr: 'string',
+    description: 'TABLE string::string::{en=string, fr=string}\n  {\n    string_uid::string_uid uid_domain::{en=uid string, fr=uid string}\n    string::string string_domain::{en=string, fr=string}\n  } \nKEY {string_uid} \nKEY {string} \n'
+});
+
+CREATE (ax:DataAxiom:Relvar {
+    relId: 'MPHPO_0000017_Ontorel-Core_0000002_string',
+    shortIri: 'MPHPO_0000017_Ontorel-Core_0000002_string',
+    schemaId: 'MPHPO',
+    origin: 'DATAAXIOM',
+    propertyShortIri: 'Ontorel-Core_0000002',
+    domainId: 'MPHPO_0000017',
+    rangeId: 'string',
+    label_en: 'MPHPO free-text pathological condition sub-group name has textual value string',
+    label_fr: 'MPHPO_0000017 Ontorel-Core_0000002 string',
+    definition_en: 'null null null',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE MPHPO_0000017_Ontorel-Core_0000002_string::MPHPO_0000017_Ontorel-Core_0000002_string::{en=MPHPO free-text pathological condition sub-group name has textual value string, fr=MPHPO_0000017 Ontorel-Core_0000002 string}\nstring::string JOIN MPHPO_0000017::MPHPO_0000017\n  {\n    MPHPO_0000017_uid::MPHPO_0000017_uid uid_domain::{en=uid MPHPO free-text pathological condition sub-group name, fr=uid MPHPO_0000017}\n    string_uid::string_uid uid_domain::{en=uid string, fr=uid string}\n  } \nKEY {MPHPO_0000017_uid, string_uid} \n'
+});
+
+CREATE (ax:DataAxiom:Relvar {
+    relId: 'MPHPO_0000018_Ontorel-Core_0000002_string',
+    shortIri: 'MPHPO_0000018_Ontorel-Core_0000002_string',
+    schemaId: 'MPHPO',
+    origin: 'DATAAXIOM',
+    propertyShortIri: 'Ontorel-Core_0000002',
+    domainId: 'MPHPO_0000018',
+    rangeId: 'string',
+    label_en: 'MPHPO centrally registered identifier symbol has textual value string',
+    label_fr: 'MPHPO_0000018 Ontorel-Core_0000002 string',
+    definition_en: 'null null null',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE MPHPO_0000018_Ontorel-Core_0000002_string::MPHPO_0000018_Ontorel-Core_0000002_string::{en=MPHPO centrally registered identifier symbol has textual value string, fr=MPHPO_0000018 Ontorel-Core_0000002 string}\nstring::string JOIN MPHPO_0000018::MPHPO_0000018\n  {\n    MPHPO_0000018_uid::MPHPO_0000018_uid uid_domain::{en=uid MPHPO centrally registered identifier symbol, fr=uid MPHPO_0000018}\n    string_uid::string_uid uid_domain::{en=uid string, fr=uid string}\n  } \nKEY {MPHPO_0000018_uid, string_uid} \n'
+});
+
+CREATE (ax:DataAxiom:Relvar {
+    relId: 'MPHPO_0000001_Ontorel-Core_0000002_string',
+    shortIri: 'MPHPO_0000001_Ontorel-Core_0000002_string',
+    schemaId: 'MPHPO',
+    origin: 'DATAAXIOM',
+    propertyShortIri: 'Ontorel-Core_0000002',
+    domainId: 'MPHPO_0000001',
+    rangeId: 'string',
+    label_en: 'MPHPO pathological condition impact type on clinical visit  has textual value string',
+    label_fr: 'MPHPO_0000001 Ontorel-Core_0000002 string',
+    definition_en: 'null null null',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE MPHPO_0000001_Ontorel-Core_0000002_string::MPHPO_0000001_Ontorel-Core_0000002_string::{en=MPHPO pathological condition impact type on clinical visit  has textual value string, fr=MPHPO_0000001 Ontorel-Core_0000002 string}\nstring::string JOIN MPHPO_0000001::MPHPO_0000001\n  {\n    MPHPO_0000001_uid::MPHPO_0000001_uid uid_domain::{en=uid MPHPO pathological condition impact type on clinical visit , fr=uid MPHPO_0000001}\n    string_uid::string_uid uid_domain::{en=uid string, fr=uid string}\n  } \nKEY {MPHPO_0000001_uid, string_uid} \n'
+});
+
+CREATE (ax:DataAxiom:Relvar {
+    relId: 'MPHPO_0000021_Ontorel-Core_0000002_string',
+    shortIri: 'MPHPO_0000021_Ontorel-Core_0000002_string',
+    schemaId: 'MPHPO',
+    origin: 'DATAAXIOM',
+    propertyShortIri: 'Ontorel-Core_0000002',
+    domainId: 'MPHPO_0000021',
+    rangeId: 'string',
+    label_en: 'MPHPO centrally registered identifier label has textual value string',
+    label_fr: 'MPHPO_0000021 Ontorel-Core_0000002 string',
+    definition_en: 'null null null',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE MPHPO_0000021_Ontorel-Core_0000002_string::MPHPO_0000021_Ontorel-Core_0000002_string::{en=MPHPO centrally registered identifier label has textual value string, fr=MPHPO_0000021 Ontorel-Core_0000002 string}\nstring::string JOIN MPHPO_0000021::MPHPO_0000021\n  {\n    MPHPO_0000021_uid::MPHPO_0000021_uid uid_domain::{en=uid MPHPO centrally registered identifier label, fr=uid MPHPO_0000021}\n    string_uid::string_uid uid_domain::{en=uid string, fr=uid string}\n  } \nKEY {MPHPO_0000021_uid, string_uid} \n'
+});
+
+CREATE (n:OntoDatatype:Relvar {
+    relId: 'Ontorel-Core_0000001',
+    shortIri: 'Ontorel-Core_0000001',
+    schemaId: 'MPHPO',
+    origin: 'ONTOTYPE',
+    label_en: 'ISO8601DateTime',
+    label_fr: 'Ontorel-Core_0000001',
+    description: 'TABLE Ontorel-Core_0000001::Ontorel-Core_0000001::{en=ISO8601DateTime, fr=Ontorel-Core_0000001}\n  {\n    Ontorel-Core_0000001_uid::Ontorel-Core_0000001_uid uid_domain::{en=uid ISO8601DateTime, fr=uid Ontorel-Core_0000001}\n    Ontorel-Core_0000001::Ontorel-Core_0000001 Ontorel-Core_0000001_domain::{en=ISO8601DateTime, fr=Ontorel-Core_0000001}\n  } \nKEY {Ontorel-Core_0000001_uid} \nKEY {Ontorel-Core_0000001} \n'
+});
+
+CREATE (ax:DataAxiom:Relvar {
+    relId: 'MPHPO_0000009_Ontorel-Core_0000004_Ontorel-Core_0000001',
+    shortIri: 'MPHPO_0000009_Ontorel-Core_0000004_Ontorel-Core_0000001',
+    schemaId: 'MPHPO',
+    origin: 'DATAAXIOM',
+    propertyShortIri: 'Ontorel-Core_0000004',
+    domainId: 'MPHPO_0000009',
+    rangeId: 'Ontorel-Core_0000001',
+    label_en: 'MPHPO human birth date has temporal value ISO8601DateTime',
+    label_fr: 'MPHPO_0000009 Ontorel-Core_0000004 Ontorel-Core_0000001',
+    definition_en: 'null null null',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE MPHPO_0000009_Ontorel-Core_0000004_Ontorel-Core_0000001::MPHPO_0000009_Ontorel-Core_0000004_Ontorel-Core_0000001::{en=MPHPO human birth date has temporal value ISO8601DateTime, fr=MPHPO_0000009 Ontorel-Core_0000004 Ontorel-Core_0000001}\nOntorel-Core_0000001::Ontorel-Core_0000001 JOIN MPHPO_0000009::MPHPO_0000009\n  {\n    MPHPO_0000009_uid::MPHPO_0000009_uid uid_domain::{en=uid MPHPO human birth date, fr=uid MPHPO_0000009}\n    Ontorel-Core_0000001_uid::Ontorel-Core_0000001_uid uid_domain::{en=uid ISO8601DateTime, fr=uid Ontorel-Core_0000001}\n  } \nKEY {MPHPO_0000009_uid, Ontorel-Core_0000001_uid} \n'
+});
+
+CREATE (n:OntoDatatype:Relvar {
+    relId: 'Ontorel-Core_0000006',
+    shortIri: 'Ontorel-Core_0000006',
+    schemaId: 'MPHPO',
+    origin: 'ONTOTYPE',
+    label_en: 'ISO8601Duration',
+    label_fr: 'Ontorel-Core_0000006',
+    description: 'TABLE Ontorel-Core_0000006::Ontorel-Core_0000006::{en=ISO8601Duration, fr=Ontorel-Core_0000006}\n  {\n    Ontorel-Core_0000006_uid::Ontorel-Core_0000006_uid uid_domain::{en=uid ISO8601Duration, fr=uid Ontorel-Core_0000006}\n    Ontorel-Core_0000006::Ontorel-Core_0000006 Ontorel-Core_0000006_domain::{en=ISO8601Duration, fr=Ontorel-Core_0000006}\n  } \nKEY {Ontorel-Core_0000006_uid} \nKEY {Ontorel-Core_0000006} \n'
+});
+
+CREATE (ax:DataAxiom:Relvar {
+    relId: 'MPHPO_0000015_Ontorel-Core_0000004_Ontorel-Core_0000006',
+    shortIri: 'MPHPO_0000015_Ontorel-Core_0000004_Ontorel-Core_0000006',
+    schemaId: 'MPHPO',
+    origin: 'DATAAXIOM',
+    propertyShortIri: 'Ontorel-Core_0000004',
+    domainId: 'MPHPO_0000015',
+    rangeId: 'Ontorel-Core_0000006',
+    label_en: 'MPHPO human age at beginning of the HCOS has temporal value ISO8601Duration',
+    label_fr: 'MPHPO_0000015 Ontorel-Core_0000004 Ontorel-Core_0000006',
+    definition_en: 'null null null',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE MPHPO_0000015_Ontorel-Core_0000004_Ontorel-Core_0000006::MPHPO_0000015_Ontorel-Core_0000004_Ontorel-Core_0000006::{en=MPHPO human age at beginning of the HCOS has temporal value ISO8601Duration, fr=MPHPO_0000015 Ontorel-Core_0000004 Ontorel-Core_0000006}\nOntorel-Core_0000006::Ontorel-Core_0000006 JOIN MPHPO_0000015::MPHPO_0000015\n  {\n    MPHPO_0000015_uid::MPHPO_0000015_uid uid_domain::{en=uid MPHPO human age at beginning of the HCOS, fr=uid MPHPO_0000015}\n    Ontorel-Core_0000006_uid::Ontorel-Core_0000006_uid uid_domain::{en=uid ISO8601Duration, fr=uid Ontorel-Core_0000006}\n  } \nKEY {MPHPO_0000015_uid, Ontorel-Core_0000006_uid} \n'
+});
+
+CREATE (ax:DataAxiom:Relvar {
+    relId: 'MPHPO_0000007_Ontorel-Core_0000002_string',
+    shortIri: 'MPHPO_0000007_Ontorel-Core_0000002_string',
+    schemaId: 'MPHPO',
+    origin: 'DATAAXIOM',
+    propertyShortIri: 'Ontorel-Core_0000002',
+    domainId: 'MPHPO_0000007',
+    rangeId: 'string',
+    label_en: 'MPHPO hospitalization admission urgency level specification  has textual value string',
+    label_fr: 'MPHPO_0000007 Ontorel-Core_0000002 string',
+    definition_en: 'null null null',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE MPHPO_0000007_Ontorel-Core_0000002_string::MPHPO_0000007_Ontorel-Core_0000002_string::{en=MPHPO hospitalization admission urgency level specification  has textual value string, fr=MPHPO_0000007 Ontorel-Core_0000002 string}\nstring::string JOIN MPHPO_0000007::MPHPO_0000007\n  {\n    MPHPO_0000007_uid::MPHPO_0000007_uid uid_domain::{en=uid MPHPO hospitalization admission urgency level specification , fr=uid MPHPO_0000007}\n    string_uid::string_uid uid_domain::{en=uid string, fr=uid string}\n  } \nKEY {MPHPO_0000007_uid, string_uid} \n'
+});
+
+CREATE (ax:DataAxiom:Relvar {
+    relId: 'MPHPO_0000019_Ontorel-Core_0000002_string',
+    shortIri: 'MPHPO_0000019_Ontorel-Core_0000002_string',
+    schemaId: 'MPHPO',
+    origin: 'DATAAXIOM',
+    propertyShortIri: 'Ontorel-Core_0000002',
+    domainId: 'MPHPO_0000019',
+    rangeId: 'string',
+    label_en: 'MPHPO centrally registered identifier registry has textual value string',
+    label_fr: 'MPHPO_0000019 Ontorel-Core_0000002 string',
+    definition_en: 'null null null',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE MPHPO_0000019_Ontorel-Core_0000002_string::MPHPO_0000019_Ontorel-Core_0000002_string::{en=MPHPO centrally registered identifier registry has textual value string, fr=MPHPO_0000019 Ontorel-Core_0000002 string}\nstring::string JOIN MPHPO_0000019::MPHPO_0000019\n  {\n    MPHPO_0000019_uid::MPHPO_0000019_uid uid_domain::{en=uid MPHPO centrally registered identifier registry, fr=uid MPHPO_0000019}\n    string_uid::string_uid uid_domain::{en=uid string, fr=uid string}\n  } \nKEY {MPHPO_0000019_uid, string_uid} \n'
+});
+
+CREATE (ax:DataAxiom:Relvar {
+    relId: 'MPHPO_0000011_Ontorel-Core_0000004_Ontorel-Core_0000001',
+    shortIri: 'MPHPO_0000011_Ontorel-Core_0000004_Ontorel-Core_0000001',
+    schemaId: 'MPHPO',
+    origin: 'DATAAXIOM',
+    propertyShortIri: 'Ontorel-Core_0000004',
+    domainId: 'MPHPO_0000011',
+    rangeId: 'Ontorel-Core_0000001',
+    label_en: 'MPHPO human death date has temporal value ISO8601DateTime',
+    label_fr: 'MPHPO_0000011 Ontorel-Core_0000004 Ontorel-Core_0000001',
+    definition_en: 'null null null',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE MPHPO_0000011_Ontorel-Core_0000004_Ontorel-Core_0000001::MPHPO_0000011_Ontorel-Core_0000004_Ontorel-Core_0000001::{en=MPHPO human death date has temporal value ISO8601DateTime, fr=MPHPO_0000011 Ontorel-Core_0000004 Ontorel-Core_0000001}\nOntorel-Core_0000001::Ontorel-Core_0000001 JOIN MPHPO_0000011::MPHPO_0000011\n  {\n    MPHPO_0000011_uid::MPHPO_0000011_uid uid_domain::{en=uid MPHPO human death date, fr=uid MPHPO_0000011}\n    Ontorel-Core_0000001_uid::Ontorel-Core_0000001_uid uid_domain::{en=uid ISO8601DateTime, fr=uid Ontorel-Core_0000001}\n  } \nKEY {MPHPO_0000011_uid, Ontorel-Core_0000001_uid} \n'
+});
+
+CREATE (ax:DataAxiom:Relvar {
+    relId: 'MPHPO_0000004_Ontorel-Core_0000004_Ontorel-Core_0000001',
+    shortIri: 'MPHPO_0000004_Ontorel-Core_0000004_Ontorel-Core_0000001',
+    schemaId: 'MPHPO',
+    origin: 'DATAAXIOM',
+    propertyShortIri: 'Ontorel-Core_0000004',
+    domainId: 'MPHPO_0000004',
+    rangeId: 'Ontorel-Core_0000001',
+    label_en: 'MPHPO HOSD ending temporal information  has temporal value ISO8601DateTime',
+    label_fr: 'MPHPO_0000004 Ontorel-Core_0000004 Ontorel-Core_0000001',
+    definition_en: 'null null null',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE MPHPO_0000004_Ontorel-Core_0000004_Ontorel-Core_0000001::MPHPO_0000004_Ontorel-Core_0000004_Ontorel-Core_0000001::{en=MPHPO HOSD ending temporal information  has temporal value ISO8601DateTime, fr=MPHPO_0000004 Ontorel-Core_0000004 Ontorel-Core_0000001}\nOntorel-Core_0000001::Ontorel-Core_0000001 JOIN MPHPO_0000004::MPHPO_0000004\n  {\n    MPHPO_0000004_uid::MPHPO_0000004_uid uid_domain::{en=uid MPHPO HOSD ending temporal information , fr=uid MPHPO_0000004}\n    Ontorel-Core_0000001_uid::Ontorel-Core_0000001_uid uid_domain::{en=uid ISO8601DateTime, fr=uid Ontorel-Core_0000001}\n  } \nKEY {MPHPO_0000004_uid, Ontorel-Core_0000001_uid} \n'
+});
+
+CREATE (ax:DataAxiom:Relvar {
+    relId: 'MPHPO_0000003_Ontorel-Core_0000004_Ontorel-Core_0000001',
+    shortIri: 'MPHPO_0000003_Ontorel-Core_0000004_Ontorel-Core_0000001',
+    schemaId: 'MPHPO',
+    origin: 'DATAAXIOM',
+    propertyShortIri: 'Ontorel-Core_0000004',
+    domainId: 'MPHPO_0000003',
+    rangeId: 'Ontorel-Core_0000001',
+    label_en: 'MPHPO HOSD beginning temporal information has temporal value ISO8601DateTime',
+    label_fr: 'MPHPO_0000003 Ontorel-Core_0000004 Ontorel-Core_0000001',
+    definition_en: 'null null null',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE MPHPO_0000003_Ontorel-Core_0000004_Ontorel-Core_0000001::MPHPO_0000003_Ontorel-Core_0000004_Ontorel-Core_0000001::{en=MPHPO HOSD beginning temporal information has temporal value ISO8601DateTime, fr=MPHPO_0000003 Ontorel-Core_0000004 Ontorel-Core_0000001}\nOntorel-Core_0000001::Ontorel-Core_0000001 JOIN MPHPO_0000003::MPHPO_0000003\n  {\n    MPHPO_0000003_uid::MPHPO_0000003_uid uid_domain::{en=uid MPHPO HOSD beginning temporal information, fr=uid MPHPO_0000003}\n    Ontorel-Core_0000001_uid::Ontorel-Core_0000001_uid uid_domain::{en=uid ISO8601DateTime, fr=uid Ontorel-Core_0000001}\n  } \nKEY {MPHPO_0000003_uid, Ontorel-Core_0000001_uid} \n'
+});
+
+CREATE (ax:DataAxiom:Relvar {
+    relId: 'MPHPO_0000010_Ontorel-Core_0000002_string',
+    shortIri: 'MPHPO_0000010_Ontorel-Core_0000002_string',
+    schemaId: 'MPHPO',
+    origin: 'DATAAXIOM',
+    propertyShortIri: 'Ontorel-Core_0000002',
+    domainId: 'MPHPO_0000010',
+    rangeId: 'string',
+    label_en: 'MPHPO human biological sex information content entity has textual value string',
+    label_fr: 'MPHPO_0000010 Ontorel-Core_0000002 string',
+    definition_en: 'null null null',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE MPHPO_0000010_Ontorel-Core_0000002_string::MPHPO_0000010_Ontorel-Core_0000002_string::{en=MPHPO human biological sex information content entity has textual value string, fr=MPHPO_0000010 Ontorel-Core_0000002 string}\nstring::string JOIN MPHPO_0000010::MPHPO_0000010\n  {\n    MPHPO_0000010_uid::MPHPO_0000010_uid uid_domain::{en=uid MPHPO human biological sex information content entity, fr=uid MPHPO_0000010}\n    string_uid::string_uid uid_domain::{en=uid string, fr=uid string}\n  } \nKEY {MPHPO_0000010_uid, string_uid} \n'
+});
+
+CREATE (ax:DataAxiom:Relvar {
+    relId: 'MPHPO_0000020_Ontorel-Core_0000002_string',
+    shortIri: 'MPHPO_0000020_Ontorel-Core_0000002_string',
+    schemaId: 'MPHPO',
+    origin: 'DATAAXIOM',
+    propertyShortIri: 'Ontorel-Core_0000002',
+    domainId: 'MPHPO_0000020',
+    rangeId: 'string',
+    label_en: 'MPHPO centrally registered identifier version has textual value string',
+    label_fr: 'MPHPO_0000020 Ontorel-Core_0000002 string',
+    definition_en: 'null null null',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE MPHPO_0000020_Ontorel-Core_0000002_string::MPHPO_0000020_Ontorel-Core_0000002_string::{en=MPHPO centrally registered identifier version has textual value string, fr=MPHPO_0000020 Ontorel-Core_0000002 string}\nstring::string JOIN MPHPO_0000020::MPHPO_0000020\n  {\n    MPHPO_0000020_uid::MPHPO_0000020_uid uid_domain::{en=uid MPHPO centrally registered identifier version, fr=uid MPHPO_0000020}\n    string_uid::string_uid uid_domain::{en=uid string, fr=uid string}\n  } \nKEY {MPHPO_0000020_uid, string_uid} \n'
+});
+
+CREATE (n:OntoDatatype:Relvar {
+    relId: 'Literal',
+    shortIri: 'Literal',
+    schemaId: 'MPHPO',
+    origin: 'ONTOTYPE',
+    label_en: 'Literal',
+    label_fr: 'Literal',
+    description: 'TABLE Literal::Literal::{en=Literal, fr=Literal}\n  {\n    Literal_uid::Literal_uid uid_domain::{en=uid Literal, fr=uid Literal}\n    Literal::Literal Literal_domain::{en=Literal, fr=Literal}\n  } \nKEY {Literal_uid} \nKEY {Literal} \n'
+});
+
+CREATE (ax:DataAxiom:Relvar {
+    relId: 'IOIO_0000014_Ontorel-Core_0000002_Literal',
+    shortIri: 'IOIO_0000014_Ontorel-Core_0000002_Literal',
+    schemaId: 'MPHPO',
+    origin: 'DATAAXIOM',
+    propertyShortIri: 'Ontorel-Core_0000002',
+    domainId: 'IOIO_0000014',
+    rangeId: 'Literal',
+    label_en: 'human identifier has textual value Literal',
+    label_fr: 'IOIO_0000014 Ontorel-Core_0000002 Literal',
+    definition_en: 'An organism identifier that denotes a particular human. null null',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE IOIO_0000014_Ontorel-Core_0000002_Literal::IOIO_0000014_Ontorel-Core_0000002_Literal::{en=human identifier has textual value Literal, fr=IOIO_0000014 Ontorel-Core_0000002 Literal}\nLiteral::Literal JOIN IOIO_0000014::IOIO_0000014\n  {\n    IOIO_0000014_uid::IOIO_0000014_uid uid_domain::{en=uid human identifier, fr=uid IOIO_0000014}\n    Literal_uid::Literal_uid uid_domain::{en=uid Literal, fr=uid Literal}\n  } \nKEY {IOIO_0000014_uid, Literal_uid} \n'
+});
+
+CREATE (ax:DataAxiom:Relvar {
+    relId: 'MPHPO_0000005_Ontorel-Core_0000002_string',
+    shortIri: 'MPHPO_0000005_Ontorel-Core_0000002_string',
+    schemaId: 'MPHPO',
+    origin: 'DATAAXIOM',
+    propertyShortIri: 'Ontorel-Core_0000002',
+    domainId: 'MPHPO_0000005',
+    rangeId: 'string',
+    label_en: 'MPHPO living environment type  has textual value string',
+    label_fr: 'MPHPO_0000005 Ontorel-Core_0000002 string',
+    definition_en: 'null null null',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE MPHPO_0000005_Ontorel-Core_0000002_string::MPHPO_0000005_Ontorel-Core_0000002_string::{en=MPHPO living environment type  has textual value string, fr=MPHPO_0000005 Ontorel-Core_0000002 string}\nstring::string JOIN MPHPO_0000005::MPHPO_0000005\n  {\n    MPHPO_0000005_uid::MPHPO_0000005_uid uid_domain::{en=uid MPHPO living environment type , fr=uid MPHPO_0000005}\n    string_uid::string_uid uid_domain::{en=uid string, fr=uid string}\n  } \nKEY {MPHPO_0000005_uid, string_uid} \n'
+});
+
+CREATE (ax:DataAxiom:Relvar {
+    relId: 'MPHPO_0000006_Ontorel-Core_0000002_string',
+    shortIri: 'MPHPO_0000006_Ontorel-Core_0000002_string',
+    schemaId: 'MPHPO',
+    origin: 'DATAAXIOM',
+    propertyShortIri: 'Ontorel-Core_0000002',
+    domainId: 'MPHPO_0000006',
+    rangeId: 'string',
+    label_en: 'MPHPO healthcare physician service identifier  has textual value string',
+    label_fr: 'MPHPO_0000006 Ontorel-Core_0000002 string',
+    definition_en: 'null null null',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE MPHPO_0000006_Ontorel-Core_0000002_string::MPHPO_0000006_Ontorel-Core_0000002_string::{en=MPHPO healthcare physician service identifier  has textual value string, fr=MPHPO_0000006 Ontorel-Core_0000002 string}\nstring::string JOIN MPHPO_0000006::MPHPO_0000006\n  {\n    MPHPO_0000006_uid::MPHPO_0000006_uid uid_domain::{en=uid MPHPO healthcare physician service identifier , fr=uid MPHPO_0000006}\n    string_uid::string_uid uid_domain::{en=uid string, fr=uid string}\n  } \nKEY {MPHPO_0000006_uid, string_uid} \n'
+});
+
+CREATE (ax:DataAxiom:Relvar {
+    relId: 'HOSO_0000100_Ontorel-Core_0000002_Literal',
+    shortIri: 'HOSO_0000100_Ontorel-Core_0000002_Literal',
+    schemaId: 'MPHPO',
+    origin: 'DATAAXIOM',
+    propertyShortIri: 'Ontorel-Core_0000002',
+    domainId: 'HOSO_0000100',
+    rangeId: 'Literal',
+    label_en: 'healthcare organization service delivery identifier has textual value Literal',
+    label_fr: 'HOSO_0000100 Ontorel-Core_0000002 Literal',
+    definition_en: 'An identifier that denotes a healthcare organization service delivery. null null',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000100_Ontorel-Core_0000002_Literal::HOSO_0000100_Ontorel-Core_0000002_Literal::{en=healthcare organization service delivery identifier has textual value Literal, fr=HOSO_0000100 Ontorel-Core_0000002 Literal}\nLiteral::Literal JOIN HOSO_0000100::HOSO_0000100\n  {\n    HOSO_0000100_uid::HOSO_0000100_uid uid_domain::{en=uid healthcare organization service delivery identifier, fr=uid HOSO_0000100}\n    Literal_uid::Literal_uid uid_domain::{en=uid Literal, fr=uid Literal}\n  } \nKEY {HOSO_0000100_uid, Literal_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000003_IAO_0000219_OBI_0100026',
+    shortIri: 'HOSO_0000003_IAO_0000219_OBI_0100026',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000219',
+    domainId: 'HOSO_0000003',
+    rangeId: 'OBI_0100026',
+    label_en: 'healthcare service organism specification denotes organism',
+    label_fr: 'HOSO_0000003 IAO_0000219 OBI_0100026',
+    definition_en: 'A service agreement directive entity identifying an organism for whom a healthcare service delivery aims at providing a desired effect to its health status. A primitive, instance-level, relation obtaining between an information content entity and some portion of reality. Denotation is what happens when someone creates an information content entity E in order to specifically refer to something. The only relation between E and the thing is that E can be used to "pick out" the thing. This relation connects those two together. Freedictionary.com sense 3: To signify directly; refer to specifically A material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000003_IAO_0000219_OBI_0100026::HOSO_0000003_IAO_0000219_OBI_0100026::{en=healthcare service organism specification denotes organism, fr=HOSO_0000003 IAO_0000219 OBI_0100026}\nOBI_0100026::OBI_0100026 JOIN HOSO_0000003::HOSO_0000003\n  {\n    HOSO_0000003_uid::HOSO_0000003_uid uid_domain::{en=uid healthcare service organism specification, fr=uid HOSO_0000003}\n    OBI_0100026_uid::OBI_0100026_uid uid_domain::{en=uid organism, fr=uid OBI_0100026}\n  } \nKEY {HOSO_0000003_uid, OBI_0100026_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000124_RO_0002180_HEPRO_0000017',
+    shortIri: 'HOSO_0000124_RO_0002180_HEPRO_0000017',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'HOSO_0000124',
+    rangeId: 'HEPRO_0000017',
+    label_en: 'healthcare organization clinical visit pathological condition impact statement has component pathological condition sub-group name',
+    label_fr: 'HOSO_0000124 RO_0002180 HEPRO_0000017',
+    definition_en: 'A pragmatically accepted statement that states the impact of a pathological condition on a clinical visit. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. An information content entity that is about a sub-group of pathological conditions.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000124_RO_0002180_HEPRO_0000017::HOSO_0000124_RO_0002180_HEPRO_0000017::{en=healthcare organization clinical visit pathological condition impact statement has component pathological condition sub-group name, fr=HOSO_0000124 RO_0002180 HEPRO_0000017}\nHEPRO_0000017::HEPRO_0000017 JOIN HOSO_0000124::HOSO_0000124\n  {\n    HOSO_0000124_uid::HOSO_0000124_uid uid_domain::{en=uid healthcare organization clinical visit pathological condition impact statement, fr=uid HOSO_0000124}\n    HEPRO_0000017_uid::HEPRO_0000017_uid uid_domain::{en=uid pathological condition sub-group name, fr=uid HEPRO_0000017}\n  } \nKEY {HOSO_0000124_uid, HEPRO_0000017_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000124_RO_0002180_HOSO_0000126',
+    shortIri: 'HOSO_0000124_RO_0002180_HOSO_0000126',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'HOSO_0000124',
+    rangeId: 'HOSO_0000126',
+    label_en: 'healthcare organization clinical visit pathological condition impact statement has component pathological condition impact type on clinical visit',
+    label_fr: 'HOSO_0000124 RO_0002180 HOSO_0000126',
+    definition_en: 'A pragmatically accepted statement that states the impact of a pathological condition on a clinical visit. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. An information content entity that describes the type of impact of a pathological condition on a clinical visit.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000124_RO_0002180_HOSO_0000126::HOSO_0000124_RO_0002180_HOSO_0000126::{en=healthcare organization clinical visit pathological condition impact statement has component pathological condition impact type on clinical visit, fr=HOSO_0000124 RO_0002180 HOSO_0000126}\nHOSO_0000126::HOSO_0000126 JOIN HOSO_0000124::HOSO_0000124\n  {\n    HOSO_0000124_uid::HOSO_0000124_uid uid_domain::{en=uid healthcare organization clinical visit pathological condition impact statement, fr=uid HOSO_0000124}\n    HOSO_0000126_uid::HOSO_0000126_uid uid_domain::{en=uid pathological condition impact type on clinical visit, fr=uid HOSO_0000126}\n  } \nKEY {HOSO_0000124_uid, HOSO_0000126_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000124_RO_0002180_HOSO_0000100',
+    shortIri: 'HOSO_0000124_RO_0002180_HOSO_0000100',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'HOSO_0000124',
+    rangeId: 'HOSO_0000100',
+    label_en: 'healthcare organization clinical visit pathological condition impact statement has component healthcare organization service delivery identifier',
+    label_fr: 'HOSO_0000124 RO_0002180 HOSO_0000100',
+    definition_en: 'A pragmatically accepted statement that states the impact of a pathological condition on a clinical visit. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. An identifier that denotes a healthcare organization service delivery.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000124_RO_0002180_HOSO_0000100::HOSO_0000124_RO_0002180_HOSO_0000100::{en=healthcare organization clinical visit pathological condition impact statement has component healthcare organization service delivery identifier, fr=HOSO_0000124 RO_0002180 HOSO_0000100}\nHOSO_0000100::HOSO_0000100 JOIN HOSO_0000124::HOSO_0000124\n  {\n    HOSO_0000124_uid::HOSO_0000124_uid uid_domain::{en=uid healthcare organization clinical visit pathological condition impact statement, fr=uid HOSO_0000124}\n    HOSO_0000100_uid::HOSO_0000100_uid uid_domain::{en=uid healthcare organization service delivery identifier, fr=uid HOSO_0000100}\n  } \nKEY {HOSO_0000124_uid, HOSO_0000100_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000100_IAO_0000219_HOSO_0000011',
+    shortIri: 'HOSO_0000100_IAO_0000219_HOSO_0000011',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000219',
+    domainId: 'HOSO_0000100',
+    rangeId: 'HOSO_0000011',
+    label_en: 'healthcare organization service delivery identifier denotes healthcare organization service delivery',
+    label_fr: 'HOSO_0000100 IAO_0000219 HOSO_0000011',
+    definition_en: 'An identifier that denotes a healthcare organization service delivery. A primitive, instance-level, relation obtaining between an information content entity and some portion of reality. Denotation is what happens when someone creates an information content entity E in order to specifically refer to something. The only relation between E and the thing is that E can be used to "pick out" the thing. This relation connects those two together. Freedictionary.com sense 3: To signify directly; refer to specifically A service delivery under the responsibility of a healthcare organisation. It stems from an agreement between a requesting agent and a healthcare organization.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000100_IAO_0000219_HOSO_0000011::HOSO_0000100_IAO_0000219_HOSO_0000011::{en=healthcare organization service delivery identifier denotes healthcare organization service delivery, fr=HOSO_0000100 IAO_0000219 HOSO_0000011}\nHOSO_0000011::HOSO_0000011 JOIN HOSO_0000100::HOSO_0000100\n  {\n    HOSO_0000100_uid::HOSO_0000100_uid uid_domain::{en=uid healthcare organization service delivery identifier, fr=uid HOSO_0000100}\n    HOSO_0000011_uid::HOSO_0000011_uid uid_domain::{en=uid healthcare organization service delivery, fr=uid HOSO_0000011}\n  } \nKEY {HOSO_0000100_uid, HOSO_0000011_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'IAO_0020010_OBI_0000299_IAO_0020000',
+    shortIri: 'IAO_0020010_OBI_0000299_IAO_0020000',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'OBI_0000299',
+    domainId: 'IAO_0020010',
+    rangeId: 'IAO_0020000',
+    label_en: 'identifier creating process has_specified_output identifier',
+    label_fr: 'IAO_0020010 OBI_0000299 IAO_0020000',
+    definition_en: 'A planned process that provides a reference to an individual entity shared by a group of subscribers to refer to that individual entity. The inverse property of is_specified_output_of An information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE IAO_0020010_OBI_0000299_IAO_0020000::IAO_0020010_OBI_0000299_IAO_0020000::{en=identifier creating process has_specified_output identifier, fr=IAO_0020010 OBI_0000299 IAO_0020000}\nIAO_0020000::IAO_0020000 JOIN IAO_0020010::IAO_0020010\n  {\n    IAO_0020010_uid::IAO_0020010_uid uid_domain::{en=uid identifier creating process, fr=uid IAO_0020010}\n    IAO_0020000_uid::IAO_0020000_uid uid_domain::{en=uid identifier, fr=uid IAO_0020000}\n  } \nKEY {IAO_0020010_uid, IAO_0020000_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000039_IAO_0000136_ONTORELA_Cdb7d47d',
+    shortIri: 'HOSO_0000039_IAO_0000136_ONTORELA_Cdb7d47d',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000136',
+    domainId: 'HOSO_0000039',
+    rangeId: 'ONTORELA_Cdb7d47d',
+    label_en: 'prior visit category to an inpatient visit is about healthcare organization clinical visit\n and (immediately precedes some immediate inpatient subsequent visit)',
+    label_fr: 'HOSO_0000039 IAO_0000136 HOSO_0000012\n and (RO_0002090 some HOSO_0000038)',
+    definition_en: 'An information content entity describing the type of visit that occured prior to an immediate inpatient subsequent visit. A (currently) primitive relation that relates an information artifact to an entity. prior visit category to an inpatient visitA healthcare organisation service delivery that aims at providing a desired effect on the health status of a specified organism. It is usually composed of health procedures and possibly associated ancillary processes. An immediate subsequent visit healthcare organisation visit for a given patient that was participating in another healthcare organisation visit for the same organisation just prior to this visit.',
+    definition_fr: 'null null HOSO_0000039',
+    description: 'JOINTABLE HOSO_0000039_IAO_0000136_ONTORELA_Cdb7d47d::HOSO_0000039_IAO_0000136_ONTORELA_Cdb7d47d::{en=prior visit category to an inpatient visit is about healthcare organization clinical visit\n and (immediately precedes some immediate inpatient subsequent visit), fr=HOSO_0000039 IAO_0000136 HOSO_0000012\n and (RO_0002090 some HOSO_0000038)}\nONTORELA_Cdb7d47d::ONTORELA_Cdb7d47d JOIN HOSO_0000039::HOSO_0000039\n  {\n    HOSO_0000039_uid::HOSO_0000039_uid uid_domain::{en=uid prior visit category to an inpatient visit, fr=uid HOSO_0000039}\n    ONTORELA_Cdb7d47d_uid::ONTORELA_Cdb7d47d_uid uid_domain::{en=uid healthcare organization clinical visit\n and (immediately precedes some immediate inpatient subsequent visit), fr=uid HOSO_0000012\n and (RO_0002090 some HOSO_0000038)}\n  } \nKEY {HOSO_0000039_uid, ONTORELA_Cdb7d47d_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'OpenLHS-Core_0000027_BFO_0000051_IAO_0000033',
+    shortIri: 'OpenLHS-Core_0000027_BFO_0000051_IAO_0000033',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'BFO_0000051',
+    domainId: 'OpenLHS-Core_0000027',
+    rangeId: 'IAO_0000033',
+    label_en: 'request has part directive information entity',
+    label_fr: 'OpenLHS-Core_0000027 BFO_0000051 IAO_0000033',
+    definition_en: 'An information content entity specifiying one or several types of processes that a party, whether a person or an organization, wants to see instantiated for the benefit of itself or another party. a core relation that holds between a whole and its part An information content entity whose concretizations indicate to their bearer how to realize them in a process.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE OpenLHS-Core_0000027_BFO_0000051_IAO_0000033::OpenLHS-Core_0000027_BFO_0000051_IAO_0000033::{en=request has part directive information entity, fr=OpenLHS-Core_0000027 BFO_0000051 IAO_0000033}\nIAO_0000033::IAO_0000033 JOIN OpenLHS-Core_0000027::OpenLHS-Core_0000027\n  {\n    OpenLHS-Core_0000027_uid::OpenLHS-Core_0000027_uid uid_domain::{en=uid request, fr=uid OpenLHS-Core_0000027}\n    IAO_0000033_uid::IAO_0000033_uid uid_domain::{en=uid directive information entity, fr=uid IAO_0000033}\n  } \nKEY {OpenLHS-Core_0000027_uid, IAO_0000033_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HEPRO_0000008_OBI_0000312_HEPRO_0000005',
+    shortIri: 'HEPRO_0000008_OBI_0000312_HEPRO_0000005',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'OBI_0000312',
+    domainId: 'HEPRO_0000008',
+    rangeId: 'HEPRO_0000005',
+    label_en: 'health activity outcome information is_specified_output_of health activity',
+    label_fr: 'HEPRO_0000008 OBI_0000312 HEPRO_0000005',
+    definition_en: 'An information content entity that is a specified output of a health activity. A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of. A planned process that aims to produce a truthful statement about the health status of an organism or modify it.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HEPRO_0000008_OBI_0000312_HEPRO_0000005::HEPRO_0000008_OBI_0000312_HEPRO_0000005::{en=health activity outcome information is_specified_output_of health activity, fr=HEPRO_0000008 OBI_0000312 HEPRO_0000005}\nHEPRO_0000005::HEPRO_0000005 JOIN HEPRO_0000008::HEPRO_0000008\n  {\n    HEPRO_0000008_uid::HEPRO_0000008_uid uid_domain::{en=uid health activity outcome information, fr=uid HEPRO_0000008}\n    HEPRO_0000005_uid::HEPRO_0000005_uid uid_domain::{en=uid health activity, fr=uid HEPRO_0000005}\n  } \nKEY {HEPRO_0000008_uid, HEPRO_0000005_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'IAO_0000033_OpenLHS-Core_0000007_BFO_0000015',
+    shortIri: 'IAO_0000033_OpenLHS-Core_0000007_BFO_0000015',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'OpenLHS-Core_0000007',
+    domainId: 'IAO_0000033',
+    rangeId: 'BFO_0000015',
+    label_en: 'directive information entity directs process',
+    label_fr: 'IAO_0000033 OpenLHS-Core_0000007 BFO_0000015',
+    definition_en: 'An information content entity whose concretizations indicate to their bearer how to realize them in a process. A directs B := A is a directive information entity that guides an agent in the execution of B. Process',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE IAO_0000033_OpenLHS-Core_0000007_BFO_0000015::IAO_0000033_OpenLHS-Core_0000007_BFO_0000015::{en=directive information entity directs process, fr=IAO_0000033 OpenLHS-Core_0000007 BFO_0000015}\nBFO_0000015::BFO_0000015 JOIN IAO_0000033::IAO_0000033\n  {\n    IAO_0000033_uid::IAO_0000033_uid uid_domain::{en=uid directive information entity, fr=uid IAO_0000033}\n    BFO_0000015_uid::BFO_0000015_uid uid_domain::{en=uid process, fr=uid BFO_0000015}\n  } \nKEY {IAO_0000033_uid, BFO_0000015_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'IAO_0000033_OpenLHS-Core_0000066_BFO_0000015',
+    shortIri: 'IAO_0000033_OpenLHS-Core_0000066_BFO_0000015',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'OpenLHS-Core_0000007',
+    domainId: 'IAO_0000033',
+    rangeId: 'BFO_0000015',
+    label_en: 'directive information entity maximally directs process',
+    label_fr: 'IAO_0000033 OpenLHS-Core_0000066 BFO_0000015',
+    definition_en: 'An information content entity whose concretizations indicate to their bearer how to realize them in a process. A maximally directs B := A directs B, and B is compliant to A. Process',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE IAO_0000033_OpenLHS-Core_0000066_BFO_0000015::IAO_0000033_OpenLHS-Core_0000066_BFO_0000015::{en=directive information entity maximally directs process, fr=IAO_0000033 OpenLHS-Core_0000066 BFO_0000015}\nBFO_0000015::BFO_0000015 JOIN IAO_0000033::IAO_0000033\n  {\n    IAO_0000033_uid::IAO_0000033_uid uid_domain::{en=uid directive information entity, fr=uid IAO_0000033}\n    BFO_0000015_uid::BFO_0000015_uid uid_domain::{en=uid process, fr=uid BFO_0000015}\n  } \nKEY {IAO_0000033_uid, BFO_0000015_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'IAO_0000033_IAO_0000136_BFO_0000017',
+    shortIri: 'IAO_0000033_IAO_0000136_BFO_0000017',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000136',
+    domainId: 'IAO_0000033',
+    rangeId: 'BFO_0000017',
+    label_en: 'directive information entity is about realizable entity',
+    label_fr: 'IAO_0000033 IAO_0000136 BFO_0000017',
+    definition_en: 'An information content entity whose concretizations indicate to their bearer how to realize them in a process. A (currently) primitive relation that relates an information artifact to an entity. RealizableEntity',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE IAO_0000033_IAO_0000136_BFO_0000017::IAO_0000033_IAO_0000136_BFO_0000017::{en=directive information entity is about realizable entity, fr=IAO_0000033 IAO_0000136 BFO_0000017}\nBFO_0000017::BFO_0000017 JOIN IAO_0000033::IAO_0000033\n  {\n    IAO_0000033_uid::IAO_0000033_uid uid_domain::{en=uid directive information entity, fr=uid IAO_0000033}\n    BFO_0000017_uid::BFO_0000017_uid uid_domain::{en=uid realizable entity, fr=uid BFO_0000017}\n  } \nKEY {IAO_0000033_uid, BFO_0000017_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'OMRSE_00000062_RO_0000053_BFO_0000034',
+    shortIri: 'OMRSE_00000062_RO_0000053_BFO_0000034',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0000053',
+    domainId: 'OMRSE_00000062',
+    rangeId: 'BFO_0000034',
+    label_en: 'facility has characteristic function',
+    label_fr: 'OMRSE_00000062 RO_0000053 BFO_0000034',
+    definition_en: 'An architectural structure that bears some function. Inverse of characteristic_of Function',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE OMRSE_00000062_RO_0000053_BFO_0000034::OMRSE_00000062_RO_0000053_BFO_0000034::{en=facility has characteristic function, fr=OMRSE_00000062 RO_0000053 BFO_0000034}\nBFO_0000034::BFO_0000034 JOIN OMRSE_00000062::OMRSE_00000062\n  {\n    OMRSE_00000062_uid::OMRSE_00000062_uid uid_domain::{en=uid facility, fr=uid OMRSE_00000062}\n    BFO_0000034_uid::BFO_0000034_uid uid_domain::{en=uid function, fr=uid BFO_0000034}\n  } \nKEY {OMRSE_00000062_uid, BFO_0000034_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'OMRSE_00000062_OMRSE_00000068_OBI_0000245',
+    shortIri: 'OMRSE_00000062_OMRSE_00000068_OBI_0000245',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'OMRSE_00000068',
+    domainId: 'OMRSE_00000062',
+    rangeId: 'OBI_0000245',
+    label_en: 'facility is administered by organization',
+    label_fr: 'OMRSE_00000062 OMRSE_00000068 OBI_0000245',
+    definition_en: 'An architectural structure that bears some function. null An entity that can bear roles, has members, and has a set of organization rules. Members of organizations are either organizations themselves or individual people. Members can bear specific organization member roles that are determined in the organization rules. The organization rules also determine how decisions are made on behalf of the organization by the organization members.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE OMRSE_00000062_OMRSE_00000068_OBI_0000245::OMRSE_00000062_OMRSE_00000068_OBI_0000245::{en=facility is administered by organization, fr=OMRSE_00000062 OMRSE_00000068 OBI_0000245}\nOBI_0000245::OBI_0000245 JOIN OMRSE_00000062::OMRSE_00000062\n  {\n    OMRSE_00000062_uid::OMRSE_00000062_uid uid_domain::{en=uid facility, fr=uid OMRSE_00000062}\n    OBI_0000245_uid::OBI_0000245_uid uid_domain::{en=uid organization, fr=uid OBI_0000245}\n  } \nKEY {OMRSE_00000062_uid, OBI_0000245_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000082_BFO_0000054_HOSO_0000012',
+    shortIri: 'HOSO_0000082_BFO_0000054_HOSO_0000012',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'BFO_0000054',
+    domainId: 'HOSO_0000082',
+    rangeId: 'HOSO_0000012',
+    label_en: 'patient role realized in healthcare organization clinical visit',
+    label_fr: 'HOSO_0000082 BFO_0000054 HOSO_0000012',
+    definition_en: 'A role born by an organism which is the primary recipient in a healthcare organization clinical visit. null A healthcare organisation service delivery that aims at providing a desired effect on the health status of a specified organism. It is usually composed of health procedures and possibly associated ancillary processes.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000082_BFO_0000054_HOSO_0000012::HOSO_0000082_BFO_0000054_HOSO_0000012::{en=patient role realized in healthcare organization clinical visit, fr=HOSO_0000082 BFO_0000054 HOSO_0000012}\nHOSO_0000012::HOSO_0000012 JOIN HOSO_0000082::HOSO_0000082\n  {\n    HOSO_0000082_uid::HOSO_0000082_uid uid_domain::{en=uid patient role, fr=uid HOSO_0000082}\n    HOSO_0000012_uid::HOSO_0000012_uid uid_domain::{en=uid healthcare organization clinical visit, fr=uid HOSO_0000012}\n  } \nKEY {HOSO_0000082_uid, HOSO_0000012_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000070_RO_0002087_HOSO_0000071',
+    shortIri: 'HOSO_0000070_RO_0002087_HOSO_0000071',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002087',
+    domainId: 'HOSO_0000070',
+    rangeId: 'HOSO_0000071',
+    label_en: 'direct ambulance initiated hospitalization immediately preceded by ambulance paramedics visit',
+    label_fr: 'HOSO_0000070 RO_0002087 HOSO_0000071',
+    definition_en: 'An hospitalization for a given patient that was participating in another healthcare organisation visit involving paramedics just prior to this visit. null A healthcare organization clinical visit involving an ambulance and paramedics as healthcare provider.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000070_RO_0002087_HOSO_0000071::HOSO_0000070_RO_0002087_HOSO_0000071::{en=direct ambulance initiated hospitalization immediately preceded by ambulance paramedics visit, fr=HOSO_0000070 RO_0002087 HOSO_0000071}\nHOSO_0000071::HOSO_0000071 JOIN HOSO_0000070::HOSO_0000070\n  {\n    HOSO_0000070_uid::HOSO_0000070_uid uid_domain::{en=uid direct ambulance initiated hospitalization, fr=uid HOSO_0000070}\n    HOSO_0000071_uid::HOSO_0000071_uid uid_domain::{en=uid ambulance paramedics visit, fr=uid HOSO_0000071}\n  } \nKEY {HOSO_0000070_uid, HOSO_0000071_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'MPHPO_0000020_OpenLHS-Core_0000070_MPHPO_0000016',
+    shortIri: 'MPHPO_0000020_OpenLHS-Core_0000070_MPHPO_0000016',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'OpenLHS-Core_0000070',
+    domainId: 'MPHPO_0000020',
+    rangeId: 'MPHPO_0000016',
+    label_en: 'MPHPO centrally registered identifier version component of MPHPO coded pathological condition sub-group name',
+    label_fr: 'MPHPO_0000020 OpenLHS-Core_0000070 MPHPO_0000016',
+    definition_en: 'null The inverse relation of has component. null',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE MPHPO_0000020_OpenLHS-Core_0000070_MPHPO_0000016::MPHPO_0000020_OpenLHS-Core_0000070_MPHPO_0000016::{en=MPHPO centrally registered identifier version component of MPHPO coded pathological condition sub-group name, fr=MPHPO_0000020 OpenLHS-Core_0000070 MPHPO_0000016}\nMPHPO_0000016::MPHPO_0000016 JOIN MPHPO_0000020::MPHPO_0000020\n  {\n    MPHPO_0000020_uid::MPHPO_0000020_uid uid_domain::{en=uid MPHPO centrally registered identifier version, fr=uid MPHPO_0000020}\n    MPHPO_0000016_uid::MPHPO_0000016_uid uid_domain::{en=uid MPHPO coded pathological condition sub-group name, fr=uid MPHPO_0000016}\n  } \nKEY {MPHPO_0000020_uid, MPHPO_0000016_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HEPRO_0000128_RO_0002180_HEPRO_0000130',
+    shortIri: 'HEPRO_0000128_RO_0002180_HEPRO_0000130',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'HEPRO_0000128',
+    rangeId: 'HEPRO_0000130',
+    label_en: 'pathological condition end temporally qualifying statement has component pathological condition end temporal information',
+    label_fr: 'HEPRO_0000128 RO_0002180 HEPRO_0000130',
+    definition_en: 'A temporally qualifying statement that qualifies the clinically identified disappearance of a disorder or a disease, or the ending of a pathological process. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. A temporal information that is a component of a pathological condition end temporallly qualifying statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the clinically identified end of the pathological condition.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HEPRO_0000128_RO_0002180_HEPRO_0000130::HEPRO_0000128_RO_0002180_HEPRO_0000130::{en=pathological condition end temporally qualifying statement has component pathological condition end temporal information, fr=HEPRO_0000128 RO_0002180 HEPRO_0000130}\nHEPRO_0000130::HEPRO_0000130 JOIN HEPRO_0000128::HEPRO_0000128\n  {\n    HEPRO_0000128_uid::HEPRO_0000128_uid uid_domain::{en=uid pathological condition end temporally qualifying statement, fr=uid HEPRO_0000128}\n    HEPRO_0000130_uid::HEPRO_0000130_uid uid_domain::{en=uid pathological condition end temporal information, fr=uid HEPRO_0000130}\n  } \nKEY {HEPRO_0000128_uid, HEPRO_0000130_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HEPRO_0000007_OBI_0000312_HEPRO_0000006',
+    shortIri: 'HEPRO_0000007_OBI_0000312_HEPRO_0000006',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'OBI_0000312',
+    domainId: 'HEPRO_0000007',
+    rangeId: 'HEPRO_0000006',
+    label_en: 'health procedure outcome information is_specified_output_of health procedure resulting process',
+    label_fr: 'HEPRO_0000007 OBI_0000312 HEPRO_0000006',
+    definition_en: 'An information content entity that is the output of a health procedure resulting process and that describes some outcomes of a health procedure. A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of. A planned process that is a part of a health procedure, that has as specified input at least one health activity outcome information and aim at generating a health procedure outcome information.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HEPRO_0000007_OBI_0000312_HEPRO_0000006::HEPRO_0000007_OBI_0000312_HEPRO_0000006::{en=health procedure outcome information is_specified_output_of health procedure resulting process, fr=HEPRO_0000007 OBI_0000312 HEPRO_0000006}\nHEPRO_0000006::HEPRO_0000006 JOIN HEPRO_0000007::HEPRO_0000007\n  {\n    HEPRO_0000007_uid::HEPRO_0000007_uid uid_domain::{en=uid health procedure outcome information, fr=uid HEPRO_0000007}\n    HEPRO_0000006_uid::HEPRO_0000006_uid uid_domain::{en=uid health procedure resulting process, fr=uid HEPRO_0000006}\n  } \nKEY {HEPRO_0000007_uid, HEPRO_0000006_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'OpenLHS-Core_0000026_RO_0002180_OpenLHS-Core_0000023',
+    shortIri: 'OpenLHS-Core_0000026_RO_0002180_OpenLHS-Core_0000023',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'OpenLHS-Core_0000026',
+    rangeId: 'OpenLHS-Core_0000023',
+    label_en: 'canadian postal code has component canadian forward sorting area code',
+    label_fr: 'OpenLHS-Core_0000026 RO_0002180 OpenLHS-Core_0000023',
+    definition_en: 'A postal code that denotes some geographical region in Canada. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. An identifier that denotes a geographical region on which is based the first three characters of a Canadian postal code.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE OpenLHS-Core_0000026_RO_0002180_OpenLHS-Core_0000023::OpenLHS-Core_0000026_RO_0002180_OpenLHS-Core_0000023::{en=canadian postal code has component canadian forward sorting area code, fr=OpenLHS-Core_0000026 RO_0002180 OpenLHS-Core_0000023}\nOpenLHS-Core_0000023::OpenLHS-Core_0000023 JOIN OpenLHS-Core_0000026::OpenLHS-Core_0000026\n  {\n    OpenLHS-Core_0000026_uid::OpenLHS-Core_0000026_uid uid_domain::{en=uid canadian postal code, fr=uid OpenLHS-Core_0000026}\n    OpenLHS-Core_0000023_uid::OpenLHS-Core_0000023_uid uid_domain::{en=uid canadian forward sorting area code, fr=uid OpenLHS-Core_0000023}\n  } \nKEY {OpenLHS-Core_0000026_uid, OpenLHS-Core_0000023_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'ONTORELA_C5c900f41_IAO_0000136_HOSO_0000137',
+    shortIri: 'ONTORELA_C5c900f41_IAO_0000136_HOSO_0000137',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000136',
+    domainId: 'ONTORELA_C5c900f41',
+    rangeId: 'HOSO_0000137',
+    label_en: 'human death statement\n and (is about exactly 1 human clinical visit specified patient) is about human clinical visit specified patient',
+    label_fr: 'IOIO_0000003\n and (IAO_0000136 exactly 1 HOSO_0000137) IAO_0000136 HOSO_0000137',
+    definition_en: 'healthcare visit of expirationA process temporally qualifying statement about the death of a human including an identifier and a temporal information of the death of this human. A (currently) primitive relation that relates an information artifact to an entity. null',
+    definition_fr: 'HOSO_0000045 null null',
+    description: 'JOINTABLE ONTORELA_C5c900f41_IAO_0000136_HOSO_0000137::ONTORELA_C5c900f41_IAO_0000136_HOSO_0000137::{en=human death statement\n and (is about exactly 1 human clinical visit specified patient) is about human clinical visit specified patient, fr=IOIO_0000003\n and (IAO_0000136 exactly 1 HOSO_0000137) IAO_0000136 HOSO_0000137}\nHOSO_0000137::HOSO_0000137 JOIN ONTORELA_C5c900f41::ONTORELA_C5c900f41\n  {\n    ONTORELA_C5c900f41_uid::ONTORELA_C5c900f41_uid uid_domain::{en=uid human death statement\n and (is about exactly 1 human clinical visit specified patient), fr=uid IOIO_0000003\n and (IAO_0000136 exactly 1 HOSO_0000137)}\n    HOSO_0000137_uid::HOSO_0000137_uid uid_domain::{en=uid human clinical visit specified patient, fr=uid HOSO_0000137}\n  } \nKEY {ONTORELA_C5c900f41_uid, HOSO_0000137_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'OpenLHS-Core_0000025_BFO_0000050_IAO_0000422',
+    shortIri: 'OpenLHS-Core_0000025_BFO_0000050_IAO_0000422',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'BFO_0000050',
+    domainId: 'OpenLHS-Core_0000025',
+    rangeId: 'IAO_0000422',
+    label_en: 'postal address country part of postal address',
+    label_fr: 'OpenLHS-Core_0000025 BFO_0000050 IAO_0000422',
+    definition_en: 'An identifier that denotes a country and is intended to be used as part of a postal address. a core relation that holds between a part and its whole A textual entity that is used as directive to deliver something to a person, or organization',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE OpenLHS-Core_0000025_BFO_0000050_IAO_0000422::OpenLHS-Core_0000025_BFO_0000050_IAO_0000422::{en=postal address country part of postal address, fr=OpenLHS-Core_0000025 BFO_0000050 IAO_0000422}\nIAO_0000422::IAO_0000422 JOIN OpenLHS-Core_0000025::OpenLHS-Core_0000025\n  {\n    OpenLHS-Core_0000025_uid::OpenLHS-Core_0000025_uid uid_domain::{en=uid postal address country, fr=uid OpenLHS-Core_0000025}\n    IAO_0000422_uid::IAO_0000422_uid uid_domain::{en=uid postal address, fr=uid IAO_0000422}\n  } \nKEY {OpenLHS-Core_0000025_uid, IAO_0000422_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'OpenLHS-Core_0000013_OpenLHS-Core_0000001_OpenLHS-Core_0000012',
+    shortIri: 'OpenLHS-Core_0000013_OpenLHS-Core_0000001_OpenLHS-Core_0000012',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'OpenLHS-Core_0000001',
+    domainId: 'OpenLHS-Core_0000013',
+    rangeId: 'OpenLHS-Core_0000012',
+    label_en: 'informational filler fills informational slot',
+    label_fr: 'OpenLHS-Core_0000013 OpenLHS-Core_0000001 OpenLHS-Core_0000012',
+    definition_en: 'An informational entity that fills an informational slot. null An informational entity that can be filled by an informational filler.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE OpenLHS-Core_0000013_OpenLHS-Core_0000001_OpenLHS-Core_0000012::OpenLHS-Core_0000013_OpenLHS-Core_0000001_OpenLHS-Core_0000012::{en=informational filler fills informational slot, fr=OpenLHS-Core_0000013 OpenLHS-Core_0000001 OpenLHS-Core_0000012}\nOpenLHS-Core_0000012::OpenLHS-Core_0000012 JOIN OpenLHS-Core_0000013::OpenLHS-Core_0000013\n  {\n    OpenLHS-Core_0000013_uid::OpenLHS-Core_0000013_uid uid_domain::{en=uid informational filler, fr=uid OpenLHS-Core_0000013}\n    OpenLHS-Core_0000012_uid::OpenLHS-Core_0000012_uid uid_domain::{en=uid informational slot, fr=uid OpenLHS-Core_0000012}\n  } \nKEY {OpenLHS-Core_0000013_uid, OpenLHS-Core_0000012_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000085_OpenLHS-Core_0000004_HOSO_0000073',
+    shortIri: 'HOSO_0000085_OpenLHS-Core_0000004_HOSO_0000073',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'OpenLHS-Core_0000004',
+    domainId: 'HOSO_0000085',
+    rangeId: 'HOSO_0000073',
+    label_en: 'hospitalization starting with ICU stay is directed by ICU admission specification',
+    label_fr: 'HOSO_0000085 OpenLHS-Core_0000004 HOSO_0000073',
+    definition_en: 'An hospitalization for a given patient that starts with a stay in an intensive care unit. The inverse relations of directs A clinical visit unit type specification mandating an hospitalization admission to an intensive care unit.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000085_OpenLHS-Core_0000004_HOSO_0000073::HOSO_0000085_OpenLHS-Core_0000004_HOSO_0000073::{en=hospitalization starting with ICU stay is directed by ICU admission specification, fr=HOSO_0000085 OpenLHS-Core_0000004 HOSO_0000073}\nHOSO_0000073::HOSO_0000073 JOIN HOSO_0000085::HOSO_0000085\n  {\n    HOSO_0000085_uid::HOSO_0000085_uid uid_domain::{en=uid hospitalization starting with ICU stay, fr=uid HOSO_0000085}\n    HOSO_0000073_uid::HOSO_0000073_uid uid_domain::{en=uid ICU admission specification, fr=uid HOSO_0000073}\n  } \nKEY {HOSO_0000085_uid, HOSO_0000073_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'MPHPO_0000021_OpenLHS-Core_0000070_MPHPO_0000016',
+    shortIri: 'MPHPO_0000021_OpenLHS-Core_0000070_MPHPO_0000016',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'OpenLHS-Core_0000070',
+    domainId: 'MPHPO_0000021',
+    rangeId: 'MPHPO_0000016',
+    label_en: 'MPHPO centrally registered identifier label component of MPHPO coded pathological condition sub-group name',
+    label_fr: 'MPHPO_0000021 OpenLHS-Core_0000070 MPHPO_0000016',
+    definition_en: 'null The inverse relation of has component. null',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE MPHPO_0000021_OpenLHS-Core_0000070_MPHPO_0000016::MPHPO_0000021_OpenLHS-Core_0000070_MPHPO_0000016::{en=MPHPO centrally registered identifier label component of MPHPO coded pathological condition sub-group name, fr=MPHPO_0000021 OpenLHS-Core_0000070 MPHPO_0000016}\nMPHPO_0000016::MPHPO_0000016 JOIN MPHPO_0000021::MPHPO_0000021\n  {\n    MPHPO_0000021_uid::MPHPO_0000021_uid uid_domain::{en=uid MPHPO centrally registered identifier label, fr=uid MPHPO_0000021}\n    MPHPO_0000016_uid::MPHPO_0000016_uid uid_domain::{en=uid MPHPO coded pathological condition sub-group name, fr=uid MPHPO_0000016}\n  } \nKEY {MPHPO_0000021_uid, MPHPO_0000016_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000102_OpenLHS-Core_0000070_HOSO_0000055',
+    shortIri: 'HOSO_0000102_OpenLHS-Core_0000070_HOSO_0000055',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'OpenLHS-Core_0000070',
+    domainId: 'HOSO_0000102',
+    rangeId: 'HOSO_0000055',
+    label_en: 'healthcare organization service delivery beginning temporal information component of healthcare organization service delivery beginning statement',
+    label_fr: 'HOSO_0000102 OpenLHS-Core_0000070 HOSO_0000055',
+    definition_en: 'A temporal information that is a component of a healthcare organization service delivery beginning statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the beginning of healthcare organization service delivery. The inverse relation of has component. A process beginning statement that temporally qualifies the beginning of a healthcare organisation service delivery.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000102_OpenLHS-Core_0000070_HOSO_0000055::HOSO_0000102_OpenLHS-Core_0000070_HOSO_0000055::{en=healthcare organization service delivery beginning temporal information component of healthcare organization service delivery beginning statement, fr=HOSO_0000102 OpenLHS-Core_0000070 HOSO_0000055}\nHOSO_0000055::HOSO_0000055 JOIN HOSO_0000102::HOSO_0000102\n  {\n    HOSO_0000102_uid::HOSO_0000102_uid uid_domain::{en=uid healthcare organization service delivery beginning temporal information, fr=uid HOSO_0000102}\n    HOSO_0000055_uid::HOSO_0000055_uid uid_domain::{en=uid healthcare organization service delivery beginning statement, fr=uid HOSO_0000055}\n  } \nKEY {HOSO_0000102_uid, HOSO_0000055_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'IAO_0020000_IAO_0000219_BFO_0000001',
+    shortIri: 'IAO_0020000_IAO_0000219_BFO_0000001',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000219',
+    domainId: 'IAO_0020000',
+    rangeId: 'BFO_0000001',
+    label_en: 'identifier denotes entity',
+    label_fr: 'IAO_0020000 IAO_0000219 BFO_0000001',
+    definition_en: 'An information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity. A primitive, instance-level, relation obtaining between an information content entity and some portion of reality. Denotation is what happens when someone creates an information content entity E in order to specifically refer to something. The only relation between E and the thing is that E can be used to "pick out" the thing. This relation connects those two together. Freedictionary.com sense 3: To signify directly; refer to specifically Entity',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE IAO_0020000_IAO_0000219_BFO_0000001::IAO_0020000_IAO_0000219_BFO_0000001::{en=identifier denotes entity, fr=IAO_0020000 IAO_0000219 BFO_0000001}\nBFO_0000001::BFO_0000001 JOIN IAO_0020000::IAO_0020000\n  {\n    IAO_0020000_uid::IAO_0020000_uid uid_domain::{en=uid identifier, fr=uid IAO_0020000}\n    BFO_0000001_uid::BFO_0000001_uid uid_domain::{en=uid entity, fr=uid BFO_0000001}\n  } \nKEY {IAO_0020000_uid, BFO_0000001_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'IAO_0020000_OBI_0000312_IAO_0020010',
+    shortIri: 'IAO_0020000_OBI_0000312_IAO_0020010',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'OBI_0000312',
+    domainId: 'IAO_0020000',
+    rangeId: 'IAO_0020010',
+    label_en: 'identifier is_specified_output_of identifier creating process',
+    label_fr: 'IAO_0020000 OBI_0000312 IAO_0020010',
+    definition_en: 'An information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity. A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of. A planned process that provides a reference to an individual entity shared by a group of subscribers to refer to that individual entity.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE IAO_0020000_OBI_0000312_IAO_0020010::IAO_0020000_OBI_0000312_IAO_0020010::{en=identifier is_specified_output_of identifier creating process, fr=IAO_0020000 OBI_0000312 IAO_0020010}\nIAO_0020010::IAO_0020010 JOIN IAO_0020000::IAO_0020000\n  {\n    IAO_0020000_uid::IAO_0020000_uid uid_domain::{en=uid identifier, fr=uid IAO_0020000}\n    IAO_0020010_uid::IAO_0020010_uid uid_domain::{en=uid identifier creating process, fr=uid IAO_0020010}\n  } \nKEY {IAO_0020000_uid, IAO_0020010_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'IOIO_0000006_OpenLHS-Core_0000070_IOIO_0000003',
+    shortIri: 'IOIO_0000006_OpenLHS-Core_0000070_IOIO_0000003',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'OpenLHS-Core_0000070',
+    domainId: 'IOIO_0000006',
+    rangeId: 'IOIO_0000003',
+    label_en: 'human death temporal information component of human death statement',
+    label_fr: 'IOIO_0000006 OpenLHS-Core_0000070 IOIO_0000003',
+    definition_en: 'A temporal information that is a component of a human death statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the death of this human. The inverse relation of has component. A process temporally qualifying statement about the death of a human including an identifier and a temporal information of the death of this human.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE IOIO_0000006_OpenLHS-Core_0000070_IOIO_0000003::IOIO_0000006_OpenLHS-Core_0000070_IOIO_0000003::{en=human death temporal information component of human death statement, fr=IOIO_0000006 OpenLHS-Core_0000070 IOIO_0000003}\nIOIO_0000003::IOIO_0000003 JOIN IOIO_0000006::IOIO_0000006\n  {\n    IOIO_0000006_uid::IOIO_0000006_uid uid_domain::{en=uid human death temporal information, fr=uid IOIO_0000006}\n    IOIO_0000003_uid::IOIO_0000003_uid uid_domain::{en=uid human death statement, fr=uid IOIO_0000003}\n  } \nKEY {IOIO_0000006_uid, IOIO_0000003_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000017_RO_0002018_HOSO_0000012',
+    shortIri: 'HOSO_0000017_RO_0002018_HOSO_0000012',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002018',
+    domainId: 'HOSO_0000017',
+    rangeId: 'HOSO_0000012',
+    label_en: 'healthcare organization clinical encounter has component process healthcare organization clinical visit',
+    label_fr: 'HOSO_0000017 RO_0002018 HOSO_0000012',
+    definition_en: 'A temporally-connected healthcare organization clinical visit that aims to improve, maintain or restore the health of some participating organism. It may have several healthcare organization clinical visits as components. w "has process component" p if p and w are processes,  w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. A healthcare organisation service delivery that aims at providing a desired effect on the health status of a specified organism. It is usually composed of health procedures and possibly associated ancillary processes.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000017_RO_0002018_HOSO_0000012::HOSO_0000017_RO_0002018_HOSO_0000012::{en=healthcare organization clinical encounter has component process healthcare organization clinical visit, fr=HOSO_0000017 RO_0002018 HOSO_0000012}\nHOSO_0000012::HOSO_0000012 JOIN HOSO_0000017::HOSO_0000017\n  {\n    HOSO_0000017_uid::HOSO_0000017_uid uid_domain::{en=uid healthcare organization clinical encounter, fr=uid HOSO_0000017}\n    HOSO_0000012_uid::HOSO_0000012_uid uid_domain::{en=uid healthcare organization clinical visit, fr=uid HOSO_0000012}\n  } \nKEY {HOSO_0000017_uid, HOSO_0000012_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000138_IAO_0000219_HOSO_0000009',
+    shortIri: 'HOSO_0000138_IAO_0000219_HOSO_0000009',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000219',
+    domainId: 'HOSO_0000138',
+    rangeId: 'HOSO_0000009',
+    label_en: 'healthcare provider identifier denotes healthcare provider',
+    label_fr: 'HOSO_0000138 IAO_0000219 HOSO_0000009',
+    definition_en: 'An identifier that denotes a healthcare provider. A primitive, instance-level, relation obtaining between an information content entity and some portion of reality. Denotation is what happens when someone creates an information content entity E in order to specifically refer to something. The only relation between E and the thing is that E can be used to "pick out" the thing. This relation connects those two together. Freedictionary.com sense 3: To signify directly; refer to specifically A health provider who is a member of a healthcare organisation.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000138_IAO_0000219_HOSO_0000009::HOSO_0000138_IAO_0000219_HOSO_0000009::{en=healthcare provider identifier denotes healthcare provider, fr=HOSO_0000138 IAO_0000219 HOSO_0000009}\nHOSO_0000009::HOSO_0000009 JOIN HOSO_0000138::HOSO_0000138\n  {\n    HOSO_0000138_uid::HOSO_0000138_uid uid_domain::{en=uid healthcare provider identifier, fr=uid HOSO_0000138}\n    HOSO_0000009_uid::HOSO_0000009_uid uid_domain::{en=uid healthcare provider, fr=uid HOSO_0000009}\n  } \nKEY {HOSO_0000138_uid, HOSO_0000009_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'ONTORELA_Cdb7d47d_RO_0002090_HOSO_0000038',
+    shortIri: 'ONTORELA_Cdb7d47d_RO_0002090_HOSO_0000038',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002090',
+    domainId: 'ONTORELA_Cdb7d47d',
+    rangeId: 'HOSO_0000038',
+    label_en: 'healthcare organization clinical visit\n and (immediately precedes some immediate inpatient subsequent visit) immediately precedes immediate inpatient subsequent visit',
+    label_fr: 'HOSO_0000012\n and (RO_0002090 some HOSO_0000038) RO_0002090 HOSO_0000038',
+    definition_en: 'prior visit category to an inpatient visitA healthcare organisation service delivery that aims at providing a desired effect on the health status of a specified organism. It is usually composed of health procedures and possibly associated ancillary processes. An immediate subsequent visit healthcare organisation visit for a given patient that was participating in another healthcare organisation visit for the same organisation just prior to this visit. null An immediate subsequent visit healthcare organisation visit for a given patient that was participating in another healthcare organisation visit for the same organisation just prior to this visit.',
+    definition_fr: 'HOSO_0000039 null null',
+    description: 'JOINTABLE ONTORELA_Cdb7d47d_RO_0002090_HOSO_0000038::ONTORELA_Cdb7d47d_RO_0002090_HOSO_0000038::{en=healthcare organization clinical visit\n and (immediately precedes some immediate inpatient subsequent visit) immediately precedes immediate inpatient subsequent visit, fr=HOSO_0000012\n and (RO_0002090 some HOSO_0000038) RO_0002090 HOSO_0000038}\nHOSO_0000038::HOSO_0000038 JOIN ONTORELA_Cdb7d47d::ONTORELA_Cdb7d47d\n  {\n    ONTORELA_Cdb7d47d_uid::ONTORELA_Cdb7d47d_uid uid_domain::{en=uid healthcare organization clinical visit\n and (immediately precedes some immediate inpatient subsequent visit), fr=uid HOSO_0000012\n and (RO_0002090 some HOSO_0000038)}\n    HOSO_0000038_uid::HOSO_0000038_uid uid_domain::{en=uid immediate inpatient subsequent visit, fr=uid HOSO_0000038}\n  } \nKEY {ONTORELA_Cdb7d47d_uid, HOSO_0000038_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'BFO_0000001_IAO_0000235_IAO_0000030',
+    shortIri: 'BFO_0000001_IAO_0000235_IAO_0000030',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000235',
+    domainId: 'BFO_0000001',
+    rangeId: 'IAO_0000030',
+    label_en: 'entity denoted by information content entity',
+    label_fr: 'BFO_0000001 IAO_0000235 IAO_0000030',
+    definition_en: 'Entity inverse of the relation "denotes" A generically dependent continuant that is about some thing.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE BFO_0000001_IAO_0000235_IAO_0000030::BFO_0000001_IAO_0000235_IAO_0000030::{en=entity denoted by information content entity, fr=BFO_0000001 IAO_0000235 IAO_0000030}\nIAO_0000030::IAO_0000030 JOIN BFO_0000001::BFO_0000001\n  {\n    BFO_0000001_uid::BFO_0000001_uid uid_domain::{en=uid entity, fr=uid BFO_0000001}\n    IAO_0000030_uid::IAO_0000030_uid uid_domain::{en=uid information content entity, fr=uid IAO_0000030}\n  } \nKEY {BFO_0000001_uid, IAO_0000030_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HEPRO_0000006_OBI_0000293_HEPRO_0000008',
+    shortIri: 'HEPRO_0000006_OBI_0000293_HEPRO_0000008',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'OBI_0000293',
+    domainId: 'HEPRO_0000006',
+    rangeId: 'HEPRO_0000008',
+    label_en: 'health procedure resulting process has_specified_input health activity outcome information',
+    label_fr: 'HEPRO_0000006 OBI_0000293 HEPRO_0000008',
+    definition_en: 'A planned process that is a part of a health procedure, that has as specified input at least one health activity outcome information and aim at generating a health procedure outcome information. The inverse property of is_specified_input_of An information content entity that is a specified output of a health activity.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HEPRO_0000006_OBI_0000293_HEPRO_0000008::HEPRO_0000006_OBI_0000293_HEPRO_0000008::{en=health procedure resulting process has_specified_input health activity outcome information, fr=HEPRO_0000006 OBI_0000293 HEPRO_0000008}\nHEPRO_0000008::HEPRO_0000008 JOIN HEPRO_0000006::HEPRO_0000006\n  {\n    HEPRO_0000006_uid::HEPRO_0000006_uid uid_domain::{en=uid health procedure resulting process, fr=uid HEPRO_0000006}\n    HEPRO_0000008_uid::HEPRO_0000008_uid uid_domain::{en=uid health activity outcome information, fr=uid HEPRO_0000008}\n  } \nKEY {HEPRO_0000006_uid, HEPRO_0000008_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HEPRO_0000127_RO_0002180_HEPRO_0000129',
+    shortIri: 'HEPRO_0000127_RO_0002180_HEPRO_0000129',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'HEPRO_0000127',
+    rangeId: 'HEPRO_0000129',
+    label_en: 'pathological condition start temporally qualifying statement has component pathological condition start temporal information',
+    label_fr: 'HEPRO_0000127 RO_0002180 HEPRO_0000129',
+    definition_en: 'A temporally qualifying statement that qualifies the clinically identified appearance of a disorder or a disease, or the beginning of a pathological process. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. A temporal information that is a component of a pathological condition start temporallly qualifying statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the clinically identified start of the pathological condition.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HEPRO_0000127_RO_0002180_HEPRO_0000129::HEPRO_0000127_RO_0002180_HEPRO_0000129::{en=pathological condition start temporally qualifying statement has component pathological condition start temporal information, fr=HEPRO_0000127 RO_0002180 HEPRO_0000129}\nHEPRO_0000129::HEPRO_0000129 JOIN HEPRO_0000127::HEPRO_0000127\n  {\n    HEPRO_0000127_uid::HEPRO_0000127_uid uid_domain::{en=uid pathological condition start temporally qualifying statement, fr=uid HEPRO_0000127}\n    HEPRO_0000129_uid::HEPRO_0000129_uid uid_domain::{en=uid pathological condition start temporal information, fr=uid HEPRO_0000129}\n  } \nKEY {HEPRO_0000127_uid, HEPRO_0000129_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'OpenLHS-Core_0000036_OpenLHS-Core_0000067_OpenLHS-Core_0000028',
+    shortIri: 'OpenLHS-Core_0000036_OpenLHS-Core_0000067_OpenLHS-Core_0000028',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'OpenLHS-Core_0000067',
+    domainId: 'OpenLHS-Core_0000036',
+    rangeId: 'OpenLHS-Core_0000028',
+    label_en: 'service delivery is maximally directed by service agreement specification',
+    label_fr: 'OpenLHS-Core_0000036 OpenLHS-Core_0000067 OpenLHS-Core_0000028',
+    definition_en: '- A planned process that aims at fulfilling the commitments of a service agreement.\n\n- A planned process that is maximally directed by a service agreement specification. The inverse relation of maximally directs. An information content entity that specifies a service agreement made between a request party and a service offer party, and aim to direct some processes that correspond to what has been agreed between the parties.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE OpenLHS-Core_0000036_OpenLHS-Core_0000067_OpenLHS-Core_0000028::OpenLHS-Core_0000036_OpenLHS-Core_0000067_OpenLHS-Core_0000028::{en=service delivery is maximally directed by service agreement specification, fr=OpenLHS-Core_0000036 OpenLHS-Core_0000067 OpenLHS-Core_0000028}\nOpenLHS-Core_0000028::OpenLHS-Core_0000028 JOIN OpenLHS-Core_0000036::OpenLHS-Core_0000036\n  {\n    OpenLHS-Core_0000036_uid::OpenLHS-Core_0000036_uid uid_domain::{en=uid service delivery, fr=uid OpenLHS-Core_0000036}\n    OpenLHS-Core_0000028_uid::OpenLHS-Core_0000028_uid uid_domain::{en=uid service agreement specification, fr=uid OpenLHS-Core_0000028}\n  } \nKEY {OpenLHS-Core_0000036_uid, OpenLHS-Core_0000028_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'OpenLHS-Core_0000024_BFO_0000050_IAO_0000422',
+    shortIri: 'OpenLHS-Core_0000024_BFO_0000050_IAO_0000422',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'BFO_0000050',
+    domainId: 'OpenLHS-Core_0000024',
+    rangeId: 'IAO_0000422',
+    label_en: 'postal address city part of postal address',
+    label_fr: 'OpenLHS-Core_0000024 BFO_0000050 IAO_0000422',
+    definition_en: 'An identifier that denotes a city and is intended to be used as part of a postal address. a core relation that holds between a part and its whole A textual entity that is used as directive to deliver something to a person, or organization',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE OpenLHS-Core_0000024_BFO_0000050_IAO_0000422::OpenLHS-Core_0000024_BFO_0000050_IAO_0000422::{en=postal address city part of postal address, fr=OpenLHS-Core_0000024 BFO_0000050 IAO_0000422}\nIAO_0000422::IAO_0000422 JOIN OpenLHS-Core_0000024::OpenLHS-Core_0000024\n  {\n    OpenLHS-Core_0000024_uid::OpenLHS-Core_0000024_uid uid_domain::{en=uid postal address city, fr=uid OpenLHS-Core_0000024}\n    IAO_0000422_uid::IAO_0000422_uid uid_domain::{en=uid postal address, fr=uid IAO_0000422}\n  } \nKEY {OpenLHS-Core_0000024_uid, IAO_0000422_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'OpenLHS-Core_0000012_OpenLHS-Core_0000008_OpenLHS-Core_0000013',
+    shortIri: 'OpenLHS-Core_0000012_OpenLHS-Core_0000008_OpenLHS-Core_0000013',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'OpenLHS-Core_0000008',
+    domainId: 'OpenLHS-Core_0000012',
+    rangeId: 'OpenLHS-Core_0000013',
+    label_en: 'informational slot is filled by informational filler',
+    label_fr: 'OpenLHS-Core_0000012 OpenLHS-Core_0000008 OpenLHS-Core_0000013',
+    definition_en: 'An informational entity that can be filled by an informational filler. The inverse relation of fills An informational entity that fills an informational slot.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE OpenLHS-Core_0000012_OpenLHS-Core_0000008_OpenLHS-Core_0000013::OpenLHS-Core_0000012_OpenLHS-Core_0000008_OpenLHS-Core_0000013::{en=informational slot is filled by informational filler, fr=OpenLHS-Core_0000012 OpenLHS-Core_0000008 OpenLHS-Core_0000013}\nOpenLHS-Core_0000013::OpenLHS-Core_0000013 JOIN OpenLHS-Core_0000012::OpenLHS-Core_0000012\n  {\n    OpenLHS-Core_0000012_uid::OpenLHS-Core_0000012_uid uid_domain::{en=uid informational slot, fr=uid OpenLHS-Core_0000012}\n    OpenLHS-Core_0000013_uid::OpenLHS-Core_0000013_uid uid_domain::{en=uid informational filler, fr=uid OpenLHS-Core_0000013}\n  } \nKEY {OpenLHS-Core_0000012_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000072_RO_0002087_HOSO_0000043',
+    shortIri: 'HOSO_0000072_RO_0002087_HOSO_0000043',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002087',
+    domainId: 'HOSO_0000072',
+    rangeId: 'HOSO_0000043',
+    label_en: 'ED by ambulance initiated hospitalization immediately preceded by ambulance initiated emergency department visit',
+    label_fr: 'HOSO_0000072 RO_0002087 HOSO_0000043',
+    definition_en: 'An hospitalization for a given patient that was participating in an ambulance initiated emergency departement visit. null An emergency department visit for a given patient that was participating in another healthcare organisation visit involving paramedics just prior to this visit.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000072_RO_0002087_HOSO_0000043::HOSO_0000072_RO_0002087_HOSO_0000043::{en=ED by ambulance initiated hospitalization immediately preceded by ambulance initiated emergency department visit, fr=HOSO_0000072 RO_0002087 HOSO_0000043}\nHOSO_0000043::HOSO_0000043 JOIN HOSO_0000072::HOSO_0000072\n  {\n    HOSO_0000072_uid::HOSO_0000072_uid uid_domain::{en=uid ED by ambulance initiated hospitalization, fr=uid HOSO_0000072}\n    HOSO_0000043_uid::HOSO_0000043_uid uid_domain::{en=uid ambulance initiated emergency department visit, fr=uid HOSO_0000043}\n  } \nKEY {HOSO_0000072_uid, HOSO_0000043_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000060_IAO_0000136_HOSO_0000062',
+    shortIri: 'HOSO_0000060_IAO_0000136_HOSO_0000062',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000136',
+    domainId: 'HOSO_0000060',
+    rangeId: 'HOSO_0000062',
+    label_en: 'public provincial health insurance record is about primary health insurance beneficiary human',
+    label_fr: 'HOSO_0000060 IAO_0000136 HOSO_0000062',
+    definition_en: 'An information content entity that contains the information required to manage the insurance coverage of an insured individual. A (currently) primitive relation that relates an information artifact to an entity. A human that has a role of primary health insurance benificiary role',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000060_IAO_0000136_HOSO_0000062::HOSO_0000060_IAO_0000136_HOSO_0000062::{en=public provincial health insurance record is about primary health insurance beneficiary human, fr=HOSO_0000060 IAO_0000136 HOSO_0000062}\nHOSO_0000062::HOSO_0000062 JOIN HOSO_0000060::HOSO_0000060\n  {\n    HOSO_0000060_uid::HOSO_0000060_uid uid_domain::{en=uid public provincial health insurance record, fr=uid HOSO_0000060}\n    HOSO_0000062_uid::HOSO_0000062_uid uid_domain::{en=uid primary health insurance beneficiary human, fr=uid HOSO_0000062}\n  } \nKEY {HOSO_0000060_uid, HOSO_0000062_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000084_IAO_0000219_HOSO_0000079',
+    shortIri: 'HOSO_0000084_IAO_0000219_HOSO_0000079',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000219',
+    domainId: 'HOSO_0000084',
+    rangeId: 'HOSO_0000079',
+    label_en: 'healthcare physician service identifier denotes healthcare physician service',
+    label_fr: 'HOSO_0000084 IAO_0000219 HOSO_0000079',
+    definition_en: 'A healthcare organization identifier that denotes a physician service. A primitive, instance-level, relation obtaining between an information content entity and some portion of reality. Denotation is what happens when someone creates an information content entity E in order to specifically refer to something. The only relation between E and the thing is that E can be used to "pick out" the thing. This relation connects those two together. Freedictionary.com sense 3: To signify directly; refer to specifically A healthcare organization with a mandate to manage and coordinate healthcare procedures deliveries under the responsability of its members',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000084_IAO_0000219_HOSO_0000079::HOSO_0000084_IAO_0000219_HOSO_0000079::{en=healthcare physician service identifier denotes healthcare physician service, fr=HOSO_0000084 IAO_0000219 HOSO_0000079}\nHOSO_0000079::HOSO_0000079 JOIN HOSO_0000084::HOSO_0000084\n  {\n    HOSO_0000084_uid::HOSO_0000084_uid uid_domain::{en=uid healthcare physician service identifier, fr=uid HOSO_0000084}\n    HOSO_0000079_uid::HOSO_0000079_uid uid_domain::{en=uid healthcare physician service, fr=uid HOSO_0000079}\n  } \nKEY {HOSO_0000084_uid, HOSO_0000079_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000028_BFO_0000051_HOSO_0000014',
+    shortIri: 'HOSO_0000028_BFO_0000051_HOSO_0000014',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'BFO_0000051',
+    domainId: 'HOSO_0000028',
+    rangeId: 'HOSO_0000014',
+    label_en: 'inpatient visit has part custodial care service delivery',
+    label_fr: 'HOSO_0000028 BFO_0000051 HOSO_0000014',
+    definition_en: 'A healthcare organisation clinical visit where there is expectation of providing support for activities of daily living (such as eating and bathing) and accommodation for the patient. a core relation that holds between a whole and its part A service delivery from an organization that aims to provide for the activities of daily living of individuals or communities.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000028_BFO_0000051_HOSO_0000014::HOSO_0000028_BFO_0000051_HOSO_0000014::{en=inpatient visit has part custodial care service delivery, fr=HOSO_0000028 BFO_0000051 HOSO_0000014}\nHOSO_0000014::HOSO_0000014 JOIN HOSO_0000028::HOSO_0000028\n  {\n    HOSO_0000028_uid::HOSO_0000028_uid uid_domain::{en=uid inpatient visit, fr=uid HOSO_0000028}\n    HOSO_0000014_uid::HOSO_0000014_uid uid_domain::{en=uid custodial care service delivery, fr=uid HOSO_0000014}\n  } \nKEY {HOSO_0000028_uid, HOSO_0000014_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000137_IAO_0000235_HOSO_0000003',
+    shortIri: 'HOSO_0000137_IAO_0000235_HOSO_0000003',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000235',
+    domainId: 'HOSO_0000137',
+    rangeId: 'HOSO_0000003',
+    label_en: 'human clinical visit specified patient denoted by healthcare service organism specification',
+    label_fr: 'HOSO_0000137 IAO_0000235 HOSO_0000003',
+    definition_en: 'null inverse of the relation "denotes" A service agreement directive entity identifying an organism for whom a healthcare service delivery aims at providing a desired effect to its health status.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000137_IAO_0000235_HOSO_0000003::HOSO_0000137_IAO_0000235_HOSO_0000003::{en=human clinical visit specified patient denoted by healthcare service organism specification, fr=HOSO_0000137 IAO_0000235 HOSO_0000003}\nHOSO_0000003::HOSO_0000003 JOIN HOSO_0000137::HOSO_0000137\n  {\n    HOSO_0000137_uid::HOSO_0000137_uid uid_domain::{en=uid human clinical visit specified patient, fr=uid HOSO_0000137}\n    HOSO_0000003_uid::HOSO_0000003_uid uid_domain::{en=uid healthcare service organism specification, fr=uid HOSO_0000003}\n  } \nKEY {HOSO_0000137_uid, HOSO_0000003_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000137_HOSO_0000087_HOSO_0000012',
+    shortIri: 'HOSO_0000137_HOSO_0000087_HOSO_0000012',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'HOSO_0000087',
+    domainId: 'HOSO_0000137',
+    rangeId: 'HOSO_0000012',
+    label_en: 'human clinical visit specified patient participates as recipient healthcare organization clinical visit',
+    label_fr: 'HOSO_0000137 HOSO_0000087 HOSO_0000012',
+    definition_en: 'null null A healthcare organisation service delivery that aims at providing a desired effect on the health status of a specified organism. It is usually composed of health procedures and possibly associated ancillary processes.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000137_HOSO_0000087_HOSO_0000012::HOSO_0000137_HOSO_0000087_HOSO_0000012::{en=human clinical visit specified patient participates as recipient healthcare organization clinical visit, fr=HOSO_0000137 HOSO_0000087 HOSO_0000012}\nHOSO_0000012::HOSO_0000012 JOIN HOSO_0000137::HOSO_0000137\n  {\n    HOSO_0000137_uid::HOSO_0000137_uid uid_domain::{en=uid human clinical visit specified patient, fr=uid HOSO_0000137}\n    HOSO_0000012_uid::HOSO_0000012_uid uid_domain::{en=uid healthcare organization clinical visit, fr=uid HOSO_0000012}\n  } \nKEY {HOSO_0000137_uid, HOSO_0000012_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HEPRO_0000017_IAO_0000136_OpenLHS-Core_0000060',
+    shortIri: 'HEPRO_0000017_IAO_0000136_OpenLHS-Core_0000060',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000136',
+    domainId: 'HEPRO_0000017',
+    rangeId: 'OpenLHS-Core_0000060',
+    label_en: 'pathological condition sub-group name is about pathological condition',
+    label_fr: 'HEPRO_0000017 IAO_0000136 OpenLHS-Core_0000060',
+    definition_en: 'An information content entity that is about a sub-group of pathological conditions. A (currently) primitive relation that relates an information artifact to an entity. An entity that is a disorder, a disease or a pathological bodily process',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HEPRO_0000017_IAO_0000136_OpenLHS-Core_0000060::HEPRO_0000017_IAO_0000136_OpenLHS-Core_0000060::{en=pathological condition sub-group name is about pathological condition, fr=HEPRO_0000017 IAO_0000136 OpenLHS-Core_0000060}\nOpenLHS-Core_0000060::OpenLHS-Core_0000060 JOIN HEPRO_0000017::HEPRO_0000017\n  {\n    HEPRO_0000017_uid::HEPRO_0000017_uid uid_domain::{en=uid pathological condition sub-group name, fr=uid HEPRO_0000017}\n    OpenLHS-Core_0000060_uid::OpenLHS-Core_0000060_uid uid_domain::{en=uid pathological condition, fr=uid OpenLHS-Core_0000060}\n  } \nKEY {HEPRO_0000017_uid, OpenLHS-Core_0000060_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'ONTORELA_C3f6f3e4f_IAO_0000219_IAO_0000579',
+    shortIri: 'ONTORELA_C3f6f3e4f_IAO_0000219_IAO_0000579',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000219',
+    domainId: 'ONTORELA_C3f6f3e4f',
+    rangeId: 'IAO_0000579',
+    label_en: 'denotes some centrally registered identifier registry denotes centrally registered identifier registry',
+    label_fr: 'IAO_0000219 some IAO_0000579 IAO_0000219 IAO_0000579',
+    definition_en: 'centrally registered identifierA code set of CRID records, each consisting of a CRID symbol and additional information which was recorded in the code set through an assigning a centrally registered identifier process. A primitive, instance-level, relation obtaining between an information content entity and some portion of reality. Denotation is what happens when someone creates an information content entity E in order to specifically refer to something. The only relation between E and the thing is that E can be used to "pick out" the thing. This relation connects those two together. Freedictionary.com sense 3: To signify directly; refer to specifically A code set of CRID records, each consisting of a CRID symbol and additional information which was recorded in the code set through an assigning a centrally registered identifier process.',
+    definition_fr: 'IAO_0000578 null null',
+    description: 'JOINTABLE ONTORELA_C3f6f3e4f_IAO_0000219_IAO_0000579::ONTORELA_C3f6f3e4f_IAO_0000219_IAO_0000579::{en=denotes some centrally registered identifier registry denotes centrally registered identifier registry, fr=IAO_0000219 some IAO_0000579 IAO_0000219 IAO_0000579}\nIAO_0000579::IAO_0000579 JOIN ONTORELA_C3f6f3e4f::ONTORELA_C3f6f3e4f\n  {\n    ONTORELA_C3f6f3e4f_uid::ONTORELA_C3f6f3e4f_uid uid_domain::{en=uid denotes some centrally registered identifier registry, fr=uid IAO_0000219 some IAO_0000579}\n    IAO_0000579_uid::IAO_0000579_uid uid_domain::{en=uid centrally registered identifier registry, fr=uid IAO_0000579}\n  } \nKEY {ONTORELA_C3f6f3e4f_uid, IAO_0000579_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'OpenLHS-Core_0000051_IAO_0000136_BFO_0000002',
+    shortIri: 'OpenLHS-Core_0000051_IAO_0000136_BFO_0000002',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000136',
+    domainId: 'OpenLHS-Core_0000051',
+    rangeId: 'BFO_0000002',
+    label_en: 'continuant temporally qualifying statement is about continuant',
+    label_fr: 'OpenLHS-Core_0000051 IAO_0000136 BFO_0000002',
+    definition_en: 'A temporally qualifying statement stating that a temporal region overlaps with a temporal region during which some continuant exists. A (currently) primitive relation that relates an information artifact to an entity. Continuant',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE OpenLHS-Core_0000051_IAO_0000136_BFO_0000002::OpenLHS-Core_0000051_IAO_0000136_BFO_0000002::{en=continuant temporally qualifying statement is about continuant, fr=OpenLHS-Core_0000051 IAO_0000136 BFO_0000002}\nBFO_0000002::BFO_0000002 JOIN OpenLHS-Core_0000051::OpenLHS-Core_0000051\n  {\n    OpenLHS-Core_0000051_uid::OpenLHS-Core_0000051_uid uid_domain::{en=uid continuant temporally qualifying statement, fr=uid OpenLHS-Core_0000051}\n    BFO_0000002_uid::BFO_0000002_uid uid_domain::{en=uid continuant, fr=uid BFO_0000002}\n  } \nKEY {OpenLHS-Core_0000051_uid, BFO_0000002_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000063_RO_0002180_OpenLHS-Core_0000020',
+    shortIri: 'HOSO_0000063_RO_0002180_OpenLHS-Core_0000020',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'HOSO_0000063',
+    rangeId: 'OpenLHS-Core_0000020',
+    label_en: 'public provincial health insurance primary residence statement has component canadian postal address',
+    label_fr: 'HOSO_0000063 RO_0002180 OpenLHS-Core_0000020',
+    definition_en: 'null w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. A postal address that can be used to help the delivery of something in Canada.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000063_RO_0002180_OpenLHS-Core_0000020::HOSO_0000063_RO_0002180_OpenLHS-Core_0000020::{en=public provincial health insurance primary residence statement has component canadian postal address, fr=HOSO_0000063 RO_0002180 OpenLHS-Core_0000020}\nOpenLHS-Core_0000020::OpenLHS-Core_0000020 JOIN HOSO_0000063::HOSO_0000063\n  {\n    HOSO_0000063_uid::HOSO_0000063_uid uid_domain::{en=uid public provincial health insurance primary residence statement, fr=uid HOSO_0000063}\n    OpenLHS-Core_0000020_uid::OpenLHS-Core_0000020_uid uid_domain::{en=uid canadian postal address, fr=uid OpenLHS-Core_0000020}\n  } \nKEY {HOSO_0000063_uid, OpenLHS-Core_0000020_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000063_BFO_0000050_HOSO_0000060',
+    shortIri: 'HOSO_0000063_BFO_0000050_HOSO_0000060',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'BFO_0000050',
+    domainId: 'HOSO_0000063',
+    rangeId: 'HOSO_0000060',
+    label_en: 'public provincial health insurance primary residence statement part of public provincial health insurance record',
+    label_fr: 'HOSO_0000063 BFO_0000050 HOSO_0000060',
+    definition_en: 'null a core relation that holds between a part and its whole An information content entity that contains the information required to manage the insurance coverage of an insured individual.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000063_BFO_0000050_HOSO_0000060::HOSO_0000063_BFO_0000050_HOSO_0000060::{en=public provincial health insurance primary residence statement part of public provincial health insurance record, fr=HOSO_0000063 BFO_0000050 HOSO_0000060}\nHOSO_0000060::HOSO_0000060 JOIN HOSO_0000063::HOSO_0000063\n  {\n    HOSO_0000063_uid::HOSO_0000063_uid uid_domain::{en=uid public provincial health insurance primary residence statement, fr=uid HOSO_0000063}\n    HOSO_0000060_uid::HOSO_0000060_uid uid_domain::{en=uid public provincial health insurance record, fr=uid HOSO_0000060}\n  } \nKEY {HOSO_0000063_uid, HOSO_0000060_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'BFO_0000031_RO_0000058_BFO_0000020',
+    shortIri: 'BFO_0000031_RO_0000058_BFO_0000020',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0000058',
+    domainId: 'BFO_0000031',
+    rangeId: 'BFO_0000020',
+    label_en: 'gdc is concretized as sdc',
+    label_fr: 'BFO_0000031 RO_0000058 BFO_0000020',
+    definition_en: 'GenericallyDependentContinuant A relationship between a generically dependent continuant and a specifically dependent continuant, in which the generically dependent continuant depends on some independent continuant in virtue of the fact that the specifically dependent continuant also depends on that same independent continuant. A generically dependent continuant may be concretized as multiple specifically dependent continuants. SpecificallyDependentContinuant',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE BFO_0000031_RO_0000058_BFO_0000020::BFO_0000031_RO_0000058_BFO_0000020::{en=gdc is concretized as sdc, fr=BFO_0000031 RO_0000058 BFO_0000020}\nBFO_0000020::BFO_0000020 JOIN BFO_0000031::BFO_0000031\n  {\n    BFO_0000031_uid::BFO_0000031_uid uid_domain::{en=uid gdc, fr=uid BFO_0000031}\n    BFO_0000020_uid::BFO_0000020_uid uid_domain::{en=uid sdc, fr=uid BFO_0000020}\n  } \nKEY {BFO_0000031_uid, BFO_0000020_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000019_IAO_0000136_HOSO_0000060',
+    shortIri: 'HOSO_0000019_IAO_0000136_HOSO_0000060',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000136',
+    domainId: 'HOSO_0000019',
+    rangeId: 'HOSO_0000060',
+    label_en: 'public provincial health identifier is about public provincial health insurance record',
+    label_fr: 'HOSO_0000019 IAO_0000136 HOSO_0000060',
+    definition_en: 'An identifier that denotes a public provincial health insurance record. A (currently) primitive relation that relates an information artifact to an entity. An information content entity that contains the information required to manage the insurance coverage of an insured individual.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000019_IAO_0000136_HOSO_0000060::HOSO_0000019_IAO_0000136_HOSO_0000060::{en=public provincial health identifier is about public provincial health insurance record, fr=HOSO_0000019 IAO_0000136 HOSO_0000060}\nHOSO_0000060::HOSO_0000060 JOIN HOSO_0000019::HOSO_0000019\n  {\n    HOSO_0000019_uid::HOSO_0000019_uid uid_domain::{en=uid public provincial health identifier, fr=uid HOSO_0000019}\n    HOSO_0000060_uid::HOSO_0000060_uid uid_domain::{en=uid public provincial health insurance record, fr=uid HOSO_0000060}\n  } \nKEY {HOSO_0000019_uid, HOSO_0000060_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000062_RO_0000087_HOSO_0000061',
+    shortIri: 'HOSO_0000062_RO_0000087_HOSO_0000061',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0000087',
+    domainId: 'HOSO_0000062',
+    rangeId: 'HOSO_0000061',
+    label_en: 'primary health insurance beneficiary human has role primary health insurance beneficiary human role',
+    label_fr: 'HOSO_0000062 RO_0000087 HOSO_0000061',
+    definition_en: 'A human that has a role of primary health insurance benificiary role a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence A role that is borne by an human that is the primary beneficiary of a health insurance plan and so is responsible for its associated contract.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000062_RO_0000087_HOSO_0000061::HOSO_0000062_RO_0000087_HOSO_0000061::{en=primary health insurance beneficiary human has role primary health insurance beneficiary human role, fr=HOSO_0000062 RO_0000087 HOSO_0000061}\nHOSO_0000061::HOSO_0000061 JOIN HOSO_0000062::HOSO_0000062\n  {\n    HOSO_0000062_uid::HOSO_0000062_uid uid_domain::{en=uid primary health insurance beneficiary human, fr=uid HOSO_0000062}\n    HOSO_0000061_uid::HOSO_0000061_uid uid_domain::{en=uid primary health insurance beneficiary human role, fr=uid HOSO_0000061}\n  } \nKEY {HOSO_0000062_uid, HOSO_0000061_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'IOIO_0000005_OpenLHS-Core_0000070_IOIO_0000001',
+    shortIri: 'IOIO_0000005_OpenLHS-Core_0000070_IOIO_0000001',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'OpenLHS-Core_0000070',
+    domainId: 'IOIO_0000005',
+    rangeId: 'IOIO_0000001',
+    label_en: 'human birth temporal information component of human birth statement',
+    label_fr: 'IOIO_0000005 OpenLHS-Core_0000070 IOIO_0000001',
+    definition_en: 'A temporal information that is a component of a human birth statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the birth of this human. The inverse relation of has component. A process temporally qualifying statement about the birth of a human including an identifier and a temporal information of the birth of this human.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE IOIO_0000005_OpenLHS-Core_0000070_IOIO_0000001::IOIO_0000005_OpenLHS-Core_0000070_IOIO_0000001::{en=human birth temporal information component of human birth statement, fr=IOIO_0000005 OpenLHS-Core_0000070 IOIO_0000001}\nIOIO_0000001::IOIO_0000001 JOIN IOIO_0000005::IOIO_0000005\n  {\n    IOIO_0000005_uid::IOIO_0000005_uid uid_domain::{en=uid human birth temporal information, fr=uid IOIO_0000005}\n    IOIO_0000001_uid::IOIO_0000001_uid uid_domain::{en=uid human birth statement, fr=uid IOIO_0000001}\n  } \nKEY {IOIO_0000005_uid, IOIO_0000001_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000139_RO_0002479_HOSO_0000004',
+    shortIri: 'HOSO_0000139_RO_0002479_HOSO_0000004',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002479',
+    domainId: 'HOSO_0000139',
+    rangeId: 'HOSO_0000004',
+    label_en: 'facility-supported clinical visit has part that occurs in healthcare facility',
+    label_fr: 'HOSO_0000139 RO_0002479 HOSO_0000004',
+    definition_en: 'null p has part that occurs in c if and only if there exists some p1, such that p has_part p1, and p1 occurs in c. A facility that bears a healthcare function - WiP.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000139_RO_0002479_HOSO_0000004::HOSO_0000139_RO_0002479_HOSO_0000004::{en=facility-supported clinical visit has part that occurs in healthcare facility, fr=HOSO_0000139 RO_0002479 HOSO_0000004}\nHOSO_0000004::HOSO_0000004 JOIN HOSO_0000139::HOSO_0000139\n  {\n    HOSO_0000139_uid::HOSO_0000139_uid uid_domain::{en=uid facility-supported clinical visit, fr=uid HOSO_0000139}\n    HOSO_0000004_uid::HOSO_0000004_uid uid_domain::{en=uid healthcare facility, fr=uid HOSO_0000004}\n  } \nKEY {HOSO_0000139_uid, HOSO_0000004_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000103_OpenLHS-Core_0000070_HOSO_0000056',
+    shortIri: 'HOSO_0000103_OpenLHS-Core_0000070_HOSO_0000056',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'OpenLHS-Core_0000070',
+    domainId: 'HOSO_0000103',
+    rangeId: 'HOSO_0000056',
+    label_en: 'healthcare organization service delivery ending temporal information component of healthcare organization service delivery ending statement',
+    label_fr: 'HOSO_0000103 OpenLHS-Core_0000070 HOSO_0000056',
+    definition_en: 'A temporal information that is a component of a healthcare organization service delivery ending statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the ending of healthcare organization service delivery. The inverse relation of has component. A process ending statement that temporally qualifies the ending of a healthcare organisation service delivery.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000103_OpenLHS-Core_0000070_HOSO_0000056::HOSO_0000103_OpenLHS-Core_0000070_HOSO_0000056::{en=healthcare organization service delivery ending temporal information component of healthcare organization service delivery ending statement, fr=HOSO_0000103 OpenLHS-Core_0000070 HOSO_0000056}\nHOSO_0000056::HOSO_0000056 JOIN HOSO_0000103::HOSO_0000103\n  {\n    HOSO_0000103_uid::HOSO_0000103_uid uid_domain::{en=uid healthcare organization service delivery ending temporal information, fr=uid HOSO_0000103}\n    HOSO_0000056_uid::HOSO_0000056_uid uid_domain::{en=uid healthcare organization service delivery ending statement, fr=uid HOSO_0000056}\n  } \nKEY {HOSO_0000103_uid, HOSO_0000056_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000041_OBI_0000299_ONTORELA_C624fa67d',
+    shortIri: 'HOSO_0000041_OBI_0000299_ONTORELA_C624fa67d',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'OBI_0000299',
+    domainId: 'HOSO_0000041',
+    rangeId: 'ONTORELA_C624fa67d',
+    label_en: 'healthcare birth visit has_specified_output human birth statement\n and (is about exactly 1 human clinical visit specified patient)',
+    label_fr: 'HOSO_0000041 OBI_0000299 IOIO_0000001\n and (IAO_0000136 exactly 1 HOSO_0000137)',
+    definition_en: 'A healthcare organization clinical visit during which a birth statement was produced regarding the birth of the main patient visit beneficiary. The inverse property of is_specified_output_of healthcare birth visitA process temporally qualifying statement about the birth of a human including an identifier and a temporal information of the birth of this human.',
+    definition_fr: 'null null HOSO_0000041',
+    description: 'JOINTABLE HOSO_0000041_OBI_0000299_ONTORELA_C624fa67d::HOSO_0000041_OBI_0000299_ONTORELA_C624fa67d::{en=healthcare birth visit has_specified_output human birth statement\n and (is about exactly 1 human clinical visit specified patient), fr=HOSO_0000041 OBI_0000299 IOIO_0000001\n and (IAO_0000136 exactly 1 HOSO_0000137)}\nONTORELA_C624fa67d::ONTORELA_C624fa67d JOIN HOSO_0000041::HOSO_0000041\n  {\n    HOSO_0000041_uid::HOSO_0000041_uid uid_domain::{en=uid healthcare birth visit, fr=uid HOSO_0000041}\n    ONTORELA_C624fa67d_uid::ONTORELA_C624fa67d_uid uid_domain::{en=uid human birth statement\n and (is about exactly 1 human clinical visit specified patient), fr=uid IOIO_0000001\n and (IAO_0000136 exactly 1 HOSO_0000137)}\n  } \nKEY {HOSO_0000041_uid, ONTORELA_C624fa67d_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'IAO_0020020_BFO_0000051_IAO_0020000',
+    shortIri: 'IAO_0020020_BFO_0000051_IAO_0020000',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'BFO_0000051',
+    domainId: 'IAO_0020020',
+    rangeId: 'IAO_0020000',
+    label_en: 'code set has part identifier',
+    label_fr: 'IAO_0020020 BFO_0000051 IAO_0020000',
+    definition_en: 'An information content entity that is a collection of other information content entities that has been created to identify or annotate things in a specified domain, and where the intention of its creators is that the collection has a one-to-one correspondence with those things. a core relation that holds between a whole and its part An information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE IAO_0020020_BFO_0000051_IAO_0020000::IAO_0020020_BFO_0000051_IAO_0020000::{en=code set has part identifier, fr=IAO_0020020 BFO_0000051 IAO_0020000}\nIAO_0020000::IAO_0020000 JOIN IAO_0020020::IAO_0020020\n  {\n    IAO_0020020_uid::IAO_0020020_uid uid_domain::{en=uid code set, fr=uid IAO_0020020}\n    IAO_0020000_uid::IAO_0020000_uid uid_domain::{en=uid identifier, fr=uid IAO_0020000}\n  } \nKEY {IAO_0020020_uid, IAO_0020000_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'IOIO_0000014_IAO_0000219_NCBITaxon_9606',
+    shortIri: 'IOIO_0000014_IAO_0000219_NCBITaxon_9606',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000219',
+    domainId: 'IOIO_0000014',
+    rangeId: 'NCBITaxon_9606',
+    label_en: 'human identifier denotes Homo sapiens',
+    label_fr: 'IOIO_0000014 IAO_0000219 NCBITaxon_9606',
+    definition_en: 'An organism identifier that denotes a particular human. A primitive, instance-level, relation obtaining between an information content entity and some portion of reality. Denotation is what happens when someone creates an information content entity E in order to specifically refer to something. The only relation between E and the thing is that E can be used to "pick out" the thing. This relation connects those two together. Freedictionary.com sense 3: To signify directly; refer to specifically null',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE IOIO_0000014_IAO_0000219_NCBITaxon_9606::IOIO_0000014_IAO_0000219_NCBITaxon_9606::{en=human identifier denotes Homo sapiens, fr=IOIO_0000014 IAO_0000219 NCBITaxon_9606}\nNCBITaxon_9606::NCBITaxon_9606 JOIN IOIO_0000014::IOIO_0000014\n  {\n    IOIO_0000014_uid::IOIO_0000014_uid uid_domain::{en=uid human identifier, fr=uid IOIO_0000014}\n    NCBITaxon_9606_uid::NCBITaxon_9606_uid uid_domain::{en=uid Homo sapiens, fr=uid NCBITaxon_9606}\n  } \nKEY {IOIO_0000014_uid, NCBITaxon_9606_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000009_RO_0002350_HOSO_0000008',
+    shortIri: 'HOSO_0000009_RO_0002350_HOSO_0000008',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002350',
+    domainId: 'HOSO_0000009',
+    rangeId: 'HOSO_0000008',
+    label_en: 'healthcare provider member of healthcare organization',
+    label_fr: 'HOSO_0000009 RO_0002350 HOSO_0000008',
+    definition_en: 'A health provider who is a member of a healthcare organisation. is member of is a mereological relation between a item and a collection. An organisation that bears a healthcare organisation role.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000009_RO_0002350_HOSO_0000008::HOSO_0000009_RO_0002350_HOSO_0000008::{en=healthcare provider member of healthcare organization, fr=HOSO_0000009 RO_0002350 HOSO_0000008}\nHOSO_0000008::HOSO_0000008 JOIN HOSO_0000009::HOSO_0000009\n  {\n    HOSO_0000009_uid::HOSO_0000009_uid uid_domain::{en=uid healthcare provider, fr=uid HOSO_0000009}\n    HOSO_0000008_uid::HOSO_0000008_uid uid_domain::{en=uid healthcare organization, fr=uid HOSO_0000008}\n  } \nKEY {HOSO_0000009_uid, HOSO_0000008_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'ONTORELA_C6a3e089c_has_agent_OBI_0000245',
+    shortIri: 'ONTORELA_C6a3e089c_has_agent_OBI_0000245',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'has_agent',
+    domainId: 'ONTORELA_C6a3e089c',
+    rangeId: 'OBI_0000245',
+    label_en: 'process\n and (has agent some organization) has agent organization',
+    label_fr: 'BFO_0000015\n and (has_agent some OBI_0000245) has_agent OBI_0000245',
+    definition_en: 'government sanctioned statementProcess p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003]) An entity that can bear roles, has members, and has a set of organization rules. Members of organizations are either organizations themselves or individual people. Members can bear specific organization member roles that are determined in the organization rules. The organization rules also determine how decisions are made on behalf of the organization by the organization members. x has_agent y iff x is an instance of Process and y is an instance of Agent, such that y is causally active in x. An entity that can bear roles, has members, and has a set of organization rules. Members of organizations are either organizations themselves or individual people. Members can bear specific organization member roles that are determined in the organization rules. The organization rules also determine how decisions are made on behalf of the organization by the organization members.',
+    definition_fr: 'OpenLHS-Core_0000011 null null',
+    description: 'JOINTABLE ONTORELA_C6a3e089c_has_agent_OBI_0000245::ONTORELA_C6a3e089c_has_agent_OBI_0000245::{en=process\n and (has agent some organization) has agent organization, fr=BFO_0000015\n and (has_agent some OBI_0000245) has_agent OBI_0000245}\nOBI_0000245::OBI_0000245 JOIN ONTORELA_C6a3e089c::ONTORELA_C6a3e089c\n  {\n    ONTORELA_C6a3e089c_uid::ONTORELA_C6a3e089c_uid uid_domain::{en=uid process\n and (has agent some organization), fr=uid BFO_0000015\n and (has_agent some OBI_0000245)}\n    OBI_0000245_uid::OBI_0000245_uid uid_domain::{en=uid organization, fr=uid OBI_0000245}\n  } \nKEY {ONTORELA_C6a3e089c_uid, OBI_0000245_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'BFO_0000020_RO_0000059_BFO_0000031',
+    shortIri: 'BFO_0000020_RO_0000059_BFO_0000031',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0000059',
+    domainId: 'BFO_0000020',
+    rangeId: 'BFO_0000031',
+    label_en: 'sdc concretizes gdc',
+    label_fr: 'BFO_0000020 RO_0000059 BFO_0000031',
+    definition_en: 'SpecificallyDependentContinuant A relationship between a specifically dependent continuant and a generically dependent continuant, in which the generically dependent continuant depends on some independent continuant in virtue of the fact that the specifically dependent continuant also depends on that same independent continuant. Multiple specifically dependent continuants can concretize the same generically dependent continuant. GenericallyDependentContinuant',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE BFO_0000020_RO_0000059_BFO_0000031::BFO_0000020_RO_0000059_BFO_0000031::{en=sdc concretizes gdc, fr=BFO_0000020 RO_0000059 BFO_0000031}\nBFO_0000031::BFO_0000031 JOIN BFO_0000020::BFO_0000020\n  {\n    BFO_0000020_uid::BFO_0000020_uid uid_domain::{en=uid sdc, fr=uid BFO_0000020}\n    BFO_0000031_uid::BFO_0000031_uid uid_domain::{en=uid gdc, fr=uid BFO_0000031}\n  } \nKEY {BFO_0000020_uid, BFO_0000031_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'IOIO_0000015_RO_0002180_IOIO_0000014',
+    shortIri: 'IOIO_0000015_RO_0002180_IOIO_0000014',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'IOIO_0000015',
+    rangeId: 'IOIO_0000014',
+    label_en: 'human biological sex statement has component human identifier',
+    label_fr: 'IOIO_0000015 RO_0002180 IOIO_0000014',
+    definition_en: 'A pragmatically accepted statement stating the biological sex of a human. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. An organism identifier that denotes a particular human.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE IOIO_0000015_RO_0002180_IOIO_0000014::IOIO_0000015_RO_0002180_IOIO_0000014::{en=human biological sex statement has component human identifier, fr=IOIO_0000015 RO_0002180 IOIO_0000014}\nIOIO_0000014::IOIO_0000014 JOIN IOIO_0000015::IOIO_0000015\n  {\n    IOIO_0000015_uid::IOIO_0000015_uid uid_domain::{en=uid human biological sex statement, fr=uid IOIO_0000015}\n    IOIO_0000014_uid::IOIO_0000014_uid uid_domain::{en=uid human identifier, fr=uid IOIO_0000014}\n  } \nKEY {IOIO_0000015_uid, IOIO_0000014_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'IOIO_0000015_RO_0002180_IOIO_0000011',
+    shortIri: 'IOIO_0000015_RO_0002180_IOIO_0000011',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'IOIO_0000015',
+    rangeId: 'IOIO_0000011',
+    label_en: 'human biological sex statement has component human biological sex information content entity',
+    label_fr: 'IOIO_0000015 RO_0002180 IOIO_0000011',
+    definition_en: 'A pragmatically accepted statement stating the biological sex of a human. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. A biological sex information content entity that denotes the biological sex of a human.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE IOIO_0000015_RO_0002180_IOIO_0000011::IOIO_0000015_RO_0002180_IOIO_0000011::{en=human biological sex statement has component human biological sex information content entity, fr=IOIO_0000015 RO_0002180 IOIO_0000011}\nIOIO_0000011::IOIO_0000011 JOIN IOIO_0000015::IOIO_0000015\n  {\n    IOIO_0000015_uid::IOIO_0000015_uid uid_domain::{en=uid human biological sex statement, fr=uid IOIO_0000015}\n    IOIO_0000011_uid::IOIO_0000011_uid uid_domain::{en=uid human biological sex information content entity, fr=uid IOIO_0000011}\n  } \nKEY {IOIO_0000015_uid, IOIO_0000011_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'IOIO_0000003_RO_0002180_IOIO_0000006',
+    shortIri: 'IOIO_0000003_RO_0002180_IOIO_0000006',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'IOIO_0000003',
+    rangeId: 'IOIO_0000006',
+    label_en: 'human death statement has component human death temporal information',
+    label_fr: 'IOIO_0000003 RO_0002180 IOIO_0000006',
+    definition_en: 'A process temporally qualifying statement about the death of a human including an identifier and a temporal information of the death of this human. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. A temporal information that is a component of a human death statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the death of this human.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE IOIO_0000003_RO_0002180_IOIO_0000006::IOIO_0000003_RO_0002180_IOIO_0000006::{en=human death statement has component human death temporal information, fr=IOIO_0000003 RO_0002180 IOIO_0000006}\nIOIO_0000006::IOIO_0000006 JOIN IOIO_0000003::IOIO_0000003\n  {\n    IOIO_0000003_uid::IOIO_0000003_uid uid_domain::{en=uid human death statement, fr=uid IOIO_0000003}\n    IOIO_0000006_uid::IOIO_0000006_uid uid_domain::{en=uid human death temporal information, fr=uid IOIO_0000006}\n  } \nKEY {IOIO_0000003_uid, IOIO_0000006_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'IOIO_0000003_RO_0002180_IOIO_0000014',
+    shortIri: 'IOIO_0000003_RO_0002180_IOIO_0000014',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'IOIO_0000003',
+    rangeId: 'IOIO_0000014',
+    label_en: 'human death statement has component human identifier',
+    label_fr: 'IOIO_0000003 RO_0002180 IOIO_0000014',
+    definition_en: 'A process temporally qualifying statement about the death of a human including an identifier and a temporal information of the death of this human. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. An organism identifier that denotes a particular human.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE IOIO_0000003_RO_0002180_IOIO_0000014::IOIO_0000003_RO_0002180_IOIO_0000014::{en=human death statement has component human identifier, fr=IOIO_0000003 RO_0002180 IOIO_0000014}\nIOIO_0000014::IOIO_0000014 JOIN IOIO_0000003::IOIO_0000003\n  {\n    IOIO_0000003_uid::IOIO_0000003_uid uid_domain::{en=uid human death statement, fr=uid IOIO_0000003}\n    IOIO_0000014_uid::IOIO_0000014_uid uid_domain::{en=uid human identifier, fr=uid IOIO_0000014}\n  } \nKEY {IOIO_0000003_uid, IOIO_0000014_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HEPRO_0000009_IAO_0000219_HEPRO_0000012',
+    shortIri: 'HEPRO_0000009_IAO_0000219_HEPRO_0000012',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000219',
+    domainId: 'HEPRO_0000009',
+    rangeId: 'HEPRO_0000012',
+    label_en: 'health provider identifier denotes health provider',
+    label_fr: 'HEPRO_0000009 IAO_0000219 HEPRO_0000012',
+    definition_en: 'An individual identifier that denotes a health provider. A primitive, instance-level, relation obtaining between an information content entity and some portion of reality. Denotation is what happens when someone creates an information content entity E in order to specifically refer to something. The only relation between E and the thing is that E can be used to "pick out" the thing. This relation connects those two together. Freedictionary.com sense 3: To signify directly; refer to specifically An organism that is the bearer of a health provider role.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HEPRO_0000009_IAO_0000219_HEPRO_0000012::HEPRO_0000009_IAO_0000219_HEPRO_0000012::{en=health provider identifier denotes health provider, fr=HEPRO_0000009 IAO_0000219 HEPRO_0000012}\nHEPRO_0000012::HEPRO_0000012 JOIN HEPRO_0000009::HEPRO_0000009\n  {\n    HEPRO_0000009_uid::HEPRO_0000009_uid uid_domain::{en=uid health provider identifier, fr=uid HEPRO_0000009}\n    HEPRO_0000012_uid::HEPRO_0000012_uid uid_domain::{en=uid health provider, fr=uid HEPRO_0000012}\n  } \nKEY {HEPRO_0000009_uid, HEPRO_0000012_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'OpenLHS-Core_0000028_OBI_0000312_OpenLHS-Core_0000035',
+    shortIri: 'OpenLHS-Core_0000028_OBI_0000312_OpenLHS-Core_0000035',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'OBI_0000312',
+    domainId: 'OpenLHS-Core_0000028',
+    rangeId: 'OpenLHS-Core_0000035',
+    label_en: 'service agreement specification is_specified_output_of service agreement negotiation',
+    label_fr: 'OpenLHS-Core_0000028 OBI_0000312 OpenLHS-Core_0000035',
+    definition_en: 'An information content entity that specifies a service agreement made between a request party and a service offer party, and aim to direct some processes that correspond to what has been agreed between the parties. A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of. A planned process of interaction between a request party and a service offer party having as specified input some request and some service offer and that aims to generate as output a service agreement.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE OpenLHS-Core_0000028_OBI_0000312_OpenLHS-Core_0000035::OpenLHS-Core_0000028_OBI_0000312_OpenLHS-Core_0000035::{en=service agreement specification is_specified_output_of service agreement negotiation, fr=OpenLHS-Core_0000028 OBI_0000312 OpenLHS-Core_0000035}\nOpenLHS-Core_0000035::OpenLHS-Core_0000035 JOIN OpenLHS-Core_0000028::OpenLHS-Core_0000028\n  {\n    OpenLHS-Core_0000028_uid::OpenLHS-Core_0000028_uid uid_domain::{en=uid service agreement specification, fr=uid OpenLHS-Core_0000028}\n    OpenLHS-Core_0000035_uid::OpenLHS-Core_0000035_uid uid_domain::{en=uid service agreement negotiation, fr=uid OpenLHS-Core_0000035}\n  } \nKEY {OpenLHS-Core_0000028_uid, OpenLHS-Core_0000035_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000008_RO_0000087_HOSO_0000006',
+    shortIri: 'HOSO_0000008_RO_0000087_HOSO_0000006',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0000087',
+    domainId: 'HOSO_0000008',
+    rangeId: 'HOSO_0000006',
+    label_en: 'healthcare organization has role healthcare organization role',
+    label_fr: 'HOSO_0000008 RO_0000087 HOSO_0000006',
+    definition_en: 'An organisation that bears a healthcare organisation role. a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence A role that inheres in an organisation and is realized by providing some healthcare service delivery.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000008_RO_0000087_HOSO_0000006::HOSO_0000008_RO_0000087_HOSO_0000006::{en=healthcare organization has role healthcare organization role, fr=HOSO_0000008 RO_0000087 HOSO_0000006}\nHOSO_0000006::HOSO_0000006 JOIN HOSO_0000008::HOSO_0000008\n  {\n    HOSO_0000008_uid::HOSO_0000008_uid uid_domain::{en=uid healthcare organization, fr=uid HOSO_0000008}\n    HOSO_0000006_uid::HOSO_0000006_uid uid_domain::{en=uid healthcare organization role, fr=uid HOSO_0000006}\n  } \nKEY {HOSO_0000008_uid, HOSO_0000006_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'OpenLHS-Core_0000043_RO_0000052_Agent',
+    shortIri: 'OpenLHS-Core_0000043_RO_0000052_Agent',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0000052',
+    domainId: 'OpenLHS-Core_0000043',
+    rangeId: 'Agent',
+    label_en: 'agent plan to act as if some statement was true characteristic of Agent',
+    label_fr: 'OpenLHS-Core_0000043 RO_0000052 Agent',
+    definition_en: 'A plan of an agent to act as if some statement was true. a relation between a specifically dependent continuant (the characteristic) and any other entity (the bearer), in which the characteristic depends on the bearer for its existence. A Material Entity that is capable of performing Planned Acts',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE OpenLHS-Core_0000043_RO_0000052_Agent::OpenLHS-Core_0000043_RO_0000052_Agent::{en=agent plan to act as if some statement was true characteristic of Agent, fr=OpenLHS-Core_0000043 RO_0000052 Agent}\nAgent::Agent JOIN OpenLHS-Core_0000043::OpenLHS-Core_0000043\n  {\n    OpenLHS-Core_0000043_uid::OpenLHS-Core_0000043_uid uid_domain::{en=uid agent plan to act as if some statement was true, fr=uid OpenLHS-Core_0000043}\n    Agent_uid::Agent_uid uid_domain::{en=uid Agent, fr=uid Agent}\n  } \nKEY {OpenLHS-Core_0000043_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'OpenLHS-Core_0000031_IAO_0000136_BFO_0000015',
+    shortIri: 'OpenLHS-Core_0000031_IAO_0000136_BFO_0000015',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000136',
+    domainId: 'OpenLHS-Core_0000031',
+    rangeId: 'BFO_0000015',
+    label_en: 'process temporally qualifying statement is about process',
+    label_fr: 'OpenLHS-Core_0000031 IAO_0000136 BFO_0000015',
+    definition_en: 'A temporally qualifying statement stating that a temporal region overlaps with a temporal region during which some process occurred, occurs or will occur. A (currently) primitive relation that relates an information artifact to an entity. Process',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE OpenLHS-Core_0000031_IAO_0000136_BFO_0000015::OpenLHS-Core_0000031_IAO_0000136_BFO_0000015::{en=process temporally qualifying statement is about process, fr=OpenLHS-Core_0000031 IAO_0000136 BFO_0000015}\nBFO_0000015::BFO_0000015 JOIN OpenLHS-Core_0000031::OpenLHS-Core_0000031\n  {\n    OpenLHS-Core_0000031_uid::OpenLHS-Core_0000031_uid uid_domain::{en=uid process temporally qualifying statement, fr=uid OpenLHS-Core_0000031}\n    BFO_0000015_uid::BFO_0000015_uid uid_domain::{en=uid process, fr=uid BFO_0000015}\n  } \nKEY {OpenLHS-Core_0000031_uid, BFO_0000015_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HEPRO_0000011_RO_0000081_OBI_0100026',
+    shortIri: 'HEPRO_0000011_RO_0000081_OBI_0100026',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0000081',
+    domainId: 'HEPRO_0000011',
+    rangeId: 'OBI_0100026',
+    label_en: 'health provider role role of organism',
+    label_fr: 'HEPRO_0000011 RO_0000081 OBI_0100026',
+    definition_en: 'A role that inheres in an organism as a consequence of training in order to be able to participate as a performer in some health activities. a relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence A material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HEPRO_0000011_RO_0000081_OBI_0100026::HEPRO_0000011_RO_0000081_OBI_0100026::{en=health provider role role of organism, fr=HEPRO_0000011 RO_0000081 OBI_0100026}\nOBI_0100026::OBI_0100026 JOIN HEPRO_0000011::HEPRO_0000011\n  {\n    HEPRO_0000011_uid::HEPRO_0000011_uid uid_domain::{en=uid health provider role, fr=uid HEPRO_0000011}\n    OBI_0100026_uid::OBI_0100026_uid uid_domain::{en=uid organism, fr=uid OBI_0100026}\n  } \nKEY {HEPRO_0000011_uid, OBI_0100026_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HEPRO_0000023_RO_0002180_HEPRO_0000100',
+    shortIri: 'HEPRO_0000023_RO_0002180_HEPRO_0000100',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'HEPRO_0000023',
+    rangeId: 'HEPRO_0000100',
+    label_en: 'health activity ending statement has component health activity identifier',
+    label_fr: 'HEPRO_0000023 RO_0002180 HEPRO_0000100',
+    definition_en: 'A process ending statement that temporally qualifies the end of a health activity. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. An identifier that denotes a health activity.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HEPRO_0000023_RO_0002180_HEPRO_0000100::HEPRO_0000023_RO_0002180_HEPRO_0000100::{en=health activity ending statement has component health activity identifier, fr=HEPRO_0000023 RO_0002180 HEPRO_0000100}\nHEPRO_0000100::HEPRO_0000100 JOIN HEPRO_0000023::HEPRO_0000023\n  {\n    HEPRO_0000023_uid::HEPRO_0000023_uid uid_domain::{en=uid health activity ending statement, fr=uid HEPRO_0000023}\n    HEPRO_0000100_uid::HEPRO_0000100_uid uid_domain::{en=uid health activity identifier, fr=uid HEPRO_0000100}\n  } \nKEY {HEPRO_0000023_uid, HEPRO_0000100_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HEPRO_0000023_RO_0002180_HEPRO_0000104',
+    shortIri: 'HEPRO_0000023_RO_0002180_HEPRO_0000104',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'HEPRO_0000023',
+    rangeId: 'HEPRO_0000104',
+    label_en: 'health activity ending statement has component health activity ending temporal information',
+    label_fr: 'HEPRO_0000023 RO_0002180 HEPRO_0000104',
+    definition_en: 'A process ending statement that temporally qualifies the end of a health activity. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. A temporal information that is a component of a health activity ending statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the ending of the health activity.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HEPRO_0000023_RO_0002180_HEPRO_0000104::HEPRO_0000023_RO_0002180_HEPRO_0000104::{en=health activity ending statement has component health activity ending temporal information, fr=HEPRO_0000023 RO_0002180 HEPRO_0000104}\nHEPRO_0000104::HEPRO_0000104 JOIN HEPRO_0000023::HEPRO_0000023\n  {\n    HEPRO_0000023_uid::HEPRO_0000023_uid uid_domain::{en=uid health activity ending statement, fr=uid HEPRO_0000023}\n    HEPRO_0000104_uid::HEPRO_0000104_uid uid_domain::{en=uid health activity ending temporal information, fr=uid HEPRO_0000104}\n  } \nKEY {HEPRO_0000023_uid, HEPRO_0000104_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000043_RO_0002087_HOSO_0000071',
+    shortIri: 'HOSO_0000043_RO_0002087_HOSO_0000071',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002087',
+    domainId: 'HOSO_0000043',
+    rangeId: 'HOSO_0000071',
+    label_en: 'ambulance initiated emergency department visit immediately preceded by ambulance paramedics visit',
+    label_fr: 'HOSO_0000043 RO_0002087 HOSO_0000071',
+    definition_en: 'An emergency department visit for a given patient that was participating in another healthcare organisation visit involving paramedics just prior to this visit. null A healthcare organization clinical visit involving an ambulance and paramedics as healthcare provider.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000043_RO_0002087_HOSO_0000071::HOSO_0000043_RO_0002087_HOSO_0000071::{en=ambulance initiated emergency department visit immediately preceded by ambulance paramedics visit, fr=HOSO_0000043 RO_0002087 HOSO_0000071}\nHOSO_0000071::HOSO_0000071 JOIN HOSO_0000043::HOSO_0000043\n  {\n    HOSO_0000043_uid::HOSO_0000043_uid uid_domain::{en=uid ambulance initiated emergency department visit, fr=uid HOSO_0000043}\n    HOSO_0000071_uid::HOSO_0000071_uid uid_domain::{en=uid ambulance paramedics visit, fr=uid HOSO_0000071}\n  } \nKEY {HOSO_0000043_uid, HOSO_0000071_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000031_OpenLHS-Core_0000004_HOSO_0000078',
+    shortIri: 'HOSO_0000031_OpenLHS-Core_0000004_HOSO_0000078',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'OpenLHS-Core_0000004',
+    domainId: 'HOSO_0000031',
+    rangeId: 'HOSO_0000078',
+    label_en: 'hospitalization is directed by hospitalization admitting physician specification',
+    label_fr: 'HOSO_0000031 OpenLHS-Core_0000004 HOSO_0000078',
+    definition_en: 'An inpatient visit located in a hospital facility requested by a physician, where the healthcare organization can offer an extension overnight. The inverse relations of directs A clinical visit agreement directive entity mandating the admitting physician.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000031_OpenLHS-Core_0000004_HOSO_0000078::HOSO_0000031_OpenLHS-Core_0000004_HOSO_0000078::{en=hospitalization is directed by hospitalization admitting physician specification, fr=HOSO_0000031 OpenLHS-Core_0000004 HOSO_0000078}\nHOSO_0000078::HOSO_0000078 JOIN HOSO_0000031::HOSO_0000031\n  {\n    HOSO_0000031_uid::HOSO_0000031_uid uid_domain::{en=uid hospitalization, fr=uid HOSO_0000031}\n    HOSO_0000078_uid::HOSO_0000078_uid uid_domain::{en=uid hospitalization admitting physician specification, fr=uid HOSO_0000078}\n  } \nKEY {HOSO_0000031_uid, HOSO_0000078_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000152_IAO_0000136_HOSO_0000137',
+    shortIri: 'HOSO_0000152_IAO_0000136_HOSO_0000137',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000136',
+    domainId: 'HOSO_0000152',
+    rangeId: 'HOSO_0000137',
+    label_en: 'human age at the beginning of the clinical visit statement is about human clinical visit specified patient',
+    label_fr: 'HOSO_0000152 IAO_0000136 HOSO_0000137',
+    definition_en: 'null A (currently) primitive relation that relates an information artifact to an entity. null',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000152_IAO_0000136_HOSO_0000137::HOSO_0000152_IAO_0000136_HOSO_0000137::{en=human age at the beginning of the clinical visit statement is about human clinical visit specified patient, fr=HOSO_0000152 IAO_0000136 HOSO_0000137}\nHOSO_0000137::HOSO_0000137 JOIN HOSO_0000152::HOSO_0000152\n  {\n    HOSO_0000152_uid::HOSO_0000152_uid uid_domain::{en=uid human age at the beginning of the clinical visit statement, fr=uid HOSO_0000152}\n    HOSO_0000137_uid::HOSO_0000137_uid uid_domain::{en=uid human clinical visit specified patient, fr=uid HOSO_0000137}\n  } \nKEY {HOSO_0000152_uid, HOSO_0000137_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000140_IAO_0000136_OMRSE_00000062',
+    shortIri: 'HOSO_0000140_IAO_0000136_OMRSE_00000062',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000136',
+    domainId: 'HOSO_0000140',
+    rangeId: 'OMRSE_00000062',
+    label_en: 'facility address is about facility',
+    label_fr: 'HOSO_0000140 IAO_0000136 OMRSE_00000062',
+    definition_en: 'A postal address that enables an agent to locate a facility. A (currently) primitive relation that relates an information artifact to an entity. An architectural structure that bears some function.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000140_IAO_0000136_OMRSE_00000062::HOSO_0000140_IAO_0000136_OMRSE_00000062::{en=facility address is about facility, fr=HOSO_0000140 IAO_0000136 OMRSE_00000062}\nOMRSE_00000062::OMRSE_00000062 JOIN HOSO_0000140::HOSO_0000140\n  {\n    HOSO_0000140_uid::HOSO_0000140_uid uid_domain::{en=uid facility address, fr=uid HOSO_0000140}\n    OMRSE_00000062_uid::OMRSE_00000062_uid uid_domain::{en=uid facility, fr=uid OMRSE_00000062}\n  } \nKEY {HOSO_0000140_uid, OMRSE_00000062_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000079_RO_0002350_HOSO_0000008',
+    shortIri: 'HOSO_0000079_RO_0002350_HOSO_0000008',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002350',
+    domainId: 'HOSO_0000079',
+    rangeId: 'HOSO_0000008',
+    label_en: 'healthcare physician service member of healthcare organization',
+    label_fr: 'HOSO_0000079 RO_0002350 HOSO_0000008',
+    definition_en: 'A healthcare organization with a mandate to manage and coordinate healthcare procedures deliveries under the responsability of its members is member of is a mereological relation between a item and a collection. An organisation that bears a healthcare organisation role.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000079_RO_0002350_HOSO_0000008::HOSO_0000079_RO_0002350_HOSO_0000008::{en=healthcare physician service member of healthcare organization, fr=HOSO_0000079 RO_0002350 HOSO_0000008}\nHOSO_0000008::HOSO_0000008 JOIN HOSO_0000079::HOSO_0000079\n  {\n    HOSO_0000079_uid::HOSO_0000079_uid uid_domain::{en=uid healthcare physician service, fr=uid HOSO_0000079}\n    HOSO_0000008_uid::HOSO_0000008_uid uid_domain::{en=uid healthcare organization, fr=uid HOSO_0000008}\n  } \nKEY {HOSO_0000079_uid, HOSO_0000008_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'SEPIO_0000187_OpenLHS-Core_0000005_Agent',
+    shortIri: 'SEPIO_0000187_OpenLHS-Core_0000005_Agent',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'OpenLHS-Core_0000005',
+    domainId: 'SEPIO_0000187',
+    rangeId: 'Agent',
+    label_en: 'confidence level is about an aspect of Agent',
+    label_fr: 'SEPIO_0000187 OpenLHS-Core_0000005 Agent',
+    definition_en: 'A measurement datum that quantifies the level of confidence an agent has that a particular piece of information is true. A is about an aspect of B := A is about a specifically dependent continuant that inheres in B. A Material Entity that is capable of performing Planned Acts',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE SEPIO_0000187_OpenLHS-Core_0000005_Agent::SEPIO_0000187_OpenLHS-Core_0000005_Agent::{en=confidence level is about an aspect of Agent, fr=SEPIO_0000187 OpenLHS-Core_0000005 Agent}\nAgent::Agent JOIN SEPIO_0000187::SEPIO_0000187\n  {\n    SEPIO_0000187_uid::SEPIO_0000187_uid uid_domain::{en=uid confidence level, fr=uid SEPIO_0000187}\n    Agent_uid::Agent_uid uid_domain::{en=uid Agent, fr=uid Agent}\n  } \nKEY {SEPIO_0000187_uid, Agent_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'SEPIO_0000187_IAO_0000136_IAO_0000030',
+    shortIri: 'SEPIO_0000187_IAO_0000136_IAO_0000030',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000136',
+    domainId: 'SEPIO_0000187',
+    rangeId: 'IAO_0000030',
+    label_en: 'confidence level is about information content entity',
+    label_fr: 'SEPIO_0000187 IAO_0000136 IAO_0000030',
+    definition_en: 'A measurement datum that quantifies the level of confidence an agent has that a particular piece of information is true. A (currently) primitive relation that relates an information artifact to an entity. A generically dependent continuant that is about some thing.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE SEPIO_0000187_IAO_0000136_IAO_0000030::SEPIO_0000187_IAO_0000136_IAO_0000030::{en=confidence level is about information content entity, fr=SEPIO_0000187 IAO_0000136 IAO_0000030}\nIAO_0000030::IAO_0000030 JOIN SEPIO_0000187::SEPIO_0000187\n  {\n    SEPIO_0000187_uid::SEPIO_0000187_uid uid_domain::{en=uid confidence level, fr=uid SEPIO_0000187}\n    IAO_0000030_uid::IAO_0000030_uid uid_domain::{en=uid information content entity, fr=uid IAO_0000030}\n  } \nKEY {SEPIO_0000187_uid, IAO_0000030_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000067_IAO_0000136_HOSO_0000063',
+    shortIri: 'HOSO_0000067_IAO_0000136_HOSO_0000063',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000136',
+    domainId: 'HOSO_0000067',
+    rangeId: 'HOSO_0000063',
+    label_en: 'provincial health insurance primary residence statement beginning is about public provincial health insurance primary residence statement',
+    label_fr: 'HOSO_0000067 IAO_0000136 HOSO_0000063',
+    definition_en: 'null A (currently) primitive relation that relates an information artifact to an entity. null',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000067_IAO_0000136_HOSO_0000063::HOSO_0000067_IAO_0000136_HOSO_0000063::{en=provincial health insurance primary residence statement beginning is about public provincial health insurance primary residence statement, fr=HOSO_0000067 IAO_0000136 HOSO_0000063}\nHOSO_0000063::HOSO_0000063 JOIN HOSO_0000067::HOSO_0000067\n  {\n    HOSO_0000067_uid::HOSO_0000067_uid uid_domain::{en=uid provincial health insurance primary residence statement beginning, fr=uid HOSO_0000067}\n    HOSO_0000063_uid::HOSO_0000063_uid uid_domain::{en=uid public provincial health insurance primary residence statement, fr=uid HOSO_0000063}\n  } \nKEY {HOSO_0000067_uid, HOSO_0000063_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000055_RO_0002180_HOSO_0000102',
+    shortIri: 'HOSO_0000055_RO_0002180_HOSO_0000102',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'HOSO_0000055',
+    rangeId: 'HOSO_0000102',
+    label_en: 'healthcare organization service delivery beginning statement has component healthcare organization service delivery beginning temporal information',
+    label_fr: 'HOSO_0000055 RO_0002180 HOSO_0000102',
+    definition_en: 'A process beginning statement that temporally qualifies the beginning of a healthcare organisation service delivery. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. A temporal information that is a component of a healthcare organization service delivery beginning statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the beginning of healthcare organization service delivery.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000055_RO_0002180_HOSO_0000102::HOSO_0000055_RO_0002180_HOSO_0000102::{en=healthcare organization service delivery beginning statement has component healthcare organization service delivery beginning temporal information, fr=HOSO_0000055 RO_0002180 HOSO_0000102}\nHOSO_0000102::HOSO_0000102 JOIN HOSO_0000055::HOSO_0000055\n  {\n    HOSO_0000055_uid::HOSO_0000055_uid uid_domain::{en=uid healthcare organization service delivery beginning statement, fr=uid HOSO_0000055}\n    HOSO_0000102_uid::HOSO_0000102_uid uid_domain::{en=uid healthcare organization service delivery beginning temporal information, fr=uid HOSO_0000102}\n  } \nKEY {HOSO_0000055_uid, HOSO_0000102_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000055_RO_0002180_HOSO_0000100',
+    shortIri: 'HOSO_0000055_RO_0002180_HOSO_0000100',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'HOSO_0000055',
+    rangeId: 'HOSO_0000100',
+    label_en: 'healthcare organization service delivery beginning statement has component healthcare organization service delivery identifier',
+    label_fr: 'HOSO_0000055 RO_0002180 HOSO_0000100',
+    definition_en: 'A process beginning statement that temporally qualifies the beginning of a healthcare organisation service delivery. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. An identifier that denotes a healthcare organization service delivery.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000055_RO_0002180_HOSO_0000100::HOSO_0000055_RO_0002180_HOSO_0000100::{en=healthcare organization service delivery beginning statement has component healthcare organization service delivery identifier, fr=HOSO_0000055 RO_0002180 HOSO_0000100}\nHOSO_0000100::HOSO_0000100 JOIN HOSO_0000055::HOSO_0000055\n  {\n    HOSO_0000055_uid::HOSO_0000055_uid uid_domain::{en=uid healthcare organization service delivery beginning statement, fr=uid HOSO_0000055}\n    HOSO_0000100_uid::HOSO_0000100_uid uid_domain::{en=uid healthcare organization service delivery identifier, fr=uid HOSO_0000100}\n  } \nKEY {HOSO_0000055_uid, HOSO_0000100_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HEPRO_0000022_RO_0002180_HEPRO_0000102',
+    shortIri: 'HEPRO_0000022_RO_0002180_HEPRO_0000102',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'HEPRO_0000022',
+    rangeId: 'HEPRO_0000102',
+    label_en: 'health activity beginning statement has component health activity beginning temporal information',
+    label_fr: 'HEPRO_0000022 RO_0002180 HEPRO_0000102',
+    definition_en: 'A process beginning statement that temporally qualifies the beginning of a health activity. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. A temporal information that is a component of a health activity beginning statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the beginning of the health activity.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HEPRO_0000022_RO_0002180_HEPRO_0000102::HEPRO_0000022_RO_0002180_HEPRO_0000102::{en=health activity beginning statement has component health activity beginning temporal information, fr=HEPRO_0000022 RO_0002180 HEPRO_0000102}\nHEPRO_0000102::HEPRO_0000102 JOIN HEPRO_0000022::HEPRO_0000022\n  {\n    HEPRO_0000022_uid::HEPRO_0000022_uid uid_domain::{en=uid health activity beginning statement, fr=uid HEPRO_0000022}\n    HEPRO_0000102_uid::HEPRO_0000102_uid uid_domain::{en=uid health activity beginning temporal information, fr=uid HEPRO_0000102}\n  } \nKEY {HEPRO_0000022_uid, HEPRO_0000102_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HEPRO_0000022_RO_0002180_HEPRO_0000100',
+    shortIri: 'HEPRO_0000022_RO_0002180_HEPRO_0000100',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'HEPRO_0000022',
+    rangeId: 'HEPRO_0000100',
+    label_en: 'health activity beginning statement has component health activity identifier',
+    label_fr: 'HEPRO_0000022 RO_0002180 HEPRO_0000100',
+    definition_en: 'A process beginning statement that temporally qualifies the beginning of a health activity. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. An identifier that denotes a health activity.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HEPRO_0000022_RO_0002180_HEPRO_0000100::HEPRO_0000022_RO_0002180_HEPRO_0000100::{en=health activity beginning statement has component health activity identifier, fr=HEPRO_0000022 RO_0002180 HEPRO_0000100}\nHEPRO_0000100::HEPRO_0000100 JOIN HEPRO_0000022::HEPRO_0000022\n  {\n    HEPRO_0000022_uid::HEPRO_0000022_uid uid_domain::{en=uid health activity beginning statement, fr=uid HEPRO_0000022}\n    HEPRO_0000100_uid::HEPRO_0000100_uid uid_domain::{en=uid health activity identifier, fr=uid HEPRO_0000100}\n  } \nKEY {HEPRO_0000022_uid, HEPRO_0000100_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HEPRO_0000010_IAO_0000219_NCBITaxon_9606',
+    shortIri: 'HEPRO_0000010_IAO_0000219_NCBITaxon_9606',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000219',
+    domainId: 'HEPRO_0000010',
+    rangeId: 'NCBITaxon_9606',
+    label_en: 'physician identifier denotes Homo sapiens',
+    label_fr: 'HEPRO_0000010 IAO_0000219 NCBITaxon_9606',
+    definition_en: 'A health provider identifier that is used to denote a person authorised to act as a physician. A primitive, instance-level, relation obtaining between an information content entity and some portion of reality. Denotation is what happens when someone creates an information content entity E in order to specifically refer to something. The only relation between E and the thing is that E can be used to "pick out" the thing. This relation connects those two together. Freedictionary.com sense 3: To signify directly; refer to specifically null',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HEPRO_0000010_IAO_0000219_NCBITaxon_9606::HEPRO_0000010_IAO_0000219_NCBITaxon_9606::{en=physician identifier denotes Homo sapiens, fr=HEPRO_0000010 IAO_0000219 NCBITaxon_9606}\nNCBITaxon_9606::NCBITaxon_9606 JOIN HEPRO_0000010::HEPRO_0000010\n  {\n    HEPRO_0000010_uid::HEPRO_0000010_uid uid_domain::{en=uid physician identifier, fr=uid HEPRO_0000010}\n    NCBITaxon_9606_uid::NCBITaxon_9606_uid uid_domain::{en=uid Homo sapiens, fr=uid NCBITaxon_9606}\n  } \nKEY {HEPRO_0000010_uid, NCBITaxon_9606_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'OpenLHS-Core_0000030_RO_0002180_OpenLHS-Core_0000065',
+    shortIri: 'OpenLHS-Core_0000030_RO_0002180_OpenLHS-Core_0000065',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'OpenLHS-Core_0000030',
+    rangeId: 'OpenLHS-Core_0000065',
+    label_en: 'temporally qualifying statement has component temporal information',
+    label_fr: 'OpenLHS-Core_0000030 RO_0002180 OpenLHS-Core_0000065',
+    definition_en: 'A statement that states that an entity existed, exists or will exist at some point during a specified temporal region. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. An information content entity that denotes a one-dimension temporal region.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE OpenLHS-Core_0000030_RO_0002180_OpenLHS-Core_0000065::OpenLHS-Core_0000030_RO_0002180_OpenLHS-Core_0000065::{en=temporally qualifying statement has component temporal information, fr=OpenLHS-Core_0000030 RO_0002180 OpenLHS-Core_0000065}\nOpenLHS-Core_0000065::OpenLHS-Core_0000065 JOIN OpenLHS-Core_0000030::OpenLHS-Core_0000030\n  {\n    OpenLHS-Core_0000030_uid::OpenLHS-Core_0000030_uid uid_domain::{en=uid temporally qualifying statement, fr=uid OpenLHS-Core_0000030}\n    OpenLHS-Core_0000065_uid::OpenLHS-Core_0000065_uid uid_domain::{en=uid temporal information, fr=uid OpenLHS-Core_0000065}\n  } \nKEY {OpenLHS-Core_0000030_uid, OpenLHS-Core_0000065_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'ONTORELA_C2875fe2d_RO_0000059_IAO_0000104',
+    shortIri: 'ONTORELA_C2875fe2d_RO_0000059_IAO_0000104',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0000059',
+    domainId: 'ONTORELA_C2875fe2d',
+    rangeId: 'IAO_0000104',
+    label_en: 'concretizes some plan specification concretizes plan specification',
+    label_fr: 'RO_0000059 some IAO_0000104 RO_0000059 IAO_0000104',
+    definition_en: 'planned processA directive information entity with action specifications and objective specifications as parts, and that may be concretized as a realizable entity that, if realized, is realized in a process in which the bearer tries to achieve the objectives by taking the actions specified. A relationship between a specifically dependent continuant and a generically dependent continuant, in which the generically dependent continuant depends on some independent continuant in virtue of the fact that the specifically dependent continuant also depends on that same independent continuant. Multiple specifically dependent continuants can concretize the same generically dependent continuant. A directive information entity with action specifications and objective specifications as parts, and that may be concretized as a realizable entity that, if realized, is realized in a process in which the bearer tries to achieve the objectives by taking the actions specified.',
+    definition_fr: 'OBI_0000011 null null',
+    description: 'JOINTABLE ONTORELA_C2875fe2d_RO_0000059_IAO_0000104::ONTORELA_C2875fe2d_RO_0000059_IAO_0000104::{en=concretizes some plan specification concretizes plan specification, fr=RO_0000059 some IAO_0000104 RO_0000059 IAO_0000104}\nIAO_0000104::IAO_0000104 JOIN ONTORELA_C2875fe2d::ONTORELA_C2875fe2d\n  {\n    ONTORELA_C2875fe2d_uid::ONTORELA_C2875fe2d_uid uid_domain::{en=uid concretizes some plan specification, fr=uid RO_0000059 some IAO_0000104}\n    IAO_0000104_uid::IAO_0000104_uid uid_domain::{en=uid plan specification, fr=uid IAO_0000104}\n  } \nKEY {ONTORELA_C2875fe2d_uid, IAO_0000104_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000030_BFO_0000051_HEPRO_0000014',
+    shortIri: 'HOSO_0000030_BFO_0000051_HEPRO_0000014',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'BFO_0000051',
+    domainId: 'HOSO_0000030',
+    rangeId: 'HEPRO_0000014',
+    label_en: 'day inpatient surgery visit has part surgical health procedure',
+    label_fr: 'HOSO_0000030 BFO_0000051 HEPRO_0000014',
+    definition_en: 'A day inpatient visit which includes a surgical procedure. a core relation that holds between a whole and its part A health procedure that includes a surgical procedure - TBD.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000030_BFO_0000051_HEPRO_0000014::HOSO_0000030_BFO_0000051_HEPRO_0000014::{en=day inpatient surgery visit has part surgical health procedure, fr=HOSO_0000030 BFO_0000051 HEPRO_0000014}\nHEPRO_0000014::HEPRO_0000014 JOIN HOSO_0000030::HOSO_0000030\n  {\n    HOSO_0000030_uid::HOSO_0000030_uid uid_domain::{en=uid day inpatient surgery visit, fr=uid HOSO_0000030}\n    HEPRO_0000014_uid::HEPRO_0000014_uid uid_domain::{en=uid surgical health procedure, fr=uid HEPRO_0000014}\n  } \nKEY {HOSO_0000030_uid, HEPRO_0000014_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000151_RO_0002180_HOSO_0000100',
+    shortIri: 'HOSO_0000151_RO_0002180_HOSO_0000100',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'HOSO_0000151',
+    rangeId: 'HOSO_0000100',
+    label_en: 'human age at the beginning of the healthcare organization service delivery statement has component healthcare organization service delivery identifier',
+    label_fr: 'HOSO_0000151 RO_0002180 HOSO_0000100',
+    definition_en: 'A human age at a specified temporal region statement that includes an human identifier, a healthcare organization service delivery identifier, and the human age at beginning of the healthcare organization service delivery of the human denoted by the human identifier, for the healthcare organization service delivery identified by the healthcare organization service delivery identifier. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. An identifier that denotes a healthcare organization service delivery.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000151_RO_0002180_HOSO_0000100::HOSO_0000151_RO_0002180_HOSO_0000100::{en=human age at the beginning of the healthcare organization service delivery statement has component healthcare organization service delivery identifier, fr=HOSO_0000151 RO_0002180 HOSO_0000100}\nHOSO_0000100::HOSO_0000100 JOIN HOSO_0000151::HOSO_0000151\n  {\n    HOSO_0000151_uid::HOSO_0000151_uid uid_domain::{en=uid human age at the beginning of the healthcare organization service delivery statement, fr=uid HOSO_0000151}\n    HOSO_0000100_uid::HOSO_0000100_uid uid_domain::{en=uid healthcare organization service delivery identifier, fr=uid HOSO_0000100}\n  } \nKEY {HOSO_0000151_uid, HOSO_0000100_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000151_RO_0002180_HOSO_0000150',
+    shortIri: 'HOSO_0000151_RO_0002180_HOSO_0000150',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'HOSO_0000151',
+    rangeId: 'HOSO_0000150',
+    label_en: 'human age at the beginning of the healthcare organization service delivery statement has component human age at beginning of the healthcare organization service delivery',
+    label_fr: 'HOSO_0000151 RO_0002180 HOSO_0000150',
+    definition_en: 'A human age at a specified temporal region statement that includes an human identifier, a healthcare organization service delivery identifier, and the human age at beginning of the healthcare organization service delivery of the human denoted by the human identifier, for the healthcare organization service delivery identified by the healthcare organization service delivery identifier. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. A human age at a specified temporal region where the temporal region is denoted by a healthcare organization service delivery beginning temporal information, and expressed according to ISO8601 standard.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000151_RO_0002180_HOSO_0000150::HOSO_0000151_RO_0002180_HOSO_0000150::{en=human age at the beginning of the healthcare organization service delivery statement has component human age at beginning of the healthcare organization service delivery, fr=HOSO_0000151 RO_0002180 HOSO_0000150}\nHOSO_0000150::HOSO_0000150 JOIN HOSO_0000151::HOSO_0000151\n  {\n    HOSO_0000151_uid::HOSO_0000151_uid uid_domain::{en=uid human age at the beginning of the healthcare organization service delivery statement, fr=uid HOSO_0000151}\n    HOSO_0000150_uid::HOSO_0000150_uid uid_domain::{en=uid human age at beginning of the healthcare organization service delivery, fr=uid HOSO_0000150}\n  } \nKEY {HOSO_0000151_uid, HOSO_0000150_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000078_BFO_0000051_HOSO_0000138',
+    shortIri: 'HOSO_0000078_BFO_0000051_HOSO_0000138',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'BFO_0000051',
+    domainId: 'HOSO_0000078',
+    rangeId: 'HOSO_0000138',
+    label_en: 'hospitalization admitting physician specification has part healthcare provider identifier',
+    label_fr: 'HOSO_0000078 BFO_0000051 HOSO_0000138',
+    definition_en: 'A clinical visit agreement directive entity mandating the admitting physician. a core relation that holds between a whole and its part An identifier that denotes a healthcare provider.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000078_BFO_0000051_HOSO_0000138::HOSO_0000078_BFO_0000051_HOSO_0000138::{en=hospitalization admitting physician specification has part healthcare provider identifier, fr=HOSO_0000078 BFO_0000051 HOSO_0000138}\nHOSO_0000138::HOSO_0000138 JOIN HOSO_0000078::HOSO_0000078\n  {\n    HOSO_0000078_uid::HOSO_0000078_uid uid_domain::{en=uid hospitalization admitting physician specification, fr=uid HOSO_0000078}\n    HOSO_0000138_uid::HOSO_0000138_uid uid_domain::{en=uid healthcare provider identifier, fr=uid HOSO_0000138}\n  } \nKEY {HOSO_0000078_uid, HOSO_0000138_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'IOIO_0000013_IAO_0000219_OBI_0100026',
+    shortIri: 'IOIO_0000013_IAO_0000219_OBI_0100026',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000219',
+    domainId: 'IOIO_0000013',
+    rangeId: 'OBI_0100026',
+    label_en: 'organism identifier denotes organism',
+    label_fr: 'IOIO_0000013 IAO_0000219 OBI_0100026',
+    definition_en: 'An identifier that denotes a particular organism. A primitive, instance-level, relation obtaining between an information content entity and some portion of reality. Denotation is what happens when someone creates an information content entity E in order to specifically refer to something. The only relation between E and the thing is that E can be used to "pick out" the thing. This relation connects those two together. Freedictionary.com sense 3: To signify directly; refer to specifically A material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE IOIO_0000013_IAO_0000219_OBI_0100026::IOIO_0000013_IAO_0000219_OBI_0100026::{en=organism identifier denotes organism, fr=IOIO_0000013 IAO_0000219 OBI_0100026}\nOBI_0100026::OBI_0100026 JOIN IOIO_0000013::IOIO_0000013\n  {\n    IOIO_0000013_uid::IOIO_0000013_uid uid_domain::{en=uid organism identifier, fr=uid IOIO_0000013}\n    OBI_0100026_uid::OBI_0100026_uid uid_domain::{en=uid organism, fr=uid OBI_0100026}\n  } \nKEY {IOIO_0000013_uid, OBI_0100026_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'IOIO_0000001_RO_0002180_IOIO_0000014',
+    shortIri: 'IOIO_0000001_RO_0002180_IOIO_0000014',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'IOIO_0000001',
+    rangeId: 'IOIO_0000014',
+    label_en: 'human birth statement has component human identifier',
+    label_fr: 'IOIO_0000001 RO_0002180 IOIO_0000014',
+    definition_en: 'A process temporally qualifying statement about the birth of a human including an identifier and a temporal information of the birth of this human. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. An organism identifier that denotes a particular human.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE IOIO_0000001_RO_0002180_IOIO_0000014::IOIO_0000001_RO_0002180_IOIO_0000014::{en=human birth statement has component human identifier, fr=IOIO_0000001 RO_0002180 IOIO_0000014}\nIOIO_0000014::IOIO_0000014 JOIN IOIO_0000001::IOIO_0000001\n  {\n    IOIO_0000001_uid::IOIO_0000001_uid uid_domain::{en=uid human birth statement, fr=uid IOIO_0000001}\n    IOIO_0000014_uid::IOIO_0000014_uid uid_domain::{en=uid human identifier, fr=uid IOIO_0000014}\n  } \nKEY {IOIO_0000001_uid, IOIO_0000014_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'IOIO_0000001_RO_0002180_IOIO_0000005',
+    shortIri: 'IOIO_0000001_RO_0002180_IOIO_0000005',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'IOIO_0000001',
+    rangeId: 'IOIO_0000005',
+    label_en: 'human birth statement has component human birth temporal information',
+    label_fr: 'IOIO_0000001 RO_0002180 IOIO_0000005',
+    definition_en: 'A process temporally qualifying statement about the birth of a human including an identifier and a temporal information of the birth of this human. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. A temporal information that is a component of a human birth statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the birth of this human.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE IOIO_0000001_RO_0002180_IOIO_0000005::IOIO_0000001_RO_0002180_IOIO_0000005::{en=human birth statement has component human birth temporal information, fr=IOIO_0000001 RO_0002180 IOIO_0000005}\nIOIO_0000005::IOIO_0000005 JOIN IOIO_0000001::IOIO_0000001\n  {\n    IOIO_0000001_uid::IOIO_0000001_uid uid_domain::{en=uid human birth statement, fr=uid IOIO_0000001}\n    IOIO_0000005_uid::IOIO_0000005_uid uid_domain::{en=uid human birth temporal information, fr=uid IOIO_0000005}\n  } \nKEY {IOIO_0000001_uid, IOIO_0000005_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'OpenLHS-Core_0000065_IAO_0000219_BFO_0000008',
+    shortIri: 'OpenLHS-Core_0000065_IAO_0000219_BFO_0000008',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000219',
+    domainId: 'OpenLHS-Core_0000065',
+    rangeId: 'BFO_0000008',
+    label_en: 'temporal information denotes t-region',
+    label_fr: 'OpenLHS-Core_0000065 IAO_0000219 BFO_0000008',
+    definition_en: 'An information content entity that denotes a one-dimension temporal region. A primitive, instance-level, relation obtaining between an information content entity and some portion of reality. Denotation is what happens when someone creates an information content entity E in order to specifically refer to something. The only relation between E and the thing is that E can be used to "pick out" the thing. This relation connects those two together. Freedictionary.com sense 3: To signify directly; refer to specifically TemporalRegion',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE OpenLHS-Core_0000065_IAO_0000219_BFO_0000008::OpenLHS-Core_0000065_IAO_0000219_BFO_0000008::{en=temporal information denotes t-region, fr=OpenLHS-Core_0000065 IAO_0000219 BFO_0000008}\nBFO_0000008::BFO_0000008 JOIN OpenLHS-Core_0000065::OpenLHS-Core_0000065\n  {\n    OpenLHS-Core_0000065_uid::OpenLHS-Core_0000065_uid uid_domain::{en=uid temporal information, fr=uid OpenLHS-Core_0000065}\n    BFO_0000008_uid::BFO_0000008_uid uid_domain::{en=uid t-region, fr=uid BFO_0000008}\n  } \nKEY {OpenLHS-Core_0000065_uid, BFO_0000008_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HEPRO_0000021_RO_0002180_HEPRO_0000105',
+    shortIri: 'HEPRO_0000021_RO_0002180_HEPRO_0000105',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'HEPRO_0000021',
+    rangeId: 'HEPRO_0000105',
+    label_en: 'health procedure ending statement has component health procedure ending temporal information',
+    label_fr: 'HEPRO_0000021 RO_0002180 HEPRO_0000105',
+    definition_en: 'A process ending statement that temporally qualifies the end of a health procedure. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. A temporal information that is a component of a health procedure ending statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the ending of the health procedure.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HEPRO_0000021_RO_0002180_HEPRO_0000105::HEPRO_0000021_RO_0002180_HEPRO_0000105::{en=health procedure ending statement has component health procedure ending temporal information, fr=HEPRO_0000021 RO_0002180 HEPRO_0000105}\nHEPRO_0000105::HEPRO_0000105 JOIN HEPRO_0000021::HEPRO_0000021\n  {\n    HEPRO_0000021_uid::HEPRO_0000021_uid uid_domain::{en=uid health procedure ending statement, fr=uid HEPRO_0000021}\n    HEPRO_0000105_uid::HEPRO_0000105_uid uid_domain::{en=uid health procedure ending temporal information, fr=uid HEPRO_0000105}\n  } \nKEY {HEPRO_0000021_uid, HEPRO_0000105_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HEPRO_0000021_RO_0002180_HEPRO_0000101',
+    shortIri: 'HEPRO_0000021_RO_0002180_HEPRO_0000101',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'HEPRO_0000021',
+    rangeId: 'HEPRO_0000101',
+    label_en: 'health procedure ending statement has component health procedure identifier',
+    label_fr: 'HEPRO_0000021 RO_0002180 HEPRO_0000101',
+    definition_en: 'A process ending statement that temporally qualifies the end of a health procedure. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. An identifier that denotes a health procedure.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HEPRO_0000021_RO_0002180_HEPRO_0000101::HEPRO_0000021_RO_0002180_HEPRO_0000101::{en=health procedure ending statement has component health procedure identifier, fr=HEPRO_0000021 RO_0002180 HEPRO_0000101}\nHEPRO_0000101::HEPRO_0000101 JOIN HEPRO_0000021::HEPRO_0000021\n  {\n    HEPRO_0000021_uid::HEPRO_0000021_uid uid_domain::{en=uid health procedure ending statement, fr=uid HEPRO_0000021}\n    HEPRO_0000101_uid::HEPRO_0000101_uid uid_domain::{en=uid health procedure identifier, fr=uid HEPRO_0000101}\n  } \nKEY {HEPRO_0000021_uid, HEPRO_0000101_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'Agent_has_capability_AgentCapability',
+    shortIri: 'Agent_has_capability_AgentCapability',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'has_capability',
+    domainId: 'Agent',
+    rangeId: 'AgentCapability',
+    label_en: 'Agent has capability Agent Capability',
+    label_fr: 'Agent has_capability AgentCapability',
+    definition_en: 'A Material Entity that is capable of performing Planned Acts x has_capability y iff x is an instance of Agent and y is an instance of Agent Capability, such that x bearer of y. A Realizable Entity that inheres in an Agent to the extent of that Agent"s capacity to realize it in Intentional Acts of a certain type.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE Agent_has_capability_AgentCapability::Agent_has_capability_AgentCapability::{en=Agent has capability Agent Capability, fr=Agent has_capability AgentCapability}\nAgentCapability::AgentCapability JOIN Agent::Agent\n  {\n    Agent_uid::Agent_uid uid_domain::{en=uid Agent, fr=uid Agent}\n    AgentCapability_uid::AgentCapability_uid uid_domain::{en=uid Agent Capability, fr=uid AgentCapability}\n  } \nKEY {Agent_uid, AgentCapability_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'Agent_agent_in_BFO_0000015',
+    shortIri: 'Agent_agent_in_BFO_0000015',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'agent_in',
+    domainId: 'Agent',
+    rangeId: 'BFO_0000015',
+    label_en: 'Agent agent in process',
+    label_fr: 'Agent agent_in BFO_0000015',
+    definition_en: 'A Material Entity that is capable of performing Planned Acts x agent_in y iff y is an instance of Process and x is an instance of Agent, such that x is causally active in y. Process',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE Agent_agent_in_BFO_0000015::Agent_agent_in_BFO_0000015::{en=Agent agent in process, fr=Agent agent_in BFO_0000015}\nBFO_0000015::BFO_0000015 JOIN Agent::Agent\n  {\n    Agent_uid::Agent_uid uid_domain::{en=uid Agent, fr=uid Agent}\n    BFO_0000015_uid::BFO_0000015_uid uid_domain::{en=uid process, fr=uid BFO_0000015}\n  } \nKEY {Agent_uid, BFO_0000015_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'ONTORELA_C624fa67d_IAO_0000136_HOSO_0000137',
+    shortIri: 'ONTORELA_C624fa67d_IAO_0000136_HOSO_0000137',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000136',
+    domainId: 'ONTORELA_C624fa67d',
+    rangeId: 'HOSO_0000137',
+    label_en: 'human birth statement\n and (is about exactly 1 human clinical visit specified patient) is about human clinical visit specified patient',
+    label_fr: 'IOIO_0000001\n and (IAO_0000136 exactly 1 HOSO_0000137) IAO_0000136 HOSO_0000137',
+    definition_en: 'healthcare birth visitA process temporally qualifying statement about the birth of a human including an identifier and a temporal information of the birth of this human. A (currently) primitive relation that relates an information artifact to an entity. null',
+    definition_fr: 'HOSO_0000041 null null',
+    description: 'JOINTABLE ONTORELA_C624fa67d_IAO_0000136_HOSO_0000137::ONTORELA_C624fa67d_IAO_0000136_HOSO_0000137::{en=human birth statement\n and (is about exactly 1 human clinical visit specified patient) is about human clinical visit specified patient, fr=IOIO_0000001\n and (IAO_0000136 exactly 1 HOSO_0000137) IAO_0000136 HOSO_0000137}\nHOSO_0000137::HOSO_0000137 JOIN ONTORELA_C624fa67d::ONTORELA_C624fa67d\n  {\n    ONTORELA_C624fa67d_uid::ONTORELA_C624fa67d_uid uid_domain::{en=uid human birth statement\n and (is about exactly 1 human clinical visit specified patient), fr=uid IOIO_0000001\n and (IAO_0000136 exactly 1 HOSO_0000137)}\n    HOSO_0000137_uid::HOSO_0000137_uid uid_domain::{en=uid human clinical visit specified patient, fr=uid HOSO_0000137}\n  } \nKEY {ONTORELA_C624fa67d_uid, HOSO_0000137_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000045_OBI_0000299_ONTORELA_C5c900f41',
+    shortIri: 'HOSO_0000045_OBI_0000299_ONTORELA_C5c900f41',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'OBI_0000299',
+    domainId: 'HOSO_0000045',
+    rangeId: 'ONTORELA_C5c900f41',
+    label_en: 'healthcare visit of expiration has_specified_output human death statement\n and (is about exactly 1 human clinical visit specified patient)',
+    label_fr: 'HOSO_0000045 OBI_0000299 IOIO_0000003\n and (IAO_0000136 exactly 1 HOSO_0000137)',
+    definition_en: 'A healthcare organization clinical visit during which a death statement was produced regarding the death of the main patient visit beneficiary. The inverse property of is_specified_output_of healthcare visit of expirationA process temporally qualifying statement about the death of a human including an identifier and a temporal information of the death of this human.',
+    definition_fr: 'null null HOSO_0000045',
+    description: 'JOINTABLE HOSO_0000045_OBI_0000299_ONTORELA_C5c900f41::HOSO_0000045_OBI_0000299_ONTORELA_C5c900f41::{en=healthcare visit of expiration has_specified_output human death statement\n and (is about exactly 1 human clinical visit specified patient), fr=HOSO_0000045 OBI_0000299 IOIO_0000003\n and (IAO_0000136 exactly 1 HOSO_0000137)}\nONTORELA_C5c900f41::ONTORELA_C5c900f41 JOIN HOSO_0000045::HOSO_0000045\n  {\n    HOSO_0000045_uid::HOSO_0000045_uid uid_domain::{en=uid healthcare visit of expiration, fr=uid HOSO_0000045}\n    ONTORELA_C5c900f41_uid::ONTORELA_C5c900f41_uid uid_domain::{en=uid human death statement\n and (is about exactly 1 human clinical visit specified patient), fr=uid IOIO_0000003\n and (IAO_0000136 exactly 1 HOSO_0000137)}\n  } \nKEY {HOSO_0000045_uid, ONTORELA_C5c900f41_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'IAO_0000104_BFO_0000051_IAO_0000007',
+    shortIri: 'IAO_0000104_BFO_0000051_IAO_0000007',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'BFO_0000051',
+    domainId: 'IAO_0000104',
+    rangeId: 'IAO_0000007',
+    label_en: 'plan specification has part action specification',
+    label_fr: 'IAO_0000104 BFO_0000051 IAO_0000007',
+    definition_en: 'A directive information entity with action specifications and objective specifications as parts, and that may be concretized as a realizable entity that, if realized, is realized in a process in which the bearer tries to achieve the objectives by taking the actions specified. a core relation that holds between a whole and its part A directive information entity that describes an action the bearer will take.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE IAO_0000104_BFO_0000051_IAO_0000007::IAO_0000104_BFO_0000051_IAO_0000007::{en=plan specification has part action specification, fr=IAO_0000104 BFO_0000051 IAO_0000007}\nIAO_0000007::IAO_0000007 JOIN IAO_0000104::IAO_0000104\n  {\n    IAO_0000104_uid::IAO_0000104_uid uid_domain::{en=uid plan specification, fr=uid IAO_0000104}\n    IAO_0000007_uid::IAO_0000007_uid uid_domain::{en=uid action specification, fr=uid IAO_0000007}\n  } \nKEY {IAO_0000104_uid, IAO_0000007_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'IAO_0000104_BFO_0000051_IAO_0000005',
+    shortIri: 'IAO_0000104_BFO_0000051_IAO_0000005',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'BFO_0000051',
+    domainId: 'IAO_0000104',
+    rangeId: 'IAO_0000005',
+    label_en: 'plan specification has part objective specification',
+    label_fr: 'IAO_0000104 BFO_0000051 IAO_0000005',
+    definition_en: 'A directive information entity with action specifications and objective specifications as parts, and that may be concretized as a realizable entity that, if realized, is realized in a process in which the bearer tries to achieve the objectives by taking the actions specified. a core relation that holds between a whole and its part A directive information entity that describes an intended process endpoint. When part of a plan specification the concretization is realized in a planned process in which the bearer tries to effect the world so that the process endpoint is achieved.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE IAO_0000104_BFO_0000051_IAO_0000005::IAO_0000104_BFO_0000051_IAO_0000005::{en=plan specification has part objective specification, fr=IAO_0000104 BFO_0000051 IAO_0000005}\nIAO_0000005::IAO_0000005 JOIN IAO_0000104::IAO_0000104\n  {\n    IAO_0000104_uid::IAO_0000104_uid uid_domain::{en=uid plan specification, fr=uid IAO_0000104}\n    IAO_0000005_uid::IAO_0000005_uid uid_domain::{en=uid objective specification, fr=uid IAO_0000005}\n  } \nKEY {IAO_0000104_uid, IAO_0000005_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HEPRO_0000020_RO_0002180_HEPRO_0000101',
+    shortIri: 'HEPRO_0000020_RO_0002180_HEPRO_0000101',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'HEPRO_0000020',
+    rangeId: 'HEPRO_0000101',
+    label_en: 'health procedure beginning statement has component health procedure identifier',
+    label_fr: 'HEPRO_0000020 RO_0002180 HEPRO_0000101',
+    definition_en: 'A process beginning statement that temporally qualifies the beginning of a health procedure. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. An identifier that denotes a health procedure.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HEPRO_0000020_RO_0002180_HEPRO_0000101::HEPRO_0000020_RO_0002180_HEPRO_0000101::{en=health procedure beginning statement has component health procedure identifier, fr=HEPRO_0000020 RO_0002180 HEPRO_0000101}\nHEPRO_0000101::HEPRO_0000101 JOIN HEPRO_0000020::HEPRO_0000020\n  {\n    HEPRO_0000020_uid::HEPRO_0000020_uid uid_domain::{en=uid health procedure beginning statement, fr=uid HEPRO_0000020}\n    HEPRO_0000101_uid::HEPRO_0000101_uid uid_domain::{en=uid health procedure identifier, fr=uid HEPRO_0000101}\n  } \nKEY {HEPRO_0000020_uid, HEPRO_0000101_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HEPRO_0000020_RO_0002180_HEPRO_0000103',
+    shortIri: 'HEPRO_0000020_RO_0002180_HEPRO_0000103',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'HEPRO_0000020',
+    rangeId: 'HEPRO_0000103',
+    label_en: 'health procedure beginning statement has component health procedure beginning temporal information',
+    label_fr: 'HEPRO_0000020 RO_0002180 HEPRO_0000103',
+    definition_en: 'A process beginning statement that temporally qualifies the beginning of a health procedure. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. A temporal information that is a component of a health procedure beginning statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the beginning of the health procedure.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HEPRO_0000020_RO_0002180_HEPRO_0000103::HEPRO_0000020_RO_0002180_HEPRO_0000103::{en=health procedure beginning statement has component health procedure beginning temporal information, fr=HEPRO_0000020 RO_0002180 HEPRO_0000103}\nHEPRO_0000103::HEPRO_0000103 JOIN HEPRO_0000020::HEPRO_0000020\n  {\n    HEPRO_0000020_uid::HEPRO_0000020_uid uid_domain::{en=uid health procedure beginning statement, fr=uid HEPRO_0000020}\n    HEPRO_0000103_uid::HEPRO_0000103_uid uid_domain::{en=uid health procedure beginning temporal information, fr=uid HEPRO_0000103}\n  } \nKEY {HEPRO_0000020_uid, HEPRO_0000103_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'MPHPO_0000018_OpenLHS-Core_0000070_MPHPO_0000016',
+    shortIri: 'MPHPO_0000018_OpenLHS-Core_0000070_MPHPO_0000016',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'OpenLHS-Core_0000070',
+    domainId: 'MPHPO_0000018',
+    rangeId: 'MPHPO_0000016',
+    label_en: 'MPHPO centrally registered identifier symbol component of MPHPO coded pathological condition sub-group name',
+    label_fr: 'MPHPO_0000018 OpenLHS-Core_0000070 MPHPO_0000016',
+    definition_en: 'null The inverse relation of has component. null',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE MPHPO_0000018_OpenLHS-Core_0000070_MPHPO_0000016::MPHPO_0000018_OpenLHS-Core_0000070_MPHPO_0000016::{en=MPHPO centrally registered identifier symbol component of MPHPO coded pathological condition sub-group name, fr=MPHPO_0000018 OpenLHS-Core_0000070 MPHPO_0000016}\nMPHPO_0000016::MPHPO_0000016 JOIN MPHPO_0000018::MPHPO_0000018\n  {\n    MPHPO_0000018_uid::MPHPO_0000018_uid uid_domain::{en=uid MPHPO centrally registered identifier symbol, fr=uid MPHPO_0000018}\n    MPHPO_0000016_uid::MPHPO_0000016_uid uid_domain::{en=uid MPHPO coded pathological condition sub-group name, fr=uid MPHPO_0000016}\n  } \nKEY {MPHPO_0000018_uid, MPHPO_0000016_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000068_RO_0002087_HOSO_0000012',
+    shortIri: 'HOSO_0000068_RO_0002087_HOSO_0000012',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002087',
+    domainId: 'HOSO_0000068',
+    rangeId: 'HOSO_0000012',
+    label_en: 'immediate subsequent visit immediately preceded by healthcare organization clinical visit',
+    label_fr: 'HOSO_0000068 RO_0002087 HOSO_0000012',
+    definition_en: 'A healthcare organization clinical visit for a given patient that was participating in another healthcare organisation clinical visit just prior to this visit. null A healthcare organisation service delivery that aims at providing a desired effect on the health status of a specified organism. It is usually composed of health procedures and possibly associated ancillary processes.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000068_RO_0002087_HOSO_0000012::HOSO_0000068_RO_0002087_HOSO_0000012::{en=immediate subsequent visit immediately preceded by healthcare organization clinical visit, fr=HOSO_0000068 RO_0002087 HOSO_0000012}\nHOSO_0000012::HOSO_0000012 JOIN HOSO_0000068::HOSO_0000068\n  {\n    HOSO_0000068_uid::HOSO_0000068_uid uid_domain::{en=uid immediate subsequent visit, fr=uid HOSO_0000068}\n    HOSO_0000012_uid::HOSO_0000012_uid uid_domain::{en=uid healthcare organization clinical visit, fr=uid HOSO_0000012}\n  } \nKEY {HOSO_0000068_uid, HOSO_0000012_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000056_RO_0002180_HOSO_0000100',
+    shortIri: 'HOSO_0000056_RO_0002180_HOSO_0000100',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'HOSO_0000056',
+    rangeId: 'HOSO_0000100',
+    label_en: 'healthcare organization service delivery ending statement has component healthcare organization service delivery identifier',
+    label_fr: 'HOSO_0000056 RO_0002180 HOSO_0000100',
+    definition_en: 'A process ending statement that temporally qualifies the ending of a healthcare organisation service delivery. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. An identifier that denotes a healthcare organization service delivery.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000056_RO_0002180_HOSO_0000100::HOSO_0000056_RO_0002180_HOSO_0000100::{en=healthcare organization service delivery ending statement has component healthcare organization service delivery identifier, fr=HOSO_0000056 RO_0002180 HOSO_0000100}\nHOSO_0000100::HOSO_0000100 JOIN HOSO_0000056::HOSO_0000056\n  {\n    HOSO_0000056_uid::HOSO_0000056_uid uid_domain::{en=uid healthcare organization service delivery ending statement, fr=uid HOSO_0000056}\n    HOSO_0000100_uid::HOSO_0000100_uid uid_domain::{en=uid healthcare organization service delivery identifier, fr=uid HOSO_0000100}\n  } \nKEY {HOSO_0000056_uid, HOSO_0000100_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000056_RO_0002180_HOSO_0000103',
+    shortIri: 'HOSO_0000056_RO_0002180_HOSO_0000103',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'HOSO_0000056',
+    rangeId: 'HOSO_0000103',
+    label_en: 'healthcare organization service delivery ending statement has component healthcare organization service delivery ending temporal information',
+    label_fr: 'HOSO_0000056 RO_0002180 HOSO_0000103',
+    definition_en: 'A process ending statement that temporally qualifies the ending of a healthcare organisation service delivery. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. A temporal information that is a component of a healthcare organization service delivery ending statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the ending of healthcare organization service delivery.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000056_RO_0002180_HOSO_0000103::HOSO_0000056_RO_0002180_HOSO_0000103::{en=healthcare organization service delivery ending statement has component healthcare organization service delivery ending temporal information, fr=HOSO_0000056 RO_0002180 HOSO_0000103}\nHOSO_0000103::HOSO_0000103 JOIN HOSO_0000056::HOSO_0000056\n  {\n    HOSO_0000056_uid::HOSO_0000056_uid uid_domain::{en=uid healthcare organization service delivery ending statement, fr=uid HOSO_0000056}\n    HOSO_0000103_uid::HOSO_0000103_uid uid_domain::{en=uid healthcare organization service delivery ending temporal information, fr=uid HOSO_0000103}\n  } \nKEY {HOSO_0000056_uid, HOSO_0000103_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'OpenLHS-Core_0000035_OBI_0000293_OpenLHS-Core_0000027',
+    shortIri: 'OpenLHS-Core_0000035_OBI_0000293_OpenLHS-Core_0000027',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'OBI_0000293',
+    domainId: 'OpenLHS-Core_0000035',
+    rangeId: 'OpenLHS-Core_0000027',
+    label_en: 'service agreement negotiation has_specified_input request',
+    label_fr: 'OpenLHS-Core_0000035 OBI_0000293 OpenLHS-Core_0000027',
+    definition_en: 'A planned process of interaction between a request party and a service offer party having as specified input some request and some service offer and that aims to generate as output a service agreement. The inverse property of is_specified_input_of An information content entity specifiying one or several types of processes that a party, whether a person or an organization, wants to see instantiated for the benefit of itself or another party.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE OpenLHS-Core_0000035_OBI_0000293_OpenLHS-Core_0000027::OpenLHS-Core_0000035_OBI_0000293_OpenLHS-Core_0000027::{en=service agreement negotiation has_specified_input request, fr=OpenLHS-Core_0000035 OBI_0000293 OpenLHS-Core_0000027}\nOpenLHS-Core_0000027::OpenLHS-Core_0000027 JOIN OpenLHS-Core_0000035::OpenLHS-Core_0000035\n  {\n    OpenLHS-Core_0000035_uid::OpenLHS-Core_0000035_uid uid_domain::{en=uid service agreement negotiation, fr=uid OpenLHS-Core_0000035}\n    OpenLHS-Core_0000027_uid::OpenLHS-Core_0000027_uid uid_domain::{en=uid request, fr=uid OpenLHS-Core_0000027}\n  } \nKEY {OpenLHS-Core_0000035_uid, OpenLHS-Core_0000027_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'OpenLHS-Core_0000035_OBI_0000293_OpenLHS-Core_0000029',
+    shortIri: 'OpenLHS-Core_0000035_OBI_0000293_OpenLHS-Core_0000029',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'OBI_0000293',
+    domainId: 'OpenLHS-Core_0000035',
+    rangeId: 'OpenLHS-Core_0000029',
+    label_en: 'service agreement negotiation has_specified_input service offer',
+    label_fr: 'OpenLHS-Core_0000035 OBI_0000293 OpenLHS-Core_0000029',
+    definition_en: 'A planned process of interaction between a request party and a service offer party having as specified input some request and some service offer and that aims to generate as output a service agreement. The inverse property of is_specified_input_of An information content entity describing the processes a person or an organization is willing to perform for a third-party.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE OpenLHS-Core_0000035_OBI_0000293_OpenLHS-Core_0000029::OpenLHS-Core_0000035_OBI_0000293_OpenLHS-Core_0000029::{en=service agreement negotiation has_specified_input service offer, fr=OpenLHS-Core_0000035 OBI_0000293 OpenLHS-Core_0000029}\nOpenLHS-Core_0000029::OpenLHS-Core_0000029 JOIN OpenLHS-Core_0000035::OpenLHS-Core_0000035\n  {\n    OpenLHS-Core_0000035_uid::OpenLHS-Core_0000035_uid uid_domain::{en=uid service agreement negotiation, fr=uid OpenLHS-Core_0000035}\n    OpenLHS-Core_0000029_uid::OpenLHS-Core_0000029_uid uid_domain::{en=uid service offer, fr=uid OpenLHS-Core_0000029}\n  } \nKEY {OpenLHS-Core_0000035_uid, OpenLHS-Core_0000029_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'MPHPO_0000019_OpenLHS-Core_0000070_MPHPO_0000016',
+    shortIri: 'MPHPO_0000019_OpenLHS-Core_0000070_MPHPO_0000016',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'OpenLHS-Core_0000070',
+    domainId: 'MPHPO_0000019',
+    rangeId: 'MPHPO_0000016',
+    label_en: 'MPHPO centrally registered identifier registry component of MPHPO coded pathological condition sub-group name',
+    label_fr: 'MPHPO_0000019 OpenLHS-Core_0000070 MPHPO_0000016',
+    definition_en: 'null The inverse relation of has component. null',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE MPHPO_0000019_OpenLHS-Core_0000070_MPHPO_0000016::MPHPO_0000019_OpenLHS-Core_0000070_MPHPO_0000016::{en=MPHPO centrally registered identifier registry component of MPHPO coded pathological condition sub-group name, fr=MPHPO_0000019 OpenLHS-Core_0000070 MPHPO_0000016}\nMPHPO_0000016::MPHPO_0000016 JOIN MPHPO_0000019::MPHPO_0000019\n  {\n    MPHPO_0000019_uid::MPHPO_0000019_uid uid_domain::{en=uid MPHPO centrally registered identifier registry, fr=uid MPHPO_0000019}\n    MPHPO_0000016_uid::MPHPO_0000016_uid uid_domain::{en=uid MPHPO coded pathological condition sub-group name, fr=uid MPHPO_0000016}\n  } \nKEY {MPHPO_0000019_uid, MPHPO_0000016_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'OpenLHS-Core_0000011_OBI_0000312_ONTORELA_C6a3e089c',
+    shortIri: 'OpenLHS-Core_0000011_OBI_0000312_ONTORELA_C6a3e089c',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'OBI_0000312',
+    domainId: 'OpenLHS-Core_0000011',
+    rangeId: 'ONTORELA_C6a3e089c',
+    label_en: 'government sanctioned statement is_specified_output_of process\n and (has agent some organization)',
+    label_fr: 'OpenLHS-Core_0000011 OBI_0000312 BFO_0000015\n and (has_agent some OBI_0000245)',
+    definition_en: 'A pragmatically accepted statement authored by a governement or a related organization such that if this organization acts upon it, it will treat it as true. A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of. government sanctioned statementProcess p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003]) An entity that can bear roles, has members, and has a set of organization rules. Members of organizations are either organizations themselves or individual people. Members can bear specific organization member roles that are determined in the organization rules. The organization rules also determine how decisions are made on behalf of the organization by the organization members.',
+    definition_fr: 'null null OpenLHS-Core_0000011',
+    description: 'JOINTABLE OpenLHS-Core_0000011_OBI_0000312_ONTORELA_C6a3e089c::OpenLHS-Core_0000011_OBI_0000312_ONTORELA_C6a3e089c::{en=government sanctioned statement is_specified_output_of process\n and (has agent some organization), fr=OpenLHS-Core_0000011 OBI_0000312 BFO_0000015\n and (has_agent some OBI_0000245)}\nONTORELA_C6a3e089c::ONTORELA_C6a3e089c JOIN OpenLHS-Core_0000011::OpenLHS-Core_0000011\n  {\n    OpenLHS-Core_0000011_uid::OpenLHS-Core_0000011_uid uid_domain::{en=uid government sanctioned statement, fr=uid OpenLHS-Core_0000011}\n    ONTORELA_C6a3e089c_uid::ONTORELA_C6a3e089c_uid uid_domain::{en=uid process\n and (has agent some organization), fr=uid BFO_0000015\n and (has_agent some OBI_0000245)}\n  } \nKEY {OpenLHS-Core_0000011_uid, ONTORELA_C6a3e089c_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000047_IAO_0000136_HOSO_0000008',
+    shortIri: 'HOSO_0000047_IAO_0000136_HOSO_0000008',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000136',
+    domainId: 'HOSO_0000047',
+    rangeId: 'HOSO_0000008',
+    label_en: 'visit transfer specification is about healthcare organization',
+    label_fr: 'HOSO_0000047 IAO_0000136 HOSO_0000008',
+    definition_en: 'A visit discharge specification that aims at directing to which healthcare organisation the patient should be transferred after the end of the current visit. A (currently) primitive relation that relates an information artifact to an entity. An organisation that bears a healthcare organisation role.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000047_IAO_0000136_HOSO_0000008::HOSO_0000047_IAO_0000136_HOSO_0000008::{en=visit transfer specification is about healthcare organization, fr=HOSO_0000047 IAO_0000136 HOSO_0000008}\nHOSO_0000008::HOSO_0000008 JOIN HOSO_0000047::HOSO_0000047\n  {\n    HOSO_0000047_uid::HOSO_0000047_uid uid_domain::{en=uid visit transfer specification, fr=uid HOSO_0000047}\n    HOSO_0000008_uid::HOSO_0000008_uid uid_domain::{en=uid healthcare organization, fr=uid HOSO_0000008}\n  } \nKEY {HOSO_0000047_uid, HOSO_0000008_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000023_IAO_0000219_HOSO_0000008',
+    shortIri: 'HOSO_0000023_IAO_0000219_HOSO_0000008',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000219',
+    domainId: 'HOSO_0000023',
+    rangeId: 'HOSO_0000008',
+    label_en: 'healthcare organization identifier denotes healthcare organization',
+    label_fr: 'HOSO_0000023 IAO_0000219 HOSO_0000008',
+    definition_en: 'An identifier that denotes a healthcare organization. A primitive, instance-level, relation obtaining between an information content entity and some portion of reality. Denotation is what happens when someone creates an information content entity E in order to specifically refer to something. The only relation between E and the thing is that E can be used to "pick out" the thing. This relation connects those two together. Freedictionary.com sense 3: To signify directly; refer to specifically An organisation that bears a healthcare organisation role.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000023_IAO_0000219_HOSO_0000008::HOSO_0000023_IAO_0000219_HOSO_0000008::{en=healthcare organization identifier denotes healthcare organization, fr=HOSO_0000023 IAO_0000219 HOSO_0000008}\nHOSO_0000008::HOSO_0000008 JOIN HOSO_0000023::HOSO_0000023\n  {\n    HOSO_0000023_uid::HOSO_0000023_uid uid_domain::{en=uid healthcare organization identifier, fr=uid HOSO_0000023}\n    HOSO_0000008_uid::HOSO_0000008_uid uid_domain::{en=uid healthcare organization, fr=uid HOSO_0000008}\n  } \nKEY {HOSO_0000023_uid, HOSO_0000008_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000011_BFO_0000055_HOSO_0000006',
+    shortIri: 'HOSO_0000011_BFO_0000055_HOSO_0000006',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'BFO_0000055',
+    domainId: 'HOSO_0000011',
+    rangeId: 'HOSO_0000006',
+    label_en: 'healthcare organization service delivery realizes healthcare organization role',
+    label_fr: 'HOSO_0000011 BFO_0000055 HOSO_0000006',
+    definition_en: 'A service delivery under the responsibility of a healthcare organisation. It stems from an agreement between a requesting agent and a healthcare organization. null A role that inheres in an organisation and is realized by providing some healthcare service delivery.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000011_BFO_0000055_HOSO_0000006::HOSO_0000011_BFO_0000055_HOSO_0000006::{en=healthcare organization service delivery realizes healthcare organization role, fr=HOSO_0000011 BFO_0000055 HOSO_0000006}\nHOSO_0000006::HOSO_0000006 JOIN HOSO_0000011::HOSO_0000011\n  {\n    HOSO_0000011_uid::HOSO_0000011_uid uid_domain::{en=uid healthcare organization service delivery, fr=uid HOSO_0000011}\n    HOSO_0000006_uid::HOSO_0000006_uid uid_domain::{en=uid healthcare organization role, fr=uid HOSO_0000006}\n  } \nKEY {HOSO_0000011_uid, HOSO_0000006_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000011_HOSO_0000002_HOSO_0000081',
+    shortIri: 'HOSO_0000011_HOSO_0000002_HOSO_0000081',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'HOSO_0000002',
+    domainId: 'HOSO_0000011',
+    rangeId: 'HOSO_0000081',
+    label_en: 'healthcare organization service delivery has participating recipient patient',
+    label_fr: 'HOSO_0000011 HOSO_0000002 HOSO_0000081',
+    definition_en: 'A service delivery under the responsibility of a healthcare organisation. It stems from an agreement between a requesting agent and a healthcare organization. TBD An eukaryote that is the bearer of a patient role.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000011_HOSO_0000002_HOSO_0000081::HOSO_0000011_HOSO_0000002_HOSO_0000081::{en=healthcare organization service delivery has participating recipient patient, fr=HOSO_0000011 HOSO_0000002 HOSO_0000081}\nHOSO_0000081::HOSO_0000081 JOIN HOSO_0000011::HOSO_0000011\n  {\n    HOSO_0000011_uid::HOSO_0000011_uid uid_domain::{en=uid healthcare organization service delivery, fr=uid HOSO_0000011}\n    HOSO_0000081_uid::HOSO_0000081_uid uid_domain::{en=uid patient, fr=uid HOSO_0000081}\n  } \nKEY {HOSO_0000011_uid, HOSO_0000081_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'IAO_0000578_BFO_0000051_IAO_0000577',
+    shortIri: 'IAO_0000578_BFO_0000051_IAO_0000577',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'BFO_0000051',
+    domainId: 'IAO_0000578',
+    rangeId: 'IAO_0000577',
+    label_en: 'centrally registered identifier has part centrally registered identifier symbol',
+    label_fr: 'IAO_0000578 BFO_0000051 IAO_0000577',
+    definition_en: 'An information content entity that consists of a CRID symbol and additional information about the CRID registry to which it belongs. a core relation that holds between a whole and its part A symbol that is part of a CRID and that is sufficient to look up a record from the CRID"s registry.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE IAO_0000578_BFO_0000051_IAO_0000577::IAO_0000578_BFO_0000051_IAO_0000577::{en=centrally registered identifier has part centrally registered identifier symbol, fr=IAO_0000578 BFO_0000051 IAO_0000577}\nIAO_0000577::IAO_0000577 JOIN IAO_0000578::IAO_0000578\n  {\n    IAO_0000578_uid::IAO_0000578_uid uid_domain::{en=uid centrally registered identifier, fr=uid IAO_0000578}\n    IAO_0000577_uid::IAO_0000577_uid uid_domain::{en=uid centrally registered identifier symbol, fr=uid IAO_0000577}\n  } \nKEY {IAO_0000578_uid, IAO_0000577_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'IAO_0000578_BFO_0000051_ONTORELA_C3f6f3e4f',
+    shortIri: 'IAO_0000578_BFO_0000051_ONTORELA_C3f6f3e4f',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'BFO_0000051',
+    domainId: 'IAO_0000578',
+    rangeId: 'ONTORELA_C3f6f3e4f',
+    label_en: 'centrally registered identifier has part denotes some centrally registered identifier registry',
+    label_fr: 'IAO_0000578 BFO_0000051 IAO_0000219 some IAO_0000579',
+    definition_en: 'An information content entity that consists of a CRID symbol and additional information about the CRID registry to which it belongs. a core relation that holds between a whole and its part centrally registered identifierA code set of CRID records, each consisting of a CRID symbol and additional information which was recorded in the code set through an assigning a centrally registered identifier process.',
+    definition_fr: 'null null IAO_0000578',
+    description: 'JOINTABLE IAO_0000578_BFO_0000051_ONTORELA_C3f6f3e4f::IAO_0000578_BFO_0000051_ONTORELA_C3f6f3e4f::{en=centrally registered identifier has part denotes some centrally registered identifier registry, fr=IAO_0000578 BFO_0000051 IAO_0000219 some IAO_0000579}\nONTORELA_C3f6f3e4f::ONTORELA_C3f6f3e4f JOIN IAO_0000578::IAO_0000578\n  {\n    IAO_0000578_uid::IAO_0000578_uid uid_domain::{en=uid centrally registered identifier, fr=uid IAO_0000578}\n    ONTORELA_C3f6f3e4f_uid::ONTORELA_C3f6f3e4f_uid uid_domain::{en=uid denotes some centrally registered identifier registry, fr=uid IAO_0000219 some IAO_0000579}\n  } \nKEY {IAO_0000578_uid, ONTORELA_C3f6f3e4f_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'BFO_0000015_BFO_0000055_BFO_0000017',
+    shortIri: 'BFO_0000015_BFO_0000055_BFO_0000017',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'BFO_0000055',
+    domainId: 'BFO_0000015',
+    rangeId: 'BFO_0000017',
+    label_en: 'process realizes realizable entity',
+    label_fr: 'BFO_0000015 BFO_0000055 BFO_0000017',
+    definition_en: 'Process null RealizableEntity',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE BFO_0000015_BFO_0000055_BFO_0000017::BFO_0000015_BFO_0000055_BFO_0000017::{en=process realizes realizable entity, fr=BFO_0000015 BFO_0000055 BFO_0000017}\nBFO_0000017::BFO_0000017 JOIN BFO_0000015::BFO_0000015\n  {\n    BFO_0000015_uid::BFO_0000015_uid uid_domain::{en=uid process, fr=uid BFO_0000015}\n    BFO_0000017_uid::BFO_0000017_uid uid_domain::{en=uid realizable entity, fr=uid BFO_0000017}\n  } \nKEY {BFO_0000015_uid, BFO_0000017_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'BFO_0000015_OpenLHS-Core_0000004_IAO_0000033',
+    shortIri: 'BFO_0000015_OpenLHS-Core_0000004_IAO_0000033',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'OpenLHS-Core_0000004',
+    domainId: 'BFO_0000015',
+    rangeId: 'IAO_0000033',
+    label_en: 'process is directed by directive information entity',
+    label_fr: 'BFO_0000015 OpenLHS-Core_0000004 IAO_0000033',
+    definition_en: 'Process The inverse relations of directs An information content entity whose concretizations indicate to their bearer how to realize them in a process.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE BFO_0000015_OpenLHS-Core_0000004_IAO_0000033::BFO_0000015_OpenLHS-Core_0000004_IAO_0000033::{en=process is directed by directive information entity, fr=BFO_0000015 OpenLHS-Core_0000004 IAO_0000033}\nIAO_0000033::IAO_0000033 JOIN BFO_0000015::BFO_0000015\n  {\n    BFO_0000015_uid::BFO_0000015_uid uid_domain::{en=uid process, fr=uid BFO_0000015}\n    IAO_0000033_uid::IAO_0000033_uid uid_domain::{en=uid directive information entity, fr=uid IAO_0000033}\n  } \nKEY {BFO_0000015_uid, IAO_0000033_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'BFO_0000015_OpenLHS-Core_0000067_IAO_0000033',
+    shortIri: 'BFO_0000015_OpenLHS-Core_0000067_IAO_0000033',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'OpenLHS-Core_0000004',
+    domainId: 'BFO_0000015',
+    rangeId: 'IAO_0000033',
+    label_en: 'process is maximally directed by directive information entity',
+    label_fr: 'BFO_0000015 OpenLHS-Core_0000067 IAO_0000033',
+    definition_en: 'Process The inverse relation of maximally directs. An information content entity whose concretizations indicate to their bearer how to realize them in a process.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE BFO_0000015_OpenLHS-Core_0000067_IAO_0000033::BFO_0000015_OpenLHS-Core_0000067_IAO_0000033::{en=process is maximally directed by directive information entity, fr=BFO_0000015 OpenLHS-Core_0000067 IAO_0000033}\nIAO_0000033::IAO_0000033 JOIN BFO_0000015::BFO_0000015\n  {\n    BFO_0000015_uid::BFO_0000015_uid uid_domain::{en=uid process, fr=uid BFO_0000015}\n    IAO_0000033_uid::IAO_0000033_uid uid_domain::{en=uid directive information entity, fr=uid IAO_0000033}\n  } \nKEY {BFO_0000015_uid, IAO_0000033_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'BFO_0000015_OpenLHS-Core_0000071_BFO_0000015',
+    shortIri: 'BFO_0000015_OpenLHS-Core_0000071_BFO_0000015',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'OpenLHS-Core_0000071',
+    domainId: 'BFO_0000015',
+    rangeId: 'BFO_0000015',
+    label_en: 'process component process of process',
+    label_fr: 'BFO_0000015 OpenLHS-Core_0000071 BFO_0000015',
+    definition_en: 'Process The inverse relation of has component process. Process',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE BFO_0000015_OpenLHS-Core_0000071_BFO_0000015::BFO_0000015_OpenLHS-Core_0000071_BFO_0000015::{en=process component process of process, fr=BFO_0000015 OpenLHS-Core_0000071 BFO_0000015}\nBFO_0000015::BFO_0000015 JOIN BFO_0000015::BFO_0000015\n  {\n    BFO_0000015_uid_domain::BFO_0000015_uid_domain uid_domain::{en=uid process_domain, fr=uid BFO_0000015_domain}\n    BFO_0000015_uid_range::BFO_0000015_uid_range uid_domain::{en=uid process_range, fr=uid BFO_0000015_range}\n  } \nKEY {BFO_0000015_uid_domain, BFO_0000015_uid_range} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'BFO_0000015_RO_0002018_BFO_0000015',
+    shortIri: 'BFO_0000015_RO_0002018_BFO_0000015',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002018',
+    domainId: 'BFO_0000015',
+    rangeId: 'BFO_0000015',
+    label_en: 'process has component process process',
+    label_fr: 'BFO_0000015 RO_0002018 BFO_0000015',
+    definition_en: 'Process w "has process component" p if p and w are processes,  w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. Process',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE BFO_0000015_RO_0002018_BFO_0000015::BFO_0000015_RO_0002018_BFO_0000015::{en=process has component process process, fr=BFO_0000015 RO_0002018 BFO_0000015}\nBFO_0000015::BFO_0000015 JOIN BFO_0000015::BFO_0000015\n  {\n    BFO_0000015_uid_domain::BFO_0000015_uid_domain uid_domain::{en=uid process_domain, fr=uid BFO_0000015_domain}\n    BFO_0000015_uid_range::BFO_0000015_uid_range uid_domain::{en=uid process_range, fr=uid BFO_0000015_range}\n  } \nKEY {BFO_0000015_uid_domain, BFO_0000015_uid_range} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HEPRO_0000016_IAO_0000136_HEPRO_0000005',
+    shortIri: 'HEPRO_0000016_IAO_0000136_HEPRO_0000005',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000136',
+    domainId: 'HEPRO_0000016',
+    rangeId: 'HEPRO_0000005',
+    label_en: 'health activity sub-group name is about health activity',
+    label_fr: 'HEPRO_0000016 IAO_0000136 HEPRO_0000005',
+    definition_en: 'An information content entity that is about a sub-group of health activities. A (currently) primitive relation that relates an information artifact to an entity. A planned process that aims to produce a truthful statement about the health status of an organism or modify it.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HEPRO_0000016_IAO_0000136_HEPRO_0000005::HEPRO_0000016_IAO_0000136_HEPRO_0000005::{en=health activity sub-group name is about health activity, fr=HEPRO_0000016 IAO_0000136 HEPRO_0000005}\nHEPRO_0000005::HEPRO_0000005 JOIN HEPRO_0000016::HEPRO_0000016\n  {\n    HEPRO_0000016_uid::HEPRO_0000016_uid uid_domain::{en=uid health activity sub-group name, fr=uid HEPRO_0000016}\n    HEPRO_0000005_uid::HEPRO_0000005_uid uid_domain::{en=uid health activity, fr=uid HEPRO_0000005}\n  } \nKEY {HEPRO_0000016_uid, HEPRO_0000005_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HEPRO_0000125_RO_0002180_IOIO_0000013',
+    shortIri: 'HEPRO_0000125_RO_0002180_IOIO_0000013',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'HEPRO_0000125',
+    rangeId: 'IOIO_0000013',
+    label_en: 'pathological condition presence statement has component organism identifier',
+    label_fr: 'HEPRO_0000125 RO_0002180 IOIO_0000013',
+    definition_en: 'A pragmatically accepted statement that states the presence of a pathological condition for an organism. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. An identifier that denotes a particular organism.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HEPRO_0000125_RO_0002180_IOIO_0000013::HEPRO_0000125_RO_0002180_IOIO_0000013::{en=pathological condition presence statement has component organism identifier, fr=HEPRO_0000125 RO_0002180 IOIO_0000013}\nIOIO_0000013::IOIO_0000013 JOIN HEPRO_0000125::HEPRO_0000125\n  {\n    HEPRO_0000125_uid::HEPRO_0000125_uid uid_domain::{en=uid pathological condition presence statement, fr=uid HEPRO_0000125}\n    IOIO_0000013_uid::IOIO_0000013_uid uid_domain::{en=uid organism identifier, fr=uid IOIO_0000013}\n  } \nKEY {HEPRO_0000125_uid, IOIO_0000013_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HEPRO_0000125_RO_0002180_HEPRO_0000017',
+    shortIri: 'HEPRO_0000125_RO_0002180_HEPRO_0000017',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'HEPRO_0000125',
+    rangeId: 'HEPRO_0000017',
+    label_en: 'pathological condition presence statement has component pathological condition sub-group name',
+    label_fr: 'HEPRO_0000125 RO_0002180 HEPRO_0000017',
+    definition_en: 'A pragmatically accepted statement that states the presence of a pathological condition for an organism. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. An information content entity that is about a sub-group of pathological conditions.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HEPRO_0000125_RO_0002180_HEPRO_0000017::HEPRO_0000125_RO_0002180_HEPRO_0000017::{en=pathological condition presence statement has component pathological condition sub-group name, fr=HEPRO_0000125 RO_0002180 HEPRO_0000017}\nHEPRO_0000017::HEPRO_0000017 JOIN HEPRO_0000125::HEPRO_0000125\n  {\n    HEPRO_0000125_uid::HEPRO_0000125_uid uid_domain::{en=uid pathological condition presence statement, fr=uid HEPRO_0000125}\n    HEPRO_0000017_uid::HEPRO_0000017_uid uid_domain::{en=uid pathological condition sub-group name, fr=uid HEPRO_0000017}\n  } \nKEY {HEPRO_0000125_uid, HEPRO_0000017_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'BFO_0000003_BFO_0000062_BFO_0000003',
+    shortIri: 'BFO_0000003_BFO_0000062_BFO_0000003',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'BFO_0000062',
+    domainId: 'BFO_0000003',
+    rangeId: 'BFO_0000003',
+    label_en: 'occurrent preceded by occurrent',
+    label_fr: 'BFO_0000003 BFO_0000062 BFO_0000003',
+    definition_en: 'Occurrent x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) <= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point. Occurrent',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE BFO_0000003_BFO_0000062_BFO_0000003::BFO_0000003_BFO_0000062_BFO_0000003::{en=occurrent preceded by occurrent, fr=BFO_0000003 BFO_0000062 BFO_0000003}\nBFO_0000003::BFO_0000003 JOIN BFO_0000003::BFO_0000003\n  {\n    BFO_0000003_uid_domain::BFO_0000003_uid_domain uid_domain::{en=uid occurrent_domain, fr=uid BFO_0000003_domain}\n    BFO_0000003_uid_range::BFO_0000003_uid_range uid_domain::{en=uid occurrent_range, fr=uid BFO_0000003_range}\n  } \nKEY {BFO_0000003_uid_domain, BFO_0000003_uid_range} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'BFO_0000003_BFO_0000063_BFO_0000003',
+    shortIri: 'BFO_0000003_BFO_0000063_BFO_0000003',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'BFO_0000063',
+    domainId: 'BFO_0000003',
+    rangeId: 'BFO_0000003',
+    label_en: 'occurrent precedes occurrent',
+    label_fr: 'BFO_0000003 BFO_0000063 BFO_0000003',
+    definition_en: 'Occurrent x precedes y if and only if the time point at which x ends is before or equivalent to the time point at which y starts. Formally: x precedes y iff ω(x) <= α(y), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point. Occurrent',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE BFO_0000003_BFO_0000063_BFO_0000003::BFO_0000003_BFO_0000063_BFO_0000003::{en=occurrent precedes occurrent, fr=BFO_0000003 BFO_0000063 BFO_0000003}\nBFO_0000003::BFO_0000003 JOIN BFO_0000003::BFO_0000003\n  {\n    BFO_0000003_uid_domain::BFO_0000003_uid_domain uid_domain::{en=uid occurrent_domain, fr=uid BFO_0000003_domain}\n    BFO_0000003_uid_range::BFO_0000003_uid_range uid_domain::{en=uid occurrent_range, fr=uid BFO_0000003_range}\n  } \nKEY {BFO_0000003_uid_domain, BFO_0000003_uid_range} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'BFO_0000003_BFO_0000066_BFO_0000004',
+    shortIri: 'BFO_0000003_BFO_0000066_BFO_0000004',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'BFO_0000066',
+    domainId: 'BFO_0000003',
+    rangeId: 'BFO_0000004',
+    label_en: 'occurrent occurs in independent continuant',
+    label_fr: 'BFO_0000003 BFO_0000066 BFO_0000004',
+    definition_en: 'Occurrent b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE BFO_0000003_BFO_0000066_BFO_0000004::BFO_0000003_BFO_0000066_BFO_0000004::{en=occurrent occurs in independent continuant, fr=BFO_0000003 BFO_0000066 BFO_0000004}\nBFO_0000004::BFO_0000004 JOIN BFO_0000003::BFO_0000003\n  {\n    BFO_0000003_uid::BFO_0000003_uid uid_domain::{en=uid occurrent, fr=uid BFO_0000003}\n    BFO_0000004_uid::BFO_0000004_uid uid_domain::{en=uid independent continuant, fr=uid BFO_0000004}\n  } \nKEY {BFO_0000003_uid, BFO_0000004_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'BFO_0000003_RO_0000057_BFO_0000002',
+    shortIri: 'BFO_0000003_RO_0000057_BFO_0000002',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0000057',
+    domainId: 'BFO_0000003',
+    rangeId: 'BFO_0000002',
+    label_en: 'occurrent has participant continuant',
+    label_fr: 'BFO_0000003 RO_0000057 BFO_0000002',
+    definition_en: 'Occurrent a relation between a process and a continuant, in which the continuant is somehow involved in the process Continuant',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE BFO_0000003_RO_0000057_BFO_0000002::BFO_0000003_RO_0000057_BFO_0000002::{en=occurrent has participant continuant, fr=BFO_0000003 RO_0000057 BFO_0000002}\nBFO_0000002::BFO_0000002 JOIN BFO_0000003::BFO_0000003\n  {\n    BFO_0000003_uid::BFO_0000003_uid uid_domain::{en=uid occurrent, fr=uid BFO_0000003}\n    BFO_0000002_uid::BFO_0000002_uid uid_domain::{en=uid continuant, fr=uid BFO_0000002}\n  } \nKEY {BFO_0000003_uid, BFO_0000002_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'BFO_0000003_RO_0002091_BFO_0000003',
+    shortIri: 'BFO_0000003_RO_0002091_BFO_0000003',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002091',
+    domainId: 'BFO_0000003',
+    rangeId: 'BFO_0000003',
+    label_en: 'occurrent starts during occurrent',
+    label_fr: 'BFO_0000003 RO_0002091 BFO_0000003',
+    definition_en: 'Occurrent null Occurrent',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE BFO_0000003_RO_0002091_BFO_0000003::BFO_0000003_RO_0002091_BFO_0000003::{en=occurrent starts during occurrent, fr=BFO_0000003 RO_0002091 BFO_0000003}\nBFO_0000003::BFO_0000003 JOIN BFO_0000003::BFO_0000003\n  {\n    BFO_0000003_uid_domain::BFO_0000003_uid_domain uid_domain::{en=uid occurrent_domain, fr=uid BFO_0000003_domain}\n    BFO_0000003_uid_range::BFO_0000003_uid_range uid_domain::{en=uid occurrent_range, fr=uid BFO_0000003_range}\n  } \nKEY {BFO_0000003_uid_domain, BFO_0000003_uid_range} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'BFO_0000003_RO_0002222_BFO_0000003',
+    shortIri: 'BFO_0000003_RO_0002222_BFO_0000003',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002222',
+    domainId: 'BFO_0000003',
+    rangeId: 'BFO_0000003',
+    label_en: 'occurrent temporally related to occurrent',
+    label_fr: 'BFO_0000003 RO_0002222 BFO_0000003',
+    definition_en: 'Occurrent null Occurrent',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE BFO_0000003_RO_0002222_BFO_0000003::BFO_0000003_RO_0002222_BFO_0000003::{en=occurrent temporally related to occurrent, fr=BFO_0000003 RO_0002222 BFO_0000003}\nBFO_0000003::BFO_0000003 JOIN BFO_0000003::BFO_0000003\n  {\n    BFO_0000003_uid_domain::BFO_0000003_uid_domain uid_domain::{en=uid occurrent_domain, fr=uid BFO_0000003_domain}\n    BFO_0000003_uid_range::BFO_0000003_uid_range uid_domain::{en=uid occurrent_range, fr=uid BFO_0000003_range}\n  } \nKEY {BFO_0000003_uid_domain, BFO_0000003_uid_range} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'BFO_0000003_RO_0002479_BFO_0000004',
+    shortIri: 'BFO_0000003_RO_0002479_BFO_0000004',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'BFO_0000066',
+    domainId: 'BFO_0000003',
+    rangeId: 'BFO_0000004',
+    label_en: 'occurrent has part that occurs in independent continuant',
+    label_fr: 'BFO_0000003 RO_0002479 BFO_0000004',
+    definition_en: 'Occurrent p has part that occurs in c if and only if there exists some p1, such that p has_part p1, and p1 occurs in c. b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE BFO_0000003_RO_0002479_BFO_0000004::BFO_0000003_RO_0002479_BFO_0000004::{en=occurrent has part that occurs in independent continuant, fr=BFO_0000003 RO_0002479 BFO_0000004}\nBFO_0000004::BFO_0000004 JOIN BFO_0000003::BFO_0000003\n  {\n    BFO_0000003_uid::BFO_0000003_uid uid_domain::{en=uid occurrent, fr=uid BFO_0000003}\n    BFO_0000004_uid::BFO_0000004_uid uid_domain::{en=uid independent continuant, fr=uid BFO_0000004}\n  } \nKEY {BFO_0000003_uid, BFO_0000004_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HEPRO_0000004_OpenLHS-Core_0000067_HEPRO_0000030',
+    shortIri: 'HEPRO_0000004_OpenLHS-Core_0000067_HEPRO_0000030',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'OpenLHS-Core_0000067',
+    domainId: 'HEPRO_0000004',
+    rangeId: 'HEPRO_0000030',
+    label_en: 'health procedure is maximally directed by health procedure specification',
+    label_fr: 'HEPRO_0000004 OpenLHS-Core_0000067 HEPRO_0000030',
+    definition_en: '- A planned process that is maximally directed by a health procedure specification.\n- A planned process that is guided by the objective of contributing to a desired effect on the health status of an organism or several organisms achieved through the treatment, diagnosis, or prevention of disease or injury. The inverse relation of maximally directs. A directive information entity that aims to direct a health procedure.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HEPRO_0000004_OpenLHS-Core_0000067_HEPRO_0000030::HEPRO_0000004_OpenLHS-Core_0000067_HEPRO_0000030::{en=health procedure is maximally directed by health procedure specification, fr=HEPRO_0000004 OpenLHS-Core_0000067 HEPRO_0000030}\nHEPRO_0000030::HEPRO_0000030 JOIN HEPRO_0000004::HEPRO_0000004\n  {\n    HEPRO_0000004_uid::HEPRO_0000004_uid uid_domain::{en=uid health procedure, fr=uid HEPRO_0000004}\n    HEPRO_0000030_uid::HEPRO_0000030_uid uid_domain::{en=uid health procedure specification, fr=uid HEPRO_0000030}\n  } \nKEY {HEPRO_0000004_uid, HEPRO_0000030_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HEPRO_0000004_RO_0002018_HEPRO_0000005',
+    shortIri: 'HEPRO_0000004_RO_0002018_HEPRO_0000005',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002018',
+    domainId: 'HEPRO_0000004',
+    rangeId: 'HEPRO_0000005',
+    label_en: 'health procedure has component process health activity',
+    label_fr: 'HEPRO_0000004 RO_0002018 HEPRO_0000005',
+    definition_en: '- A planned process that is maximally directed by a health procedure specification.\n- A planned process that is guided by the objective of contributing to a desired effect on the health status of an organism or several organisms achieved through the treatment, diagnosis, or prevention of disease or injury. w "has process component" p if p and w are processes,  w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. A planned process that aims to produce a truthful statement about the health status of an organism or modify it.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HEPRO_0000004_RO_0002018_HEPRO_0000005::HEPRO_0000004_RO_0002018_HEPRO_0000005::{en=health procedure has component process health activity, fr=HEPRO_0000004 RO_0002018 HEPRO_0000005}\nHEPRO_0000005::HEPRO_0000005 JOIN HEPRO_0000004::HEPRO_0000004\n  {\n    HEPRO_0000004_uid::HEPRO_0000004_uid uid_domain::{en=uid health procedure, fr=uid HEPRO_0000004}\n    HEPRO_0000005_uid::HEPRO_0000005_uid uid_domain::{en=uid health activity, fr=uid HEPRO_0000005}\n  } \nKEY {HEPRO_0000004_uid, HEPRO_0000005_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'OpenLHS-Core_0000010_RO_0000056_ONTORELA_C73b67cf5',
+    shortIri: 'OpenLHS-Core_0000010_RO_0000056_ONTORELA_C73b67cf5',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0000056',
+    domainId: 'OpenLHS-Core_0000010',
+    rangeId: 'ONTORELA_C73b67cf5',
+    label_en: 'pragmatically accepted statement participates in process\n and (realizes some agent plan to act as if some statement was true)',
+    label_fr: 'OpenLHS-Core_0000010 RO_0000056 BFO_0000015\n and (BFO_0000055 some OpenLHS-Core_0000043)',
+    definition_en: 'A statement for which there is at least one contributor such that if it/he acts upon it, it/he will treat it as true. a relation between a continuant and a process, in which the continuant is somehow involved in the process pragmatically accepted statementProcess p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003]) A plan of an agent to act as if some statement was true.',
+    definition_fr: 'null null OpenLHS-Core_0000010',
+    description: 'JOINTABLE OpenLHS-Core_0000010_RO_0000056_ONTORELA_C73b67cf5::OpenLHS-Core_0000010_RO_0000056_ONTORELA_C73b67cf5::{en=pragmatically accepted statement participates in process\n and (realizes some agent plan to act as if some statement was true), fr=OpenLHS-Core_0000010 RO_0000056 BFO_0000015\n and (BFO_0000055 some OpenLHS-Core_0000043)}\nONTORELA_C73b67cf5::ONTORELA_C73b67cf5 JOIN OpenLHS-Core_0000010::OpenLHS-Core_0000010\n  {\n    OpenLHS-Core_0000010_uid::OpenLHS-Core_0000010_uid uid_domain::{en=uid pragmatically accepted statement, fr=uid OpenLHS-Core_0000010}\n    ONTORELA_C73b67cf5_uid::ONTORELA_C73b67cf5_uid uid_domain::{en=uid process\n and (realizes some agent plan to act as if some statement was true), fr=uid BFO_0000015\n and (BFO_0000055 some OpenLHS-Core_0000043)}\n  } \nKEY {OpenLHS-Core_0000010_uid, ONTORELA_C73b67cf5_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000010_HOSO_0000001_HOSO_0000009',
+    shortIri: 'HOSO_0000010_HOSO_0000001_HOSO_0000009',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'HOSO_0000001',
+    domainId: 'HOSO_0000010',
+    rangeId: 'HOSO_0000009',
+    label_en: 'healthcare procedure has participating performer healthcare provider',
+    label_fr: 'HOSO_0000010 HOSO_0000001 HOSO_0000009',
+    definition_en: 'A health procedure that is part of a healthcare service delivery and that is performed by a healthcare worker while realizing its health care worker role. TBD A health provider who is a member of a healthcare organisation.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000010_HOSO_0000001_HOSO_0000009::HOSO_0000010_HOSO_0000001_HOSO_0000009::{en=healthcare procedure has participating performer healthcare provider, fr=HOSO_0000010 HOSO_0000001 HOSO_0000009}\nHOSO_0000009::HOSO_0000009 JOIN HOSO_0000010::HOSO_0000010\n  {\n    HOSO_0000010_uid::HOSO_0000010_uid uid_domain::{en=uid healthcare procedure, fr=uid HOSO_0000010}\n    HOSO_0000009_uid::HOSO_0000009_uid uid_domain::{en=uid healthcare provider, fr=uid HOSO_0000009}\n  } \nKEY {HOSO_0000010_uid, HOSO_0000009_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000046_IAO_0000136_HOSO_0000012',
+    shortIri: 'HOSO_0000046_IAO_0000136_HOSO_0000012',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000136',
+    domainId: 'HOSO_0000046',
+    rangeId: 'HOSO_0000012',
+    label_en: 'visit discharge specification is about healthcare organization clinical visit',
+    label_fr: 'HOSO_0000046 IAO_0000136 HOSO_0000012',
+    definition_en: 'A directive information entity that aims at directing what health procedures or healthcare organization services are recommended after this visit. A (currently) primitive relation that relates an information artifact to an entity. A healthcare organisation service delivery that aims at providing a desired effect on the health status of a specified organism. It is usually composed of health procedures and possibly associated ancillary processes.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000046_IAO_0000136_HOSO_0000012::HOSO_0000046_IAO_0000136_HOSO_0000012::{en=visit discharge specification is about healthcare organization clinical visit, fr=HOSO_0000046 IAO_0000136 HOSO_0000012}\nHOSO_0000012::HOSO_0000012 JOIN HOSO_0000046::HOSO_0000046\n  {\n    HOSO_0000046_uid::HOSO_0000046_uid uid_domain::{en=uid visit discharge specification, fr=uid HOSO_0000046}\n    HOSO_0000012_uid::HOSO_0000012_uid uid_domain::{en=uid healthcare organization clinical visit, fr=uid HOSO_0000012}\n  } \nKEY {HOSO_0000046_uid, HOSO_0000012_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'IAO_0000577_BFO_0000050_IAO_0000578',
+    shortIri: 'IAO_0000577_BFO_0000050_IAO_0000578',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'BFO_0000050',
+    domainId: 'IAO_0000577',
+    rangeId: 'IAO_0000578',
+    label_en: 'centrally registered identifier symbol part of centrally registered identifier',
+    label_fr: 'IAO_0000577 BFO_0000050 IAO_0000578',
+    definition_en: 'A symbol that is part of a CRID and that is sufficient to look up a record from the CRID"s registry. a core relation that holds between a part and its whole An information content entity that consists of a CRID symbol and additional information about the CRID registry to which it belongs.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE IAO_0000577_BFO_0000050_IAO_0000578::IAO_0000577_BFO_0000050_IAO_0000578::{en=centrally registered identifier symbol part of centrally registered identifier, fr=IAO_0000577 BFO_0000050 IAO_0000578}\nIAO_0000578::IAO_0000578 JOIN IAO_0000577::IAO_0000577\n  {\n    IAO_0000577_uid::IAO_0000577_uid uid_domain::{en=uid centrally registered identifier symbol, fr=uid IAO_0000577}\n    IAO_0000578_uid::IAO_0000578_uid uid_domain::{en=uid centrally registered identifier, fr=uid IAO_0000578}\n  } \nKEY {IAO_0000577_uid, IAO_0000578_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'BFO_0000002_RO_0000056_BFO_0000003',
+    shortIri: 'BFO_0000002_RO_0000056_BFO_0000003',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0000056',
+    domainId: 'BFO_0000002',
+    rangeId: 'BFO_0000003',
+    label_en: 'continuant participates in occurrent',
+    label_fr: 'BFO_0000002 RO_0000056 BFO_0000003',
+    definition_en: 'Continuant a relation between a continuant and a process, in which the continuant is somehow involved in the process Occurrent',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE BFO_0000002_RO_0000056_BFO_0000003::BFO_0000002_RO_0000056_BFO_0000003::{en=continuant participates in occurrent, fr=BFO_0000002 RO_0000056 BFO_0000003}\nBFO_0000003::BFO_0000003 JOIN BFO_0000002::BFO_0000002\n  {\n    BFO_0000002_uid::BFO_0000002_uid uid_domain::{en=uid continuant, fr=uid BFO_0000002}\n    BFO_0000003_uid::BFO_0000003_uid uid_domain::{en=uid occurrent, fr=uid BFO_0000003}\n  } \nKEY {BFO_0000002_uid, BFO_0000003_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HEPRO_0000015_IAO_0000136_HEPRO_0000004',
+    shortIri: 'HEPRO_0000015_IAO_0000136_HEPRO_0000004',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000136',
+    domainId: 'HEPRO_0000015',
+    rangeId: 'HEPRO_0000004',
+    label_en: 'health procedure sub-group name is about health procedure',
+    label_fr: 'HEPRO_0000015 IAO_0000136 HEPRO_0000004',
+    definition_en: 'An information content entity that is about a sub-group of health procedures. A (currently) primitive relation that relates an information artifact to an entity. - A planned process that is maximally directed by a health procedure specification.\n- A planned process that is guided by the objective of contributing to a desired effect on the health status of an organism or several organisms achieved through the treatment, diagnosis, or prevention of disease or injury.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HEPRO_0000015_IAO_0000136_HEPRO_0000004::HEPRO_0000015_IAO_0000136_HEPRO_0000004::{en=health procedure sub-group name is about health procedure, fr=HEPRO_0000015 IAO_0000136 HEPRO_0000004}\nHEPRO_0000004::HEPRO_0000004 JOIN HEPRO_0000015::HEPRO_0000015\n  {\n    HEPRO_0000015_uid::HEPRO_0000015_uid uid_domain::{en=uid health procedure sub-group name, fr=uid HEPRO_0000015}\n    HEPRO_0000004_uid::HEPRO_0000004_uid uid_domain::{en=uid health procedure, fr=uid HEPRO_0000004}\n  } \nKEY {HEPRO_0000015_uid, HEPRO_0000004_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HEPRO_0000001_RO_0002180_HEPRO_0000030',
+    shortIri: 'HEPRO_0000001_RO_0002180_HEPRO_0000030',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'HEPRO_0000001',
+    rangeId: 'HEPRO_0000030',
+    label_en: 'health procedure request has component health procedure specification',
+    label_fr: 'HEPRO_0000001 RO_0002180 HEPRO_0000030',
+    definition_en: 'A request requesting the execution of some health procedure. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. A directive information entity that aims to direct a health procedure.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HEPRO_0000001_RO_0002180_HEPRO_0000030::HEPRO_0000001_RO_0002180_HEPRO_0000030::{en=health procedure request has component health procedure specification, fr=HEPRO_0000001 RO_0002180 HEPRO_0000030}\nHEPRO_0000030::HEPRO_0000030 JOIN HEPRO_0000001::HEPRO_0000001\n  {\n    HEPRO_0000001_uid::HEPRO_0000001_uid uid_domain::{en=uid health procedure request, fr=uid HEPRO_0000001}\n    HEPRO_0000030_uid::HEPRO_0000030_uid uid_domain::{en=uid health procedure specification, fr=uid HEPRO_0000030}\n  } \nKEY {HEPRO_0000001_uid, HEPRO_0000030_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'OpenLHS-Core_0000021_IAO_0000235_OpenLHS-Core_0000026',
+    shortIri: 'OpenLHS-Core_0000021_IAO_0000235_OpenLHS-Core_0000026',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000235',
+    domainId: 'OpenLHS-Core_0000021',
+    rangeId: 'OpenLHS-Core_0000026',
+    label_en: 'canadian census subdivision identifier denoted by canadian postal code',
+    label_fr: 'OpenLHS-Core_0000021 IAO_0000235 OpenLHS-Core_0000026',
+    definition_en: 'An identifier that denotes a Canadian municipality (as determined by provincial/territorial legislation) or a Canadian area treated as a municipal equivalent for statistical purposes (e.g., Indian reserves, Indian settlements and unorganized territories). inverse of the relation "denotes" A postal code that denotes some geographical region in Canada.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE OpenLHS-Core_0000021_IAO_0000235_OpenLHS-Core_0000026::OpenLHS-Core_0000021_IAO_0000235_OpenLHS-Core_0000026::{en=canadian census subdivision identifier denoted by canadian postal code, fr=OpenLHS-Core_0000021 IAO_0000235 OpenLHS-Core_0000026}\nOpenLHS-Core_0000026::OpenLHS-Core_0000026 JOIN OpenLHS-Core_0000021::OpenLHS-Core_0000021\n  {\n    OpenLHS-Core_0000021_uid::OpenLHS-Core_0000021_uid uid_domain::{en=uid canadian census subdivision identifier, fr=uid OpenLHS-Core_0000021}\n    OpenLHS-Core_0000026_uid::OpenLHS-Core_0000026_uid uid_domain::{en=uid canadian postal code, fr=uid OpenLHS-Core_0000026}\n  } \nKEY {OpenLHS-Core_0000021_uid, OpenLHS-Core_0000026_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'OpenLHS-Core_0000045_IAO_0000136_OpenLHS-Core_0000043',
+    shortIri: 'OpenLHS-Core_0000045_IAO_0000136_OpenLHS-Core_0000043',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000136',
+    domainId: 'OpenLHS-Core_0000045',
+    rangeId: 'OpenLHS-Core_0000043',
+    label_en: 'temporal qualification of the disappearance of a plan to act as if some statement was true is about agent plan to act as if some statement was true',
+    label_fr: 'OpenLHS-Core_0000045 IAO_0000136 OpenLHS-Core_0000043',
+    definition_en: 'A continuant disappearance statement that temporally qualifies the disappearance of a plan to act as if some statement was true. A (currently) primitive relation that relates an information artifact to an entity. A plan of an agent to act as if some statement was true.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE OpenLHS-Core_0000045_IAO_0000136_OpenLHS-Core_0000043::OpenLHS-Core_0000045_IAO_0000136_OpenLHS-Core_0000043::{en=temporal qualification of the disappearance of a plan to act as if some statement was true is about agent plan to act as if some statement was true, fr=OpenLHS-Core_0000045 IAO_0000136 OpenLHS-Core_0000043}\nOpenLHS-Core_0000043::OpenLHS-Core_0000043 JOIN OpenLHS-Core_0000045::OpenLHS-Core_0000045\n  {\n    OpenLHS-Core_0000045_uid::OpenLHS-Core_0000045_uid uid_domain::{en=uid temporal qualification of the disappearance of a plan to act as if some statement was true, fr=uid OpenLHS-Core_0000045}\n    OpenLHS-Core_0000043_uid::OpenLHS-Core_0000043_uid uid_domain::{en=uid agent plan to act as if some statement was true, fr=uid OpenLHS-Core_0000043}\n  } \nKEY {OpenLHS-Core_0000045_uid, OpenLHS-Core_0000043_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'OBI_0000011_BFO_0000055_ONTORELA_C2875fe2d',
+    shortIri: 'OBI_0000011_BFO_0000055_ONTORELA_C2875fe2d',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'BFO_0000055',
+    domainId: 'OBI_0000011',
+    rangeId: 'ONTORELA_C2875fe2d',
+    label_en: 'planned process realizes concretizes some plan specification',
+    label_fr: 'OBI_0000011 BFO_0000055 RO_0000059 some IAO_0000104',
+    definition_en: 'A process that realizes a plan which is the concretization of a plan specification. null planned processA directive information entity with action specifications and objective specifications as parts, and that may be concretized as a realizable entity that, if realized, is realized in a process in which the bearer tries to achieve the objectives by taking the actions specified.',
+    definition_fr: 'null null OBI_0000011',
+    description: 'JOINTABLE OBI_0000011_BFO_0000055_ONTORELA_C2875fe2d::OBI_0000011_BFO_0000055_ONTORELA_C2875fe2d::{en=planned process realizes concretizes some plan specification, fr=OBI_0000011 BFO_0000055 RO_0000059 some IAO_0000104}\nONTORELA_C2875fe2d::ONTORELA_C2875fe2d JOIN OBI_0000011::OBI_0000011\n  {\n    OBI_0000011_uid::OBI_0000011_uid uid_domain::{en=uid planned process, fr=uid OBI_0000011}\n    ONTORELA_C2875fe2d_uid::ONTORELA_C2875fe2d_uid uid_domain::{en=uid concretizes some plan specification, fr=uid RO_0000059 some IAO_0000104}\n  } \nKEY {OBI_0000011_uid, ONTORELA_C2875fe2d_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000081_RO_0000087_HOSO_0000082',
+    shortIri: 'HOSO_0000081_RO_0000087_HOSO_0000082',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0000087',
+    domainId: 'HOSO_0000081',
+    rangeId: 'HOSO_0000082',
+    label_en: 'patient has role patient role',
+    label_fr: 'HOSO_0000081 RO_0000087 HOSO_0000082',
+    definition_en: 'An eukaryote that is the bearer of a patient role. a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence A role born by an organism which is the primary recipient in a healthcare organization clinical visit.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000081_RO_0000087_HOSO_0000082::HOSO_0000081_RO_0000087_HOSO_0000082::{en=patient has role patient role, fr=HOSO_0000081 RO_0000087 HOSO_0000082}\nHOSO_0000082::HOSO_0000082 JOIN HOSO_0000081::HOSO_0000081\n  {\n    HOSO_0000081_uid::HOSO_0000081_uid uid_domain::{en=uid patient, fr=uid HOSO_0000081}\n    HOSO_0000082_uid::HOSO_0000082_uid uid_domain::{en=uid patient role, fr=uid HOSO_0000082}\n  } \nKEY {HOSO_0000081_uid, HOSO_0000082_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000037_BFO_0000051_HEPRO_0000013',
+    shortIri: 'HOSO_0000037_BFO_0000051_HEPRO_0000013',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'BFO_0000051',
+    domainId: 'HOSO_0000037',
+    rangeId: 'HEPRO_0000013',
+    label_en: 'outpatient diagnostic visit has part diagnostic health procedure',
+    label_fr: 'HOSO_0000037 BFO_0000051 HEPRO_0000013',
+    definition_en: 'An outpatient visit which includes a diagnostic procedure. a core relation that holds between a whole and its part A health procedure that include a diagnostic procedure - TBD.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000037_BFO_0000051_HEPRO_0000013::HOSO_0000037_BFO_0000051_HEPRO_0000013::{en=outpatient diagnostic visit has part diagnostic health procedure, fr=HOSO_0000037 BFO_0000051 HEPRO_0000013}\nHEPRO_0000013::HEPRO_0000013 JOIN HOSO_0000037::HOSO_0000037\n  {\n    HOSO_0000037_uid::HOSO_0000037_uid uid_domain::{en=uid outpatient diagnostic visit, fr=uid HOSO_0000037}\n    HEPRO_0000013_uid::HEPRO_0000013_uid uid_domain::{en=uid diagnostic health procedure, fr=uid HEPRO_0000013}\n  } \nKEY {HOSO_0000037_uid, HEPRO_0000013_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'BFO_0000017_BFO_0000054_BFO_0000015',
+    shortIri: 'BFO_0000017_BFO_0000054_BFO_0000015',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'BFO_0000054',
+    domainId: 'BFO_0000017',
+    rangeId: 'BFO_0000015',
+    label_en: 'realizable entity realized in process',
+    label_fr: 'BFO_0000017 BFO_0000054 BFO_0000015',
+    definition_en: 'RealizableEntity null Process',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE BFO_0000017_BFO_0000054_BFO_0000015::BFO_0000017_BFO_0000054_BFO_0000015::{en=realizable entity realized in process, fr=BFO_0000017 BFO_0000054 BFO_0000015}\nBFO_0000015::BFO_0000015 JOIN BFO_0000017::BFO_0000017\n  {\n    BFO_0000017_uid::BFO_0000017_uid uid_domain::{en=uid realizable entity, fr=uid BFO_0000017}\n    BFO_0000015_uid::BFO_0000015_uid uid_domain::{en=uid process, fr=uid BFO_0000015}\n  } \nKEY {BFO_0000017_uid, BFO_0000015_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HEPRO_0000012_RO_0000087_HEPRO_0000011',
+    shortIri: 'HEPRO_0000012_RO_0000087_HEPRO_0000011',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0000087',
+    domainId: 'HEPRO_0000012',
+    rangeId: 'HEPRO_0000011',
+    label_en: 'health provider has role health provider role',
+    label_fr: 'HEPRO_0000012 RO_0000087 HEPRO_0000011',
+    definition_en: 'An organism that is the bearer of a health provider role. a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence A role that inheres in an organism as a consequence of training in order to be able to participate as a performer in some health activities.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HEPRO_0000012_RO_0000087_HEPRO_0000011::HEPRO_0000012_RO_0000087_HEPRO_0000011::{en=health provider has role health provider role, fr=HEPRO_0000012 RO_0000087 HEPRO_0000011}\nHEPRO_0000011::HEPRO_0000011 JOIN HEPRO_0000012::HEPRO_0000012\n  {\n    HEPRO_0000012_uid::HEPRO_0000012_uid uid_domain::{en=uid health provider, fr=uid HEPRO_0000012}\n    HEPRO_0000011_uid::HEPRO_0000011_uid uid_domain::{en=uid health provider role, fr=uid HEPRO_0000011}\n  } \nKEY {HEPRO_0000012_uid, HEPRO_0000011_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000025',
+    shortIri: 'OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000025',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'OpenLHS-Core_0000020',
+    rangeId: 'OpenLHS-Core_0000025',
+    label_en: 'canadian postal address has component postal address country',
+    label_fr: 'OpenLHS-Core_0000020 RO_0002180 OpenLHS-Core_0000025',
+    definition_en: 'A postal address that can be used to help the delivery of something in Canada. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. An identifier that denotes a country and is intended to be used as part of a postal address.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000025::OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000025::{en=canadian postal address has component postal address country, fr=OpenLHS-Core_0000020 RO_0002180 OpenLHS-Core_0000025}\nOpenLHS-Core_0000025::OpenLHS-Core_0000025 JOIN OpenLHS-Core_0000020::OpenLHS-Core_0000020\n  {\n    OpenLHS-Core_0000020_uid::OpenLHS-Core_0000020_uid uid_domain::{en=uid canadian postal address, fr=uid OpenLHS-Core_0000020}\n    OpenLHS-Core_0000025_uid::OpenLHS-Core_0000025_uid uid_domain::{en=uid postal address country, fr=uid OpenLHS-Core_0000025}\n  } \nKEY {OpenLHS-Core_0000020_uid, OpenLHS-Core_0000025_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000026',
+    shortIri: 'OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000026',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'OpenLHS-Core_0000020',
+    rangeId: 'OpenLHS-Core_0000026',
+    label_en: 'canadian postal address has component canadian postal code',
+    label_fr: 'OpenLHS-Core_0000020 RO_0002180 OpenLHS-Core_0000026',
+    definition_en: 'A postal address that can be used to help the delivery of something in Canada. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. A postal code that denotes some geographical region in Canada.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000026::OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000026::{en=canadian postal address has component canadian postal code, fr=OpenLHS-Core_0000020 RO_0002180 OpenLHS-Core_0000026}\nOpenLHS-Core_0000026::OpenLHS-Core_0000026 JOIN OpenLHS-Core_0000020::OpenLHS-Core_0000020\n  {\n    OpenLHS-Core_0000020_uid::OpenLHS-Core_0000020_uid uid_domain::{en=uid canadian postal address, fr=uid OpenLHS-Core_0000020}\n    OpenLHS-Core_0000026_uid::OpenLHS-Core_0000026_uid uid_domain::{en=uid canadian postal code, fr=uid OpenLHS-Core_0000026}\n  } \nKEY {OpenLHS-Core_0000020_uid, OpenLHS-Core_0000026_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000024',
+    shortIri: 'OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000024',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'OpenLHS-Core_0000020',
+    rangeId: 'OpenLHS-Core_0000024',
+    label_en: 'canadian postal address has component postal address city',
+    label_fr: 'OpenLHS-Core_0000020 RO_0002180 OpenLHS-Core_0000024',
+    definition_en: 'A postal address that can be used to help the delivery of something in Canada. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. An identifier that denotes a city and is intended to be used as part of a postal address.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000024::OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000024::{en=canadian postal address has component postal address city, fr=OpenLHS-Core_0000020 RO_0002180 OpenLHS-Core_0000024}\nOpenLHS-Core_0000024::OpenLHS-Core_0000024 JOIN OpenLHS-Core_0000020::OpenLHS-Core_0000020\n  {\n    OpenLHS-Core_0000020_uid::OpenLHS-Core_0000020_uid uid_domain::{en=uid canadian postal address, fr=uid OpenLHS-Core_0000020}\n    OpenLHS-Core_0000024_uid::OpenLHS-Core_0000024_uid uid_domain::{en=uid postal address city, fr=uid OpenLHS-Core_0000024}\n  } \nKEY {OpenLHS-Core_0000020_uid, OpenLHS-Core_0000024_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000022',
+    shortIri: 'OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000022',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'OpenLHS-Core_0000020',
+    rangeId: 'OpenLHS-Core_0000022',
+    label_en: 'canadian postal address has component canadian first-order administrative region identifier',
+    label_fr: 'OpenLHS-Core_0000020 RO_0002180 OpenLHS-Core_0000022',
+    definition_en: 'A postal address that can be used to help the delivery of something in Canada. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. An identifier that denotes a Canadian province or a Canadian territory.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000022::OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000022::{en=canadian postal address has component canadian first-order administrative region identifier, fr=OpenLHS-Core_0000020 RO_0002180 OpenLHS-Core_0000022}\nOpenLHS-Core_0000022::OpenLHS-Core_0000022 JOIN OpenLHS-Core_0000020::OpenLHS-Core_0000020\n  {\n    OpenLHS-Core_0000020_uid::OpenLHS-Core_0000020_uid uid_domain::{en=uid canadian postal address, fr=uid OpenLHS-Core_0000020}\n    OpenLHS-Core_0000022_uid::OpenLHS-Core_0000022_uid uid_domain::{en=uid canadian first-order administrative region identifier, fr=uid OpenLHS-Core_0000022}\n  } \nKEY {OpenLHS-Core_0000020_uid, OpenLHS-Core_0000022_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'OpenLHS-Core_0000056_RO_0002180_OpenLHS-Core_0000057',
+    shortIri: 'OpenLHS-Core_0000056_RO_0002180_OpenLHS-Core_0000057',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'OpenLHS-Core_0000056',
+    rangeId: 'OpenLHS-Core_0000057',
+    label_en: 'unit qualified scalar specified value has component unit',
+    label_fr: 'OpenLHS-Core_0000056 RO_0002180 OpenLHS-Core_0000057',
+    definition_en: 'null w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. null',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE OpenLHS-Core_0000056_RO_0002180_OpenLHS-Core_0000057::OpenLHS-Core_0000056_RO_0002180_OpenLHS-Core_0000057::{en=unit qualified scalar specified value has component unit, fr=OpenLHS-Core_0000056 RO_0002180 OpenLHS-Core_0000057}\nOpenLHS-Core_0000057::OpenLHS-Core_0000057 JOIN OpenLHS-Core_0000056::OpenLHS-Core_0000056\n  {\n    OpenLHS-Core_0000056_uid::OpenLHS-Core_0000056_uid uid_domain::{en=uid unit qualified scalar specified value, fr=uid OpenLHS-Core_0000056}\n    OpenLHS-Core_0000057_uid::OpenLHS-Core_0000057_uid uid_domain::{en=uid unit, fr=uid OpenLHS-Core_0000057}\n  } \nKEY {OpenLHS-Core_0000056_uid, OpenLHS-Core_0000057_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'OpenLHS-Core_0000056_RO_0002180_OpenLHS-Core_0000055',
+    shortIri: 'OpenLHS-Core_0000056_RO_0002180_OpenLHS-Core_0000055',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'OpenLHS-Core_0000056',
+    rangeId: 'OpenLHS-Core_0000055',
+    label_en: 'unit qualified scalar specified value has component numerical specified value',
+    label_fr: 'OpenLHS-Core_0000056 RO_0002180 OpenLHS-Core_0000055',
+    definition_en: 'null w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. null',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE OpenLHS-Core_0000056_RO_0002180_OpenLHS-Core_0000055::OpenLHS-Core_0000056_RO_0002180_OpenLHS-Core_0000055::{en=unit qualified scalar specified value has component numerical specified value, fr=OpenLHS-Core_0000056 RO_0002180 OpenLHS-Core_0000055}\nOpenLHS-Core_0000055::OpenLHS-Core_0000055 JOIN OpenLHS-Core_0000056::OpenLHS-Core_0000056\n  {\n    OpenLHS-Core_0000056_uid::OpenLHS-Core_0000056_uid uid_domain::{en=uid unit qualified scalar specified value, fr=uid OpenLHS-Core_0000056}\n    OpenLHS-Core_0000055_uid::OpenLHS-Core_0000055_uid uid_domain::{en=uid numerical specified value, fr=uid OpenLHS-Core_0000055}\n  } \nKEY {OpenLHS-Core_0000056_uid, OpenLHS-Core_0000055_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'ONTORELA_C73b67cf5_BFO_0000055_OpenLHS-Core_0000043',
+    shortIri: 'ONTORELA_C73b67cf5_BFO_0000055_OpenLHS-Core_0000043',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'BFO_0000055',
+    domainId: 'ONTORELA_C73b67cf5',
+    rangeId: 'OpenLHS-Core_0000043',
+    label_en: 'process\n and (realizes some agent plan to act as if some statement was true) realizes agent plan to act as if some statement was true',
+    label_fr: 'BFO_0000015\n and (BFO_0000055 some OpenLHS-Core_0000043) BFO_0000055 OpenLHS-Core_0000043',
+    definition_en: 'pragmatically accepted statementProcess p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003]) A plan of an agent to act as if some statement was true. null A plan of an agent to act as if some statement was true.',
+    definition_fr: 'OpenLHS-Core_0000010 null null',
+    description: 'JOINTABLE ONTORELA_C73b67cf5_BFO_0000055_OpenLHS-Core_0000043::ONTORELA_C73b67cf5_BFO_0000055_OpenLHS-Core_0000043::{en=process\n and (realizes some agent plan to act as if some statement was true) realizes agent plan to act as if some statement was true, fr=BFO_0000015\n and (BFO_0000055 some OpenLHS-Core_0000043) BFO_0000055 OpenLHS-Core_0000043}\nOpenLHS-Core_0000043::OpenLHS-Core_0000043 JOIN ONTORELA_C73b67cf5::ONTORELA_C73b67cf5\n  {\n    ONTORELA_C73b67cf5_uid::ONTORELA_C73b67cf5_uid uid_domain::{en=uid process\n and (realizes some agent plan to act as if some statement was true), fr=uid BFO_0000015\n and (BFO_0000055 some OpenLHS-Core_0000043)}\n    OpenLHS-Core_0000043_uid::OpenLHS-Core_0000043_uid uid_domain::{en=uid agent plan to act as if some statement was true, fr=uid OpenLHS-Core_0000043}\n  } \nKEY {ONTORELA_C73b67cf5_uid, OpenLHS-Core_0000043_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'OpenLHS-Core_0000044_IAO_0000136_OpenLHS-Core_0000043',
+    shortIri: 'OpenLHS-Core_0000044_IAO_0000136_OpenLHS-Core_0000043',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000136',
+    domainId: 'OpenLHS-Core_0000044',
+    rangeId: 'OpenLHS-Core_0000043',
+    label_en: 'temporal qualification of the appearance of a plan to act as if some statement was true is about agent plan to act as if some statement was true',
+    label_fr: 'OpenLHS-Core_0000044 IAO_0000136 OpenLHS-Core_0000043',
+    definition_en: 'A continuant appearance statement that temporally qualifies the apparition of a plan to act as if some statement was true. A (currently) primitive relation that relates an information artifact to an entity. A plan of an agent to act as if some statement was true.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE OpenLHS-Core_0000044_IAO_0000136_OpenLHS-Core_0000043::OpenLHS-Core_0000044_IAO_0000136_OpenLHS-Core_0000043::{en=temporal qualification of the appearance of a plan to act as if some statement was true is about agent plan to act as if some statement was true, fr=OpenLHS-Core_0000044 IAO_0000136 OpenLHS-Core_0000043}\nOpenLHS-Core_0000043::OpenLHS-Core_0000043 JOIN OpenLHS-Core_0000044::OpenLHS-Core_0000044\n  {\n    OpenLHS-Core_0000044_uid::OpenLHS-Core_0000044_uid uid_domain::{en=uid temporal qualification of the appearance of a plan to act as if some statement was true, fr=uid OpenLHS-Core_0000044}\n    OpenLHS-Core_0000043_uid::OpenLHS-Core_0000043_uid uid_domain::{en=uid agent plan to act as if some statement was true, fr=uid OpenLHS-Core_0000043}\n  } \nKEY {OpenLHS-Core_0000044_uid, OpenLHS-Core_0000043_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000080_RO_0002180_HOSO_0000100',
+    shortIri: 'HOSO_0000080_RO_0002180_HOSO_0000100',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'HOSO_0000080',
+    rangeId: 'HOSO_0000100',
+    label_en: 'living environment type prior to clinical visit statement has component healthcare organization service delivery identifier',
+    label_fr: 'HOSO_0000080 RO_0002180 HOSO_0000100',
+    definition_en: 'A primary residence statement that states the type of living environment of a patient immediately prior to a clinical visit. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. An identifier that denotes a healthcare organization service delivery.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000080_RO_0002180_HOSO_0000100::HOSO_0000080_RO_0002180_HOSO_0000100::{en=living environment type prior to clinical visit statement has component healthcare organization service delivery identifier, fr=HOSO_0000080 RO_0002180 HOSO_0000100}\nHOSO_0000100::HOSO_0000100 JOIN HOSO_0000080::HOSO_0000080\n  {\n    HOSO_0000080_uid::HOSO_0000080_uid uid_domain::{en=uid living environment type prior to clinical visit statement, fr=uid HOSO_0000080}\n    HOSO_0000100_uid::HOSO_0000100_uid uid_domain::{en=uid healthcare organization service delivery identifier, fr=uid HOSO_0000100}\n  } \nKEY {HOSO_0000080_uid, HOSO_0000100_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000080_RO_0002180_IOIO_0000023',
+    shortIri: 'HOSO_0000080_RO_0002180_IOIO_0000023',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'HOSO_0000080',
+    rangeId: 'IOIO_0000023',
+    label_en: 'living environment type prior to clinical visit statement has component living environment type',
+    label_fr: 'HOSO_0000080 RO_0002180 IOIO_0000023',
+    definition_en: 'A primary residence statement that states the type of living environment of a patient immediately prior to a clinical visit. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. An information content entity that aims at representing a type of living environment applicable to a primary residence.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000080_RO_0002180_IOIO_0000023::HOSO_0000080_RO_0002180_IOIO_0000023::{en=living environment type prior to clinical visit statement has component living environment type, fr=HOSO_0000080 RO_0002180 IOIO_0000023}\nIOIO_0000023::IOIO_0000023 JOIN HOSO_0000080::HOSO_0000080\n  {\n    HOSO_0000080_uid::HOSO_0000080_uid uid_domain::{en=uid living environment type prior to clinical visit statement, fr=uid HOSO_0000080}\n    IOIO_0000023_uid::IOIO_0000023_uid uid_domain::{en=uid living environment type, fr=uid IOIO_0000023}\n  } \nKEY {HOSO_0000080_uid, IOIO_0000023_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'AgentCapability_capability_of_Agent',
+    shortIri: 'AgentCapability_capability_of_Agent',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'capability_of',
+    domainId: 'AgentCapability',
+    rangeId: 'Agent',
+    label_en: 'Agent Capability capability_of Agent',
+    label_fr: 'AgentCapability capability_of Agent',
+    definition_en: 'A Realizable Entity that inheres in an Agent to the extent of that Agent"s capacity to realize it in Intentional Acts of a certain type. null A Material Entity that is capable of performing Planned Acts',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE AgentCapability_capability_of_Agent::AgentCapability_capability_of_Agent::{en=Agent Capability capability_of Agent, fr=AgentCapability capability_of Agent}\nAgent::Agent JOIN AgentCapability::AgentCapability\n  {\n    AgentCapability_uid::AgentCapability_uid uid_domain::{en=uid Agent Capability, fr=uid AgentCapability}\n    Agent_uid::Agent_uid uid_domain::{en=uid Agent, fr=uid Agent}\n  } \nKEY {AgentCapability_uid, Agent_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000036_BFO_0000051_HEPRO_0000014',
+    shortIri: 'HOSO_0000036_BFO_0000051_HEPRO_0000014',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'BFO_0000051',
+    domainId: 'HOSO_0000036',
+    rangeId: 'HEPRO_0000014',
+    label_en: 'outpatient surgery visit has part surgical health procedure',
+    label_fr: 'HOSO_0000036 BFO_0000051 HEPRO_0000014',
+    definition_en: 'An outpatient visit which includes a surgical procedure. a core relation that holds between a whole and its part A health procedure that includes a surgical procedure - TBD.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000036_BFO_0000051_HEPRO_0000014::HOSO_0000036_BFO_0000051_HEPRO_0000014::{en=outpatient surgery visit has part surgical health procedure, fr=HOSO_0000036 BFO_0000051 HEPRO_0000014}\nHEPRO_0000014::HEPRO_0000014 JOIN HOSO_0000036::HOSO_0000036\n  {\n    HOSO_0000036_uid::HOSO_0000036_uid uid_domain::{en=uid outpatient surgery visit, fr=uid HOSO_0000036}\n    HEPRO_0000014_uid::HEPRO_0000014_uid uid_domain::{en=uid surgical health procedure, fr=uid HEPRO_0000014}\n  } \nKEY {HOSO_0000036_uid, HEPRO_0000014_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000145_IAO_0000136_HOSO_0000012',
+    shortIri: 'HOSO_0000145_IAO_0000136_HOSO_0000012',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000136',
+    domainId: 'HOSO_0000145',
+    rangeId: 'HOSO_0000012',
+    label_en: 'diagnosis related group is about healthcare organization clinical visit',
+    label_fr: 'HOSO_0000145 IAO_0000136 HOSO_0000012',
+    definition_en: 'An information content entity that aims at representing the various forms of care provided within the healthcare organization clinical visit as approximated by a case-mix group definition. A (currently) primitive relation that relates an information artifact to an entity. A healthcare organisation service delivery that aims at providing a desired effect on the health status of a specified organism. It is usually composed of health procedures and possibly associated ancillary processes.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000145_IAO_0000136_HOSO_0000012::HOSO_0000145_IAO_0000136_HOSO_0000012::{en=diagnosis related group is about healthcare organization clinical visit, fr=HOSO_0000145 IAO_0000136 HOSO_0000012}\nHOSO_0000012::HOSO_0000012 JOIN HOSO_0000145::HOSO_0000145\n  {\n    HOSO_0000145_uid::HOSO_0000145_uid uid_domain::{en=uid diagnosis related group, fr=uid HOSO_0000145}\n    HOSO_0000012_uid::HOSO_0000012_uid uid_domain::{en=uid healthcare organization clinical visit, fr=uid HOSO_0000012}\n  } \nKEY {HOSO_0000145_uid, HOSO_0000012_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000012_BFO_0000051_HOSO_0000010',
+    shortIri: 'HOSO_0000012_BFO_0000051_HOSO_0000010',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'BFO_0000051',
+    domainId: 'HOSO_0000012',
+    rangeId: 'HOSO_0000010',
+    label_en: 'healthcare organization clinical visit has part healthcare procedure',
+    label_fr: 'HOSO_0000012 BFO_0000051 HOSO_0000010',
+    definition_en: 'A healthcare organisation service delivery that aims at providing a desired effect on the health status of a specified organism. It is usually composed of health procedures and possibly associated ancillary processes. a core relation that holds between a whole and its part A health procedure that is part of a healthcare service delivery and that is performed by a healthcare worker while realizing its health care worker role.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000012_BFO_0000051_HOSO_0000010::HOSO_0000012_BFO_0000051_HOSO_0000010::{en=healthcare organization clinical visit has part healthcare procedure, fr=HOSO_0000012 BFO_0000051 HOSO_0000010}\nHOSO_0000010::HOSO_0000010 JOIN HOSO_0000012::HOSO_0000012\n  {\n    HOSO_0000012_uid::HOSO_0000012_uid uid_domain::{en=uid healthcare organization clinical visit, fr=uid HOSO_0000012}\n    HOSO_0000010_uid::HOSO_0000010_uid uid_domain::{en=uid healthcare procedure, fr=uid HOSO_0000010}\n  } \nKEY {HOSO_0000012_uid, HOSO_0000010_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000012_OpenLHS-Core_0000004_HOSO_0000074',
+    shortIri: 'HOSO_0000012_OpenLHS-Core_0000004_HOSO_0000074',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'OpenLHS-Core_0000004',
+    domainId: 'HOSO_0000012',
+    rangeId: 'HOSO_0000074',
+    label_en: 'healthcare organization clinical visit is directed by clinical visit agreement directive entity',
+    label_fr: 'HOSO_0000012 OpenLHS-Core_0000004 HOSO_0000074',
+    definition_en: 'A healthcare organisation service delivery that aims at providing a desired effect on the health status of a specified organism. It is usually composed of health procedures and possibly associated ancillary processes. The inverse relations of directs A service agreement directive entity that directs a clinical visit admission.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000012_OpenLHS-Core_0000004_HOSO_0000074::HOSO_0000012_OpenLHS-Core_0000004_HOSO_0000074::{en=healthcare organization clinical visit is directed by clinical visit agreement directive entity, fr=HOSO_0000012 OpenLHS-Core_0000004 HOSO_0000074}\nHOSO_0000074::HOSO_0000074 JOIN HOSO_0000012::HOSO_0000012\n  {\n    HOSO_0000012_uid::HOSO_0000012_uid uid_domain::{en=uid healthcare organization clinical visit, fr=uid HOSO_0000012}\n    HOSO_0000074_uid::HOSO_0000074_uid uid_domain::{en=uid clinical visit agreement directive entity, fr=uid HOSO_0000074}\n  } \nKEY {HOSO_0000012_uid, HOSO_0000074_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000012_OpenLHS-Core_0000004_HOSO_0000003',
+    shortIri: 'HOSO_0000012_OpenLHS-Core_0000004_HOSO_0000003',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'OpenLHS-Core_0000004',
+    domainId: 'HOSO_0000012',
+    rangeId: 'HOSO_0000003',
+    label_en: 'healthcare organization clinical visit is directed by healthcare service organism specification',
+    label_fr: 'HOSO_0000012 OpenLHS-Core_0000004 HOSO_0000003',
+    definition_en: 'A healthcare organisation service delivery that aims at providing a desired effect on the health status of a specified organism. It is usually composed of health procedures and possibly associated ancillary processes. The inverse relations of directs A service agreement directive entity identifying an organism for whom a healthcare service delivery aims at providing a desired effect to its health status.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000012_OpenLHS-Core_0000004_HOSO_0000003::HOSO_0000012_OpenLHS-Core_0000004_HOSO_0000003::{en=healthcare organization clinical visit is directed by healthcare service organism specification, fr=HOSO_0000012 OpenLHS-Core_0000004 HOSO_0000003}\nHOSO_0000003::HOSO_0000003 JOIN HOSO_0000012::HOSO_0000012\n  {\n    HOSO_0000012_uid::HOSO_0000012_uid uid_domain::{en=uid healthcare organization clinical visit, fr=uid HOSO_0000012}\n    HOSO_0000003_uid::HOSO_0000003_uid uid_domain::{en=uid healthcare service organism specification, fr=uid HOSO_0000003}\n  } \nKEY {HOSO_0000012_uid, HOSO_0000003_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HOSO_0000048_BFO_0000050_HOSO_0000047',
+    shortIri: 'HOSO_0000048_BFO_0000050_HOSO_0000047',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'BFO_0000050',
+    domainId: 'HOSO_0000048',
+    rangeId: 'HOSO_0000047',
+    label_en: 'visit transfer specification category part of visit transfer specification',
+    label_fr: 'HOSO_0000048 BFO_0000050 HOSO_0000047',
+    definition_en: 'An information content entity that is part of a visit transfer specification and is about the type of healthcare organization specified. a core relation that holds between a part and its whole A visit discharge specification that aims at directing to which healthcare organisation the patient should be transferred after the end of the current visit.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HOSO_0000048_BFO_0000050_HOSO_0000047::HOSO_0000048_BFO_0000050_HOSO_0000047::{en=visit transfer specification category part of visit transfer specification, fr=HOSO_0000048 BFO_0000050 HOSO_0000047}\nHOSO_0000047::HOSO_0000047 JOIN HOSO_0000048::HOSO_0000048\n  {\n    HOSO_0000048_uid::HOSO_0000048_uid uid_domain::{en=uid visit transfer specification category, fr=uid HOSO_0000048}\n    HOSO_0000047_uid::HOSO_0000047_uid uid_domain::{en=uid visit transfer specification, fr=uid HOSO_0000047}\n  } \nKEY {HOSO_0000048_uid, HOSO_0000047_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'BFO_0000004_RO_0000085_BFO_0000034',
+    shortIri: 'BFO_0000004_RO_0000085_BFO_0000034',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0000085',
+    domainId: 'BFO_0000004',
+    rangeId: 'BFO_0000034',
+    label_en: 'independent continuant has function function',
+    label_fr: 'BFO_0000004 RO_0000085 BFO_0000034',
+    definition_en: 'b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002]) a relation between an independent continuant (the bearer) and a function, in which the function specifically depends on the bearer for its existence Function',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE BFO_0000004_RO_0000085_BFO_0000034::BFO_0000004_RO_0000085_BFO_0000034::{en=independent continuant has function function, fr=BFO_0000004 RO_0000085 BFO_0000034}\nBFO_0000034::BFO_0000034 JOIN BFO_0000004::BFO_0000004\n  {\n    BFO_0000004_uid::BFO_0000004_uid uid_domain::{en=uid independent continuant, fr=uid BFO_0000004}\n    BFO_0000034_uid::BFO_0000034_uid uid_domain::{en=uid function, fr=uid BFO_0000034}\n  } \nKEY {BFO_0000004_uid, BFO_0000034_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'BFO_0000004_RO_0000087_BFO_0000023',
+    shortIri: 'BFO_0000004_RO_0000087_BFO_0000023',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0000087',
+    domainId: 'BFO_0000004',
+    rangeId: 'BFO_0000023',
+    label_en: 'independent continuant has role role',
+    label_fr: 'BFO_0000004 RO_0000087 BFO_0000023',
+    definition_en: 'b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002]) a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence Role',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE BFO_0000004_RO_0000087_BFO_0000023::BFO_0000004_RO_0000087_BFO_0000023::{en=independent continuant has role role, fr=BFO_0000004 RO_0000087 BFO_0000023}\nBFO_0000023::BFO_0000023 JOIN BFO_0000004::BFO_0000004\n  {\n    BFO_0000004_uid::BFO_0000004_uid uid_domain::{en=uid independent continuant, fr=uid BFO_0000004}\n    BFO_0000023_uid::BFO_0000023_uid uid_domain::{en=uid role, fr=uid BFO_0000023}\n  } \nKEY {BFO_0000004_uid, BFO_0000023_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'BFO_0000004_RO_0000091_BFO_0000016',
+    shortIri: 'BFO_0000004_RO_0000091_BFO_0000016',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0000091',
+    domainId: 'BFO_0000004',
+    rangeId: 'BFO_0000016',
+    label_en: 'independent continuant has disposition disposition',
+    label_fr: 'BFO_0000004 RO_0000091 BFO_0000016',
+    definition_en: 'b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002]) a relation between an independent continuant (the bearer) and a disposition, in which the disposition specifically depends on the bearer for its existence Disposition',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE BFO_0000004_RO_0000091_BFO_0000016::BFO_0000004_RO_0000091_BFO_0000016::{en=independent continuant has disposition disposition, fr=BFO_0000004 RO_0000091 BFO_0000016}\nBFO_0000016::BFO_0000016 JOIN BFO_0000004::BFO_0000004\n  {\n    BFO_0000004_uid::BFO_0000004_uid uid_domain::{en=uid independent continuant, fr=uid BFO_0000004}\n    BFO_0000016_uid::BFO_0000016_uid uid_domain::{en=uid disposition, fr=uid BFO_0000016}\n  } \nKEY {BFO_0000004_uid, BFO_0000016_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'IOIO_0000031_RO_0002180_IOIO_0000014',
+    shortIri: 'IOIO_0000031_RO_0002180_IOIO_0000014',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'IOIO_0000031',
+    rangeId: 'IOIO_0000014',
+    label_en: 'human age at a specified temporal region statement has component human identifier',
+    label_fr: 'IOIO_0000031 RO_0002180 IOIO_0000014',
+    definition_en: 'A  statement that includes an human identifier and the human age at a specified temporal region of the human denoted by the human identifier. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. An organism identifier that denotes a particular human.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE IOIO_0000031_RO_0002180_IOIO_0000014::IOIO_0000031_RO_0002180_IOIO_0000014::{en=human age at a specified temporal region statement has component human identifier, fr=IOIO_0000031 RO_0002180 IOIO_0000014}\nIOIO_0000014::IOIO_0000014 JOIN IOIO_0000031::IOIO_0000031\n  {\n    IOIO_0000031_uid::IOIO_0000031_uid uid_domain::{en=uid human age at a specified temporal region statement, fr=uid IOIO_0000031}\n    IOIO_0000014_uid::IOIO_0000014_uid uid_domain::{en=uid human identifier, fr=uid IOIO_0000014}\n  } \nKEY {IOIO_0000031_uid, IOIO_0000014_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'IOIO_0000031_RO_0002180_IOIO_0000030',
+    shortIri: 'IOIO_0000031_RO_0002180_IOIO_0000030',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'RO_0002180',
+    domainId: 'IOIO_0000031',
+    rangeId: 'IOIO_0000030',
+    label_en: 'human age at a specified temporal region statement has component human age at a specified temporal region',
+    label_fr: 'IOIO_0000031 RO_0002180 IOIO_0000030',
+    definition_en: 'A  statement that includes an human identifier and the human age at a specified temporal region of the human denoted by the human identifier. w "has component" p if w "has part" p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type. An information content entity that is about the size of the 1-D temporal region that overlaps with both the temporal region denoted by a human birth temporal information and the specified temporal region.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE IOIO_0000031_RO_0002180_IOIO_0000030::IOIO_0000031_RO_0002180_IOIO_0000030::{en=human age at a specified temporal region statement has component human age at a specified temporal region, fr=IOIO_0000031 RO_0002180 IOIO_0000030}\nIOIO_0000030::IOIO_0000030 JOIN IOIO_0000031::IOIO_0000031\n  {\n    IOIO_0000031_uid::IOIO_0000031_uid uid_domain::{en=uid human age at a specified temporal region statement, fr=uid IOIO_0000031}\n    IOIO_0000030_uid::IOIO_0000030_uid uid_domain::{en=uid human age at a specified temporal region, fr=uid IOIO_0000030}\n  } \nKEY {IOIO_0000031_uid, IOIO_0000030_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'HEPRO_0000025_BFO_0000051_HEPRO_0000030',
+    shortIri: 'HEPRO_0000025_BFO_0000051_HEPRO_0000030',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'BFO_0000051',
+    domainId: 'HEPRO_0000025',
+    rangeId: 'HEPRO_0000030',
+    label_en: 'health procedure agreement specification has part health procedure specification',
+    label_fr: 'HEPRO_0000025 BFO_0000051 HEPRO_0000030',
+    definition_en: 'A service agreement directive entity that aims to direct some health procedure. a core relation that holds between a whole and its part A directive information entity that aims to direct a health procedure.',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE HEPRO_0000025_BFO_0000051_HEPRO_0000030::HEPRO_0000025_BFO_0000051_HEPRO_0000030::{en=health procedure agreement specification has part health procedure specification, fr=HEPRO_0000025 BFO_0000051 HEPRO_0000030}\nHEPRO_0000030::HEPRO_0000030 JOIN HEPRO_0000025::HEPRO_0000025\n  {\n    HEPRO_0000025_uid::HEPRO_0000025_uid uid_domain::{en=uid health procedure agreement specification, fr=uid HEPRO_0000025}\n    HEPRO_0000030_uid::HEPRO_0000030_uid uid_domain::{en=uid health procedure specification, fr=uid HEPRO_0000030}\n  } \nKEY {HEPRO_0000025_uid, HEPRO_0000030_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'IAO_0000030_IAO_0000219_BFO_0000001',
+    shortIri: 'IAO_0000030_IAO_0000219_BFO_0000001',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000219',
+    domainId: 'IAO_0000030',
+    rangeId: 'BFO_0000001',
+    label_en: 'information content entity denotes entity',
+    label_fr: 'IAO_0000030 IAO_0000219 BFO_0000001',
+    definition_en: 'A generically dependent continuant that is about some thing. A primitive, instance-level, relation obtaining between an information content entity and some portion of reality. Denotation is what happens when someone creates an information content entity E in order to specifically refer to something. The only relation between E and the thing is that E can be used to "pick out" the thing. This relation connects those two together. Freedictionary.com sense 3: To signify directly; refer to specifically Entity',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE IAO_0000030_IAO_0000219_BFO_0000001::IAO_0000030_IAO_0000219_BFO_0000001::{en=information content entity denotes entity, fr=IAO_0000030 IAO_0000219 BFO_0000001}\nBFO_0000001::BFO_0000001 JOIN IAO_0000030::IAO_0000030\n  {\n    IAO_0000030_uid::IAO_0000030_uid uid_domain::{en=uid information content entity, fr=uid IAO_0000030}\n    BFO_0000001_uid::BFO_0000001_uid uid_domain::{en=uid entity, fr=uid BFO_0000001}\n  } \nKEY {IAO_0000030_uid, BFO_0000001_uid} \n'
+});
+
+CREATE (ax:ClassAxiom:Relvar {
+    relId: 'IAO_0000030_IAO_0000136_BFO_0000001',
+    shortIri: 'IAO_0000030_IAO_0000136_BFO_0000001',
+    schemaId: 'MPHPO',
+    origin: 'CLASSAXIOM',
+    propertyShortIri: 'IAO_0000219',
+    domainId: 'IAO_0000030',
+    rangeId: 'BFO_0000001',
+    label_en: 'information content entity is about entity',
+    label_fr: 'IAO_0000030 IAO_0000136 BFO_0000001',
+    definition_en: 'A generically dependent continuant that is about some thing. A (currently) primitive relation that relates an information artifact to an entity. Entity',
+    definition_fr: 'null null null',
+    description: 'JOINTABLE IAO_0000030_IAO_0000136_BFO_0000001::IAO_0000030_IAO_0000136_BFO_0000001::{en=information content entity is about entity, fr=IAO_0000030 IAO_0000136 BFO_0000001}\nBFO_0000001::BFO_0000001 JOIN IAO_0000030::IAO_0000030\n  {\n    IAO_0000030_uid::IAO_0000030_uid uid_domain::{en=uid information content entity, fr=uid IAO_0000030}\n    BFO_0000001_uid::BFO_0000001_uid uid_domain::{en=uid entity, fr=uid BFO_0000001}\n  } \nKEY {IAO_0000030_uid, BFO_0000001_uid} \n'
+});
+
+MATCH (child:Relvar {relId: 'ONTORELA_C3f6f3e4f'})
+MATCH (parent:Relvar {relId: 'Thing'})
+CREATE (child)-[:IS_A {fkId: 'fk0_ONTORELA_C3f6f3e4f', fkType: 'ISA', attOriginIds: 'ONTORELA_C3f6f3e4f_uid', attDestinationIds: 'Thing_uid', description: 'Thing::Thing{ONTORELA_C3f6f3e4f_uid::ONTORELA_C3f6f3e4f_uid} -> Thing::Thing{Thing_uid::Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'ONTORELA_C2875fe2d'})
+MATCH (parent:Relvar {relId: 'Thing'})
+CREATE (child)-[:IS_A {fkId: 'fk0_ONTORELA_C2875fe2d', fkType: 'ISA', attOriginIds: 'ONTORELA_C2875fe2d_uid', attDestinationIds: 'Thing_uid', description: 'Thing::Thing{ONTORELA_C2875fe2d_uid::ONTORELA_C2875fe2d_uid} -> Thing::Thing{Thing_uid::Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OGMS_0000141'})
+MATCH (parent:Relvar {relId: 'BFO_0000015'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OGMS_0000141', fkType: 'ISA', attOriginIds: 'OGMS_0000141_uid', attDestinationIds: 'BFO_0000015_uid', description: 'BFO_0000015::BFO_0000015{OGMS_0000141_uid::OGMS_0000141_uid} -> BFO_0000015::BFO_0000015{BFO_0000015_uid::BFO_0000015_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000028'})
+MATCH (parent:Relvar {relId: 'BFO_0000006'})
+CREATE (child)-[:IS_A {fkId: 'fk0_BFO_0000028', fkType: 'ISA', attOriginIds: 'BFO_0000028_uid', attDestinationIds: 'BFO_0000006_uid', description: 'BFO_0000006::BFO_0000006{BFO_0000028_uid::BFO_0000028_uid} -> BFO_0000006::BFO_0000006{BFO_0000006_uid::BFO_0000006_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IAO_0000109'})
+MATCH (parent:Relvar {relId: 'IAO_0000027'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IAO_0000109', fkType: 'ISA', attOriginIds: 'IAO_0000109_uid', attDestinationIds: 'IAO_0000027_uid', description: 'IAO_0000027::IAO_0000027{IAO_0000109_uid::IAO_0000109_uid} -> IAO_0000027::IAO_0000027{IAO_0000027_uid::IAO_0000027_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OMRSE_00000061'})
+MATCH (parent:Relvar {relId: 'BFO_0000040'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OMRSE_00000061', fkType: 'ISA', attOriginIds: 'OMRSE_00000061_uid', attDestinationIds: 'BFO_0000040_uid', description: 'BFO_0000040::BFO_0000040{OMRSE_00000061_uid::OMRSE_00000061_uid} -> BFO_0000040::BFO_0000040{BFO_0000040_uid::BFO_0000040_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OMRSE_00000204'})
+MATCH (parent:Relvar {relId: 'IAO_0000030'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OMRSE_00000204', fkType: 'ISA', attOriginIds: 'OMRSE_00000204_uid', attDestinationIds: 'IAO_0000030_uid', description: 'IAO_0000030::IAO_0000030{OMRSE_00000204_uid::OMRSE_00000204_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000022'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000033'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HEPRO_0000022', fkType: 'ISA', attOriginIds: 'HEPRO_0000022_uid', attDestinationIds: 'OpenLHS-Core_0000033_uid', description: 'OpenLHS-Core_0000033::OpenLHS-Core_0000033{HEPRO_0000022_uid::HEPRO_0000022_uid} -> OpenLHS-Core_0000033::OpenLHS-Core_0000033{OpenLHS-Core_0000033_uid::OpenLHS-Core_0000033_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OMRSE_00000062'})
+MATCH (parent:Relvar {relId: 'OMRSE_00000061'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OMRSE_00000062', fkType: 'ISA', attOriginIds: 'OMRSE_00000062_uid', attDestinationIds: 'OMRSE_00000061_uid', description: 'OMRSE_00000061::OMRSE_00000061{OMRSE_00000062_uid::OMRSE_00000062_uid} -> OMRSE_00000061::OMRSE_00000061{OMRSE_00000061_uid::OMRSE_00000061_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000130'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000065'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HEPRO_0000130', fkType: 'ISA', attOriginIds: 'HEPRO_0000130_uid', attDestinationIds: 'OpenLHS-Core_0000065_uid', description: 'OpenLHS-Core_0000065::OpenLHS-Core_0000065{HEPRO_0000130_uid::HEPRO_0000130_uid} -> OpenLHS-Core_0000065::OpenLHS-Core_0000065{OpenLHS-Core_0000065_uid::OpenLHS-Core_0000065_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000129'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000065'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HEPRO_0000129', fkType: 'ISA', attOriginIds: 'HEPRO_0000129_uid', attDestinationIds: 'OpenLHS-Core_0000065_uid', description: 'OpenLHS-Core_0000065::OpenLHS-Core_0000065{HEPRO_0000129_uid::HEPRO_0000129_uid} -> OpenLHS-Core_0000065::OpenLHS-Core_0000065{OpenLHS-Core_0000065_uid::OpenLHS-Core_0000065_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000002'})
+MATCH (parent:Relvar {relId: 'BFO_0000001'})
+CREATE (child)-[:IS_A {fkId: 'fk0_BFO_0000002', fkType: 'ISA', attOriginIds: 'BFO_0000002_uid', attDestinationIds: 'BFO_0000001_uid', description: 'BFO_0000001::BFO_0000001{BFO_0000002_uid::BFO_0000002_uid} -> BFO_0000001::BFO_0000001{BFO_0000001_uid::BFO_0000001_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'MPHPO_0000010'})
+MATCH (parent:Relvar {relId: 'IOIO_0000011'})
+CREATE (child)-[:IS_A {fkId: 'fk0_MPHPO_0000010', fkType: 'ISA', attOriginIds: 'MPHPO_0000010_uid', attDestinationIds: 'IOIO_0000011_uid', description: 'IOIO_0000011::IOIO_0000011{MPHPO_0000010_uid::MPHPO_0000010_uid} -> IOIO_0000011::IOIO_0000011{IOIO_0000011_uid::IOIO_0000011_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IOIO_0000004'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000011'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IOIO_0000004', fkType: 'ISA', attOriginIds: 'IOIO_0000004_uid', attDestinationIds: 'OpenLHS-Core_0000011_uid', description: 'OpenLHS-Core_0000011::OpenLHS-Core_0000011{IOIO_0000004_uid::IOIO_0000004_uid} -> OpenLHS-Core_0000011::OpenLHS-Core_0000011{OpenLHS-Core_0000011_uid::OpenLHS-Core_0000011_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000127'})
+MATCH (parent:Relvar {relId: 'HEPRO_0000125'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HEPRO_0000127', fkType: 'ISA', attOriginIds: 'HEPRO_0000127_uid', attDestinationIds: 'HEPRO_0000125_uid', description: 'HEPRO_0000125::HEPRO_0000125{HEPRO_0000127_uid::HEPRO_0000127_uid} -> HEPRO_0000125::HEPRO_0000125{HEPRO_0000125_uid::HEPRO_0000125_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'MPHPO_0000018'})
+MATCH (parent:Relvar {relId: 'IAO_0000577'})
+CREATE (child)-[:IS_A {fkId: 'fk0_MPHPO_0000018', fkType: 'ISA', attOriginIds: 'MPHPO_0000018_uid', attDestinationIds: 'IAO_0000577_uid', description: 'IAO_0000577::IAO_0000577{MPHPO_0000018_uid::MPHPO_0000018_uid} -> IAO_0000577::IAO_0000577{IAO_0000577_uid::IAO_0000577_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000049'})
+MATCH (parent:Relvar {relId: 'HOSO_0000046'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000049', fkType: 'ISA', attOriginIds: 'HOSO_0000049_uid', attDestinationIds: 'HOSO_0000046_uid', description: 'HOSO_0000046::HOSO_0000046{HOSO_0000049_uid::HOSO_0000049_uid} -> HOSO_0000046::HOSO_0000046{HOSO_0000046_uid::HOSO_0000046_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000026'})
+MATCH (parent:Relvar {relId: 'IAO_0000646'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OpenLHS-Core_0000026', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000026_uid', attDestinationIds: 'IAO_0000646_uid', description: 'IAO_0000646::IAO_0000646{OpenLHS-Core_0000026_uid::OpenLHS-Core_0000026_uid} -> IAO_0000646::IAO_0000646{IAO_0000646_uid::IAO_0000646_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000076'})
+MATCH (parent:Relvar {relId: 'HOSO_0000075'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000076', fkType: 'ISA', attOriginIds: 'HOSO_0000076_uid', attDestinationIds: 'HOSO_0000075_uid', description: 'HOSO_0000075::HOSO_0000075{HOSO_0000076_uid::HOSO_0000076_uid} -> HOSO_0000075::HOSO_0000075{HOSO_0000075_uid::HOSO_0000075_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000004'})
+MATCH (parent:Relvar {relId: 'OBI_0000011'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HEPRO_0000004', fkType: 'ISA', attOriginIds: 'HEPRO_0000004_uid', attDestinationIds: 'OBI_0000011_uid', description: 'OBI_0000011::OBI_0000011{HEPRO_0000004_uid::HEPRO_0000004_uid} -> OBI_0000011::OBI_0000011{OBI_0000011_uid::OBI_0000011_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'SEPIO_0000174'})
+MATCH (parent:Relvar {relId: 'IAO_0000030'})
+CREATE (child)-[:IS_A {fkId: 'fk0_SEPIO_0000174', fkType: 'ISA', attOriginIds: 'SEPIO_0000174_uid', attDestinationIds: 'IAO_0000030_uid', description: 'IAO_0000030::IAO_0000030{SEPIO_0000174_uid::SEPIO_0000174_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000051'})
+MATCH (parent:Relvar {relId: 'HOSO_0000050'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000051', fkType: 'ISA', attOriginIds: 'HOSO_0000051_uid', attDestinationIds: 'HOSO_0000050_uid', description: 'HOSO_0000050::HOSO_0000050{HOSO_0000051_uid::HOSO_0000051_uid} -> HOSO_0000050::HOSO_0000050{HOSO_0000050_uid::HOSO_0000050_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000011'})
+MATCH (parent:Relvar {relId: 'BFO_0000023'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HEPRO_0000011', fkType: 'ISA', attOriginIds: 'HEPRO_0000011_uid', attDestinationIds: 'BFO_0000023_uid', description: 'BFO_0000023::BFO_0000023{HEPRO_0000011_uid::HEPRO_0000011_uid} -> BFO_0000023::BFO_0000023{BFO_0000023_uid::BFO_0000023_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000080'})
+MATCH (parent:Relvar {relId: 'IOIO_0000022'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000080', fkType: 'ISA', attOriginIds: 'HOSO_0000080_uid', attDestinationIds: 'IOIO_0000022_uid', description: 'IOIO_0000022::IOIO_0000022{HOSO_0000080_uid::HOSO_0000080_uid} -> IOIO_0000022::IOIO_0000022{IOIO_0000022_uid::IOIO_0000022_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000033'})
+MATCH (parent:Relvar {relId: 'HOSO_0000028'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000033', fkType: 'ISA', attOriginIds: 'HOSO_0000033_uid', attDestinationIds: 'HOSO_0000028_uid', description: 'HOSO_0000028::HOSO_0000028{HOSO_0000033_uid::HOSO_0000033_uid} -> HOSO_0000028::HOSO_0000028{HOSO_0000028_uid::HOSO_0000028_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IOIO_0000021'})
+MATCH (parent:Relvar {relId: 'IOIO_0000006'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IOIO_0000021', fkType: 'ISA', attOriginIds: 'IOIO_0000021_uid', attDestinationIds: 'IOIO_0000006_uid', description: 'IOIO_0000006::IOIO_0000006{IOIO_0000021_uid::IOIO_0000021_uid} -> IOIO_0000006::IOIO_0000006{IOIO_0000006_uid::IOIO_0000006_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000145'})
+MATCH (parent:Relvar {relId: 'BFO_0000019'})
+CREATE (child)-[:IS_A {fkId: 'fk0_BFO_0000145', fkType: 'ISA', attOriginIds: 'BFO_0000145_uid', attDestinationIds: 'BFO_0000019_uid', description: 'BFO_0000019::BFO_0000019{BFO_0000145_uid::BFO_0000145_uid} -> BFO_0000019::BFO_0000019{BFO_0000019_uid::BFO_0000019_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000017'})
+MATCH (parent:Relvar {relId: 'HOSO_0000012'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000017', fkType: 'ISA', attOriginIds: 'HOSO_0000017_uid', attDestinationIds: 'HOSO_0000012_uid', description: 'HOSO_0000012::HOSO_0000012{HOSO_0000017_uid::HOSO_0000017_uid} -> HOSO_0000012::HOSO_0000012{HOSO_0000012_uid::HOSO_0000012_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000101'})
+MATCH (parent:Relvar {relId: 'IAO_0020000'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HEPRO_0000101', fkType: 'ISA', attOriginIds: 'HEPRO_0000101_uid', attDestinationIds: 'IAO_0020000_uid', description: 'IAO_0020000::IAO_0020000{HEPRO_0000101_uid::HEPRO_0000101_uid} -> IAO_0020000::IAO_0020000{IAO_0020000_uid::IAO_0020000_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000037'})
+MATCH (parent:Relvar {relId: 'HOSO_0000026'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000037', fkType: 'ISA', attOriginIds: 'HOSO_0000037_uid', attDestinationIds: 'HOSO_0000026_uid', description: 'HOSO_0000026::HOSO_0000026{HOSO_0000037_uid::HOSO_0000037_uid} -> HOSO_0000026::HOSO_0000026{HOSO_0000026_uid::HOSO_0000026_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000051'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000030'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OpenLHS-Core_0000051', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000051_uid', attDestinationIds: 'OpenLHS-Core_0000030_uid', description: 'OpenLHS-Core_0000030::OpenLHS-Core_0000030{OpenLHS-Core_0000051_uid::OpenLHS-Core_0000051_uid} -> OpenLHS-Core_0000030::OpenLHS-Core_0000030{OpenLHS-Core_0000030_uid::OpenLHS-Core_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000074'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000028'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000074', fkType: 'ISA', attOriginIds: 'HOSO_0000074_uid', attDestinationIds: 'OpenLHS-Core_0000028_uid', description: 'OpenLHS-Core_0000028::OpenLHS-Core_0000028{HOSO_0000074_uid::HOSO_0000074_uid} -> OpenLHS-Core_0000028::OpenLHS-Core_0000028{OpenLHS-Core_0000028_uid::OpenLHS-Core_0000028_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OBI_0000260'})
+MATCH (parent:Relvar {relId: 'BFO_0000017'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OBI_0000260', fkType: 'ISA', attOriginIds: 'OBI_0000260_uid', attDestinationIds: 'BFO_0000017_uid', description: 'BFO_0000017::BFO_0000017{OBI_0000260_uid::OBI_0000260_uid} -> BFO_0000017::BFO_0000017{BFO_0000017_uid::BFO_0000017_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000043'})
+MATCH (parent:Relvar {relId: 'OBI_0000260'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OpenLHS-Core_0000043', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000043_uid', attDestinationIds: 'OBI_0000260_uid', description: 'OBI_0000260::OBI_0000260{OpenLHS-Core_0000043_uid::OpenLHS-Core_0000043_uid} -> OBI_0000260::OBI_0000260{OBI_0000260_uid::OBI_0000260_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IAO_0000027'})
+MATCH (parent:Relvar {relId: 'IAO_0000030'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IAO_0000027', fkType: 'ISA', attOriginIds: 'IAO_0000027_uid', attDestinationIds: 'IAO_0000030_uid', description: 'IAO_0000030::IAO_0000030{IAO_0000027_uid::IAO_0000027_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000030'})
+MATCH (parent:Relvar {relId: 'HOSO_0000029'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000030', fkType: 'ISA', attOriginIds: 'HOSO_0000030_uid', attDestinationIds: 'HOSO_0000029_uid', description: 'HOSO_0000029::HOSO_0000029{HOSO_0000030_uid::HOSO_0000030_uid} -> HOSO_0000029::HOSO_0000029{HOSO_0000029_uid::HOSO_0000029_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000044'})
+MATCH (parent:Relvar {relId: 'HOSO_0000011'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000044', fkType: 'ISA', attOriginIds: 'HOSO_0000044_uid', attDestinationIds: 'HOSO_0000011_uid', description: 'HOSO_0000011::HOSO_0000011{HOSO_0000044_uid::HOSO_0000044_uid} -> HOSO_0000011::HOSO_0000011{HOSO_0000011_uid::HOSO_0000011_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000083'})
+MATCH (parent:Relvar {relId: 'NCBITaxon_9606'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000083', fkType: 'ISA', attOriginIds: 'HOSO_0000083_uid', attDestinationIds: 'NCBITaxon_9606_uid', description: 'NCBITaxon_9606::NCBITaxon_9606{HOSO_0000083_uid::HOSO_0000083_uid} -> NCBITaxon_9606::NCBITaxon_9606{NCBITaxon_9606_uid::NCBITaxon_9606_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000142'})
+MATCH (parent:Relvar {relId: 'HOSO_0000140'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000142', fkType: 'ISA', attOriginIds: 'HOSO_0000142_uid', attDestinationIds: 'HOSO_0000140_uid', description: 'HOSO_0000140::HOSO_0000140{HOSO_0000142_uid::HOSO_0000142_uid} -> HOSO_0000140::HOSO_0000140{HOSO_0000140_uid::HOSO_0000140_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000020'})
+MATCH (parent:Relvar {relId: 'BFO_0000002'})
+CREATE (child)-[:IS_A {fkId: 'fk0_BFO_0000020', fkType: 'ISA', attOriginIds: 'BFO_0000020_uid', attDestinationIds: 'BFO_0000002_uid', description: 'BFO_0000002::BFO_0000002{BFO_0000020_uid::BFO_0000020_uid} -> BFO_0000002::BFO_0000002{BFO_0000002_uid::BFO_0000002_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000001'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000027'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HEPRO_0000001', fkType: 'ISA', attOriginIds: 'HEPRO_0000001_uid', attDestinationIds: 'OpenLHS-Core_0000027_uid', description: 'OpenLHS-Core_0000027::OpenLHS-Core_0000027{HEPRO_0000001_uid::HEPRO_0000001_uid} -> OpenLHS-Core_0000027::OpenLHS-Core_0000027{OpenLHS-Core_0000027_uid::OpenLHS-Core_0000027_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000043'})
+MATCH (parent:Relvar {relId: 'HOSO_0000032'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000043', fkType: 'ISA', attOriginIds: 'HOSO_0000043_uid', attDestinationIds: 'HOSO_0000032_uid', description: 'HOSO_0000032::HOSO_0000032{HOSO_0000043_uid::HOSO_0000043_uid} -> HOSO_0000032::HOSO_0000032{HOSO_0000032_uid::HOSO_0000032_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IAO_0000310'})
+MATCH (parent:Relvar {relId: 'IAO_0000030'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IAO_0000310', fkType: 'ISA', attOriginIds: 'IAO_0000310_uid', attDestinationIds: 'IAO_0000030_uid', description: 'IAO_0000030::IAO_0000030{IAO_0000310_uid::IAO_0000310_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000100'})
+MATCH (parent:Relvar {relId: 'IAO_0020000'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HEPRO_0000100', fkType: 'ISA', attOriginIds: 'HEPRO_0000100_uid', attDestinationIds: 'IAO_0020000_uid', description: 'IAO_0020000::IAO_0020000{HEPRO_0000100_uid::HEPRO_0000100_uid} -> IAO_0020000::IAO_0020000{IAO_0020000_uid::IAO_0020000_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000067'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000033'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000067', fkType: 'ISA', attOriginIds: 'HOSO_0000067_uid', attDestinationIds: 'OpenLHS-Core_0000033_uid', description: 'OpenLHS-Core_0000033::OpenLHS-Core_0000033{HOSO_0000067_uid::HOSO_0000067_uid} -> OpenLHS-Core_0000033::OpenLHS-Core_0000033{OpenLHS-Core_0000033_uid::OpenLHS-Core_0000033_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OGMS_0000102'})
+MATCH (parent:Relvar {relId: 'OGMS_0000045'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OGMS_0000102', fkType: 'ISA', attOriginIds: 'OGMS_0000102_uid', attDestinationIds: 'OGMS_0000045_uid', description: 'OGMS_0000045::OGMS_0000045{OGMS_0000102_uid::OGMS_0000102_uid} -> OGMS_0000045::OGMS_0000045{OGMS_0000045_uid::OGMS_0000045_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000007'})
+MATCH (parent:Relvar {relId: 'IAO_0000030'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HEPRO_0000007', fkType: 'ISA', attOriginIds: 'HEPRO_0000007_uid', attDestinationIds: 'IAO_0000030_uid', description: 'IAO_0000030::IAO_0000030{HEPRO_0000007_uid::HEPRO_0000007_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000023'})
+MATCH (parent:Relvar {relId: 'IAO_0020000'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OpenLHS-Core_0000023', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000023_uid', attDestinationIds: 'IAO_0020000_uid', description: 'IAO_0020000::IAO_0020000{OpenLHS-Core_0000023_uid::OpenLHS-Core_0000023_uid} -> IAO_0020000::IAO_0020000{IAO_0020000_uid::IAO_0020000_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000021'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000034'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HEPRO_0000021', fkType: 'ISA', attOriginIds: 'HEPRO_0000021_uid', attDestinationIds: 'OpenLHS-Core_0000034_uid', description: 'OpenLHS-Core_0000034::OpenLHS-Core_0000034{HEPRO_0000021_uid::HEPRO_0000021_uid} -> OpenLHS-Core_0000034::OpenLHS-Core_0000034{OpenLHS-Core_0000034_uid::OpenLHS-Core_0000034_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000023'})
+MATCH (parent:Relvar {relId: 'IAO_0020000'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000023', fkType: 'ISA', attOriginIds: 'HOSO_0000023_uid', attDestinationIds: 'IAO_0020000_uid', description: 'IAO_0020000::IAO_0020000{HOSO_0000023_uid::HOSO_0000023_uid} -> IAO_0020000::IAO_0020000{IAO_0020000_uid::IAO_0020000_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000006'})
+MATCH (parent:Relvar {relId: 'OBI_0000011'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HEPRO_0000006', fkType: 'ISA', attOriginIds: 'HEPRO_0000006_uid', attDestinationIds: 'OBI_0000011_uid', description: 'OBI_0000011::OBI_0000011{HEPRO_0000006_uid::HEPRO_0000006_uid} -> OBI_0000011::OBI_0000011{OBI_0000011_uid::OBI_0000011_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000123'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000023'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000123', fkType: 'ISA', attOriginIds: 'HOSO_0000123_uid', attDestinationIds: 'OpenLHS-Core_0000023_uid', description: 'OpenLHS-Core_0000023::OpenLHS-Core_0000023{HOSO_0000123_uid::HOSO_0000123_uid} -> OpenLHS-Core_0000023::OpenLHS-Core_0000023{OpenLHS-Core_0000023_uid::OpenLHS-Core_0000023_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000146'})
+MATCH (parent:Relvar {relId: 'BFO_0000140'})
+CREATE (child)-[:IS_A {fkId: 'fk0_BFO_0000146', fkType: 'ISA', attOriginIds: 'BFO_0000146_uid', attDestinationIds: 'BFO_0000140_uid', description: 'BFO_0000140::BFO_0000140{BFO_0000146_uid::BFO_0000146_uid} -> BFO_0000140::BFO_0000140{BFO_0000140_uid::BFO_0000140_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IAO_0000578'})
+MATCH (parent:Relvar {relId: 'IAO_0020000'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IAO_0000578', fkType: 'ISA', attOriginIds: 'IAO_0000578_uid', attDestinationIds: 'IAO_0020000_uid', description: 'IAO_0020000::IAO_0020000{IAO_0000578_uid::IAO_0000578_uid} -> IAO_0020000::IAO_0020000{IAO_0020000_uid::IAO_0020000_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IOIO_0000010'})
+MATCH (parent:Relvar {relId: 'IAO_0000030'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IOIO_0000010', fkType: 'ISA', attOriginIds: 'IOIO_0000010_uid', attDestinationIds: 'IAO_0000030_uid', description: 'IAO_0000030::IAO_0000030{IOIO_0000010_uid::IOIO_0000010_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'MPHPO_0000015'})
+MATCH (parent:Relvar {relId: 'HOSO_0000150'})
+CREATE (child)-[:IS_A {fkId: 'fk0_MPHPO_0000015', fkType: 'ISA', attOriginIds: 'MPHPO_0000015_uid', attDestinationIds: 'HOSO_0000150_uid', description: 'HOSO_0000150::HOSO_0000150{MPHPO_0000015_uid::MPHPO_0000015_uid} -> HOSO_0000150::HOSO_0000150{HOSO_0000150_uid::HOSO_0000150_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000016'})
+MATCH (parent:Relvar {relId: 'IAO_0000030'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HEPRO_0000016', fkType: 'ISA', attOriginIds: 'HEPRO_0000016_uid', attDestinationIds: 'IAO_0000030_uid', description: 'IAO_0000030::IAO_0000030{HEPRO_0000016_uid::HEPRO_0000016_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000073'})
+MATCH (parent:Relvar {relId: 'HOSO_0000077'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000073', fkType: 'ISA', attOriginIds: 'HOSO_0000073_uid', attDestinationIds: 'HOSO_0000077_uid', description: 'HOSO_0000077::HOSO_0000077{HOSO_0000073_uid::HOSO_0000073_uid} -> HOSO_0000077::HOSO_0000077{HOSO_0000077_uid::HOSO_0000077_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000145'})
+MATCH (parent:Relvar {relId: 'IAO_0000030'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000145', fkType: 'ISA', attOriginIds: 'HOSO_0000145_uid', attDestinationIds: 'IAO_0000030_uid', description: 'IAO_0000030::IAO_0000030{HOSO_0000145_uid::HOSO_0000145_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000026'})
+MATCH (parent:Relvar {relId: 'HOSO_0000139'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000026', fkType: 'ISA', attOriginIds: 'HOSO_0000026_uid', attDestinationIds: 'HOSO_0000139_uid', description: 'HOSO_0000139::HOSO_0000139{HOSO_0000026_uid::HOSO_0000026_uid} -> HOSO_0000139::HOSO_0000139{HOSO_0000139_uid::HOSO_0000139_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000031'})
+MATCH (parent:Relvar {relId: 'BFO_0000002'})
+CREATE (child)-[:IS_A {fkId: 'fk0_BFO_0000031', fkType: 'ISA', attOriginIds: 'BFO_0000031_uid', attDestinationIds: 'BFO_0000002_uid', description: 'BFO_0000002::BFO_0000002{BFO_0000031_uid::BFO_0000031_uid} -> BFO_0000002::BFO_0000002{BFO_0000002_uid::BFO_0000002_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000009'})
+MATCH (parent:Relvar {relId: 'BFO_0000031'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OpenLHS-Core_0000009', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000009_uid', attDestinationIds: 'BFO_0000031_uid', description: 'BFO_0000031::BFO_0000031{OpenLHS-Core_0000009_uid::OpenLHS-Core_0000009_uid} -> BFO_0000031::BFO_0000031{BFO_0000031_uid::BFO_0000031_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'MPHPO_0000019'})
+MATCH (parent:Relvar {relId: 'IAO_0000579'})
+CREATE (child)-[:IS_A {fkId: 'fk0_MPHPO_0000019', fkType: 'ISA', attOriginIds: 'MPHPO_0000019_uid', attDestinationIds: 'IAO_0000579_uid', description: 'IAO_0000579::IAO_0000579{MPHPO_0000019_uid::MPHPO_0000019_uid} -> IAO_0000579::IAO_0000579{IAO_0000579_uid::IAO_0000579_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000137'})
+MATCH (parent:Relvar {relId: 'NCBITaxon_9606'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000137', fkType: 'ISA', attOriginIds: 'HOSO_0000137_uid', attDestinationIds: 'NCBITaxon_9606_uid', description: 'NCBITaxon_9606::NCBITaxon_9606{HOSO_0000137_uid::HOSO_0000137_uid} -> NCBITaxon_9606::NCBITaxon_9606{NCBITaxon_9606_uid::NCBITaxon_9606_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000182'})
+MATCH (parent:Relvar {relId: 'BFO_0000015'})
+CREATE (child)-[:IS_A {fkId: 'fk0_BFO_0000182', fkType: 'ISA', attOriginIds: 'BFO_0000182_uid', attDestinationIds: 'BFO_0000015_uid', description: 'BFO_0000015::BFO_0000015{BFO_0000182_uid::BFO_0000182_uid} -> BFO_0000015::BFO_0000015{BFO_0000015_uid::BFO_0000015_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000038'})
+MATCH (parent:Relvar {relId: 'HOSO_0000028'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000038', fkType: 'ISA', attOriginIds: 'HOSO_0000038_uid', attDestinationIds: 'HOSO_0000028_uid', description: 'HOSO_0000028::HOSO_0000028{HOSO_0000038_uid::HOSO_0000038_uid} -> HOSO_0000028::HOSO_0000028{HOSO_0000028_uid::HOSO_0000028_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000054'})
+MATCH (parent:Relvar {relId: 'IAO_0020000'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000054', fkType: 'ISA', attOriginIds: 'HOSO_0000054_uid', attDestinationIds: 'IAO_0020000_uid', description: 'IAO_0020000::IAO_0020000{HOSO_0000054_uid::HOSO_0000054_uid} -> IAO_0020000::IAO_0020000{IAO_0020000_uid::IAO_0020000_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OBI_0000011'})
+MATCH (parent:Relvar {relId: 'BFO_0000015'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OBI_0000011', fkType: 'ISA', attOriginIds: 'OBI_0000011_uid', attDestinationIds: 'BFO_0000015_uid', description: 'BFO_0000015::BFO_0000015{OBI_0000011_uid::OBI_0000011_uid} -> BFO_0000015::BFO_0000015{BFO_0000015_uid::BFO_0000015_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000008'})
+MATCH (parent:Relvar {relId: 'OBI_0000245'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000008', fkType: 'ISA', attOriginIds: 'HOSO_0000008_uid', attDestinationIds: 'OBI_0000245_uid', description: 'OBI_0000245::OBI_0000245{HOSO_0000008_uid::HOSO_0000008_uid} -> OBI_0000245::OBI_0000245{OBI_0000245_uid::OBI_0000245_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OGMS_0000031'})
+MATCH (parent:Relvar {relId: 'BFO_0000016'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OGMS_0000031', fkType: 'ISA', attOriginIds: 'OGMS_0000031_uid', attDestinationIds: 'BFO_0000016_uid', description: 'BFO_0000016::BFO_0000016{OGMS_0000031_uid::OGMS_0000031_uid} -> BFO_0000016::BFO_0000016{BFO_0000016_uid::BFO_0000016_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000003'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000028'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000003', fkType: 'ISA', attOriginIds: 'HOSO_0000003_uid', attDestinationIds: 'OpenLHS-Core_0000028_uid', description: 'OpenLHS-Core_0000028::OpenLHS-Core_0000028{HOSO_0000003_uid::HOSO_0000003_uid} -> OpenLHS-Core_0000028::OpenLHS-Core_0000028{OpenLHS-Core_0000028_uid::OpenLHS-Core_0000028_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000022'})
+MATCH (parent:Relvar {relId: 'IAO_0020000'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000022', fkType: 'ISA', attOriginIds: 'HOSO_0000022_uid', attDestinationIds: 'IAO_0020000_uid', description: 'IAO_0020000::IAO_0020000{HOSO_0000022_uid::HOSO_0000022_uid} -> IAO_0020000::IAO_0020000{IAO_0020000_uid::IAO_0020000_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000056'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000034'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000056', fkType: 'ISA', attOriginIds: 'HOSO_0000056_uid', attDestinationIds: 'OpenLHS-Core_0000034_uid', description: 'OpenLHS-Core_0000034::OpenLHS-Core_0000034{HOSO_0000056_uid::HOSO_0000056_uid} -> OpenLHS-Core_0000034::OpenLHS-Core_0000034{OpenLHS-Core_0000034_uid::OpenLHS-Core_0000034_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000152'})
+MATCH (parent:Relvar {relId: 'HOSO_0000151'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000152', fkType: 'ISA', attOriginIds: 'HOSO_0000152_uid', attDestinationIds: 'HOSO_0000151_uid', description: 'HOSO_0000151::HOSO_0000151{HOSO_0000152_uid::HOSO_0000152_uid} -> HOSO_0000151::HOSO_0000151{HOSO_0000151_uid::HOSO_0000151_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000070'})
+MATCH (parent:Relvar {relId: 'HOSO_0000068'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000070', fkType: 'ISA', attOriginIds: 'HOSO_0000070_uid', attDestinationIds: 'HOSO_0000068_uid', description: 'HOSO_0000068::HOSO_0000068{HOSO_0000070_uid::HOSO_0000070_uid} -> HOSO_0000068::HOSO_0000068{HOSO_0000068_uid::HOSO_0000068_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000023'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000034'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HEPRO_0000023', fkType: 'ISA', attOriginIds: 'HEPRO_0000023_uid', attDestinationIds: 'OpenLHS-Core_0000034_uid', description: 'OpenLHS-Core_0000034::OpenLHS-Core_0000034{HEPRO_0000023_uid::HEPRO_0000023_uid} -> OpenLHS-Core_0000034::OpenLHS-Core_0000034{OpenLHS-Core_0000034_uid::OpenLHS-Core_0000034_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IAO_0000005'})
+MATCH (parent:Relvar {relId: 'IAO_0000033'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IAO_0000005', fkType: 'ISA', attOriginIds: 'IAO_0000005_uid', attDestinationIds: 'IAO_0000033_uid', description: 'IAO_0000033::IAO_0000033{IAO_0000005_uid::IAO_0000005_uid} -> IAO_0000033::IAO_0000033{IAO_0000033_uid::IAO_0000033_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000010'})
+MATCH (parent:Relvar {relId: 'SEPIO_0000174'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OpenLHS-Core_0000010', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000010_uid', attDestinationIds: 'SEPIO_0000174_uid', description: 'SEPIO_0000174::SEPIO_0000174{OpenLHS-Core_0000010_uid::OpenLHS-Core_0000010_uid} -> SEPIO_0000174::SEPIO_0000174{SEPIO_0000174_uid::SEPIO_0000174_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IOIO_0000020'})
+MATCH (parent:Relvar {relId: 'IOIO_0000005'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IOIO_0000020', fkType: 'ISA', attOriginIds: 'IOIO_0000020_uid', attDestinationIds: 'IOIO_0000005_uid', description: 'IOIO_0000005::IOIO_0000005{IOIO_0000020_uid::IOIO_0000020_uid} -> IOIO_0000005::IOIO_0000005{IOIO_0000005_uid::IOIO_0000005_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000020'})
+MATCH (parent:Relvar {relId: 'IAO_0000422'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OpenLHS-Core_0000020', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000020_uid', attDestinationIds: 'IAO_0000422_uid', description: 'IAO_0000422::IAO_0000422{OpenLHS-Core_0000020_uid::OpenLHS-Core_0000020_uid} -> IAO_0000422::IAO_0000422{IAO_0000422_uid::IAO_0000422_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000013'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000036'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000013', fkType: 'ISA', attOriginIds: 'HOSO_0000013_uid', attDestinationIds: 'OpenLHS-Core_0000036_uid', description: 'OpenLHS-Core_0000036::OpenLHS-Core_0000036{HOSO_0000013_uid::HOSO_0000013_uid} -> OpenLHS-Core_0000036::OpenLHS-Core_0000036{OpenLHS-Core_0000036_uid::OpenLHS-Core_0000036_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000030'})
+MATCH (parent:Relvar {relId: 'BFO_0000040'})
+CREATE (child)-[:IS_A {fkId: 'fk0_BFO_0000030', fkType: 'ISA', attOriginIds: 'BFO_0000030_uid', attDestinationIds: 'BFO_0000040_uid', description: 'BFO_0000040::BFO_0000040{BFO_0000030_uid::BFO_0000030_uid} -> BFO_0000040::BFO_0000040{BFO_0000040_uid::BFO_0000040_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OMRSE_00000209'})
+MATCH (parent:Relvar {relId: 'OMRSE_00000204'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OMRSE_00000209', fkType: 'ISA', attOriginIds: 'OMRSE_00000209_uid', attDestinationIds: 'OMRSE_00000204_uid', description: 'OMRSE_00000204::OMRSE_00000204{OMRSE_00000209_uid::OMRSE_00000209_uid} -> OMRSE_00000204::OMRSE_00000204{OMRSE_00000204_uid::OMRSE_00000204_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000142'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000020'})
+CREATE (child)-[:IS_A {fkId: 'fk1_HOSO_0000142', fkType: 'ISA', attOriginIds: 'HOSO_0000142_uid', attDestinationIds: 'OpenLHS-Core_0000020_uid', description: 'OpenLHS-Core_0000020::OpenLHS-Core_0000020{HOSO_0000142_uid::HOSO_0000142_uid} -> OpenLHS-Core_0000020::OpenLHS-Core_0000020{OpenLHS-Core_0000020_uid::OpenLHS-Core_0000020_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000023'})
+MATCH (parent:Relvar {relId: 'BFO_0000017'})
+CREATE (child)-[:IS_A {fkId: 'fk0_BFO_0000023', fkType: 'ISA', attOriginIds: 'BFO_0000023_uid', attDestinationIds: 'BFO_0000017_uid', description: 'BFO_0000017::BFO_0000017{BFO_0000023_uid::BFO_0000023_uid} -> BFO_0000017::BFO_0000017{BFO_0000017_uid::BFO_0000017_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000021'})
+MATCH (parent:Relvar {relId: 'IAO_0020000'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OpenLHS-Core_0000021', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000021_uid', attDestinationIds: 'IAO_0020000_uid', description: 'IAO_0020000::IAO_0020000{OpenLHS-Core_0000021_uid::OpenLHS-Core_0000021_uid} -> IAO_0020000::IAO_0020000{IAO_0020000_uid::IAO_0020000_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IOIO_0000011'})
+MATCH (parent:Relvar {relId: 'IOIO_0000010'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IOIO_0000011', fkType: 'ISA', attOriginIds: 'IOIO_0000011_uid', attDestinationIds: 'IOIO_0000010_uid', description: 'IOIO_0000010::IOIO_0000010{IOIO_0000011_uid::IOIO_0000011_uid} -> IOIO_0000010::IOIO_0000010{IOIO_0000010_uid::IOIO_0000010_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000086'})
+MATCH (parent:Relvar {relId: 'HOSO_0000074'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000086', fkType: 'ISA', attOriginIds: 'HOSO_0000086_uid', attDestinationIds: 'HOSO_0000074_uid', description: 'HOSO_0000074::HOSO_0000074{HOSO_0000086_uid::HOSO_0000086_uid} -> HOSO_0000074::HOSO_0000074{HOSO_0000074_uid::HOSO_0000074_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000035'})
+MATCH (parent:Relvar {relId: 'OBI_0000011'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OpenLHS-Core_0000035', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000035_uid', attDestinationIds: 'OBI_0000011_uid', description: 'OBI_0000011::OBI_0000011{OpenLHS-Core_0000035_uid::OpenLHS-Core_0000035_uid} -> OBI_0000011::OBI_0000011{OBI_0000011_uid::OBI_0000011_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000151'})
+MATCH (parent:Relvar {relId: 'IOIO_0000031'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000151', fkType: 'ISA', attOriginIds: 'HOSO_0000151_uid', attDestinationIds: 'IOIO_0000031_uid', description: 'IOIO_0000031::IOIO_0000031{HOSO_0000151_uid::HOSO_0000151_uid} -> IOIO_0000031::IOIO_0000031{IOIO_0000031_uid::IOIO_0000031_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000017'})
+MATCH (parent:Relvar {relId: 'BFO_0000020'})
+CREATE (child)-[:IS_A {fkId: 'fk0_BFO_0000017', fkType: 'ISA', attOriginIds: 'BFO_0000017_uid', attDestinationIds: 'BFO_0000020_uid', description: 'BFO_0000020::BFO_0000020{BFO_0000017_uid::BFO_0000017_uid} -> BFO_0000020::BFO_0000020{BFO_0000020_uid::BFO_0000020_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'MPHPO_0000006'})
+MATCH (parent:Relvar {relId: 'HOSO_0000084'})
+CREATE (child)-[:IS_A {fkId: 'fk0_MPHPO_0000006', fkType: 'ISA', attOriginIds: 'MPHPO_0000006_uid', attDestinationIds: 'HOSO_0000084_uid', description: 'HOSO_0000084::HOSO_0000084{MPHPO_0000006_uid::MPHPO_0000006_uid} -> HOSO_0000084::HOSO_0000084{HOSO_0000084_uid::HOSO_0000084_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000139'})
+MATCH (parent:Relvar {relId: 'HOSO_0000012'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000139', fkType: 'ISA', attOriginIds: 'HOSO_0000139_uid', attDestinationIds: 'HOSO_0000012_uid', description: 'HOSO_0000012::HOSO_0000012{HOSO_0000139_uid::HOSO_0000139_uid} -> HOSO_0000012::HOSO_0000012{HOSO_0000012_uid::HOSO_0000012_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'Agent'})
+MATCH (parent:Relvar {relId: 'BFO_0000040'})
+CREATE (child)-[:IS_A {fkId: 'fk0_Agent', fkType: 'ISA', attOriginIds: 'Agent_uid', attDestinationIds: 'BFO_0000040_uid', description: 'BFO_0000040::BFO_0000040{Agent_uid::Agent_uid} -> BFO_0000040::BFO_0000040{BFO_0000040_uid::BFO_0000040_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000029'})
+MATCH (parent:Relvar {relId: 'HOSO_0000028'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000029', fkType: 'ISA', attOriginIds: 'HOSO_0000029_uid', attDestinationIds: 'HOSO_0000028_uid', description: 'HOSO_0000028::HOSO_0000028{HOSO_0000029_uid::HOSO_0000029_uid} -> HOSO_0000028::HOSO_0000028{HOSO_0000028_uid::HOSO_0000028_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000018'})
+MATCH (parent:Relvar {relId: 'BFO_0000006'})
+CREATE (child)-[:IS_A {fkId: 'fk0_BFO_0000018', fkType: 'ISA', attOriginIds: 'BFO_0000018_uid', attDestinationIds: 'BFO_0000006_uid', description: 'BFO_0000006::BFO_0000006{BFO_0000018_uid::BFO_0000018_uid} -> BFO_0000006::BFO_0000006{BFO_0000006_uid::BFO_0000006_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000079'})
+MATCH (parent:Relvar {relId: 'HOSO_0000008'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000079', fkType: 'ISA', attOriginIds: 'HOSO_0000079_uid', attDestinationIds: 'HOSO_0000008_uid', description: 'HOSO_0000008::HOSO_0000008{HOSO_0000079_uid::HOSO_0000079_uid} -> HOSO_0000008::HOSO_0000008{HOSO_0000008_uid::HOSO_0000008_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OGMS_0000061'})
+MATCH (parent:Relvar {relId: 'OGMS_0000060'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OGMS_0000061', fkType: 'ISA', attOriginIds: 'OGMS_0000061_uid', attDestinationIds: 'OGMS_0000060_uid', description: 'OGMS_0000060::OGMS_0000060{OGMS_0000061_uid::OGMS_0000061_uid} -> OGMS_0000060::OGMS_0000060{OGMS_0000060_uid::OGMS_0000060_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000124'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000010'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000124', fkType: 'ISA', attOriginIds: 'HOSO_0000124_uid', attDestinationIds: 'OpenLHS-Core_0000010_uid', description: 'OpenLHS-Core_0000010::OpenLHS-Core_0000010{HOSO_0000124_uid::HOSO_0000124_uid} -> OpenLHS-Core_0000010::OpenLHS-Core_0000010{OpenLHS-Core_0000010_uid::OpenLHS-Core_0000010_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'MPHPO_0000021'})
+MATCH (parent:Relvar {relId: 'IAO_0000030'})
+CREATE (child)-[:IS_A {fkId: 'fk0_MPHPO_0000021', fkType: 'ISA', attOriginIds: 'MPHPO_0000021_uid', attDestinationIds: 'IAO_0000030_uid', description: 'IAO_0000030::IAO_0000030{MPHPO_0000021_uid::MPHPO_0000021_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000140'})
+MATCH (parent:Relvar {relId: 'BFO_0000141'})
+CREATE (child)-[:IS_A {fkId: 'fk0_BFO_0000140', fkType: 'ISA', attOriginIds: 'BFO_0000140_uid', attDestinationIds: 'BFO_0000141_uid', description: 'BFO_0000141::BFO_0000141{BFO_0000140_uid::BFO_0000140_uid} -> BFO_0000141::BFO_0000141{BFO_0000141_uid::BFO_0000141_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IAO_0000577'})
+MATCH (parent:Relvar {relId: 'IAO_0000028'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IAO_0000577', fkType: 'ISA', attOriginIds: 'IAO_0000577_uid', attDestinationIds: 'IAO_0000028_uid', description: 'IAO_0000028::IAO_0000028{IAO_0000577_uid::IAO_0000577_uid} -> IAO_0000028::IAO_0000028{IAO_0000028_uid::IAO_0000028_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000006'})
+MATCH (parent:Relvar {relId: 'BFO_0000023'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000006', fkType: 'ISA', attOriginIds: 'HOSO_0000006_uid', attDestinationIds: 'BFO_0000023_uid', description: 'BFO_0000023::BFO_0000023{HOSO_0000006_uid::HOSO_0000006_uid} -> BFO_0000023::BFO_0000023{BFO_0000023_uid::BFO_0000023_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IOIO_0000031'})
+MATCH (parent:Relvar {relId: 'SEPIO_0000174'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IOIO_0000031', fkType: 'ISA', attOriginIds: 'IOIO_0000031_uid', attDestinationIds: 'SEPIO_0000174_uid', description: 'SEPIO_0000174::SEPIO_0000174{IOIO_0000031_uid::IOIO_0000031_uid} -> SEPIO_0000174::SEPIO_0000174{SEPIO_0000174_uid::SEPIO_0000174_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000003'})
+MATCH (parent:Relvar {relId: 'IAO_0000030'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HEPRO_0000003', fkType: 'ISA', attOriginIds: 'HEPRO_0000003_uid', attDestinationIds: 'IAO_0000030_uid', description: 'IAO_0000030::IAO_0000030{HEPRO_0000003_uid::HEPRO_0000003_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000128'})
+MATCH (parent:Relvar {relId: 'HEPRO_0000125'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HEPRO_0000128', fkType: 'ISA', attOriginIds: 'HEPRO_0000128_uid', attDestinationIds: 'HEPRO_0000125_uid', description: 'HEPRO_0000125::HEPRO_0000125{HEPRO_0000128_uid::HEPRO_0000128_uid} -> HEPRO_0000125::HEPRO_0000125{HEPRO_0000125_uid::HEPRO_0000125_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IAO_0000030'})
+MATCH (parent:Relvar {relId: 'BFO_0000031'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IAO_0000030', fkType: 'ISA', attOriginIds: 'IAO_0000030_uid', attDestinationIds: 'BFO_0000031_uid', description: 'BFO_0000031::BFO_0000031{IAO_0000030_uid::IAO_0000030_uid} -> BFO_0000031::BFO_0000031{BFO_0000031_uid::BFO_0000031_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000104'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000065'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HEPRO_0000104', fkType: 'ISA', attOriginIds: 'HEPRO_0000104_uid', attDestinationIds: 'OpenLHS-Core_0000065_uid', description: 'OpenLHS-Core_0000065::OpenLHS-Core_0000065{HEPRO_0000104_uid::HEPRO_0000104_uid} -> OpenLHS-Core_0000065::OpenLHS-Core_0000065{OpenLHS-Core_0000065_uid::OpenLHS-Core_0000065_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OGMS_0000142'})
+MATCH (parent:Relvar {relId: 'BFO_0000019'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OGMS_0000142', fkType: 'ISA', attOriginIds: 'OGMS_0000142_uid', attDestinationIds: 'BFO_0000019_uid', description: 'BFO_0000019::BFO_0000019{OGMS_0000142_uid::OGMS_0000142_uid} -> BFO_0000019::BFO_0000019{BFO_0000019_uid::BFO_0000019_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IAO_0000300'})
+MATCH (parent:Relvar {relId: 'IAO_0000030'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IAO_0000300', fkType: 'ISA', attOriginIds: 'IAO_0000300_uid', attDestinationIds: 'IAO_0000030_uid', description: 'IAO_0000030::IAO_0000030{IAO_0000300_uid::IAO_0000300_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000009'})
+MATCH (parent:Relvar {relId: 'IOIO_0000013'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HEPRO_0000009', fkType: 'ISA', attOriginIds: 'HEPRO_0000009_uid', attDestinationIds: 'IOIO_0000013_uid', description: 'IOIO_0000013::IOIO_0000013{HEPRO_0000009_uid::HEPRO_0000009_uid} -> IOIO_0000013::IOIO_0000013{IOIO_0000013_uid::IOIO_0000013_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IAO_0000422'})
+MATCH (parent:Relvar {relId: 'IAO_0000300'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IAO_0000422', fkType: 'ISA', attOriginIds: 'IAO_0000422_uid', attDestinationIds: 'IAO_0000300_uid', description: 'IAO_0000300::IAO_0000300{IAO_0000422_uid::IAO_0000422_uid} -> IAO_0000300::IAO_0000300{IAO_0000300_uid::IAO_0000300_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000029'})
+MATCH (parent:Relvar {relId: 'IAO_0000030'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OpenLHS-Core_0000029', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000029_uid', attDestinationIds: 'IAO_0000030_uid', description: 'IAO_0000030::IAO_0000030{OpenLHS-Core_0000029_uid::OpenLHS-Core_0000029_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000041'})
+MATCH (parent:Relvar {relId: 'HOSO_0000012'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000041', fkType: 'ISA', attOriginIds: 'HOSO_0000041_uid', attDestinationIds: 'HOSO_0000012_uid', description: 'HOSO_0000012::HOSO_0000012{HOSO_0000041_uid::HOSO_0000041_uid} -> HOSO_0000012::HOSO_0000012{HOSO_0000012_uid::HOSO_0000012_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000102'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000065'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HEPRO_0000102', fkType: 'ISA', attOriginIds: 'HEPRO_0000102_uid', attDestinationIds: 'OpenLHS-Core_0000065_uid', description: 'OpenLHS-Core_0000065::OpenLHS-Core_0000065{HEPRO_0000102_uid::HEPRO_0000102_uid} -> OpenLHS-Core_0000065::OpenLHS-Core_0000065{OpenLHS-Core_0000065_uid::OpenLHS-Core_0000065_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000042'})
+MATCH (parent:Relvar {relId: 'HOSO_0000028'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000042', fkType: 'ISA', attOriginIds: 'HOSO_0000042_uid', attDestinationIds: 'HOSO_0000028_uid', description: 'HOSO_0000028::HOSO_0000028{HOSO_0000042_uid::HOSO_0000042_uid} -> HOSO_0000028::HOSO_0000028{HOSO_0000028_uid::HOSO_0000028_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000053'})
+MATCH (parent:Relvar {relId: 'HOSO_0000032'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000053', fkType: 'ISA', attOriginIds: 'HOSO_0000053_uid', attDestinationIds: 'HOSO_0000032_uid', description: 'HOSO_0000032::HOSO_0000032{HOSO_0000053_uid::HOSO_0000053_uid} -> HOSO_0000032::HOSO_0000032{HOSO_0000032_uid::HOSO_0000032_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IOIO_0000004'})
+MATCH (parent:Relvar {relId: 'IOIO_0000003'})
+CREATE (child)-[:IS_A {fkId: 'fk1_IOIO_0000004', fkType: 'ISA', attOriginIds: 'IOIO_0000004_uid', attDestinationIds: 'IOIO_0000003_uid', description: 'IOIO_0000003::IOIO_0000003{IOIO_0000004_uid::IOIO_0000004_uid} -> IOIO_0000003::IOIO_0000003{IOIO_0000003_uid::IOIO_0000003_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000150'})
+MATCH (parent:Relvar {relId: 'IOIO_0000030'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000150', fkType: 'ISA', attOriginIds: 'HOSO_0000150_uid', attDestinationIds: 'IOIO_0000030_uid', description: 'IOIO_0000030::IOIO_0000030{HOSO_0000150_uid::HOSO_0000150_uid} -> IOIO_0000030::IOIO_0000030{IOIO_0000030_uid::IOIO_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000034'})
+MATCH (parent:Relvar {relId: 'HOSO_0000026'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000034', fkType: 'ISA', attOriginIds: 'HOSO_0000034_uid', attDestinationIds: 'HOSO_0000026_uid', description: 'HOSO_0000026::HOSO_0000026{HOSO_0000034_uid::HOSO_0000034_uid} -> HOSO_0000026::HOSO_0000026{HOSO_0000026_uid::HOSO_0000026_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000044'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000052'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OpenLHS-Core_0000044', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000044_uid', attDestinationIds: 'OpenLHS-Core_0000052_uid', description: 'OpenLHS-Core_0000052::OpenLHS-Core_0000052{OpenLHS-Core_0000044_uid::OpenLHS-Core_0000044_uid} -> OpenLHS-Core_0000052::OpenLHS-Core_0000052{OpenLHS-Core_0000052_uid::OpenLHS-Core_0000052_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000024'})
+MATCH (parent:Relvar {relId: 'BFO_0000040'})
+CREATE (child)-[:IS_A {fkId: 'fk0_BFO_0000024', fkType: 'ISA', attOriginIds: 'BFO_0000024_uid', attDestinationIds: 'BFO_0000040_uid', description: 'BFO_0000040::BFO_0000040{BFO_0000024_uid::BFO_0000024_uid} -> BFO_0000040::BFO_0000040{BFO_0000040_uid::BFO_0000040_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'NCBITaxon_10239'})
+MATCH (parent:Relvar {relId: 'OBI_0100026'})
+CREATE (child)-[:IS_A {fkId: 'fk0_NCBITaxon_10239', fkType: 'ISA', attOriginIds: 'NCBITaxon_10239_uid', attDestinationIds: 'OBI_0100026_uid', description: 'OBI_0100026::OBI_0100026{NCBITaxon_10239_uid::NCBITaxon_10239_uid} -> OBI_0100026::OBI_0100026{OBI_0100026_uid::OBI_0100026_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000009'})
+MATCH (parent:Relvar {relId: 'HEPRO_0000012'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000009', fkType: 'ISA', attOriginIds: 'HOSO_0000009_uid', attDestinationIds: 'HEPRO_0000012_uid', description: 'HEPRO_0000012::HEPRO_0000012{HOSO_0000009_uid::HOSO_0000009_uid} -> HEPRO_0000012::HEPRO_0000012{HEPRO_0000012_uid::HEPRO_0000012_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000075'})
+MATCH (parent:Relvar {relId: 'HOSO_0000074'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000075', fkType: 'ISA', attOriginIds: 'HOSO_0000075_uid', attDestinationIds: 'HOSO_0000074_uid', description: 'HOSO_0000074::HOSO_0000074{HOSO_0000075_uid::HOSO_0000075_uid} -> HOSO_0000074::HOSO_0000074{HOSO_0000074_uid::HOSO_0000074_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'MPHPO_0000001'})
+MATCH (parent:Relvar {relId: 'HOSO_0000126'})
+CREATE (child)-[:IS_A {fkId: 'fk0_MPHPO_0000001', fkType: 'ISA', attOriginIds: 'MPHPO_0000001_uid', attDestinationIds: 'HOSO_0000126_uid', description: 'HOSO_0000126::HOSO_0000126{MPHPO_0000001_uid::MPHPO_0000001_uid} -> HOSO_0000126::HOSO_0000126{HOSO_0000126_uid::HOSO_0000126_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000060'})
+MATCH (parent:Relvar {relId: 'BFO_0000001'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OpenLHS-Core_0000060', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000060_uid', attDestinationIds: 'BFO_0000001_uid', description: 'BFO_0000001::BFO_0000001{OpenLHS-Core_0000060_uid::OpenLHS-Core_0000060_uid} -> BFO_0000001::BFO_0000001{BFO_0000001_uid::BFO_0000001_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IAO_0000007'})
+MATCH (parent:Relvar {relId: 'IAO_0000033'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IAO_0000007', fkType: 'ISA', attOriginIds: 'IAO_0000007_uid', attDestinationIds: 'IAO_0000033_uid', description: 'IAO_0000033::IAO_0000033{IAO_0000007_uid::IAO_0000007_uid} -> IAO_0000033::IAO_0000033{IAO_0000033_uid::IAO_0000033_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000057'})
+MATCH (parent:Relvar {relId: 'IAO_0000030'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OpenLHS-Core_0000057', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000057_uid', attDestinationIds: 'IAO_0000030_uid', description: 'IAO_0000030::IAO_0000030{OpenLHS-Core_0000057_uid::OpenLHS-Core_0000057_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000100'})
+MATCH (parent:Relvar {relId: 'IAO_0020000'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000100', fkType: 'ISA', attOriginIds: 'HOSO_0000100_uid', attDestinationIds: 'IAO_0020000_uid', description: 'IAO_0020000::IAO_0020000{HOSO_0000100_uid::HOSO_0000100_uid} -> IAO_0020000::IAO_0020000{IAO_0020000_uid::IAO_0020000_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000019'})
+MATCH (parent:Relvar {relId: 'HEPRO_0000017'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HEPRO_0000019', fkType: 'ISA', attOriginIds: 'HEPRO_0000019_uid', attDestinationIds: 'HEPRO_0000017_uid', description: 'HEPRO_0000017::HEPRO_0000017{HEPRO_0000019_uid::HEPRO_0000019_uid} -> HEPRO_0000017::HEPRO_0000017{HEPRO_0000017_uid::HEPRO_0000017_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000071'})
+MATCH (parent:Relvar {relId: 'HOSO_0000012'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000071', fkType: 'ISA', attOriginIds: 'HOSO_0000071_uid', attDestinationIds: 'HOSO_0000012_uid', description: 'HOSO_0000012::HOSO_0000012{HOSO_0000071_uid::HOSO_0000071_uid} -> HOSO_0000012::HOSO_0000012{HOSO_0000012_uid::HOSO_0000012_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OGMS_0000086'})
+MATCH (parent:Relvar {relId: 'BFO_0000019'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OGMS_0000086', fkType: 'ISA', attOriginIds: 'OGMS_0000086_uid', attDestinationIds: 'BFO_0000019_uid', description: 'BFO_0000019::BFO_0000019{OGMS_0000086_uid::OGMS_0000086_uid} -> BFO_0000019::BFO_0000019{BFO_0000019_uid::BFO_0000019_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000035'})
+MATCH (parent:Relvar {relId: 'BFO_0000003'})
+CREATE (child)-[:IS_A {fkId: 'fk0_BFO_0000035', fkType: 'ISA', attOriginIds: 'BFO_0000035_uid', attDestinationIds: 'BFO_0000003_uid', description: 'BFO_0000003::BFO_0000003{BFO_0000035_uid::BFO_0000035_uid} -> BFO_0000003::BFO_0000003{BFO_0000003_uid::BFO_0000003_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000015'})
+MATCH (parent:Relvar {relId: 'IAO_0000030'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HEPRO_0000015', fkType: 'ISA', attOriginIds: 'HEPRO_0000015_uid', attDestinationIds: 'IAO_0000030_uid', description: 'IAO_0000030::IAO_0000030{HEPRO_0000015_uid::HEPRO_0000015_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000039'})
+MATCH (parent:Relvar {relId: 'IAO_0000030'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000039', fkType: 'ISA', attOriginIds: 'HOSO_0000039_uid', attDestinationIds: 'IAO_0000030_uid', description: 'IAO_0000030::IAO_0000030{HOSO_0000039_uid::HOSO_0000039_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'SEPIO_0000187'})
+MATCH (parent:Relvar {relId: 'IAO_0000109'})
+CREATE (child)-[:IS_A {fkId: 'fk0_SEPIO_0000187', fkType: 'ISA', attOriginIds: 'SEPIO_0000187_uid', attDestinationIds: 'IAO_0000109_uid', description: 'IAO_0000109::IAO_0000109{SEPIO_0000187_uid::SEPIO_0000187_uid} -> IAO_0000109::IAO_0000109{IAO_0000109_uid::IAO_0000109_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000045'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000053'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OpenLHS-Core_0000045', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000045_uid', attDestinationIds: 'OpenLHS-Core_0000053_uid', description: 'OpenLHS-Core_0000053::OpenLHS-Core_0000053{OpenLHS-Core_0000045_uid::OpenLHS-Core_0000045_uid} -> OpenLHS-Core_0000053::OpenLHS-Core_0000053{OpenLHS-Core_0000053_uid::OpenLHS-Core_0000053_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000009'})
+MATCH (parent:Relvar {relId: 'BFO_0000006'})
+CREATE (child)-[:IS_A {fkId: 'fk0_BFO_0000009', fkType: 'ISA', attOriginIds: 'BFO_0000009_uid', attDestinationIds: 'BFO_0000006_uid', description: 'BFO_0000006::BFO_0000006{BFO_0000009_uid::BFO_0000009_uid} -> BFO_0000006::BFO_0000006{BFO_0000006_uid::BFO_0000006_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000125'})
+MATCH (parent:Relvar {relId: 'HOSO_0000010'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000125', fkType: 'ISA', attOriginIds: 'HOSO_0000125_uid', attDestinationIds: 'HOSO_0000010_uid', description: 'HOSO_0000010::HOSO_0000010{HOSO_0000125_uid::HOSO_0000125_uid} -> HOSO_0000010::HOSO_0000010{HOSO_0000010_uid::HOSO_0000010_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OGMS_0000031'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000060'})
+CREATE (child)-[:IS_A {fkId: 'fk1_OGMS_0000031', fkType: 'ISA', attOriginIds: 'OGMS_0000031_uid', attDestinationIds: 'OpenLHS-Core_0000060_uid', description: 'OpenLHS-Core_0000060::OpenLHS-Core_0000060{OGMS_0000031_uid::OGMS_0000031_uid} -> OpenLHS-Core_0000060::OpenLHS-Core_0000060{OpenLHS-Core_0000060_uid::OpenLHS-Core_0000060_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'NCBITaxon_9606'})
+MATCH (parent:Relvar {relId: 'NCBITaxon_2759'})
+CREATE (child)-[:IS_A {fkId: 'fk0_NCBITaxon_9606', fkType: 'ISA', attOriginIds: 'NCBITaxon_9606_uid', attDestinationIds: 'NCBITaxon_2759_uid', description: 'NCBITaxon_2759::NCBITaxon_2759{NCBITaxon_9606_uid::NCBITaxon_9606_uid} -> NCBITaxon_2759::NCBITaxon_2759{NCBITaxon_2759_uid::NCBITaxon_2759_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000008'})
+MATCH (parent:Relvar {relId: 'IAO_0000030'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HEPRO_0000008', fkType: 'ISA', attOriginIds: 'HEPRO_0000008_uid', attDestinationIds: 'IAO_0000030_uid', description: 'IAO_0000030::IAO_0000030{HEPRO_0000008_uid::HEPRO_0000008_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OBI_0100026'})
+MATCH (parent:Relvar {relId: 'BFO_0000040'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OBI_0100026', fkType: 'ISA', attOriginIds: 'OBI_0100026_uid', attDestinationIds: 'BFO_0000040_uid', description: 'BFO_0000040::BFO_0000040{OBI_0100026_uid::OBI_0100026_uid} -> BFO_0000040::BFO_0000040{BFO_0000040_uid::BFO_0000040_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000038'})
+MATCH (parent:Relvar {relId: 'BFO_0000008'})
+CREATE (child)-[:IS_A {fkId: 'fk0_BFO_0000038', fkType: 'ISA', attOriginIds: 'BFO_0000038_uid', attDestinationIds: 'BFO_0000008_uid', description: 'BFO_0000008::BFO_0000008{BFO_0000038_uid::BFO_0000038_uid} -> BFO_0000008::BFO_0000008{BFO_0000008_uid::BFO_0000008_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IAO_0020000'})
+MATCH (parent:Relvar {relId: 'IAO_0000030'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IAO_0020000', fkType: 'ISA', attOriginIds: 'IAO_0020000_uid', attDestinationIds: 'IAO_0000030_uid', description: 'IAO_0000030::IAO_0000030{IAO_0020000_uid::IAO_0020000_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000006'})
+MATCH (parent:Relvar {relId: 'BFO_0000141'})
+CREATE (child)-[:IS_A {fkId: 'fk0_BFO_0000006', fkType: 'ISA', attOriginIds: 'BFO_0000006_uid', attDestinationIds: 'BFO_0000141_uid', description: 'BFO_0000141::BFO_0000141{BFO_0000006_uid::BFO_0000006_uid} -> BFO_0000141::BFO_0000141{BFO_0000141_uid::BFO_0000141_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000026'})
+MATCH (parent:Relvar {relId: 'BFO_0000006'})
+CREATE (child)-[:IS_A {fkId: 'fk0_BFO_0000026', fkType: 'ISA', attOriginIds: 'BFO_0000026_uid', attDestinationIds: 'BFO_0000006_uid', description: 'BFO_0000006::BFO_0000006{BFO_0000026_uid::BFO_0000026_uid} -> BFO_0000006::BFO_0000006{BFO_0000006_uid::BFO_0000006_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000141'})
+MATCH (parent:Relvar {relId: 'BFO_0000004'})
+CREATE (child)-[:IS_A {fkId: 'fk0_BFO_0000141', fkType: 'ISA', attOriginIds: 'BFO_0000141_uid', attDestinationIds: 'BFO_0000004_uid', description: 'BFO_0000004::BFO_0000004{BFO_0000141_uid::BFO_0000141_uid} -> BFO_0000004::BFO_0000004{BFO_0000004_uid::BFO_0000004_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000045'})
+MATCH (parent:Relvar {relId: 'HOSO_0000012'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000045', fkType: 'ISA', attOriginIds: 'HOSO_0000045_uid', attDestinationIds: 'HOSO_0000012_uid', description: 'HOSO_0000012::HOSO_0000012{HOSO_0000045_uid::HOSO_0000045_uid} -> HOSO_0000012::HOSO_0000012{HOSO_0000012_uid::HOSO_0000012_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'MPHPO_0000003'})
+MATCH (parent:Relvar {relId: 'HOSO_0000102'})
+CREATE (child)-[:IS_A {fkId: 'fk0_MPHPO_0000003', fkType: 'ISA', attOriginIds: 'MPHPO_0000003_uid', attDestinationIds: 'HOSO_0000102_uid', description: 'HOSO_0000102::HOSO_0000102{MPHPO_0000003_uid::MPHPO_0000003_uid} -> HOSO_0000102::HOSO_0000102{HOSO_0000102_uid::HOSO_0000102_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'MPHPO_0000004'})
+MATCH (parent:Relvar {relId: 'HOSO_0000103'})
+CREATE (child)-[:IS_A {fkId: 'fk0_MPHPO_0000004', fkType: 'ISA', attOriginIds: 'MPHPO_0000004_uid', attDestinationIds: 'HOSO_0000103_uid', description: 'HOSO_0000103::HOSO_0000103{MPHPO_0000004_uid::MPHPO_0000004_uid} -> HOSO_0000103::HOSO_0000103{HOSO_0000103_uid::HOSO_0000103_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OMRSE_00000210'})
+MATCH (parent:Relvar {relId: 'OMRSE_00000209'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OMRSE_00000210', fkType: 'ISA', attOriginIds: 'OMRSE_00000210_uid', attDestinationIds: 'OMRSE_00000209_uid', description: 'OMRSE_00000209::OMRSE_00000209{OMRSE_00000210_uid::OMRSE_00000210_uid} -> OMRSE_00000209::OMRSE_00000209{OMRSE_00000209_uid::OMRSE_00000209_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OMRSE_00000209'})
+MATCH (parent:Relvar {relId: 'IOIO_0000012'})
+CREATE (child)-[:IS_A {fkId: 'fk1_OMRSE_00000209', fkType: 'ISA', attOriginIds: 'OMRSE_00000209_uid', attDestinationIds: 'IOIO_0000012_uid', description: 'IOIO_0000012::IOIO_0000012{OMRSE_00000209_uid::OMRSE_00000209_uid} -> IOIO_0000012::IOIO_0000012{IOIO_0000012_uid::IOIO_0000012_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000121'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000026'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000121', fkType: 'ISA', attOriginIds: 'HOSO_0000121_uid', attDestinationIds: 'OpenLHS-Core_0000026_uid', description: 'OpenLHS-Core_0000026::OpenLHS-Core_0000026{HOSO_0000121_uid::HOSO_0000121_uid} -> OpenLHS-Core_0000026::OpenLHS-Core_0000026{OpenLHS-Core_0000026_uid::OpenLHS-Core_0000026_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000034'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000031'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OpenLHS-Core_0000034', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000034_uid', attDestinationIds: 'OpenLHS-Core_0000031_uid', description: 'OpenLHS-Core_0000031::OpenLHS-Core_0000031{OpenLHS-Core_0000034_uid::OpenLHS-Core_0000034_uid} -> OpenLHS-Core_0000031::OpenLHS-Core_0000031{OpenLHS-Core_0000031_uid::OpenLHS-Core_0000031_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000070'})
+MATCH (parent:Relvar {relId: 'HOSO_0000031'})
+CREATE (child)-[:IS_A {fkId: 'fk1_HOSO_0000070', fkType: 'ISA', attOriginIds: 'HOSO_0000070_uid', attDestinationIds: 'HOSO_0000031_uid', description: 'HOSO_0000031::HOSO_0000031{HOSO_0000070_uid::HOSO_0000070_uid} -> HOSO_0000031::HOSO_0000031{HOSO_0000031_uid::HOSO_0000031_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000083'})
+MATCH (parent:Relvar {relId: 'HOSO_0000081'})
+CREATE (child)-[:IS_A {fkId: 'fk1_HOSO_0000083', fkType: 'ISA', attOriginIds: 'HOSO_0000083_uid', attDestinationIds: 'HOSO_0000081_uid', description: 'HOSO_0000081::HOSO_0000081{HOSO_0000083_uid::HOSO_0000083_uid} -> HOSO_0000081::HOSO_0000081{HOSO_0000081_uid::HOSO_0000081_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000034'})
+MATCH (parent:Relvar {relId: 'BFO_0000016'})
+CREATE (child)-[:IS_A {fkId: 'fk0_BFO_0000034', fkType: 'ISA', attOriginIds: 'BFO_0000034_uid', attDestinationIds: 'BFO_0000016_uid', description: 'BFO_0000016::BFO_0000016{BFO_0000034_uid::BFO_0000034_uid} -> BFO_0000016::BFO_0000016{BFO_0000016_uid::BFO_0000016_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'MPHPO_0000011'})
+MATCH (parent:Relvar {relId: 'IOIO_0000021'})
+CREATE (child)-[:IS_A {fkId: 'fk0_MPHPO_0000011', fkType: 'ISA', attOriginIds: 'MPHPO_0000011_uid', attDestinationIds: 'IOIO_0000021_uid', description: 'IOIO_0000021::IOIO_0000021{MPHPO_0000011_uid::MPHPO_0000011_uid} -> IOIO_0000021::IOIO_0000021{IOIO_0000021_uid::IOIO_0000021_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000015'})
+MATCH (parent:Relvar {relId: 'BFO_0000003'})
+CREATE (child)-[:IS_A {fkId: 'fk0_BFO_0000015', fkType: 'ISA', attOriginIds: 'BFO_0000015_uid', attDestinationIds: 'BFO_0000003_uid', description: 'BFO_0000003::BFO_0000003{BFO_0000015_uid::BFO_0000015_uid} -> BFO_0000003::BFO_0000003{BFO_0000003_uid::BFO_0000003_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'MPHPO_0000020'})
+MATCH (parent:Relvar {relId: 'IAO_0000030'})
+CREATE (child)-[:IS_A {fkId: 'fk0_MPHPO_0000020', fkType: 'ISA', attOriginIds: 'MPHPO_0000020_uid', attDestinationIds: 'IAO_0000030_uid', description: 'IAO_0000030::IAO_0000030{MPHPO_0000020_uid::MPHPO_0000020_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000138'})
+MATCH (parent:Relvar {relId: 'HEPRO_0000009'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000138', fkType: 'ISA', attOriginIds: 'HOSO_0000138_uid', attDestinationIds: 'HEPRO_0000009_uid', description: 'HEPRO_0000009::HEPRO_0000009{HOSO_0000138_uid::HOSO_0000138_uid} -> HEPRO_0000009::HEPRO_0000009{HEPRO_0000009_uid::HEPRO_0000009_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000055'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000033'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000055', fkType: 'ISA', attOriginIds: 'HOSO_0000055_uid', attDestinationIds: 'OpenLHS-Core_0000033_uid', description: 'OpenLHS-Core_0000033::OpenLHS-Core_0000033{HOSO_0000055_uid::HOSO_0000055_uid} -> OpenLHS-Core_0000033::OpenLHS-Core_0000033{OpenLHS-Core_0000033_uid::OpenLHS-Core_0000033_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000005'})
+MATCH (parent:Relvar {relId: 'OBI_0000011'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HEPRO_0000005', fkType: 'ISA', attOriginIds: 'HEPRO_0000005_uid', attDestinationIds: 'OBI_0000011_uid', description: 'OBI_0000011::OBI_0000011{HEPRO_0000005_uid::HEPRO_0000005_uid} -> OBI_0000011::OBI_0000011{OBI_0000011_uid::OBI_0000011_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000013'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000009'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OpenLHS-Core_0000013', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000013_uid', attDestinationIds: 'OpenLHS-Core_0000009_uid', description: 'OpenLHS-Core_0000009::OpenLHS-Core_0000009{OpenLHS-Core_0000013_uid::OpenLHS-Core_0000013_uid} -> OpenLHS-Core_0000009::OpenLHS-Core_0000009{OpenLHS-Core_0000009_uid::OpenLHS-Core_0000009_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OBI_0000245'})
+MATCH (parent:Relvar {relId: 'BFO_0000040'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OBI_0000245', fkType: 'ISA', attOriginIds: 'OBI_0000245_uid', attDestinationIds: 'BFO_0000040_uid', description: 'BFO_0000040::BFO_0000040{OBI_0000245_uid::OBI_0000245_uid} -> BFO_0000040::BFO_0000040{BFO_0000040_uid::BFO_0000040_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IOIO_0000023'})
+MATCH (parent:Relvar {relId: 'IAO_0000030'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IOIO_0000023', fkType: 'ISA', attOriginIds: 'IOIO_0000023_uid', attDestinationIds: 'IAO_0000030_uid', description: 'IAO_0000030::IAO_0000030{IOIO_0000023_uid::IOIO_0000023_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000043'})
+MATCH (parent:Relvar {relId: 'HOSO_0000068'})
+CREATE (child)-[:IS_A {fkId: 'fk1_HOSO_0000043', fkType: 'ISA', attOriginIds: 'HOSO_0000043_uid', attDestinationIds: 'HOSO_0000068_uid', description: 'HOSO_0000068::HOSO_0000068{HOSO_0000043_uid::HOSO_0000043_uid} -> HOSO_0000068::HOSO_0000068{HOSO_0000068_uid::HOSO_0000068_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000027'})
+MATCH (parent:Relvar {relId: 'BFO_0000040'})
+CREATE (child)-[:IS_A {fkId: 'fk0_BFO_0000027', fkType: 'ISA', attOriginIds: 'BFO_0000027_uid', attDestinationIds: 'BFO_0000040_uid', description: 'BFO_0000040::BFO_0000040{BFO_0000027_uid::BFO_0000027_uid} -> BFO_0000040::BFO_0000040{BFO_0000040_uid::BFO_0000040_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000060'})
+MATCH (parent:Relvar {relId: 'IAO_0000030'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000060', fkType: 'ISA', attOriginIds: 'HOSO_0000060_uid', attDestinationIds: 'IAO_0000030_uid', description: 'IAO_0000030::IAO_0000030{HOSO_0000060_uid::HOSO_0000060_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IAO_0020020'})
+MATCH (parent:Relvar {relId: 'IAO_0000030'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IAO_0020020', fkType: 'ISA', attOriginIds: 'IAO_0020020_uid', attDestinationIds: 'IAO_0000030_uid', description: 'IAO_0000030::IAO_0000030{IAO_0020020_uid::IAO_0020020_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IOIO_0000013'})
+MATCH (parent:Relvar {relId: 'IAO_0020000'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IOIO_0000013', fkType: 'ISA', attOriginIds: 'IOIO_0000013_uid', attDestinationIds: 'IAO_0020000_uid', description: 'IAO_0020000::IAO_0020000{IOIO_0000013_uid::IOIO_0000013_uid} -> IAO_0020000::IAO_0020000{IAO_0020000_uid::IAO_0020000_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000025'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000028'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HEPRO_0000025', fkType: 'ISA', attOriginIds: 'HEPRO_0000025_uid', attDestinationIds: 'OpenLHS-Core_0000028_uid', description: 'OpenLHS-Core_0000028::OpenLHS-Core_0000028{HEPRO_0000025_uid::HEPRO_0000025_uid} -> OpenLHS-Core_0000028::OpenLHS-Core_0000028{OpenLHS-Core_0000028_uid::OpenLHS-Core_0000028_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000012'})
+MATCH (parent:Relvar {relId: 'HOSO_0000011'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000012', fkType: 'ISA', attOriginIds: 'HOSO_0000012_uid', attDestinationIds: 'HOSO_0000011_uid', description: 'HOSO_0000011::HOSO_0000011{HOSO_0000012_uid::HOSO_0000012_uid} -> HOSO_0000011::HOSO_0000011{HOSO_0000011_uid::HOSO_0000011_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OGMS_0000061'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000060'})
+CREATE (child)-[:IS_A {fkId: 'fk1_OGMS_0000061', fkType: 'ISA', attOriginIds: 'OGMS_0000061_uid', attDestinationIds: 'OpenLHS-Core_0000060_uid', description: 'OpenLHS-Core_0000060::OpenLHS-Core_0000060{OGMS_0000061_uid::OGMS_0000061_uid} -> OpenLHS-Core_0000060::OpenLHS-Core_0000060{OpenLHS-Core_0000060_uid::OpenLHS-Core_0000060_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000019'})
+MATCH (parent:Relvar {relId: 'BFO_0000020'})
+CREATE (child)-[:IS_A {fkId: 'fk0_BFO_0000019', fkType: 'ISA', attOriginIds: 'BFO_0000019_uid', attDestinationIds: 'BFO_0000020_uid', description: 'BFO_0000020::BFO_0000020{BFO_0000019_uid::BFO_0000019_uid} -> BFO_0000020::BFO_0000020{BFO_0000020_uid::BFO_0000020_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000013'})
+MATCH (parent:Relvar {relId: 'HEPRO_0000004'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HEPRO_0000013', fkType: 'ISA', attOriginIds: 'HEPRO_0000013_uid', attDestinationIds: 'HEPRO_0000004_uid', description: 'HEPRO_0000004::HEPRO_0000004{HEPRO_0000013_uid::HEPRO_0000013_uid} -> HEPRO_0000004::HEPRO_0000004{HEPRO_0000004_uid::HEPRO_0000004_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000061'})
+MATCH (parent:Relvar {relId: 'BFO_0000023'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000061', fkType: 'ISA', attOriginIds: 'HOSO_0000061_uid', attDestinationIds: 'BFO_0000023_uid', description: 'BFO_0000023::BFO_0000023{HOSO_0000061_uid::HOSO_0000061_uid} -> BFO_0000023::BFO_0000023{BFO_0000023_uid::BFO_0000023_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000010'})
+MATCH (parent:Relvar {relId: 'HEPRO_0000009'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HEPRO_0000010', fkType: 'ISA', attOriginIds: 'HEPRO_0000010_uid', attDestinationIds: 'HEPRO_0000009_uid', description: 'HEPRO_0000009::HEPRO_0000009{HEPRO_0000010_uid::HEPRO_0000010_uid} -> HEPRO_0000009::HEPRO_0000009{HEPRO_0000009_uid::HEPRO_0000009_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IAO_0000033'})
+MATCH (parent:Relvar {relId: 'IAO_0000030'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IAO_0000033', fkType: 'ISA', attOriginIds: 'IAO_0000033_uid', attDestinationIds: 'IAO_0000030_uid', description: 'IAO_0000030::IAO_0000030{IAO_0000033_uid::IAO_0000033_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IOIO_0000005'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000065'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IOIO_0000005', fkType: 'ISA', attOriginIds: 'IOIO_0000005_uid', attDestinationIds: 'OpenLHS-Core_0000065_uid', description: 'OpenLHS-Core_0000065::OpenLHS-Core_0000065{IOIO_0000005_uid::IOIO_0000005_uid} -> OpenLHS-Core_0000065::OpenLHS-Core_0000065{OpenLHS-Core_0000065_uid::OpenLHS-Core_0000065_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000018'})
+MATCH (parent:Relvar {relId: 'HOSO_0000017'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000018', fkType: 'ISA', attOriginIds: 'HOSO_0000018_uid', attDestinationIds: 'HOSO_0000017_uid', description: 'HOSO_0000017::HOSO_0000017{HOSO_0000018_uid::HOSO_0000018_uid} -> HOSO_0000017::HOSO_0000017{HOSO_0000017_uid::HOSO_0000017_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000019'})
+MATCH (parent:Relvar {relId: 'IAO_0020000'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000019', fkType: 'ISA', attOriginIds: 'HOSO_0000019_uid', attDestinationIds: 'IAO_0020000_uid', description: 'IAO_0020000::IAO_0020000{HOSO_0000019_uid::HOSO_0000019_uid} -> IAO_0020000::IAO_0020000{IAO_0020000_uid::IAO_0020000_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IOIO_0000015'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000010'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IOIO_0000015', fkType: 'ISA', attOriginIds: 'IOIO_0000015_uid', attDestinationIds: 'OpenLHS-Core_0000010_uid', description: 'OpenLHS-Core_0000010::OpenLHS-Core_0000010{IOIO_0000015_uid::IOIO_0000015_uid} -> OpenLHS-Core_0000010::OpenLHS-Core_0000010{OpenLHS-Core_0000010_uid::OpenLHS-Core_0000010_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IAO_0000028'})
+MATCH (parent:Relvar {relId: 'IAO_0000030'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IAO_0000028', fkType: 'ISA', attOriginIds: 'IAO_0000028_uid', attDestinationIds: 'IAO_0000030_uid', description: 'IAO_0000030::IAO_0000030{IAO_0000028_uid::IAO_0000028_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000068'})
+MATCH (parent:Relvar {relId: 'HOSO_0000012'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000068', fkType: 'ISA', attOriginIds: 'HOSO_0000068_uid', attDestinationIds: 'HOSO_0000012_uid', description: 'HOSO_0000012::HOSO_0000012{HOSO_0000068_uid::HOSO_0000068_uid} -> HOSO_0000012::HOSO_0000012{HOSO_0000012_uid::HOSO_0000012_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000017'})
+MATCH (parent:Relvar {relId: 'IAO_0000030'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HEPRO_0000017', fkType: 'ISA', attOriginIds: 'HEPRO_0000017_uid', attDestinationIds: 'IAO_0000030_uid', description: 'IAO_0000030::IAO_0000030{HEPRO_0000017_uid::HEPRO_0000017_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IOIO_0000030'})
+MATCH (parent:Relvar {relId: 'IAO_0000030'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IOIO_0000030', fkType: 'ISA', attOriginIds: 'IOIO_0000030_uid', attDestinationIds: 'IAO_0000030_uid', description: 'IAO_0000030::IAO_0000030{IOIO_0000030_uid::IOIO_0000030_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000030'})
+MATCH (parent:Relvar {relId: 'SEPIO_0000174'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OpenLHS-Core_0000030', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000030_uid', attDestinationIds: 'SEPIO_0000174_uid', description: 'SEPIO_0000174::SEPIO_0000174{OpenLHS-Core_0000030_uid::OpenLHS-Core_0000030_uid} -> SEPIO_0000174::SEPIO_0000174{SEPIO_0000174_uid::SEPIO_0000174_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IOIO_0000011'})
+MATCH (parent:Relvar {relId: 'IOIO_0000012'})
+CREATE (child)-[:IS_A {fkId: 'fk1_IOIO_0000011', fkType: 'ISA', attOriginIds: 'IOIO_0000011_uid', attDestinationIds: 'IOIO_0000012_uid', description: 'IOIO_0000012::IOIO_0000012{IOIO_0000011_uid::IOIO_0000011_uid} -> IOIO_0000012::IOIO_0000012{IOIO_0000012_uid::IOIO_0000012_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000053'})
+MATCH (parent:Relvar {relId: 'HOSO_0000050'})
+CREATE (child)-[:IS_A {fkId: 'fk1_HOSO_0000053', fkType: 'ISA', attOriginIds: 'HOSO_0000053_uid', attDestinationIds: 'HOSO_0000050_uid', description: 'HOSO_0000050::HOSO_0000050{HOSO_0000053_uid::HOSO_0000053_uid} -> HOSO_0000050::HOSO_0000050{HOSO_0000050_uid::HOSO_0000050_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000038'})
+MATCH (parent:Relvar {relId: 'HOSO_0000069'})
+CREATE (child)-[:IS_A {fkId: 'fk1_HOSO_0000038', fkType: 'ISA', attOriginIds: 'HOSO_0000038_uid', attDestinationIds: 'HOSO_0000069_uid', description: 'HOSO_0000069::HOSO_0000069{HOSO_0000038_uid::HOSO_0000038_uid} -> HOSO_0000069::HOSO_0000069{HOSO_0000069_uid::HOSO_0000069_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000052'})
+MATCH (parent:Relvar {relId: 'HOSO_0000032'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000052', fkType: 'ISA', attOriginIds: 'HOSO_0000052_uid', attDestinationIds: 'HOSO_0000032_uid', description: 'HOSO_0000032::HOSO_0000032{HOSO_0000052_uid::HOSO_0000052_uid} -> HOSO_0000032::HOSO_0000032{HOSO_0000032_uid::HOSO_0000032_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OGMS_0000060'})
+MATCH (parent:Relvar {relId: 'BFO_0000015'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OGMS_0000060', fkType: 'ISA', attOriginIds: 'OGMS_0000060_uid', attDestinationIds: 'BFO_0000015_uid', description: 'BFO_0000015::BFO_0000015{OGMS_0000060_uid::OGMS_0000060_uid} -> BFO_0000015::BFO_0000015{BFO_0000015_uid::BFO_0000015_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000018'})
+MATCH (parent:Relvar {relId: 'HEPRO_0000017'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HEPRO_0000018', fkType: 'ISA', attOriginIds: 'HEPRO_0000018_uid', attDestinationIds: 'HEPRO_0000017_uid', description: 'HEPRO_0000017::HEPRO_0000017{HEPRO_0000018_uid::HEPRO_0000018_uid} -> HEPRO_0000017::HEPRO_0000017{HEPRO_0000017_uid::HEPRO_0000017_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000011'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000036'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000011', fkType: 'ISA', attOriginIds: 'HOSO_0000011_uid', attDestinationIds: 'OpenLHS-Core_0000036_uid', description: 'OpenLHS-Core_0000036::OpenLHS-Core_0000036{HOSO_0000011_uid::HOSO_0000011_uid} -> OpenLHS-Core_0000036::OpenLHS-Core_0000036{OpenLHS-Core_0000036_uid::OpenLHS-Core_0000036_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000082'})
+MATCH (parent:Relvar {relId: 'BFO_0000023'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000082', fkType: 'ISA', attOriginIds: 'HOSO_0000082_uid', attDestinationIds: 'BFO_0000023_uid', description: 'BFO_0000023::BFO_0000023{HOSO_0000082_uid::HOSO_0000082_uid} -> BFO_0000023::BFO_0000023{BFO_0000023_uid::BFO_0000023_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000034'})
+MATCH (parent:Relvar {relId: 'HOSO_0000032'})
+CREATE (child)-[:IS_A {fkId: 'fk1_HOSO_0000034', fkType: 'ISA', attOriginIds: 'HOSO_0000034_uid', attDestinationIds: 'HOSO_0000032_uid', description: 'HOSO_0000032::HOSO_0000032{HOSO_0000034_uid::HOSO_0000034_uid} -> HOSO_0000032::HOSO_0000032{HOSO_0000032_uid::HOSO_0000032_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000046'})
+MATCH (parent:Relvar {relId: 'IAO_0000033'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000046', fkType: 'ISA', attOriginIds: 'HOSO_0000046_uid', attDestinationIds: 'IAO_0000033_uid', description: 'IAO_0000033::IAO_0000033{HOSO_0000046_uid::HOSO_0000046_uid} -> IAO_0000033::IAO_0000033{IAO_0000033_uid::IAO_0000033_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000103'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000065'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HEPRO_0000103', fkType: 'ISA', attOriginIds: 'HEPRO_0000103_uid', attDestinationIds: 'OpenLHS-Core_0000065_uid', description: 'OpenLHS-Core_0000065::OpenLHS-Core_0000065{HEPRO_0000103_uid::HEPRO_0000103_uid} -> OpenLHS-Core_0000065::OpenLHS-Core_0000065{OpenLHS-Core_0000065_uid::OpenLHS-Core_0000065_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IOIO_0000003'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000031'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IOIO_0000003', fkType: 'ISA', attOriginIds: 'IOIO_0000003_uid', attDestinationIds: 'OpenLHS-Core_0000031_uid', description: 'OpenLHS-Core_0000031::OpenLHS-Core_0000031{IOIO_0000003_uid::IOIO_0000003_uid} -> OpenLHS-Core_0000031::OpenLHS-Core_0000031{OpenLHS-Core_0000031_uid::OpenLHS-Core_0000031_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000011'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000010'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OpenLHS-Core_0000011', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000011_uid', attDestinationIds: 'OpenLHS-Core_0000010_uid', description: 'OpenLHS-Core_0000010::OpenLHS-Core_0000010{OpenLHS-Core_0000011_uid::OpenLHS-Core_0000011_uid} -> OpenLHS-Core_0000010::OpenLHS-Core_0000010{OpenLHS-Core_0000010_uid::OpenLHS-Core_0000010_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000016'})
+MATCH (parent:Relvar {relId: 'BFO_0000017'})
+CREATE (child)-[:IS_A {fkId: 'fk0_BFO_0000016', fkType: 'ISA', attOriginIds: 'BFO_0000016_uid', attDestinationIds: 'BFO_0000017_uid', description: 'BFO_0000017::BFO_0000017{BFO_0000016_uid::BFO_0000016_uid} -> BFO_0000017::BFO_0000017{BFO_0000017_uid::BFO_0000017_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000033'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000031'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OpenLHS-Core_0000033', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000033_uid', attDestinationIds: 'OpenLHS-Core_0000031_uid', description: 'OpenLHS-Core_0000031::OpenLHS-Core_0000031{OpenLHS-Core_0000033_uid::OpenLHS-Core_0000033_uid} -> OpenLHS-Core_0000031::OpenLHS-Core_0000031{OpenLHS-Core_0000031_uid::OpenLHS-Core_0000031_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000122'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000023'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000122', fkType: 'ISA', attOriginIds: 'HOSO_0000122_uid', attDestinationIds: 'OpenLHS-Core_0000023_uid', description: 'OpenLHS-Core_0000023::OpenLHS-Core_0000023{HOSO_0000122_uid::HOSO_0000122_uid} -> OpenLHS-Core_0000023::OpenLHS-Core_0000023{OpenLHS-Core_0000023_uid::OpenLHS-Core_0000023_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000072'})
+MATCH (parent:Relvar {relId: 'HOSO_0000031'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000072', fkType: 'ISA', attOriginIds: 'HOSO_0000072_uid', attDestinationIds: 'HOSO_0000031_uid', description: 'HOSO_0000031::HOSO_0000031{HOSO_0000072_uid::HOSO_0000072_uid} -> HOSO_0000031::HOSO_0000031{HOSO_0000031_uid::HOSO_0000031_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000004'})
+MATCH (parent:Relvar {relId: 'OMRSE_00000062'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000004', fkType: 'ISA', attOriginIds: 'HOSO_0000004_uid', attDestinationIds: 'OMRSE_00000062_uid', description: 'OMRSE_00000062::OMRSE_00000062{HOSO_0000004_uid::HOSO_0000004_uid} -> OMRSE_00000062::OMRSE_00000062{OMRSE_00000062_uid::OMRSE_00000062_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'MPHPO_0000005'})
+MATCH (parent:Relvar {relId: 'IOIO_0000023'})
+CREATE (child)-[:IS_A {fkId: 'fk0_MPHPO_0000005', fkType: 'ISA', attOriginIds: 'MPHPO_0000005_uid', attDestinationIds: 'IOIO_0000023_uid', description: 'IOIO_0000023::IOIO_0000023{MPHPO_0000005_uid::MPHPO_0000005_uid} -> IOIO_0000023::IOIO_0000023{IOIO_0000023_uid::IOIO_0000023_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000033'})
+MATCH (parent:Relvar {relId: 'HOSO_0000032'})
+CREATE (child)-[:IS_A {fkId: 'fk1_HOSO_0000033', fkType: 'ISA', attOriginIds: 'HOSO_0000033_uid', attDestinationIds: 'HOSO_0000032_uid', description: 'HOSO_0000032::HOSO_0000032{HOSO_0000033_uid::HOSO_0000033_uid} -> HOSO_0000032::HOSO_0000032{HOSO_0000032_uid::HOSO_0000032_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000011'})
+MATCH (parent:Relvar {relId: 'BFO_0000003'})
+CREATE (child)-[:IS_A {fkId: 'fk0_BFO_0000011', fkType: 'ISA', attOriginIds: 'BFO_0000011_uid', attDestinationIds: 'BFO_0000003_uid', description: 'BFO_0000003::BFO_0000003{BFO_0000011_uid::BFO_0000011_uid} -> BFO_0000003::BFO_0000003{BFO_0000003_uid::BFO_0000003_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000012'})
+MATCH (parent:Relvar {relId: 'NCBITaxon_2759'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HEPRO_0000012', fkType: 'ISA', attOriginIds: 'HEPRO_0000012_uid', attDestinationIds: 'NCBITaxon_2759_uid', description: 'NCBITaxon_2759::NCBITaxon_2759{HEPRO_0000012_uid::HEPRO_0000012_uid} -> NCBITaxon_2759::NCBITaxon_2759{NCBITaxon_2759_uid::NCBITaxon_2759_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000148'})
+MATCH (parent:Relvar {relId: 'BFO_0000008'})
+CREATE (child)-[:IS_A {fkId: 'fk0_BFO_0000148', fkType: 'ISA', attOriginIds: 'BFO_0000148_uid', attDestinationIds: 'BFO_0000008_uid', description: 'BFO_0000008::BFO_0000008{BFO_0000148_uid::BFO_0000148_uid} -> BFO_0000008::BFO_0000008{BFO_0000008_uid::BFO_0000008_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000084'})
+MATCH (parent:Relvar {relId: 'HOSO_0000023'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000084', fkType: 'ISA', attOriginIds: 'HOSO_0000084_uid', attDestinationIds: 'HOSO_0000023_uid', description: 'HOSO_0000023::HOSO_0000023{HOSO_0000084_uid::HOSO_0000084_uid} -> HOSO_0000023::HOSO_0000023{HOSO_0000023_uid::HOSO_0000023_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'AgentCapability'})
+MATCH (parent:Relvar {relId: 'BFO_0000017'})
+CREATE (child)-[:IS_A {fkId: 'fk0_AgentCapability', fkType: 'ISA', attOriginIds: 'AgentCapability_uid', attDestinationIds: 'BFO_0000017_uid', description: 'BFO_0000017::BFO_0000017{AgentCapability_uid::AgentCapability_uid} -> BFO_0000017::BFO_0000017{BFO_0000017_uid::BFO_0000017_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000142'})
+MATCH (parent:Relvar {relId: 'BFO_0000140'})
+CREATE (child)-[:IS_A {fkId: 'fk0_BFO_0000142', fkType: 'ISA', attOriginIds: 'BFO_0000142_uid', attDestinationIds: 'BFO_0000140_uid', description: 'BFO_0000140::BFO_0000140{BFO_0000142_uid::BFO_0000142_uid} -> BFO_0000140::BFO_0000140{BFO_0000140_uid::BFO_0000140_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000085'})
+MATCH (parent:Relvar {relId: 'HOSO_0000031'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000085', fkType: 'ISA', attOriginIds: 'HOSO_0000085_uid', attDestinationIds: 'HOSO_0000031_uid', description: 'HOSO_0000031::HOSO_0000031{HOSO_0000085_uid::HOSO_0000085_uid} -> HOSO_0000031::HOSO_0000031{HOSO_0000031_uid::HOSO_0000031_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000063'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000010'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000063', fkType: 'ISA', attOriginIds: 'HOSO_0000063_uid', attDestinationIds: 'OpenLHS-Core_0000010_uid', description: 'OpenLHS-Core_0000010::OpenLHS-Core_0000010{HOSO_0000063_uid::HOSO_0000063_uid} -> OpenLHS-Core_0000010::OpenLHS-Core_0000010{OpenLHS-Core_0000010_uid::OpenLHS-Core_0000010_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'MPHPO_0000007'})
+MATCH (parent:Relvar {relId: 'HOSO_0000076'})
+CREATE (child)-[:IS_A {fkId: 'fk0_MPHPO_0000007', fkType: 'ISA', attOriginIds: 'MPHPO_0000007_uid', attDestinationIds: 'HOSO_0000076_uid', description: 'HOSO_0000076::HOSO_0000076{MPHPO_0000007_uid::MPHPO_0000007_uid} -> HOSO_0000076::HOSO_0000076{HOSO_0000076_uid::HOSO_0000076_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000036'})
+MATCH (parent:Relvar {relId: 'OBI_0000011'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OpenLHS-Core_0000036', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000036_uid', attDestinationIds: 'OBI_0000011_uid', description: 'OBI_0000011::OBI_0000011{OpenLHS-Core_0000036_uid::OpenLHS-Core_0000036_uid} -> OBI_0000011::OBI_0000011{OBI_0000011_uid::OBI_0000011_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000020'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000033'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HEPRO_0000020', fkType: 'ISA', attOriginIds: 'HEPRO_0000020_uid', attDestinationIds: 'OpenLHS-Core_0000033_uid', description: 'OpenLHS-Core_0000033::OpenLHS-Core_0000033{HEPRO_0000020_uid::HEPRO_0000020_uid} -> OpenLHS-Core_0000033::OpenLHS-Core_0000033{OpenLHS-Core_0000033_uid::OpenLHS-Core_0000033_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IOIO_0000002'})
+MATCH (parent:Relvar {relId: 'IOIO_0000001'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IOIO_0000002', fkType: 'ISA', attOriginIds: 'IOIO_0000002_uid', attDestinationIds: 'IOIO_0000001_uid', description: 'IOIO_0000001::IOIO_0000001{IOIO_0000002_uid::IOIO_0000002_uid} -> IOIO_0000001::IOIO_0000001{IOIO_0000001_uid::IOIO_0000001_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000147'})
+MATCH (parent:Relvar {relId: 'BFO_0000140'})
+CREATE (child)-[:IS_A {fkId: 'fk0_BFO_0000147', fkType: 'ISA', attOriginIds: 'BFO_0000147_uid', attDestinationIds: 'BFO_0000140_uid', description: 'BFO_0000140::BFO_0000140{BFO_0000147_uid::BFO_0000147_uid} -> BFO_0000140::BFO_0000140{BFO_0000140_uid::BFO_0000140_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000029'})
+MATCH (parent:Relvar {relId: 'BFO_0000141'})
+CREATE (child)-[:IS_A {fkId: 'fk0_BFO_0000029', fkType: 'ISA', attOriginIds: 'BFO_0000029_uid', attDestinationIds: 'BFO_0000141_uid', description: 'BFO_0000141::BFO_0000141{BFO_0000029_uid::BFO_0000029_uid} -> BFO_0000141::BFO_0000141{BFO_0000141_uid::BFO_0000141_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'MPHPO_0000002'})
+MATCH (parent:Relvar {relId: 'HEPRO_0000017'})
+CREATE (child)-[:IS_A {fkId: 'fk0_MPHPO_0000002', fkType: 'ISA', attOriginIds: 'MPHPO_0000002_uid', attDestinationIds: 'HEPRO_0000017_uid', description: 'HEPRO_0000017::HEPRO_0000017{MPHPO_0000002_uid::MPHPO_0000002_uid} -> HEPRO_0000017::HEPRO_0000017{HEPRO_0000017_uid::HEPRO_0000017_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000054'})
+MATCH (parent:Relvar {relId: 'IAO_0000030'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OpenLHS-Core_0000054', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000054_uid', attDestinationIds: 'IAO_0000030_uid', description: 'IAO_0000030::IAO_0000030{OpenLHS-Core_0000054_uid::OpenLHS-Core_0000054_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000012'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000009'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OpenLHS-Core_0000012', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000012_uid', attDestinationIds: 'OpenLHS-Core_0000009_uid', description: 'OpenLHS-Core_0000009::OpenLHS-Core_0000009{OpenLHS-Core_0000012_uid::OpenLHS-Core_0000012_uid} -> OpenLHS-Core_0000009::OpenLHS-Core_0000009{OpenLHS-Core_0000009_uid::OpenLHS-Core_0000009_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000069'})
+MATCH (parent:Relvar {relId: 'HOSO_0000068'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000069', fkType: 'ISA', attOriginIds: 'HOSO_0000069_uid', attDestinationIds: 'HOSO_0000068_uid', description: 'HOSO_0000068::HOSO_0000068{HOSO_0000069_uid::HOSO_0000069_uid} -> HOSO_0000068::HOSO_0000068{HOSO_0000068_uid::HOSO_0000068_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000140'})
+MATCH (parent:Relvar {relId: 'IAO_0000422'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000140', fkType: 'ISA', attOriginIds: 'HOSO_0000140_uid', attDestinationIds: 'IAO_0000422_uid', description: 'IAO_0000422::IAO_0000422{HOSO_0000140_uid::HOSO_0000140_uid} -> IAO_0000422::IAO_0000422{IAO_0000422_uid::IAO_0000422_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000040'})
+MATCH (parent:Relvar {relId: 'BFO_0000004'})
+CREATE (child)-[:IS_A {fkId: 'fk0_BFO_0000040', fkType: 'ISA', attOriginIds: 'BFO_0000040_uid', attDestinationIds: 'BFO_0000004_uid', description: 'BFO_0000004::BFO_0000004{BFO_0000040_uid::BFO_0000040_uid} -> BFO_0000004::BFO_0000004{BFO_0000004_uid::BFO_0000004_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'NCBITaxon_2759'})
+MATCH (parent:Relvar {relId: 'OBI_0100026'})
+CREATE (child)-[:IS_A {fkId: 'fk0_NCBITaxon_2759', fkType: 'ISA', attOriginIds: 'NCBITaxon_2759_uid', attDestinationIds: 'OBI_0100026_uid', description: 'OBI_0100026::OBI_0100026{NCBITaxon_2759_uid::NCBITaxon_2759_uid} -> OBI_0100026::OBI_0100026{OBI_0100026_uid::OBI_0100026_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IAO_0000579'})
+MATCH (parent:Relvar {relId: 'IAO_0020020'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IAO_0000579', fkType: 'ISA', attOriginIds: 'IAO_0000579_uid', attDestinationIds: 'IAO_0020020_uid', description: 'IAO_0020020::IAO_0020020{IAO_0000579_uid::IAO_0000579_uid} -> IAO_0020020::IAO_0020020{IAO_0020020_uid::IAO_0020020_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IOIO_0000022'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000010'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IOIO_0000022', fkType: 'ISA', attOriginIds: 'IOIO_0000022_uid', attDestinationIds: 'OpenLHS-Core_0000010_uid', description: 'OpenLHS-Core_0000010::OpenLHS-Core_0000010{IOIO_0000022_uid::IOIO_0000022_uid} -> OpenLHS-Core_0000010::OpenLHS-Core_0000010{OpenLHS-Core_0000010_uid::OpenLHS-Core_0000010_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000032'})
+MATCH (parent:Relvar {relId: 'HOSO_0000139'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000032', fkType: 'ISA', attOriginIds: 'HOSO_0000032_uid', attDestinationIds: 'HOSO_0000139_uid', description: 'HOSO_0000139::HOSO_0000139{HOSO_0000032_uid::HOSO_0000032_uid} -> HOSO_0000139::HOSO_0000139{HOSO_0000139_uid::HOSO_0000139_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000003'})
+MATCH (parent:Relvar {relId: 'BFO_0000001'})
+CREATE (child)-[:IS_A {fkId: 'fk0_BFO_0000003', fkType: 'ISA', attOriginIds: 'BFO_0000003_uid', attDestinationIds: 'BFO_0000001_uid', description: 'BFO_0000001::BFO_0000001{BFO_0000003_uid::BFO_0000003_uid} -> BFO_0000001::BFO_0000001{BFO_0000001_uid::BFO_0000001_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'NCBITaxon_2157'})
+MATCH (parent:Relvar {relId: 'OBI_0100026'})
+CREATE (child)-[:IS_A {fkId: 'fk0_NCBITaxon_2157', fkType: 'ISA', attOriginIds: 'NCBITaxon_2157_uid', attDestinationIds: 'OBI_0100026_uid', description: 'OBI_0100026::OBI_0100026{NCBITaxon_2157_uid::NCBITaxon_2157_uid} -> OBI_0100026::OBI_0100026{OBI_0100026_uid::OBI_0100026_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000120'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000026'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000120', fkType: 'ISA', attOriginIds: 'HOSO_0000120_uid', attDestinationIds: 'OpenLHS-Core_0000026_uid', description: 'OpenLHS-Core_0000026::OpenLHS-Core_0000026{HOSO_0000120_uid::HOSO_0000120_uid} -> OpenLHS-Core_0000026::OpenLHS-Core_0000026{OpenLHS-Core_0000026_uid::OpenLHS-Core_0000026_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OGMS_0000045'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000060'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OGMS_0000045', fkType: 'ISA', attOriginIds: 'OGMS_0000045_uid', attDestinationIds: 'OpenLHS-Core_0000060_uid', description: 'OpenLHS-Core_0000060::OpenLHS-Core_0000060{OGMS_0000045_uid::OGMS_0000045_uid} -> OpenLHS-Core_0000060::OpenLHS-Core_0000060{OpenLHS-Core_0000060_uid::OpenLHS-Core_0000060_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000077'})
+MATCH (parent:Relvar {relId: 'HOSO_0000074'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000077', fkType: 'ISA', attOriginIds: 'HOSO_0000077_uid', attDestinationIds: 'HOSO_0000074_uid', description: 'HOSO_0000074::HOSO_0000074{HOSO_0000077_uid::HOSO_0000077_uid} -> HOSO_0000074::HOSO_0000074{HOSO_0000074_uid::HOSO_0000074_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IAO_0020010'})
+MATCH (parent:Relvar {relId: 'OBI_0000011'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IAO_0020010', fkType: 'ISA', attOriginIds: 'IAO_0020010_uid', attDestinationIds: 'OBI_0000011_uid', description: 'OBI_0000011::OBI_0000011{IAO_0020010_uid::IAO_0020010_uid} -> OBI_0000011::OBI_0000011{OBI_0000011_uid::OBI_0000011_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OMRSE_00000212'})
+MATCH (parent:Relvar {relId: 'OMRSE_00000209'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OMRSE_00000212', fkType: 'ISA', attOriginIds: 'OMRSE_00000212_uid', attDestinationIds: 'OMRSE_00000209_uid', description: 'OMRSE_00000209::OMRSE_00000209{OMRSE_00000212_uid::OMRSE_00000212_uid} -> OMRSE_00000209::OMRSE_00000209{OMRSE_00000209_uid::OMRSE_00000209_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'NCBITaxon_2'})
+MATCH (parent:Relvar {relId: 'OBI_0100026'})
+CREATE (child)-[:IS_A {fkId: 'fk0_NCBITaxon_2', fkType: 'ISA', attOriginIds: 'NCBITaxon_2_uid', attDestinationIds: 'OBI_0100026_uid', description: 'OBI_0100026::OBI_0100026{NCBITaxon_2_uid::NCBITaxon_2_uid} -> OBI_0100026::OBI_0100026{OBI_0100026_uid::OBI_0100026_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000025'})
+MATCH (parent:Relvar {relId: 'IAO_0020000'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OpenLHS-Core_0000025', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000025_uid', attDestinationIds: 'IAO_0020000_uid', description: 'IAO_0020000::IAO_0020000{OpenLHS-Core_0000025_uid::OpenLHS-Core_0000025_uid} -> IAO_0020000::IAO_0020000{IAO_0020000_uid::IAO_0020000_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000014'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000036'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000014', fkType: 'ISA', attOriginIds: 'HOSO_0000014_uid', attDestinationIds: 'OpenLHS-Core_0000036_uid', description: 'OpenLHS-Core_0000036::OpenLHS-Core_0000036{HOSO_0000014_uid::HOSO_0000014_uid} -> OpenLHS-Core_0000036::OpenLHS-Core_0000036{OpenLHS-Core_0000036_uid::OpenLHS-Core_0000036_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000031'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000030'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OpenLHS-Core_0000031', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000031_uid', attDestinationIds: 'OpenLHS-Core_0000030_uid', description: 'OpenLHS-Core_0000030::OpenLHS-Core_0000030{OpenLHS-Core_0000031_uid::OpenLHS-Core_0000031_uid} -> OpenLHS-Core_0000030::OpenLHS-Core_0000030{OpenLHS-Core_0000030_uid::OpenLHS-Core_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000035'})
+MATCH (parent:Relvar {relId: 'HOSO_0000026'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000035', fkType: 'ISA', attOriginIds: 'HOSO_0000035_uid', attDestinationIds: 'HOSO_0000026_uid', description: 'HOSO_0000026::HOSO_0000026{HOSO_0000035_uid::HOSO_0000035_uid} -> HOSO_0000026::HOSO_0000026{HOSO_0000026_uid::HOSO_0000026_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OGMS_0000129'})
+MATCH (parent:Relvar {relId: 'BFO_0000040'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OGMS_0000129', fkType: 'ISA', attOriginIds: 'OGMS_0000129_uid', attDestinationIds: 'BFO_0000040_uid', description: 'BFO_0000040::BFO_0000040{OGMS_0000129_uid::OGMS_0000129_uid} -> BFO_0000040::BFO_0000040{BFO_0000040_uid::BFO_0000040_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000055'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000054'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OpenLHS-Core_0000055', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000055_uid', attDestinationIds: 'OpenLHS-Core_0000054_uid', description: 'OpenLHS-Core_0000054::OpenLHS-Core_0000054{OpenLHS-Core_0000055_uid::OpenLHS-Core_0000055_uid} -> OpenLHS-Core_0000054::OpenLHS-Core_0000054{OpenLHS-Core_0000054_uid::OpenLHS-Core_0000054_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000019'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000054'})
+CREATE (child)-[:IS_A {fkId: 'fk1_HOSO_0000019', fkType: 'ISA', attOriginIds: 'HOSO_0000019_uid', attDestinationIds: 'OpenLHS-Core_0000054_uid', description: 'OpenLHS-Core_0000054::OpenLHS-Core_0000054{HOSO_0000019_uid::HOSO_0000019_uid} -> OpenLHS-Core_0000054::OpenLHS-Core_0000054{OpenLHS-Core_0000054_uid::OpenLHS-Core_0000054_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000028'})
+MATCH (parent:Relvar {relId: 'IAO_0000030'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OpenLHS-Core_0000028', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000028_uid', attDestinationIds: 'IAO_0000030_uid', description: 'IAO_0000030::IAO_0000030{OpenLHS-Core_0000028_uid::OpenLHS-Core_0000028_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'MPHPO_0000009'})
+MATCH (parent:Relvar {relId: 'IOIO_0000020'})
+CREATE (child)-[:IS_A {fkId: 'fk0_MPHPO_0000009', fkType: 'ISA', attOriginIds: 'MPHPO_0000009_uid', attDestinationIds: 'IOIO_0000020_uid', description: 'IOIO_0000020::IOIO_0000020{MPHPO_0000009_uid::MPHPO_0000009_uid} -> IOIO_0000020::IOIO_0000020{IOIO_0000020_uid::IOIO_0000020_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OGMS_0000045'})
+MATCH (parent:Relvar {relId: 'BFO_0000040'})
+CREATE (child)-[:IS_A {fkId: 'fk1_OGMS_0000045', fkType: 'ISA', attOriginIds: 'OGMS_0000045_uid', attDestinationIds: 'BFO_0000040_uid', description: 'BFO_0000040::BFO_0000040{OGMS_0000045_uid::OGMS_0000045_uid} -> BFO_0000040::BFO_0000040{BFO_0000040_uid::BFO_0000040_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000014'})
+MATCH (parent:Relvar {relId: 'HEPRO_0000004'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HEPRO_0000014', fkType: 'ISA', attOriginIds: 'HEPRO_0000014_uid', attDestinationIds: 'HEPRO_0000004_uid', description: 'HEPRO_0000004::HEPRO_0000004{HEPRO_0000014_uid::HEPRO_0000014_uid} -> HEPRO_0000004::HEPRO_0000004{HEPRO_0000004_uid::HEPRO_0000004_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000004'})
+MATCH (parent:Relvar {relId: 'BFO_0000002'})
+CREATE (child)-[:IS_A {fkId: 'fk0_BFO_0000004', fkType: 'ISA', attOriginIds: 'BFO_0000004_uid', attDestinationIds: 'BFO_0000002_uid', description: 'BFO_0000002::BFO_0000002{BFO_0000004_uid::BFO_0000004_uid} -> BFO_0000002::BFO_0000002{BFO_0000002_uid::BFO_0000002_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000010'})
+MATCH (parent:Relvar {relId: 'HEPRO_0000004'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000010', fkType: 'ISA', attOriginIds: 'HOSO_0000010_uid', attDestinationIds: 'HEPRO_0000004_uid', description: 'HEPRO_0000004::HEPRO_0000004{HOSO_0000010_uid::HOSO_0000010_uid} -> HEPRO_0000004::HEPRO_0000004{HEPRO_0000004_uid::HEPRO_0000004_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IOIO_0000006'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000065'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IOIO_0000006', fkType: 'ISA', attOriginIds: 'IOIO_0000006_uid', attDestinationIds: 'OpenLHS-Core_0000065_uid', description: 'OpenLHS-Core_0000065::OpenLHS-Core_0000065{IOIO_0000006_uid::IOIO_0000006_uid} -> OpenLHS-Core_0000065::OpenLHS-Core_0000065{OpenLHS-Core_0000065_uid::OpenLHS-Core_0000065_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000016'})
+MATCH (parent:Relvar {relId: 'HOSO_0000011'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000016', fkType: 'ISA', attOriginIds: 'HOSO_0000016_uid', attDestinationIds: 'HOSO_0000011_uid', description: 'HOSO_0000011::HOSO_0000011{HOSO_0000016_uid::HOSO_0000016_uid} -> HOSO_0000011::HOSO_0000011{HOSO_0000011_uid::HOSO_0000011_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000144'})
+MATCH (parent:Relvar {relId: 'BFO_0000015'})
+CREATE (child)-[:IS_A {fkId: 'fk0_BFO_0000144', fkType: 'ISA', attOriginIds: 'BFO_0000144_uid', attDestinationIds: 'BFO_0000015_uid', description: 'BFO_0000015::BFO_0000015{BFO_0000144_uid::BFO_0000144_uid} -> BFO_0000015::BFO_0000015{BFO_0000015_uid::BFO_0000015_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000030'})
+MATCH (parent:Relvar {relId: 'IAO_0000033'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HEPRO_0000030', fkType: 'ISA', attOriginIds: 'HEPRO_0000030_uid', attDestinationIds: 'IAO_0000033_uid', description: 'IAO_0000033::IAO_0000033{HEPRO_0000030_uid::HEPRO_0000030_uid} -> IAO_0000033::IAO_0000033{IAO_0000033_uid::IAO_0000033_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IAO_0000646'})
+MATCH (parent:Relvar {relId: 'IAO_0020000'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IAO_0000646', fkType: 'ISA', attOriginIds: 'IAO_0000646_uid', attDestinationIds: 'IAO_0020000_uid', description: 'IAO_0020000::IAO_0020000{IAO_0000646_uid::IAO_0000646_uid} -> IAO_0020000::IAO_0020000{IAO_0020000_uid::IAO_0020000_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000022'})
+MATCH (parent:Relvar {relId: 'IAO_0020000'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OpenLHS-Core_0000022', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000022_uid', attDestinationIds: 'IAO_0020000_uid', description: 'IAO_0020000::IAO_0020000{OpenLHS-Core_0000022_uid::OpenLHS-Core_0000022_uid} -> IAO_0020000::IAO_0020000{IAO_0020000_uid::IAO_0020000_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'MPHPO_0000017'})
+MATCH (parent:Relvar {relId: 'HEPRO_0000018'})
+CREATE (child)-[:IS_A {fkId: 'fk0_MPHPO_0000017', fkType: 'ISA', attOriginIds: 'MPHPO_0000017_uid', attDestinationIds: 'HEPRO_0000018_uid', description: 'HEPRO_0000018::HEPRO_0000018{MPHPO_0000017_uid::MPHPO_0000017_uid} -> HEPRO_0000018::HEPRO_0000018{HEPRO_0000018_uid::HEPRO_0000018_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000028'})
+MATCH (parent:Relvar {relId: 'HOSO_0000139'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000028', fkType: 'ISA', attOriginIds: 'HOSO_0000028_uid', attDestinationIds: 'HOSO_0000139_uid', description: 'HOSO_0000139::HOSO_0000139{HOSO_0000028_uid::HOSO_0000028_uid} -> HOSO_0000139::HOSO_0000139{HOSO_0000139_uid::HOSO_0000139_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000102'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000065'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000102', fkType: 'ISA', attOriginIds: 'HOSO_0000102_uid', attDestinationIds: 'OpenLHS-Core_0000065_uid', description: 'OpenLHS-Core_0000065::OpenLHS-Core_0000065{HOSO_0000102_uid::HOSO_0000102_uid} -> OpenLHS-Core_0000065::OpenLHS-Core_0000065{OpenLHS-Core_0000065_uid::OpenLHS-Core_0000065_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000125'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000010'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HEPRO_0000125', fkType: 'ISA', attOriginIds: 'HEPRO_0000125_uid', attDestinationIds: 'OpenLHS-Core_0000010_uid', description: 'OpenLHS-Core_0000010::OpenLHS-Core_0000010{HEPRO_0000125_uid::HEPRO_0000125_uid} -> OpenLHS-Core_0000010::OpenLHS-Core_0000010{OpenLHS-Core_0000010_uid::OpenLHS-Core_0000010_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OGMS_0000020'})
+MATCH (parent:Relvar {relId: 'BFO_0000015'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OGMS_0000020', fkType: 'ISA', attOriginIds: 'OGMS_0000020_uid', attDestinationIds: 'BFO_0000015_uid', description: 'BFO_0000015::BFO_0000015{OGMS_0000020_uid::OGMS_0000020_uid} -> BFO_0000015::BFO_0000015{BFO_0000015_uid::BFO_0000015_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IOIO_0000014'})
+MATCH (parent:Relvar {relId: 'IOIO_0000013'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IOIO_0000014', fkType: 'ISA', attOriginIds: 'IOIO_0000014_uid', attDestinationIds: 'IOIO_0000013_uid', description: 'IOIO_0000013::IOIO_0000013{IOIO_0000014_uid::IOIO_0000014_uid} -> IOIO_0000013::IOIO_0000013{IOIO_0000013_uid::IOIO_0000013_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000036'})
+MATCH (parent:Relvar {relId: 'HOSO_0000026'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000036', fkType: 'ISA', attOriginIds: 'HOSO_0000036_uid', attDestinationIds: 'HOSO_0000026_uid', description: 'HOSO_0000026::HOSO_0000026{HOSO_0000036_uid::HOSO_0000036_uid} -> HOSO_0000026::HOSO_0000026{HOSO_0000026_uid::HOSO_0000026_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IOIO_0000012'})
+MATCH (parent:Relvar {relId: 'IAO_0000030'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IOIO_0000012', fkType: 'ISA', attOriginIds: 'IOIO_0000012_uid', attDestinationIds: 'IAO_0000030_uid', description: 'IAO_0000030::IAO_0000030{IOIO_0000012_uid::IOIO_0000012_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000008'})
+MATCH (parent:Relvar {relId: 'BFO_0000003'})
+CREATE (child)-[:IS_A {fkId: 'fk0_BFO_0000008', fkType: 'ISA', attOriginIds: 'BFO_0000008_uid', attDestinationIds: 'BFO_0000003_uid', description: 'BFO_0000003::BFO_0000003{BFO_0000008_uid::BFO_0000008_uid} -> BFO_0000003::BFO_0000003{BFO_0000003_uid::BFO_0000003_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000081'})
+MATCH (parent:Relvar {relId: 'NCBITaxon_2759'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000081', fkType: 'ISA', attOriginIds: 'HOSO_0000081_uid', attDestinationIds: 'NCBITaxon_2759_uid', description: 'NCBITaxon_2759::NCBITaxon_2759{HOSO_0000081_uid::HOSO_0000081_uid} -> NCBITaxon_2759::NCBITaxon_2759{NCBITaxon_2759_uid::NCBITaxon_2759_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000047'})
+MATCH (parent:Relvar {relId: 'HOSO_0000046'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000047', fkType: 'ISA', attOriginIds: 'HOSO_0000047_uid', attDestinationIds: 'HOSO_0000046_uid', description: 'HOSO_0000046::HOSO_0000046{HOSO_0000047_uid::HOSO_0000047_uid} -> HOSO_0000046::HOSO_0000046{HOSO_0000046_uid::HOSO_0000046_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000053'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000051'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OpenLHS-Core_0000053', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000053_uid', attDestinationIds: 'OpenLHS-Core_0000051_uid', description: 'OpenLHS-Core_0000051::OpenLHS-Core_0000051{OpenLHS-Core_0000053_uid::OpenLHS-Core_0000053_uid} -> OpenLHS-Core_0000051::OpenLHS-Core_0000051{OpenLHS-Core_0000051_uid::OpenLHS-Core_0000051_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000062'})
+MATCH (parent:Relvar {relId: 'NCBITaxon_9606'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000062', fkType: 'ISA', attOriginIds: 'HOSO_0000062_uid', attDestinationIds: 'NCBITaxon_9606_uid', description: 'NCBITaxon_9606::NCBITaxon_9606{HOSO_0000062_uid::HOSO_0000062_uid} -> NCBITaxon_9606::NCBITaxon_9606{NCBITaxon_9606_uid::NCBITaxon_9606_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000024'})
+MATCH (parent:Relvar {relId: 'IAO_0020000'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OpenLHS-Core_0000024', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000024_uid', attDestinationIds: 'IAO_0020000_uid', description: 'IAO_0020000::IAO_0020000{OpenLHS-Core_0000024_uid::OpenLHS-Core_0000024_uid} -> IAO_0020000::IAO_0020000{IAO_0020000_uid::IAO_0020000_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000031'})
+MATCH (parent:Relvar {relId: 'HOSO_0000028'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000031', fkType: 'ISA', attOriginIds: 'HOSO_0000031_uid', attDestinationIds: 'HOSO_0000028_uid', description: 'HOSO_0000028::HOSO_0000028{HOSO_0000031_uid::HOSO_0000031_uid} -> HOSO_0000028::HOSO_0000028{HOSO_0000028_uid::HOSO_0000028_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000078'})
+MATCH (parent:Relvar {relId: 'HOSO_0000074'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000078', fkType: 'ISA', attOriginIds: 'HOSO_0000078_uid', attDestinationIds: 'HOSO_0000074_uid', description: 'HOSO_0000074::HOSO_0000074{HOSO_0000078_uid::HOSO_0000078_uid} -> HOSO_0000074::HOSO_0000074{HOSO_0000074_uid::HOSO_0000074_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000018'})
+MATCH (parent:Relvar {relId: 'HOSO_0000139'})
+CREATE (child)-[:IS_A {fkId: 'fk1_HOSO_0000018', fkType: 'ISA', attOriginIds: 'HOSO_0000018_uid', attDestinationIds: 'HOSO_0000139_uid', description: 'HOSO_0000139::HOSO_0000139{HOSO_0000018_uid::HOSO_0000018_uid} -> HOSO_0000139::HOSO_0000139{HOSO_0000139_uid::HOSO_0000139_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000105'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000065'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HEPRO_0000105', fkType: 'ISA', attOriginIds: 'HEPRO_0000105_uid', attDestinationIds: 'OpenLHS-Core_0000065_uid', description: 'OpenLHS-Core_0000065::OpenLHS-Core_0000065{HEPRO_0000105_uid::HEPRO_0000105_uid} -> OpenLHS-Core_0000065::OpenLHS-Core_0000065{OpenLHS-Core_0000065_uid::OpenLHS-Core_0000065_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000126'})
+MATCH (parent:Relvar {relId: 'IAO_0000030'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000126', fkType: 'ISA', attOriginIds: 'HOSO_0000126_uid', attDestinationIds: 'IAO_0000030_uid', description: 'IAO_0000030::IAO_0000030{HOSO_0000126_uid::HOSO_0000126_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IOIO_0000002'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000011'})
+CREATE (child)-[:IS_A {fkId: 'fk1_IOIO_0000002', fkType: 'ISA', attOriginIds: 'IOIO_0000002_uid', attDestinationIds: 'OpenLHS-Core_0000011_uid', description: 'OpenLHS-Core_0000011::OpenLHS-Core_0000011{IOIO_0000002_uid::IOIO_0000002_uid} -> OpenLHS-Core_0000011::OpenLHS-Core_0000011{OpenLHS-Core_0000011_uid::OpenLHS-Core_0000011_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000048'})
+MATCH (parent:Relvar {relId: 'IAO_0000030'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000048', fkType: 'ISA', attOriginIds: 'HOSO_0000048_uid', attDestinationIds: 'IAO_0000030_uid', description: 'IAO_0000030::IAO_0000030{HOSO_0000048_uid::HOSO_0000048_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000065'})
+MATCH (parent:Relvar {relId: 'IAO_0000030'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OpenLHS-Core_0000065', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000065_uid', attDestinationIds: 'IAO_0000030_uid', description: 'IAO_0000030::IAO_0000030{OpenLHS-Core_0000065_uid::OpenLHS-Core_0000065_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000001'})
+MATCH (parent:Relvar {relId: 'Thing'})
+CREATE (child)-[:IS_A {fkId: 'fk0_BFO_0000001', fkType: 'ISA', attOriginIds: 'BFO_0000001_uid', attDestinationIds: 'Thing_uid', description: 'Thing::Thing{BFO_0000001_uid::BFO_0000001_uid} -> Thing::Thing{Thing_uid::Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000050'})
+MATCH (parent:Relvar {relId: 'HOSO_0000012'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000050', fkType: 'ISA', attOriginIds: 'HOSO_0000050_uid', attDestinationIds: 'HOSO_0000012_uid', description: 'HOSO_0000012::HOSO_0000012{HOSO_0000050_uid::HOSO_0000050_uid} -> HOSO_0000012::HOSO_0000012{HOSO_0000012_uid::HOSO_0000012_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000103'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000065'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000103', fkType: 'ISA', attOriginIds: 'HOSO_0000103_uid', attDestinationIds: 'OpenLHS-Core_0000065_uid', description: 'OpenLHS-Core_0000065::OpenLHS-Core_0000065{HOSO_0000103_uid::HOSO_0000103_uid} -> OpenLHS-Core_0000065::OpenLHS-Core_0000065{OpenLHS-Core_0000065_uid::OpenLHS-Core_0000065_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OMRSE_00000211'})
+MATCH (parent:Relvar {relId: 'OMRSE_00000209'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OMRSE_00000211', fkType: 'ISA', attOriginIds: 'OMRSE_00000211_uid', attDestinationIds: 'OMRSE_00000209_uid', description: 'OMRSE_00000209::OMRSE_00000209{OMRSE_00000211_uid::OMRSE_00000211_uid} -> OMRSE_00000209::OMRSE_00000209{OMRSE_00000209_uid::OMRSE_00000209_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'MPHPO_0000016'})
+MATCH (parent:Relvar {relId: 'HEPRO_0000019'})
+CREATE (child)-[:IS_A {fkId: 'fk0_MPHPO_0000016', fkType: 'ISA', attOriginIds: 'MPHPO_0000016_uid', attDestinationIds: 'HEPRO_0000019_uid', description: 'HEPRO_0000019::HEPRO_0000019{MPHPO_0000016_uid::MPHPO_0000016_uid} -> HEPRO_0000019::HEPRO_0000019{HEPRO_0000019_uid::HEPRO_0000019_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000056'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000054'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OpenLHS-Core_0000056', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000056_uid', attDestinationIds: 'OpenLHS-Core_0000054_uid', description: 'OpenLHS-Core_0000054::OpenLHS-Core_0000054{OpenLHS-Core_0000056_uid::OpenLHS-Core_0000056_uid} -> OpenLHS-Core_0000054::OpenLHS-Core_0000054{OpenLHS-Core_0000054_uid::OpenLHS-Core_0000054_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IAO_0000104'})
+MATCH (parent:Relvar {relId: 'IAO_0000033'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IAO_0000104', fkType: 'ISA', attOriginIds: 'IAO_0000104_uid', attDestinationIds: 'IAO_0000033_uid', description: 'IAO_0000033::IAO_0000033{IAO_0000104_uid::IAO_0000104_uid} -> IAO_0000033::IAO_0000033{IAO_0000033_uid::IAO_0000033_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000040'})
+MATCH (parent:Relvar {relId: 'HOSO_0000011'})
+CREATE (child)-[:IS_A {fkId: 'fk0_HOSO_0000040', fkType: 'ISA', attOriginIds: 'HOSO_0000040_uid', attDestinationIds: 'HOSO_0000011_uid', description: 'HOSO_0000011::HOSO_0000011{HOSO_0000040_uid::HOSO_0000040_uid} -> HOSO_0000011::HOSO_0000011{HOSO_0000011_uid::HOSO_0000011_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000052'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000051'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OpenLHS-Core_0000052', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000052_uid', attDestinationIds: 'OpenLHS-Core_0000051_uid', description: 'OpenLHS-Core_0000051::OpenLHS-Core_0000051{OpenLHS-Core_0000052_uid::OpenLHS-Core_0000052_uid} -> OpenLHS-Core_0000051::OpenLHS-Core_0000051{OpenLHS-Core_0000051_uid::OpenLHS-Core_0000051_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000027'})
+MATCH (parent:Relvar {relId: 'IAO_0000030'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OpenLHS-Core_0000027', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000027_uid', attDestinationIds: 'IAO_0000030_uid', description: 'IAO_0000030::IAO_0000030{OpenLHS-Core_0000027_uid::OpenLHS-Core_0000027_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IOIO_0000001'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000031'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IOIO_0000001', fkType: 'ISA', attOriginIds: 'IOIO_0000001_uid', attDestinationIds: 'OpenLHS-Core_0000031_uid', description: 'OpenLHS-Core_0000031::OpenLHS-Core_0000031{IOIO_0000001_uid::IOIO_0000001_uid} -> OpenLHS-Core_0000031::OpenLHS-Core_0000031{OpenLHS-Core_0000031_uid::OpenLHS-Core_0000031_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000072'})
+MATCH (parent:Relvar {relId: 'HOSO_0000068'})
+CREATE (child)-[:IS_A {fkId: 'fk1_HOSO_0000072', fkType: 'ISA', attOriginIds: 'HOSO_0000072_uid', attDestinationIds: 'HOSO_0000068_uid', description: 'HOSO_0000068::HOSO_0000068{HOSO_0000072_uid::HOSO_0000072_uid} -> HOSO_0000068::HOSO_0000068{HOSO_0000068_uid::HOSO_0000068_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'ONTORELA_C5c900f41'})
+MATCH (parent:Relvar {relId: 'IOIO_0000003'})
+CREATE (child)-[:IS_A {fkId: 'fk0_ONTORELA_C5c900f41', fkType: 'ISA', attOriginIds: 'ONTORELA_C5c900f41_uid', attDestinationIds: 'IOIO_0000003_uid', description: 'IOIO_0000003::IOIO_0000003{ONTORELA_C5c900f41_uid::ONTORELA_C5c900f41_uid} -> IOIO_0000003::IOIO_0000003{IOIO_0000003_uid::IOIO_0000003_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'ONTORELA_C624fa67d'})
+MATCH (parent:Relvar {relId: 'IOIO_0000001'})
+CREATE (child)-[:IS_A {fkId: 'fk0_ONTORELA_C624fa67d', fkType: 'ISA', attOriginIds: 'ONTORELA_C624fa67d_uid', attDestinationIds: 'IOIO_0000001_uid', description: 'IOIO_0000001::IOIO_0000001{ONTORELA_C624fa67d_uid::ONTORELA_C624fa67d_uid} -> IOIO_0000001::IOIO_0000001{IOIO_0000001_uid::IOIO_0000001_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'ONTORELA_C6a3e089c'})
+MATCH (parent:Relvar {relId: 'BFO_0000015'})
+CREATE (child)-[:IS_A {fkId: 'fk0_ONTORELA_C6a3e089c', fkType: 'ISA', attOriginIds: 'ONTORELA_C6a3e089c_uid', attDestinationIds: 'BFO_0000015_uid', description: 'BFO_0000015::BFO_0000015{ONTORELA_C6a3e089c_uid::ONTORELA_C6a3e089c_uid} -> BFO_0000015::BFO_0000015{BFO_0000015_uid::BFO_0000015_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'ONTORELA_Cdb7d47d'})
+MATCH (parent:Relvar {relId: 'HOSO_0000012'})
+CREATE (child)-[:IS_A {fkId: 'fk0_ONTORELA_Cdb7d47d', fkType: 'ISA', attOriginIds: 'ONTORELA_Cdb7d47d_uid', attDestinationIds: 'HOSO_0000012_uid', description: 'HOSO_0000012::HOSO_0000012{ONTORELA_Cdb7d47d_uid::ONTORELA_Cdb7d47d_uid} -> HOSO_0000012::HOSO_0000012{HOSO_0000012_uid::HOSO_0000012_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'ONTORELA_C73b67cf5'})
+MATCH (parent:Relvar {relId: 'BFO_0000015'})
+CREATE (child)-[:IS_A {fkId: 'fk0_ONTORELA_C73b67cf5', fkType: 'ISA', attOriginIds: 'ONTORELA_C73b67cf5_uid', attDestinationIds: 'BFO_0000015_uid', description: 'BFO_0000015::BFO_0000015{ONTORELA_C73b67cf5_uid::ONTORELA_C73b67cf5_uid} -> BFO_0000015::BFO_0000015{BFO_0000015_uid::BFO_0000015_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IAO_0000219'})
+MATCH (parent:Relvar {relId: 'IAO_0000136'})
+CREATE (child)-[:IS_A {fkId: 'fk0_IAO_0000219', fkType: 'ISA', attOriginIds: 'domain_IAO_0000030_uid, range_BFO_0000001_uid', attDestinationIds: 'domain_IAO_0000030_uid, range_Thing_uid', description: 'IAO_0000136::IAO_0000136{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_BFO_0000001_uid::range_BFO_0000001_uid} -> IAO_0000136::IAO_0000136{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OBI_0000293'})
+MATCH (parent:Relvar {relId: 'RO_0000057'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OBI_0000293', fkType: 'ISA', attOriginIds: 'domain_OBI_0000011_uid, range_BFO_0000002_uid', attDestinationIds: 'domain_BFO_0000003_uid, range_BFO_0000002_uid', description: 'RO_0000057::RO_0000057{domain_OBI_0000011_uid::domain_OBI_0000011_uid, range_BFO_0000002_uid::range_BFO_0000002_uid} -> RO_0000057::RO_0000057{domain_BFO_0000003_uid::domain_BFO_0000003_uid, range_BFO_0000002_uid::range_BFO_0000002_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OBI_0000295'})
+MATCH (parent:Relvar {relId: 'RO_0000056'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OBI_0000295', fkType: 'ISA', attOriginIds: 'range_OBI_0000011_uid, domain_BFO_0000002_uid', attDestinationIds: 'range_BFO_0000003_uid, domain_BFO_0000002_uid', description: 'RO_0000056::RO_0000056{range_OBI_0000011_uid::range_OBI_0000011_uid, domain_BFO_0000002_uid::domain_BFO_0000002_uid} -> RO_0000056::RO_0000056{range_BFO_0000003_uid::range_BFO_0000003_uid, domain_BFO_0000002_uid::domain_BFO_0000002_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OBI_0000299'})
+MATCH (parent:Relvar {relId: 'RO_0000057'})
+CREATE (child)-[:IS_A {fkId: 'fk1_OBI_0000299', fkType: 'ISA', attOriginIds: 'domain_OBI_0000011_uid, range_BFO_0000002_uid', attDestinationIds: 'domain_BFO_0000003_uid, range_BFO_0000002_uid', description: 'RO_0000057::RO_0000057{domain_OBI_0000011_uid::domain_OBI_0000011_uid, range_BFO_0000002_uid::range_BFO_0000002_uid} -> RO_0000057::RO_0000057{domain_BFO_0000003_uid::domain_BFO_0000003_uid, range_BFO_0000002_uid::range_BFO_0000002_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OBI_0000312'})
+MATCH (parent:Relvar {relId: 'RO_0000056'})
+CREATE (child)-[:IS_A {fkId: 'fk1_OBI_0000312', fkType: 'ISA', attOriginIds: 'range_OBI_0000011_uid, domain_BFO_0000002_uid', attDestinationIds: 'range_BFO_0000003_uid, domain_BFO_0000002_uid', description: 'RO_0000056::RO_0000056{range_OBI_0000011_uid::range_OBI_0000011_uid, domain_BFO_0000002_uid::domain_BFO_0000002_uid} -> RO_0000056::RO_0000056{range_BFO_0000003_uid::range_BFO_0000003_uid, domain_BFO_0000002_uid::domain_BFO_0000002_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000071'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000070'})
+CREATE (child)-[:IS_A {fkId: 'fk0_OpenLHS-Core_0000071', fkType: 'ISA', attOriginIds: 'domain_BFO_0000015_uid, range_BFO_0000015_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'OpenLHS-Core_0000070::OpenLHS-Core_0000070{domain_BFO_0000015_uid::domain_BFO_0000015_uid, range_BFO_0000015_uid::range_BFO_0000015_uid} -> OpenLHS-Core_0000070::OpenLHS-Core_0000070{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'RO_0000079'})
+MATCH (parent:Relvar {relId: 'RO_0000052'})
+CREATE (child)-[:IS_A {fkId: 'fk0_RO_0000079', fkType: 'ISA', attOriginIds: 'domain_BFO_0000034_uid, range_Thing_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0000052::RO_0000052{domain_BFO_0000034_uid::domain_BFO_0000034_uid, range_Thing_uid::range_Thing_uid} -> RO_0000052::RO_0000052{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'RO_0000085'})
+MATCH (parent:Relvar {relId: 'RO_0000053'})
+CREATE (child)-[:IS_A {fkId: 'fk0_RO_0000085', fkType: 'ISA', attOriginIds: 'domain_BFO_0000004_uid, range_BFO_0000034_uid', attDestinationIds: 'domain_Thing_uid, range_BFO_0000020_uid', description: 'RO_0000053::RO_0000053{domain_BFO_0000004_uid::domain_BFO_0000004_uid, range_BFO_0000034_uid::range_BFO_0000034_uid} -> RO_0000053::RO_0000053{domain_Thing_uid::domain_Thing_uid, range_BFO_0000020_uid::range_BFO_0000020_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'RO_0000086'})
+MATCH (parent:Relvar {relId: 'RO_0000053'})
+CREATE (child)-[:IS_A {fkId: 'fk0_RO_0000086', fkType: 'ISA', attOriginIds: 'domain_Thing_uid, range_BFO_0000019_uid', attDestinationIds: 'domain_Thing_uid, range_BFO_0000020_uid', description: 'RO_0000053::RO_0000053{domain_Thing_uid::domain_Thing_uid, range_BFO_0000019_uid::range_BFO_0000019_uid} -> RO_0000053::RO_0000053{domain_Thing_uid::domain_Thing_uid, range_BFO_0000020_uid::range_BFO_0000020_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'RO_0000087'})
+MATCH (parent:Relvar {relId: 'RO_0000053'})
+CREATE (child)-[:IS_A {fkId: 'fk0_RO_0000087', fkType: 'ISA', attOriginIds: 'range_BFO_0000023_uid, domain_BFO_0000004_uid', attDestinationIds: 'range_BFO_0000020_uid, domain_Thing_uid', description: 'RO_0000053::RO_0000053{range_BFO_0000023_uid::range_BFO_0000023_uid, domain_BFO_0000004_uid::domain_BFO_0000004_uid} -> RO_0000053::RO_0000053{range_BFO_0000020_uid::range_BFO_0000020_uid, domain_Thing_uid::domain_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'RO_0000091'})
+MATCH (parent:Relvar {relId: 'RO_0000053'})
+CREATE (child)-[:IS_A {fkId: 'fk0_RO_0000091', fkType: 'ISA', attOriginIds: 'domain_BFO_0000004_uid, range_BFO_0000016_uid', attDestinationIds: 'domain_Thing_uid, range_BFO_0000020_uid', description: 'RO_0000053::RO_0000053{domain_BFO_0000004_uid::domain_BFO_0000004_uid, range_BFO_0000016_uid::range_BFO_0000016_uid} -> RO_0000053::RO_0000053{domain_Thing_uid::domain_Thing_uid, range_BFO_0000020_uid::range_BFO_0000020_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'RO_0002018'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk1_RO_0002018', fkType: 'ISA', attOriginIds: 'domain_BFO_0000015_uid, range_BFO_0000015_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{domain_BFO_0000015_uid::domain_BFO_0000015_uid, range_BFO_0000015_uid::range_BFO_0000015_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'RO_0002082'})
+MATCH (parent:Relvar {relId: 'RO_0002081'})
+CREATE (child)-[:IS_A {fkId: 'fk16_RO_0002082', fkType: 'ISA', attOriginIds: 'domain_Thing_uid, range_Thing_uid', attDestinationIds: 'domain_BFO_0000003_uid, range_BFO_0000003_uid', description: 'RO_0002081::RO_0002081{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid} -> RO_0002081::RO_0002081{domain_BFO_0000003_uid::domain_BFO_0000003_uid, range_BFO_0000003_uid::range_BFO_0000003_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'RO_0002083'})
+MATCH (parent:Relvar {relId: 'RO_0002081'})
+CREATE (child)-[:IS_A {fkId: 'fk17_RO_0002083', fkType: 'ISA', attOriginIds: 'domain_Thing_uid, range_Thing_uid', attDestinationIds: 'domain_BFO_0000003_uid, range_BFO_0000003_uid', description: 'RO_0002081::RO_0002081{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid} -> RO_0002081::RO_0002081{domain_BFO_0000003_uid::domain_BFO_0000003_uid, range_BFO_0000003_uid::range_BFO_0000003_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'RO_0002085'})
+MATCH (parent:Relvar {relId: 'RO_0002088'})
+CREATE (child)-[:IS_A {fkId: 'fk18_RO_0002085', fkType: 'ISA', attOriginIds: 'domain_Thing_uid, range_Thing_uid', attDestinationIds: 'domain_BFO_0000003_uid, range_BFO_0000003_uid', description: 'RO_0002088::RO_0002088{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid} -> RO_0002088::RO_0002088{domain_BFO_0000003_uid::domain_BFO_0000003_uid, range_BFO_0000003_uid::range_BFO_0000003_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'RO_0002223'})
+MATCH (parent:Relvar {relId: 'BFO_0000050'})
+CREATE (child)-[:IS_A {fkId: 'fk16_RO_0002223', fkType: 'ISA', attOriginIds: 'range_BFO_0000003_uid, domain_BFO_0000003_uid', attDestinationIds: 'range_Thing_uid, domain_Thing_uid', description: 'BFO_0000050::BFO_0000050{range_BFO_0000003_uid::range_BFO_0000003_uid, domain_BFO_0000003_uid::domain_BFO_0000003_uid} -> BFO_0000050::BFO_0000050{range_Thing_uid::range_Thing_uid, domain_Thing_uid::domain_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'RO_0002224'})
+MATCH (parent:Relvar {relId: 'RO_0002222'})
+CREATE (child)-[:IS_A {fkId: 'fk21_RO_0002224', fkType: 'ISA', attOriginIds: 'domain_Thing_uid, range_Thing_uid', attDestinationIds: 'domain_BFO_0000003_uid, range_BFO_0000003_uid', description: 'RO_0002222::RO_0002222{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid} -> RO_0002222::RO_0002222{domain_BFO_0000003_uid::domain_BFO_0000003_uid, range_BFO_0000003_uid::range_BFO_0000003_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'RO_0002229'})
+MATCH (parent:Relvar {relId: 'RO_0002222'})
+CREATE (child)-[:IS_A {fkId: 'fk23_RO_0002229', fkType: 'ISA', attOriginIds: 'domain_Thing_uid, range_Thing_uid', attDestinationIds: 'domain_BFO_0000003_uid, range_BFO_0000003_uid', description: 'RO_0002222::RO_0002222{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid} -> RO_0002222::RO_0002222{domain_BFO_0000003_uid::domain_BFO_0000003_uid, range_BFO_0000003_uid::range_BFO_0000003_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'RO_0002230'})
+MATCH (parent:Relvar {relId: 'RO_0002222'})
+CREATE (child)-[:IS_A {fkId: 'fk25_RO_0002230', fkType: 'ISA', attOriginIds: 'domain_Thing_uid, range_Thing_uid', attDestinationIds: 'domain_BFO_0000003_uid, range_BFO_0000003_uid', description: 'RO_0002222::RO_0002222{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid} -> RO_0002222::RO_0002222{domain_BFO_0000003_uid::domain_BFO_0000003_uid, range_BFO_0000003_uid::range_BFO_0000003_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'RO_0002233'})
+MATCH (parent:Relvar {relId: 'RO_0000057'})
+CREATE (child)-[:IS_A {fkId: 'fk0_RO_0002233', fkType: 'ISA', attOriginIds: 'domain_BFO_0000015_uid, range_BFO_0000002_uid', attDestinationIds: 'domain_BFO_0000003_uid, range_BFO_0000002_uid', description: 'RO_0000057::RO_0000057{domain_BFO_0000015_uid::domain_BFO_0000015_uid, range_BFO_0000002_uid::range_BFO_0000002_uid} -> RO_0000057::RO_0000057{domain_BFO_0000003_uid::domain_BFO_0000003_uid, range_BFO_0000002_uid::range_BFO_0000002_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'capability_of'})
+MATCH (parent:Relvar {relId: 'RO_0000052'})
+CREATE (child)-[:IS_A {fkId: 'fk0_capability_of', fkType: 'ISA', attOriginIds: 'range_Agent_uid, domain_AgentCapability_uid', attDestinationIds: 'range_Thing_uid, domain_Thing_uid', description: 'RO_0000052::RO_0000052{range_Agent_uid::range_Agent_uid, domain_AgentCapability_uid::domain_AgentCapability_uid} -> RO_0000052::RO_0000052{range_Thing_uid::range_Thing_uid, domain_Thing_uid::domain_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'has_capability'})
+MATCH (parent:Relvar {relId: 'RO_0000053'})
+CREATE (child)-[:IS_A {fkId: 'fk0_has_capability', fkType: 'ISA', attOriginIds: 'domain_Agent_uid, range_AgentCapability_uid', attDestinationIds: 'domain_Thing_uid, range_BFO_0000020_uid', description: 'RO_0000053::RO_0000053{domain_Agent_uid::domain_Agent_uid, range_AgentCapability_uid::range_AgentCapability_uid} -> RO_0000053::RO_0000053{domain_Thing_uid::domain_Thing_uid, range_BFO_0000020_uid::range_BFO_0000020_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000003_IAO_0000219_OBI_0100026'})
+MATCH (parent:Relvar {relId: 'IAO_0000219'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000003_IAO_0000219_OBI_0100026', fkType: 'ISA', attOriginIds: 'HOSO_0000003_uid, OBI_0100026_uid', attDestinationIds: 'domain_IAO_0000030_uid, range_BFO_0000001_uid', description: 'IAO_0000219::IAO_0000219{HOSO_0000003_uid::HOSO_0000003_uid, OBI_0100026_uid::OBI_0100026_uid} -> IAO_0000219::IAO_0000219{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_BFO_0000001_uid::range_BFO_0000001_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000124_RO_0002180_HEPRO_0000017'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000124_RO_0002180_HEPRO_0000017', fkType: 'ISA', attOriginIds: 'HOSO_0000124_uid, HEPRO_0000017_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{HOSO_0000124_uid::HOSO_0000124_uid, HEPRO_0000017_uid::HEPRO_0000017_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000124_RO_0002180_HOSO_0000126'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000124_RO_0002180_HOSO_0000126', fkType: 'ISA', attOriginIds: 'HOSO_0000124_uid, HOSO_0000126_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{HOSO_0000124_uid::HOSO_0000124_uid, HOSO_0000126_uid::HOSO_0000126_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000124_RO_0002180_HOSO_0000100'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000124_RO_0002180_HOSO_0000100', fkType: 'ISA', attOriginIds: 'HOSO_0000124_uid, HOSO_0000100_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{HOSO_0000124_uid::HOSO_0000124_uid, HOSO_0000100_uid::HOSO_0000100_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000100_IAO_0000219_HOSO_0000011'})
+MATCH (parent:Relvar {relId: 'IAO_0000219'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000100_IAO_0000219_HOSO_0000011', fkType: 'ISA', attOriginIds: 'HOSO_0000100_uid, HOSO_0000011_uid', attDestinationIds: 'domain_IAO_0000030_uid, range_BFO_0000001_uid', description: 'IAO_0000219::IAO_0000219{HOSO_0000100_uid::HOSO_0000100_uid, HOSO_0000011_uid::HOSO_0000011_uid} -> IAO_0000219::IAO_0000219{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_BFO_0000001_uid::range_BFO_0000001_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IAO_0020010_OBI_0000299_IAO_0020000'})
+MATCH (parent:Relvar {relId: 'OBI_0000299'})
+CREATE (child)-[:IS_A {fkId: 'fk2_IAO_0020010_OBI_0000299_IAO_0020000', fkType: 'ISA', attOriginIds: 'IAO_0020010_uid, IAO_0020000_uid', attDestinationIds: 'domain_OBI_0000011_uid, range_BFO_0000002_uid', description: 'OBI_0000299::OBI_0000299{IAO_0020010_uid::IAO_0020010_uid, IAO_0020000_uid::IAO_0020000_uid} -> OBI_0000299::OBI_0000299{domain_OBI_0000011_uid::domain_OBI_0000011_uid, range_BFO_0000002_uid::range_BFO_0000002_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000039_IAO_0000136_ONTORELA_Cdb7d47d'})
+MATCH (parent:Relvar {relId: 'IAO_0000136'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000039_IAO_0000136_ONTORELA_Cdb7d47d', fkType: 'ISA', attOriginIds: 'HOSO_0000039_uid, ONTORELA_Cdb7d47d_uid', attDestinationIds: 'domain_IAO_0000030_uid, range_Thing_uid', description: 'IAO_0000136::IAO_0000136{HOSO_0000039_uid::HOSO_0000039_uid, ONTORELA_Cdb7d47d_uid::ONTORELA_Cdb7d47d_uid} -> IAO_0000136::IAO_0000136{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000027_BFO_0000051_IAO_0000033'})
+MATCH (parent:Relvar {relId: 'BFO_0000051'})
+CREATE (child)-[:IS_A {fkId: 'fk2_OpenLHS-Core_0000027_BFO_0000051_IAO_0000033', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000027_uid, IAO_0000033_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'BFO_0000051::BFO_0000051{OpenLHS-Core_0000027_uid::OpenLHS-Core_0000027_uid, IAO_0000033_uid::IAO_0000033_uid} -> BFO_0000051::BFO_0000051{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000008_OBI_0000312_HEPRO_0000005'})
+MATCH (parent:Relvar {relId: 'OBI_0000312'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HEPRO_0000008_OBI_0000312_HEPRO_0000005', fkType: 'ISA', attOriginIds: 'HEPRO_0000008_uid, HEPRO_0000005_uid', attDestinationIds: 'domain_BFO_0000002_uid, range_OBI_0000011_uid', description: 'OBI_0000312::OBI_0000312{HEPRO_0000008_uid::HEPRO_0000008_uid, HEPRO_0000005_uid::HEPRO_0000005_uid} -> OBI_0000312::OBI_0000312{domain_BFO_0000002_uid::domain_BFO_0000002_uid, range_OBI_0000011_uid::range_OBI_0000011_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IAO_0000033_OpenLHS-Core_0000007_BFO_0000015'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000007'})
+CREATE (child)-[:IS_A {fkId: 'fk2_IAO_0000033_OpenLHS-Core_0000007_BFO_0000015', fkType: 'ISA', attOriginIds: 'IAO_0000033_uid, BFO_0000015_uid', attDestinationIds: 'domain_IAO_0000033_uid, range_BFO_0000015_uid', description: 'OpenLHS-Core_0000007::OpenLHS-Core_0000007{IAO_0000033_uid::IAO_0000033_uid, BFO_0000015_uid::BFO_0000015_uid} -> OpenLHS-Core_0000007::OpenLHS-Core_0000007{domain_IAO_0000033_uid::domain_IAO_0000033_uid, range_BFO_0000015_uid::range_BFO_0000015_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IAO_0000033_OpenLHS-Core_0000066_BFO_0000015'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000066'})
+CREATE (child)-[:IS_A {fkId: 'fk5_IAO_0000033_OpenLHS-Core_0000066_BFO_0000015', fkType: 'ISA', attOriginIds: 'IAO_0000033_uid, BFO_0000015_uid', attDestinationIds: 'domain_IAO_0000033_uid, range_BFO_0000015_uid', description: 'OpenLHS-Core_0000066::OpenLHS-Core_0000066{IAO_0000033_uid::IAO_0000033_uid, BFO_0000015_uid::BFO_0000015_uid} -> OpenLHS-Core_0000066::OpenLHS-Core_0000066{domain_IAO_0000033_uid::domain_IAO_0000033_uid, range_BFO_0000015_uid::range_BFO_0000015_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IAO_0000033_IAO_0000136_BFO_0000017'})
+MATCH (parent:Relvar {relId: 'IAO_0000136'})
+CREATE (child)-[:IS_A {fkId: 'fk2_IAO_0000033_IAO_0000136_BFO_0000017', fkType: 'ISA', attOriginIds: 'IAO_0000033_uid, BFO_0000017_uid', attDestinationIds: 'domain_IAO_0000030_uid, range_Thing_uid', description: 'IAO_0000136::IAO_0000136{IAO_0000033_uid::IAO_0000033_uid, BFO_0000017_uid::BFO_0000017_uid} -> IAO_0000136::IAO_0000136{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OMRSE_00000062_RO_0000053_BFO_0000034'})
+MATCH (parent:Relvar {relId: 'RO_0000053'})
+CREATE (child)-[:IS_A {fkId: 'fk2_OMRSE_00000062_RO_0000053_BFO_0000034', fkType: 'ISA', attOriginIds: 'OMRSE_00000062_uid, BFO_0000034_uid', attDestinationIds: 'domain_Thing_uid, range_BFO_0000020_uid', description: 'RO_0000053::RO_0000053{OMRSE_00000062_uid::OMRSE_00000062_uid, BFO_0000034_uid::BFO_0000034_uid} -> RO_0000053::RO_0000053{domain_Thing_uid::domain_Thing_uid, range_BFO_0000020_uid::range_BFO_0000020_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OMRSE_00000062_OMRSE_00000068_OBI_0000245'})
+MATCH (parent:Relvar {relId: 'OMRSE_00000068'})
+CREATE (child)-[:IS_A {fkId: 'fk2_OMRSE_00000062_OMRSE_00000068_OBI_0000245', fkType: 'ISA', attOriginIds: 'OMRSE_00000062_uid, OBI_0000245_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'OMRSE_00000068::OMRSE_00000068{OMRSE_00000062_uid::OMRSE_00000062_uid, OBI_0000245_uid::OBI_0000245_uid} -> OMRSE_00000068::OMRSE_00000068{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000082_BFO_0000054_HOSO_0000012'})
+MATCH (parent:Relvar {relId: 'BFO_0000054'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000082_BFO_0000054_HOSO_0000012', fkType: 'ISA', attOriginIds: 'HOSO_0000082_uid, HOSO_0000012_uid', attDestinationIds: 'domain_BFO_0000017_uid, range_BFO_0000015_uid', description: 'BFO_0000054::BFO_0000054{HOSO_0000082_uid::HOSO_0000082_uid, HOSO_0000012_uid::HOSO_0000012_uid} -> BFO_0000054::BFO_0000054{domain_BFO_0000017_uid::domain_BFO_0000017_uid, range_BFO_0000015_uid::range_BFO_0000015_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000070_RO_0002087_HOSO_0000071'})
+MATCH (parent:Relvar {relId: 'RO_0002087'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000070_RO_0002087_HOSO_0000071', fkType: 'ISA', attOriginIds: 'HOSO_0000070_uid, HOSO_0000071_uid', attDestinationIds: 'domain_BFO_0000003_uid, range_BFO_0000003_uid', description: 'RO_0002087::RO_0002087{HOSO_0000070_uid::HOSO_0000070_uid, HOSO_0000071_uid::HOSO_0000071_uid} -> RO_0002087::RO_0002087{domain_BFO_0000003_uid::domain_BFO_0000003_uid, range_BFO_0000003_uid::range_BFO_0000003_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'MPHPO_0000020_OpenLHS-Core_0000070_MPHPO_0000016'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000070'})
+CREATE (child)-[:IS_A {fkId: 'fk2_MPHPO_0000020_OpenLHS-Core_0000070_MPHPO_0000016', fkType: 'ISA', attOriginIds: 'MPHPO_0000020_uid, MPHPO_0000016_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'OpenLHS-Core_0000070::OpenLHS-Core_0000070{MPHPO_0000020_uid::MPHPO_0000020_uid, MPHPO_0000016_uid::MPHPO_0000016_uid} -> OpenLHS-Core_0000070::OpenLHS-Core_0000070{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000128_RO_0002180_HEPRO_0000130'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HEPRO_0000128_RO_0002180_HEPRO_0000130', fkType: 'ISA', attOriginIds: 'HEPRO_0000128_uid, HEPRO_0000130_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{HEPRO_0000128_uid::HEPRO_0000128_uid, HEPRO_0000130_uid::HEPRO_0000130_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000007_OBI_0000312_HEPRO_0000006'})
+MATCH (parent:Relvar {relId: 'OBI_0000312'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HEPRO_0000007_OBI_0000312_HEPRO_0000006', fkType: 'ISA', attOriginIds: 'HEPRO_0000007_uid, HEPRO_0000006_uid', attDestinationIds: 'domain_BFO_0000002_uid, range_OBI_0000011_uid', description: 'OBI_0000312::OBI_0000312{HEPRO_0000007_uid::HEPRO_0000007_uid, HEPRO_0000006_uid::HEPRO_0000006_uid} -> OBI_0000312::OBI_0000312{domain_BFO_0000002_uid::domain_BFO_0000002_uid, range_OBI_0000011_uid::range_OBI_0000011_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000026_RO_0002180_OpenLHS-Core_0000023'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_OpenLHS-Core_0000026_RO_0002180_OpenLHS-Core_0000023', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000026_uid, OpenLHS-Core_0000023_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{OpenLHS-Core_0000026_uid::OpenLHS-Core_0000026_uid, OpenLHS-Core_0000023_uid::OpenLHS-Core_0000023_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'ONTORELA_C5c900f41_IAO_0000136_HOSO_0000137'})
+MATCH (parent:Relvar {relId: 'IAO_0000136'})
+CREATE (child)-[:IS_A {fkId: 'fk2_ONTORELA_C5c900f41_IAO_0000136_HOSO_0000137', fkType: 'ISA', attOriginIds: 'ONTORELA_C5c900f41_uid, HOSO_0000137_uid', attDestinationIds: 'domain_IAO_0000030_uid, range_Thing_uid', description: 'IAO_0000136::IAO_0000136{ONTORELA_C5c900f41_uid::ONTORELA_C5c900f41_uid, HOSO_0000137_uid::HOSO_0000137_uid} -> IAO_0000136::IAO_0000136{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000025_BFO_0000050_IAO_0000422'})
+MATCH (parent:Relvar {relId: 'BFO_0000050'})
+CREATE (child)-[:IS_A {fkId: 'fk2_OpenLHS-Core_0000025_BFO_0000050_IAO_0000422', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000025_uid, IAO_0000422_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'BFO_0000050::BFO_0000050{OpenLHS-Core_0000025_uid::OpenLHS-Core_0000025_uid, IAO_0000422_uid::IAO_0000422_uid} -> BFO_0000050::BFO_0000050{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000013_OpenLHS-Core_0000001_OpenLHS-Core_0000012'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000001'})
+CREATE (child)-[:IS_A {fkId: 'fk2_OpenLHS-Core_0000013_OpenLHS-Core_0000001_OpenLHS-Core_0000012', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000013_uid, OpenLHS-Core_0000012_uid', attDestinationIds: 'domain_OpenLHS-Core_0000013_uid, range_OpenLHS-Core_0000012_uid', description: 'OpenLHS-Core_0000001::OpenLHS-Core_0000001{OpenLHS-Core_0000013_uid::OpenLHS-Core_0000013_uid, OpenLHS-Core_0000012_uid::OpenLHS-Core_0000012_uid} -> OpenLHS-Core_0000001::OpenLHS-Core_0000001{domain_OpenLHS-Core_0000013_uid::domain_OpenLHS-Core_0000013_uid, range_OpenLHS-Core_0000012_uid::range_OpenLHS-Core_0000012_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000085_OpenLHS-Core_0000004_HOSO_0000073'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000004'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000085_OpenLHS-Core_0000004_HOSO_0000073', fkType: 'ISA', attOriginIds: 'HOSO_0000085_uid, HOSO_0000073_uid', attDestinationIds: 'domain_BFO_0000015_uid, range_IAO_0000033_uid', description: 'OpenLHS-Core_0000004::OpenLHS-Core_0000004{HOSO_0000085_uid::HOSO_0000085_uid, HOSO_0000073_uid::HOSO_0000073_uid} -> OpenLHS-Core_0000004::OpenLHS-Core_0000004{domain_BFO_0000015_uid::domain_BFO_0000015_uid, range_IAO_0000033_uid::range_IAO_0000033_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'MPHPO_0000021_OpenLHS-Core_0000070_MPHPO_0000016'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000070'})
+CREATE (child)-[:IS_A {fkId: 'fk2_MPHPO_0000021_OpenLHS-Core_0000070_MPHPO_0000016', fkType: 'ISA', attOriginIds: 'MPHPO_0000021_uid, MPHPO_0000016_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'OpenLHS-Core_0000070::OpenLHS-Core_0000070{MPHPO_0000021_uid::MPHPO_0000021_uid, MPHPO_0000016_uid::MPHPO_0000016_uid} -> OpenLHS-Core_0000070::OpenLHS-Core_0000070{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000102_OpenLHS-Core_0000070_HOSO_0000055'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000070'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000102_OpenLHS-Core_0000070_HOSO_0000055', fkType: 'ISA', attOriginIds: 'HOSO_0000102_uid, HOSO_0000055_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'OpenLHS-Core_0000070::OpenLHS-Core_0000070{HOSO_0000102_uid::HOSO_0000102_uid, HOSO_0000055_uid::HOSO_0000055_uid} -> OpenLHS-Core_0000070::OpenLHS-Core_0000070{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IAO_0020000_IAO_0000219_BFO_0000001'})
+MATCH (parent:Relvar {relId: 'IAO_0000219'})
+CREATE (child)-[:IS_A {fkId: 'fk2_IAO_0020000_IAO_0000219_BFO_0000001', fkType: 'ISA', attOriginIds: 'IAO_0020000_uid, BFO_0000001_uid', attDestinationIds: 'domain_IAO_0000030_uid, range_BFO_0000001_uid', description: 'IAO_0000219::IAO_0000219{IAO_0020000_uid::IAO_0020000_uid, BFO_0000001_uid::BFO_0000001_uid} -> IAO_0000219::IAO_0000219{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_BFO_0000001_uid::range_BFO_0000001_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IAO_0020000_OBI_0000312_IAO_0020010'})
+MATCH (parent:Relvar {relId: 'OBI_0000312'})
+CREATE (child)-[:IS_A {fkId: 'fk2_IAO_0020000_OBI_0000312_IAO_0020010', fkType: 'ISA', attOriginIds: 'IAO_0020000_uid, IAO_0020010_uid', attDestinationIds: 'domain_BFO_0000002_uid, range_OBI_0000011_uid', description: 'OBI_0000312::OBI_0000312{IAO_0020000_uid::IAO_0020000_uid, IAO_0020010_uid::IAO_0020010_uid} -> OBI_0000312::OBI_0000312{domain_BFO_0000002_uid::domain_BFO_0000002_uid, range_OBI_0000011_uid::range_OBI_0000011_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IOIO_0000006_OpenLHS-Core_0000070_IOIO_0000003'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000070'})
+CREATE (child)-[:IS_A {fkId: 'fk2_IOIO_0000006_OpenLHS-Core_0000070_IOIO_0000003', fkType: 'ISA', attOriginIds: 'IOIO_0000006_uid, IOIO_0000003_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'OpenLHS-Core_0000070::OpenLHS-Core_0000070{IOIO_0000006_uid::IOIO_0000006_uid, IOIO_0000003_uid::IOIO_0000003_uid} -> OpenLHS-Core_0000070::OpenLHS-Core_0000070{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000017_RO_0002018_HOSO_0000012'})
+MATCH (parent:Relvar {relId: 'RO_0002018'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000017_RO_0002018_HOSO_0000012', fkType: 'ISA', attOriginIds: 'HOSO_0000017_uid, HOSO_0000012_uid', attDestinationIds: 'domain_BFO_0000015_uid, range_BFO_0000015_uid', description: 'RO_0002018::RO_0002018{HOSO_0000017_uid::HOSO_0000017_uid, HOSO_0000012_uid::HOSO_0000012_uid} -> RO_0002018::RO_0002018{domain_BFO_0000015_uid::domain_BFO_0000015_uid, range_BFO_0000015_uid::range_BFO_0000015_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000138_IAO_0000219_HOSO_0000009'})
+MATCH (parent:Relvar {relId: 'IAO_0000219'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000138_IAO_0000219_HOSO_0000009', fkType: 'ISA', attOriginIds: 'HOSO_0000138_uid, HOSO_0000009_uid', attDestinationIds: 'domain_IAO_0000030_uid, range_BFO_0000001_uid', description: 'IAO_0000219::IAO_0000219{HOSO_0000138_uid::HOSO_0000138_uid, HOSO_0000009_uid::HOSO_0000009_uid} -> IAO_0000219::IAO_0000219{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_BFO_0000001_uid::range_BFO_0000001_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'ONTORELA_Cdb7d47d_RO_0002090_HOSO_0000038'})
+MATCH (parent:Relvar {relId: 'RO_0002090'})
+CREATE (child)-[:IS_A {fkId: 'fk2_ONTORELA_Cdb7d47d_RO_0002090_HOSO_0000038', fkType: 'ISA', attOriginIds: 'ONTORELA_Cdb7d47d_uid, HOSO_0000038_uid', attDestinationIds: 'domain_BFO_0000003_uid, range_BFO_0000003_uid', description: 'RO_0002090::RO_0002090{ONTORELA_Cdb7d47d_uid::ONTORELA_Cdb7d47d_uid, HOSO_0000038_uid::HOSO_0000038_uid} -> RO_0002090::RO_0002090{domain_BFO_0000003_uid::domain_BFO_0000003_uid, range_BFO_0000003_uid::range_BFO_0000003_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000001_IAO_0000235_IAO_0000030'})
+MATCH (parent:Relvar {relId: 'IAO_0000235'})
+CREATE (child)-[:IS_A {fkId: 'fk2_BFO_0000001_IAO_0000235_IAO_0000030', fkType: 'ISA', attOriginIds: 'BFO_0000001_uid, IAO_0000030_uid', attDestinationIds: 'domain_BFO_0000001_uid, range_IAO_0000030_uid', description: 'IAO_0000235::IAO_0000235{BFO_0000001_uid::BFO_0000001_uid, IAO_0000030_uid::IAO_0000030_uid} -> IAO_0000235::IAO_0000235{domain_BFO_0000001_uid::domain_BFO_0000001_uid, range_IAO_0000030_uid::range_IAO_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000006_OBI_0000293_HEPRO_0000008'})
+MATCH (parent:Relvar {relId: 'OBI_0000293'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HEPRO_0000006_OBI_0000293_HEPRO_0000008', fkType: 'ISA', attOriginIds: 'HEPRO_0000006_uid, HEPRO_0000008_uid', attDestinationIds: 'domain_OBI_0000011_uid, range_BFO_0000002_uid', description: 'OBI_0000293::OBI_0000293{HEPRO_0000006_uid::HEPRO_0000006_uid, HEPRO_0000008_uid::HEPRO_0000008_uid} -> OBI_0000293::OBI_0000293{domain_OBI_0000011_uid::domain_OBI_0000011_uid, range_BFO_0000002_uid::range_BFO_0000002_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000127_RO_0002180_HEPRO_0000129'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HEPRO_0000127_RO_0002180_HEPRO_0000129', fkType: 'ISA', attOriginIds: 'HEPRO_0000127_uid, HEPRO_0000129_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{HEPRO_0000127_uid::HEPRO_0000127_uid, HEPRO_0000129_uid::HEPRO_0000129_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000036_OpenLHS-Core_0000067_OpenLHS-Core_0000028'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000067'})
+CREATE (child)-[:IS_A {fkId: 'fk2_OpenLHS-Core_0000036_OpenLHS-Core_0000067_OpenLHS-Core_0000028', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000036_uid, OpenLHS-Core_0000028_uid', attDestinationIds: 'domain_BFO_0000015_uid, range_IAO_0000033_uid', description: 'OpenLHS-Core_0000067::OpenLHS-Core_0000067{OpenLHS-Core_0000036_uid::OpenLHS-Core_0000036_uid, OpenLHS-Core_0000028_uid::OpenLHS-Core_0000028_uid} -> OpenLHS-Core_0000067::OpenLHS-Core_0000067{domain_BFO_0000015_uid::domain_BFO_0000015_uid, range_IAO_0000033_uid::range_IAO_0000033_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000024_BFO_0000050_IAO_0000422'})
+MATCH (parent:Relvar {relId: 'BFO_0000050'})
+CREATE (child)-[:IS_A {fkId: 'fk2_OpenLHS-Core_0000024_BFO_0000050_IAO_0000422', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000024_uid, IAO_0000422_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'BFO_0000050::BFO_0000050{OpenLHS-Core_0000024_uid::OpenLHS-Core_0000024_uid, IAO_0000422_uid::IAO_0000422_uid} -> BFO_0000050::BFO_0000050{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000012_OpenLHS-Core_0000008_OpenLHS-Core_0000013'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000008'})
+CREATE (child)-[:IS_A {fkId: 'fk2_OpenLHS-Core_0000012_OpenLHS-Core_0000008_OpenLHS-Core_0000013', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000012_uid, OpenLHS-Core_0000013_uid', attDestinationIds: 'domain_OpenLHS-Core_0000012_uid, range_OpenLHS-Core_0000013_uid', description: 'OpenLHS-Core_0000008::OpenLHS-Core_0000008{OpenLHS-Core_0000012_uid::OpenLHS-Core_0000012_uid, OpenLHS-Core_0000013_uid::OpenLHS-Core_0000013_uid} -> OpenLHS-Core_0000008::OpenLHS-Core_0000008{domain_OpenLHS-Core_0000012_uid::domain_OpenLHS-Core_0000012_uid, range_OpenLHS-Core_0000013_uid::range_OpenLHS-Core_0000013_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000072_RO_0002087_HOSO_0000043'})
+MATCH (parent:Relvar {relId: 'RO_0002087'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000072_RO_0002087_HOSO_0000043', fkType: 'ISA', attOriginIds: 'HOSO_0000072_uid, HOSO_0000043_uid', attDestinationIds: 'domain_BFO_0000003_uid, range_BFO_0000003_uid', description: 'RO_0002087::RO_0002087{HOSO_0000072_uid::HOSO_0000072_uid, HOSO_0000043_uid::HOSO_0000043_uid} -> RO_0002087::RO_0002087{domain_BFO_0000003_uid::domain_BFO_0000003_uid, range_BFO_0000003_uid::range_BFO_0000003_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000060_IAO_0000136_HOSO_0000062'})
+MATCH (parent:Relvar {relId: 'IAO_0000136'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000060_IAO_0000136_HOSO_0000062', fkType: 'ISA', attOriginIds: 'HOSO_0000060_uid, HOSO_0000062_uid', attDestinationIds: 'domain_IAO_0000030_uid, range_Thing_uid', description: 'IAO_0000136::IAO_0000136{HOSO_0000060_uid::HOSO_0000060_uid, HOSO_0000062_uid::HOSO_0000062_uid} -> IAO_0000136::IAO_0000136{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000084_IAO_0000219_HOSO_0000079'})
+MATCH (parent:Relvar {relId: 'IAO_0000219'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000084_IAO_0000219_HOSO_0000079', fkType: 'ISA', attOriginIds: 'HOSO_0000084_uid, HOSO_0000079_uid', attDestinationIds: 'domain_IAO_0000030_uid, range_BFO_0000001_uid', description: 'IAO_0000219::IAO_0000219{HOSO_0000084_uid::HOSO_0000084_uid, HOSO_0000079_uid::HOSO_0000079_uid} -> IAO_0000219::IAO_0000219{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_BFO_0000001_uid::range_BFO_0000001_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000028_BFO_0000051_HOSO_0000014'})
+MATCH (parent:Relvar {relId: 'BFO_0000051'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000028_BFO_0000051_HOSO_0000014', fkType: 'ISA', attOriginIds: 'HOSO_0000028_uid, HOSO_0000014_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'BFO_0000051::BFO_0000051{HOSO_0000028_uid::HOSO_0000028_uid, HOSO_0000014_uid::HOSO_0000014_uid} -> BFO_0000051::BFO_0000051{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000137_IAO_0000235_HOSO_0000003'})
+MATCH (parent:Relvar {relId: 'IAO_0000235'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000137_IAO_0000235_HOSO_0000003', fkType: 'ISA', attOriginIds: 'HOSO_0000137_uid, HOSO_0000003_uid', attDestinationIds: 'domain_BFO_0000001_uid, range_IAO_0000030_uid', description: 'IAO_0000235::IAO_0000235{HOSO_0000137_uid::HOSO_0000137_uid, HOSO_0000003_uid::HOSO_0000003_uid} -> IAO_0000235::IAO_0000235{domain_BFO_0000001_uid::domain_BFO_0000001_uid, range_IAO_0000030_uid::range_IAO_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000137_HOSO_0000087_HOSO_0000012'})
+MATCH (parent:Relvar {relId: 'HOSO_0000087'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000137_HOSO_0000087_HOSO_0000012', fkType: 'ISA', attOriginIds: 'HOSO_0000137_uid, HOSO_0000012_uid', attDestinationIds: 'domain_BFO_0000002_uid, range_BFO_0000003_uid', description: 'HOSO_0000087::HOSO_0000087{HOSO_0000137_uid::HOSO_0000137_uid, HOSO_0000012_uid::HOSO_0000012_uid} -> HOSO_0000087::HOSO_0000087{domain_BFO_0000002_uid::domain_BFO_0000002_uid, range_BFO_0000003_uid::range_BFO_0000003_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000017_IAO_0000136_OpenLHS-Core_0000060'})
+MATCH (parent:Relvar {relId: 'IAO_0000136'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HEPRO_0000017_IAO_0000136_OpenLHS-Core_0000060', fkType: 'ISA', attOriginIds: 'HEPRO_0000017_uid, OpenLHS-Core_0000060_uid', attDestinationIds: 'domain_IAO_0000030_uid, range_Thing_uid', description: 'IAO_0000136::IAO_0000136{HEPRO_0000017_uid::HEPRO_0000017_uid, OpenLHS-Core_0000060_uid::OpenLHS-Core_0000060_uid} -> IAO_0000136::IAO_0000136{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'ONTORELA_C3f6f3e4f_IAO_0000219_IAO_0000579'})
+MATCH (parent:Relvar {relId: 'IAO_0000219'})
+CREATE (child)-[:IS_A {fkId: 'fk2_ONTORELA_C3f6f3e4f_IAO_0000219_IAO_0000579', fkType: 'ISA', attOriginIds: 'ONTORELA_C3f6f3e4f_uid, IAO_0000579_uid', attDestinationIds: 'domain_IAO_0000030_uid, range_BFO_0000001_uid', description: 'IAO_0000219::IAO_0000219{ONTORELA_C3f6f3e4f_uid::ONTORELA_C3f6f3e4f_uid, IAO_0000579_uid::IAO_0000579_uid} -> IAO_0000219::IAO_0000219{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_BFO_0000001_uid::range_BFO_0000001_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000051_IAO_0000136_BFO_0000002'})
+MATCH (parent:Relvar {relId: 'IAO_0000136'})
+CREATE (child)-[:IS_A {fkId: 'fk2_OpenLHS-Core_0000051_IAO_0000136_BFO_0000002', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000051_uid, BFO_0000002_uid', attDestinationIds: 'domain_IAO_0000030_uid, range_Thing_uid', description: 'IAO_0000136::IAO_0000136{OpenLHS-Core_0000051_uid::OpenLHS-Core_0000051_uid, BFO_0000002_uid::BFO_0000002_uid} -> IAO_0000136::IAO_0000136{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000063_RO_0002180_OpenLHS-Core_0000020'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000063_RO_0002180_OpenLHS-Core_0000020', fkType: 'ISA', attOriginIds: 'HOSO_0000063_uid, OpenLHS-Core_0000020_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{HOSO_0000063_uid::HOSO_0000063_uid, OpenLHS-Core_0000020_uid::OpenLHS-Core_0000020_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000063_BFO_0000050_HOSO_0000060'})
+MATCH (parent:Relvar {relId: 'BFO_0000050'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000063_BFO_0000050_HOSO_0000060', fkType: 'ISA', attOriginIds: 'HOSO_0000063_uid, HOSO_0000060_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'BFO_0000050::BFO_0000050{HOSO_0000063_uid::HOSO_0000063_uid, HOSO_0000060_uid::HOSO_0000060_uid} -> BFO_0000050::BFO_0000050{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000031_RO_0000058_BFO_0000020'})
+MATCH (parent:Relvar {relId: 'RO_0000058'})
+CREATE (child)-[:IS_A {fkId: 'fk2_BFO_0000031_RO_0000058_BFO_0000020', fkType: 'ISA', attOriginIds: 'BFO_0000031_uid, BFO_0000020_uid', attDestinationIds: 'domain_BFO_0000031_uid, range_BFO_0000020_uid', description: 'RO_0000058::RO_0000058{BFO_0000031_uid::BFO_0000031_uid, BFO_0000020_uid::BFO_0000020_uid} -> RO_0000058::RO_0000058{domain_BFO_0000031_uid::domain_BFO_0000031_uid, range_BFO_0000020_uid::range_BFO_0000020_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000019_IAO_0000136_HOSO_0000060'})
+MATCH (parent:Relvar {relId: 'IAO_0000136'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000019_IAO_0000136_HOSO_0000060', fkType: 'ISA', attOriginIds: 'HOSO_0000019_uid, HOSO_0000060_uid', attDestinationIds: 'domain_IAO_0000030_uid, range_Thing_uid', description: 'IAO_0000136::IAO_0000136{HOSO_0000019_uid::HOSO_0000019_uid, HOSO_0000060_uid::HOSO_0000060_uid} -> IAO_0000136::IAO_0000136{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000062_RO_0000087_HOSO_0000061'})
+MATCH (parent:Relvar {relId: 'RO_0000087'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000062_RO_0000087_HOSO_0000061', fkType: 'ISA', attOriginIds: 'HOSO_0000062_uid, HOSO_0000061_uid', attDestinationIds: 'domain_BFO_0000004_uid, range_BFO_0000023_uid', description: 'RO_0000087::RO_0000087{HOSO_0000062_uid::HOSO_0000062_uid, HOSO_0000061_uid::HOSO_0000061_uid} -> RO_0000087::RO_0000087{domain_BFO_0000004_uid::domain_BFO_0000004_uid, range_BFO_0000023_uid::range_BFO_0000023_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IOIO_0000005_OpenLHS-Core_0000070_IOIO_0000001'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000070'})
+CREATE (child)-[:IS_A {fkId: 'fk2_IOIO_0000005_OpenLHS-Core_0000070_IOIO_0000001', fkType: 'ISA', attOriginIds: 'IOIO_0000005_uid, IOIO_0000001_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'OpenLHS-Core_0000070::OpenLHS-Core_0000070{IOIO_0000005_uid::IOIO_0000005_uid, IOIO_0000001_uid::IOIO_0000001_uid} -> OpenLHS-Core_0000070::OpenLHS-Core_0000070{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000139_RO_0002479_HOSO_0000004'})
+MATCH (parent:Relvar {relId: 'RO_0002479'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000139_RO_0002479_HOSO_0000004', fkType: 'ISA', attOriginIds: 'HOSO_0000139_uid, HOSO_0000004_uid', attDestinationIds: 'domain_BFO_0000003_uid, range_BFO_0000004_uid', description: 'RO_0002479::RO_0002479{HOSO_0000139_uid::HOSO_0000139_uid, HOSO_0000004_uid::HOSO_0000004_uid} -> RO_0002479::RO_0002479{domain_BFO_0000003_uid::domain_BFO_0000003_uid, range_BFO_0000004_uid::range_BFO_0000004_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000103_OpenLHS-Core_0000070_HOSO_0000056'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000070'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000103_OpenLHS-Core_0000070_HOSO_0000056', fkType: 'ISA', attOriginIds: 'HOSO_0000103_uid, HOSO_0000056_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'OpenLHS-Core_0000070::OpenLHS-Core_0000070{HOSO_0000103_uid::HOSO_0000103_uid, HOSO_0000056_uid::HOSO_0000056_uid} -> OpenLHS-Core_0000070::OpenLHS-Core_0000070{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000041_OBI_0000299_ONTORELA_C624fa67d'})
+MATCH (parent:Relvar {relId: 'OBI_0000299'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000041_OBI_0000299_ONTORELA_C624fa67d', fkType: 'ISA', attOriginIds: 'HOSO_0000041_uid, ONTORELA_C624fa67d_uid', attDestinationIds: 'domain_OBI_0000011_uid, range_BFO_0000002_uid', description: 'OBI_0000299::OBI_0000299{HOSO_0000041_uid::HOSO_0000041_uid, ONTORELA_C624fa67d_uid::ONTORELA_C624fa67d_uid} -> OBI_0000299::OBI_0000299{domain_OBI_0000011_uid::domain_OBI_0000011_uid, range_BFO_0000002_uid::range_BFO_0000002_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IAO_0020020_BFO_0000051_IAO_0020000'})
+MATCH (parent:Relvar {relId: 'BFO_0000051'})
+CREATE (child)-[:IS_A {fkId: 'fk2_IAO_0020020_BFO_0000051_IAO_0020000', fkType: 'ISA', attOriginIds: 'IAO_0020020_uid, IAO_0020000_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'BFO_0000051::BFO_0000051{IAO_0020020_uid::IAO_0020020_uid, IAO_0020000_uid::IAO_0020000_uid} -> BFO_0000051::BFO_0000051{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IOIO_0000014_IAO_0000219_NCBITaxon_9606'})
+MATCH (parent:Relvar {relId: 'IAO_0000219'})
+CREATE (child)-[:IS_A {fkId: 'fk2_IOIO_0000014_IAO_0000219_NCBITaxon_9606', fkType: 'ISA', attOriginIds: 'IOIO_0000014_uid, NCBITaxon_9606_uid', attDestinationIds: 'domain_IAO_0000030_uid, range_BFO_0000001_uid', description: 'IAO_0000219::IAO_0000219{IOIO_0000014_uid::IOIO_0000014_uid, NCBITaxon_9606_uid::NCBITaxon_9606_uid} -> IAO_0000219::IAO_0000219{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_BFO_0000001_uid::range_BFO_0000001_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000009_RO_0002350_HOSO_0000008'})
+MATCH (parent:Relvar {relId: 'RO_0002350'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000009_RO_0002350_HOSO_0000008', fkType: 'ISA', attOriginIds: 'HOSO_0000009_uid, HOSO_0000008_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002350::RO_0002350{HOSO_0000009_uid::HOSO_0000009_uid, HOSO_0000008_uid::HOSO_0000008_uid} -> RO_0002350::RO_0002350{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'ONTORELA_C6a3e089c_has_agent_OBI_0000245'})
+MATCH (parent:Relvar {relId: 'has_agent'})
+CREATE (child)-[:IS_A {fkId: 'fk2_ONTORELA_C6a3e089c_has_agent_OBI_0000245', fkType: 'ISA', attOriginIds: 'ONTORELA_C6a3e089c_uid, OBI_0000245_uid', attDestinationIds: 'domain_BFO_0000003_uid, range_BFO_0000002_uid', description: 'has_agent::has_agent{ONTORELA_C6a3e089c_uid::ONTORELA_C6a3e089c_uid, OBI_0000245_uid::OBI_0000245_uid} -> has_agent::has_agent{domain_BFO_0000003_uid::domain_BFO_0000003_uid, range_BFO_0000002_uid::range_BFO_0000002_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000020_RO_0000059_BFO_0000031'})
+MATCH (parent:Relvar {relId: 'RO_0000059'})
+CREATE (child)-[:IS_A {fkId: 'fk2_BFO_0000020_RO_0000059_BFO_0000031', fkType: 'ISA', attOriginIds: 'BFO_0000020_uid, BFO_0000031_uid', attDestinationIds: 'domain_BFO_0000020_uid, range_BFO_0000031_uid', description: 'RO_0000059::RO_0000059{BFO_0000020_uid::BFO_0000020_uid, BFO_0000031_uid::BFO_0000031_uid} -> RO_0000059::RO_0000059{domain_BFO_0000020_uid::domain_BFO_0000020_uid, range_BFO_0000031_uid::range_BFO_0000031_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IOIO_0000015_RO_0002180_IOIO_0000014'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_IOIO_0000015_RO_0002180_IOIO_0000014', fkType: 'ISA', attOriginIds: 'IOIO_0000015_uid, IOIO_0000014_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{IOIO_0000015_uid::IOIO_0000015_uid, IOIO_0000014_uid::IOIO_0000014_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IOIO_0000015_RO_0002180_IOIO_0000011'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_IOIO_0000015_RO_0002180_IOIO_0000011', fkType: 'ISA', attOriginIds: 'IOIO_0000015_uid, IOIO_0000011_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{IOIO_0000015_uid::IOIO_0000015_uid, IOIO_0000011_uid::IOIO_0000011_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IOIO_0000003_RO_0002180_IOIO_0000006'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_IOIO_0000003_RO_0002180_IOIO_0000006', fkType: 'ISA', attOriginIds: 'IOIO_0000003_uid, IOIO_0000006_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{IOIO_0000003_uid::IOIO_0000003_uid, IOIO_0000006_uid::IOIO_0000006_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IOIO_0000003_RO_0002180_IOIO_0000014'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_IOIO_0000003_RO_0002180_IOIO_0000014', fkType: 'ISA', attOriginIds: 'IOIO_0000003_uid, IOIO_0000014_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{IOIO_0000003_uid::IOIO_0000003_uid, IOIO_0000014_uid::IOIO_0000014_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000009_IAO_0000219_HEPRO_0000012'})
+MATCH (parent:Relvar {relId: 'IAO_0000219'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HEPRO_0000009_IAO_0000219_HEPRO_0000012', fkType: 'ISA', attOriginIds: 'HEPRO_0000009_uid, HEPRO_0000012_uid', attDestinationIds: 'domain_IAO_0000030_uid, range_BFO_0000001_uid', description: 'IAO_0000219::IAO_0000219{HEPRO_0000009_uid::HEPRO_0000009_uid, HEPRO_0000012_uid::HEPRO_0000012_uid} -> IAO_0000219::IAO_0000219{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_BFO_0000001_uid::range_BFO_0000001_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000028_OBI_0000312_OpenLHS-Core_0000035'})
+MATCH (parent:Relvar {relId: 'OBI_0000312'})
+CREATE (child)-[:IS_A {fkId: 'fk2_OpenLHS-Core_0000028_OBI_0000312_OpenLHS-Core_0000035', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000028_uid, OpenLHS-Core_0000035_uid', attDestinationIds: 'domain_BFO_0000002_uid, range_OBI_0000011_uid', description: 'OBI_0000312::OBI_0000312{OpenLHS-Core_0000028_uid::OpenLHS-Core_0000028_uid, OpenLHS-Core_0000035_uid::OpenLHS-Core_0000035_uid} -> OBI_0000312::OBI_0000312{domain_BFO_0000002_uid::domain_BFO_0000002_uid, range_OBI_0000011_uid::range_OBI_0000011_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000008_RO_0000087_HOSO_0000006'})
+MATCH (parent:Relvar {relId: 'RO_0000087'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000008_RO_0000087_HOSO_0000006', fkType: 'ISA', attOriginIds: 'HOSO_0000008_uid, HOSO_0000006_uid', attDestinationIds: 'domain_BFO_0000004_uid, range_BFO_0000023_uid', description: 'RO_0000087::RO_0000087{HOSO_0000008_uid::HOSO_0000008_uid, HOSO_0000006_uid::HOSO_0000006_uid} -> RO_0000087::RO_0000087{domain_BFO_0000004_uid::domain_BFO_0000004_uid, range_BFO_0000023_uid::range_BFO_0000023_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000043_RO_0000052_Agent'})
+MATCH (parent:Relvar {relId: 'RO_0000052'})
+CREATE (child)-[:IS_A {fkId: 'fk2_OpenLHS-Core_0000043_RO_0000052_Agent', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000043_uid, Agent_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0000052::RO_0000052{OpenLHS-Core_0000043_uid::OpenLHS-Core_0000043_uid, Agent_uid::Agent_uid} -> RO_0000052::RO_0000052{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000031_IAO_0000136_BFO_0000015'})
+MATCH (parent:Relvar {relId: 'IAO_0000136'})
+CREATE (child)-[:IS_A {fkId: 'fk2_OpenLHS-Core_0000031_IAO_0000136_BFO_0000015', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000031_uid, BFO_0000015_uid', attDestinationIds: 'domain_IAO_0000030_uid, range_Thing_uid', description: 'IAO_0000136::IAO_0000136{OpenLHS-Core_0000031_uid::OpenLHS-Core_0000031_uid, BFO_0000015_uid::BFO_0000015_uid} -> IAO_0000136::IAO_0000136{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000011_RO_0000081_OBI_0100026'})
+MATCH (parent:Relvar {relId: 'RO_0000081'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HEPRO_0000011_RO_0000081_OBI_0100026', fkType: 'ISA', attOriginIds: 'HEPRO_0000011_uid, OBI_0100026_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0000081::RO_0000081{HEPRO_0000011_uid::HEPRO_0000011_uid, OBI_0100026_uid::OBI_0100026_uid} -> RO_0000081::RO_0000081{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000023_RO_0002180_HEPRO_0000100'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HEPRO_0000023_RO_0002180_HEPRO_0000100', fkType: 'ISA', attOriginIds: 'HEPRO_0000023_uid, HEPRO_0000100_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{HEPRO_0000023_uid::HEPRO_0000023_uid, HEPRO_0000100_uid::HEPRO_0000100_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000023_RO_0002180_HEPRO_0000104'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HEPRO_0000023_RO_0002180_HEPRO_0000104', fkType: 'ISA', attOriginIds: 'HEPRO_0000023_uid, HEPRO_0000104_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{HEPRO_0000023_uid::HEPRO_0000023_uid, HEPRO_0000104_uid::HEPRO_0000104_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000043_RO_0002087_HOSO_0000071'})
+MATCH (parent:Relvar {relId: 'RO_0002087'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000043_RO_0002087_HOSO_0000071', fkType: 'ISA', attOriginIds: 'HOSO_0000043_uid, HOSO_0000071_uid', attDestinationIds: 'domain_BFO_0000003_uid, range_BFO_0000003_uid', description: 'RO_0002087::RO_0002087{HOSO_0000043_uid::HOSO_0000043_uid, HOSO_0000071_uid::HOSO_0000071_uid} -> RO_0002087::RO_0002087{domain_BFO_0000003_uid::domain_BFO_0000003_uid, range_BFO_0000003_uid::range_BFO_0000003_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000031_OpenLHS-Core_0000004_HOSO_0000078'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000004'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000031_OpenLHS-Core_0000004_HOSO_0000078', fkType: 'ISA', attOriginIds: 'HOSO_0000031_uid, HOSO_0000078_uid', attDestinationIds: 'domain_BFO_0000015_uid, range_IAO_0000033_uid', description: 'OpenLHS-Core_0000004::OpenLHS-Core_0000004{HOSO_0000031_uid::HOSO_0000031_uid, HOSO_0000078_uid::HOSO_0000078_uid} -> OpenLHS-Core_0000004::OpenLHS-Core_0000004{domain_BFO_0000015_uid::domain_BFO_0000015_uid, range_IAO_0000033_uid::range_IAO_0000033_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000152_IAO_0000136_HOSO_0000137'})
+MATCH (parent:Relvar {relId: 'IAO_0000136'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000152_IAO_0000136_HOSO_0000137', fkType: 'ISA', attOriginIds: 'HOSO_0000152_uid, HOSO_0000137_uid', attDestinationIds: 'domain_IAO_0000030_uid, range_Thing_uid', description: 'IAO_0000136::IAO_0000136{HOSO_0000152_uid::HOSO_0000152_uid, HOSO_0000137_uid::HOSO_0000137_uid} -> IAO_0000136::IAO_0000136{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000140_IAO_0000136_OMRSE_00000062'})
+MATCH (parent:Relvar {relId: 'IAO_0000136'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000140_IAO_0000136_OMRSE_00000062', fkType: 'ISA', attOriginIds: 'HOSO_0000140_uid, OMRSE_00000062_uid', attDestinationIds: 'domain_IAO_0000030_uid, range_Thing_uid', description: 'IAO_0000136::IAO_0000136{HOSO_0000140_uid::HOSO_0000140_uid, OMRSE_00000062_uid::OMRSE_00000062_uid} -> IAO_0000136::IAO_0000136{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000079_RO_0002350_HOSO_0000008'})
+MATCH (parent:Relvar {relId: 'RO_0002350'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000079_RO_0002350_HOSO_0000008', fkType: 'ISA', attOriginIds: 'HOSO_0000079_uid, HOSO_0000008_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002350::RO_0002350{HOSO_0000079_uid::HOSO_0000079_uid, HOSO_0000008_uid::HOSO_0000008_uid} -> RO_0002350::RO_0002350{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'SEPIO_0000187_OpenLHS-Core_0000005_Agent'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000005'})
+CREATE (child)-[:IS_A {fkId: 'fk2_SEPIO_0000187_OpenLHS-Core_0000005_Agent', fkType: 'ISA', attOriginIds: 'SEPIO_0000187_uid, Agent_uid', attDestinationIds: 'domain_IAO_0000030_uid, range_Thing_uid', description: 'OpenLHS-Core_0000005::OpenLHS-Core_0000005{SEPIO_0000187_uid::SEPIO_0000187_uid, Agent_uid::Agent_uid} -> OpenLHS-Core_0000005::OpenLHS-Core_0000005{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'SEPIO_0000187_IAO_0000136_IAO_0000030'})
+MATCH (parent:Relvar {relId: 'IAO_0000136'})
+CREATE (child)-[:IS_A {fkId: 'fk2_SEPIO_0000187_IAO_0000136_IAO_0000030', fkType: 'ISA', attOriginIds: 'SEPIO_0000187_uid, IAO_0000030_uid', attDestinationIds: 'domain_IAO_0000030_uid, range_Thing_uid', description: 'IAO_0000136::IAO_0000136{SEPIO_0000187_uid::SEPIO_0000187_uid, IAO_0000030_uid::IAO_0000030_uid} -> IAO_0000136::IAO_0000136{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000067_IAO_0000136_HOSO_0000063'})
+MATCH (parent:Relvar {relId: 'IAO_0000136'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000067_IAO_0000136_HOSO_0000063', fkType: 'ISA', attOriginIds: 'HOSO_0000067_uid, HOSO_0000063_uid', attDestinationIds: 'domain_IAO_0000030_uid, range_Thing_uid', description: 'IAO_0000136::IAO_0000136{HOSO_0000067_uid::HOSO_0000067_uid, HOSO_0000063_uid::HOSO_0000063_uid} -> IAO_0000136::IAO_0000136{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000055_RO_0002180_HOSO_0000102'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000055_RO_0002180_HOSO_0000102', fkType: 'ISA', attOriginIds: 'HOSO_0000055_uid, HOSO_0000102_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{HOSO_0000055_uid::HOSO_0000055_uid, HOSO_0000102_uid::HOSO_0000102_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000055_RO_0002180_HOSO_0000100'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000055_RO_0002180_HOSO_0000100', fkType: 'ISA', attOriginIds: 'HOSO_0000055_uid, HOSO_0000100_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{HOSO_0000055_uid::HOSO_0000055_uid, HOSO_0000100_uid::HOSO_0000100_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000022_RO_0002180_HEPRO_0000102'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HEPRO_0000022_RO_0002180_HEPRO_0000102', fkType: 'ISA', attOriginIds: 'HEPRO_0000022_uid, HEPRO_0000102_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{HEPRO_0000022_uid::HEPRO_0000022_uid, HEPRO_0000102_uid::HEPRO_0000102_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000022_RO_0002180_HEPRO_0000100'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HEPRO_0000022_RO_0002180_HEPRO_0000100', fkType: 'ISA', attOriginIds: 'HEPRO_0000022_uid, HEPRO_0000100_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{HEPRO_0000022_uid::HEPRO_0000022_uid, HEPRO_0000100_uid::HEPRO_0000100_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000010_IAO_0000219_NCBITaxon_9606'})
+MATCH (parent:Relvar {relId: 'IAO_0000219'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HEPRO_0000010_IAO_0000219_NCBITaxon_9606', fkType: 'ISA', attOriginIds: 'HEPRO_0000010_uid, NCBITaxon_9606_uid', attDestinationIds: 'domain_IAO_0000030_uid, range_BFO_0000001_uid', description: 'IAO_0000219::IAO_0000219{HEPRO_0000010_uid::HEPRO_0000010_uid, NCBITaxon_9606_uid::NCBITaxon_9606_uid} -> IAO_0000219::IAO_0000219{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_BFO_0000001_uid::range_BFO_0000001_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000030_RO_0002180_OpenLHS-Core_0000065'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_OpenLHS-Core_0000030_RO_0002180_OpenLHS-Core_0000065', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000030_uid, OpenLHS-Core_0000065_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{OpenLHS-Core_0000030_uid::OpenLHS-Core_0000030_uid, OpenLHS-Core_0000065_uid::OpenLHS-Core_0000065_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'ONTORELA_C2875fe2d_RO_0000059_IAO_0000104'})
+MATCH (parent:Relvar {relId: 'RO_0000059'})
+CREATE (child)-[:IS_A {fkId: 'fk2_ONTORELA_C2875fe2d_RO_0000059_IAO_0000104', fkType: 'ISA', attOriginIds: 'ONTORELA_C2875fe2d_uid, IAO_0000104_uid', attDestinationIds: 'domain_BFO_0000020_uid, range_BFO_0000031_uid', description: 'RO_0000059::RO_0000059{ONTORELA_C2875fe2d_uid::ONTORELA_C2875fe2d_uid, IAO_0000104_uid::IAO_0000104_uid} -> RO_0000059::RO_0000059{domain_BFO_0000020_uid::domain_BFO_0000020_uid, range_BFO_0000031_uid::range_BFO_0000031_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000030_BFO_0000051_HEPRO_0000014'})
+MATCH (parent:Relvar {relId: 'BFO_0000051'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000030_BFO_0000051_HEPRO_0000014', fkType: 'ISA', attOriginIds: 'HOSO_0000030_uid, HEPRO_0000014_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'BFO_0000051::BFO_0000051{HOSO_0000030_uid::HOSO_0000030_uid, HEPRO_0000014_uid::HEPRO_0000014_uid} -> BFO_0000051::BFO_0000051{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000151_RO_0002180_HOSO_0000100'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000151_RO_0002180_HOSO_0000100', fkType: 'ISA', attOriginIds: 'HOSO_0000151_uid, HOSO_0000100_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{HOSO_0000151_uid::HOSO_0000151_uid, HOSO_0000100_uid::HOSO_0000100_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000151_RO_0002180_HOSO_0000150'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000151_RO_0002180_HOSO_0000150', fkType: 'ISA', attOriginIds: 'HOSO_0000151_uid, HOSO_0000150_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{HOSO_0000151_uid::HOSO_0000151_uid, HOSO_0000150_uid::HOSO_0000150_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000078_BFO_0000051_HOSO_0000138'})
+MATCH (parent:Relvar {relId: 'BFO_0000051'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000078_BFO_0000051_HOSO_0000138', fkType: 'ISA', attOriginIds: 'HOSO_0000078_uid, HOSO_0000138_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'BFO_0000051::BFO_0000051{HOSO_0000078_uid::HOSO_0000078_uid, HOSO_0000138_uid::HOSO_0000138_uid} -> BFO_0000051::BFO_0000051{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IOIO_0000013_IAO_0000219_OBI_0100026'})
+MATCH (parent:Relvar {relId: 'IAO_0000219'})
+CREATE (child)-[:IS_A {fkId: 'fk2_IOIO_0000013_IAO_0000219_OBI_0100026', fkType: 'ISA', attOriginIds: 'IOIO_0000013_uid, OBI_0100026_uid', attDestinationIds: 'domain_IAO_0000030_uid, range_BFO_0000001_uid', description: 'IAO_0000219::IAO_0000219{IOIO_0000013_uid::IOIO_0000013_uid, OBI_0100026_uid::OBI_0100026_uid} -> IAO_0000219::IAO_0000219{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_BFO_0000001_uid::range_BFO_0000001_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IOIO_0000001_RO_0002180_IOIO_0000014'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_IOIO_0000001_RO_0002180_IOIO_0000014', fkType: 'ISA', attOriginIds: 'IOIO_0000001_uid, IOIO_0000014_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{IOIO_0000001_uid::IOIO_0000001_uid, IOIO_0000014_uid::IOIO_0000014_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IOIO_0000001_RO_0002180_IOIO_0000005'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_IOIO_0000001_RO_0002180_IOIO_0000005', fkType: 'ISA', attOriginIds: 'IOIO_0000001_uid, IOIO_0000005_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{IOIO_0000001_uid::IOIO_0000001_uid, IOIO_0000005_uid::IOIO_0000005_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000065_IAO_0000219_BFO_0000008'})
+MATCH (parent:Relvar {relId: 'IAO_0000219'})
+CREATE (child)-[:IS_A {fkId: 'fk2_OpenLHS-Core_0000065_IAO_0000219_BFO_0000008', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000065_uid, BFO_0000008_uid', attDestinationIds: 'domain_IAO_0000030_uid, range_BFO_0000001_uid', description: 'IAO_0000219::IAO_0000219{OpenLHS-Core_0000065_uid::OpenLHS-Core_0000065_uid, BFO_0000008_uid::BFO_0000008_uid} -> IAO_0000219::IAO_0000219{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_BFO_0000001_uid::range_BFO_0000001_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000021_RO_0002180_HEPRO_0000105'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HEPRO_0000021_RO_0002180_HEPRO_0000105', fkType: 'ISA', attOriginIds: 'HEPRO_0000021_uid, HEPRO_0000105_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{HEPRO_0000021_uid::HEPRO_0000021_uid, HEPRO_0000105_uid::HEPRO_0000105_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000021_RO_0002180_HEPRO_0000101'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HEPRO_0000021_RO_0002180_HEPRO_0000101', fkType: 'ISA', attOriginIds: 'HEPRO_0000021_uid, HEPRO_0000101_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{HEPRO_0000021_uid::HEPRO_0000021_uid, HEPRO_0000101_uid::HEPRO_0000101_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'Agent_has_capability_AgentCapability'})
+MATCH (parent:Relvar {relId: 'has_capability'})
+CREATE (child)-[:IS_A {fkId: 'fk2_Agent_has_capability_AgentCapability', fkType: 'ISA', attOriginIds: 'Agent_uid, AgentCapability_uid', attDestinationIds: 'domain_Agent_uid, range_AgentCapability_uid', description: 'has_capability::has_capability{Agent_uid::Agent_uid, AgentCapability_uid::AgentCapability_uid} -> has_capability::has_capability{domain_Agent_uid::domain_Agent_uid, range_AgentCapability_uid::range_AgentCapability_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'Agent_agent_in_BFO_0000015'})
+MATCH (parent:Relvar {relId: 'agent_in'})
+CREATE (child)-[:IS_A {fkId: 'fk2_Agent_agent_in_BFO_0000015', fkType: 'ISA', attOriginIds: 'Agent_uid, BFO_0000015_uid', attDestinationIds: 'domain_BFO_0000002_uid, range_BFO_0000003_uid', description: 'agent_in::agent_in{Agent_uid::Agent_uid, BFO_0000015_uid::BFO_0000015_uid} -> agent_in::agent_in{domain_BFO_0000002_uid::domain_BFO_0000002_uid, range_BFO_0000003_uid::range_BFO_0000003_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'ONTORELA_C624fa67d_IAO_0000136_HOSO_0000137'})
+MATCH (parent:Relvar {relId: 'IAO_0000136'})
+CREATE (child)-[:IS_A {fkId: 'fk2_ONTORELA_C624fa67d_IAO_0000136_HOSO_0000137', fkType: 'ISA', attOriginIds: 'ONTORELA_C624fa67d_uid, HOSO_0000137_uid', attDestinationIds: 'domain_IAO_0000030_uid, range_Thing_uid', description: 'IAO_0000136::IAO_0000136{ONTORELA_C624fa67d_uid::ONTORELA_C624fa67d_uid, HOSO_0000137_uid::HOSO_0000137_uid} -> IAO_0000136::IAO_0000136{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000045_OBI_0000299_ONTORELA_C5c900f41'})
+MATCH (parent:Relvar {relId: 'OBI_0000299'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000045_OBI_0000299_ONTORELA_C5c900f41', fkType: 'ISA', attOriginIds: 'HOSO_0000045_uid, ONTORELA_C5c900f41_uid', attDestinationIds: 'domain_OBI_0000011_uid, range_BFO_0000002_uid', description: 'OBI_0000299::OBI_0000299{HOSO_0000045_uid::HOSO_0000045_uid, ONTORELA_C5c900f41_uid::ONTORELA_C5c900f41_uid} -> OBI_0000299::OBI_0000299{domain_OBI_0000011_uid::domain_OBI_0000011_uid, range_BFO_0000002_uid::range_BFO_0000002_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IAO_0000104_BFO_0000051_IAO_0000007'})
+MATCH (parent:Relvar {relId: 'BFO_0000051'})
+CREATE (child)-[:IS_A {fkId: 'fk2_IAO_0000104_BFO_0000051_IAO_0000007', fkType: 'ISA', attOriginIds: 'IAO_0000104_uid, IAO_0000007_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'BFO_0000051::BFO_0000051{IAO_0000104_uid::IAO_0000104_uid, IAO_0000007_uid::IAO_0000007_uid} -> BFO_0000051::BFO_0000051{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IAO_0000104_BFO_0000051_IAO_0000005'})
+MATCH (parent:Relvar {relId: 'BFO_0000051'})
+CREATE (child)-[:IS_A {fkId: 'fk2_IAO_0000104_BFO_0000051_IAO_0000005', fkType: 'ISA', attOriginIds: 'IAO_0000104_uid, IAO_0000005_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'BFO_0000051::BFO_0000051{IAO_0000104_uid::IAO_0000104_uid, IAO_0000005_uid::IAO_0000005_uid} -> BFO_0000051::BFO_0000051{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000020_RO_0002180_HEPRO_0000101'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HEPRO_0000020_RO_0002180_HEPRO_0000101', fkType: 'ISA', attOriginIds: 'HEPRO_0000020_uid, HEPRO_0000101_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{HEPRO_0000020_uid::HEPRO_0000020_uid, HEPRO_0000101_uid::HEPRO_0000101_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000020_RO_0002180_HEPRO_0000103'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HEPRO_0000020_RO_0002180_HEPRO_0000103', fkType: 'ISA', attOriginIds: 'HEPRO_0000020_uid, HEPRO_0000103_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{HEPRO_0000020_uid::HEPRO_0000020_uid, HEPRO_0000103_uid::HEPRO_0000103_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'MPHPO_0000018_OpenLHS-Core_0000070_MPHPO_0000016'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000070'})
+CREATE (child)-[:IS_A {fkId: 'fk2_MPHPO_0000018_OpenLHS-Core_0000070_MPHPO_0000016', fkType: 'ISA', attOriginIds: 'MPHPO_0000018_uid, MPHPO_0000016_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'OpenLHS-Core_0000070::OpenLHS-Core_0000070{MPHPO_0000018_uid::MPHPO_0000018_uid, MPHPO_0000016_uid::MPHPO_0000016_uid} -> OpenLHS-Core_0000070::OpenLHS-Core_0000070{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000068_RO_0002087_HOSO_0000012'})
+MATCH (parent:Relvar {relId: 'RO_0002087'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000068_RO_0002087_HOSO_0000012', fkType: 'ISA', attOriginIds: 'HOSO_0000068_uid, HOSO_0000012_uid', attDestinationIds: 'domain_BFO_0000003_uid, range_BFO_0000003_uid', description: 'RO_0002087::RO_0002087{HOSO_0000068_uid::HOSO_0000068_uid, HOSO_0000012_uid::HOSO_0000012_uid} -> RO_0002087::RO_0002087{domain_BFO_0000003_uid::domain_BFO_0000003_uid, range_BFO_0000003_uid::range_BFO_0000003_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000056_RO_0002180_HOSO_0000100'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000056_RO_0002180_HOSO_0000100', fkType: 'ISA', attOriginIds: 'HOSO_0000056_uid, HOSO_0000100_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{HOSO_0000056_uid::HOSO_0000056_uid, HOSO_0000100_uid::HOSO_0000100_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000056_RO_0002180_HOSO_0000103'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000056_RO_0002180_HOSO_0000103', fkType: 'ISA', attOriginIds: 'HOSO_0000056_uid, HOSO_0000103_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{HOSO_0000056_uid::HOSO_0000056_uid, HOSO_0000103_uid::HOSO_0000103_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000035_OBI_0000293_OpenLHS-Core_0000027'})
+MATCH (parent:Relvar {relId: 'OBI_0000293'})
+CREATE (child)-[:IS_A {fkId: 'fk2_OpenLHS-Core_0000035_OBI_0000293_OpenLHS-Core_0000027', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000035_uid, OpenLHS-Core_0000027_uid', attDestinationIds: 'domain_OBI_0000011_uid, range_BFO_0000002_uid', description: 'OBI_0000293::OBI_0000293{OpenLHS-Core_0000035_uid::OpenLHS-Core_0000035_uid, OpenLHS-Core_0000027_uid::OpenLHS-Core_0000027_uid} -> OBI_0000293::OBI_0000293{domain_OBI_0000011_uid::domain_OBI_0000011_uid, range_BFO_0000002_uid::range_BFO_0000002_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000035_OBI_0000293_OpenLHS-Core_0000029'})
+MATCH (parent:Relvar {relId: 'OBI_0000293'})
+CREATE (child)-[:IS_A {fkId: 'fk2_OpenLHS-Core_0000035_OBI_0000293_OpenLHS-Core_0000029', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000035_uid, OpenLHS-Core_0000029_uid', attDestinationIds: 'domain_OBI_0000011_uid, range_BFO_0000002_uid', description: 'OBI_0000293::OBI_0000293{OpenLHS-Core_0000035_uid::OpenLHS-Core_0000035_uid, OpenLHS-Core_0000029_uid::OpenLHS-Core_0000029_uid} -> OBI_0000293::OBI_0000293{domain_OBI_0000011_uid::domain_OBI_0000011_uid, range_BFO_0000002_uid::range_BFO_0000002_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'MPHPO_0000019_OpenLHS-Core_0000070_MPHPO_0000016'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000070'})
+CREATE (child)-[:IS_A {fkId: 'fk2_MPHPO_0000019_OpenLHS-Core_0000070_MPHPO_0000016', fkType: 'ISA', attOriginIds: 'MPHPO_0000019_uid, MPHPO_0000016_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'OpenLHS-Core_0000070::OpenLHS-Core_0000070{MPHPO_0000019_uid::MPHPO_0000019_uid, MPHPO_0000016_uid::MPHPO_0000016_uid} -> OpenLHS-Core_0000070::OpenLHS-Core_0000070{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000011_OBI_0000312_ONTORELA_C6a3e089c'})
+MATCH (parent:Relvar {relId: 'OBI_0000312'})
+CREATE (child)-[:IS_A {fkId: 'fk2_OpenLHS-Core_0000011_OBI_0000312_ONTORELA_C6a3e089c', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000011_uid, ONTORELA_C6a3e089c_uid', attDestinationIds: 'domain_BFO_0000002_uid, range_OBI_0000011_uid', description: 'OBI_0000312::OBI_0000312{OpenLHS-Core_0000011_uid::OpenLHS-Core_0000011_uid, ONTORELA_C6a3e089c_uid::ONTORELA_C6a3e089c_uid} -> OBI_0000312::OBI_0000312{domain_BFO_0000002_uid::domain_BFO_0000002_uid, range_OBI_0000011_uid::range_OBI_0000011_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000047_IAO_0000136_HOSO_0000008'})
+MATCH (parent:Relvar {relId: 'IAO_0000136'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000047_IAO_0000136_HOSO_0000008', fkType: 'ISA', attOriginIds: 'HOSO_0000047_uid, HOSO_0000008_uid', attDestinationIds: 'domain_IAO_0000030_uid, range_Thing_uid', description: 'IAO_0000136::IAO_0000136{HOSO_0000047_uid::HOSO_0000047_uid, HOSO_0000008_uid::HOSO_0000008_uid} -> IAO_0000136::IAO_0000136{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000023_IAO_0000219_HOSO_0000008'})
+MATCH (parent:Relvar {relId: 'IAO_0000219'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000023_IAO_0000219_HOSO_0000008', fkType: 'ISA', attOriginIds: 'HOSO_0000023_uid, HOSO_0000008_uid', attDestinationIds: 'domain_IAO_0000030_uid, range_BFO_0000001_uid', description: 'IAO_0000219::IAO_0000219{HOSO_0000023_uid::HOSO_0000023_uid, HOSO_0000008_uid::HOSO_0000008_uid} -> IAO_0000219::IAO_0000219{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_BFO_0000001_uid::range_BFO_0000001_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000011_BFO_0000055_HOSO_0000006'})
+MATCH (parent:Relvar {relId: 'BFO_0000055'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000011_BFO_0000055_HOSO_0000006', fkType: 'ISA', attOriginIds: 'HOSO_0000011_uid, HOSO_0000006_uid', attDestinationIds: 'domain_BFO_0000015_uid, range_BFO_0000017_uid', description: 'BFO_0000055::BFO_0000055{HOSO_0000011_uid::HOSO_0000011_uid, HOSO_0000006_uid::HOSO_0000006_uid} -> BFO_0000055::BFO_0000055{domain_BFO_0000015_uid::domain_BFO_0000015_uid, range_BFO_0000017_uid::range_BFO_0000017_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000011_HOSO_0000002_HOSO_0000081'})
+MATCH (parent:Relvar {relId: 'HOSO_0000002'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000011_HOSO_0000002_HOSO_0000081', fkType: 'ISA', attOriginIds: 'HOSO_0000011_uid, HOSO_0000081_uid', attDestinationIds: 'domain_BFO_0000003_uid, range_BFO_0000002_uid', description: 'HOSO_0000002::HOSO_0000002{HOSO_0000011_uid::HOSO_0000011_uid, HOSO_0000081_uid::HOSO_0000081_uid} -> HOSO_0000002::HOSO_0000002{domain_BFO_0000003_uid::domain_BFO_0000003_uid, range_BFO_0000002_uid::range_BFO_0000002_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IAO_0000578_BFO_0000051_IAO_0000577'})
+MATCH (parent:Relvar {relId: 'BFO_0000051'})
+CREATE (child)-[:IS_A {fkId: 'fk2_IAO_0000578_BFO_0000051_IAO_0000577', fkType: 'ISA', attOriginIds: 'IAO_0000578_uid, IAO_0000577_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'BFO_0000051::BFO_0000051{IAO_0000578_uid::IAO_0000578_uid, IAO_0000577_uid::IAO_0000577_uid} -> BFO_0000051::BFO_0000051{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IAO_0000578_BFO_0000051_ONTORELA_C3f6f3e4f'})
+MATCH (parent:Relvar {relId: 'BFO_0000051'})
+CREATE (child)-[:IS_A {fkId: 'fk2_IAO_0000578_BFO_0000051_ONTORELA_C3f6f3e4f', fkType: 'ISA', attOriginIds: 'IAO_0000578_uid, ONTORELA_C3f6f3e4f_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'BFO_0000051::BFO_0000051{IAO_0000578_uid::IAO_0000578_uid, ONTORELA_C3f6f3e4f_uid::ONTORELA_C3f6f3e4f_uid} -> BFO_0000051::BFO_0000051{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000015_BFO_0000055_BFO_0000017'})
+MATCH (parent:Relvar {relId: 'BFO_0000055'})
+CREATE (child)-[:IS_A {fkId: 'fk2_BFO_0000015_BFO_0000055_BFO_0000017', fkType: 'ISA', attOriginIds: 'BFO_0000015_uid, BFO_0000017_uid', attDestinationIds: 'domain_BFO_0000015_uid, range_BFO_0000017_uid', description: 'BFO_0000055::BFO_0000055{BFO_0000015_uid::BFO_0000015_uid, BFO_0000017_uid::BFO_0000017_uid} -> BFO_0000055::BFO_0000055{domain_BFO_0000015_uid::domain_BFO_0000015_uid, range_BFO_0000017_uid::range_BFO_0000017_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000015_OpenLHS-Core_0000004_IAO_0000033'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000004'})
+CREATE (child)-[:IS_A {fkId: 'fk2_BFO_0000015_OpenLHS-Core_0000004_IAO_0000033', fkType: 'ISA', attOriginIds: 'BFO_0000015_uid, IAO_0000033_uid', attDestinationIds: 'domain_BFO_0000015_uid, range_IAO_0000033_uid', description: 'OpenLHS-Core_0000004::OpenLHS-Core_0000004{BFO_0000015_uid::BFO_0000015_uid, IAO_0000033_uid::IAO_0000033_uid} -> OpenLHS-Core_0000004::OpenLHS-Core_0000004{domain_BFO_0000015_uid::domain_BFO_0000015_uid, range_IAO_0000033_uid::range_IAO_0000033_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000015_OpenLHS-Core_0000067_IAO_0000033'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000067'})
+CREATE (child)-[:IS_A {fkId: 'fk5_BFO_0000015_OpenLHS-Core_0000067_IAO_0000033', fkType: 'ISA', attOriginIds: 'BFO_0000015_uid, IAO_0000033_uid', attDestinationIds: 'domain_BFO_0000015_uid, range_IAO_0000033_uid', description: 'OpenLHS-Core_0000067::OpenLHS-Core_0000067{BFO_0000015_uid::BFO_0000015_uid, IAO_0000033_uid::IAO_0000033_uid} -> OpenLHS-Core_0000067::OpenLHS-Core_0000067{domain_BFO_0000015_uid::domain_BFO_0000015_uid, range_IAO_0000033_uid::range_IAO_0000033_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000015_OpenLHS-Core_0000071_BFO_0000015'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000071'})
+CREATE (child)-[:IS_A {fkId: 'fk2_BFO_0000015_OpenLHS-Core_0000071_BFO_0000015', fkType: 'ISA', attOriginIds: 'BFO_0000015_uid_domain, BFO_0000015_uid_range', attDestinationIds: 'domain_BFO_0000015_uid, range_BFO_0000015_uid', description: 'OpenLHS-Core_0000071::OpenLHS-Core_0000071{BFO_0000015_uid_domain::BFO_0000015_uid_domain, BFO_0000015_uid_range::BFO_0000015_uid_range} -> OpenLHS-Core_0000071::OpenLHS-Core_0000071{domain_BFO_0000015_uid::domain_BFO_0000015_uid, range_BFO_0000015_uid::range_BFO_0000015_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000015_RO_0002018_BFO_0000015'})
+MATCH (parent:Relvar {relId: 'RO_0002018'})
+CREATE (child)-[:IS_A {fkId: 'fk2_BFO_0000015_RO_0002018_BFO_0000015', fkType: 'ISA', attOriginIds: 'BFO_0000015_uid_domain, BFO_0000015_uid_range', attDestinationIds: 'domain_BFO_0000015_uid, range_BFO_0000015_uid', description: 'RO_0002018::RO_0002018{BFO_0000015_uid_domain::BFO_0000015_uid_domain, BFO_0000015_uid_range::BFO_0000015_uid_range} -> RO_0002018::RO_0002018{domain_BFO_0000015_uid::domain_BFO_0000015_uid, range_BFO_0000015_uid::range_BFO_0000015_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000016_IAO_0000136_HEPRO_0000005'})
+MATCH (parent:Relvar {relId: 'IAO_0000136'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HEPRO_0000016_IAO_0000136_HEPRO_0000005', fkType: 'ISA', attOriginIds: 'HEPRO_0000016_uid, HEPRO_0000005_uid', attDestinationIds: 'domain_IAO_0000030_uid, range_Thing_uid', description: 'IAO_0000136::IAO_0000136{HEPRO_0000016_uid::HEPRO_0000016_uid, HEPRO_0000005_uid::HEPRO_0000005_uid} -> IAO_0000136::IAO_0000136{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000125_RO_0002180_IOIO_0000013'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HEPRO_0000125_RO_0002180_IOIO_0000013', fkType: 'ISA', attOriginIds: 'HEPRO_0000125_uid, IOIO_0000013_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{HEPRO_0000125_uid::HEPRO_0000125_uid, IOIO_0000013_uid::IOIO_0000013_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000125_RO_0002180_HEPRO_0000017'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HEPRO_0000125_RO_0002180_HEPRO_0000017', fkType: 'ISA', attOriginIds: 'HEPRO_0000125_uid, HEPRO_0000017_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{HEPRO_0000125_uid::HEPRO_0000125_uid, HEPRO_0000017_uid::HEPRO_0000017_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000003_BFO_0000062_BFO_0000003'})
+MATCH (parent:Relvar {relId: 'BFO_0000062'})
+CREATE (child)-[:IS_A {fkId: 'fk2_BFO_0000003_BFO_0000062_BFO_0000003', fkType: 'ISA', attOriginIds: 'BFO_0000003_uid_domain, BFO_0000003_uid_range', attDestinationIds: 'domain_BFO_0000003_uid, range_BFO_0000003_uid', description: 'BFO_0000062::BFO_0000062{BFO_0000003_uid_domain::BFO_0000003_uid_domain, BFO_0000003_uid_range::BFO_0000003_uid_range} -> BFO_0000062::BFO_0000062{domain_BFO_0000003_uid::domain_BFO_0000003_uid, range_BFO_0000003_uid::range_BFO_0000003_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000003_BFO_0000063_BFO_0000003'})
+MATCH (parent:Relvar {relId: 'BFO_0000063'})
+CREATE (child)-[:IS_A {fkId: 'fk2_BFO_0000003_BFO_0000063_BFO_0000003', fkType: 'ISA', attOriginIds: 'BFO_0000003_uid_domain, BFO_0000003_uid_range', attDestinationIds: 'domain_BFO_0000003_uid, range_BFO_0000003_uid', description: 'BFO_0000063::BFO_0000063{BFO_0000003_uid_domain::BFO_0000003_uid_domain, BFO_0000003_uid_range::BFO_0000003_uid_range} -> BFO_0000063::BFO_0000063{domain_BFO_0000003_uid::domain_BFO_0000003_uid, range_BFO_0000003_uid::range_BFO_0000003_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000003_BFO_0000066_BFO_0000004'})
+MATCH (parent:Relvar {relId: 'BFO_0000066'})
+CREATE (child)-[:IS_A {fkId: 'fk2_BFO_0000003_BFO_0000066_BFO_0000004', fkType: 'ISA', attOriginIds: 'BFO_0000003_uid, BFO_0000004_uid', attDestinationIds: 'domain_BFO_0000003_uid, range_BFO_0000004_uid', description: 'BFO_0000066::BFO_0000066{BFO_0000003_uid::BFO_0000003_uid, BFO_0000004_uid::BFO_0000004_uid} -> BFO_0000066::BFO_0000066{domain_BFO_0000003_uid::domain_BFO_0000003_uid, range_BFO_0000004_uid::range_BFO_0000004_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000003_RO_0000057_BFO_0000002'})
+MATCH (parent:Relvar {relId: 'RO_0000057'})
+CREATE (child)-[:IS_A {fkId: 'fk2_BFO_0000003_RO_0000057_BFO_0000002', fkType: 'ISA', attOriginIds: 'BFO_0000003_uid, BFO_0000002_uid', attDestinationIds: 'domain_BFO_0000003_uid, range_BFO_0000002_uid', description: 'RO_0000057::RO_0000057{BFO_0000003_uid::BFO_0000003_uid, BFO_0000002_uid::BFO_0000002_uid} -> RO_0000057::RO_0000057{domain_BFO_0000003_uid::domain_BFO_0000003_uid, range_BFO_0000002_uid::range_BFO_0000002_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000003_RO_0002091_BFO_0000003'})
+MATCH (parent:Relvar {relId: 'RO_0002091'})
+CREATE (child)-[:IS_A {fkId: 'fk2_BFO_0000003_RO_0002091_BFO_0000003', fkType: 'ISA', attOriginIds: 'BFO_0000003_uid_domain, BFO_0000003_uid_range', attDestinationIds: 'domain_BFO_0000003_uid, range_BFO_0000003_uid', description: 'RO_0002091::RO_0002091{BFO_0000003_uid_domain::BFO_0000003_uid_domain, BFO_0000003_uid_range::BFO_0000003_uid_range} -> RO_0002091::RO_0002091{domain_BFO_0000003_uid::domain_BFO_0000003_uid, range_BFO_0000003_uid::range_BFO_0000003_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000003_RO_0002222_BFO_0000003'})
+MATCH (parent:Relvar {relId: 'RO_0002222'})
+CREATE (child)-[:IS_A {fkId: 'fk2_BFO_0000003_RO_0002222_BFO_0000003', fkType: 'ISA', attOriginIds: 'BFO_0000003_uid_domain, BFO_0000003_uid_range', attDestinationIds: 'domain_BFO_0000003_uid, range_BFO_0000003_uid', description: 'RO_0002222::RO_0002222{BFO_0000003_uid_domain::BFO_0000003_uid_domain, BFO_0000003_uid_range::BFO_0000003_uid_range} -> RO_0002222::RO_0002222{domain_BFO_0000003_uid::domain_BFO_0000003_uid, range_BFO_0000003_uid::range_BFO_0000003_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000003_RO_0002479_BFO_0000004'})
+MATCH (parent:Relvar {relId: 'RO_0002479'})
+CREATE (child)-[:IS_A {fkId: 'fk5_BFO_0000003_RO_0002479_BFO_0000004', fkType: 'ISA', attOriginIds: 'BFO_0000003_uid, BFO_0000004_uid', attDestinationIds: 'domain_BFO_0000003_uid, range_BFO_0000004_uid', description: 'RO_0002479::RO_0002479{BFO_0000003_uid::BFO_0000003_uid, BFO_0000004_uid::BFO_0000004_uid} -> RO_0002479::RO_0002479{domain_BFO_0000003_uid::domain_BFO_0000003_uid, range_BFO_0000004_uid::range_BFO_0000004_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000004_OpenLHS-Core_0000067_HEPRO_0000030'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000067'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HEPRO_0000004_OpenLHS-Core_0000067_HEPRO_0000030', fkType: 'ISA', attOriginIds: 'HEPRO_0000004_uid, HEPRO_0000030_uid', attDestinationIds: 'domain_BFO_0000015_uid, range_IAO_0000033_uid', description: 'OpenLHS-Core_0000067::OpenLHS-Core_0000067{HEPRO_0000004_uid::HEPRO_0000004_uid, HEPRO_0000030_uid::HEPRO_0000030_uid} -> OpenLHS-Core_0000067::OpenLHS-Core_0000067{domain_BFO_0000015_uid::domain_BFO_0000015_uid, range_IAO_0000033_uid::range_IAO_0000033_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000004_RO_0002018_HEPRO_0000005'})
+MATCH (parent:Relvar {relId: 'RO_0002018'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HEPRO_0000004_RO_0002018_HEPRO_0000005', fkType: 'ISA', attOriginIds: 'HEPRO_0000004_uid, HEPRO_0000005_uid', attDestinationIds: 'domain_BFO_0000015_uid, range_BFO_0000015_uid', description: 'RO_0002018::RO_0002018{HEPRO_0000004_uid::HEPRO_0000004_uid, HEPRO_0000005_uid::HEPRO_0000005_uid} -> RO_0002018::RO_0002018{domain_BFO_0000015_uid::domain_BFO_0000015_uid, range_BFO_0000015_uid::range_BFO_0000015_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000010_RO_0000056_ONTORELA_C73b67cf5'})
+MATCH (parent:Relvar {relId: 'RO_0000056'})
+CREATE (child)-[:IS_A {fkId: 'fk2_OpenLHS-Core_0000010_RO_0000056_ONTORELA_C73b67cf5', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000010_uid, ONTORELA_C73b67cf5_uid', attDestinationIds: 'domain_BFO_0000002_uid, range_BFO_0000003_uid', description: 'RO_0000056::RO_0000056{OpenLHS-Core_0000010_uid::OpenLHS-Core_0000010_uid, ONTORELA_C73b67cf5_uid::ONTORELA_C73b67cf5_uid} -> RO_0000056::RO_0000056{domain_BFO_0000002_uid::domain_BFO_0000002_uid, range_BFO_0000003_uid::range_BFO_0000003_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000010_HOSO_0000001_HOSO_0000009'})
+MATCH (parent:Relvar {relId: 'HOSO_0000001'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000010_HOSO_0000001_HOSO_0000009', fkType: 'ISA', attOriginIds: 'HOSO_0000010_uid, HOSO_0000009_uid', attDestinationIds: 'domain_BFO_0000003_uid, range_BFO_0000002_uid', description: 'HOSO_0000001::HOSO_0000001{HOSO_0000010_uid::HOSO_0000010_uid, HOSO_0000009_uid::HOSO_0000009_uid} -> HOSO_0000001::HOSO_0000001{domain_BFO_0000003_uid::domain_BFO_0000003_uid, range_BFO_0000002_uid::range_BFO_0000002_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000046_IAO_0000136_HOSO_0000012'})
+MATCH (parent:Relvar {relId: 'IAO_0000136'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000046_IAO_0000136_HOSO_0000012', fkType: 'ISA', attOriginIds: 'HOSO_0000046_uid, HOSO_0000012_uid', attDestinationIds: 'domain_IAO_0000030_uid, range_Thing_uid', description: 'IAO_0000136::IAO_0000136{HOSO_0000046_uid::HOSO_0000046_uid, HOSO_0000012_uid::HOSO_0000012_uid} -> IAO_0000136::IAO_0000136{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IAO_0000577_BFO_0000050_IAO_0000578'})
+MATCH (parent:Relvar {relId: 'BFO_0000050'})
+CREATE (child)-[:IS_A {fkId: 'fk2_IAO_0000577_BFO_0000050_IAO_0000578', fkType: 'ISA', attOriginIds: 'IAO_0000577_uid, IAO_0000578_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'BFO_0000050::BFO_0000050{IAO_0000577_uid::IAO_0000577_uid, IAO_0000578_uid::IAO_0000578_uid} -> BFO_0000050::BFO_0000050{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000002_RO_0000056_BFO_0000003'})
+MATCH (parent:Relvar {relId: 'RO_0000056'})
+CREATE (child)-[:IS_A {fkId: 'fk2_BFO_0000002_RO_0000056_BFO_0000003', fkType: 'ISA', attOriginIds: 'BFO_0000002_uid, BFO_0000003_uid', attDestinationIds: 'domain_BFO_0000002_uid, range_BFO_0000003_uid', description: 'RO_0000056::RO_0000056{BFO_0000002_uid::BFO_0000002_uid, BFO_0000003_uid::BFO_0000003_uid} -> RO_0000056::RO_0000056{domain_BFO_0000002_uid::domain_BFO_0000002_uid, range_BFO_0000003_uid::range_BFO_0000003_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000015_IAO_0000136_HEPRO_0000004'})
+MATCH (parent:Relvar {relId: 'IAO_0000136'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HEPRO_0000015_IAO_0000136_HEPRO_0000004', fkType: 'ISA', attOriginIds: 'HEPRO_0000015_uid, HEPRO_0000004_uid', attDestinationIds: 'domain_IAO_0000030_uid, range_Thing_uid', description: 'IAO_0000136::IAO_0000136{HEPRO_0000015_uid::HEPRO_0000015_uid, HEPRO_0000004_uid::HEPRO_0000004_uid} -> IAO_0000136::IAO_0000136{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000001_RO_0002180_HEPRO_0000030'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HEPRO_0000001_RO_0002180_HEPRO_0000030', fkType: 'ISA', attOriginIds: 'HEPRO_0000001_uid, HEPRO_0000030_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{HEPRO_0000001_uid::HEPRO_0000001_uid, HEPRO_0000030_uid::HEPRO_0000030_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000021_IAO_0000235_OpenLHS-Core_0000026'})
+MATCH (parent:Relvar {relId: 'IAO_0000235'})
+CREATE (child)-[:IS_A {fkId: 'fk2_OpenLHS-Core_0000021_IAO_0000235_OpenLHS-Core_0000026', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000021_uid, OpenLHS-Core_0000026_uid', attDestinationIds: 'domain_BFO_0000001_uid, range_IAO_0000030_uid', description: 'IAO_0000235::IAO_0000235{OpenLHS-Core_0000021_uid::OpenLHS-Core_0000021_uid, OpenLHS-Core_0000026_uid::OpenLHS-Core_0000026_uid} -> IAO_0000235::IAO_0000235{domain_BFO_0000001_uid::domain_BFO_0000001_uid, range_IAO_0000030_uid::range_IAO_0000030_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000045_IAO_0000136_OpenLHS-Core_0000043'})
+MATCH (parent:Relvar {relId: 'IAO_0000136'})
+CREATE (child)-[:IS_A {fkId: 'fk2_OpenLHS-Core_0000045_IAO_0000136_OpenLHS-Core_0000043', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000045_uid, OpenLHS-Core_0000043_uid', attDestinationIds: 'domain_IAO_0000030_uid, range_Thing_uid', description: 'IAO_0000136::IAO_0000136{OpenLHS-Core_0000045_uid::OpenLHS-Core_0000045_uid, OpenLHS-Core_0000043_uid::OpenLHS-Core_0000043_uid} -> IAO_0000136::IAO_0000136{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OBI_0000011_BFO_0000055_ONTORELA_C2875fe2d'})
+MATCH (parent:Relvar {relId: 'BFO_0000055'})
+CREATE (child)-[:IS_A {fkId: 'fk2_OBI_0000011_BFO_0000055_ONTORELA_C2875fe2d', fkType: 'ISA', attOriginIds: 'OBI_0000011_uid, ONTORELA_C2875fe2d_uid', attDestinationIds: 'domain_BFO_0000015_uid, range_BFO_0000017_uid', description: 'BFO_0000055::BFO_0000055{OBI_0000011_uid::OBI_0000011_uid, ONTORELA_C2875fe2d_uid::ONTORELA_C2875fe2d_uid} -> BFO_0000055::BFO_0000055{domain_BFO_0000015_uid::domain_BFO_0000015_uid, range_BFO_0000017_uid::range_BFO_0000017_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000081_RO_0000087_HOSO_0000082'})
+MATCH (parent:Relvar {relId: 'RO_0000087'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000081_RO_0000087_HOSO_0000082', fkType: 'ISA', attOriginIds: 'HOSO_0000081_uid, HOSO_0000082_uid', attDestinationIds: 'domain_BFO_0000004_uid, range_BFO_0000023_uid', description: 'RO_0000087::RO_0000087{HOSO_0000081_uid::HOSO_0000081_uid, HOSO_0000082_uid::HOSO_0000082_uid} -> RO_0000087::RO_0000087{domain_BFO_0000004_uid::domain_BFO_0000004_uid, range_BFO_0000023_uid::range_BFO_0000023_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000037_BFO_0000051_HEPRO_0000013'})
+MATCH (parent:Relvar {relId: 'BFO_0000051'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000037_BFO_0000051_HEPRO_0000013', fkType: 'ISA', attOriginIds: 'HOSO_0000037_uid, HEPRO_0000013_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'BFO_0000051::BFO_0000051{HOSO_0000037_uid::HOSO_0000037_uid, HEPRO_0000013_uid::HEPRO_0000013_uid} -> BFO_0000051::BFO_0000051{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000017_BFO_0000054_BFO_0000015'})
+MATCH (parent:Relvar {relId: 'BFO_0000054'})
+CREATE (child)-[:IS_A {fkId: 'fk2_BFO_0000017_BFO_0000054_BFO_0000015', fkType: 'ISA', attOriginIds: 'BFO_0000017_uid, BFO_0000015_uid', attDestinationIds: 'domain_BFO_0000017_uid, range_BFO_0000015_uid', description: 'BFO_0000054::BFO_0000054{BFO_0000017_uid::BFO_0000017_uid, BFO_0000015_uid::BFO_0000015_uid} -> BFO_0000054::BFO_0000054{domain_BFO_0000017_uid::domain_BFO_0000017_uid, range_BFO_0000015_uid::range_BFO_0000015_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000012_RO_0000087_HEPRO_0000011'})
+MATCH (parent:Relvar {relId: 'RO_0000087'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HEPRO_0000012_RO_0000087_HEPRO_0000011', fkType: 'ISA', attOriginIds: 'HEPRO_0000012_uid, HEPRO_0000011_uid', attDestinationIds: 'domain_BFO_0000004_uid, range_BFO_0000023_uid', description: 'RO_0000087::RO_0000087{HEPRO_0000012_uid::HEPRO_0000012_uid, HEPRO_0000011_uid::HEPRO_0000011_uid} -> RO_0000087::RO_0000087{domain_BFO_0000004_uid::domain_BFO_0000004_uid, range_BFO_0000023_uid::range_BFO_0000023_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000025'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000025', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000020_uid, OpenLHS-Core_0000025_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{OpenLHS-Core_0000020_uid::OpenLHS-Core_0000020_uid, OpenLHS-Core_0000025_uid::OpenLHS-Core_0000025_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000026'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000026', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000020_uid, OpenLHS-Core_0000026_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{OpenLHS-Core_0000020_uid::OpenLHS-Core_0000020_uid, OpenLHS-Core_0000026_uid::OpenLHS-Core_0000026_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000024'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000024', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000020_uid, OpenLHS-Core_0000024_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{OpenLHS-Core_0000020_uid::OpenLHS-Core_0000020_uid, OpenLHS-Core_0000024_uid::OpenLHS-Core_0000024_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000022'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000022', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000020_uid, OpenLHS-Core_0000022_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{OpenLHS-Core_0000020_uid::OpenLHS-Core_0000020_uid, OpenLHS-Core_0000022_uid::OpenLHS-Core_0000022_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000056_RO_0002180_OpenLHS-Core_0000057'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_OpenLHS-Core_0000056_RO_0002180_OpenLHS-Core_0000057', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000056_uid, OpenLHS-Core_0000057_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{OpenLHS-Core_0000056_uid::OpenLHS-Core_0000056_uid, OpenLHS-Core_0000057_uid::OpenLHS-Core_0000057_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000056_RO_0002180_OpenLHS-Core_0000055'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_OpenLHS-Core_0000056_RO_0002180_OpenLHS-Core_0000055', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000056_uid, OpenLHS-Core_0000055_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{OpenLHS-Core_0000056_uid::OpenLHS-Core_0000056_uid, OpenLHS-Core_0000055_uid::OpenLHS-Core_0000055_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'ONTORELA_C73b67cf5_BFO_0000055_OpenLHS-Core_0000043'})
+MATCH (parent:Relvar {relId: 'BFO_0000055'})
+CREATE (child)-[:IS_A {fkId: 'fk2_ONTORELA_C73b67cf5_BFO_0000055_OpenLHS-Core_0000043', fkType: 'ISA', attOriginIds: 'ONTORELA_C73b67cf5_uid, OpenLHS-Core_0000043_uid', attDestinationIds: 'domain_BFO_0000015_uid, range_BFO_0000017_uid', description: 'BFO_0000055::BFO_0000055{ONTORELA_C73b67cf5_uid::ONTORELA_C73b67cf5_uid, OpenLHS-Core_0000043_uid::OpenLHS-Core_0000043_uid} -> BFO_0000055::BFO_0000055{domain_BFO_0000015_uid::domain_BFO_0000015_uid, range_BFO_0000017_uid::range_BFO_0000017_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'OpenLHS-Core_0000044_IAO_0000136_OpenLHS-Core_0000043'})
+MATCH (parent:Relvar {relId: 'IAO_0000136'})
+CREATE (child)-[:IS_A {fkId: 'fk2_OpenLHS-Core_0000044_IAO_0000136_OpenLHS-Core_0000043', fkType: 'ISA', attOriginIds: 'OpenLHS-Core_0000044_uid, OpenLHS-Core_0000043_uid', attDestinationIds: 'domain_IAO_0000030_uid, range_Thing_uid', description: 'IAO_0000136::IAO_0000136{OpenLHS-Core_0000044_uid::OpenLHS-Core_0000044_uid, OpenLHS-Core_0000043_uid::OpenLHS-Core_0000043_uid} -> IAO_0000136::IAO_0000136{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000080_RO_0002180_HOSO_0000100'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000080_RO_0002180_HOSO_0000100', fkType: 'ISA', attOriginIds: 'HOSO_0000080_uid, HOSO_0000100_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{HOSO_0000080_uid::HOSO_0000080_uid, HOSO_0000100_uid::HOSO_0000100_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000080_RO_0002180_IOIO_0000023'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000080_RO_0002180_IOIO_0000023', fkType: 'ISA', attOriginIds: 'HOSO_0000080_uid, IOIO_0000023_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{HOSO_0000080_uid::HOSO_0000080_uid, IOIO_0000023_uid::IOIO_0000023_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'AgentCapability_capability_of_Agent'})
+MATCH (parent:Relvar {relId: 'capability_of'})
+CREATE (child)-[:IS_A {fkId: 'fk2_AgentCapability_capability_of_Agent', fkType: 'ISA', attOriginIds: 'AgentCapability_uid, Agent_uid', attDestinationIds: 'domain_AgentCapability_uid, range_Agent_uid', description: 'capability_of::capability_of{AgentCapability_uid::AgentCapability_uid, Agent_uid::Agent_uid} -> capability_of::capability_of{domain_AgentCapability_uid::domain_AgentCapability_uid, range_Agent_uid::range_Agent_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000036_BFO_0000051_HEPRO_0000014'})
+MATCH (parent:Relvar {relId: 'BFO_0000051'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000036_BFO_0000051_HEPRO_0000014', fkType: 'ISA', attOriginIds: 'HOSO_0000036_uid, HEPRO_0000014_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'BFO_0000051::BFO_0000051{HOSO_0000036_uid::HOSO_0000036_uid, HEPRO_0000014_uid::HEPRO_0000014_uid} -> BFO_0000051::BFO_0000051{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000145_IAO_0000136_HOSO_0000012'})
+MATCH (parent:Relvar {relId: 'IAO_0000136'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000145_IAO_0000136_HOSO_0000012', fkType: 'ISA', attOriginIds: 'HOSO_0000145_uid, HOSO_0000012_uid', attDestinationIds: 'domain_IAO_0000030_uid, range_Thing_uid', description: 'IAO_0000136::IAO_0000136{HOSO_0000145_uid::HOSO_0000145_uid, HOSO_0000012_uid::HOSO_0000012_uid} -> IAO_0000136::IAO_0000136{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000012_BFO_0000051_HOSO_0000010'})
+MATCH (parent:Relvar {relId: 'BFO_0000051'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000012_BFO_0000051_HOSO_0000010', fkType: 'ISA', attOriginIds: 'HOSO_0000012_uid, HOSO_0000010_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'BFO_0000051::BFO_0000051{HOSO_0000012_uid::HOSO_0000012_uid, HOSO_0000010_uid::HOSO_0000010_uid} -> BFO_0000051::BFO_0000051{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000012_OpenLHS-Core_0000004_HOSO_0000074'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000004'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000012_OpenLHS-Core_0000004_HOSO_0000074', fkType: 'ISA', attOriginIds: 'HOSO_0000012_uid, HOSO_0000074_uid', attDestinationIds: 'domain_BFO_0000015_uid, range_IAO_0000033_uid', description: 'OpenLHS-Core_0000004::OpenLHS-Core_0000004{HOSO_0000012_uid::HOSO_0000012_uid, HOSO_0000074_uid::HOSO_0000074_uid} -> OpenLHS-Core_0000004::OpenLHS-Core_0000004{domain_BFO_0000015_uid::domain_BFO_0000015_uid, range_IAO_0000033_uid::range_IAO_0000033_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000012_OpenLHS-Core_0000004_HOSO_0000003'})
+MATCH (parent:Relvar {relId: 'OpenLHS-Core_0000004'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000012_OpenLHS-Core_0000004_HOSO_0000003', fkType: 'ISA', attOriginIds: 'HOSO_0000012_uid, HOSO_0000003_uid', attDestinationIds: 'domain_BFO_0000015_uid, range_IAO_0000033_uid', description: 'OpenLHS-Core_0000004::OpenLHS-Core_0000004{HOSO_0000012_uid::HOSO_0000012_uid, HOSO_0000003_uid::HOSO_0000003_uid} -> OpenLHS-Core_0000004::OpenLHS-Core_0000004{domain_BFO_0000015_uid::domain_BFO_0000015_uid, range_IAO_0000033_uid::range_IAO_0000033_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HOSO_0000048_BFO_0000050_HOSO_0000047'})
+MATCH (parent:Relvar {relId: 'BFO_0000050'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HOSO_0000048_BFO_0000050_HOSO_0000047', fkType: 'ISA', attOriginIds: 'HOSO_0000048_uid, HOSO_0000047_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'BFO_0000050::BFO_0000050{HOSO_0000048_uid::HOSO_0000048_uid, HOSO_0000047_uid::HOSO_0000047_uid} -> BFO_0000050::BFO_0000050{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000004_RO_0000085_BFO_0000034'})
+MATCH (parent:Relvar {relId: 'RO_0000085'})
+CREATE (child)-[:IS_A {fkId: 'fk2_BFO_0000004_RO_0000085_BFO_0000034', fkType: 'ISA', attOriginIds: 'BFO_0000004_uid, BFO_0000034_uid', attDestinationIds: 'domain_BFO_0000004_uid, range_BFO_0000034_uid', description: 'RO_0000085::RO_0000085{BFO_0000004_uid::BFO_0000004_uid, BFO_0000034_uid::BFO_0000034_uid} -> RO_0000085::RO_0000085{domain_BFO_0000004_uid::domain_BFO_0000004_uid, range_BFO_0000034_uid::range_BFO_0000034_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000004_RO_0000087_BFO_0000023'})
+MATCH (parent:Relvar {relId: 'RO_0000087'})
+CREATE (child)-[:IS_A {fkId: 'fk2_BFO_0000004_RO_0000087_BFO_0000023', fkType: 'ISA', attOriginIds: 'BFO_0000004_uid, BFO_0000023_uid', attDestinationIds: 'domain_BFO_0000004_uid, range_BFO_0000023_uid', description: 'RO_0000087::RO_0000087{BFO_0000004_uid::BFO_0000004_uid, BFO_0000023_uid::BFO_0000023_uid} -> RO_0000087::RO_0000087{domain_BFO_0000004_uid::domain_BFO_0000004_uid, range_BFO_0000023_uid::range_BFO_0000023_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'BFO_0000004_RO_0000091_BFO_0000016'})
+MATCH (parent:Relvar {relId: 'RO_0000091'})
+CREATE (child)-[:IS_A {fkId: 'fk2_BFO_0000004_RO_0000091_BFO_0000016', fkType: 'ISA', attOriginIds: 'BFO_0000004_uid, BFO_0000016_uid', attDestinationIds: 'domain_BFO_0000004_uid, range_BFO_0000016_uid', description: 'RO_0000091::RO_0000091{BFO_0000004_uid::BFO_0000004_uid, BFO_0000016_uid::BFO_0000016_uid} -> RO_0000091::RO_0000091{domain_BFO_0000004_uid::domain_BFO_0000004_uid, range_BFO_0000016_uid::range_BFO_0000016_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IOIO_0000031_RO_0002180_IOIO_0000014'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_IOIO_0000031_RO_0002180_IOIO_0000014', fkType: 'ISA', attOriginIds: 'IOIO_0000031_uid, IOIO_0000014_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{IOIO_0000031_uid::IOIO_0000031_uid, IOIO_0000014_uid::IOIO_0000014_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IOIO_0000031_RO_0002180_IOIO_0000030'})
+MATCH (parent:Relvar {relId: 'RO_0002180'})
+CREATE (child)-[:IS_A {fkId: 'fk2_IOIO_0000031_RO_0002180_IOIO_0000030', fkType: 'ISA', attOriginIds: 'IOIO_0000031_uid, IOIO_0000030_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'RO_0002180::RO_0002180{IOIO_0000031_uid::IOIO_0000031_uid, IOIO_0000030_uid::IOIO_0000030_uid} -> RO_0002180::RO_0002180{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'HEPRO_0000025_BFO_0000051_HEPRO_0000030'})
+MATCH (parent:Relvar {relId: 'BFO_0000051'})
+CREATE (child)-[:IS_A {fkId: 'fk2_HEPRO_0000025_BFO_0000051_HEPRO_0000030', fkType: 'ISA', attOriginIds: 'HEPRO_0000025_uid, HEPRO_0000030_uid', attDestinationIds: 'domain_Thing_uid, range_Thing_uid', description: 'BFO_0000051::BFO_0000051{HEPRO_0000025_uid::HEPRO_0000025_uid, HEPRO_0000030_uid::HEPRO_0000030_uid} -> BFO_0000051::BFO_0000051{domain_Thing_uid::domain_Thing_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IAO_0000030_IAO_0000219_BFO_0000001'})
+MATCH (parent:Relvar {relId: 'IAO_0000219'})
+CREATE (child)-[:IS_A {fkId: 'fk2_IAO_0000030_IAO_0000219_BFO_0000001', fkType: 'ISA', attOriginIds: 'IAO_0000030_uid, BFO_0000001_uid', attDestinationIds: 'domain_IAO_0000030_uid, range_BFO_0000001_uid', description: 'IAO_0000219::IAO_0000219{IAO_0000030_uid::IAO_0000030_uid, BFO_0000001_uid::BFO_0000001_uid} -> IAO_0000219::IAO_0000219{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_BFO_0000001_uid::range_BFO_0000001_uid}'}]->(parent);
+
+MATCH (child:Relvar {relId: 'IAO_0000030_IAO_0000136_BFO_0000001'})
+MATCH (parent:Relvar {relId: 'IAO_0000136'})
+CREATE (child)-[:IS_A {fkId: 'fk5_IAO_0000030_IAO_0000136_BFO_0000001', fkType: 'ISA', attOriginIds: 'IAO_0000030_uid, BFO_0000001_uid', attDestinationIds: 'domain_IAO_0000030_uid, range_Thing_uid', description: 'IAO_0000136::IAO_0000136{IAO_0000030_uid::IAO_0000030_uid, BFO_0000001_uid::BFO_0000001_uid} -> IAO_0000136::IAO_0000136{domain_IAO_0000030_uid::domain_IAO_0000030_uid, range_Thing_uid::range_Thing_uid}'}]->(parent);
+
+MATCH (ax:Relvar {relId: 'BFO_0000050'})
+MATCH (domain:Relvar {relId: 'Thing'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_BFO_0000050', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'domain_Thing_uid', attDestinationIds: 'Thing_uid', cardinality: '[0..*]', description: 'Thing::Thing{domain_Thing_uid::domain_Thing_uid} -> Thing::Thing{Thing_uid::Thing_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'BFO_0000050'})
+MATCH (range:Relvar {relId: 'Thing'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_BFO_0000050', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'range_Thing_uid', attDestinationIds: 'Thing_uid', cardinality: '[0..*]', description: 'Thing::Thing{range_Thing_uid::range_Thing_uid} -> Thing::Thing{Thing_uid::Thing_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'BFO_0000051'})
+MATCH (domain:Relvar {relId: 'Thing'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk2_BFO_0000051', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'domain_Thing_uid', attDestinationIds: 'Thing_uid', cardinality: '[0..*]', description: 'Thing::Thing{domain_Thing_uid::domain_Thing_uid} -> Thing::Thing{Thing_uid::Thing_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'BFO_0000051'})
+MATCH (range:Relvar {relId: 'Thing'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk3_BFO_0000051', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'range_Thing_uid', attDestinationIds: 'Thing_uid', cardinality: '[0..*]', description: 'Thing::Thing{range_Thing_uid::range_Thing_uid} -> Thing::Thing{Thing_uid::Thing_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'BFO_0000054'})
+MATCH (domain:Relvar {relId: 'BFO_0000017'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_BFO_0000054', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'domain_BFO_0000017_uid', attDestinationIds: 'BFO_0000017_uid', cardinality: '[0..*]', description: 'BFO_0000017::BFO_0000017{domain_BFO_0000017_uid::domain_BFO_0000017_uid} -> BFO_0000017::BFO_0000017{BFO_0000017_uid::BFO_0000017_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'BFO_0000054'})
+MATCH (range:Relvar {relId: 'BFO_0000015'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_BFO_0000054', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'range_BFO_0000015_uid', attDestinationIds: 'BFO_0000015_uid', cardinality: '[0..*]', description: 'BFO_0000015::BFO_0000015{range_BFO_0000015_uid::range_BFO_0000015_uid} -> BFO_0000015::BFO_0000015{BFO_0000015_uid::BFO_0000015_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'BFO_0000055'})
+MATCH (domain:Relvar {relId: 'BFO_0000015'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_BFO_0000055', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'domain_BFO_0000015_uid', attDestinationIds: 'BFO_0000015_uid', cardinality: '[0..*]', description: 'BFO_0000015::BFO_0000015{domain_BFO_0000015_uid::domain_BFO_0000015_uid} -> BFO_0000015::BFO_0000015{BFO_0000015_uid::BFO_0000015_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'BFO_0000055'})
+MATCH (range:Relvar {relId: 'BFO_0000017'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_BFO_0000055', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'range_BFO_0000017_uid', attDestinationIds: 'BFO_0000017_uid', cardinality: '[0..*]', description: 'BFO_0000017::BFO_0000017{range_BFO_0000017_uid::range_BFO_0000017_uid} -> BFO_0000017::BFO_0000017{BFO_0000017_uid::BFO_0000017_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'BFO_0000066'})
+MATCH (domain:Relvar {relId: 'BFO_0000003'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_BFO_0000066', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'domain_BFO_0000003_uid', attDestinationIds: 'BFO_0000003_uid', cardinality: '[0..*]', description: 'BFO_0000003::BFO_0000003{domain_BFO_0000003_uid::domain_BFO_0000003_uid} -> BFO_0000003::BFO_0000003{BFO_0000003_uid::BFO_0000003_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'BFO_0000066'})
+MATCH (range:Relvar {relId: 'BFO_0000004'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_BFO_0000066', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'range_BFO_0000004_uid', attDestinationIds: 'BFO_0000004_uid', cardinality: '[0..*]', description: 'BFO_0000004::BFO_0000004{range_BFO_0000004_uid::range_BFO_0000004_uid} -> BFO_0000004::BFO_0000004{BFO_0000004_uid::BFO_0000004_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'BFO_0000067'})
+MATCH (domain:Relvar {relId: 'Thing'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk4_BFO_0000067', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'domain_Thing_uid', attDestinationIds: 'Thing_uid', cardinality: '[0..*]', description: 'Thing::Thing{domain_Thing_uid::domain_Thing_uid} -> Thing::Thing{Thing_uid::Thing_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'BFO_0000067'})
+MATCH (range:Relvar {relId: 'Thing'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk5_BFO_0000067', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'range_Thing_uid', attDestinationIds: 'Thing_uid', cardinality: '[0..*]', description: 'Thing::Thing{range_Thing_uid::range_Thing_uid} -> Thing::Thing{Thing_uid::Thing_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'IAO_0000136'})
+MATCH (domain:Relvar {relId: 'IAO_0000030'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_IAO_0000136', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'domain_IAO_0000030_uid', attDestinationIds: 'IAO_0000030_uid', cardinality: '[0..*]', description: 'IAO_0000030::IAO_0000030{domain_IAO_0000030_uid::domain_IAO_0000030_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'IAO_0000136'})
+MATCH (range:Relvar {relId: 'Thing'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_IAO_0000136', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'range_Thing_uid', attDestinationIds: 'Thing_uid', cardinality: '[0..*]', description: 'Thing::Thing{range_Thing_uid::range_Thing_uid} -> Thing::Thing{Thing_uid::Thing_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'IAO_0000143'})
+MATCH (domain:Relvar {relId: 'Thing'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk6_IAO_0000143', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'domain_Thing_uid', attDestinationIds: 'Thing_uid', cardinality: '[0..*]', description: 'Thing::Thing{domain_Thing_uid::domain_Thing_uid} -> Thing::Thing{Thing_uid::Thing_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'IAO_0000143'})
+MATCH (range:Relvar {relId: 'Thing'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk7_IAO_0000143', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'range_Thing_uid', attDestinationIds: 'Thing_uid', cardinality: '[0..*]', description: 'Thing::Thing{range_Thing_uid::range_Thing_uid} -> Thing::Thing{Thing_uid::Thing_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'IAO_0000235'})
+MATCH (domain:Relvar {relId: 'BFO_0000001'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_IAO_0000235', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'domain_BFO_0000001_uid', attDestinationIds: 'BFO_0000001_uid', cardinality: '[0..*]', description: 'BFO_0000001::BFO_0000001{domain_BFO_0000001_uid::domain_BFO_0000001_uid} -> BFO_0000001::BFO_0000001{BFO_0000001_uid::BFO_0000001_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'IAO_0000235'})
+MATCH (range:Relvar {relId: 'IAO_0000030'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_IAO_0000235', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'range_IAO_0000030_uid', attDestinationIds: 'IAO_0000030_uid', cardinality: '[0..*]', description: 'IAO_0000030::IAO_0000030{range_IAO_0000030_uid::range_IAO_0000030_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'OMRSE_00000068'})
+MATCH (domain:Relvar {relId: 'Thing'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk8_OMRSE_00000068', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'domain_Thing_uid', attDestinationIds: 'Thing_uid', cardinality: '[0..*]', description: 'Thing::Thing{domain_Thing_uid::domain_Thing_uid} -> Thing::Thing{Thing_uid::Thing_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'OMRSE_00000068'})
+MATCH (range:Relvar {relId: 'Thing'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk9_OMRSE_00000068', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'range_Thing_uid', attDestinationIds: 'Thing_uid', cardinality: '[0..*]', description: 'Thing::Thing{range_Thing_uid::range_Thing_uid} -> Thing::Thing{Thing_uid::Thing_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000001'})
+MATCH (domain:Relvar {relId: 'OpenLHS-Core_0000013'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_OpenLHS-Core_0000001', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'domain_OpenLHS-Core_0000013_uid', attDestinationIds: 'OpenLHS-Core_0000013_uid', cardinality: '[0..*]', description: 'OpenLHS-Core_0000013::OpenLHS-Core_0000013{domain_OpenLHS-Core_0000013_uid::domain_OpenLHS-Core_0000013_uid} -> OpenLHS-Core_0000013::OpenLHS-Core_0000013{OpenLHS-Core_0000013_uid::OpenLHS-Core_0000013_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000001'})
+MATCH (range:Relvar {relId: 'OpenLHS-Core_0000012'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_OpenLHS-Core_0000001', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'range_OpenLHS-Core_0000012_uid', attDestinationIds: 'OpenLHS-Core_0000012_uid', cardinality: '[0..*]', description: 'OpenLHS-Core_0000012::OpenLHS-Core_0000012{range_OpenLHS-Core_0000012_uid::range_OpenLHS-Core_0000012_uid} -> OpenLHS-Core_0000012::OpenLHS-Core_0000012{OpenLHS-Core_0000012_uid::OpenLHS-Core_0000012_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000004'})
+MATCH (domain:Relvar {relId: 'BFO_0000015'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_OpenLHS-Core_0000004', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'domain_BFO_0000015_uid', attDestinationIds: 'BFO_0000015_uid', cardinality: '[0..*]', description: 'BFO_0000015::BFO_0000015{domain_BFO_0000015_uid::domain_BFO_0000015_uid} -> BFO_0000015::BFO_0000015{BFO_0000015_uid::BFO_0000015_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000004'})
+MATCH (range:Relvar {relId: 'IAO_0000033'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_OpenLHS-Core_0000004', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'range_IAO_0000033_uid', attDestinationIds: 'IAO_0000033_uid', cardinality: '[0..*]', description: 'IAO_0000033::IAO_0000033{range_IAO_0000033_uid::range_IAO_0000033_uid} -> IAO_0000033::IAO_0000033{IAO_0000033_uid::IAO_0000033_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000007'})
+MATCH (domain:Relvar {relId: 'IAO_0000033'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_OpenLHS-Core_0000007', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'domain_IAO_0000033_uid', attDestinationIds: 'IAO_0000033_uid', cardinality: '[0..*]', description: 'IAO_0000033::IAO_0000033{domain_IAO_0000033_uid::domain_IAO_0000033_uid} -> IAO_0000033::IAO_0000033{IAO_0000033_uid::IAO_0000033_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000007'})
+MATCH (range:Relvar {relId: 'BFO_0000015'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_OpenLHS-Core_0000007', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'range_BFO_0000015_uid', attDestinationIds: 'BFO_0000015_uid', cardinality: '[0..*]', description: 'BFO_0000015::BFO_0000015{range_BFO_0000015_uid::range_BFO_0000015_uid} -> BFO_0000015::BFO_0000015{BFO_0000015_uid::BFO_0000015_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000008'})
+MATCH (domain:Relvar {relId: 'OpenLHS-Core_0000012'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_OpenLHS-Core_0000008', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'domain_OpenLHS-Core_0000012_uid', attDestinationIds: 'OpenLHS-Core_0000012_uid', cardinality: '[0..1]', description: 'OpenLHS-Core_0000012::OpenLHS-Core_0000012{domain_OpenLHS-Core_0000012_uid::domain_OpenLHS-Core_0000012_uid} -> OpenLHS-Core_0000012::OpenLHS-Core_0000012{OpenLHS-Core_0000012_uid::OpenLHS-Core_0000012_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000008'})
+MATCH (range:Relvar {relId: 'OpenLHS-Core_0000013'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_OpenLHS-Core_0000008', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'range_OpenLHS-Core_0000013_uid', attDestinationIds: 'OpenLHS-Core_0000013_uid', cardinality: '[0..1]', description: 'OpenLHS-Core_0000013::OpenLHS-Core_0000013{range_OpenLHS-Core_0000013_uid::range_OpenLHS-Core_0000013_uid} -> OpenLHS-Core_0000013::OpenLHS-Core_0000013{OpenLHS-Core_0000013_uid::OpenLHS-Core_0000013_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'RO_0000052'})
+MATCH (domain:Relvar {relId: 'Thing'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk11_RO_0000052', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'domain_Thing_uid', attDestinationIds: 'Thing_uid', cardinality: '[0..1]', description: 'Thing::Thing{domain_Thing_uid::domain_Thing_uid} -> Thing::Thing{Thing_uid::Thing_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'RO_0000052'})
+MATCH (range:Relvar {relId: 'Thing'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk12_RO_0000052', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'range_Thing_uid', attDestinationIds: 'Thing_uid', cardinality: '[0..1]', description: 'Thing::Thing{range_Thing_uid::range_Thing_uid} -> Thing::Thing{Thing_uid::Thing_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'RO_0000053'})
+MATCH (domain:Relvar {relId: 'Thing'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_RO_0000053', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'domain_Thing_uid', attDestinationIds: 'Thing_uid', cardinality: '[0..*]', description: 'Thing::Thing{domain_Thing_uid::domain_Thing_uid} -> Thing::Thing{Thing_uid::Thing_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'RO_0000053'})
+MATCH (range:Relvar {relId: 'BFO_0000020'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_RO_0000053', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'range_BFO_0000020_uid', attDestinationIds: 'BFO_0000020_uid', cardinality: '[0..*]', description: 'BFO_0000020::BFO_0000020{range_BFO_0000020_uid::range_BFO_0000020_uid} -> BFO_0000020::BFO_0000020{BFO_0000020_uid::BFO_0000020_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'RO_0000056'})
+MATCH (domain:Relvar {relId: 'BFO_0000002'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk1_RO_0000056', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'domain_BFO_0000002_uid', attDestinationIds: 'BFO_0000002_uid', cardinality: '[0..*]', description: 'BFO_0000002::BFO_0000002{domain_BFO_0000002_uid::domain_BFO_0000002_uid} -> BFO_0000002::BFO_0000002{BFO_0000002_uid::BFO_0000002_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'RO_0000056'})
+MATCH (range:Relvar {relId: 'BFO_0000003'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk2_RO_0000056', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'range_BFO_0000003_uid', attDestinationIds: 'BFO_0000003_uid', cardinality: '[0..*]', description: 'BFO_0000003::BFO_0000003{range_BFO_0000003_uid::range_BFO_0000003_uid} -> BFO_0000003::BFO_0000003{BFO_0000003_uid::BFO_0000003_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'RO_0000057'})
+MATCH (domain:Relvar {relId: 'BFO_0000003'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk2_RO_0000057', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'domain_BFO_0000003_uid', attDestinationIds: 'BFO_0000003_uid', cardinality: '[0..*]', description: 'BFO_0000003::BFO_0000003{domain_BFO_0000003_uid::domain_BFO_0000003_uid} -> BFO_0000003::BFO_0000003{BFO_0000003_uid::BFO_0000003_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'RO_0000057'})
+MATCH (range:Relvar {relId: 'BFO_0000002'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk3_RO_0000057', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'range_BFO_0000002_uid', attDestinationIds: 'BFO_0000002_uid', cardinality: '[0..*]', description: 'BFO_0000002::BFO_0000002{range_BFO_0000002_uid::range_BFO_0000002_uid} -> BFO_0000002::BFO_0000002{BFO_0000002_uid::BFO_0000002_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'RO_0000058'})
+MATCH (domain:Relvar {relId: 'BFO_0000031'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_RO_0000058', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'domain_BFO_0000031_uid', attDestinationIds: 'BFO_0000031_uid', cardinality: '[0..*]', description: 'BFO_0000031::BFO_0000031{domain_BFO_0000031_uid::domain_BFO_0000031_uid} -> BFO_0000031::BFO_0000031{BFO_0000031_uid::BFO_0000031_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'RO_0000058'})
+MATCH (range:Relvar {relId: 'BFO_0000020'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_RO_0000058', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'range_BFO_0000020_uid', attDestinationIds: 'BFO_0000020_uid', cardinality: '[0..*]', description: 'BFO_0000020::BFO_0000020{range_BFO_0000020_uid::range_BFO_0000020_uid} -> BFO_0000020::BFO_0000020{BFO_0000020_uid::BFO_0000020_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'RO_0000059'})
+MATCH (domain:Relvar {relId: 'BFO_0000020'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_RO_0000059', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'domain_BFO_0000020_uid', attDestinationIds: 'BFO_0000020_uid', cardinality: '[0..*]', description: 'BFO_0000020::BFO_0000020{domain_BFO_0000020_uid::domain_BFO_0000020_uid} -> BFO_0000020::BFO_0000020{BFO_0000020_uid::BFO_0000020_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'RO_0000059'})
+MATCH (range:Relvar {relId: 'BFO_0000031'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_RO_0000059', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'range_BFO_0000031_uid', attDestinationIds: 'BFO_0000031_uid', cardinality: '[0..*]', description: 'BFO_0000031::BFO_0000031{range_BFO_0000031_uid::range_BFO_0000031_uid} -> BFO_0000031::BFO_0000031{BFO_0000031_uid::BFO_0000031_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'RO_0002222'})
+MATCH (domain:Relvar {relId: 'BFO_0000003'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk13_RO_0002222', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'domain_BFO_0000003_uid', attDestinationIds: 'BFO_0000003_uid', cardinality: '[0..*]', description: 'BFO_0000003::BFO_0000003{domain_BFO_0000003_uid::domain_BFO_0000003_uid} -> BFO_0000003::BFO_0000003{BFO_0000003_uid::BFO_0000003_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'RO_0002222'})
+MATCH (range:Relvar {relId: 'BFO_0000003'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk14_RO_0002222', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'range_BFO_0000003_uid', attDestinationIds: 'BFO_0000003_uid', cardinality: '[0..*]', description: 'BFO_0000003::BFO_0000003{range_BFO_0000003_uid::range_BFO_0000003_uid} -> BFO_0000003::BFO_0000003{BFO_0000003_uid::BFO_0000003_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'RO_0002479'})
+MATCH (domain:Relvar {relId: 'BFO_0000003'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk2_RO_0002479', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'domain_BFO_0000003_uid', attDestinationIds: 'BFO_0000003_uid', cardinality: '[0..*]', description: 'BFO_0000003::BFO_0000003{domain_BFO_0000003_uid::domain_BFO_0000003_uid} -> BFO_0000003::BFO_0000003{BFO_0000003_uid::BFO_0000003_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'RO_0002479'})
+MATCH (range:Relvar {relId: 'BFO_0000004'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk3_RO_0002479', fkType: 'OBJECTPROPERTY', propertyShortIri: '', attOriginIds: 'range_BFO_0000004_uid', attDestinationIds: 'BFO_0000004_uid', cardinality: '[0..*]', description: 'BFO_0000004::BFO_0000004{range_BFO_0000004_uid::range_BFO_0000004_uid} -> BFO_0000004::BFO_0000004{BFO_0000004_uid::BFO_0000004_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000017_Ontorel-Core_0000002_string'})
+MATCH (domain:Relvar {relId: 'MPHPO_0000017'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_MPHPO_0000017_Ontorel-Core_0000002_string', fkType: 'DATAPROPERTY', propertyShortIri: 'Ontorel-Core_0000002', attOriginIds: 'MPHPO_0000017_uid', attDestinationIds: 'MPHPO_0000017_uid', cardinality: '[1..1]', description: 'MPHPO_0000017::MPHPO_0000017{MPHPO_0000017_uid::MPHPO_0000017_uid} -> MPHPO_0000017::MPHPO_0000017{MPHPO_0000017_uid::MPHPO_0000017_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000017_Ontorel-Core_0000002_string'})
+MATCH (range:Relvar {relId: 'string'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_MPHPO_0000017_Ontorel-Core_0000002_string', fkType: 'DATAPROPERTY', propertyShortIri: 'Ontorel-Core_0000002', attOriginIds: 'string_uid', attDestinationIds: 'string_uid', cardinality: '[1..1]', description: 'string::string{string_uid::string_uid} -> string::string{string_uid::string_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000018_Ontorel-Core_0000002_string'})
+MATCH (domain:Relvar {relId: 'MPHPO_0000018'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_MPHPO_0000018_Ontorel-Core_0000002_string', fkType: 'DATAPROPERTY', propertyShortIri: 'Ontorel-Core_0000002', attOriginIds: 'MPHPO_0000018_uid', attDestinationIds: 'MPHPO_0000018_uid', cardinality: '[1..1]', description: 'MPHPO_0000018::MPHPO_0000018{MPHPO_0000018_uid::MPHPO_0000018_uid} -> MPHPO_0000018::MPHPO_0000018{MPHPO_0000018_uid::MPHPO_0000018_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000018_Ontorel-Core_0000002_string'})
+MATCH (range:Relvar {relId: 'string'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_MPHPO_0000018_Ontorel-Core_0000002_string', fkType: 'DATAPROPERTY', propertyShortIri: 'Ontorel-Core_0000002', attOriginIds: 'string_uid', attDestinationIds: 'string_uid', cardinality: '[1..1]', description: 'string::string{string_uid::string_uid} -> string::string{string_uid::string_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000001_Ontorel-Core_0000002_string'})
+MATCH (domain:Relvar {relId: 'MPHPO_0000001'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_MPHPO_0000001_Ontorel-Core_0000002_string', fkType: 'DATAPROPERTY', propertyShortIri: 'Ontorel-Core_0000002', attOriginIds: 'MPHPO_0000001_uid', attDestinationIds: 'MPHPO_0000001_uid', cardinality: '[1..1]', description: 'MPHPO_0000001::MPHPO_0000001{MPHPO_0000001_uid::MPHPO_0000001_uid} -> MPHPO_0000001::MPHPO_0000001{MPHPO_0000001_uid::MPHPO_0000001_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000001_Ontorel-Core_0000002_string'})
+MATCH (range:Relvar {relId: 'string'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_MPHPO_0000001_Ontorel-Core_0000002_string', fkType: 'DATAPROPERTY', propertyShortIri: 'Ontorel-Core_0000002', attOriginIds: 'string_uid', attDestinationIds: 'string_uid', cardinality: '[1..1]', description: 'string::string{string_uid::string_uid} -> string::string{string_uid::string_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000021_Ontorel-Core_0000002_string'})
+MATCH (domain:Relvar {relId: 'MPHPO_0000021'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_MPHPO_0000021_Ontorel-Core_0000002_string', fkType: 'DATAPROPERTY', propertyShortIri: 'Ontorel-Core_0000002', attOriginIds: 'MPHPO_0000021_uid', attDestinationIds: 'MPHPO_0000021_uid', cardinality: '[1..1]', description: 'MPHPO_0000021::MPHPO_0000021{MPHPO_0000021_uid::MPHPO_0000021_uid} -> MPHPO_0000021::MPHPO_0000021{MPHPO_0000021_uid::MPHPO_0000021_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000021_Ontorel-Core_0000002_string'})
+MATCH (range:Relvar {relId: 'string'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_MPHPO_0000021_Ontorel-Core_0000002_string', fkType: 'DATAPROPERTY', propertyShortIri: 'Ontorel-Core_0000002', attOriginIds: 'string_uid', attDestinationIds: 'string_uid', cardinality: '[1..1]', description: 'string::string{string_uid::string_uid} -> string::string{string_uid::string_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000009_Ontorel-Core_0000004_Ontorel-Core_0000001'})
+MATCH (domain:Relvar {relId: 'MPHPO_0000009'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_MPHPO_0000009_Ontorel-Core_0000004_Ontorel-Core_0000001', fkType: 'DATAPROPERTY', propertyShortIri: 'Ontorel-Core_0000004', attOriginIds: 'MPHPO_0000009_uid', attDestinationIds: 'MPHPO_0000009_uid', cardinality: '[1..1]', description: 'MPHPO_0000009::MPHPO_0000009{MPHPO_0000009_uid::MPHPO_0000009_uid} -> MPHPO_0000009::MPHPO_0000009{MPHPO_0000009_uid::MPHPO_0000009_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000009_Ontorel-Core_0000004_Ontorel-Core_0000001'})
+MATCH (range:Relvar {relId: 'Ontorel-Core_0000001'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_MPHPO_0000009_Ontorel-Core_0000004_Ontorel-Core_0000001', fkType: 'DATAPROPERTY', propertyShortIri: 'Ontorel-Core_0000004', attOriginIds: 'Ontorel-Core_0000001_uid', attDestinationIds: 'Ontorel-Core_0000001_uid', cardinality: '[1..1]', description: 'Ontorel-Core_0000001::Ontorel-Core_0000001{Ontorel-Core_0000001_uid::Ontorel-Core_0000001_uid} -> Ontorel-Core_0000001::Ontorel-Core_0000001{Ontorel-Core_0000001_uid::Ontorel-Core_0000001_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000015_Ontorel-Core_0000004_Ontorel-Core_0000006'})
+MATCH (domain:Relvar {relId: 'MPHPO_0000015'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_MPHPO_0000015_Ontorel-Core_0000004_Ontorel-Core_0000006', fkType: 'DATAPROPERTY', propertyShortIri: 'Ontorel-Core_0000004', attOriginIds: 'MPHPO_0000015_uid', attDestinationIds: 'MPHPO_0000015_uid', cardinality: '[1..1]', description: 'MPHPO_0000015::MPHPO_0000015{MPHPO_0000015_uid::MPHPO_0000015_uid} -> MPHPO_0000015::MPHPO_0000015{MPHPO_0000015_uid::MPHPO_0000015_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000015_Ontorel-Core_0000004_Ontorel-Core_0000006'})
+MATCH (range:Relvar {relId: 'Ontorel-Core_0000006'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_MPHPO_0000015_Ontorel-Core_0000004_Ontorel-Core_0000006', fkType: 'DATAPROPERTY', propertyShortIri: 'Ontorel-Core_0000004', attOriginIds: 'Ontorel-Core_0000006_uid', attDestinationIds: 'Ontorel-Core_0000006_uid', cardinality: '[1..1]', description: 'Ontorel-Core_0000006::Ontorel-Core_0000006{Ontorel-Core_0000006_uid::Ontorel-Core_0000006_uid} -> Ontorel-Core_0000006::Ontorel-Core_0000006{Ontorel-Core_0000006_uid::Ontorel-Core_0000006_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000007_Ontorel-Core_0000002_string'})
+MATCH (domain:Relvar {relId: 'MPHPO_0000007'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_MPHPO_0000007_Ontorel-Core_0000002_string', fkType: 'DATAPROPERTY', propertyShortIri: 'Ontorel-Core_0000002', attOriginIds: 'MPHPO_0000007_uid', attDestinationIds: 'MPHPO_0000007_uid', cardinality: '[1..1]', description: 'MPHPO_0000007::MPHPO_0000007{MPHPO_0000007_uid::MPHPO_0000007_uid} -> MPHPO_0000007::MPHPO_0000007{MPHPO_0000007_uid::MPHPO_0000007_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000007_Ontorel-Core_0000002_string'})
+MATCH (range:Relvar {relId: 'string'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_MPHPO_0000007_Ontorel-Core_0000002_string', fkType: 'DATAPROPERTY', propertyShortIri: 'Ontorel-Core_0000002', attOriginIds: 'string_uid', attDestinationIds: 'string_uid', cardinality: '[1..1]', description: 'string::string{string_uid::string_uid} -> string::string{string_uid::string_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000019_Ontorel-Core_0000002_string'})
+MATCH (domain:Relvar {relId: 'MPHPO_0000019'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_MPHPO_0000019_Ontorel-Core_0000002_string', fkType: 'DATAPROPERTY', propertyShortIri: 'Ontorel-Core_0000002', attOriginIds: 'MPHPO_0000019_uid', attDestinationIds: 'MPHPO_0000019_uid', cardinality: '[1..1]', description: 'MPHPO_0000019::MPHPO_0000019{MPHPO_0000019_uid::MPHPO_0000019_uid} -> MPHPO_0000019::MPHPO_0000019{MPHPO_0000019_uid::MPHPO_0000019_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000019_Ontorel-Core_0000002_string'})
+MATCH (range:Relvar {relId: 'string'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_MPHPO_0000019_Ontorel-Core_0000002_string', fkType: 'DATAPROPERTY', propertyShortIri: 'Ontorel-Core_0000002', attOriginIds: 'string_uid', attDestinationIds: 'string_uid', cardinality: '[1..1]', description: 'string::string{string_uid::string_uid} -> string::string{string_uid::string_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000011_Ontorel-Core_0000004_Ontorel-Core_0000001'})
+MATCH (domain:Relvar {relId: 'MPHPO_0000011'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_MPHPO_0000011_Ontorel-Core_0000004_Ontorel-Core_0000001', fkType: 'DATAPROPERTY', propertyShortIri: 'Ontorel-Core_0000004', attOriginIds: 'MPHPO_0000011_uid', attDestinationIds: 'MPHPO_0000011_uid', cardinality: '[1..1]', description: 'MPHPO_0000011::MPHPO_0000011{MPHPO_0000011_uid::MPHPO_0000011_uid} -> MPHPO_0000011::MPHPO_0000011{MPHPO_0000011_uid::MPHPO_0000011_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000011_Ontorel-Core_0000004_Ontorel-Core_0000001'})
+MATCH (range:Relvar {relId: 'Ontorel-Core_0000001'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_MPHPO_0000011_Ontorel-Core_0000004_Ontorel-Core_0000001', fkType: 'DATAPROPERTY', propertyShortIri: 'Ontorel-Core_0000004', attOriginIds: 'Ontorel-Core_0000001_uid', attDestinationIds: 'Ontorel-Core_0000001_uid', cardinality: '[1..1]', description: 'Ontorel-Core_0000001::Ontorel-Core_0000001{Ontorel-Core_0000001_uid::Ontorel-Core_0000001_uid} -> Ontorel-Core_0000001::Ontorel-Core_0000001{Ontorel-Core_0000001_uid::Ontorel-Core_0000001_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000004_Ontorel-Core_0000004_Ontorel-Core_0000001'})
+MATCH (domain:Relvar {relId: 'MPHPO_0000004'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_MPHPO_0000004_Ontorel-Core_0000004_Ontorel-Core_0000001', fkType: 'DATAPROPERTY', propertyShortIri: 'Ontorel-Core_0000004', attOriginIds: 'MPHPO_0000004_uid', attDestinationIds: 'MPHPO_0000004_uid', cardinality: '[1..1]', description: 'MPHPO_0000004::MPHPO_0000004{MPHPO_0000004_uid::MPHPO_0000004_uid} -> MPHPO_0000004::MPHPO_0000004{MPHPO_0000004_uid::MPHPO_0000004_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000004_Ontorel-Core_0000004_Ontorel-Core_0000001'})
+MATCH (range:Relvar {relId: 'Ontorel-Core_0000001'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_MPHPO_0000004_Ontorel-Core_0000004_Ontorel-Core_0000001', fkType: 'DATAPROPERTY', propertyShortIri: 'Ontorel-Core_0000004', attOriginIds: 'Ontorel-Core_0000001_uid', attDestinationIds: 'Ontorel-Core_0000001_uid', cardinality: '[1..1]', description: 'Ontorel-Core_0000001::Ontorel-Core_0000001{Ontorel-Core_0000001_uid::Ontorel-Core_0000001_uid} -> Ontorel-Core_0000001::Ontorel-Core_0000001{Ontorel-Core_0000001_uid::Ontorel-Core_0000001_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000003_Ontorel-Core_0000004_Ontorel-Core_0000001'})
+MATCH (domain:Relvar {relId: 'MPHPO_0000003'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_MPHPO_0000003_Ontorel-Core_0000004_Ontorel-Core_0000001', fkType: 'DATAPROPERTY', propertyShortIri: 'Ontorel-Core_0000004', attOriginIds: 'MPHPO_0000003_uid', attDestinationIds: 'MPHPO_0000003_uid', cardinality: '[1..1]', description: 'MPHPO_0000003::MPHPO_0000003{MPHPO_0000003_uid::MPHPO_0000003_uid} -> MPHPO_0000003::MPHPO_0000003{MPHPO_0000003_uid::MPHPO_0000003_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000003_Ontorel-Core_0000004_Ontorel-Core_0000001'})
+MATCH (range:Relvar {relId: 'Ontorel-Core_0000001'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_MPHPO_0000003_Ontorel-Core_0000004_Ontorel-Core_0000001', fkType: 'DATAPROPERTY', propertyShortIri: 'Ontorel-Core_0000004', attOriginIds: 'Ontorel-Core_0000001_uid', attDestinationIds: 'Ontorel-Core_0000001_uid', cardinality: '[1..1]', description: 'Ontorel-Core_0000001::Ontorel-Core_0000001{Ontorel-Core_0000001_uid::Ontorel-Core_0000001_uid} -> Ontorel-Core_0000001::Ontorel-Core_0000001{Ontorel-Core_0000001_uid::Ontorel-Core_0000001_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000010_Ontorel-Core_0000002_string'})
+MATCH (domain:Relvar {relId: 'MPHPO_0000010'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_MPHPO_0000010_Ontorel-Core_0000002_string', fkType: 'DATAPROPERTY', propertyShortIri: 'Ontorel-Core_0000002', attOriginIds: 'MPHPO_0000010_uid', attDestinationIds: 'MPHPO_0000010_uid', cardinality: '[1..1]', description: 'MPHPO_0000010::MPHPO_0000010{MPHPO_0000010_uid::MPHPO_0000010_uid} -> MPHPO_0000010::MPHPO_0000010{MPHPO_0000010_uid::MPHPO_0000010_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000010_Ontorel-Core_0000002_string'})
+MATCH (range:Relvar {relId: 'string'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_MPHPO_0000010_Ontorel-Core_0000002_string', fkType: 'DATAPROPERTY', propertyShortIri: 'Ontorel-Core_0000002', attOriginIds: 'string_uid', attDestinationIds: 'string_uid', cardinality: '[1..1]', description: 'string::string{string_uid::string_uid} -> string::string{string_uid::string_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000020_Ontorel-Core_0000002_string'})
+MATCH (domain:Relvar {relId: 'MPHPO_0000020'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_MPHPO_0000020_Ontorel-Core_0000002_string', fkType: 'DATAPROPERTY', propertyShortIri: 'Ontorel-Core_0000002', attOriginIds: 'MPHPO_0000020_uid', attDestinationIds: 'MPHPO_0000020_uid', cardinality: '[1..1]', description: 'MPHPO_0000020::MPHPO_0000020{MPHPO_0000020_uid::MPHPO_0000020_uid} -> MPHPO_0000020::MPHPO_0000020{MPHPO_0000020_uid::MPHPO_0000020_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000020_Ontorel-Core_0000002_string'})
+MATCH (range:Relvar {relId: 'string'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_MPHPO_0000020_Ontorel-Core_0000002_string', fkType: 'DATAPROPERTY', propertyShortIri: 'Ontorel-Core_0000002', attOriginIds: 'string_uid', attDestinationIds: 'string_uid', cardinality: '[1..1]', description: 'string::string{string_uid::string_uid} -> string::string{string_uid::string_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'IOIO_0000014_Ontorel-Core_0000002_Literal'})
+MATCH (domain:Relvar {relId: 'IOIO_0000014'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_IOIO_0000014_Ontorel-Core_0000002_Literal', fkType: 'DATAPROPERTY', propertyShortIri: 'Ontorel-Core_0000002', attOriginIds: 'IOIO_0000014_uid', attDestinationIds: 'IOIO_0000014_uid', cardinality: '[1..1]', description: 'IOIO_0000014::IOIO_0000014{IOIO_0000014_uid::IOIO_0000014_uid} -> IOIO_0000014::IOIO_0000014{IOIO_0000014_uid::IOIO_0000014_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'IOIO_0000014_Ontorel-Core_0000002_Literal'})
+MATCH (range:Relvar {relId: 'Literal'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_IOIO_0000014_Ontorel-Core_0000002_Literal', fkType: 'DATAPROPERTY', propertyShortIri: 'Ontorel-Core_0000002', attOriginIds: 'Literal_uid', attDestinationIds: 'Literal_uid', cardinality: '[1..1]', description: 'Literal::Literal{Literal_uid::Literal_uid} -> Literal::Literal{Literal_uid::Literal_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000005_Ontorel-Core_0000002_string'})
+MATCH (domain:Relvar {relId: 'MPHPO_0000005'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_MPHPO_0000005_Ontorel-Core_0000002_string', fkType: 'DATAPROPERTY', propertyShortIri: 'Ontorel-Core_0000002', attOriginIds: 'MPHPO_0000005_uid', attDestinationIds: 'MPHPO_0000005_uid', cardinality: '[1..1]', description: 'MPHPO_0000005::MPHPO_0000005{MPHPO_0000005_uid::MPHPO_0000005_uid} -> MPHPO_0000005::MPHPO_0000005{MPHPO_0000005_uid::MPHPO_0000005_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000005_Ontorel-Core_0000002_string'})
+MATCH (range:Relvar {relId: 'string'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_MPHPO_0000005_Ontorel-Core_0000002_string', fkType: 'DATAPROPERTY', propertyShortIri: 'Ontorel-Core_0000002', attOriginIds: 'string_uid', attDestinationIds: 'string_uid', cardinality: '[1..1]', description: 'string::string{string_uid::string_uid} -> string::string{string_uid::string_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000006_Ontorel-Core_0000002_string'})
+MATCH (domain:Relvar {relId: 'MPHPO_0000006'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_MPHPO_0000006_Ontorel-Core_0000002_string', fkType: 'DATAPROPERTY', propertyShortIri: 'Ontorel-Core_0000002', attOriginIds: 'MPHPO_0000006_uid', attDestinationIds: 'MPHPO_0000006_uid', cardinality: '[1..1]', description: 'MPHPO_0000006::MPHPO_0000006{MPHPO_0000006_uid::MPHPO_0000006_uid} -> MPHPO_0000006::MPHPO_0000006{MPHPO_0000006_uid::MPHPO_0000006_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000006_Ontorel-Core_0000002_string'})
+MATCH (range:Relvar {relId: 'string'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_MPHPO_0000006_Ontorel-Core_0000002_string', fkType: 'DATAPROPERTY', propertyShortIri: 'Ontorel-Core_0000002', attOriginIds: 'string_uid', attDestinationIds: 'string_uid', cardinality: '[1..1]', description: 'string::string{string_uid::string_uid} -> string::string{string_uid::string_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000100_Ontorel-Core_0000002_Literal'})
+MATCH (domain:Relvar {relId: 'HOSO_0000100'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000100_Ontorel-Core_0000002_Literal', fkType: 'DATAPROPERTY', propertyShortIri: 'Ontorel-Core_0000002', attOriginIds: 'HOSO_0000100_uid', attDestinationIds: 'HOSO_0000100_uid', cardinality: '[1..1]', description: 'HOSO_0000100::HOSO_0000100{HOSO_0000100_uid::HOSO_0000100_uid} -> HOSO_0000100::HOSO_0000100{HOSO_0000100_uid::HOSO_0000100_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000100_Ontorel-Core_0000002_Literal'})
+MATCH (range:Relvar {relId: 'Literal'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000100_Ontorel-Core_0000002_Literal', fkType: 'DATAPROPERTY', propertyShortIri: 'Ontorel-Core_0000002', attOriginIds: 'Literal_uid', attDestinationIds: 'Literal_uid', cardinality: '[1..1]', description: 'Literal::Literal{Literal_uid::Literal_uid} -> Literal::Literal{Literal_uid::Literal_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000003_IAO_0000219_OBI_0100026'})
+MATCH (domain:Relvar {relId: 'HOSO_0000003'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000003_IAO_0000219_OBI_0100026', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000219', attOriginIds: 'HOSO_0000003_uid', attDestinationIds: 'HOSO_0000003_uid', cardinality: '[1..*]', description: 'HOSO_0000003::HOSO_0000003{HOSO_0000003_uid::HOSO_0000003_uid} -> HOSO_0000003::HOSO_0000003{HOSO_0000003_uid::HOSO_0000003_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000003_IAO_0000219_OBI_0100026'})
+MATCH (range:Relvar {relId: 'OBI_0100026'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000003_IAO_0000219_OBI_0100026', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000219', attOriginIds: 'OBI_0100026_uid', attDestinationIds: 'OBI_0100026_uid', cardinality: '[1..*]', description: 'OBI_0100026::OBI_0100026{OBI_0100026_uid::OBI_0100026_uid} -> OBI_0100026::OBI_0100026{OBI_0100026_uid::OBI_0100026_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000124_RO_0002180_HEPRO_0000017'})
+MATCH (domain:Relvar {relId: 'HOSO_0000124'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000124_RO_0002180_HEPRO_0000017', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HOSO_0000124_uid', attDestinationIds: 'HOSO_0000124_uid', cardinality: '[1..*]', description: 'HOSO_0000124::HOSO_0000124{HOSO_0000124_uid::HOSO_0000124_uid} -> HOSO_0000124::HOSO_0000124{HOSO_0000124_uid::HOSO_0000124_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000124_RO_0002180_HEPRO_0000017'})
+MATCH (range:Relvar {relId: 'HEPRO_0000017'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000124_RO_0002180_HEPRO_0000017', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HEPRO_0000017_uid', attDestinationIds: 'HEPRO_0000017_uid', cardinality: '[1..*]', description: 'HEPRO_0000017::HEPRO_0000017{HEPRO_0000017_uid::HEPRO_0000017_uid} -> HEPRO_0000017::HEPRO_0000017{HEPRO_0000017_uid::HEPRO_0000017_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000124_RO_0002180_HOSO_0000126'})
+MATCH (domain:Relvar {relId: 'HOSO_0000124'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000124_RO_0002180_HOSO_0000126', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HOSO_0000124_uid', attDestinationIds: 'HOSO_0000124_uid', cardinality: '[1..*]', description: 'HOSO_0000124::HOSO_0000124{HOSO_0000124_uid::HOSO_0000124_uid} -> HOSO_0000124::HOSO_0000124{HOSO_0000124_uid::HOSO_0000124_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000124_RO_0002180_HOSO_0000126'})
+MATCH (range:Relvar {relId: 'HOSO_0000126'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000124_RO_0002180_HOSO_0000126', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HOSO_0000126_uid', attDestinationIds: 'HOSO_0000126_uid', cardinality: '[1..*]', description: 'HOSO_0000126::HOSO_0000126{HOSO_0000126_uid::HOSO_0000126_uid} -> HOSO_0000126::HOSO_0000126{HOSO_0000126_uid::HOSO_0000126_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000124_RO_0002180_HOSO_0000100'})
+MATCH (domain:Relvar {relId: 'HOSO_0000124'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000124_RO_0002180_HOSO_0000100', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HOSO_0000124_uid', attDestinationIds: 'HOSO_0000124_uid', cardinality: '[1..*]', description: 'HOSO_0000124::HOSO_0000124{HOSO_0000124_uid::HOSO_0000124_uid} -> HOSO_0000124::HOSO_0000124{HOSO_0000124_uid::HOSO_0000124_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000124_RO_0002180_HOSO_0000100'})
+MATCH (range:Relvar {relId: 'HOSO_0000100'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000124_RO_0002180_HOSO_0000100', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HOSO_0000100_uid', attDestinationIds: 'HOSO_0000100_uid', cardinality: '[1..*]', description: 'HOSO_0000100::HOSO_0000100{HOSO_0000100_uid::HOSO_0000100_uid} -> HOSO_0000100::HOSO_0000100{HOSO_0000100_uid::HOSO_0000100_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000100_IAO_0000219_HOSO_0000011'})
+MATCH (domain:Relvar {relId: 'HOSO_0000100'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000100_IAO_0000219_HOSO_0000011', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000219', attOriginIds: 'HOSO_0000100_uid', attDestinationIds: 'HOSO_0000100_uid', cardinality: '[1..*]', description: 'HOSO_0000100::HOSO_0000100{HOSO_0000100_uid::HOSO_0000100_uid} -> HOSO_0000100::HOSO_0000100{HOSO_0000100_uid::HOSO_0000100_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000100_IAO_0000219_HOSO_0000011'})
+MATCH (range:Relvar {relId: 'HOSO_0000011'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000100_IAO_0000219_HOSO_0000011', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000219', attOriginIds: 'HOSO_0000011_uid', attDestinationIds: 'HOSO_0000011_uid', cardinality: '[1..*]', description: 'HOSO_0000011::HOSO_0000011{HOSO_0000011_uid::HOSO_0000011_uid} -> HOSO_0000011::HOSO_0000011{HOSO_0000011_uid::HOSO_0000011_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'IAO_0020010_OBI_0000299_IAO_0020000'})
+MATCH (domain:Relvar {relId: 'IAO_0020010'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_IAO_0020010_OBI_0000299_IAO_0020000', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OBI_0000299', attOriginIds: 'IAO_0020010_uid', attDestinationIds: 'IAO_0020010_uid', cardinality: '[1..*]', description: 'IAO_0020010::IAO_0020010{IAO_0020010_uid::IAO_0020010_uid} -> IAO_0020010::IAO_0020010{IAO_0020010_uid::IAO_0020010_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'IAO_0020010_OBI_0000299_IAO_0020000'})
+MATCH (range:Relvar {relId: 'IAO_0020000'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_IAO_0020010_OBI_0000299_IAO_0020000', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OBI_0000299', attOriginIds: 'IAO_0020000_uid', attDestinationIds: 'IAO_0020000_uid', cardinality: '[1..*]', description: 'IAO_0020000::IAO_0020000{IAO_0020000_uid::IAO_0020000_uid} -> IAO_0020000::IAO_0020000{IAO_0020000_uid::IAO_0020000_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000039_IAO_0000136_ONTORELA_Cdb7d47d'})
+MATCH (domain:Relvar {relId: 'HOSO_0000039'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000039_IAO_0000136_ONTORELA_Cdb7d47d', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'HOSO_0000039_uid', attDestinationIds: 'HOSO_0000039_uid', cardinality: '[1..*]', description: 'HOSO_0000039::HOSO_0000039{HOSO_0000039_uid::HOSO_0000039_uid} -> HOSO_0000039::HOSO_0000039{HOSO_0000039_uid::HOSO_0000039_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000039_IAO_0000136_ONTORELA_Cdb7d47d'})
+MATCH (range:Relvar {relId: 'ONTORELA_Cdb7d47d'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000039_IAO_0000136_ONTORELA_Cdb7d47d', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'ONTORELA_Cdb7d47d_uid', attDestinationIds: 'ONTORELA_Cdb7d47d_uid', cardinality: '[1..*]', description: 'ONTORELA_Cdb7d47d::ONTORELA_Cdb7d47d{ONTORELA_Cdb7d47d_uid::ONTORELA_Cdb7d47d_uid} -> ONTORELA_Cdb7d47d::ONTORELA_Cdb7d47d{ONTORELA_Cdb7d47d_uid::ONTORELA_Cdb7d47d_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000027_BFO_0000051_IAO_0000033'})
+MATCH (domain:Relvar {relId: 'OpenLHS-Core_0000027'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_OpenLHS-Core_0000027_BFO_0000051_IAO_0000033', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000051', attOriginIds: 'OpenLHS-Core_0000027_uid', attDestinationIds: 'OpenLHS-Core_0000027_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000027::OpenLHS-Core_0000027{OpenLHS-Core_0000027_uid::OpenLHS-Core_0000027_uid} -> OpenLHS-Core_0000027::OpenLHS-Core_0000027{OpenLHS-Core_0000027_uid::OpenLHS-Core_0000027_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000027_BFO_0000051_IAO_0000033'})
+MATCH (range:Relvar {relId: 'IAO_0000033'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_OpenLHS-Core_0000027_BFO_0000051_IAO_0000033', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000051', attOriginIds: 'IAO_0000033_uid', attDestinationIds: 'IAO_0000033_uid', cardinality: '[1..*]', description: 'IAO_0000033::IAO_0000033{IAO_0000033_uid::IAO_0000033_uid} -> IAO_0000033::IAO_0000033{IAO_0000033_uid::IAO_0000033_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000008_OBI_0000312_HEPRO_0000005'})
+MATCH (domain:Relvar {relId: 'HEPRO_0000008'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HEPRO_0000008_OBI_0000312_HEPRO_0000005', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OBI_0000312', attOriginIds: 'HEPRO_0000008_uid', attDestinationIds: 'HEPRO_0000008_uid', cardinality: '[1..*]', description: 'HEPRO_0000008::HEPRO_0000008{HEPRO_0000008_uid::HEPRO_0000008_uid} -> HEPRO_0000008::HEPRO_0000008{HEPRO_0000008_uid::HEPRO_0000008_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000008_OBI_0000312_HEPRO_0000005'})
+MATCH (range:Relvar {relId: 'HEPRO_0000005'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HEPRO_0000008_OBI_0000312_HEPRO_0000005', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OBI_0000312', attOriginIds: 'HEPRO_0000005_uid', attDestinationIds: 'HEPRO_0000005_uid', cardinality: '[1..*]', description: 'HEPRO_0000005::HEPRO_0000005{HEPRO_0000005_uid::HEPRO_0000005_uid} -> HEPRO_0000005::HEPRO_0000005{HEPRO_0000005_uid::HEPRO_0000005_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'IAO_0000033_OpenLHS-Core_0000007_BFO_0000015'})
+MATCH (domain:Relvar {relId: 'IAO_0000033'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_IAO_0000033_OpenLHS-Core_0000007_BFO_0000015', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000007', attOriginIds: 'IAO_0000033_uid', attDestinationIds: 'IAO_0000033_uid', cardinality: '[1..*]', description: 'IAO_0000033::IAO_0000033{IAO_0000033_uid::IAO_0000033_uid} -> IAO_0000033::IAO_0000033{IAO_0000033_uid::IAO_0000033_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'IAO_0000033_OpenLHS-Core_0000007_BFO_0000015'})
+MATCH (range:Relvar {relId: 'BFO_0000015'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_IAO_0000033_OpenLHS-Core_0000007_BFO_0000015', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000007', attOriginIds: 'BFO_0000015_uid', attDestinationIds: 'BFO_0000015_uid', cardinality: '[1..*]', description: 'BFO_0000015::BFO_0000015{BFO_0000015_uid::BFO_0000015_uid} -> BFO_0000015::BFO_0000015{BFO_0000015_uid::BFO_0000015_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'IAO_0000033_OpenLHS-Core_0000066_BFO_0000015'})
+MATCH (domain:Relvar {relId: 'IAO_0000033'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk3_IAO_0000033_OpenLHS-Core_0000066_BFO_0000015', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000007', attOriginIds: 'IAO_0000033_uid', attDestinationIds: 'IAO_0000033_uid', cardinality: '[1..*]', description: 'IAO_0000033::IAO_0000033{IAO_0000033_uid::IAO_0000033_uid} -> IAO_0000033::IAO_0000033{IAO_0000033_uid::IAO_0000033_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'IAO_0000033_OpenLHS-Core_0000066_BFO_0000015'})
+MATCH (range:Relvar {relId: 'BFO_0000015'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk4_IAO_0000033_OpenLHS-Core_0000066_BFO_0000015', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000007', attOriginIds: 'BFO_0000015_uid', attDestinationIds: 'BFO_0000015_uid', cardinality: '[1..*]', description: 'BFO_0000015::BFO_0000015{BFO_0000015_uid::BFO_0000015_uid} -> BFO_0000015::BFO_0000015{BFO_0000015_uid::BFO_0000015_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'IAO_0000033_IAO_0000136_BFO_0000017'})
+MATCH (domain:Relvar {relId: 'IAO_0000033'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_IAO_0000033_IAO_0000136_BFO_0000017', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'IAO_0000033_uid', attDestinationIds: 'IAO_0000033_uid', cardinality: '[1..*]', description: 'IAO_0000033::IAO_0000033{IAO_0000033_uid::IAO_0000033_uid} -> IAO_0000033::IAO_0000033{IAO_0000033_uid::IAO_0000033_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'IAO_0000033_IAO_0000136_BFO_0000017'})
+MATCH (range:Relvar {relId: 'BFO_0000017'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_IAO_0000033_IAO_0000136_BFO_0000017', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'BFO_0000017_uid', attDestinationIds: 'BFO_0000017_uid', cardinality: '[1..*]', description: 'BFO_0000017::BFO_0000017{BFO_0000017_uid::BFO_0000017_uid} -> BFO_0000017::BFO_0000017{BFO_0000017_uid::BFO_0000017_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'OMRSE_00000062_RO_0000053_BFO_0000034'})
+MATCH (domain:Relvar {relId: 'OMRSE_00000062'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_OMRSE_00000062_RO_0000053_BFO_0000034', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0000053', attOriginIds: 'OMRSE_00000062_uid', attDestinationIds: 'OMRSE_00000062_uid', cardinality: '[1..*]', description: 'OMRSE_00000062::OMRSE_00000062{OMRSE_00000062_uid::OMRSE_00000062_uid} -> OMRSE_00000062::OMRSE_00000062{OMRSE_00000062_uid::OMRSE_00000062_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'OMRSE_00000062_RO_0000053_BFO_0000034'})
+MATCH (range:Relvar {relId: 'BFO_0000034'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_OMRSE_00000062_RO_0000053_BFO_0000034', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0000053', attOriginIds: 'BFO_0000034_uid', attDestinationIds: 'BFO_0000034_uid', cardinality: '[1..*]', description: 'BFO_0000034::BFO_0000034{BFO_0000034_uid::BFO_0000034_uid} -> BFO_0000034::BFO_0000034{BFO_0000034_uid::BFO_0000034_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'OMRSE_00000062_OMRSE_00000068_OBI_0000245'})
+MATCH (domain:Relvar {relId: 'OMRSE_00000062'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_OMRSE_00000062_OMRSE_00000068_OBI_0000245', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OMRSE_00000068', attOriginIds: 'OMRSE_00000062_uid', attDestinationIds: 'OMRSE_00000062_uid', cardinality: '[1..*]', description: 'OMRSE_00000062::OMRSE_00000062{OMRSE_00000062_uid::OMRSE_00000062_uid} -> OMRSE_00000062::OMRSE_00000062{OMRSE_00000062_uid::OMRSE_00000062_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'OMRSE_00000062_OMRSE_00000068_OBI_0000245'})
+MATCH (range:Relvar {relId: 'OBI_0000245'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_OMRSE_00000062_OMRSE_00000068_OBI_0000245', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OMRSE_00000068', attOriginIds: 'OBI_0000245_uid', attDestinationIds: 'OBI_0000245_uid', cardinality: '[1..*]', description: 'OBI_0000245::OBI_0000245{OBI_0000245_uid::OBI_0000245_uid} -> OBI_0000245::OBI_0000245{OBI_0000245_uid::OBI_0000245_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000082_BFO_0000054_HOSO_0000012'})
+MATCH (domain:Relvar {relId: 'HOSO_0000082'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000082_BFO_0000054_HOSO_0000012', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000054', attOriginIds: 'HOSO_0000082_uid', attDestinationIds: 'HOSO_0000082_uid', cardinality: '[1..*]', description: 'HOSO_0000082::HOSO_0000082{HOSO_0000082_uid::HOSO_0000082_uid} -> HOSO_0000082::HOSO_0000082{HOSO_0000082_uid::HOSO_0000082_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000082_BFO_0000054_HOSO_0000012'})
+MATCH (range:Relvar {relId: 'HOSO_0000012'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000082_BFO_0000054_HOSO_0000012', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000054', attOriginIds: 'HOSO_0000012_uid', attDestinationIds: 'HOSO_0000012_uid', cardinality: '[1..*]', description: 'HOSO_0000012::HOSO_0000012{HOSO_0000012_uid::HOSO_0000012_uid} -> HOSO_0000012::HOSO_0000012{HOSO_0000012_uid::HOSO_0000012_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000070_RO_0002087_HOSO_0000071'})
+MATCH (domain:Relvar {relId: 'HOSO_0000070'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000070_RO_0002087_HOSO_0000071', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002087', attOriginIds: 'HOSO_0000070_uid', attDestinationIds: 'HOSO_0000070_uid', cardinality: '[1..*]', description: 'HOSO_0000070::HOSO_0000070{HOSO_0000070_uid::HOSO_0000070_uid} -> HOSO_0000070::HOSO_0000070{HOSO_0000070_uid::HOSO_0000070_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000070_RO_0002087_HOSO_0000071'})
+MATCH (range:Relvar {relId: 'HOSO_0000071'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000070_RO_0002087_HOSO_0000071', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002087', attOriginIds: 'HOSO_0000071_uid', attDestinationIds: 'HOSO_0000071_uid', cardinality: '[1..*]', description: 'HOSO_0000071::HOSO_0000071{HOSO_0000071_uid::HOSO_0000071_uid} -> HOSO_0000071::HOSO_0000071{HOSO_0000071_uid::HOSO_0000071_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000020_OpenLHS-Core_0000070_MPHPO_0000016'})
+MATCH (domain:Relvar {relId: 'MPHPO_0000020'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_MPHPO_0000020_OpenLHS-Core_0000070_MPHPO_0000016', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000070', attOriginIds: 'MPHPO_0000020_uid', attDestinationIds: 'MPHPO_0000020_uid', cardinality: '[1..*]', description: 'MPHPO_0000020::MPHPO_0000020{MPHPO_0000020_uid::MPHPO_0000020_uid} -> MPHPO_0000020::MPHPO_0000020{MPHPO_0000020_uid::MPHPO_0000020_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000020_OpenLHS-Core_0000070_MPHPO_0000016'})
+MATCH (range:Relvar {relId: 'MPHPO_0000016'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_MPHPO_0000020_OpenLHS-Core_0000070_MPHPO_0000016', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000070', attOriginIds: 'MPHPO_0000016_uid', attDestinationIds: 'MPHPO_0000016_uid', cardinality: '[1..*]', description: 'MPHPO_0000016::MPHPO_0000016{MPHPO_0000016_uid::MPHPO_0000016_uid} -> MPHPO_0000016::MPHPO_0000016{MPHPO_0000016_uid::MPHPO_0000016_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000128_RO_0002180_HEPRO_0000130'})
+MATCH (domain:Relvar {relId: 'HEPRO_0000128'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HEPRO_0000128_RO_0002180_HEPRO_0000130', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HEPRO_0000128_uid', attDestinationIds: 'HEPRO_0000128_uid', cardinality: '[1..*]', description: 'HEPRO_0000128::HEPRO_0000128{HEPRO_0000128_uid::HEPRO_0000128_uid} -> HEPRO_0000128::HEPRO_0000128{HEPRO_0000128_uid::HEPRO_0000128_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000128_RO_0002180_HEPRO_0000130'})
+MATCH (range:Relvar {relId: 'HEPRO_0000130'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HEPRO_0000128_RO_0002180_HEPRO_0000130', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HEPRO_0000130_uid', attDestinationIds: 'HEPRO_0000130_uid', cardinality: '[1..*]', description: 'HEPRO_0000130::HEPRO_0000130{HEPRO_0000130_uid::HEPRO_0000130_uid} -> HEPRO_0000130::HEPRO_0000130{HEPRO_0000130_uid::HEPRO_0000130_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000007_OBI_0000312_HEPRO_0000006'})
+MATCH (domain:Relvar {relId: 'HEPRO_0000007'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HEPRO_0000007_OBI_0000312_HEPRO_0000006', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OBI_0000312', attOriginIds: 'HEPRO_0000007_uid', attDestinationIds: 'HEPRO_0000007_uid', cardinality: '[1..*]', description: 'HEPRO_0000007::HEPRO_0000007{HEPRO_0000007_uid::HEPRO_0000007_uid} -> HEPRO_0000007::HEPRO_0000007{HEPRO_0000007_uid::HEPRO_0000007_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000007_OBI_0000312_HEPRO_0000006'})
+MATCH (range:Relvar {relId: 'HEPRO_0000006'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HEPRO_0000007_OBI_0000312_HEPRO_0000006', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OBI_0000312', attOriginIds: 'HEPRO_0000006_uid', attDestinationIds: 'HEPRO_0000006_uid', cardinality: '[1..*]', description: 'HEPRO_0000006::HEPRO_0000006{HEPRO_0000006_uid::HEPRO_0000006_uid} -> HEPRO_0000006::HEPRO_0000006{HEPRO_0000006_uid::HEPRO_0000006_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000026_RO_0002180_OpenLHS-Core_0000023'})
+MATCH (domain:Relvar {relId: 'OpenLHS-Core_0000026'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_OpenLHS-Core_0000026_RO_0002180_OpenLHS-Core_0000023', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'OpenLHS-Core_0000026_uid', attDestinationIds: 'OpenLHS-Core_0000026_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000026::OpenLHS-Core_0000026{OpenLHS-Core_0000026_uid::OpenLHS-Core_0000026_uid} -> OpenLHS-Core_0000026::OpenLHS-Core_0000026{OpenLHS-Core_0000026_uid::OpenLHS-Core_0000026_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000026_RO_0002180_OpenLHS-Core_0000023'})
+MATCH (range:Relvar {relId: 'OpenLHS-Core_0000023'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_OpenLHS-Core_0000026_RO_0002180_OpenLHS-Core_0000023', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'OpenLHS-Core_0000023_uid', attDestinationIds: 'OpenLHS-Core_0000023_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000023::OpenLHS-Core_0000023{OpenLHS-Core_0000023_uid::OpenLHS-Core_0000023_uid} -> OpenLHS-Core_0000023::OpenLHS-Core_0000023{OpenLHS-Core_0000023_uid::OpenLHS-Core_0000023_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'ONTORELA_C5c900f41_IAO_0000136_HOSO_0000137'})
+MATCH (domain:Relvar {relId: 'ONTORELA_C5c900f41'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_ONTORELA_C5c900f41_IAO_0000136_HOSO_0000137', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'ONTORELA_C5c900f41_uid', attDestinationIds: 'ONTORELA_C5c900f41_uid', cardinality: '[1..1]', description: 'ONTORELA_C5c900f41::ONTORELA_C5c900f41{ONTORELA_C5c900f41_uid::ONTORELA_C5c900f41_uid} -> ONTORELA_C5c900f41::ONTORELA_C5c900f41{ONTORELA_C5c900f41_uid::ONTORELA_C5c900f41_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'ONTORELA_C5c900f41_IAO_0000136_HOSO_0000137'})
+MATCH (range:Relvar {relId: 'HOSO_0000137'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_ONTORELA_C5c900f41_IAO_0000136_HOSO_0000137', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'HOSO_0000137_uid', attDestinationIds: 'HOSO_0000137_uid', cardinality: '[1..1]', description: 'HOSO_0000137::HOSO_0000137{HOSO_0000137_uid::HOSO_0000137_uid} -> HOSO_0000137::HOSO_0000137{HOSO_0000137_uid::HOSO_0000137_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000025_BFO_0000050_IAO_0000422'})
+MATCH (domain:Relvar {relId: 'OpenLHS-Core_0000025'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_OpenLHS-Core_0000025_BFO_0000050_IAO_0000422', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000050', attOriginIds: 'OpenLHS-Core_0000025_uid', attDestinationIds: 'OpenLHS-Core_0000025_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000025::OpenLHS-Core_0000025{OpenLHS-Core_0000025_uid::OpenLHS-Core_0000025_uid} -> OpenLHS-Core_0000025::OpenLHS-Core_0000025{OpenLHS-Core_0000025_uid::OpenLHS-Core_0000025_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000025_BFO_0000050_IAO_0000422'})
+MATCH (range:Relvar {relId: 'IAO_0000422'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_OpenLHS-Core_0000025_BFO_0000050_IAO_0000422', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000050', attOriginIds: 'IAO_0000422_uid', attDestinationIds: 'IAO_0000422_uid', cardinality: '[1..*]', description: 'IAO_0000422::IAO_0000422{IAO_0000422_uid::IAO_0000422_uid} -> IAO_0000422::IAO_0000422{IAO_0000422_uid::IAO_0000422_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000013_OpenLHS-Core_0000001_OpenLHS-Core_0000012'})
+MATCH (domain:Relvar {relId: 'OpenLHS-Core_0000013'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_OpenLHS-Core_0000013_OpenLHS-Core_0000001_OpenLHS-Core_0000012', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000001', attOriginIds: 'OpenLHS-Core_0000013_uid', attDestinationIds: 'OpenLHS-Core_0000013_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000013::OpenLHS-Core_0000013{OpenLHS-Core_0000013_uid::OpenLHS-Core_0000013_uid} -> OpenLHS-Core_0000013::OpenLHS-Core_0000013{OpenLHS-Core_0000013_uid::OpenLHS-Core_0000013_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000013_OpenLHS-Core_0000001_OpenLHS-Core_0000012'})
+MATCH (range:Relvar {relId: 'OpenLHS-Core_0000012'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_OpenLHS-Core_0000013_OpenLHS-Core_0000001_OpenLHS-Core_0000012', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000001', attOriginIds: 'OpenLHS-Core_0000012_uid', attDestinationIds: 'OpenLHS-Core_0000012_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000012::OpenLHS-Core_0000012{OpenLHS-Core_0000012_uid::OpenLHS-Core_0000012_uid} -> OpenLHS-Core_0000012::OpenLHS-Core_0000012{OpenLHS-Core_0000012_uid::OpenLHS-Core_0000012_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000085_OpenLHS-Core_0000004_HOSO_0000073'})
+MATCH (domain:Relvar {relId: 'HOSO_0000085'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000085_OpenLHS-Core_0000004_HOSO_0000073', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000004', attOriginIds: 'HOSO_0000085_uid', attDestinationIds: 'HOSO_0000085_uid', cardinality: '[1..*]', description: 'HOSO_0000085::HOSO_0000085{HOSO_0000085_uid::HOSO_0000085_uid} -> HOSO_0000085::HOSO_0000085{HOSO_0000085_uid::HOSO_0000085_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000085_OpenLHS-Core_0000004_HOSO_0000073'})
+MATCH (range:Relvar {relId: 'HOSO_0000073'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000085_OpenLHS-Core_0000004_HOSO_0000073', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000004', attOriginIds: 'HOSO_0000073_uid', attDestinationIds: 'HOSO_0000073_uid', cardinality: '[1..*]', description: 'HOSO_0000073::HOSO_0000073{HOSO_0000073_uid::HOSO_0000073_uid} -> HOSO_0000073::HOSO_0000073{HOSO_0000073_uid::HOSO_0000073_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000021_OpenLHS-Core_0000070_MPHPO_0000016'})
+MATCH (domain:Relvar {relId: 'MPHPO_0000021'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_MPHPO_0000021_OpenLHS-Core_0000070_MPHPO_0000016', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000070', attOriginIds: 'MPHPO_0000021_uid', attDestinationIds: 'MPHPO_0000021_uid', cardinality: '[1..*]', description: 'MPHPO_0000021::MPHPO_0000021{MPHPO_0000021_uid::MPHPO_0000021_uid} -> MPHPO_0000021::MPHPO_0000021{MPHPO_0000021_uid::MPHPO_0000021_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000021_OpenLHS-Core_0000070_MPHPO_0000016'})
+MATCH (range:Relvar {relId: 'MPHPO_0000016'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_MPHPO_0000021_OpenLHS-Core_0000070_MPHPO_0000016', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000070', attOriginIds: 'MPHPO_0000016_uid', attDestinationIds: 'MPHPO_0000016_uid', cardinality: '[1..*]', description: 'MPHPO_0000016::MPHPO_0000016{MPHPO_0000016_uid::MPHPO_0000016_uid} -> MPHPO_0000016::MPHPO_0000016{MPHPO_0000016_uid::MPHPO_0000016_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000102_OpenLHS-Core_0000070_HOSO_0000055'})
+MATCH (domain:Relvar {relId: 'HOSO_0000102'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000102_OpenLHS-Core_0000070_HOSO_0000055', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000070', attOriginIds: 'HOSO_0000102_uid', attDestinationIds: 'HOSO_0000102_uid', cardinality: '[1..*]', description: 'HOSO_0000102::HOSO_0000102{HOSO_0000102_uid::HOSO_0000102_uid} -> HOSO_0000102::HOSO_0000102{HOSO_0000102_uid::HOSO_0000102_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000102_OpenLHS-Core_0000070_HOSO_0000055'})
+MATCH (range:Relvar {relId: 'HOSO_0000055'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000102_OpenLHS-Core_0000070_HOSO_0000055', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000070', attOriginIds: 'HOSO_0000055_uid', attDestinationIds: 'HOSO_0000055_uid', cardinality: '[1..*]', description: 'HOSO_0000055::HOSO_0000055{HOSO_0000055_uid::HOSO_0000055_uid} -> HOSO_0000055::HOSO_0000055{HOSO_0000055_uid::HOSO_0000055_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'IAO_0020000_IAO_0000219_BFO_0000001'})
+MATCH (domain:Relvar {relId: 'IAO_0020000'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_IAO_0020000_IAO_0000219_BFO_0000001', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000219', attOriginIds: 'IAO_0020000_uid', attDestinationIds: 'IAO_0020000_uid', cardinality: '[1..*]', description: 'IAO_0020000::IAO_0020000{IAO_0020000_uid::IAO_0020000_uid} -> IAO_0020000::IAO_0020000{IAO_0020000_uid::IAO_0020000_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'IAO_0020000_IAO_0000219_BFO_0000001'})
+MATCH (range:Relvar {relId: 'BFO_0000001'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_IAO_0020000_IAO_0000219_BFO_0000001', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000219', attOriginIds: 'BFO_0000001_uid', attDestinationIds: 'BFO_0000001_uid', cardinality: '[1..*]', description: 'BFO_0000001::BFO_0000001{BFO_0000001_uid::BFO_0000001_uid} -> BFO_0000001::BFO_0000001{BFO_0000001_uid::BFO_0000001_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'IAO_0020000_OBI_0000312_IAO_0020010'})
+MATCH (domain:Relvar {relId: 'IAO_0020000'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_IAO_0020000_OBI_0000312_IAO_0020010', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OBI_0000312', attOriginIds: 'IAO_0020000_uid', attDestinationIds: 'IAO_0020000_uid', cardinality: '[1..*]', description: 'IAO_0020000::IAO_0020000{IAO_0020000_uid::IAO_0020000_uid} -> IAO_0020000::IAO_0020000{IAO_0020000_uid::IAO_0020000_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'IAO_0020000_OBI_0000312_IAO_0020010'})
+MATCH (range:Relvar {relId: 'IAO_0020010'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_IAO_0020000_OBI_0000312_IAO_0020010', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OBI_0000312', attOriginIds: 'IAO_0020010_uid', attDestinationIds: 'IAO_0020010_uid', cardinality: '[1..*]', description: 'IAO_0020010::IAO_0020010{IAO_0020010_uid::IAO_0020010_uid} -> IAO_0020010::IAO_0020010{IAO_0020010_uid::IAO_0020010_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'IOIO_0000006_OpenLHS-Core_0000070_IOIO_0000003'})
+MATCH (domain:Relvar {relId: 'IOIO_0000006'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_IOIO_0000006_OpenLHS-Core_0000070_IOIO_0000003', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000070', attOriginIds: 'IOIO_0000006_uid', attDestinationIds: 'IOIO_0000006_uid', cardinality: '[1..*]', description: 'IOIO_0000006::IOIO_0000006{IOIO_0000006_uid::IOIO_0000006_uid} -> IOIO_0000006::IOIO_0000006{IOIO_0000006_uid::IOIO_0000006_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'IOIO_0000006_OpenLHS-Core_0000070_IOIO_0000003'})
+MATCH (range:Relvar {relId: 'IOIO_0000003'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_IOIO_0000006_OpenLHS-Core_0000070_IOIO_0000003', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000070', attOriginIds: 'IOIO_0000003_uid', attDestinationIds: 'IOIO_0000003_uid', cardinality: '[1..*]', description: 'IOIO_0000003::IOIO_0000003{IOIO_0000003_uid::IOIO_0000003_uid} -> IOIO_0000003::IOIO_0000003{IOIO_0000003_uid::IOIO_0000003_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000017_RO_0002018_HOSO_0000012'})
+MATCH (domain:Relvar {relId: 'HOSO_0000017'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000017_RO_0002018_HOSO_0000012', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002018', attOriginIds: 'HOSO_0000017_uid', attDestinationIds: 'HOSO_0000017_uid', cardinality: '[1..*]', description: 'HOSO_0000017::HOSO_0000017{HOSO_0000017_uid::HOSO_0000017_uid} -> HOSO_0000017::HOSO_0000017{HOSO_0000017_uid::HOSO_0000017_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000017_RO_0002018_HOSO_0000012'})
+MATCH (range:Relvar {relId: 'HOSO_0000012'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000017_RO_0002018_HOSO_0000012', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002018', attOriginIds: 'HOSO_0000012_uid', attDestinationIds: 'HOSO_0000012_uid', cardinality: '[1..*]', description: 'HOSO_0000012::HOSO_0000012{HOSO_0000012_uid::HOSO_0000012_uid} -> HOSO_0000012::HOSO_0000012{HOSO_0000012_uid::HOSO_0000012_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000138_IAO_0000219_HOSO_0000009'})
+MATCH (domain:Relvar {relId: 'HOSO_0000138'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000138_IAO_0000219_HOSO_0000009', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000219', attOriginIds: 'HOSO_0000138_uid', attDestinationIds: 'HOSO_0000138_uid', cardinality: '[1..*]', description: 'HOSO_0000138::HOSO_0000138{HOSO_0000138_uid::HOSO_0000138_uid} -> HOSO_0000138::HOSO_0000138{HOSO_0000138_uid::HOSO_0000138_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000138_IAO_0000219_HOSO_0000009'})
+MATCH (range:Relvar {relId: 'HOSO_0000009'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000138_IAO_0000219_HOSO_0000009', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000219', attOriginIds: 'HOSO_0000009_uid', attDestinationIds: 'HOSO_0000009_uid', cardinality: '[1..*]', description: 'HOSO_0000009::HOSO_0000009{HOSO_0000009_uid::HOSO_0000009_uid} -> HOSO_0000009::HOSO_0000009{HOSO_0000009_uid::HOSO_0000009_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'ONTORELA_Cdb7d47d_RO_0002090_HOSO_0000038'})
+MATCH (domain:Relvar {relId: 'ONTORELA_Cdb7d47d'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_ONTORELA_Cdb7d47d_RO_0002090_HOSO_0000038', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002090', attOriginIds: 'ONTORELA_Cdb7d47d_uid', attDestinationIds: 'ONTORELA_Cdb7d47d_uid', cardinality: '[1..*]', description: 'ONTORELA_Cdb7d47d::ONTORELA_Cdb7d47d{ONTORELA_Cdb7d47d_uid::ONTORELA_Cdb7d47d_uid} -> ONTORELA_Cdb7d47d::ONTORELA_Cdb7d47d{ONTORELA_Cdb7d47d_uid::ONTORELA_Cdb7d47d_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'ONTORELA_Cdb7d47d_RO_0002090_HOSO_0000038'})
+MATCH (range:Relvar {relId: 'HOSO_0000038'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_ONTORELA_Cdb7d47d_RO_0002090_HOSO_0000038', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002090', attOriginIds: 'HOSO_0000038_uid', attDestinationIds: 'HOSO_0000038_uid', cardinality: '[1..*]', description: 'HOSO_0000038::HOSO_0000038{HOSO_0000038_uid::HOSO_0000038_uid} -> HOSO_0000038::HOSO_0000038{HOSO_0000038_uid::HOSO_0000038_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'BFO_0000001_IAO_0000235_IAO_0000030'})
+MATCH (domain:Relvar {relId: 'BFO_0000001'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_BFO_0000001_IAO_0000235_IAO_0000030', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000235', attOriginIds: 'BFO_0000001_uid', attDestinationIds: 'BFO_0000001_uid', cardinality: '[1..*]', description: 'BFO_0000001::BFO_0000001{BFO_0000001_uid::BFO_0000001_uid} -> BFO_0000001::BFO_0000001{BFO_0000001_uid::BFO_0000001_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'BFO_0000001_IAO_0000235_IAO_0000030'})
+MATCH (range:Relvar {relId: 'IAO_0000030'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_BFO_0000001_IAO_0000235_IAO_0000030', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000235', attOriginIds: 'IAO_0000030_uid', attDestinationIds: 'IAO_0000030_uid', cardinality: '[1..*]', description: 'IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000006_OBI_0000293_HEPRO_0000008'})
+MATCH (domain:Relvar {relId: 'HEPRO_0000006'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HEPRO_0000006_OBI_0000293_HEPRO_0000008', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OBI_0000293', attOriginIds: 'HEPRO_0000006_uid', attDestinationIds: 'HEPRO_0000006_uid', cardinality: '[1..*]', description: 'HEPRO_0000006::HEPRO_0000006{HEPRO_0000006_uid::HEPRO_0000006_uid} -> HEPRO_0000006::HEPRO_0000006{HEPRO_0000006_uid::HEPRO_0000006_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000006_OBI_0000293_HEPRO_0000008'})
+MATCH (range:Relvar {relId: 'HEPRO_0000008'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HEPRO_0000006_OBI_0000293_HEPRO_0000008', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OBI_0000293', attOriginIds: 'HEPRO_0000008_uid', attDestinationIds: 'HEPRO_0000008_uid', cardinality: '[1..*]', description: 'HEPRO_0000008::HEPRO_0000008{HEPRO_0000008_uid::HEPRO_0000008_uid} -> HEPRO_0000008::HEPRO_0000008{HEPRO_0000008_uid::HEPRO_0000008_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000127_RO_0002180_HEPRO_0000129'})
+MATCH (domain:Relvar {relId: 'HEPRO_0000127'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HEPRO_0000127_RO_0002180_HEPRO_0000129', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HEPRO_0000127_uid', attDestinationIds: 'HEPRO_0000127_uid', cardinality: '[1..*]', description: 'HEPRO_0000127::HEPRO_0000127{HEPRO_0000127_uid::HEPRO_0000127_uid} -> HEPRO_0000127::HEPRO_0000127{HEPRO_0000127_uid::HEPRO_0000127_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000127_RO_0002180_HEPRO_0000129'})
+MATCH (range:Relvar {relId: 'HEPRO_0000129'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HEPRO_0000127_RO_0002180_HEPRO_0000129', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HEPRO_0000129_uid', attDestinationIds: 'HEPRO_0000129_uid', cardinality: '[1..*]', description: 'HEPRO_0000129::HEPRO_0000129{HEPRO_0000129_uid::HEPRO_0000129_uid} -> HEPRO_0000129::HEPRO_0000129{HEPRO_0000129_uid::HEPRO_0000129_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000036_OpenLHS-Core_0000067_OpenLHS-Core_0000028'})
+MATCH (domain:Relvar {relId: 'OpenLHS-Core_0000036'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_OpenLHS-Core_0000036_OpenLHS-Core_0000067_OpenLHS-Core_0000028', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000067', attOriginIds: 'OpenLHS-Core_0000036_uid', attDestinationIds: 'OpenLHS-Core_0000036_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000036::OpenLHS-Core_0000036{OpenLHS-Core_0000036_uid::OpenLHS-Core_0000036_uid} -> OpenLHS-Core_0000036::OpenLHS-Core_0000036{OpenLHS-Core_0000036_uid::OpenLHS-Core_0000036_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000036_OpenLHS-Core_0000067_OpenLHS-Core_0000028'})
+MATCH (range:Relvar {relId: 'OpenLHS-Core_0000028'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_OpenLHS-Core_0000036_OpenLHS-Core_0000067_OpenLHS-Core_0000028', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000067', attOriginIds: 'OpenLHS-Core_0000028_uid', attDestinationIds: 'OpenLHS-Core_0000028_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000028::OpenLHS-Core_0000028{OpenLHS-Core_0000028_uid::OpenLHS-Core_0000028_uid} -> OpenLHS-Core_0000028::OpenLHS-Core_0000028{OpenLHS-Core_0000028_uid::OpenLHS-Core_0000028_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000024_BFO_0000050_IAO_0000422'})
+MATCH (domain:Relvar {relId: 'OpenLHS-Core_0000024'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_OpenLHS-Core_0000024_BFO_0000050_IAO_0000422', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000050', attOriginIds: 'OpenLHS-Core_0000024_uid', attDestinationIds: 'OpenLHS-Core_0000024_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000024::OpenLHS-Core_0000024{OpenLHS-Core_0000024_uid::OpenLHS-Core_0000024_uid} -> OpenLHS-Core_0000024::OpenLHS-Core_0000024{OpenLHS-Core_0000024_uid::OpenLHS-Core_0000024_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000024_BFO_0000050_IAO_0000422'})
+MATCH (range:Relvar {relId: 'IAO_0000422'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_OpenLHS-Core_0000024_BFO_0000050_IAO_0000422', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000050', attOriginIds: 'IAO_0000422_uid', attDestinationIds: 'IAO_0000422_uid', cardinality: '[1..*]', description: 'IAO_0000422::IAO_0000422{IAO_0000422_uid::IAO_0000422_uid} -> IAO_0000422::IAO_0000422{IAO_0000422_uid::IAO_0000422_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000012_OpenLHS-Core_0000008_OpenLHS-Core_0000013'})
+MATCH (domain:Relvar {relId: 'OpenLHS-Core_0000012'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_OpenLHS-Core_0000012_OpenLHS-Core_0000008_OpenLHS-Core_0000013', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000008', attOriginIds: 'OpenLHS-Core_0000012_uid', attDestinationIds: 'OpenLHS-Core_0000012_uid', cardinality: '[1..1]', description: 'OpenLHS-Core_0000012::OpenLHS-Core_0000012{OpenLHS-Core_0000012_uid::OpenLHS-Core_0000012_uid} -> OpenLHS-Core_0000012::OpenLHS-Core_0000012{OpenLHS-Core_0000012_uid::OpenLHS-Core_0000012_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000012_OpenLHS-Core_0000008_OpenLHS-Core_0000013'})
+MATCH (range:Relvar {relId: 'OpenLHS-Core_0000013'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_OpenLHS-Core_0000012_OpenLHS-Core_0000008_OpenLHS-Core_0000013', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000008', attOriginIds: 'OpenLHS-Core_0000013_uid', attDestinationIds: 'OpenLHS-Core_0000013_uid', cardinality: '[1..1]', description: 'OpenLHS-Core_0000013::OpenLHS-Core_0000013{OpenLHS-Core_0000013_uid::OpenLHS-Core_0000013_uid} -> OpenLHS-Core_0000013::OpenLHS-Core_0000013{OpenLHS-Core_0000013_uid::OpenLHS-Core_0000013_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000072_RO_0002087_HOSO_0000043'})
+MATCH (domain:Relvar {relId: 'HOSO_0000072'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000072_RO_0002087_HOSO_0000043', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002087', attOriginIds: 'HOSO_0000072_uid', attDestinationIds: 'HOSO_0000072_uid', cardinality: '[1..*]', description: 'HOSO_0000072::HOSO_0000072{HOSO_0000072_uid::HOSO_0000072_uid} -> HOSO_0000072::HOSO_0000072{HOSO_0000072_uid::HOSO_0000072_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000072_RO_0002087_HOSO_0000043'})
+MATCH (range:Relvar {relId: 'HOSO_0000043'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000072_RO_0002087_HOSO_0000043', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002087', attOriginIds: 'HOSO_0000043_uid', attDestinationIds: 'HOSO_0000043_uid', cardinality: '[1..*]', description: 'HOSO_0000043::HOSO_0000043{HOSO_0000043_uid::HOSO_0000043_uid} -> HOSO_0000043::HOSO_0000043{HOSO_0000043_uid::HOSO_0000043_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000060_IAO_0000136_HOSO_0000062'})
+MATCH (domain:Relvar {relId: 'HOSO_0000060'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000060_IAO_0000136_HOSO_0000062', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'HOSO_0000060_uid', attDestinationIds: 'HOSO_0000060_uid', cardinality: '[1..*]', description: 'HOSO_0000060::HOSO_0000060{HOSO_0000060_uid::HOSO_0000060_uid} -> HOSO_0000060::HOSO_0000060{HOSO_0000060_uid::HOSO_0000060_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000060_IAO_0000136_HOSO_0000062'})
+MATCH (range:Relvar {relId: 'HOSO_0000062'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000060_IAO_0000136_HOSO_0000062', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'HOSO_0000062_uid', attDestinationIds: 'HOSO_0000062_uid', cardinality: '[1..*]', description: 'HOSO_0000062::HOSO_0000062{HOSO_0000062_uid::HOSO_0000062_uid} -> HOSO_0000062::HOSO_0000062{HOSO_0000062_uid::HOSO_0000062_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000084_IAO_0000219_HOSO_0000079'})
+MATCH (domain:Relvar {relId: 'HOSO_0000084'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000084_IAO_0000219_HOSO_0000079', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000219', attOriginIds: 'HOSO_0000084_uid', attDestinationIds: 'HOSO_0000084_uid', cardinality: '[1..*]', description: 'HOSO_0000084::HOSO_0000084{HOSO_0000084_uid::HOSO_0000084_uid} -> HOSO_0000084::HOSO_0000084{HOSO_0000084_uid::HOSO_0000084_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000084_IAO_0000219_HOSO_0000079'})
+MATCH (range:Relvar {relId: 'HOSO_0000079'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000084_IAO_0000219_HOSO_0000079', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000219', attOriginIds: 'HOSO_0000079_uid', attDestinationIds: 'HOSO_0000079_uid', cardinality: '[1..*]', description: 'HOSO_0000079::HOSO_0000079{HOSO_0000079_uid::HOSO_0000079_uid} -> HOSO_0000079::HOSO_0000079{HOSO_0000079_uid::HOSO_0000079_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000028_BFO_0000051_HOSO_0000014'})
+MATCH (domain:Relvar {relId: 'HOSO_0000028'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000028_BFO_0000051_HOSO_0000014', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000051', attOriginIds: 'HOSO_0000028_uid', attDestinationIds: 'HOSO_0000028_uid', cardinality: '[1..*]', description: 'HOSO_0000028::HOSO_0000028{HOSO_0000028_uid::HOSO_0000028_uid} -> HOSO_0000028::HOSO_0000028{HOSO_0000028_uid::HOSO_0000028_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000028_BFO_0000051_HOSO_0000014'})
+MATCH (range:Relvar {relId: 'HOSO_0000014'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000028_BFO_0000051_HOSO_0000014', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000051', attOriginIds: 'HOSO_0000014_uid', attDestinationIds: 'HOSO_0000014_uid', cardinality: '[1..*]', description: 'HOSO_0000014::HOSO_0000014{HOSO_0000014_uid::HOSO_0000014_uid} -> HOSO_0000014::HOSO_0000014{HOSO_0000014_uid::HOSO_0000014_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000137_IAO_0000235_HOSO_0000003'})
+MATCH (domain:Relvar {relId: 'HOSO_0000137'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000137_IAO_0000235_HOSO_0000003', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000235', attOriginIds: 'HOSO_0000137_uid', attDestinationIds: 'HOSO_0000137_uid', cardinality: '[1..*]', description: 'HOSO_0000137::HOSO_0000137{HOSO_0000137_uid::HOSO_0000137_uid} -> HOSO_0000137::HOSO_0000137{HOSO_0000137_uid::HOSO_0000137_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000137_IAO_0000235_HOSO_0000003'})
+MATCH (range:Relvar {relId: 'HOSO_0000003'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000137_IAO_0000235_HOSO_0000003', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000235', attOriginIds: 'HOSO_0000003_uid', attDestinationIds: 'HOSO_0000003_uid', cardinality: '[1..*]', description: 'HOSO_0000003::HOSO_0000003{HOSO_0000003_uid::HOSO_0000003_uid} -> HOSO_0000003::HOSO_0000003{HOSO_0000003_uid::HOSO_0000003_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000137_HOSO_0000087_HOSO_0000012'})
+MATCH (domain:Relvar {relId: 'HOSO_0000137'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000137_HOSO_0000087_HOSO_0000012', fkType: 'OBJECTPROPERTY', propertyShortIri: 'HOSO_0000087', attOriginIds: 'HOSO_0000137_uid', attDestinationIds: 'HOSO_0000137_uid', cardinality: '[1..*]', description: 'HOSO_0000137::HOSO_0000137{HOSO_0000137_uid::HOSO_0000137_uid} -> HOSO_0000137::HOSO_0000137{HOSO_0000137_uid::HOSO_0000137_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000137_HOSO_0000087_HOSO_0000012'})
+MATCH (range:Relvar {relId: 'HOSO_0000012'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000137_HOSO_0000087_HOSO_0000012', fkType: 'OBJECTPROPERTY', propertyShortIri: 'HOSO_0000087', attOriginIds: 'HOSO_0000012_uid', attDestinationIds: 'HOSO_0000012_uid', cardinality: '[1..*]', description: 'HOSO_0000012::HOSO_0000012{HOSO_0000012_uid::HOSO_0000012_uid} -> HOSO_0000012::HOSO_0000012{HOSO_0000012_uid::HOSO_0000012_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000017_IAO_0000136_OpenLHS-Core_0000060'})
+MATCH (domain:Relvar {relId: 'HEPRO_0000017'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HEPRO_0000017_IAO_0000136_OpenLHS-Core_0000060', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'HEPRO_0000017_uid', attDestinationIds: 'HEPRO_0000017_uid', cardinality: '[1..*]', description: 'HEPRO_0000017::HEPRO_0000017{HEPRO_0000017_uid::HEPRO_0000017_uid} -> HEPRO_0000017::HEPRO_0000017{HEPRO_0000017_uid::HEPRO_0000017_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000017_IAO_0000136_OpenLHS-Core_0000060'})
+MATCH (range:Relvar {relId: 'OpenLHS-Core_0000060'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HEPRO_0000017_IAO_0000136_OpenLHS-Core_0000060', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'OpenLHS-Core_0000060_uid', attDestinationIds: 'OpenLHS-Core_0000060_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000060::OpenLHS-Core_0000060{OpenLHS-Core_0000060_uid::OpenLHS-Core_0000060_uid} -> OpenLHS-Core_0000060::OpenLHS-Core_0000060{OpenLHS-Core_0000060_uid::OpenLHS-Core_0000060_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'ONTORELA_C3f6f3e4f_IAO_0000219_IAO_0000579'})
+MATCH (domain:Relvar {relId: 'ONTORELA_C3f6f3e4f'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_ONTORELA_C3f6f3e4f_IAO_0000219_IAO_0000579', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000219', attOriginIds: 'ONTORELA_C3f6f3e4f_uid', attDestinationIds: 'ONTORELA_C3f6f3e4f_uid', cardinality: '[1..*]', description: 'ONTORELA_C3f6f3e4f::ONTORELA_C3f6f3e4f{ONTORELA_C3f6f3e4f_uid::ONTORELA_C3f6f3e4f_uid} -> ONTORELA_C3f6f3e4f::ONTORELA_C3f6f3e4f{ONTORELA_C3f6f3e4f_uid::ONTORELA_C3f6f3e4f_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'ONTORELA_C3f6f3e4f_IAO_0000219_IAO_0000579'})
+MATCH (range:Relvar {relId: 'IAO_0000579'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_ONTORELA_C3f6f3e4f_IAO_0000219_IAO_0000579', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000219', attOriginIds: 'IAO_0000579_uid', attDestinationIds: 'IAO_0000579_uid', cardinality: '[1..*]', description: 'IAO_0000579::IAO_0000579{IAO_0000579_uid::IAO_0000579_uid} -> IAO_0000579::IAO_0000579{IAO_0000579_uid::IAO_0000579_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000051_IAO_0000136_BFO_0000002'})
+MATCH (domain:Relvar {relId: 'OpenLHS-Core_0000051'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_OpenLHS-Core_0000051_IAO_0000136_BFO_0000002', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'OpenLHS-Core_0000051_uid', attDestinationIds: 'OpenLHS-Core_0000051_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000051::OpenLHS-Core_0000051{OpenLHS-Core_0000051_uid::OpenLHS-Core_0000051_uid} -> OpenLHS-Core_0000051::OpenLHS-Core_0000051{OpenLHS-Core_0000051_uid::OpenLHS-Core_0000051_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000051_IAO_0000136_BFO_0000002'})
+MATCH (range:Relvar {relId: 'BFO_0000002'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_OpenLHS-Core_0000051_IAO_0000136_BFO_0000002', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'BFO_0000002_uid', attDestinationIds: 'BFO_0000002_uid', cardinality: '[1..*]', description: 'BFO_0000002::BFO_0000002{BFO_0000002_uid::BFO_0000002_uid} -> BFO_0000002::BFO_0000002{BFO_0000002_uid::BFO_0000002_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000063_RO_0002180_OpenLHS-Core_0000020'})
+MATCH (domain:Relvar {relId: 'HOSO_0000063'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000063_RO_0002180_OpenLHS-Core_0000020', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HOSO_0000063_uid', attDestinationIds: 'HOSO_0000063_uid', cardinality: '[0..1]', description: 'HOSO_0000063::HOSO_0000063{HOSO_0000063_uid::HOSO_0000063_uid} -> HOSO_0000063::HOSO_0000063{HOSO_0000063_uid::HOSO_0000063_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000063_RO_0002180_OpenLHS-Core_0000020'})
+MATCH (range:Relvar {relId: 'OpenLHS-Core_0000020'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000063_RO_0002180_OpenLHS-Core_0000020', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'OpenLHS-Core_0000020_uid', attDestinationIds: 'OpenLHS-Core_0000020_uid', cardinality: '[0..1]', description: 'OpenLHS-Core_0000020::OpenLHS-Core_0000020{OpenLHS-Core_0000020_uid::OpenLHS-Core_0000020_uid} -> OpenLHS-Core_0000020::OpenLHS-Core_0000020{OpenLHS-Core_0000020_uid::OpenLHS-Core_0000020_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000063_BFO_0000050_HOSO_0000060'})
+MATCH (domain:Relvar {relId: 'HOSO_0000063'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000063_BFO_0000050_HOSO_0000060', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000050', attOriginIds: 'HOSO_0000063_uid', attDestinationIds: 'HOSO_0000063_uid', cardinality: '[1..*]', description: 'HOSO_0000063::HOSO_0000063{HOSO_0000063_uid::HOSO_0000063_uid} -> HOSO_0000063::HOSO_0000063{HOSO_0000063_uid::HOSO_0000063_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000063_BFO_0000050_HOSO_0000060'})
+MATCH (range:Relvar {relId: 'HOSO_0000060'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000063_BFO_0000050_HOSO_0000060', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000050', attOriginIds: 'HOSO_0000060_uid', attDestinationIds: 'HOSO_0000060_uid', cardinality: '[1..*]', description: 'HOSO_0000060::HOSO_0000060{HOSO_0000060_uid::HOSO_0000060_uid} -> HOSO_0000060::HOSO_0000060{HOSO_0000060_uid::HOSO_0000060_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'BFO_0000031_RO_0000058_BFO_0000020'})
+MATCH (domain:Relvar {relId: 'BFO_0000031'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_BFO_0000031_RO_0000058_BFO_0000020', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0000058', attOriginIds: 'BFO_0000031_uid', attDestinationIds: 'BFO_0000031_uid', cardinality: '[1..*]', description: 'BFO_0000031::BFO_0000031{BFO_0000031_uid::BFO_0000031_uid} -> BFO_0000031::BFO_0000031{BFO_0000031_uid::BFO_0000031_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'BFO_0000031_RO_0000058_BFO_0000020'})
+MATCH (range:Relvar {relId: 'BFO_0000020'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_BFO_0000031_RO_0000058_BFO_0000020', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0000058', attOriginIds: 'BFO_0000020_uid', attDestinationIds: 'BFO_0000020_uid', cardinality: '[1..*]', description: 'BFO_0000020::BFO_0000020{BFO_0000020_uid::BFO_0000020_uid} -> BFO_0000020::BFO_0000020{BFO_0000020_uid::BFO_0000020_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000019_IAO_0000136_HOSO_0000060'})
+MATCH (domain:Relvar {relId: 'HOSO_0000019'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000019_IAO_0000136_HOSO_0000060', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'HOSO_0000019_uid', attDestinationIds: 'HOSO_0000019_uid', cardinality: '[1..*]', description: 'HOSO_0000019::HOSO_0000019{HOSO_0000019_uid::HOSO_0000019_uid} -> HOSO_0000019::HOSO_0000019{HOSO_0000019_uid::HOSO_0000019_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000019_IAO_0000136_HOSO_0000060'})
+MATCH (range:Relvar {relId: 'HOSO_0000060'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000019_IAO_0000136_HOSO_0000060', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'HOSO_0000060_uid', attDestinationIds: 'HOSO_0000060_uid', cardinality: '[1..*]', description: 'HOSO_0000060::HOSO_0000060{HOSO_0000060_uid::HOSO_0000060_uid} -> HOSO_0000060::HOSO_0000060{HOSO_0000060_uid::HOSO_0000060_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000062_RO_0000087_HOSO_0000061'})
+MATCH (domain:Relvar {relId: 'HOSO_0000062'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000062_RO_0000087_HOSO_0000061', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0000087', attOriginIds: 'HOSO_0000062_uid', attDestinationIds: 'HOSO_0000062_uid', cardinality: '[1..*]', description: 'HOSO_0000062::HOSO_0000062{HOSO_0000062_uid::HOSO_0000062_uid} -> HOSO_0000062::HOSO_0000062{HOSO_0000062_uid::HOSO_0000062_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000062_RO_0000087_HOSO_0000061'})
+MATCH (range:Relvar {relId: 'HOSO_0000061'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000062_RO_0000087_HOSO_0000061', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0000087', attOriginIds: 'HOSO_0000061_uid', attDestinationIds: 'HOSO_0000061_uid', cardinality: '[1..*]', description: 'HOSO_0000061::HOSO_0000061{HOSO_0000061_uid::HOSO_0000061_uid} -> HOSO_0000061::HOSO_0000061{HOSO_0000061_uid::HOSO_0000061_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'IOIO_0000005_OpenLHS-Core_0000070_IOIO_0000001'})
+MATCH (domain:Relvar {relId: 'IOIO_0000005'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_IOIO_0000005_OpenLHS-Core_0000070_IOIO_0000001', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000070', attOriginIds: 'IOIO_0000005_uid', attDestinationIds: 'IOIO_0000005_uid', cardinality: '[1..*]', description: 'IOIO_0000005::IOIO_0000005{IOIO_0000005_uid::IOIO_0000005_uid} -> IOIO_0000005::IOIO_0000005{IOIO_0000005_uid::IOIO_0000005_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'IOIO_0000005_OpenLHS-Core_0000070_IOIO_0000001'})
+MATCH (range:Relvar {relId: 'IOIO_0000001'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_IOIO_0000005_OpenLHS-Core_0000070_IOIO_0000001', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000070', attOriginIds: 'IOIO_0000001_uid', attDestinationIds: 'IOIO_0000001_uid', cardinality: '[1..*]', description: 'IOIO_0000001::IOIO_0000001{IOIO_0000001_uid::IOIO_0000001_uid} -> IOIO_0000001::IOIO_0000001{IOIO_0000001_uid::IOIO_0000001_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000139_RO_0002479_HOSO_0000004'})
+MATCH (domain:Relvar {relId: 'HOSO_0000139'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000139_RO_0002479_HOSO_0000004', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002479', attOriginIds: 'HOSO_0000139_uid', attDestinationIds: 'HOSO_0000139_uid', cardinality: '[1..*]', description: 'HOSO_0000139::HOSO_0000139{HOSO_0000139_uid::HOSO_0000139_uid} -> HOSO_0000139::HOSO_0000139{HOSO_0000139_uid::HOSO_0000139_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000139_RO_0002479_HOSO_0000004'})
+MATCH (range:Relvar {relId: 'HOSO_0000004'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000139_RO_0002479_HOSO_0000004', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002479', attOriginIds: 'HOSO_0000004_uid', attDestinationIds: 'HOSO_0000004_uid', cardinality: '[1..*]', description: 'HOSO_0000004::HOSO_0000004{HOSO_0000004_uid::HOSO_0000004_uid} -> HOSO_0000004::HOSO_0000004{HOSO_0000004_uid::HOSO_0000004_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000103_OpenLHS-Core_0000070_HOSO_0000056'})
+MATCH (domain:Relvar {relId: 'HOSO_0000103'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000103_OpenLHS-Core_0000070_HOSO_0000056', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000070', attOriginIds: 'HOSO_0000103_uid', attDestinationIds: 'HOSO_0000103_uid', cardinality: '[1..*]', description: 'HOSO_0000103::HOSO_0000103{HOSO_0000103_uid::HOSO_0000103_uid} -> HOSO_0000103::HOSO_0000103{HOSO_0000103_uid::HOSO_0000103_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000103_OpenLHS-Core_0000070_HOSO_0000056'})
+MATCH (range:Relvar {relId: 'HOSO_0000056'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000103_OpenLHS-Core_0000070_HOSO_0000056', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000070', attOriginIds: 'HOSO_0000056_uid', attDestinationIds: 'HOSO_0000056_uid', cardinality: '[1..*]', description: 'HOSO_0000056::HOSO_0000056{HOSO_0000056_uid::HOSO_0000056_uid} -> HOSO_0000056::HOSO_0000056{HOSO_0000056_uid::HOSO_0000056_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000041_OBI_0000299_ONTORELA_C624fa67d'})
+MATCH (domain:Relvar {relId: 'HOSO_0000041'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000041_OBI_0000299_ONTORELA_C624fa67d', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OBI_0000299', attOriginIds: 'HOSO_0000041_uid', attDestinationIds: 'HOSO_0000041_uid', cardinality: '[1..*]', description: 'HOSO_0000041::HOSO_0000041{HOSO_0000041_uid::HOSO_0000041_uid} -> HOSO_0000041::HOSO_0000041{HOSO_0000041_uid::HOSO_0000041_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000041_OBI_0000299_ONTORELA_C624fa67d'})
+MATCH (range:Relvar {relId: 'ONTORELA_C624fa67d'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000041_OBI_0000299_ONTORELA_C624fa67d', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OBI_0000299', attOriginIds: 'ONTORELA_C624fa67d_uid', attDestinationIds: 'ONTORELA_C624fa67d_uid', cardinality: '[1..*]', description: 'ONTORELA_C624fa67d::ONTORELA_C624fa67d{ONTORELA_C624fa67d_uid::ONTORELA_C624fa67d_uid} -> ONTORELA_C624fa67d::ONTORELA_C624fa67d{ONTORELA_C624fa67d_uid::ONTORELA_C624fa67d_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'IAO_0020020_BFO_0000051_IAO_0020000'})
+MATCH (domain:Relvar {relId: 'IAO_0020020'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_IAO_0020020_BFO_0000051_IAO_0020000', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000051', attOriginIds: 'IAO_0020020_uid', attDestinationIds: 'IAO_0020020_uid', cardinality: '[1..*]', description: 'IAO_0020020::IAO_0020020{IAO_0020020_uid::IAO_0020020_uid} -> IAO_0020020::IAO_0020020{IAO_0020020_uid::IAO_0020020_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'IAO_0020020_BFO_0000051_IAO_0020000'})
+MATCH (range:Relvar {relId: 'IAO_0020000'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_IAO_0020020_BFO_0000051_IAO_0020000', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000051', attOriginIds: 'IAO_0020000_uid', attDestinationIds: 'IAO_0020000_uid', cardinality: '[1..*]', description: 'IAO_0020000::IAO_0020000{IAO_0020000_uid::IAO_0020000_uid} -> IAO_0020000::IAO_0020000{IAO_0020000_uid::IAO_0020000_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'IOIO_0000014_IAO_0000219_NCBITaxon_9606'})
+MATCH (domain:Relvar {relId: 'IOIO_0000014'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_IOIO_0000014_IAO_0000219_NCBITaxon_9606', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000219', attOriginIds: 'IOIO_0000014_uid', attDestinationIds: 'IOIO_0000014_uid', cardinality: '[1..*]', description: 'IOIO_0000014::IOIO_0000014{IOIO_0000014_uid::IOIO_0000014_uid} -> IOIO_0000014::IOIO_0000014{IOIO_0000014_uid::IOIO_0000014_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'IOIO_0000014_IAO_0000219_NCBITaxon_9606'})
+MATCH (range:Relvar {relId: 'NCBITaxon_9606'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_IOIO_0000014_IAO_0000219_NCBITaxon_9606', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000219', attOriginIds: 'NCBITaxon_9606_uid', attDestinationIds: 'NCBITaxon_9606_uid', cardinality: '[1..*]', description: 'NCBITaxon_9606::NCBITaxon_9606{NCBITaxon_9606_uid::NCBITaxon_9606_uid} -> NCBITaxon_9606::NCBITaxon_9606{NCBITaxon_9606_uid::NCBITaxon_9606_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000009_RO_0002350_HOSO_0000008'})
+MATCH (domain:Relvar {relId: 'HOSO_0000009'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000009_RO_0002350_HOSO_0000008', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002350', attOriginIds: 'HOSO_0000009_uid', attDestinationIds: 'HOSO_0000009_uid', cardinality: '[1..*]', description: 'HOSO_0000009::HOSO_0000009{HOSO_0000009_uid::HOSO_0000009_uid} -> HOSO_0000009::HOSO_0000009{HOSO_0000009_uid::HOSO_0000009_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000009_RO_0002350_HOSO_0000008'})
+MATCH (range:Relvar {relId: 'HOSO_0000008'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000009_RO_0002350_HOSO_0000008', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002350', attOriginIds: 'HOSO_0000008_uid', attDestinationIds: 'HOSO_0000008_uid', cardinality: '[1..*]', description: 'HOSO_0000008::HOSO_0000008{HOSO_0000008_uid::HOSO_0000008_uid} -> HOSO_0000008::HOSO_0000008{HOSO_0000008_uid::HOSO_0000008_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'ONTORELA_C6a3e089c_has_agent_OBI_0000245'})
+MATCH (domain:Relvar {relId: 'ONTORELA_C6a3e089c'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_ONTORELA_C6a3e089c_has_agent_OBI_0000245', fkType: 'OBJECTPROPERTY', propertyShortIri: 'has_agent', attOriginIds: 'ONTORELA_C6a3e089c_uid', attDestinationIds: 'ONTORELA_C6a3e089c_uid', cardinality: '[1..*]', description: 'ONTORELA_C6a3e089c::ONTORELA_C6a3e089c{ONTORELA_C6a3e089c_uid::ONTORELA_C6a3e089c_uid} -> ONTORELA_C6a3e089c::ONTORELA_C6a3e089c{ONTORELA_C6a3e089c_uid::ONTORELA_C6a3e089c_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'ONTORELA_C6a3e089c_has_agent_OBI_0000245'})
+MATCH (range:Relvar {relId: 'OBI_0000245'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_ONTORELA_C6a3e089c_has_agent_OBI_0000245', fkType: 'OBJECTPROPERTY', propertyShortIri: 'has_agent', attOriginIds: 'OBI_0000245_uid', attDestinationIds: 'OBI_0000245_uid', cardinality: '[1..*]', description: 'OBI_0000245::OBI_0000245{OBI_0000245_uid::OBI_0000245_uid} -> OBI_0000245::OBI_0000245{OBI_0000245_uid::OBI_0000245_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'BFO_0000020_RO_0000059_BFO_0000031'})
+MATCH (domain:Relvar {relId: 'BFO_0000020'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_BFO_0000020_RO_0000059_BFO_0000031', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0000059', attOriginIds: 'BFO_0000020_uid', attDestinationIds: 'BFO_0000020_uid', cardinality: '[1..*]', description: 'BFO_0000020::BFO_0000020{BFO_0000020_uid::BFO_0000020_uid} -> BFO_0000020::BFO_0000020{BFO_0000020_uid::BFO_0000020_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'BFO_0000020_RO_0000059_BFO_0000031'})
+MATCH (range:Relvar {relId: 'BFO_0000031'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_BFO_0000020_RO_0000059_BFO_0000031', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0000059', attOriginIds: 'BFO_0000031_uid', attDestinationIds: 'BFO_0000031_uid', cardinality: '[1..*]', description: 'BFO_0000031::BFO_0000031{BFO_0000031_uid::BFO_0000031_uid} -> BFO_0000031::BFO_0000031{BFO_0000031_uid::BFO_0000031_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'IOIO_0000015_RO_0002180_IOIO_0000014'})
+MATCH (domain:Relvar {relId: 'IOIO_0000015'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_IOIO_0000015_RO_0002180_IOIO_0000014', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'IOIO_0000015_uid', attDestinationIds: 'IOIO_0000015_uid', cardinality: '[1..*]', description: 'IOIO_0000015::IOIO_0000015{IOIO_0000015_uid::IOIO_0000015_uid} -> IOIO_0000015::IOIO_0000015{IOIO_0000015_uid::IOIO_0000015_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'IOIO_0000015_RO_0002180_IOIO_0000014'})
+MATCH (range:Relvar {relId: 'IOIO_0000014'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_IOIO_0000015_RO_0002180_IOIO_0000014', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'IOIO_0000014_uid', attDestinationIds: 'IOIO_0000014_uid', cardinality: '[1..*]', description: 'IOIO_0000014::IOIO_0000014{IOIO_0000014_uid::IOIO_0000014_uid} -> IOIO_0000014::IOIO_0000014{IOIO_0000014_uid::IOIO_0000014_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'IOIO_0000015_RO_0002180_IOIO_0000011'})
+MATCH (domain:Relvar {relId: 'IOIO_0000015'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_IOIO_0000015_RO_0002180_IOIO_0000011', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'IOIO_0000015_uid', attDestinationIds: 'IOIO_0000015_uid', cardinality: '[1..*]', description: 'IOIO_0000015::IOIO_0000015{IOIO_0000015_uid::IOIO_0000015_uid} -> IOIO_0000015::IOIO_0000015{IOIO_0000015_uid::IOIO_0000015_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'IOIO_0000015_RO_0002180_IOIO_0000011'})
+MATCH (range:Relvar {relId: 'IOIO_0000011'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_IOIO_0000015_RO_0002180_IOIO_0000011', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'IOIO_0000011_uid', attDestinationIds: 'IOIO_0000011_uid', cardinality: '[1..*]', description: 'IOIO_0000011::IOIO_0000011{IOIO_0000011_uid::IOIO_0000011_uid} -> IOIO_0000011::IOIO_0000011{IOIO_0000011_uid::IOIO_0000011_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'IOIO_0000003_RO_0002180_IOIO_0000006'})
+MATCH (domain:Relvar {relId: 'IOIO_0000003'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_IOIO_0000003_RO_0002180_IOIO_0000006', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'IOIO_0000003_uid', attDestinationIds: 'IOIO_0000003_uid', cardinality: '[1..*]', description: 'IOIO_0000003::IOIO_0000003{IOIO_0000003_uid::IOIO_0000003_uid} -> IOIO_0000003::IOIO_0000003{IOIO_0000003_uid::IOIO_0000003_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'IOIO_0000003_RO_0002180_IOIO_0000006'})
+MATCH (range:Relvar {relId: 'IOIO_0000006'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_IOIO_0000003_RO_0002180_IOIO_0000006', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'IOIO_0000006_uid', attDestinationIds: 'IOIO_0000006_uid', cardinality: '[1..*]', description: 'IOIO_0000006::IOIO_0000006{IOIO_0000006_uid::IOIO_0000006_uid} -> IOIO_0000006::IOIO_0000006{IOIO_0000006_uid::IOIO_0000006_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'IOIO_0000003_RO_0002180_IOIO_0000014'})
+MATCH (domain:Relvar {relId: 'IOIO_0000003'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_IOIO_0000003_RO_0002180_IOIO_0000014', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'IOIO_0000003_uid', attDestinationIds: 'IOIO_0000003_uid', cardinality: '[1..*]', description: 'IOIO_0000003::IOIO_0000003{IOIO_0000003_uid::IOIO_0000003_uid} -> IOIO_0000003::IOIO_0000003{IOIO_0000003_uid::IOIO_0000003_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'IOIO_0000003_RO_0002180_IOIO_0000014'})
+MATCH (range:Relvar {relId: 'IOIO_0000014'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_IOIO_0000003_RO_0002180_IOIO_0000014', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'IOIO_0000014_uid', attDestinationIds: 'IOIO_0000014_uid', cardinality: '[1..*]', description: 'IOIO_0000014::IOIO_0000014{IOIO_0000014_uid::IOIO_0000014_uid} -> IOIO_0000014::IOIO_0000014{IOIO_0000014_uid::IOIO_0000014_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000009_IAO_0000219_HEPRO_0000012'})
+MATCH (domain:Relvar {relId: 'HEPRO_0000009'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HEPRO_0000009_IAO_0000219_HEPRO_0000012', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000219', attOriginIds: 'HEPRO_0000009_uid', attDestinationIds: 'HEPRO_0000009_uid', cardinality: '[1..*]', description: 'HEPRO_0000009::HEPRO_0000009{HEPRO_0000009_uid::HEPRO_0000009_uid} -> HEPRO_0000009::HEPRO_0000009{HEPRO_0000009_uid::HEPRO_0000009_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000009_IAO_0000219_HEPRO_0000012'})
+MATCH (range:Relvar {relId: 'HEPRO_0000012'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HEPRO_0000009_IAO_0000219_HEPRO_0000012', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000219', attOriginIds: 'HEPRO_0000012_uid', attDestinationIds: 'HEPRO_0000012_uid', cardinality: '[1..*]', description: 'HEPRO_0000012::HEPRO_0000012{HEPRO_0000012_uid::HEPRO_0000012_uid} -> HEPRO_0000012::HEPRO_0000012{HEPRO_0000012_uid::HEPRO_0000012_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000028_OBI_0000312_OpenLHS-Core_0000035'})
+MATCH (domain:Relvar {relId: 'OpenLHS-Core_0000028'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_OpenLHS-Core_0000028_OBI_0000312_OpenLHS-Core_0000035', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OBI_0000312', attOriginIds: 'OpenLHS-Core_0000028_uid', attDestinationIds: 'OpenLHS-Core_0000028_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000028::OpenLHS-Core_0000028{OpenLHS-Core_0000028_uid::OpenLHS-Core_0000028_uid} -> OpenLHS-Core_0000028::OpenLHS-Core_0000028{OpenLHS-Core_0000028_uid::OpenLHS-Core_0000028_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000028_OBI_0000312_OpenLHS-Core_0000035'})
+MATCH (range:Relvar {relId: 'OpenLHS-Core_0000035'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_OpenLHS-Core_0000028_OBI_0000312_OpenLHS-Core_0000035', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OBI_0000312', attOriginIds: 'OpenLHS-Core_0000035_uid', attDestinationIds: 'OpenLHS-Core_0000035_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000035::OpenLHS-Core_0000035{OpenLHS-Core_0000035_uid::OpenLHS-Core_0000035_uid} -> OpenLHS-Core_0000035::OpenLHS-Core_0000035{OpenLHS-Core_0000035_uid::OpenLHS-Core_0000035_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000008_RO_0000087_HOSO_0000006'})
+MATCH (domain:Relvar {relId: 'HOSO_0000008'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000008_RO_0000087_HOSO_0000006', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0000087', attOriginIds: 'HOSO_0000008_uid', attDestinationIds: 'HOSO_0000008_uid', cardinality: '[1..*]', description: 'HOSO_0000008::HOSO_0000008{HOSO_0000008_uid::HOSO_0000008_uid} -> HOSO_0000008::HOSO_0000008{HOSO_0000008_uid::HOSO_0000008_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000008_RO_0000087_HOSO_0000006'})
+MATCH (range:Relvar {relId: 'HOSO_0000006'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000008_RO_0000087_HOSO_0000006', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0000087', attOriginIds: 'HOSO_0000006_uid', attDestinationIds: 'HOSO_0000006_uid', cardinality: '[1..*]', description: 'HOSO_0000006::HOSO_0000006{HOSO_0000006_uid::HOSO_0000006_uid} -> HOSO_0000006::HOSO_0000006{HOSO_0000006_uid::HOSO_0000006_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000043_RO_0000052_Agent'})
+MATCH (domain:Relvar {relId: 'OpenLHS-Core_0000043'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_OpenLHS-Core_0000043_RO_0000052_Agent', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0000052', attOriginIds: 'OpenLHS-Core_0000043_uid', attDestinationIds: 'OpenLHS-Core_0000043_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000043::OpenLHS-Core_0000043{OpenLHS-Core_0000043_uid::OpenLHS-Core_0000043_uid} -> OpenLHS-Core_0000043::OpenLHS-Core_0000043{OpenLHS-Core_0000043_uid::OpenLHS-Core_0000043_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000043_RO_0000052_Agent'})
+MATCH (range:Relvar {relId: 'Agent'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_OpenLHS-Core_0000043_RO_0000052_Agent', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0000052', attOriginIds: 'Agent_uid', attDestinationIds: 'Agent_uid', cardinality: '[1..*]', description: 'Agent::Agent{Agent_uid::Agent_uid} -> Agent::Agent{Agent_uid::Agent_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000031_IAO_0000136_BFO_0000015'})
+MATCH (domain:Relvar {relId: 'OpenLHS-Core_0000031'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_OpenLHS-Core_0000031_IAO_0000136_BFO_0000015', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'OpenLHS-Core_0000031_uid', attDestinationIds: 'OpenLHS-Core_0000031_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000031::OpenLHS-Core_0000031{OpenLHS-Core_0000031_uid::OpenLHS-Core_0000031_uid} -> OpenLHS-Core_0000031::OpenLHS-Core_0000031{OpenLHS-Core_0000031_uid::OpenLHS-Core_0000031_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000031_IAO_0000136_BFO_0000015'})
+MATCH (range:Relvar {relId: 'BFO_0000015'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_OpenLHS-Core_0000031_IAO_0000136_BFO_0000015', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'BFO_0000015_uid', attDestinationIds: 'BFO_0000015_uid', cardinality: '[1..*]', description: 'BFO_0000015::BFO_0000015{BFO_0000015_uid::BFO_0000015_uid} -> BFO_0000015::BFO_0000015{BFO_0000015_uid::BFO_0000015_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000011_RO_0000081_OBI_0100026'})
+MATCH (domain:Relvar {relId: 'HEPRO_0000011'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HEPRO_0000011_RO_0000081_OBI_0100026', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0000081', attOriginIds: 'HEPRO_0000011_uid', attDestinationIds: 'HEPRO_0000011_uid', cardinality: '[1..*]', description: 'HEPRO_0000011::HEPRO_0000011{HEPRO_0000011_uid::HEPRO_0000011_uid} -> HEPRO_0000011::HEPRO_0000011{HEPRO_0000011_uid::HEPRO_0000011_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000011_RO_0000081_OBI_0100026'})
+MATCH (range:Relvar {relId: 'OBI_0100026'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HEPRO_0000011_RO_0000081_OBI_0100026', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0000081', attOriginIds: 'OBI_0100026_uid', attDestinationIds: 'OBI_0100026_uid', cardinality: '[1..*]', description: 'OBI_0100026::OBI_0100026{OBI_0100026_uid::OBI_0100026_uid} -> OBI_0100026::OBI_0100026{OBI_0100026_uid::OBI_0100026_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000023_RO_0002180_HEPRO_0000100'})
+MATCH (domain:Relvar {relId: 'HEPRO_0000023'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HEPRO_0000023_RO_0002180_HEPRO_0000100', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HEPRO_0000023_uid', attDestinationIds: 'HEPRO_0000023_uid', cardinality: '[1..*]', description: 'HEPRO_0000023::HEPRO_0000023{HEPRO_0000023_uid::HEPRO_0000023_uid} -> HEPRO_0000023::HEPRO_0000023{HEPRO_0000023_uid::HEPRO_0000023_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000023_RO_0002180_HEPRO_0000100'})
+MATCH (range:Relvar {relId: 'HEPRO_0000100'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HEPRO_0000023_RO_0002180_HEPRO_0000100', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HEPRO_0000100_uid', attDestinationIds: 'HEPRO_0000100_uid', cardinality: '[1..*]', description: 'HEPRO_0000100::HEPRO_0000100{HEPRO_0000100_uid::HEPRO_0000100_uid} -> HEPRO_0000100::HEPRO_0000100{HEPRO_0000100_uid::HEPRO_0000100_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000023_RO_0002180_HEPRO_0000104'})
+MATCH (domain:Relvar {relId: 'HEPRO_0000023'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HEPRO_0000023_RO_0002180_HEPRO_0000104', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HEPRO_0000023_uid', attDestinationIds: 'HEPRO_0000023_uid', cardinality: '[1..*]', description: 'HEPRO_0000023::HEPRO_0000023{HEPRO_0000023_uid::HEPRO_0000023_uid} -> HEPRO_0000023::HEPRO_0000023{HEPRO_0000023_uid::HEPRO_0000023_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000023_RO_0002180_HEPRO_0000104'})
+MATCH (range:Relvar {relId: 'HEPRO_0000104'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HEPRO_0000023_RO_0002180_HEPRO_0000104', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HEPRO_0000104_uid', attDestinationIds: 'HEPRO_0000104_uid', cardinality: '[1..*]', description: 'HEPRO_0000104::HEPRO_0000104{HEPRO_0000104_uid::HEPRO_0000104_uid} -> HEPRO_0000104::HEPRO_0000104{HEPRO_0000104_uid::HEPRO_0000104_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000043_RO_0002087_HOSO_0000071'})
+MATCH (domain:Relvar {relId: 'HOSO_0000043'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000043_RO_0002087_HOSO_0000071', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002087', attOriginIds: 'HOSO_0000043_uid', attDestinationIds: 'HOSO_0000043_uid', cardinality: '[1..*]', description: 'HOSO_0000043::HOSO_0000043{HOSO_0000043_uid::HOSO_0000043_uid} -> HOSO_0000043::HOSO_0000043{HOSO_0000043_uid::HOSO_0000043_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000043_RO_0002087_HOSO_0000071'})
+MATCH (range:Relvar {relId: 'HOSO_0000071'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000043_RO_0002087_HOSO_0000071', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002087', attOriginIds: 'HOSO_0000071_uid', attDestinationIds: 'HOSO_0000071_uid', cardinality: '[1..*]', description: 'HOSO_0000071::HOSO_0000071{HOSO_0000071_uid::HOSO_0000071_uid} -> HOSO_0000071::HOSO_0000071{HOSO_0000071_uid::HOSO_0000071_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000031_OpenLHS-Core_0000004_HOSO_0000078'})
+MATCH (domain:Relvar {relId: 'HOSO_0000031'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000031_OpenLHS-Core_0000004_HOSO_0000078', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000004', attOriginIds: 'HOSO_0000031_uid', attDestinationIds: 'HOSO_0000031_uid', cardinality: '[1..*]', description: 'HOSO_0000031::HOSO_0000031{HOSO_0000031_uid::HOSO_0000031_uid} -> HOSO_0000031::HOSO_0000031{HOSO_0000031_uid::HOSO_0000031_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000031_OpenLHS-Core_0000004_HOSO_0000078'})
+MATCH (range:Relvar {relId: 'HOSO_0000078'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000031_OpenLHS-Core_0000004_HOSO_0000078', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000004', attOriginIds: 'HOSO_0000078_uid', attDestinationIds: 'HOSO_0000078_uid', cardinality: '[1..*]', description: 'HOSO_0000078::HOSO_0000078{HOSO_0000078_uid::HOSO_0000078_uid} -> HOSO_0000078::HOSO_0000078{HOSO_0000078_uid::HOSO_0000078_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000152_IAO_0000136_HOSO_0000137'})
+MATCH (domain:Relvar {relId: 'HOSO_0000152'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000152_IAO_0000136_HOSO_0000137', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'HOSO_0000152_uid', attDestinationIds: 'HOSO_0000152_uid', cardinality: '[1..*]', description: 'HOSO_0000152::HOSO_0000152{HOSO_0000152_uid::HOSO_0000152_uid} -> HOSO_0000152::HOSO_0000152{HOSO_0000152_uid::HOSO_0000152_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000152_IAO_0000136_HOSO_0000137'})
+MATCH (range:Relvar {relId: 'HOSO_0000137'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000152_IAO_0000136_HOSO_0000137', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'HOSO_0000137_uid', attDestinationIds: 'HOSO_0000137_uid', cardinality: '[1..*]', description: 'HOSO_0000137::HOSO_0000137{HOSO_0000137_uid::HOSO_0000137_uid} -> HOSO_0000137::HOSO_0000137{HOSO_0000137_uid::HOSO_0000137_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000140_IAO_0000136_OMRSE_00000062'})
+MATCH (domain:Relvar {relId: 'HOSO_0000140'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000140_IAO_0000136_OMRSE_00000062', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'HOSO_0000140_uid', attDestinationIds: 'HOSO_0000140_uid', cardinality: '[1..*]', description: 'HOSO_0000140::HOSO_0000140{HOSO_0000140_uid::HOSO_0000140_uid} -> HOSO_0000140::HOSO_0000140{HOSO_0000140_uid::HOSO_0000140_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000140_IAO_0000136_OMRSE_00000062'})
+MATCH (range:Relvar {relId: 'OMRSE_00000062'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000140_IAO_0000136_OMRSE_00000062', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'OMRSE_00000062_uid', attDestinationIds: 'OMRSE_00000062_uid', cardinality: '[1..*]', description: 'OMRSE_00000062::OMRSE_00000062{OMRSE_00000062_uid::OMRSE_00000062_uid} -> OMRSE_00000062::OMRSE_00000062{OMRSE_00000062_uid::OMRSE_00000062_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000079_RO_0002350_HOSO_0000008'})
+MATCH (domain:Relvar {relId: 'HOSO_0000079'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000079_RO_0002350_HOSO_0000008', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002350', attOriginIds: 'HOSO_0000079_uid', attDestinationIds: 'HOSO_0000079_uid', cardinality: '[1..*]', description: 'HOSO_0000079::HOSO_0000079{HOSO_0000079_uid::HOSO_0000079_uid} -> HOSO_0000079::HOSO_0000079{HOSO_0000079_uid::HOSO_0000079_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000079_RO_0002350_HOSO_0000008'})
+MATCH (range:Relvar {relId: 'HOSO_0000008'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000079_RO_0002350_HOSO_0000008', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002350', attOriginIds: 'HOSO_0000008_uid', attDestinationIds: 'HOSO_0000008_uid', cardinality: '[1..*]', description: 'HOSO_0000008::HOSO_0000008{HOSO_0000008_uid::HOSO_0000008_uid} -> HOSO_0000008::HOSO_0000008{HOSO_0000008_uid::HOSO_0000008_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'SEPIO_0000187_OpenLHS-Core_0000005_Agent'})
+MATCH (domain:Relvar {relId: 'SEPIO_0000187'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_SEPIO_0000187_OpenLHS-Core_0000005_Agent', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000005', attOriginIds: 'SEPIO_0000187_uid', attDestinationIds: 'SEPIO_0000187_uid', cardinality: '[1..*]', description: 'SEPIO_0000187::SEPIO_0000187{SEPIO_0000187_uid::SEPIO_0000187_uid} -> SEPIO_0000187::SEPIO_0000187{SEPIO_0000187_uid::SEPIO_0000187_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'SEPIO_0000187_OpenLHS-Core_0000005_Agent'})
+MATCH (range:Relvar {relId: 'Agent'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_SEPIO_0000187_OpenLHS-Core_0000005_Agent', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000005', attOriginIds: 'Agent_uid', attDestinationIds: 'Agent_uid', cardinality: '[1..*]', description: 'Agent::Agent{Agent_uid::Agent_uid} -> Agent::Agent{Agent_uid::Agent_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'SEPIO_0000187_IAO_0000136_IAO_0000030'})
+MATCH (domain:Relvar {relId: 'SEPIO_0000187'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_SEPIO_0000187_IAO_0000136_IAO_0000030', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'SEPIO_0000187_uid', attDestinationIds: 'SEPIO_0000187_uid', cardinality: '[1..*]', description: 'SEPIO_0000187::SEPIO_0000187{SEPIO_0000187_uid::SEPIO_0000187_uid} -> SEPIO_0000187::SEPIO_0000187{SEPIO_0000187_uid::SEPIO_0000187_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'SEPIO_0000187_IAO_0000136_IAO_0000030'})
+MATCH (range:Relvar {relId: 'IAO_0000030'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_SEPIO_0000187_IAO_0000136_IAO_0000030', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'IAO_0000030_uid', attDestinationIds: 'IAO_0000030_uid', cardinality: '[1..*]', description: 'IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000067_IAO_0000136_HOSO_0000063'})
+MATCH (domain:Relvar {relId: 'HOSO_0000067'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000067_IAO_0000136_HOSO_0000063', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'HOSO_0000067_uid', attDestinationIds: 'HOSO_0000067_uid', cardinality: '[1..*]', description: 'HOSO_0000067::HOSO_0000067{HOSO_0000067_uid::HOSO_0000067_uid} -> HOSO_0000067::HOSO_0000067{HOSO_0000067_uid::HOSO_0000067_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000067_IAO_0000136_HOSO_0000063'})
+MATCH (range:Relvar {relId: 'HOSO_0000063'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000067_IAO_0000136_HOSO_0000063', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'HOSO_0000063_uid', attDestinationIds: 'HOSO_0000063_uid', cardinality: '[1..*]', description: 'HOSO_0000063::HOSO_0000063{HOSO_0000063_uid::HOSO_0000063_uid} -> HOSO_0000063::HOSO_0000063{HOSO_0000063_uid::HOSO_0000063_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000055_RO_0002180_HOSO_0000102'})
+MATCH (domain:Relvar {relId: 'HOSO_0000055'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000055_RO_0002180_HOSO_0000102', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HOSO_0000055_uid', attDestinationIds: 'HOSO_0000055_uid', cardinality: '[1..*]', description: 'HOSO_0000055::HOSO_0000055{HOSO_0000055_uid::HOSO_0000055_uid} -> HOSO_0000055::HOSO_0000055{HOSO_0000055_uid::HOSO_0000055_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000055_RO_0002180_HOSO_0000102'})
+MATCH (range:Relvar {relId: 'HOSO_0000102'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000055_RO_0002180_HOSO_0000102', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HOSO_0000102_uid', attDestinationIds: 'HOSO_0000102_uid', cardinality: '[1..*]', description: 'HOSO_0000102::HOSO_0000102{HOSO_0000102_uid::HOSO_0000102_uid} -> HOSO_0000102::HOSO_0000102{HOSO_0000102_uid::HOSO_0000102_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000055_RO_0002180_HOSO_0000100'})
+MATCH (domain:Relvar {relId: 'HOSO_0000055'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000055_RO_0002180_HOSO_0000100', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HOSO_0000055_uid', attDestinationIds: 'HOSO_0000055_uid', cardinality: '[1..*]', description: 'HOSO_0000055::HOSO_0000055{HOSO_0000055_uid::HOSO_0000055_uid} -> HOSO_0000055::HOSO_0000055{HOSO_0000055_uid::HOSO_0000055_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000055_RO_0002180_HOSO_0000100'})
+MATCH (range:Relvar {relId: 'HOSO_0000100'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000055_RO_0002180_HOSO_0000100', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HOSO_0000100_uid', attDestinationIds: 'HOSO_0000100_uid', cardinality: '[1..*]', description: 'HOSO_0000100::HOSO_0000100{HOSO_0000100_uid::HOSO_0000100_uid} -> HOSO_0000100::HOSO_0000100{HOSO_0000100_uid::HOSO_0000100_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000022_RO_0002180_HEPRO_0000102'})
+MATCH (domain:Relvar {relId: 'HEPRO_0000022'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HEPRO_0000022_RO_0002180_HEPRO_0000102', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HEPRO_0000022_uid', attDestinationIds: 'HEPRO_0000022_uid', cardinality: '[1..*]', description: 'HEPRO_0000022::HEPRO_0000022{HEPRO_0000022_uid::HEPRO_0000022_uid} -> HEPRO_0000022::HEPRO_0000022{HEPRO_0000022_uid::HEPRO_0000022_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000022_RO_0002180_HEPRO_0000102'})
+MATCH (range:Relvar {relId: 'HEPRO_0000102'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HEPRO_0000022_RO_0002180_HEPRO_0000102', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HEPRO_0000102_uid', attDestinationIds: 'HEPRO_0000102_uid', cardinality: '[1..*]', description: 'HEPRO_0000102::HEPRO_0000102{HEPRO_0000102_uid::HEPRO_0000102_uid} -> HEPRO_0000102::HEPRO_0000102{HEPRO_0000102_uid::HEPRO_0000102_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000022_RO_0002180_HEPRO_0000100'})
+MATCH (domain:Relvar {relId: 'HEPRO_0000022'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HEPRO_0000022_RO_0002180_HEPRO_0000100', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HEPRO_0000022_uid', attDestinationIds: 'HEPRO_0000022_uid', cardinality: '[1..*]', description: 'HEPRO_0000022::HEPRO_0000022{HEPRO_0000022_uid::HEPRO_0000022_uid} -> HEPRO_0000022::HEPRO_0000022{HEPRO_0000022_uid::HEPRO_0000022_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000022_RO_0002180_HEPRO_0000100'})
+MATCH (range:Relvar {relId: 'HEPRO_0000100'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HEPRO_0000022_RO_0002180_HEPRO_0000100', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HEPRO_0000100_uid', attDestinationIds: 'HEPRO_0000100_uid', cardinality: '[1..*]', description: 'HEPRO_0000100::HEPRO_0000100{HEPRO_0000100_uid::HEPRO_0000100_uid} -> HEPRO_0000100::HEPRO_0000100{HEPRO_0000100_uid::HEPRO_0000100_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000010_IAO_0000219_NCBITaxon_9606'})
+MATCH (domain:Relvar {relId: 'HEPRO_0000010'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HEPRO_0000010_IAO_0000219_NCBITaxon_9606', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000219', attOriginIds: 'HEPRO_0000010_uid', attDestinationIds: 'HEPRO_0000010_uid', cardinality: '[1..1]', description: 'HEPRO_0000010::HEPRO_0000010{HEPRO_0000010_uid::HEPRO_0000010_uid} -> HEPRO_0000010::HEPRO_0000010{HEPRO_0000010_uid::HEPRO_0000010_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000010_IAO_0000219_NCBITaxon_9606'})
+MATCH (range:Relvar {relId: 'NCBITaxon_9606'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HEPRO_0000010_IAO_0000219_NCBITaxon_9606', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000219', attOriginIds: 'NCBITaxon_9606_uid', attDestinationIds: 'NCBITaxon_9606_uid', cardinality: '[1..1]', description: 'NCBITaxon_9606::NCBITaxon_9606{NCBITaxon_9606_uid::NCBITaxon_9606_uid} -> NCBITaxon_9606::NCBITaxon_9606{NCBITaxon_9606_uid::NCBITaxon_9606_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000030_RO_0002180_OpenLHS-Core_0000065'})
+MATCH (domain:Relvar {relId: 'OpenLHS-Core_0000030'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_OpenLHS-Core_0000030_RO_0002180_OpenLHS-Core_0000065', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'OpenLHS-Core_0000030_uid', attDestinationIds: 'OpenLHS-Core_0000030_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000030::OpenLHS-Core_0000030{OpenLHS-Core_0000030_uid::OpenLHS-Core_0000030_uid} -> OpenLHS-Core_0000030::OpenLHS-Core_0000030{OpenLHS-Core_0000030_uid::OpenLHS-Core_0000030_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000030_RO_0002180_OpenLHS-Core_0000065'})
+MATCH (range:Relvar {relId: 'OpenLHS-Core_0000065'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_OpenLHS-Core_0000030_RO_0002180_OpenLHS-Core_0000065', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'OpenLHS-Core_0000065_uid', attDestinationIds: 'OpenLHS-Core_0000065_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000065::OpenLHS-Core_0000065{OpenLHS-Core_0000065_uid::OpenLHS-Core_0000065_uid} -> OpenLHS-Core_0000065::OpenLHS-Core_0000065{OpenLHS-Core_0000065_uid::OpenLHS-Core_0000065_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'ONTORELA_C2875fe2d_RO_0000059_IAO_0000104'})
+MATCH (domain:Relvar {relId: 'ONTORELA_C2875fe2d'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_ONTORELA_C2875fe2d_RO_0000059_IAO_0000104', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0000059', attOriginIds: 'ONTORELA_C2875fe2d_uid', attDestinationIds: 'ONTORELA_C2875fe2d_uid', cardinality: '[1..*]', description: 'ONTORELA_C2875fe2d::ONTORELA_C2875fe2d{ONTORELA_C2875fe2d_uid::ONTORELA_C2875fe2d_uid} -> ONTORELA_C2875fe2d::ONTORELA_C2875fe2d{ONTORELA_C2875fe2d_uid::ONTORELA_C2875fe2d_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'ONTORELA_C2875fe2d_RO_0000059_IAO_0000104'})
+MATCH (range:Relvar {relId: 'IAO_0000104'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_ONTORELA_C2875fe2d_RO_0000059_IAO_0000104', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0000059', attOriginIds: 'IAO_0000104_uid', attDestinationIds: 'IAO_0000104_uid', cardinality: '[1..*]', description: 'IAO_0000104::IAO_0000104{IAO_0000104_uid::IAO_0000104_uid} -> IAO_0000104::IAO_0000104{IAO_0000104_uid::IAO_0000104_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000030_BFO_0000051_HEPRO_0000014'})
+MATCH (domain:Relvar {relId: 'HOSO_0000030'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000030_BFO_0000051_HEPRO_0000014', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000051', attOriginIds: 'HOSO_0000030_uid', attDestinationIds: 'HOSO_0000030_uid', cardinality: '[1..*]', description: 'HOSO_0000030::HOSO_0000030{HOSO_0000030_uid::HOSO_0000030_uid} -> HOSO_0000030::HOSO_0000030{HOSO_0000030_uid::HOSO_0000030_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000030_BFO_0000051_HEPRO_0000014'})
+MATCH (range:Relvar {relId: 'HEPRO_0000014'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000030_BFO_0000051_HEPRO_0000014', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000051', attOriginIds: 'HEPRO_0000014_uid', attDestinationIds: 'HEPRO_0000014_uid', cardinality: '[1..*]', description: 'HEPRO_0000014::HEPRO_0000014{HEPRO_0000014_uid::HEPRO_0000014_uid} -> HEPRO_0000014::HEPRO_0000014{HEPRO_0000014_uid::HEPRO_0000014_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000151_RO_0002180_HOSO_0000100'})
+MATCH (domain:Relvar {relId: 'HOSO_0000151'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000151_RO_0002180_HOSO_0000100', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HOSO_0000151_uid', attDestinationIds: 'HOSO_0000151_uid', cardinality: '[1..*]', description: 'HOSO_0000151::HOSO_0000151{HOSO_0000151_uid::HOSO_0000151_uid} -> HOSO_0000151::HOSO_0000151{HOSO_0000151_uid::HOSO_0000151_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000151_RO_0002180_HOSO_0000100'})
+MATCH (range:Relvar {relId: 'HOSO_0000100'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000151_RO_0002180_HOSO_0000100', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HOSO_0000100_uid', attDestinationIds: 'HOSO_0000100_uid', cardinality: '[1..*]', description: 'HOSO_0000100::HOSO_0000100{HOSO_0000100_uid::HOSO_0000100_uid} -> HOSO_0000100::HOSO_0000100{HOSO_0000100_uid::HOSO_0000100_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000151_RO_0002180_HOSO_0000150'})
+MATCH (domain:Relvar {relId: 'HOSO_0000151'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000151_RO_0002180_HOSO_0000150', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HOSO_0000151_uid', attDestinationIds: 'HOSO_0000151_uid', cardinality: '[1..*]', description: 'HOSO_0000151::HOSO_0000151{HOSO_0000151_uid::HOSO_0000151_uid} -> HOSO_0000151::HOSO_0000151{HOSO_0000151_uid::HOSO_0000151_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000151_RO_0002180_HOSO_0000150'})
+MATCH (range:Relvar {relId: 'HOSO_0000150'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000151_RO_0002180_HOSO_0000150', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HOSO_0000150_uid', attDestinationIds: 'HOSO_0000150_uid', cardinality: '[1..*]', description: 'HOSO_0000150::HOSO_0000150{HOSO_0000150_uid::HOSO_0000150_uid} -> HOSO_0000150::HOSO_0000150{HOSO_0000150_uid::HOSO_0000150_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000078_BFO_0000051_HOSO_0000138'})
+MATCH (domain:Relvar {relId: 'HOSO_0000078'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000078_BFO_0000051_HOSO_0000138', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000051', attOriginIds: 'HOSO_0000078_uid', attDestinationIds: 'HOSO_0000078_uid', cardinality: '[1..*]', description: 'HOSO_0000078::HOSO_0000078{HOSO_0000078_uid::HOSO_0000078_uid} -> HOSO_0000078::HOSO_0000078{HOSO_0000078_uid::HOSO_0000078_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000078_BFO_0000051_HOSO_0000138'})
+MATCH (range:Relvar {relId: 'HOSO_0000138'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000078_BFO_0000051_HOSO_0000138', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000051', attOriginIds: 'HOSO_0000138_uid', attDestinationIds: 'HOSO_0000138_uid', cardinality: '[1..*]', description: 'HOSO_0000138::HOSO_0000138{HOSO_0000138_uid::HOSO_0000138_uid} -> HOSO_0000138::HOSO_0000138{HOSO_0000138_uid::HOSO_0000138_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'IOIO_0000013_IAO_0000219_OBI_0100026'})
+MATCH (domain:Relvar {relId: 'IOIO_0000013'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_IOIO_0000013_IAO_0000219_OBI_0100026', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000219', attOriginIds: 'IOIO_0000013_uid', attDestinationIds: 'IOIO_0000013_uid', cardinality: '[1..*]', description: 'IOIO_0000013::IOIO_0000013{IOIO_0000013_uid::IOIO_0000013_uid} -> IOIO_0000013::IOIO_0000013{IOIO_0000013_uid::IOIO_0000013_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'IOIO_0000013_IAO_0000219_OBI_0100026'})
+MATCH (range:Relvar {relId: 'OBI_0100026'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_IOIO_0000013_IAO_0000219_OBI_0100026', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000219', attOriginIds: 'OBI_0100026_uid', attDestinationIds: 'OBI_0100026_uid', cardinality: '[1..*]', description: 'OBI_0100026::OBI_0100026{OBI_0100026_uid::OBI_0100026_uid} -> OBI_0100026::OBI_0100026{OBI_0100026_uid::OBI_0100026_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'IOIO_0000001_RO_0002180_IOIO_0000014'})
+MATCH (domain:Relvar {relId: 'IOIO_0000001'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_IOIO_0000001_RO_0002180_IOIO_0000014', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'IOIO_0000001_uid', attDestinationIds: 'IOIO_0000001_uid', cardinality: '[1..*]', description: 'IOIO_0000001::IOIO_0000001{IOIO_0000001_uid::IOIO_0000001_uid} -> IOIO_0000001::IOIO_0000001{IOIO_0000001_uid::IOIO_0000001_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'IOIO_0000001_RO_0002180_IOIO_0000014'})
+MATCH (range:Relvar {relId: 'IOIO_0000014'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_IOIO_0000001_RO_0002180_IOIO_0000014', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'IOIO_0000014_uid', attDestinationIds: 'IOIO_0000014_uid', cardinality: '[1..*]', description: 'IOIO_0000014::IOIO_0000014{IOIO_0000014_uid::IOIO_0000014_uid} -> IOIO_0000014::IOIO_0000014{IOIO_0000014_uid::IOIO_0000014_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'IOIO_0000001_RO_0002180_IOIO_0000005'})
+MATCH (domain:Relvar {relId: 'IOIO_0000001'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_IOIO_0000001_RO_0002180_IOIO_0000005', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'IOIO_0000001_uid', attDestinationIds: 'IOIO_0000001_uid', cardinality: '[1..*]', description: 'IOIO_0000001::IOIO_0000001{IOIO_0000001_uid::IOIO_0000001_uid} -> IOIO_0000001::IOIO_0000001{IOIO_0000001_uid::IOIO_0000001_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'IOIO_0000001_RO_0002180_IOIO_0000005'})
+MATCH (range:Relvar {relId: 'IOIO_0000005'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_IOIO_0000001_RO_0002180_IOIO_0000005', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'IOIO_0000005_uid', attDestinationIds: 'IOIO_0000005_uid', cardinality: '[1..*]', description: 'IOIO_0000005::IOIO_0000005{IOIO_0000005_uid::IOIO_0000005_uid} -> IOIO_0000005::IOIO_0000005{IOIO_0000005_uid::IOIO_0000005_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000065_IAO_0000219_BFO_0000008'})
+MATCH (domain:Relvar {relId: 'OpenLHS-Core_0000065'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_OpenLHS-Core_0000065_IAO_0000219_BFO_0000008', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000219', attOriginIds: 'OpenLHS-Core_0000065_uid', attDestinationIds: 'OpenLHS-Core_0000065_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000065::OpenLHS-Core_0000065{OpenLHS-Core_0000065_uid::OpenLHS-Core_0000065_uid} -> OpenLHS-Core_0000065::OpenLHS-Core_0000065{OpenLHS-Core_0000065_uid::OpenLHS-Core_0000065_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000065_IAO_0000219_BFO_0000008'})
+MATCH (range:Relvar {relId: 'BFO_0000008'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_OpenLHS-Core_0000065_IAO_0000219_BFO_0000008', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000219', attOriginIds: 'BFO_0000008_uid', attDestinationIds: 'BFO_0000008_uid', cardinality: '[1..*]', description: 'BFO_0000008::BFO_0000008{BFO_0000008_uid::BFO_0000008_uid} -> BFO_0000008::BFO_0000008{BFO_0000008_uid::BFO_0000008_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000021_RO_0002180_HEPRO_0000105'})
+MATCH (domain:Relvar {relId: 'HEPRO_0000021'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HEPRO_0000021_RO_0002180_HEPRO_0000105', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HEPRO_0000021_uid', attDestinationIds: 'HEPRO_0000021_uid', cardinality: '[1..*]', description: 'HEPRO_0000021::HEPRO_0000021{HEPRO_0000021_uid::HEPRO_0000021_uid} -> HEPRO_0000021::HEPRO_0000021{HEPRO_0000021_uid::HEPRO_0000021_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000021_RO_0002180_HEPRO_0000105'})
+MATCH (range:Relvar {relId: 'HEPRO_0000105'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HEPRO_0000021_RO_0002180_HEPRO_0000105', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HEPRO_0000105_uid', attDestinationIds: 'HEPRO_0000105_uid', cardinality: '[1..*]', description: 'HEPRO_0000105::HEPRO_0000105{HEPRO_0000105_uid::HEPRO_0000105_uid} -> HEPRO_0000105::HEPRO_0000105{HEPRO_0000105_uid::HEPRO_0000105_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000021_RO_0002180_HEPRO_0000101'})
+MATCH (domain:Relvar {relId: 'HEPRO_0000021'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HEPRO_0000021_RO_0002180_HEPRO_0000101', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HEPRO_0000021_uid', attDestinationIds: 'HEPRO_0000021_uid', cardinality: '[1..*]', description: 'HEPRO_0000021::HEPRO_0000021{HEPRO_0000021_uid::HEPRO_0000021_uid} -> HEPRO_0000021::HEPRO_0000021{HEPRO_0000021_uid::HEPRO_0000021_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000021_RO_0002180_HEPRO_0000101'})
+MATCH (range:Relvar {relId: 'HEPRO_0000101'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HEPRO_0000021_RO_0002180_HEPRO_0000101', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HEPRO_0000101_uid', attDestinationIds: 'HEPRO_0000101_uid', cardinality: '[1..*]', description: 'HEPRO_0000101::HEPRO_0000101{HEPRO_0000101_uid::HEPRO_0000101_uid} -> HEPRO_0000101::HEPRO_0000101{HEPRO_0000101_uid::HEPRO_0000101_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'Agent_has_capability_AgentCapability'})
+MATCH (domain:Relvar {relId: 'Agent'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_Agent_has_capability_AgentCapability', fkType: 'OBJECTPROPERTY', propertyShortIri: 'has_capability', attOriginIds: 'Agent_uid', attDestinationIds: 'Agent_uid', cardinality: '[1..*]', description: 'Agent::Agent{Agent_uid::Agent_uid} -> Agent::Agent{Agent_uid::Agent_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'Agent_has_capability_AgentCapability'})
+MATCH (range:Relvar {relId: 'AgentCapability'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_Agent_has_capability_AgentCapability', fkType: 'OBJECTPROPERTY', propertyShortIri: 'has_capability', attOriginIds: 'AgentCapability_uid', attDestinationIds: 'AgentCapability_uid', cardinality: '[1..*]', description: 'AgentCapability::AgentCapability{AgentCapability_uid::AgentCapability_uid} -> AgentCapability::AgentCapability{AgentCapability_uid::AgentCapability_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'Agent_agent_in_BFO_0000015'})
+MATCH (domain:Relvar {relId: 'Agent'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_Agent_agent_in_BFO_0000015', fkType: 'OBJECTPROPERTY', propertyShortIri: 'agent_in', attOriginIds: 'Agent_uid', attDestinationIds: 'Agent_uid', cardinality: '[1..*]', description: 'Agent::Agent{Agent_uid::Agent_uid} -> Agent::Agent{Agent_uid::Agent_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'Agent_agent_in_BFO_0000015'})
+MATCH (range:Relvar {relId: 'BFO_0000015'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_Agent_agent_in_BFO_0000015', fkType: 'OBJECTPROPERTY', propertyShortIri: 'agent_in', attOriginIds: 'BFO_0000015_uid', attDestinationIds: 'BFO_0000015_uid', cardinality: '[1..*]', description: 'BFO_0000015::BFO_0000015{BFO_0000015_uid::BFO_0000015_uid} -> BFO_0000015::BFO_0000015{BFO_0000015_uid::BFO_0000015_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'ONTORELA_C624fa67d_IAO_0000136_HOSO_0000137'})
+MATCH (domain:Relvar {relId: 'ONTORELA_C624fa67d'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_ONTORELA_C624fa67d_IAO_0000136_HOSO_0000137', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'ONTORELA_C624fa67d_uid', attDestinationIds: 'ONTORELA_C624fa67d_uid', cardinality: '[1..1]', description: 'ONTORELA_C624fa67d::ONTORELA_C624fa67d{ONTORELA_C624fa67d_uid::ONTORELA_C624fa67d_uid} -> ONTORELA_C624fa67d::ONTORELA_C624fa67d{ONTORELA_C624fa67d_uid::ONTORELA_C624fa67d_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'ONTORELA_C624fa67d_IAO_0000136_HOSO_0000137'})
+MATCH (range:Relvar {relId: 'HOSO_0000137'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_ONTORELA_C624fa67d_IAO_0000136_HOSO_0000137', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'HOSO_0000137_uid', attDestinationIds: 'HOSO_0000137_uid', cardinality: '[1..1]', description: 'HOSO_0000137::HOSO_0000137{HOSO_0000137_uid::HOSO_0000137_uid} -> HOSO_0000137::HOSO_0000137{HOSO_0000137_uid::HOSO_0000137_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000045_OBI_0000299_ONTORELA_C5c900f41'})
+MATCH (domain:Relvar {relId: 'HOSO_0000045'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000045_OBI_0000299_ONTORELA_C5c900f41', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OBI_0000299', attOriginIds: 'HOSO_0000045_uid', attDestinationIds: 'HOSO_0000045_uid', cardinality: '[1..*]', description: 'HOSO_0000045::HOSO_0000045{HOSO_0000045_uid::HOSO_0000045_uid} -> HOSO_0000045::HOSO_0000045{HOSO_0000045_uid::HOSO_0000045_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000045_OBI_0000299_ONTORELA_C5c900f41'})
+MATCH (range:Relvar {relId: 'ONTORELA_C5c900f41'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000045_OBI_0000299_ONTORELA_C5c900f41', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OBI_0000299', attOriginIds: 'ONTORELA_C5c900f41_uid', attDestinationIds: 'ONTORELA_C5c900f41_uid', cardinality: '[1..*]', description: 'ONTORELA_C5c900f41::ONTORELA_C5c900f41{ONTORELA_C5c900f41_uid::ONTORELA_C5c900f41_uid} -> ONTORELA_C5c900f41::ONTORELA_C5c900f41{ONTORELA_C5c900f41_uid::ONTORELA_C5c900f41_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'IAO_0000104_BFO_0000051_IAO_0000007'})
+MATCH (domain:Relvar {relId: 'IAO_0000104'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_IAO_0000104_BFO_0000051_IAO_0000007', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000051', attOriginIds: 'IAO_0000104_uid', attDestinationIds: 'IAO_0000104_uid', cardinality: '[1..*]', description: 'IAO_0000104::IAO_0000104{IAO_0000104_uid::IAO_0000104_uid} -> IAO_0000104::IAO_0000104{IAO_0000104_uid::IAO_0000104_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'IAO_0000104_BFO_0000051_IAO_0000007'})
+MATCH (range:Relvar {relId: 'IAO_0000007'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_IAO_0000104_BFO_0000051_IAO_0000007', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000051', attOriginIds: 'IAO_0000007_uid', attDestinationIds: 'IAO_0000007_uid', cardinality: '[1..*]', description: 'IAO_0000007::IAO_0000007{IAO_0000007_uid::IAO_0000007_uid} -> IAO_0000007::IAO_0000007{IAO_0000007_uid::IAO_0000007_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'IAO_0000104_BFO_0000051_IAO_0000005'})
+MATCH (domain:Relvar {relId: 'IAO_0000104'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_IAO_0000104_BFO_0000051_IAO_0000005', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000051', attOriginIds: 'IAO_0000104_uid', attDestinationIds: 'IAO_0000104_uid', cardinality: '[1..*]', description: 'IAO_0000104::IAO_0000104{IAO_0000104_uid::IAO_0000104_uid} -> IAO_0000104::IAO_0000104{IAO_0000104_uid::IAO_0000104_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'IAO_0000104_BFO_0000051_IAO_0000005'})
+MATCH (range:Relvar {relId: 'IAO_0000005'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_IAO_0000104_BFO_0000051_IAO_0000005', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000051', attOriginIds: 'IAO_0000005_uid', attDestinationIds: 'IAO_0000005_uid', cardinality: '[1..*]', description: 'IAO_0000005::IAO_0000005{IAO_0000005_uid::IAO_0000005_uid} -> IAO_0000005::IAO_0000005{IAO_0000005_uid::IAO_0000005_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000020_RO_0002180_HEPRO_0000101'})
+MATCH (domain:Relvar {relId: 'HEPRO_0000020'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HEPRO_0000020_RO_0002180_HEPRO_0000101', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HEPRO_0000020_uid', attDestinationIds: 'HEPRO_0000020_uid', cardinality: '[1..*]', description: 'HEPRO_0000020::HEPRO_0000020{HEPRO_0000020_uid::HEPRO_0000020_uid} -> HEPRO_0000020::HEPRO_0000020{HEPRO_0000020_uid::HEPRO_0000020_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000020_RO_0002180_HEPRO_0000101'})
+MATCH (range:Relvar {relId: 'HEPRO_0000101'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HEPRO_0000020_RO_0002180_HEPRO_0000101', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HEPRO_0000101_uid', attDestinationIds: 'HEPRO_0000101_uid', cardinality: '[1..*]', description: 'HEPRO_0000101::HEPRO_0000101{HEPRO_0000101_uid::HEPRO_0000101_uid} -> HEPRO_0000101::HEPRO_0000101{HEPRO_0000101_uid::HEPRO_0000101_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000020_RO_0002180_HEPRO_0000103'})
+MATCH (domain:Relvar {relId: 'HEPRO_0000020'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HEPRO_0000020_RO_0002180_HEPRO_0000103', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HEPRO_0000020_uid', attDestinationIds: 'HEPRO_0000020_uid', cardinality: '[1..*]', description: 'HEPRO_0000020::HEPRO_0000020{HEPRO_0000020_uid::HEPRO_0000020_uid} -> HEPRO_0000020::HEPRO_0000020{HEPRO_0000020_uid::HEPRO_0000020_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000020_RO_0002180_HEPRO_0000103'})
+MATCH (range:Relvar {relId: 'HEPRO_0000103'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HEPRO_0000020_RO_0002180_HEPRO_0000103', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HEPRO_0000103_uid', attDestinationIds: 'HEPRO_0000103_uid', cardinality: '[1..*]', description: 'HEPRO_0000103::HEPRO_0000103{HEPRO_0000103_uid::HEPRO_0000103_uid} -> HEPRO_0000103::HEPRO_0000103{HEPRO_0000103_uid::HEPRO_0000103_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000018_OpenLHS-Core_0000070_MPHPO_0000016'})
+MATCH (domain:Relvar {relId: 'MPHPO_0000018'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_MPHPO_0000018_OpenLHS-Core_0000070_MPHPO_0000016', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000070', attOriginIds: 'MPHPO_0000018_uid', attDestinationIds: 'MPHPO_0000018_uid', cardinality: '[1..*]', description: 'MPHPO_0000018::MPHPO_0000018{MPHPO_0000018_uid::MPHPO_0000018_uid} -> MPHPO_0000018::MPHPO_0000018{MPHPO_0000018_uid::MPHPO_0000018_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000018_OpenLHS-Core_0000070_MPHPO_0000016'})
+MATCH (range:Relvar {relId: 'MPHPO_0000016'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_MPHPO_0000018_OpenLHS-Core_0000070_MPHPO_0000016', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000070', attOriginIds: 'MPHPO_0000016_uid', attDestinationIds: 'MPHPO_0000016_uid', cardinality: '[1..*]', description: 'MPHPO_0000016::MPHPO_0000016{MPHPO_0000016_uid::MPHPO_0000016_uid} -> MPHPO_0000016::MPHPO_0000016{MPHPO_0000016_uid::MPHPO_0000016_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000068_RO_0002087_HOSO_0000012'})
+MATCH (domain:Relvar {relId: 'HOSO_0000068'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000068_RO_0002087_HOSO_0000012', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002087', attOriginIds: 'HOSO_0000068_uid', attDestinationIds: 'HOSO_0000068_uid', cardinality: '[1..*]', description: 'HOSO_0000068::HOSO_0000068{HOSO_0000068_uid::HOSO_0000068_uid} -> HOSO_0000068::HOSO_0000068{HOSO_0000068_uid::HOSO_0000068_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000068_RO_0002087_HOSO_0000012'})
+MATCH (range:Relvar {relId: 'HOSO_0000012'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000068_RO_0002087_HOSO_0000012', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002087', attOriginIds: 'HOSO_0000012_uid', attDestinationIds: 'HOSO_0000012_uid', cardinality: '[1..*]', description: 'HOSO_0000012::HOSO_0000012{HOSO_0000012_uid::HOSO_0000012_uid} -> HOSO_0000012::HOSO_0000012{HOSO_0000012_uid::HOSO_0000012_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000056_RO_0002180_HOSO_0000100'})
+MATCH (domain:Relvar {relId: 'HOSO_0000056'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000056_RO_0002180_HOSO_0000100', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HOSO_0000056_uid', attDestinationIds: 'HOSO_0000056_uid', cardinality: '[1..*]', description: 'HOSO_0000056::HOSO_0000056{HOSO_0000056_uid::HOSO_0000056_uid} -> HOSO_0000056::HOSO_0000056{HOSO_0000056_uid::HOSO_0000056_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000056_RO_0002180_HOSO_0000100'})
+MATCH (range:Relvar {relId: 'HOSO_0000100'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000056_RO_0002180_HOSO_0000100', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HOSO_0000100_uid', attDestinationIds: 'HOSO_0000100_uid', cardinality: '[1..*]', description: 'HOSO_0000100::HOSO_0000100{HOSO_0000100_uid::HOSO_0000100_uid} -> HOSO_0000100::HOSO_0000100{HOSO_0000100_uid::HOSO_0000100_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000056_RO_0002180_HOSO_0000103'})
+MATCH (domain:Relvar {relId: 'HOSO_0000056'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000056_RO_0002180_HOSO_0000103', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HOSO_0000056_uid', attDestinationIds: 'HOSO_0000056_uid', cardinality: '[1..*]', description: 'HOSO_0000056::HOSO_0000056{HOSO_0000056_uid::HOSO_0000056_uid} -> HOSO_0000056::HOSO_0000056{HOSO_0000056_uid::HOSO_0000056_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000056_RO_0002180_HOSO_0000103'})
+MATCH (range:Relvar {relId: 'HOSO_0000103'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000056_RO_0002180_HOSO_0000103', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HOSO_0000103_uid', attDestinationIds: 'HOSO_0000103_uid', cardinality: '[1..*]', description: 'HOSO_0000103::HOSO_0000103{HOSO_0000103_uid::HOSO_0000103_uid} -> HOSO_0000103::HOSO_0000103{HOSO_0000103_uid::HOSO_0000103_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000035_OBI_0000293_OpenLHS-Core_0000027'})
+MATCH (domain:Relvar {relId: 'OpenLHS-Core_0000035'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_OpenLHS-Core_0000035_OBI_0000293_OpenLHS-Core_0000027', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OBI_0000293', attOriginIds: 'OpenLHS-Core_0000035_uid', attDestinationIds: 'OpenLHS-Core_0000035_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000035::OpenLHS-Core_0000035{OpenLHS-Core_0000035_uid::OpenLHS-Core_0000035_uid} -> OpenLHS-Core_0000035::OpenLHS-Core_0000035{OpenLHS-Core_0000035_uid::OpenLHS-Core_0000035_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000035_OBI_0000293_OpenLHS-Core_0000027'})
+MATCH (range:Relvar {relId: 'OpenLHS-Core_0000027'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_OpenLHS-Core_0000035_OBI_0000293_OpenLHS-Core_0000027', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OBI_0000293', attOriginIds: 'OpenLHS-Core_0000027_uid', attDestinationIds: 'OpenLHS-Core_0000027_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000027::OpenLHS-Core_0000027{OpenLHS-Core_0000027_uid::OpenLHS-Core_0000027_uid} -> OpenLHS-Core_0000027::OpenLHS-Core_0000027{OpenLHS-Core_0000027_uid::OpenLHS-Core_0000027_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000035_OBI_0000293_OpenLHS-Core_0000029'})
+MATCH (domain:Relvar {relId: 'OpenLHS-Core_0000035'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_OpenLHS-Core_0000035_OBI_0000293_OpenLHS-Core_0000029', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OBI_0000293', attOriginIds: 'OpenLHS-Core_0000035_uid', attDestinationIds: 'OpenLHS-Core_0000035_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000035::OpenLHS-Core_0000035{OpenLHS-Core_0000035_uid::OpenLHS-Core_0000035_uid} -> OpenLHS-Core_0000035::OpenLHS-Core_0000035{OpenLHS-Core_0000035_uid::OpenLHS-Core_0000035_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000035_OBI_0000293_OpenLHS-Core_0000029'})
+MATCH (range:Relvar {relId: 'OpenLHS-Core_0000029'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_OpenLHS-Core_0000035_OBI_0000293_OpenLHS-Core_0000029', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OBI_0000293', attOriginIds: 'OpenLHS-Core_0000029_uid', attDestinationIds: 'OpenLHS-Core_0000029_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000029::OpenLHS-Core_0000029{OpenLHS-Core_0000029_uid::OpenLHS-Core_0000029_uid} -> OpenLHS-Core_0000029::OpenLHS-Core_0000029{OpenLHS-Core_0000029_uid::OpenLHS-Core_0000029_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000019_OpenLHS-Core_0000070_MPHPO_0000016'})
+MATCH (domain:Relvar {relId: 'MPHPO_0000019'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_MPHPO_0000019_OpenLHS-Core_0000070_MPHPO_0000016', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000070', attOriginIds: 'MPHPO_0000019_uid', attDestinationIds: 'MPHPO_0000019_uid', cardinality: '[1..*]', description: 'MPHPO_0000019::MPHPO_0000019{MPHPO_0000019_uid::MPHPO_0000019_uid} -> MPHPO_0000019::MPHPO_0000019{MPHPO_0000019_uid::MPHPO_0000019_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'MPHPO_0000019_OpenLHS-Core_0000070_MPHPO_0000016'})
+MATCH (range:Relvar {relId: 'MPHPO_0000016'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_MPHPO_0000019_OpenLHS-Core_0000070_MPHPO_0000016', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000070', attOriginIds: 'MPHPO_0000016_uid', attDestinationIds: 'MPHPO_0000016_uid', cardinality: '[1..*]', description: 'MPHPO_0000016::MPHPO_0000016{MPHPO_0000016_uid::MPHPO_0000016_uid} -> MPHPO_0000016::MPHPO_0000016{MPHPO_0000016_uid::MPHPO_0000016_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000011_OBI_0000312_ONTORELA_C6a3e089c'})
+MATCH (domain:Relvar {relId: 'OpenLHS-Core_0000011'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_OpenLHS-Core_0000011_OBI_0000312_ONTORELA_C6a3e089c', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OBI_0000312', attOriginIds: 'OpenLHS-Core_0000011_uid', attDestinationIds: 'OpenLHS-Core_0000011_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000011::OpenLHS-Core_0000011{OpenLHS-Core_0000011_uid::OpenLHS-Core_0000011_uid} -> OpenLHS-Core_0000011::OpenLHS-Core_0000011{OpenLHS-Core_0000011_uid::OpenLHS-Core_0000011_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000011_OBI_0000312_ONTORELA_C6a3e089c'})
+MATCH (range:Relvar {relId: 'ONTORELA_C6a3e089c'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_OpenLHS-Core_0000011_OBI_0000312_ONTORELA_C6a3e089c', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OBI_0000312', attOriginIds: 'ONTORELA_C6a3e089c_uid', attDestinationIds: 'ONTORELA_C6a3e089c_uid', cardinality: '[1..*]', description: 'ONTORELA_C6a3e089c::ONTORELA_C6a3e089c{ONTORELA_C6a3e089c_uid::ONTORELA_C6a3e089c_uid} -> ONTORELA_C6a3e089c::ONTORELA_C6a3e089c{ONTORELA_C6a3e089c_uid::ONTORELA_C6a3e089c_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000047_IAO_0000136_HOSO_0000008'})
+MATCH (domain:Relvar {relId: 'HOSO_0000047'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000047_IAO_0000136_HOSO_0000008', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'HOSO_0000047_uid', attDestinationIds: 'HOSO_0000047_uid', cardinality: '[1..*]', description: 'HOSO_0000047::HOSO_0000047{HOSO_0000047_uid::HOSO_0000047_uid} -> HOSO_0000047::HOSO_0000047{HOSO_0000047_uid::HOSO_0000047_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000047_IAO_0000136_HOSO_0000008'})
+MATCH (range:Relvar {relId: 'HOSO_0000008'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000047_IAO_0000136_HOSO_0000008', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'HOSO_0000008_uid', attDestinationIds: 'HOSO_0000008_uid', cardinality: '[1..*]', description: 'HOSO_0000008::HOSO_0000008{HOSO_0000008_uid::HOSO_0000008_uid} -> HOSO_0000008::HOSO_0000008{HOSO_0000008_uid::HOSO_0000008_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000023_IAO_0000219_HOSO_0000008'})
+MATCH (domain:Relvar {relId: 'HOSO_0000023'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000023_IAO_0000219_HOSO_0000008', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000219', attOriginIds: 'HOSO_0000023_uid', attDestinationIds: 'HOSO_0000023_uid', cardinality: '[1..1]', description: 'HOSO_0000023::HOSO_0000023{HOSO_0000023_uid::HOSO_0000023_uid} -> HOSO_0000023::HOSO_0000023{HOSO_0000023_uid::HOSO_0000023_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000023_IAO_0000219_HOSO_0000008'})
+MATCH (range:Relvar {relId: 'HOSO_0000008'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000023_IAO_0000219_HOSO_0000008', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000219', attOriginIds: 'HOSO_0000008_uid', attDestinationIds: 'HOSO_0000008_uid', cardinality: '[1..1]', description: 'HOSO_0000008::HOSO_0000008{HOSO_0000008_uid::HOSO_0000008_uid} -> HOSO_0000008::HOSO_0000008{HOSO_0000008_uid::HOSO_0000008_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000011_BFO_0000055_HOSO_0000006'})
+MATCH (domain:Relvar {relId: 'HOSO_0000011'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000011_BFO_0000055_HOSO_0000006', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000055', attOriginIds: 'HOSO_0000011_uid', attDestinationIds: 'HOSO_0000011_uid', cardinality: '[1..*]', description: 'HOSO_0000011::HOSO_0000011{HOSO_0000011_uid::HOSO_0000011_uid} -> HOSO_0000011::HOSO_0000011{HOSO_0000011_uid::HOSO_0000011_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000011_BFO_0000055_HOSO_0000006'})
+MATCH (range:Relvar {relId: 'HOSO_0000006'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000011_BFO_0000055_HOSO_0000006', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000055', attOriginIds: 'HOSO_0000006_uid', attDestinationIds: 'HOSO_0000006_uid', cardinality: '[1..*]', description: 'HOSO_0000006::HOSO_0000006{HOSO_0000006_uid::HOSO_0000006_uid} -> HOSO_0000006::HOSO_0000006{HOSO_0000006_uid::HOSO_0000006_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000011_HOSO_0000002_HOSO_0000081'})
+MATCH (domain:Relvar {relId: 'HOSO_0000011'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000011_HOSO_0000002_HOSO_0000081', fkType: 'OBJECTPROPERTY', propertyShortIri: 'HOSO_0000002', attOriginIds: 'HOSO_0000011_uid', attDestinationIds: 'HOSO_0000011_uid', cardinality: '[1..*]', description: 'HOSO_0000011::HOSO_0000011{HOSO_0000011_uid::HOSO_0000011_uid} -> HOSO_0000011::HOSO_0000011{HOSO_0000011_uid::HOSO_0000011_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000011_HOSO_0000002_HOSO_0000081'})
+MATCH (range:Relvar {relId: 'HOSO_0000081'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000011_HOSO_0000002_HOSO_0000081', fkType: 'OBJECTPROPERTY', propertyShortIri: 'HOSO_0000002', attOriginIds: 'HOSO_0000081_uid', attDestinationIds: 'HOSO_0000081_uid', cardinality: '[1..*]', description: 'HOSO_0000081::HOSO_0000081{HOSO_0000081_uid::HOSO_0000081_uid} -> HOSO_0000081::HOSO_0000081{HOSO_0000081_uid::HOSO_0000081_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'IAO_0000578_BFO_0000051_IAO_0000577'})
+MATCH (domain:Relvar {relId: 'IAO_0000578'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_IAO_0000578_BFO_0000051_IAO_0000577', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000051', attOriginIds: 'IAO_0000578_uid', attDestinationIds: 'IAO_0000578_uid', cardinality: '[1..*]', description: 'IAO_0000578::IAO_0000578{IAO_0000578_uid::IAO_0000578_uid} -> IAO_0000578::IAO_0000578{IAO_0000578_uid::IAO_0000578_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'IAO_0000578_BFO_0000051_IAO_0000577'})
+MATCH (range:Relvar {relId: 'IAO_0000577'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_IAO_0000578_BFO_0000051_IAO_0000577', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000051', attOriginIds: 'IAO_0000577_uid', attDestinationIds: 'IAO_0000577_uid', cardinality: '[1..*]', description: 'IAO_0000577::IAO_0000577{IAO_0000577_uid::IAO_0000577_uid} -> IAO_0000577::IAO_0000577{IAO_0000577_uid::IAO_0000577_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'IAO_0000578_BFO_0000051_ONTORELA_C3f6f3e4f'})
+MATCH (domain:Relvar {relId: 'IAO_0000578'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_IAO_0000578_BFO_0000051_ONTORELA_C3f6f3e4f', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000051', attOriginIds: 'IAO_0000578_uid', attDestinationIds: 'IAO_0000578_uid', cardinality: '[1..*]', description: 'IAO_0000578::IAO_0000578{IAO_0000578_uid::IAO_0000578_uid} -> IAO_0000578::IAO_0000578{IAO_0000578_uid::IAO_0000578_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'IAO_0000578_BFO_0000051_ONTORELA_C3f6f3e4f'})
+MATCH (range:Relvar {relId: 'ONTORELA_C3f6f3e4f'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_IAO_0000578_BFO_0000051_ONTORELA_C3f6f3e4f', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000051', attOriginIds: 'ONTORELA_C3f6f3e4f_uid', attDestinationIds: 'ONTORELA_C3f6f3e4f_uid', cardinality: '[1..*]', description: 'ONTORELA_C3f6f3e4f::ONTORELA_C3f6f3e4f{ONTORELA_C3f6f3e4f_uid::ONTORELA_C3f6f3e4f_uid} -> ONTORELA_C3f6f3e4f::ONTORELA_C3f6f3e4f{ONTORELA_C3f6f3e4f_uid::ONTORELA_C3f6f3e4f_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'BFO_0000015_BFO_0000055_BFO_0000017'})
+MATCH (domain:Relvar {relId: 'BFO_0000015'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_BFO_0000015_BFO_0000055_BFO_0000017', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000055', attOriginIds: 'BFO_0000015_uid', attDestinationIds: 'BFO_0000015_uid', cardinality: '[1..*]', description: 'BFO_0000015::BFO_0000015{BFO_0000015_uid::BFO_0000015_uid} -> BFO_0000015::BFO_0000015{BFO_0000015_uid::BFO_0000015_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'BFO_0000015_BFO_0000055_BFO_0000017'})
+MATCH (range:Relvar {relId: 'BFO_0000017'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_BFO_0000015_BFO_0000055_BFO_0000017', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000055', attOriginIds: 'BFO_0000017_uid', attDestinationIds: 'BFO_0000017_uid', cardinality: '[1..*]', description: 'BFO_0000017::BFO_0000017{BFO_0000017_uid::BFO_0000017_uid} -> BFO_0000017::BFO_0000017{BFO_0000017_uid::BFO_0000017_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'BFO_0000015_OpenLHS-Core_0000004_IAO_0000033'})
+MATCH (domain:Relvar {relId: 'BFO_0000015'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_BFO_0000015_OpenLHS-Core_0000004_IAO_0000033', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000004', attOriginIds: 'BFO_0000015_uid', attDestinationIds: 'BFO_0000015_uid', cardinality: '[1..*]', description: 'BFO_0000015::BFO_0000015{BFO_0000015_uid::BFO_0000015_uid} -> BFO_0000015::BFO_0000015{BFO_0000015_uid::BFO_0000015_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'BFO_0000015_OpenLHS-Core_0000004_IAO_0000033'})
+MATCH (range:Relvar {relId: 'IAO_0000033'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_BFO_0000015_OpenLHS-Core_0000004_IAO_0000033', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000004', attOriginIds: 'IAO_0000033_uid', attDestinationIds: 'IAO_0000033_uid', cardinality: '[1..*]', description: 'IAO_0000033::IAO_0000033{IAO_0000033_uid::IAO_0000033_uid} -> IAO_0000033::IAO_0000033{IAO_0000033_uid::IAO_0000033_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'BFO_0000015_OpenLHS-Core_0000067_IAO_0000033'})
+MATCH (domain:Relvar {relId: 'BFO_0000015'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk3_BFO_0000015_OpenLHS-Core_0000067_IAO_0000033', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000004', attOriginIds: 'BFO_0000015_uid', attDestinationIds: 'BFO_0000015_uid', cardinality: '[1..*]', description: 'BFO_0000015::BFO_0000015{BFO_0000015_uid::BFO_0000015_uid} -> BFO_0000015::BFO_0000015{BFO_0000015_uid::BFO_0000015_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'BFO_0000015_OpenLHS-Core_0000067_IAO_0000033'})
+MATCH (range:Relvar {relId: 'IAO_0000033'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk4_BFO_0000015_OpenLHS-Core_0000067_IAO_0000033', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000004', attOriginIds: 'IAO_0000033_uid', attDestinationIds: 'IAO_0000033_uid', cardinality: '[1..*]', description: 'IAO_0000033::IAO_0000033{IAO_0000033_uid::IAO_0000033_uid} -> IAO_0000033::IAO_0000033{IAO_0000033_uid::IAO_0000033_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'BFO_0000015_OpenLHS-Core_0000071_BFO_0000015'})
+MATCH (domain:Relvar {relId: 'BFO_0000015'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_BFO_0000015_OpenLHS-Core_0000071_BFO_0000015', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000071', attOriginIds: 'BFO_0000015_uid_domain', attDestinationIds: 'BFO_0000015_uid', cardinality: '[1..*]', description: 'BFO_0000015::BFO_0000015{BFO_0000015_uid_domain::BFO_0000015_uid_domain} -> BFO_0000015::BFO_0000015{BFO_0000015_uid::BFO_0000015_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'BFO_0000015_OpenLHS-Core_0000071_BFO_0000015'})
+MATCH (range:Relvar {relId: 'BFO_0000015'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_BFO_0000015_OpenLHS-Core_0000071_BFO_0000015', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000071', attOriginIds: 'BFO_0000015_uid_range', attDestinationIds: 'BFO_0000015_uid', cardinality: '[1..*]', description: 'BFO_0000015::BFO_0000015{BFO_0000015_uid_range::BFO_0000015_uid_range} -> BFO_0000015::BFO_0000015{BFO_0000015_uid::BFO_0000015_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'BFO_0000015_RO_0002018_BFO_0000015'})
+MATCH (domain:Relvar {relId: 'BFO_0000015'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_BFO_0000015_RO_0002018_BFO_0000015', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002018', attOriginIds: 'BFO_0000015_uid_domain', attDestinationIds: 'BFO_0000015_uid', cardinality: '[1..*]', description: 'BFO_0000015::BFO_0000015{BFO_0000015_uid_domain::BFO_0000015_uid_domain} -> BFO_0000015::BFO_0000015{BFO_0000015_uid::BFO_0000015_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'BFO_0000015_RO_0002018_BFO_0000015'})
+MATCH (range:Relvar {relId: 'BFO_0000015'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_BFO_0000015_RO_0002018_BFO_0000015', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002018', attOriginIds: 'BFO_0000015_uid_range', attDestinationIds: 'BFO_0000015_uid', cardinality: '[1..*]', description: 'BFO_0000015::BFO_0000015{BFO_0000015_uid_range::BFO_0000015_uid_range} -> BFO_0000015::BFO_0000015{BFO_0000015_uid::BFO_0000015_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000016_IAO_0000136_HEPRO_0000005'})
+MATCH (domain:Relvar {relId: 'HEPRO_0000016'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HEPRO_0000016_IAO_0000136_HEPRO_0000005', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'HEPRO_0000016_uid', attDestinationIds: 'HEPRO_0000016_uid', cardinality: '[1..*]', description: 'HEPRO_0000016::HEPRO_0000016{HEPRO_0000016_uid::HEPRO_0000016_uid} -> HEPRO_0000016::HEPRO_0000016{HEPRO_0000016_uid::HEPRO_0000016_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000016_IAO_0000136_HEPRO_0000005'})
+MATCH (range:Relvar {relId: 'HEPRO_0000005'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HEPRO_0000016_IAO_0000136_HEPRO_0000005', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'HEPRO_0000005_uid', attDestinationIds: 'HEPRO_0000005_uid', cardinality: '[1..*]', description: 'HEPRO_0000005::HEPRO_0000005{HEPRO_0000005_uid::HEPRO_0000005_uid} -> HEPRO_0000005::HEPRO_0000005{HEPRO_0000005_uid::HEPRO_0000005_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000125_RO_0002180_IOIO_0000013'})
+MATCH (domain:Relvar {relId: 'HEPRO_0000125'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HEPRO_0000125_RO_0002180_IOIO_0000013', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HEPRO_0000125_uid', attDestinationIds: 'HEPRO_0000125_uid', cardinality: '[1..*]', description: 'HEPRO_0000125::HEPRO_0000125{HEPRO_0000125_uid::HEPRO_0000125_uid} -> HEPRO_0000125::HEPRO_0000125{HEPRO_0000125_uid::HEPRO_0000125_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000125_RO_0002180_IOIO_0000013'})
+MATCH (range:Relvar {relId: 'IOIO_0000013'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HEPRO_0000125_RO_0002180_IOIO_0000013', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'IOIO_0000013_uid', attDestinationIds: 'IOIO_0000013_uid', cardinality: '[1..*]', description: 'IOIO_0000013::IOIO_0000013{IOIO_0000013_uid::IOIO_0000013_uid} -> IOIO_0000013::IOIO_0000013{IOIO_0000013_uid::IOIO_0000013_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000125_RO_0002180_HEPRO_0000017'})
+MATCH (domain:Relvar {relId: 'HEPRO_0000125'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HEPRO_0000125_RO_0002180_HEPRO_0000017', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HEPRO_0000125_uid', attDestinationIds: 'HEPRO_0000125_uid', cardinality: '[1..*]', description: 'HEPRO_0000125::HEPRO_0000125{HEPRO_0000125_uid::HEPRO_0000125_uid} -> HEPRO_0000125::HEPRO_0000125{HEPRO_0000125_uid::HEPRO_0000125_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000125_RO_0002180_HEPRO_0000017'})
+MATCH (range:Relvar {relId: 'HEPRO_0000017'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HEPRO_0000125_RO_0002180_HEPRO_0000017', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HEPRO_0000017_uid', attDestinationIds: 'HEPRO_0000017_uid', cardinality: '[1..*]', description: 'HEPRO_0000017::HEPRO_0000017{HEPRO_0000017_uid::HEPRO_0000017_uid} -> HEPRO_0000017::HEPRO_0000017{HEPRO_0000017_uid::HEPRO_0000017_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'BFO_0000003_BFO_0000062_BFO_0000003'})
+MATCH (domain:Relvar {relId: 'BFO_0000003'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_BFO_0000003_BFO_0000062_BFO_0000003', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000062', attOriginIds: 'BFO_0000003_uid_domain', attDestinationIds: 'BFO_0000003_uid', cardinality: '[1..*]', description: 'BFO_0000003::BFO_0000003{BFO_0000003_uid_domain::BFO_0000003_uid_domain} -> BFO_0000003::BFO_0000003{BFO_0000003_uid::BFO_0000003_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'BFO_0000003_BFO_0000062_BFO_0000003'})
+MATCH (range:Relvar {relId: 'BFO_0000003'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_BFO_0000003_BFO_0000062_BFO_0000003', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000062', attOriginIds: 'BFO_0000003_uid_range', attDestinationIds: 'BFO_0000003_uid', cardinality: '[1..*]', description: 'BFO_0000003::BFO_0000003{BFO_0000003_uid_range::BFO_0000003_uid_range} -> BFO_0000003::BFO_0000003{BFO_0000003_uid::BFO_0000003_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'BFO_0000003_BFO_0000063_BFO_0000003'})
+MATCH (domain:Relvar {relId: 'BFO_0000003'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_BFO_0000003_BFO_0000063_BFO_0000003', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000063', attOriginIds: 'BFO_0000003_uid_domain', attDestinationIds: 'BFO_0000003_uid', cardinality: '[1..*]', description: 'BFO_0000003::BFO_0000003{BFO_0000003_uid_domain::BFO_0000003_uid_domain} -> BFO_0000003::BFO_0000003{BFO_0000003_uid::BFO_0000003_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'BFO_0000003_BFO_0000063_BFO_0000003'})
+MATCH (range:Relvar {relId: 'BFO_0000003'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_BFO_0000003_BFO_0000063_BFO_0000003', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000063', attOriginIds: 'BFO_0000003_uid_range', attDestinationIds: 'BFO_0000003_uid', cardinality: '[1..*]', description: 'BFO_0000003::BFO_0000003{BFO_0000003_uid_range::BFO_0000003_uid_range} -> BFO_0000003::BFO_0000003{BFO_0000003_uid::BFO_0000003_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'BFO_0000003_BFO_0000066_BFO_0000004'})
+MATCH (domain:Relvar {relId: 'BFO_0000003'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_BFO_0000003_BFO_0000066_BFO_0000004', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000066', attOriginIds: 'BFO_0000003_uid', attDestinationIds: 'BFO_0000003_uid', cardinality: '[1..*]', description: 'BFO_0000003::BFO_0000003{BFO_0000003_uid::BFO_0000003_uid} -> BFO_0000003::BFO_0000003{BFO_0000003_uid::BFO_0000003_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'BFO_0000003_BFO_0000066_BFO_0000004'})
+MATCH (range:Relvar {relId: 'BFO_0000004'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_BFO_0000003_BFO_0000066_BFO_0000004', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000066', attOriginIds: 'BFO_0000004_uid', attDestinationIds: 'BFO_0000004_uid', cardinality: '[1..*]', description: 'BFO_0000004::BFO_0000004{BFO_0000004_uid::BFO_0000004_uid} -> BFO_0000004::BFO_0000004{BFO_0000004_uid::BFO_0000004_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'BFO_0000003_RO_0000057_BFO_0000002'})
+MATCH (domain:Relvar {relId: 'BFO_0000003'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_BFO_0000003_RO_0000057_BFO_0000002', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0000057', attOriginIds: 'BFO_0000003_uid', attDestinationIds: 'BFO_0000003_uid', cardinality: '[1..*]', description: 'BFO_0000003::BFO_0000003{BFO_0000003_uid::BFO_0000003_uid} -> BFO_0000003::BFO_0000003{BFO_0000003_uid::BFO_0000003_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'BFO_0000003_RO_0000057_BFO_0000002'})
+MATCH (range:Relvar {relId: 'BFO_0000002'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_BFO_0000003_RO_0000057_BFO_0000002', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0000057', attOriginIds: 'BFO_0000002_uid', attDestinationIds: 'BFO_0000002_uid', cardinality: '[1..*]', description: 'BFO_0000002::BFO_0000002{BFO_0000002_uid::BFO_0000002_uid} -> BFO_0000002::BFO_0000002{BFO_0000002_uid::BFO_0000002_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'BFO_0000003_RO_0002091_BFO_0000003'})
+MATCH (domain:Relvar {relId: 'BFO_0000003'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_BFO_0000003_RO_0002091_BFO_0000003', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002091', attOriginIds: 'BFO_0000003_uid_domain', attDestinationIds: 'BFO_0000003_uid', cardinality: '[1..*]', description: 'BFO_0000003::BFO_0000003{BFO_0000003_uid_domain::BFO_0000003_uid_domain} -> BFO_0000003::BFO_0000003{BFO_0000003_uid::BFO_0000003_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'BFO_0000003_RO_0002091_BFO_0000003'})
+MATCH (range:Relvar {relId: 'BFO_0000003'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_BFO_0000003_RO_0002091_BFO_0000003', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002091', attOriginIds: 'BFO_0000003_uid_range', attDestinationIds: 'BFO_0000003_uid', cardinality: '[1..*]', description: 'BFO_0000003::BFO_0000003{BFO_0000003_uid_range::BFO_0000003_uid_range} -> BFO_0000003::BFO_0000003{BFO_0000003_uid::BFO_0000003_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'BFO_0000003_RO_0002222_BFO_0000003'})
+MATCH (domain:Relvar {relId: 'BFO_0000003'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_BFO_0000003_RO_0002222_BFO_0000003', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002222', attOriginIds: 'BFO_0000003_uid_domain', attDestinationIds: 'BFO_0000003_uid', cardinality: '[1..*]', description: 'BFO_0000003::BFO_0000003{BFO_0000003_uid_domain::BFO_0000003_uid_domain} -> BFO_0000003::BFO_0000003{BFO_0000003_uid::BFO_0000003_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'BFO_0000003_RO_0002222_BFO_0000003'})
+MATCH (range:Relvar {relId: 'BFO_0000003'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_BFO_0000003_RO_0002222_BFO_0000003', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002222', attOriginIds: 'BFO_0000003_uid_range', attDestinationIds: 'BFO_0000003_uid', cardinality: '[1..*]', description: 'BFO_0000003::BFO_0000003{BFO_0000003_uid_range::BFO_0000003_uid_range} -> BFO_0000003::BFO_0000003{BFO_0000003_uid::BFO_0000003_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'BFO_0000003_RO_0002479_BFO_0000004'})
+MATCH (domain:Relvar {relId: 'BFO_0000003'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk3_BFO_0000003_RO_0002479_BFO_0000004', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000066', attOriginIds: 'BFO_0000003_uid', attDestinationIds: 'BFO_0000003_uid', cardinality: '[1..*]', description: 'BFO_0000003::BFO_0000003{BFO_0000003_uid::BFO_0000003_uid} -> BFO_0000003::BFO_0000003{BFO_0000003_uid::BFO_0000003_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'BFO_0000003_RO_0002479_BFO_0000004'})
+MATCH (range:Relvar {relId: 'BFO_0000004'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk4_BFO_0000003_RO_0002479_BFO_0000004', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000066', attOriginIds: 'BFO_0000004_uid', attDestinationIds: 'BFO_0000004_uid', cardinality: '[1..*]', description: 'BFO_0000004::BFO_0000004{BFO_0000004_uid::BFO_0000004_uid} -> BFO_0000004::BFO_0000004{BFO_0000004_uid::BFO_0000004_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000004_OpenLHS-Core_0000067_HEPRO_0000030'})
+MATCH (domain:Relvar {relId: 'HEPRO_0000004'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HEPRO_0000004_OpenLHS-Core_0000067_HEPRO_0000030', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000067', attOriginIds: 'HEPRO_0000004_uid', attDestinationIds: 'HEPRO_0000004_uid', cardinality: '[1..*]', description: 'HEPRO_0000004::HEPRO_0000004{HEPRO_0000004_uid::HEPRO_0000004_uid} -> HEPRO_0000004::HEPRO_0000004{HEPRO_0000004_uid::HEPRO_0000004_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000004_OpenLHS-Core_0000067_HEPRO_0000030'})
+MATCH (range:Relvar {relId: 'HEPRO_0000030'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HEPRO_0000004_OpenLHS-Core_0000067_HEPRO_0000030', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000067', attOriginIds: 'HEPRO_0000030_uid', attDestinationIds: 'HEPRO_0000030_uid', cardinality: '[1..*]', description: 'HEPRO_0000030::HEPRO_0000030{HEPRO_0000030_uid::HEPRO_0000030_uid} -> HEPRO_0000030::HEPRO_0000030{HEPRO_0000030_uid::HEPRO_0000030_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000004_RO_0002018_HEPRO_0000005'})
+MATCH (domain:Relvar {relId: 'HEPRO_0000004'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HEPRO_0000004_RO_0002018_HEPRO_0000005', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002018', attOriginIds: 'HEPRO_0000004_uid', attDestinationIds: 'HEPRO_0000004_uid', cardinality: '[1..*]', description: 'HEPRO_0000004::HEPRO_0000004{HEPRO_0000004_uid::HEPRO_0000004_uid} -> HEPRO_0000004::HEPRO_0000004{HEPRO_0000004_uid::HEPRO_0000004_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000004_RO_0002018_HEPRO_0000005'})
+MATCH (range:Relvar {relId: 'HEPRO_0000005'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HEPRO_0000004_RO_0002018_HEPRO_0000005', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002018', attOriginIds: 'HEPRO_0000005_uid', attDestinationIds: 'HEPRO_0000005_uid', cardinality: '[1..*]', description: 'HEPRO_0000005::HEPRO_0000005{HEPRO_0000005_uid::HEPRO_0000005_uid} -> HEPRO_0000005::HEPRO_0000005{HEPRO_0000005_uid::HEPRO_0000005_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000010_RO_0000056_ONTORELA_C73b67cf5'})
+MATCH (domain:Relvar {relId: 'OpenLHS-Core_0000010'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_OpenLHS-Core_0000010_RO_0000056_ONTORELA_C73b67cf5', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0000056', attOriginIds: 'OpenLHS-Core_0000010_uid', attDestinationIds: 'OpenLHS-Core_0000010_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000010::OpenLHS-Core_0000010{OpenLHS-Core_0000010_uid::OpenLHS-Core_0000010_uid} -> OpenLHS-Core_0000010::OpenLHS-Core_0000010{OpenLHS-Core_0000010_uid::OpenLHS-Core_0000010_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000010_RO_0000056_ONTORELA_C73b67cf5'})
+MATCH (range:Relvar {relId: 'ONTORELA_C73b67cf5'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_OpenLHS-Core_0000010_RO_0000056_ONTORELA_C73b67cf5', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0000056', attOriginIds: 'ONTORELA_C73b67cf5_uid', attDestinationIds: 'ONTORELA_C73b67cf5_uid', cardinality: '[1..*]', description: 'ONTORELA_C73b67cf5::ONTORELA_C73b67cf5{ONTORELA_C73b67cf5_uid::ONTORELA_C73b67cf5_uid} -> ONTORELA_C73b67cf5::ONTORELA_C73b67cf5{ONTORELA_C73b67cf5_uid::ONTORELA_C73b67cf5_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000010_HOSO_0000001_HOSO_0000009'})
+MATCH (domain:Relvar {relId: 'HOSO_0000010'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000010_HOSO_0000001_HOSO_0000009', fkType: 'OBJECTPROPERTY', propertyShortIri: 'HOSO_0000001', attOriginIds: 'HOSO_0000010_uid', attDestinationIds: 'HOSO_0000010_uid', cardinality: '[1..*]', description: 'HOSO_0000010::HOSO_0000010{HOSO_0000010_uid::HOSO_0000010_uid} -> HOSO_0000010::HOSO_0000010{HOSO_0000010_uid::HOSO_0000010_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000010_HOSO_0000001_HOSO_0000009'})
+MATCH (range:Relvar {relId: 'HOSO_0000009'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000010_HOSO_0000001_HOSO_0000009', fkType: 'OBJECTPROPERTY', propertyShortIri: 'HOSO_0000001', attOriginIds: 'HOSO_0000009_uid', attDestinationIds: 'HOSO_0000009_uid', cardinality: '[1..*]', description: 'HOSO_0000009::HOSO_0000009{HOSO_0000009_uid::HOSO_0000009_uid} -> HOSO_0000009::HOSO_0000009{HOSO_0000009_uid::HOSO_0000009_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000046_IAO_0000136_HOSO_0000012'})
+MATCH (domain:Relvar {relId: 'HOSO_0000046'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000046_IAO_0000136_HOSO_0000012', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'HOSO_0000046_uid', attDestinationIds: 'HOSO_0000046_uid', cardinality: '[1..*]', description: 'HOSO_0000046::HOSO_0000046{HOSO_0000046_uid::HOSO_0000046_uid} -> HOSO_0000046::HOSO_0000046{HOSO_0000046_uid::HOSO_0000046_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000046_IAO_0000136_HOSO_0000012'})
+MATCH (range:Relvar {relId: 'HOSO_0000012'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000046_IAO_0000136_HOSO_0000012', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'HOSO_0000012_uid', attDestinationIds: 'HOSO_0000012_uid', cardinality: '[1..*]', description: 'HOSO_0000012::HOSO_0000012{HOSO_0000012_uid::HOSO_0000012_uid} -> HOSO_0000012::HOSO_0000012{HOSO_0000012_uid::HOSO_0000012_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'IAO_0000577_BFO_0000050_IAO_0000578'})
+MATCH (domain:Relvar {relId: 'IAO_0000577'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_IAO_0000577_BFO_0000050_IAO_0000578', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000050', attOriginIds: 'IAO_0000577_uid', attDestinationIds: 'IAO_0000577_uid', cardinality: '[1..*]', description: 'IAO_0000577::IAO_0000577{IAO_0000577_uid::IAO_0000577_uid} -> IAO_0000577::IAO_0000577{IAO_0000577_uid::IAO_0000577_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'IAO_0000577_BFO_0000050_IAO_0000578'})
+MATCH (range:Relvar {relId: 'IAO_0000578'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_IAO_0000577_BFO_0000050_IAO_0000578', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000050', attOriginIds: 'IAO_0000578_uid', attDestinationIds: 'IAO_0000578_uid', cardinality: '[1..*]', description: 'IAO_0000578::IAO_0000578{IAO_0000578_uid::IAO_0000578_uid} -> IAO_0000578::IAO_0000578{IAO_0000578_uid::IAO_0000578_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'BFO_0000002_RO_0000056_BFO_0000003'})
+MATCH (domain:Relvar {relId: 'BFO_0000002'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_BFO_0000002_RO_0000056_BFO_0000003', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0000056', attOriginIds: 'BFO_0000002_uid', attDestinationIds: 'BFO_0000002_uid', cardinality: '[1..*]', description: 'BFO_0000002::BFO_0000002{BFO_0000002_uid::BFO_0000002_uid} -> BFO_0000002::BFO_0000002{BFO_0000002_uid::BFO_0000002_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'BFO_0000002_RO_0000056_BFO_0000003'})
+MATCH (range:Relvar {relId: 'BFO_0000003'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_BFO_0000002_RO_0000056_BFO_0000003', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0000056', attOriginIds: 'BFO_0000003_uid', attDestinationIds: 'BFO_0000003_uid', cardinality: '[1..*]', description: 'BFO_0000003::BFO_0000003{BFO_0000003_uid::BFO_0000003_uid} -> BFO_0000003::BFO_0000003{BFO_0000003_uid::BFO_0000003_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000015_IAO_0000136_HEPRO_0000004'})
+MATCH (domain:Relvar {relId: 'HEPRO_0000015'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HEPRO_0000015_IAO_0000136_HEPRO_0000004', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'HEPRO_0000015_uid', attDestinationIds: 'HEPRO_0000015_uid', cardinality: '[1..*]', description: 'HEPRO_0000015::HEPRO_0000015{HEPRO_0000015_uid::HEPRO_0000015_uid} -> HEPRO_0000015::HEPRO_0000015{HEPRO_0000015_uid::HEPRO_0000015_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000015_IAO_0000136_HEPRO_0000004'})
+MATCH (range:Relvar {relId: 'HEPRO_0000004'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HEPRO_0000015_IAO_0000136_HEPRO_0000004', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'HEPRO_0000004_uid', attDestinationIds: 'HEPRO_0000004_uid', cardinality: '[1..*]', description: 'HEPRO_0000004::HEPRO_0000004{HEPRO_0000004_uid::HEPRO_0000004_uid} -> HEPRO_0000004::HEPRO_0000004{HEPRO_0000004_uid::HEPRO_0000004_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000001_RO_0002180_HEPRO_0000030'})
+MATCH (domain:Relvar {relId: 'HEPRO_0000001'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HEPRO_0000001_RO_0002180_HEPRO_0000030', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HEPRO_0000001_uid', attDestinationIds: 'HEPRO_0000001_uid', cardinality: '[1..*]', description: 'HEPRO_0000001::HEPRO_0000001{HEPRO_0000001_uid::HEPRO_0000001_uid} -> HEPRO_0000001::HEPRO_0000001{HEPRO_0000001_uid::HEPRO_0000001_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000001_RO_0002180_HEPRO_0000030'})
+MATCH (range:Relvar {relId: 'HEPRO_0000030'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HEPRO_0000001_RO_0002180_HEPRO_0000030', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HEPRO_0000030_uid', attDestinationIds: 'HEPRO_0000030_uid', cardinality: '[1..*]', description: 'HEPRO_0000030::HEPRO_0000030{HEPRO_0000030_uid::HEPRO_0000030_uid} -> HEPRO_0000030::HEPRO_0000030{HEPRO_0000030_uid::HEPRO_0000030_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000021_IAO_0000235_OpenLHS-Core_0000026'})
+MATCH (domain:Relvar {relId: 'OpenLHS-Core_0000021'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_OpenLHS-Core_0000021_IAO_0000235_OpenLHS-Core_0000026', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000235', attOriginIds: 'OpenLHS-Core_0000021_uid', attDestinationIds: 'OpenLHS-Core_0000021_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000021::OpenLHS-Core_0000021{OpenLHS-Core_0000021_uid::OpenLHS-Core_0000021_uid} -> OpenLHS-Core_0000021::OpenLHS-Core_0000021{OpenLHS-Core_0000021_uid::OpenLHS-Core_0000021_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000021_IAO_0000235_OpenLHS-Core_0000026'})
+MATCH (range:Relvar {relId: 'OpenLHS-Core_0000026'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_OpenLHS-Core_0000021_IAO_0000235_OpenLHS-Core_0000026', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000235', attOriginIds: 'OpenLHS-Core_0000026_uid', attDestinationIds: 'OpenLHS-Core_0000026_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000026::OpenLHS-Core_0000026{OpenLHS-Core_0000026_uid::OpenLHS-Core_0000026_uid} -> OpenLHS-Core_0000026::OpenLHS-Core_0000026{OpenLHS-Core_0000026_uid::OpenLHS-Core_0000026_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000045_IAO_0000136_OpenLHS-Core_0000043'})
+MATCH (domain:Relvar {relId: 'OpenLHS-Core_0000045'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_OpenLHS-Core_0000045_IAO_0000136_OpenLHS-Core_0000043', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'OpenLHS-Core_0000045_uid', attDestinationIds: 'OpenLHS-Core_0000045_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000045::OpenLHS-Core_0000045{OpenLHS-Core_0000045_uid::OpenLHS-Core_0000045_uid} -> OpenLHS-Core_0000045::OpenLHS-Core_0000045{OpenLHS-Core_0000045_uid::OpenLHS-Core_0000045_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000045_IAO_0000136_OpenLHS-Core_0000043'})
+MATCH (range:Relvar {relId: 'OpenLHS-Core_0000043'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_OpenLHS-Core_0000045_IAO_0000136_OpenLHS-Core_0000043', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'OpenLHS-Core_0000043_uid', attDestinationIds: 'OpenLHS-Core_0000043_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000043::OpenLHS-Core_0000043{OpenLHS-Core_0000043_uid::OpenLHS-Core_0000043_uid} -> OpenLHS-Core_0000043::OpenLHS-Core_0000043{OpenLHS-Core_0000043_uid::OpenLHS-Core_0000043_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'OBI_0000011_BFO_0000055_ONTORELA_C2875fe2d'})
+MATCH (domain:Relvar {relId: 'OBI_0000011'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_OBI_0000011_BFO_0000055_ONTORELA_C2875fe2d', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000055', attOriginIds: 'OBI_0000011_uid', attDestinationIds: 'OBI_0000011_uid', cardinality: '[1..*]', description: 'OBI_0000011::OBI_0000011{OBI_0000011_uid::OBI_0000011_uid} -> OBI_0000011::OBI_0000011{OBI_0000011_uid::OBI_0000011_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'OBI_0000011_BFO_0000055_ONTORELA_C2875fe2d'})
+MATCH (range:Relvar {relId: 'ONTORELA_C2875fe2d'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_OBI_0000011_BFO_0000055_ONTORELA_C2875fe2d', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000055', attOriginIds: 'ONTORELA_C2875fe2d_uid', attDestinationIds: 'ONTORELA_C2875fe2d_uid', cardinality: '[1..*]', description: 'ONTORELA_C2875fe2d::ONTORELA_C2875fe2d{ONTORELA_C2875fe2d_uid::ONTORELA_C2875fe2d_uid} -> ONTORELA_C2875fe2d::ONTORELA_C2875fe2d{ONTORELA_C2875fe2d_uid::ONTORELA_C2875fe2d_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000081_RO_0000087_HOSO_0000082'})
+MATCH (domain:Relvar {relId: 'HOSO_0000081'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000081_RO_0000087_HOSO_0000082', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0000087', attOriginIds: 'HOSO_0000081_uid', attDestinationIds: 'HOSO_0000081_uid', cardinality: '[1..*]', description: 'HOSO_0000081::HOSO_0000081{HOSO_0000081_uid::HOSO_0000081_uid} -> HOSO_0000081::HOSO_0000081{HOSO_0000081_uid::HOSO_0000081_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000081_RO_0000087_HOSO_0000082'})
+MATCH (range:Relvar {relId: 'HOSO_0000082'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000081_RO_0000087_HOSO_0000082', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0000087', attOriginIds: 'HOSO_0000082_uid', attDestinationIds: 'HOSO_0000082_uid', cardinality: '[1..*]', description: 'HOSO_0000082::HOSO_0000082{HOSO_0000082_uid::HOSO_0000082_uid} -> HOSO_0000082::HOSO_0000082{HOSO_0000082_uid::HOSO_0000082_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000037_BFO_0000051_HEPRO_0000013'})
+MATCH (domain:Relvar {relId: 'HOSO_0000037'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000037_BFO_0000051_HEPRO_0000013', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000051', attOriginIds: 'HOSO_0000037_uid', attDestinationIds: 'HOSO_0000037_uid', cardinality: '[1..*]', description: 'HOSO_0000037::HOSO_0000037{HOSO_0000037_uid::HOSO_0000037_uid} -> HOSO_0000037::HOSO_0000037{HOSO_0000037_uid::HOSO_0000037_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000037_BFO_0000051_HEPRO_0000013'})
+MATCH (range:Relvar {relId: 'HEPRO_0000013'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000037_BFO_0000051_HEPRO_0000013', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000051', attOriginIds: 'HEPRO_0000013_uid', attDestinationIds: 'HEPRO_0000013_uid', cardinality: '[1..*]', description: 'HEPRO_0000013::HEPRO_0000013{HEPRO_0000013_uid::HEPRO_0000013_uid} -> HEPRO_0000013::HEPRO_0000013{HEPRO_0000013_uid::HEPRO_0000013_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'BFO_0000017_BFO_0000054_BFO_0000015'})
+MATCH (domain:Relvar {relId: 'BFO_0000017'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_BFO_0000017_BFO_0000054_BFO_0000015', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000054', attOriginIds: 'BFO_0000017_uid', attDestinationIds: 'BFO_0000017_uid', cardinality: '[1..*]', description: 'BFO_0000017::BFO_0000017{BFO_0000017_uid::BFO_0000017_uid} -> BFO_0000017::BFO_0000017{BFO_0000017_uid::BFO_0000017_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'BFO_0000017_BFO_0000054_BFO_0000015'})
+MATCH (range:Relvar {relId: 'BFO_0000015'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_BFO_0000017_BFO_0000054_BFO_0000015', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000054', attOriginIds: 'BFO_0000015_uid', attDestinationIds: 'BFO_0000015_uid', cardinality: '[1..*]', description: 'BFO_0000015::BFO_0000015{BFO_0000015_uid::BFO_0000015_uid} -> BFO_0000015::BFO_0000015{BFO_0000015_uid::BFO_0000015_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000012_RO_0000087_HEPRO_0000011'})
+MATCH (domain:Relvar {relId: 'HEPRO_0000012'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HEPRO_0000012_RO_0000087_HEPRO_0000011', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0000087', attOriginIds: 'HEPRO_0000012_uid', attDestinationIds: 'HEPRO_0000012_uid', cardinality: '[1..*]', description: 'HEPRO_0000012::HEPRO_0000012{HEPRO_0000012_uid::HEPRO_0000012_uid} -> HEPRO_0000012::HEPRO_0000012{HEPRO_0000012_uid::HEPRO_0000012_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000012_RO_0000087_HEPRO_0000011'})
+MATCH (range:Relvar {relId: 'HEPRO_0000011'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HEPRO_0000012_RO_0000087_HEPRO_0000011', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0000087', attOriginIds: 'HEPRO_0000011_uid', attDestinationIds: 'HEPRO_0000011_uid', cardinality: '[1..*]', description: 'HEPRO_0000011::HEPRO_0000011{HEPRO_0000011_uid::HEPRO_0000011_uid} -> HEPRO_0000011::HEPRO_0000011{HEPRO_0000011_uid::HEPRO_0000011_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000025'})
+MATCH (domain:Relvar {relId: 'OpenLHS-Core_0000020'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000025', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'OpenLHS-Core_0000020_uid', attDestinationIds: 'OpenLHS-Core_0000020_uid', cardinality: '[1..1]', description: 'OpenLHS-Core_0000020::OpenLHS-Core_0000020{OpenLHS-Core_0000020_uid::OpenLHS-Core_0000020_uid} -> OpenLHS-Core_0000020::OpenLHS-Core_0000020{OpenLHS-Core_0000020_uid::OpenLHS-Core_0000020_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000025'})
+MATCH (range:Relvar {relId: 'OpenLHS-Core_0000025'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000025', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'OpenLHS-Core_0000025_uid', attDestinationIds: 'OpenLHS-Core_0000025_uid', cardinality: '[1..1]', description: 'OpenLHS-Core_0000025::OpenLHS-Core_0000025{OpenLHS-Core_0000025_uid::OpenLHS-Core_0000025_uid} -> OpenLHS-Core_0000025::OpenLHS-Core_0000025{OpenLHS-Core_0000025_uid::OpenLHS-Core_0000025_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000026'})
+MATCH (domain:Relvar {relId: 'OpenLHS-Core_0000020'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000026', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'OpenLHS-Core_0000020_uid', attDestinationIds: 'OpenLHS-Core_0000020_uid', cardinality: '[1..1]', description: 'OpenLHS-Core_0000020::OpenLHS-Core_0000020{OpenLHS-Core_0000020_uid::OpenLHS-Core_0000020_uid} -> OpenLHS-Core_0000020::OpenLHS-Core_0000020{OpenLHS-Core_0000020_uid::OpenLHS-Core_0000020_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000026'})
+MATCH (range:Relvar {relId: 'OpenLHS-Core_0000026'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000026', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'OpenLHS-Core_0000026_uid', attDestinationIds: 'OpenLHS-Core_0000026_uid', cardinality: '[1..1]', description: 'OpenLHS-Core_0000026::OpenLHS-Core_0000026{OpenLHS-Core_0000026_uid::OpenLHS-Core_0000026_uid} -> OpenLHS-Core_0000026::OpenLHS-Core_0000026{OpenLHS-Core_0000026_uid::OpenLHS-Core_0000026_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000024'})
+MATCH (domain:Relvar {relId: 'OpenLHS-Core_0000020'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000024', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'OpenLHS-Core_0000020_uid', attDestinationIds: 'OpenLHS-Core_0000020_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000020::OpenLHS-Core_0000020{OpenLHS-Core_0000020_uid::OpenLHS-Core_0000020_uid} -> OpenLHS-Core_0000020::OpenLHS-Core_0000020{OpenLHS-Core_0000020_uid::OpenLHS-Core_0000020_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000024'})
+MATCH (range:Relvar {relId: 'OpenLHS-Core_0000024'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000024', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'OpenLHS-Core_0000024_uid', attDestinationIds: 'OpenLHS-Core_0000024_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000024::OpenLHS-Core_0000024{OpenLHS-Core_0000024_uid::OpenLHS-Core_0000024_uid} -> OpenLHS-Core_0000024::OpenLHS-Core_0000024{OpenLHS-Core_0000024_uid::OpenLHS-Core_0000024_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000022'})
+MATCH (domain:Relvar {relId: 'OpenLHS-Core_0000020'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000022', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'OpenLHS-Core_0000020_uid', attDestinationIds: 'OpenLHS-Core_0000020_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000020::OpenLHS-Core_0000020{OpenLHS-Core_0000020_uid::OpenLHS-Core_0000020_uid} -> OpenLHS-Core_0000020::OpenLHS-Core_0000020{OpenLHS-Core_0000020_uid::OpenLHS-Core_0000020_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000022'})
+MATCH (range:Relvar {relId: 'OpenLHS-Core_0000022'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_OpenLHS-Core_0000020_RO_0002180_OpenLHS-Core_0000022', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'OpenLHS-Core_0000022_uid', attDestinationIds: 'OpenLHS-Core_0000022_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000022::OpenLHS-Core_0000022{OpenLHS-Core_0000022_uid::OpenLHS-Core_0000022_uid} -> OpenLHS-Core_0000022::OpenLHS-Core_0000022{OpenLHS-Core_0000022_uid::OpenLHS-Core_0000022_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000056_RO_0002180_OpenLHS-Core_0000057'})
+MATCH (domain:Relvar {relId: 'OpenLHS-Core_0000056'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_OpenLHS-Core_0000056_RO_0002180_OpenLHS-Core_0000057', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'OpenLHS-Core_0000056_uid', attDestinationIds: 'OpenLHS-Core_0000056_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000056::OpenLHS-Core_0000056{OpenLHS-Core_0000056_uid::OpenLHS-Core_0000056_uid} -> OpenLHS-Core_0000056::OpenLHS-Core_0000056{OpenLHS-Core_0000056_uid::OpenLHS-Core_0000056_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000056_RO_0002180_OpenLHS-Core_0000057'})
+MATCH (range:Relvar {relId: 'OpenLHS-Core_0000057'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_OpenLHS-Core_0000056_RO_0002180_OpenLHS-Core_0000057', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'OpenLHS-Core_0000057_uid', attDestinationIds: 'OpenLHS-Core_0000057_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000057::OpenLHS-Core_0000057{OpenLHS-Core_0000057_uid::OpenLHS-Core_0000057_uid} -> OpenLHS-Core_0000057::OpenLHS-Core_0000057{OpenLHS-Core_0000057_uid::OpenLHS-Core_0000057_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000056_RO_0002180_OpenLHS-Core_0000055'})
+MATCH (domain:Relvar {relId: 'OpenLHS-Core_0000056'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_OpenLHS-Core_0000056_RO_0002180_OpenLHS-Core_0000055', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'OpenLHS-Core_0000056_uid', attDestinationIds: 'OpenLHS-Core_0000056_uid', cardinality: '[1..1]', description: 'OpenLHS-Core_0000056::OpenLHS-Core_0000056{OpenLHS-Core_0000056_uid::OpenLHS-Core_0000056_uid} -> OpenLHS-Core_0000056::OpenLHS-Core_0000056{OpenLHS-Core_0000056_uid::OpenLHS-Core_0000056_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000056_RO_0002180_OpenLHS-Core_0000055'})
+MATCH (range:Relvar {relId: 'OpenLHS-Core_0000055'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_OpenLHS-Core_0000056_RO_0002180_OpenLHS-Core_0000055', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'OpenLHS-Core_0000055_uid', attDestinationIds: 'OpenLHS-Core_0000055_uid', cardinality: '[1..1]', description: 'OpenLHS-Core_0000055::OpenLHS-Core_0000055{OpenLHS-Core_0000055_uid::OpenLHS-Core_0000055_uid} -> OpenLHS-Core_0000055::OpenLHS-Core_0000055{OpenLHS-Core_0000055_uid::OpenLHS-Core_0000055_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'ONTORELA_C73b67cf5_BFO_0000055_OpenLHS-Core_0000043'})
+MATCH (domain:Relvar {relId: 'ONTORELA_C73b67cf5'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_ONTORELA_C73b67cf5_BFO_0000055_OpenLHS-Core_0000043', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000055', attOriginIds: 'ONTORELA_C73b67cf5_uid', attDestinationIds: 'ONTORELA_C73b67cf5_uid', cardinality: '[1..*]', description: 'ONTORELA_C73b67cf5::ONTORELA_C73b67cf5{ONTORELA_C73b67cf5_uid::ONTORELA_C73b67cf5_uid} -> ONTORELA_C73b67cf5::ONTORELA_C73b67cf5{ONTORELA_C73b67cf5_uid::ONTORELA_C73b67cf5_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'ONTORELA_C73b67cf5_BFO_0000055_OpenLHS-Core_0000043'})
+MATCH (range:Relvar {relId: 'OpenLHS-Core_0000043'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_ONTORELA_C73b67cf5_BFO_0000055_OpenLHS-Core_0000043', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000055', attOriginIds: 'OpenLHS-Core_0000043_uid', attDestinationIds: 'OpenLHS-Core_0000043_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000043::OpenLHS-Core_0000043{OpenLHS-Core_0000043_uid::OpenLHS-Core_0000043_uid} -> OpenLHS-Core_0000043::OpenLHS-Core_0000043{OpenLHS-Core_0000043_uid::OpenLHS-Core_0000043_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000044_IAO_0000136_OpenLHS-Core_0000043'})
+MATCH (domain:Relvar {relId: 'OpenLHS-Core_0000044'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_OpenLHS-Core_0000044_IAO_0000136_OpenLHS-Core_0000043', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'OpenLHS-Core_0000044_uid', attDestinationIds: 'OpenLHS-Core_0000044_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000044::OpenLHS-Core_0000044{OpenLHS-Core_0000044_uid::OpenLHS-Core_0000044_uid} -> OpenLHS-Core_0000044::OpenLHS-Core_0000044{OpenLHS-Core_0000044_uid::OpenLHS-Core_0000044_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'OpenLHS-Core_0000044_IAO_0000136_OpenLHS-Core_0000043'})
+MATCH (range:Relvar {relId: 'OpenLHS-Core_0000043'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_OpenLHS-Core_0000044_IAO_0000136_OpenLHS-Core_0000043', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'OpenLHS-Core_0000043_uid', attDestinationIds: 'OpenLHS-Core_0000043_uid', cardinality: '[1..*]', description: 'OpenLHS-Core_0000043::OpenLHS-Core_0000043{OpenLHS-Core_0000043_uid::OpenLHS-Core_0000043_uid} -> OpenLHS-Core_0000043::OpenLHS-Core_0000043{OpenLHS-Core_0000043_uid::OpenLHS-Core_0000043_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000080_RO_0002180_HOSO_0000100'})
+MATCH (domain:Relvar {relId: 'HOSO_0000080'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000080_RO_0002180_HOSO_0000100', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HOSO_0000080_uid', attDestinationIds: 'HOSO_0000080_uid', cardinality: '[1..*]', description: 'HOSO_0000080::HOSO_0000080{HOSO_0000080_uid::HOSO_0000080_uid} -> HOSO_0000080::HOSO_0000080{HOSO_0000080_uid::HOSO_0000080_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000080_RO_0002180_HOSO_0000100'})
+MATCH (range:Relvar {relId: 'HOSO_0000100'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000080_RO_0002180_HOSO_0000100', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HOSO_0000100_uid', attDestinationIds: 'HOSO_0000100_uid', cardinality: '[1..*]', description: 'HOSO_0000100::HOSO_0000100{HOSO_0000100_uid::HOSO_0000100_uid} -> HOSO_0000100::HOSO_0000100{HOSO_0000100_uid::HOSO_0000100_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000080_RO_0002180_IOIO_0000023'})
+MATCH (domain:Relvar {relId: 'HOSO_0000080'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000080_RO_0002180_IOIO_0000023', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'HOSO_0000080_uid', attDestinationIds: 'HOSO_0000080_uid', cardinality: '[1..*]', description: 'HOSO_0000080::HOSO_0000080{HOSO_0000080_uid::HOSO_0000080_uid} -> HOSO_0000080::HOSO_0000080{HOSO_0000080_uid::HOSO_0000080_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000080_RO_0002180_IOIO_0000023'})
+MATCH (range:Relvar {relId: 'IOIO_0000023'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000080_RO_0002180_IOIO_0000023', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'IOIO_0000023_uid', attDestinationIds: 'IOIO_0000023_uid', cardinality: '[1..*]', description: 'IOIO_0000023::IOIO_0000023{IOIO_0000023_uid::IOIO_0000023_uid} -> IOIO_0000023::IOIO_0000023{IOIO_0000023_uid::IOIO_0000023_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'AgentCapability_capability_of_Agent'})
+MATCH (domain:Relvar {relId: 'AgentCapability'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_AgentCapability_capability_of_Agent', fkType: 'OBJECTPROPERTY', propertyShortIri: 'capability_of', attOriginIds: 'AgentCapability_uid', attDestinationIds: 'AgentCapability_uid', cardinality: '[1..*]', description: 'AgentCapability::AgentCapability{AgentCapability_uid::AgentCapability_uid} -> AgentCapability::AgentCapability{AgentCapability_uid::AgentCapability_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'AgentCapability_capability_of_Agent'})
+MATCH (range:Relvar {relId: 'Agent'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_AgentCapability_capability_of_Agent', fkType: 'OBJECTPROPERTY', propertyShortIri: 'capability_of', attOriginIds: 'Agent_uid', attDestinationIds: 'Agent_uid', cardinality: '[1..*]', description: 'Agent::Agent{Agent_uid::Agent_uid} -> Agent::Agent{Agent_uid::Agent_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000036_BFO_0000051_HEPRO_0000014'})
+MATCH (domain:Relvar {relId: 'HOSO_0000036'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000036_BFO_0000051_HEPRO_0000014', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000051', attOriginIds: 'HOSO_0000036_uid', attDestinationIds: 'HOSO_0000036_uid', cardinality: '[1..*]', description: 'HOSO_0000036::HOSO_0000036{HOSO_0000036_uid::HOSO_0000036_uid} -> HOSO_0000036::HOSO_0000036{HOSO_0000036_uid::HOSO_0000036_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000036_BFO_0000051_HEPRO_0000014'})
+MATCH (range:Relvar {relId: 'HEPRO_0000014'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000036_BFO_0000051_HEPRO_0000014', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000051', attOriginIds: 'HEPRO_0000014_uid', attDestinationIds: 'HEPRO_0000014_uid', cardinality: '[1..*]', description: 'HEPRO_0000014::HEPRO_0000014{HEPRO_0000014_uid::HEPRO_0000014_uid} -> HEPRO_0000014::HEPRO_0000014{HEPRO_0000014_uid::HEPRO_0000014_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000145_IAO_0000136_HOSO_0000012'})
+MATCH (domain:Relvar {relId: 'HOSO_0000145'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000145_IAO_0000136_HOSO_0000012', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'HOSO_0000145_uid', attDestinationIds: 'HOSO_0000145_uid', cardinality: '[1..*]', description: 'HOSO_0000145::HOSO_0000145{HOSO_0000145_uid::HOSO_0000145_uid} -> HOSO_0000145::HOSO_0000145{HOSO_0000145_uid::HOSO_0000145_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000145_IAO_0000136_HOSO_0000012'})
+MATCH (range:Relvar {relId: 'HOSO_0000012'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000145_IAO_0000136_HOSO_0000012', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000136', attOriginIds: 'HOSO_0000012_uid', attDestinationIds: 'HOSO_0000012_uid', cardinality: '[1..*]', description: 'HOSO_0000012::HOSO_0000012{HOSO_0000012_uid::HOSO_0000012_uid} -> HOSO_0000012::HOSO_0000012{HOSO_0000012_uid::HOSO_0000012_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000012_BFO_0000051_HOSO_0000010'})
+MATCH (domain:Relvar {relId: 'HOSO_0000012'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000012_BFO_0000051_HOSO_0000010', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000051', attOriginIds: 'HOSO_0000012_uid', attDestinationIds: 'HOSO_0000012_uid', cardinality: '[1..*]', description: 'HOSO_0000012::HOSO_0000012{HOSO_0000012_uid::HOSO_0000012_uid} -> HOSO_0000012::HOSO_0000012{HOSO_0000012_uid::HOSO_0000012_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000012_BFO_0000051_HOSO_0000010'})
+MATCH (range:Relvar {relId: 'HOSO_0000010'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000012_BFO_0000051_HOSO_0000010', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000051', attOriginIds: 'HOSO_0000010_uid', attDestinationIds: 'HOSO_0000010_uid', cardinality: '[1..*]', description: 'HOSO_0000010::HOSO_0000010{HOSO_0000010_uid::HOSO_0000010_uid} -> HOSO_0000010::HOSO_0000010{HOSO_0000010_uid::HOSO_0000010_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000012_OpenLHS-Core_0000004_HOSO_0000074'})
+MATCH (domain:Relvar {relId: 'HOSO_0000012'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000012_OpenLHS-Core_0000004_HOSO_0000074', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000004', attOriginIds: 'HOSO_0000012_uid', attDestinationIds: 'HOSO_0000012_uid', cardinality: '[1..*]', description: 'HOSO_0000012::HOSO_0000012{HOSO_0000012_uid::HOSO_0000012_uid} -> HOSO_0000012::HOSO_0000012{HOSO_0000012_uid::HOSO_0000012_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000012_OpenLHS-Core_0000004_HOSO_0000074'})
+MATCH (range:Relvar {relId: 'HOSO_0000074'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000012_OpenLHS-Core_0000004_HOSO_0000074', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000004', attOriginIds: 'HOSO_0000074_uid', attDestinationIds: 'HOSO_0000074_uid', cardinality: '[1..*]', description: 'HOSO_0000074::HOSO_0000074{HOSO_0000074_uid::HOSO_0000074_uid} -> HOSO_0000074::HOSO_0000074{HOSO_0000074_uid::HOSO_0000074_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000012_OpenLHS-Core_0000004_HOSO_0000003'})
+MATCH (domain:Relvar {relId: 'HOSO_0000012'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000012_OpenLHS-Core_0000004_HOSO_0000003', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000004', attOriginIds: 'HOSO_0000012_uid', attDestinationIds: 'HOSO_0000012_uid', cardinality: '[1..1]', description: 'HOSO_0000012::HOSO_0000012{HOSO_0000012_uid::HOSO_0000012_uid} -> HOSO_0000012::HOSO_0000012{HOSO_0000012_uid::HOSO_0000012_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000012_OpenLHS-Core_0000004_HOSO_0000003'})
+MATCH (range:Relvar {relId: 'HOSO_0000003'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000012_OpenLHS-Core_0000004_HOSO_0000003', fkType: 'OBJECTPROPERTY', propertyShortIri: 'OpenLHS-Core_0000004', attOriginIds: 'HOSO_0000003_uid', attDestinationIds: 'HOSO_0000003_uid', cardinality: '[1..1]', description: 'HOSO_0000003::HOSO_0000003{HOSO_0000003_uid::HOSO_0000003_uid} -> HOSO_0000003::HOSO_0000003{HOSO_0000003_uid::HOSO_0000003_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000048_BFO_0000050_HOSO_0000047'})
+MATCH (domain:Relvar {relId: 'HOSO_0000048'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HOSO_0000048_BFO_0000050_HOSO_0000047', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000050', attOriginIds: 'HOSO_0000048_uid', attDestinationIds: 'HOSO_0000048_uid', cardinality: '[1..*]', description: 'HOSO_0000048::HOSO_0000048{HOSO_0000048_uid::HOSO_0000048_uid} -> HOSO_0000048::HOSO_0000048{HOSO_0000048_uid::HOSO_0000048_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HOSO_0000048_BFO_0000050_HOSO_0000047'})
+MATCH (range:Relvar {relId: 'HOSO_0000047'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HOSO_0000048_BFO_0000050_HOSO_0000047', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000050', attOriginIds: 'HOSO_0000047_uid', attDestinationIds: 'HOSO_0000047_uid', cardinality: '[1..*]', description: 'HOSO_0000047::HOSO_0000047{HOSO_0000047_uid::HOSO_0000047_uid} -> HOSO_0000047::HOSO_0000047{HOSO_0000047_uid::HOSO_0000047_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'BFO_0000004_RO_0000085_BFO_0000034'})
+MATCH (domain:Relvar {relId: 'BFO_0000004'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_BFO_0000004_RO_0000085_BFO_0000034', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0000085', attOriginIds: 'BFO_0000004_uid', attDestinationIds: 'BFO_0000004_uid', cardinality: '[1..*]', description: 'BFO_0000004::BFO_0000004{BFO_0000004_uid::BFO_0000004_uid} -> BFO_0000004::BFO_0000004{BFO_0000004_uid::BFO_0000004_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'BFO_0000004_RO_0000085_BFO_0000034'})
+MATCH (range:Relvar {relId: 'BFO_0000034'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_BFO_0000004_RO_0000085_BFO_0000034', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0000085', attOriginIds: 'BFO_0000034_uid', attDestinationIds: 'BFO_0000034_uid', cardinality: '[1..*]', description: 'BFO_0000034::BFO_0000034{BFO_0000034_uid::BFO_0000034_uid} -> BFO_0000034::BFO_0000034{BFO_0000034_uid::BFO_0000034_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'BFO_0000004_RO_0000087_BFO_0000023'})
+MATCH (domain:Relvar {relId: 'BFO_0000004'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_BFO_0000004_RO_0000087_BFO_0000023', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0000087', attOriginIds: 'BFO_0000004_uid', attDestinationIds: 'BFO_0000004_uid', cardinality: '[1..*]', description: 'BFO_0000004::BFO_0000004{BFO_0000004_uid::BFO_0000004_uid} -> BFO_0000004::BFO_0000004{BFO_0000004_uid::BFO_0000004_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'BFO_0000004_RO_0000087_BFO_0000023'})
+MATCH (range:Relvar {relId: 'BFO_0000023'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_BFO_0000004_RO_0000087_BFO_0000023', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0000087', attOriginIds: 'BFO_0000023_uid', attDestinationIds: 'BFO_0000023_uid', cardinality: '[1..*]', description: 'BFO_0000023::BFO_0000023{BFO_0000023_uid::BFO_0000023_uid} -> BFO_0000023::BFO_0000023{BFO_0000023_uid::BFO_0000023_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'BFO_0000004_RO_0000091_BFO_0000016'})
+MATCH (domain:Relvar {relId: 'BFO_0000004'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_BFO_0000004_RO_0000091_BFO_0000016', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0000091', attOriginIds: 'BFO_0000004_uid', attDestinationIds: 'BFO_0000004_uid', cardinality: '[1..*]', description: 'BFO_0000004::BFO_0000004{BFO_0000004_uid::BFO_0000004_uid} -> BFO_0000004::BFO_0000004{BFO_0000004_uid::BFO_0000004_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'BFO_0000004_RO_0000091_BFO_0000016'})
+MATCH (range:Relvar {relId: 'BFO_0000016'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_BFO_0000004_RO_0000091_BFO_0000016', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0000091', attOriginIds: 'BFO_0000016_uid', attDestinationIds: 'BFO_0000016_uid', cardinality: '[1..*]', description: 'BFO_0000016::BFO_0000016{BFO_0000016_uid::BFO_0000016_uid} -> BFO_0000016::BFO_0000016{BFO_0000016_uid::BFO_0000016_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'IOIO_0000031_RO_0002180_IOIO_0000014'})
+MATCH (domain:Relvar {relId: 'IOIO_0000031'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_IOIO_0000031_RO_0002180_IOIO_0000014', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'IOIO_0000031_uid', attDestinationIds: 'IOIO_0000031_uid', cardinality: '[1..*]', description: 'IOIO_0000031::IOIO_0000031{IOIO_0000031_uid::IOIO_0000031_uid} -> IOIO_0000031::IOIO_0000031{IOIO_0000031_uid::IOIO_0000031_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'IOIO_0000031_RO_0002180_IOIO_0000014'})
+MATCH (range:Relvar {relId: 'IOIO_0000014'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_IOIO_0000031_RO_0002180_IOIO_0000014', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'IOIO_0000014_uid', attDestinationIds: 'IOIO_0000014_uid', cardinality: '[1..*]', description: 'IOIO_0000014::IOIO_0000014{IOIO_0000014_uid::IOIO_0000014_uid} -> IOIO_0000014::IOIO_0000014{IOIO_0000014_uid::IOIO_0000014_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'IOIO_0000031_RO_0002180_IOIO_0000030'})
+MATCH (domain:Relvar {relId: 'IOIO_0000031'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_IOIO_0000031_RO_0002180_IOIO_0000030', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'IOIO_0000031_uid', attDestinationIds: 'IOIO_0000031_uid', cardinality: '[1..*]', description: 'IOIO_0000031::IOIO_0000031{IOIO_0000031_uid::IOIO_0000031_uid} -> IOIO_0000031::IOIO_0000031{IOIO_0000031_uid::IOIO_0000031_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'IOIO_0000031_RO_0002180_IOIO_0000030'})
+MATCH (range:Relvar {relId: 'IOIO_0000030'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_IOIO_0000031_RO_0002180_IOIO_0000030', fkType: 'OBJECTPROPERTY', propertyShortIri: 'RO_0002180', attOriginIds: 'IOIO_0000030_uid', attDestinationIds: 'IOIO_0000030_uid', cardinality: '[1..*]', description: 'IOIO_0000030::IOIO_0000030{IOIO_0000030_uid::IOIO_0000030_uid} -> IOIO_0000030::IOIO_0000030{IOIO_0000030_uid::IOIO_0000030_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000025_BFO_0000051_HEPRO_0000030'})
+MATCH (domain:Relvar {relId: 'HEPRO_0000025'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_HEPRO_0000025_BFO_0000051_HEPRO_0000030', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000051', attOriginIds: 'HEPRO_0000025_uid', attDestinationIds: 'HEPRO_0000025_uid', cardinality: '[1..*]', description: 'HEPRO_0000025::HEPRO_0000025{HEPRO_0000025_uid::HEPRO_0000025_uid} -> HEPRO_0000025::HEPRO_0000025{HEPRO_0000025_uid::HEPRO_0000025_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'HEPRO_0000025_BFO_0000051_HEPRO_0000030'})
+MATCH (range:Relvar {relId: 'HEPRO_0000030'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_HEPRO_0000025_BFO_0000051_HEPRO_0000030', fkType: 'OBJECTPROPERTY', propertyShortIri: 'BFO_0000051', attOriginIds: 'HEPRO_0000030_uid', attDestinationIds: 'HEPRO_0000030_uid', cardinality: '[1..*]', description: 'HEPRO_0000030::HEPRO_0000030{HEPRO_0000030_uid::HEPRO_0000030_uid} -> HEPRO_0000030::HEPRO_0000030{HEPRO_0000030_uid::HEPRO_0000030_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'IAO_0000030_IAO_0000219_BFO_0000001'})
+MATCH (domain:Relvar {relId: 'IAO_0000030'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk0_IAO_0000030_IAO_0000219_BFO_0000001', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000219', attOriginIds: 'IAO_0000030_uid', attDestinationIds: 'IAO_0000030_uid', cardinality: '[1..*]', description: 'IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'IAO_0000030_IAO_0000219_BFO_0000001'})
+MATCH (range:Relvar {relId: 'BFO_0000001'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk1_IAO_0000030_IAO_0000219_BFO_0000001', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000219', attOriginIds: 'BFO_0000001_uid', attDestinationIds: 'BFO_0000001_uid', cardinality: '[1..*]', description: 'BFO_0000001::BFO_0000001{BFO_0000001_uid::BFO_0000001_uid} -> BFO_0000001::BFO_0000001{BFO_0000001_uid::BFO_0000001_uid}' }]->(range);
+
+MATCH (ax:Relvar {relId: 'IAO_0000030_IAO_0000136_BFO_0000001'})
+MATCH (domain:Relvar {relId: 'IAO_0000030'})
+CREATE (ax)-[:HAS_DOMAIN {fkId: 'fk3_IAO_0000030_IAO_0000136_BFO_0000001', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000219', attOriginIds: 'IAO_0000030_uid', attDestinationIds: 'IAO_0000030_uid', cardinality: '[1..*]', description: 'IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid} -> IAO_0000030::IAO_0000030{IAO_0000030_uid::IAO_0000030_uid}' }]->(domain);
+
+MATCH (ax:Relvar {relId: 'IAO_0000030_IAO_0000136_BFO_0000001'})
+MATCH (range:Relvar {relId: 'BFO_0000001'})
+CREATE (ax)-[:HAS_RANGE  {fkId: 'fk4_IAO_0000030_IAO_0000136_BFO_0000001', fkType: 'OBJECTPROPERTY', propertyShortIri: 'IAO_0000219', attOriginIds: 'BFO_0000001_uid', attDestinationIds: 'BFO_0000001_uid', cardinality: '[1..*]', description: 'BFO_0000001::BFO_0000001{BFO_0000001_uid::BFO_0000001_uid} -> BFO_0000001::BFO_0000001{BFO_0000001_uid::BFO_0000001_uid}' }]->(range);
+
