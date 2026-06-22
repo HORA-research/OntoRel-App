@@ -13,7 +13,7 @@
 == Technologies
 *{page-component-name}* is developed in Java and uses Gradle as a build automation tool.
 
-Test results will be stored in `build/test-results`.
+The executable file will be in `build/libs`.
 
 == Use
 
