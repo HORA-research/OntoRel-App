@@ -2,7 +2,7 @@
 :idprefix:
 :idseparator: -
 :page-component-title: Application for generating a relational database using an ontology
-:page-component-name: Ontorela
+:page-component-name: OntoRel-App
 = {page-component-name}
 
 [#summary]
@@ -37,7 +37,16 @@ The software takes two configuration files as input:
 
 === Outputs
 
-The software generates for an ontology, a set of cypher scripts that construct property graphs compatible with Neo4j and AgensGraph.
+`{page-component-name}` generates:
+
+* a normalized ontology;
+* scripts for a relational database;
+* a list of anomalies found in the ontology;
+* a mapping catalog between ontological construct and relational construct (OntoRelCat);
+* a graph representation of :
+** the normalized ontology(OntoGraph);
+** the relational database(RelGraph);
+** the ontological-relational model (OntoRelGraph).
 
 === Usage for Cypher scripts generation
 
@@ -50,10 +59,13 @@ Prerequisites:
 Steps :
 
 . Clone the repository.
-. In the terminal run: +
+. xref:demo/readme.adoc#use[Create your own configuration files] or reuse any set of configuration files in the `/demo` folder.
+. In the terminal from project's root directory run: +
 ----
  java -jar build/libs/ontorela-application-2.3.0-SNAPSHOT.jar generate-cypher <configuration_directory>
 ----
+
+Follow xref:demo/readme.adoc#demos[these steps] to run the demonstrations.
 
 == Team members
 

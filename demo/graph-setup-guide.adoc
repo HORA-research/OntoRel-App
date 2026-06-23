@@ -22,28 +22,34 @@ This guide assumes you have already downloaded, installed, and fully configured 
 
 == 2. Neo4j Desktop: Setup, Execution, and Visualization
 
+NOTE: This guide is based on the **APOC Extended Documentation (v2026)** and the **Neo4j Desktop Documentation (v2.1)**.
+
 === Step 2.1: Environment Configuration
 Before executing scripts, verify your Neo4j Desktop environment is fully configured using the official documentation:
 
 * **https://neo4j.com/docs/desktop/current/operations/instance-management/[Create a Local Instance] :** Follow the steps to create a new local DBMS.
-* **https://neo4j.com/docs/apoc/current/installation/[Install the APOC Plugin] :** APOC is required for advanced script execution. See the [APOC Installation Guide].
-* **Enable File Reading :** You must https://neo4j.com/labs/apoc/4.4/overview/apoc.cypher/apoc.cypher.runFile/#_reading_from_a_file[allow APOC to read local files] by adding `apoc.import.file.enabled=true` to your `apoc.conf` configuration file (`$NEO4J_HOME/conf/`).
+
+NOTE: https://neo4j.com/docs/desktop/current/operations/instance-management/#_data_path[$NEO4J_HOME] can be directly accessed from your instance card through `Open Folder`.
+
+* **https://neo4j.com/labs/apoc/2026/installation/#neo4j-desktop[Install the APOC extended Plugin] :** APOC is required for advanced script execution. Take note of the https://neo4j.com/labs/apoc/2026/installation/#_version_compatibility_matrix[Version Compatibility Matrix].
+* **Enable File Reading :** You must https://neo4j.com/labs/apoc/2026/overview/apoc.cypher/apoc.cypher.runFile/#_reading_from_a_file[allow APOC to read local files].
+
+NOTE: if `apoc.conf` does not exist in config directory (`$NEO4J_HOME/conf/`), create it and edit as indicated.
 
 === Step 2.2: Database Creation & Script Execution
 Once the environment is properly configured:
 
-1. **Create the Target Database:** Start your instance and https://neo4j.com/docs/desktop/current/operations/database-management/#_create_a_new_database[create the database] that will hold your graph.
-2. Connect to your active instance.
-3. **Prepare the Script:** Move your target script (e.g., `OntoRelGraph.cypher`) into the database's import directory (`$NEO4J_HOME/import/`).
-4. **Execute the Script:** Switch to the https://neo4j.com/docs/desktop/current/query/[**Query** interface]. Navigate to your previously created database. Run the following command to execute your file:
+1. **Create the Target Database:** https://neo4j.com/docs/desktop/current/operations/instance-management/#_startstoprestart_instance[Start your instance] and https://neo4j.com/docs/desktop/current/operations/database-management/#_create_a_new_database[create the database] that will hold your graph (e.g., ontograph | relgraph | ontorelgraph).
+2. **Prepare the Script:** Move your target script (e.g., `OntoRelGraph.cypher`) into the database's import directory (`$NEO4J_HOME/import/`).
+3. **Execute the Script:** Switch to the https://neo4j.com/docs/desktop/current/query/[**Query** interface]. https://neo4j.com/docs/desktop/current/query/#:~:text=Connect%20to%20your%20instance%20via%20the%20connection%20dropdown%20and%20select%20your%20database.[Connect to your instance and select your database]. Run the following command to execute your file:
 +
 [source,cypher]
 ----
 CALL apoc.cypher.runFile("OntoRelGraph.cypher")
 ----
-_(Reference: https://neo4j.com/labs/apoc/4.4/overview/apoc.cypher/apoc.cypher.runFile/#usage-apoc.cypher.runFile[apoc.cypher.runFile Usage])_
+_(Reference: https://neo4j.com/labs/apoc/2026/overview/apoc.cypher/apoc.cypher.runFile/#usage-apoc.cypher.runFile[apoc.cypher.runFile Usage])_
 
-=== Step 2.3: Visualizing the Subgraph
+=== Step 2.3: Visualizing the Demo Subgraphs
 After the script has successfully executed and built your graph, you can filter and visualize a specific subgraph.
 
 Depending on whether you have run OntoRelGraph.cypher for MONDIAL or MPHPO, copy the corresponding query below, paste it directly into the https://neo4j.com/docs/desktop/current/query/#_cypher_editor[Cypher editor] of the **Query** interface, and press `Ctrl + Enter` (or click the Play button):

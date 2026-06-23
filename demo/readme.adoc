@@ -1,3 +1,25 @@
+[#demos]
+== Demos
+
+=== MONDIAL
+
+==== Generate Cypher scripts for ontology, relational and/or relational-ontology graphs
+----
+java -jar build/libs/ontorela-application-2.3.0-SNAPSHOT.jar generate-cypher demo/_ontologies/MONDIAL/config00
+----
+
+Follow xref:graph-setup-guide.adoc[these directions] to run the script(s) and view the graph(s) in Neo4j.
+
+=== MPHPO
+
+==== Generate Cypher scripts for ontology, relational and/or relational-ontology graphs
+----
+java -jar build/libs/ontorela-application-2.3.0-SNAPSHOT.jar generate-cypher demo/_ontologies/MPHPO/config00
+----
+
+Follow xref:graph-setup-guide.adoc[these directions] to run the script(s) and view the graph(s) in Neo4j.
+
+[#use]
 == Use
 
 ////
@@ -25,6 +47,11 @@ If false: redundant axioms preserved (default). |  No
 |`Set<String> classes`| Set of classes of interest. |  No
 |`Set<String> objectProperties`| Set of properties of interest.|  No
 |===
+
+[WARNING]
+====
+Using an ontology file that lacks a declared Internationalized Resource Identifier (IRI) will cause the script generation process to fail. All input ontologies must have an explicitly declared IRI within their source files.
+====
 
 - **`database_config.yml`** (Mandatory):
 [title=“Database configuration YAML file”,options=“header,unbreakable”]
@@ -96,11 +123,6 @@ java -jar ontorela-application-<version>-SNAPSHOT.jar generate-anomalies-reports
 ----
 java -jar ontorela-application-<version>-SNAPSHOT.jar generate-all <configuration_directory>
 ----
-
-[WARNING]
-====
-Using an ontology file that lacks a declared Internationalized Resource Identifier (IRI) will cause the script generation process to fail. All input ontologies must have an explicitly declared IRI within their source files.
-====
 ////
 == Documentation
 S.O.
