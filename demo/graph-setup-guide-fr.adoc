@@ -25,17 +25,17 @@ Ce guide part du principe que vous avez déjà téléchargé, installé et enti�
 === Étape 2.1 : Configuration de l'Environnement
 Avant d'exécuter des scripts, vérifiez que votre environnement Neo4j Desktop est entièrement configuré à l'aide de la documentation officielle :
 
-* **Créer une Instance Locale :** Suivez les étapes pour créer un nouveau SGBD local. Consultez le https://neo4j.com/docs/desktop/current/operations/instance-management/[Guide de Gestion des Instances].
-* **Installer le Plugin APOC :** APOC est requis pour l'exécution avancée de scripts. Consultez le https://neo4j.com/docs/apoc/current/installation/[Guide d'Installation d'APOC].
-* **Activer la Lecture de Fichiers :** Vous devez autoriser APOC à lire des fichiers locaux en ajoutant `apoc.import.file.enabled=true` à votre configuration. Consultez le https://neo4j.com/labs/apoc/4.4/overview/apoc.cypher/apoc.cypher.runFile/#_reading_from_a_file[Guide d'Activation de la Lecture de Fichiers].
+* **https://neo4j.com/docs/desktop/current/operations/instance-management/[Créer une Instance Locale] :** Suivez les étapes pour créer un nouveau SGBD local.
+* **https://neo4j.com/docs/apoc/current/installation/[Installer le Plugin APOC] :** APOC est requis pour l'exécution avancée de scripts.
+* **Activer la Lecture de Fichiers :** Vous devez https://neo4j.com/labs/apoc/4.4/overview/apoc.cypher/apoc.cypher.runFile/#_reading_from_a_file[autoriser APOC à lire des fichiers locaux] en ajoutant `apoc.import.file.enabled=true` à votre configuration `apoc.conf` (`$NEO4J_HOME/conf/`).
 
 === Étape 2.2 : Création de la Base de Données et Exécution du Script
 Une fois l'environnement correctement configuré :
 
-1. **Créer la Base de Données Cible :** Démarrez votre instance et créez la base de données qui hébergera votre graphe. Référez-vous au https://neo4j.com/docs/desktop/current/operations/database-management/#_create_a_new_database[Guide de Création d'une Nouvelle Base de Données].
-2. **Se Connecter à la Base de Données :** OOuvrez l'outil Query et connectez-vous à votre instance active si ce n'est pas déjà fait. Référez-vous au https://neo4j.com/docs/desktop/current/operations/instance-management/#_connect_tools[Guide des Outils de Connexion].
+1. **Créer la Base de Données Cible :** https://neo4j.com/docs/desktop/current/operations/instance-management/#_startstoprestart_instance[Démarrez votre instance] et https://neo4j.com/docs/desktop/current/operations/database-management/#_create_a_new_database[créez la base de données] qui hébergera votre graphe.
+2. Connectez-vous à votre instance active.
 3. **Préparer le Script :** Déplacez votre script cible (par ex. `OntoRelGraph.cypher`) dans le répertoire d'importation de la base de données (`$NEO4J_HOME/import/`).
-4. **Exécuter le Script :** Basculez vers l'interface **Query** (Neo4j Browser). Pour plus de détails sur l'interface, consultez le https://neo4j.com/docs/desktop/current/query/[Guide de l'Interface de Requête Neo4j]. Exécutez la commande suivante pour lancer votre fichier :
+4. **Exécuter le Script :** Basculez vers https://neo4j.com/docs/desktop/current/query/[l'interface **Query**]. Positionnez-vous sur la base de données précédemment crée. Exécutez la commande suivante pour lancer votre fichier :
 +
 [source,cypher]
 ----
