@@ -20,11 +20,11 @@ Currently supported DBMSs:
 
 The following external libraries were used:
 
-* [OWLAPI](https://github.com/owlcs/owlapi)
-* [SnakeYAML](https://github.com/snakeyaml/snakeyaml)
-* [JGraphT](https://jgrapht.org)
-* [JUnit Jupiter](https://junit.org)
-* [StringTemplate](https://www.stringtemplate.org)
+* https://github.com/owlcs/owlapi[OWLAPI]
+* https://github.com/snakeyaml/snakeyaml[SnakeYAML]
+* https://jgrapht.org[JGraphT]
+* https://junit.org[JUnit Jupiter]
+* https://www.stringtemplate.org[StringTemplate]
 
 The executable file will be in `build/libs`.
 
@@ -53,8 +53,8 @@ The software takes two configuration files as input:
 Prerequisites:
 
 * Java 17+
-* AgensGraph v2.14.1+ or
-* Neo4j Desktop v2.1.4+
+* Neo4j Desktop 2.x or
+* AgensGraph Community Edition v2.x
 
 Steps :
 

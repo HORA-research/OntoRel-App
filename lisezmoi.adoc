@@ -21,11 +21,11 @@ L' *{page-component-name}* est développée en Java et utilise Gradle comme outi
 
 Les libraires externes suivantes ont été utilisées:
 
-* [OWLAPI](https://github.com/owlcs/owlapi)
-* [SnakeYAML](https://github.com/snakeyaml/snakeyaml)
-* [JGraphT](https://jgrapht.org)
-* [JUnit Jupiter](https://junit.org)
-* [StringTemplate](https://www.stringtemplate.org)
+* https://github.com/owlcs/owlapi[OWLAPI]
+* https://github.com/snakeyaml/snakeyaml[SnakeYAML]
+* https://jgrapht.org[JGraphT]
+* https://junit.org[JUnit Jupiter]
+* https://www.stringtemplate.org[StringTemplate]
 
 Le fichier exécutable sera dans le répertoire `build/libs`.
 
@@ -54,8 +54,8 @@ Le logiciel prend en entrée deux fichiers de configuration :
 Les pré-requis :
 
 * Java 17+
-* AgensGraph v2.14.1+ ou
-* Neo4j Desktop v2.1.4+
+* Neo4j Desktop 2.x ou
+* AgensGraph Community Edition v2.x
 
 Les étapes :
 

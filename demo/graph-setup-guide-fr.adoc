@@ -9,20 +9,20 @@ toc::[]
 ====
 Ce guide part du principe que vous avez déjà téléchargé, installé et entièrement configuré l'environnement de votre choix. Vous **devez** suivre les liens officiels ci-dessous pour une configuration correcte avant de passer aux étapes d'exécution.
 
+*Neo4j Desktop :*
+
+* https://neo4j.com/deployment-center/#:~:text=Visit-,Neo4j%20Desktop,-Neo4j%20Desktop%20is[Téléchargement]
+* https://neo4j.com/docs/desktop/current/installation/[Guide d'Installation et de Configuration]
+
 *AgensGraph :*
 
 * https://tech.skaiworldwide.com/downloads//[Téléchargement]
 * https://tech.skaiworldwide.com/docs/en/agensgraph/latest/quick_guide/installation.html[Manuel d'Installation]
-
-*Neo4j Desktop :*
-
-* https://neo4j.com/deployment-center/[Téléchargement]
-* https://neo4j.com/docs/desktop/current/installation/[Guide d'Installation et de Configuration]
 ====
 
 == 2. Neo4j Desktop : Configuration, Exécution et Visualisation
 
-NOTE: Ce guide s'appuie sur la **documentation APOC Extended (v2026)** et la **documentation Neo4j Desktop (v2.1)**.
+NOTE: Ce guide s'appuie sur la **documentation APOC Extended (v2026)** et la **documentation Neo4j Desktop (v2.x)**.
 
 === Étape 2.1 : Configuration de l'Environnement
 Avant d'exécuter des scripts, vérifiez que votre environnement Neo4j Desktop est entièrement configuré à l'aide de la documentation officielle :
@@ -99,6 +99,11 @@ RETURN n, r, m
 ----
 
 == 3. AgensGraph : Création de l'Instance et Exécution du Script
+
+[NOTE]
+====
+**Environnement d'exécution requis :** Les instructions ci-dessous sont basées sur une installation locale d'**AgensGraph (version 2.x ou supérieure)**, qu'elle ait été réalisée via les **binaires Linux x86-64** ou compilée depuis le **code source**.
+====
 
 === Étape 3.1 : Initialisation de la Base de Données et du Schéma de Graphe
 1. Ouvrez le terminal de votre système ou votre invite de commande.
