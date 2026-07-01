@@ -3,7 +3,9 @@
 
 === MONDIAL
 
-==== Generate Cypher scripts for ontology, relational and/or relational-ontology graphs
+In the terminal from the project's root directory run the following commands:
+
+==== Generate Cypher scripts
 ----
 java -jar build/libs/ontorela-application-2.3.0-SNAPSHOT.jar generate-cypher demo/_ontologies/MONDIAL/config00
 ----
@@ -12,7 +14,7 @@ Follow xref:graph-setup-guide.adoc[these directions] to run the script(s) and vi
 
 === MPHPO
 
-==== Generate Cypher scripts for ontology, relational and/or relational-ontology graphs
+==== Generate Cypher scripts
 ----
 java -jar build/libs/ontorela-application-2.3.0-SNAPSHOT.jar generate-cypher demo/_ontologies/MPHPO/config00
 ----
@@ -26,7 +28,7 @@ Follow xref:graph-setup-guide.adoc[these directions] to run the script(s) and vi
 Cette section doit décrire comment la bibliothèque logicielle (librairie) doit être intégrée au
 projet. Cette section doit fournir des explications simples.
 
-_Il faut indiquer où est généré l'artefact en spécifiant son nom et en précisant qu'il peut être
+_Il faut indiquer où est généré l'artéfact en spécifiant son nom et en précisant qu'il peut être
 utilisé dans l'environnement de travail du développeur selon les outils utilisés par celui-ci.
 
 ////

@@ -1,9 +1,11 @@
 [#demos]
 == Démos
 
+Dans le terminal, depuis le répertoire racine du projet, exécuter les commandes suivantes:
+
 === MONDIAL
 
-==== Générer les scripts Cypher des graphes de l'ontologie, relationnel et relationnel-ontologique
+==== Générer les graphes Cypher
 ----
 java -jar build/libs/ontorela-application-2.3.0-SNAPSHOT.jar generate-cypher demo/_ontologies/MONDIAL/config00
 ----
@@ -12,10 +14,11 @@ Suivez xref:graph-setup-guide-fr.adoc[ces instructions] pour exécuter le(s) scr
 
 === MPHPO
 
-==== Générer les scripts Cypher des graphes de l'ontologie, relationnel et relationnel-ontologique
+==== Générer les graphes Cypher
 ----
 java -jar build/libs/ontorela-application-2.3.0-SNAPSHOT.jar generate-cypher demo/_ontologies/MPHPO/config00
 ----
+
 Suivez xref:graph-setup-guide-fr.adoc[ces instructions] pour exécuter le(s) script(s) et visualiser le(s) graphe(s) sur Neo4j.
 
 [#utilisation]
@@ -25,7 +28,7 @@ Suivez xref:graph-setup-guide-fr.adoc[ces instructions] pour exécuter le(s) scr
 Cette section doit décrire comment la bibliothèque logicielle (librairie) doit être intégrée au
 projet. Cette section doit fournir des explications simples.
 
-_Il faut indiquer où est généré l'artefact en spécifiant son nom et en précisant qu'il peut être
+_Il faut indiquer où est généré l'artéfact en spécifiant son nom et en précisant qu'il peut être
 utilisé dans l'environnement de travail du développeur selon les outils utilisés par celui-ci.
 ////
 
@@ -82,7 +85,7 @@ si false: une table pour la classe _Thing_ est créée (default). | Non
 |`String ontoRelDicFilePath`| L'emplacement du catalogue OntoRel | Non
 |===
 
-NOTE:: Il est important de noter que le choix de configuration peut entraîner des effets de bord sur certaine combinaison de configuration.
+NOTE:: Il est important de noter que le choix de configuration peut entrainer des effets de bord sur certaines combinaisons de configuration.
 
 [#launch]
 == Démarrage

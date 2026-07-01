@@ -1,18 +1,22 @@
 // Settings
 :idprefix:
 :idseparator: -
-:page-component-title: Application de génération d’une base de données relationnelle à partir d’une ontologie
+:page-component-title: Application de génération de bases de données à partir d’une ontologie
 :page-component-name: OntoRel-App
 = {page-component-name}
 
 [#summary]
 == Sommaire
-*{page-component-name}* génère à partir d'une ontologie et des critères de modélisation, à la fois un ensemble de scripts qui créent une base de données relationnelle (BDR) entièrement fonctionnelle et des graphes de propriétés étiquetés.
+*{page-component-name}* génère à partir d'une ontologie et des critères de modélisation, 
+un ensemble de scripts pour la création d'une base de données relationnelle et des bases de données de graphes.
 
 SGBDs actuellement pris en charge:
 
-* Relationnel: PostgreSQL
-* Graphe: Neo4j & AgensGraph
+* Relationnel: 
+** PostgreSQL
+* Graphe: 
+** Neo4j 
+** AgensGraph
 
 [#techno]
 == Technologies utilisées
@@ -27,14 +31,14 @@ Les libraires externes suivantes ont été utilisées:
 * https://junit.org[JUnit Jupiter]
 * https://www.stringtemplate.org[StringTemplate]
 
-Le fichier exécutable sera dans le répertoire `build/libs`.
+Le fichier exécutable est dans le répertoire `build/libs`.
 
 === Entrées
 
-Le logiciel prend en entrée deux fichiers de configuration :
+`{page-component-name}` prend en entrée deux fichiers de configuration :
 
-* [nom-de-l'ontologie]-database_config.yaml : contenant les paramètres nécessaires à la création de la base de données relationnelle
-* [nom-de-l'ontologie]-ontology_config.yaml : contenant les paramètres nécessaires à la lecture des composants ontologiques
+* [nom-de-l'ontologie]-database_config.yaml : contenant les paramètres nécessaires à la création de la base de données relationnelle.
+* [nom-de-l'ontologie]-ontology_config.yaml : contenant les paramètres nécessaires à la lecture des composants ontologiques.
 
 === Sorties
 
@@ -49,11 +53,16 @@ Le logiciel prend en entrée deux fichiers de configuration :
 ** du schéma relationnel (RelGraph);
 ** du schéma ontologique-relationnel (OntoRelGraph).
 
-=== Utilisation client pour génération des scripts Cypher
+== Utilisation client 
 
 Les pré-requis :
 
 * Java 17+
+
+=== Génération des scripts Cypher
+
+Les pré-requis :
+
 * Neo4j Desktop 2.x ou
 * AgensGraph Community Edition v2.x
 
@@ -74,15 +83,21 @@ Pour plus d'information contacter: +
 Christina Khnaisser : Christina.Khnaisser@usherbrooke.ca
 
 Collaborateurs.trices : +
-Reine Sonkin Fozi : Reine.Sonkin.Fozi@usherbrooke.ca
-
-Merci à : +
+Reine Sonkin Fozi : Reine.Sonkin.Fozi@usherbrooke.ca +
 Ameni Souid :  Ameni.Souid@USherbrooke.ca +
 Mohamed Amin Gaied :  Mohamed.Amin.Gaied@USherbrooke.ca +
 Mouhamad Moustapha Mbaye : Mouhamad.Moustapha.Mbaye@USherbrooke.ca
 
 == Références
-Khnaisser, Chantal, Luc Lavoie, Benoit Fraikin, Alan Barton, Sébastien Dussault, Anita Burgun, et Jean-François Ethier. « Using an ontology to derive a sharable and interoperable relational data model for heterogeneous healthcare data and various applications ». In Methods of Information in Medicine, 61(S 02):e73–e88, (Jun 2022). https://doi.org/10.1055/a-1877-9498.
+Khnaisser, C., Looten, V., Lavoie, L., Burgun, A., & Ethier, J.-F. (2024). Building ontology-based temporal databases for data reuse: An applied example on hospital organizational structures. Health Informatics Journal, 30(2). https://doi.org/10.1177/14604582241259336
+
+Khnaisser, C., Lavoie, L., Fraikin, B., Barton, A., Dussault, S., Burgun, A., & Ethier, J.-F. (2022). Using an ontology to derive a sharable and interoperable relational data model for heterogeneous healthcare data and various applications. Methods of Information in Medicine, a–1877–9498. https://doi.org/10.1055/a-1877-9498
+
+Khnaisser, C. (2019). Construction de modèles de données relationnels temporalisés guidée par les ontologies [PhD thesis, Université de Paris cotutelle Université de Sherbrooke]. https://theses.fr/273756915
+
+Khnaisser, C., Lavoie, L., Burgun, A., & Ethier, J.-F. (2018). Generating Relational Database using Ontology Review : Issues, Challenges and Trends. International Journal of Advanced Computer Science and Applications (IJACSA), 9(6), 139–145. https://doi.org/10.14569/IJACSA.2018.090620
+
+Khnaisser, C., Lavoie, L., Diab, H., & Ethier, J.-F. (2015). Data Warehouse Design Methods Review: Trends, Challenges and Future Directions for the Healthcare Domain. In T. Morzy, P. Valduriez, & L. Bellatreche (Eds.), New Trends in Databases and Information Systems. ADBIS 2015. Communications in Computer and Information Science (Issue 539, pp. 76–87). Springer International Publishing. http://link.springer.com/chapter/10.1007/978-3-319-23201-0_10
 
 [#licence]
 == Copyright et licences
