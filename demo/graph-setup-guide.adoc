@@ -1,6 +1,6 @@
 = Graph Database Execution Guide
 :toc: macro
-:toclevels: 2
+:toclevels: 3
 
 toc::[]
 
@@ -16,8 +16,12 @@ This guide assumes you have already downloaded, installed, and fully configured 
 
 *AgensGraph:*
 
-* https://tech.skaiworldwide.com/downloads//[Download]
-* https://tech.skaiworldwide.com/docs/en/agensgraph/latest/quick_guide/installation.html[Installation Manual]
+** Graph Server (AgensGraph Community Edition)
+*** https://tech.skaiworldwide.com/downloads//#agensgraph[Download]
+*** https://tech.skaiworldwide.com/docs/en/agensgraph/latest/quick_guide/installation.html[Installation Manual]
+** Visualization (AGViewer) *[OPTIONAL]*
+*** https://tech.skaiworldwide.com/downloads//#graph-visualization[Download]
+*** https://tech.skaiworldwide.com/docs/en/agviewer/latest/get_started/installation.html[Installation Manual]
 ====
 
 == 2. Neo4j Desktop: Setup, Execution, and Visualization
@@ -54,6 +58,7 @@ After the script has successfully executed and built your graph, you can filter 
 
 Depending on whether you have run OntoRelGraph.cypher for MONDIAL or MPHPO, copy the corresponding query below, paste it directly into the https://neo4j.com/docs/desktop/current/query/#_cypher_editor[Cypher editor] of the **Query** interface, and press `Ctrl + Enter` (or click the Play button):
 
+[[target-cypher-query]]
 ==== MONDIAL
 [source,cypher]
 ----
@@ -97,14 +102,21 @@ WHERE n.relId IN targetIds AND m.relId IN targetIds
 RETURN n, r, m
 ----
 
-== 3. AgensGraph: Instance Creation & Script Execution
+== 3. AgensGraph
 
 [NOTE]
 ====
-**Required Execution Environment:** The instructions below are based on a local installation of **AgensGraph (version 2.x or higher)**, whether deployed using **Linux x86-64 binaries** or compiled from **Source Code**.
+`OntoRelGraph` execution is not supported for AgensGraph. This is due to a limitation where AgensGraph vertices can have https://tech.skaiworldwide.com/docs/en/agensgraph/13/developer_manual/introduction.html#:~:text=each%20vertex%20may%20have%20zero%20or%20only%20one%20label.[zero or only one label], which is incompatible with the multi-label structure currently implemented in `OntoRelGraph`.
 ====
 
-=== Step 3.1: Initialize Database and Graph Schema
+=== 3.1 Graph Server: Instance Creation & Script Execution
+
+[NOTE]
+====
+The instructions below are based on a local installation of **AgensGraph (version 2.x or higher)**, whether deployed using **Linux x86-64 binaries** or compiled from **Source Code**.
+====
+
+==== Step 3.1.1: Initialize Database and Graph Schema
 1. Open your system terminal or command-line interface.
 2. Access the interactive CLI tool (`agens`) by running the connection command (adjusting parameters for your custom user if necessary):
 +
@@ -127,7 +139,7 @@ CREATE GRAPH ontorelgraph;
 SET graph_path = ontorelgraph;
 ----
 
-=== Step 3.2: Execute openCypher Script
+==== Step 3.1.2: Execute openCypher Script
 1. Exit the interactive shell or open a new terminal tab. Run your structured openCypher script file directly against your newly configured schema using the `-f` flag:
 +
 [source,bash]
@@ -136,3 +148,58 @@ agens -U postgres -d agens -f /path/to/your/OntoRelGraph.cypher
 ----
 +
 _(Alternatively, you can copy your script clauses and paste them directly into your active interactive `agens` prompt line after setting the `graph_path`)._
+
+=== 3.2 AGViewer: Installation, Execution and Visualization [OPTIONAL]
+
+[NOTE]
+====
+AGViewer is a Node.js web application. The following instructions are fully cross-platform and will work natively on **Windows, macOS, and Linux**, provided that **Node.js** (and npm) is installed on your system.
+
+Ensure that your AgensGraph database instance is already actively running in the background before attempting to connect the viewer.
+====
+
+==== Step 3.2.1: Installation
+1. Download the AGViewer source code from the official repository and extract it to your desired location.
+2. Open your system terminal or command prompt (e.g., PowerShell, Bash) and navigate to the extracted directory:
++
+[source,bash]
+----
+cd path/to/AgensGraphViewer
+----
+3. Install the required Node.js module dependencies:
++
+[source,bash]
+----
+npm run setup
+----
++
+_(Note: If `npm run setup` fails depending on your version, standard `npm install` usually works as a fallback)._
+
+==== Step 3.2.2: Launch the Application
+1. Start the AGViewer web server. You can run it using the standard Node package manager command:
++
+[source,bash]
+----
+npm start
+----
++
+2. Once the server initializes, open your preferred web browser and navigate to the local server address:
++
+[source,plaintext]
+----
+http://localhost:3000
+----
+
+==== Step 3.2.3: Connect to AgensGraph
+1. On the AGViewer welcome screen, enter your active database connection credentials:
+* **Database type:** AgensGraph
+* **Connect URL:** `127.0.0.1` (or your specific host IP)
+* **Connect Port:** `5432` (adjust to `5455` or similar if you mapped a different port via Docker)
+* **Username & Password:** Your database credentials (e.g., `postgres` / `agens`)
+* **Database Name:** The database you created (e.g., `agens`)
+2. Click the connect button to establish the link and start visualizing your active graph path (`ontorelgraph`).
+
+==== Step 3.2.4: Visualizing the Demo Subgraphs
+1. Once successfully connected, locate the **Query Editor** input bar at the top of the AGViewer workspace.
+2. Depending on whether you have run OntoRelGraph.cypher for MONDIAL or MPHPO, copy the corresponding query defined earlier in this guide (see <<target-cypher-query, Subgraph Query Definition>>) and paste it directly into the editor.
+3. Click the **Run** (or Execute) icon. AGViewer will process the query and render the resulting subset of nodes and relationships dynamically on the canvas below.

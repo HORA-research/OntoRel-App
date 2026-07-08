@@ -1,6 +1,6 @@
 = Guide d'Exécution des Bases de Données Graphes
 :toc: macro
-:toclevels: 2
+:toclevels: 3
 
 toc::[]
 
@@ -14,10 +14,14 @@ Ce guide part du principe que vous avez déjà téléchargé, installé et enti�
 * https://neo4j.com/deployment-center/#:~:text=Visit-,Neo4j%20Desktop,-Neo4j%20Desktop%20is[Téléchargement]
 * https://neo4j.com/docs/desktop/current/installation/[Guide d'Installation et de Configuration]
 
-*AgensGraph :*
+*AgensGraph:*
 
-* https://tech.skaiworldwide.com/downloads//[Téléchargement]
-* https://tech.skaiworldwide.com/docs/en/agensgraph/latest/quick_guide/installation.html[Manuel d'Installation]
+** Serveur de Graphe (AgensGraph Community Edition)
+*** https://tech.skaiworldwide.com/downloads//#agensgraph[Téléchargement]
+*** https://tech.skaiworldwide.com/docs/en/agensgraph/latest/quick_guide/installation.html[Manuel d'Installation]
+** Visualisation (AGViewer) *[OPTIONNEL]*
+*** https://tech.skaiworldwide.com/downloads//#graph-visualization[Téléchargement]
+*** https://tech.skaiworldwide.com/docs/en/agviewer/latest/get_started/installation.html[Manuel d'Installation]
 ====
 
 == 2. Neo4j Desktop : Configuration, Exécution et Visualisation
@@ -53,8 +57,9 @@ _(Référence : https://neo4j.com/labs/apoc/2026/overview/apoc.cypher/apoc.cyphe
 === Étape 2.3 : Visualisation des Sous-Graphes Démos
 Une fois que le script a été exécuté avec succès et a généré votre graphe, vous pouvez filtrer et visualiser un sous-graphe spécifique.
 
-Selon si vous avez roulé OntoRelGraph.cypher pour MONDIAL ou MPHPO copiez la requête corrspondante ci-dessous, collez-la directement dans https://neo4j.com/docs/desktop/current/query/#_cypher_editor[l'editeur Cypher], puis appuyez sur `Ctrl + Entrée` (ou cliquez sur le bouton Lecture) :
+Selon si vous avez roulé OntoRelGraph.cypher pour MONDIAL ou MPHPO copiez la requête correspondante ci-dessous, collez-la directement dans https://neo4j.com/docs/desktop/current/query/#_cypher_editor[l'editeur Cypher], puis appuyez sur `Ctrl + Entrée` (ou cliquez sur le bouton Lecture) :
 
+[[target-cypher-query]]
 ==== MONDIAL
 [source,cypher]
 ----
@@ -98,14 +103,21 @@ WHERE n.relId IN targetIds AND m.relId IN targetIds
 RETURN n, r, m
 ----
 
-== 3. AgensGraph : Création de l'Instance et Exécution du Script
+== 3. AgensGraph
 
 [NOTE]
 ====
-**Environnement d'exécution requis :** Les instructions ci-dessous sont basées sur une installation locale d'**AgensGraph (version 2.x ou supérieure)**, qu'elle ait été réalisée via les **binaires Linux x86-64** ou compilée depuis le **code source**.
+L'exécution d' `OntoRelGraph` n'est pas supportée pour AgensGraph. Cela est dû à une limitation d'AgensGraph où les sommets ne peuvent avoir https://tech.skaiworldwide.com/docs/en/agensgraph/13/developer_manual/introduction.html#:~:text=each%20vertex%20may%20have%20zero%20or%20only%20one%20label.[qu'une seule étiquette ou aucune], ce qui est incompatible avec la structure multi-étiquettes actuellement implémentée dans `OntoRelGraph`.
 ====
 
-=== Étape 3.1 : Initialisation de la Base de Données et du Schéma de Graphe
+=== 3.1 Serveur de Graphe : Création de l'Instance et Exécution du Script
+
+[NOTE]
+====
+Les instructions ci-dessous sont basées sur une installation locale d'**AgensGraph (version 2.x ou supérieure)**, qu'elle ait été réalisée via les **binaires Linux x86-64** ou compilée depuis le **code source**.
+====
+
+==== Étape 3.1.1 : Initialisation de la Base de Données et du Schéma de Graphe
 1. Ouvrez le terminal de votre système ou votre invite de commande.
 2. Accédez à l'outil d'interface en ligne de commande interactif (`agens`) en exécutant la commande de connexion (ajustez les paramètres pour votre utilisateur personnalisé si nécessaire) :
 +
@@ -124,11 +136,11 @@ CREATE DATABASE agens;
 +
 [source,sql]
 ----
-CREATE GRAPH ontorelgraph;
-SET graph_path = ontorelgraph;
+CREATE GRAPH relgraph;
+SET graph_path = relgraph;
 ----
 
-=== Étape 3.2 : Exécution du Script openCypher
+==== Étape 3.1.2 : Exécution du Script openCypher
 1. Quittez le shell interactif ou ouvrez un nouvel onglet de terminal. Exécutez votre fichier de script openCypher directement sur votre schéma fraîchement configuré à l'aide de l'option `-f` :
 +
 [source,bash]
@@ -137,3 +149,58 @@ agens -U postgres -d agens -f /chemin/vers/votre/OntoRelGraph.cypher
 ----
 +
 _(Alternativement, vous pouvez copier les clauses de votre script et les coller directement dans votre invite interactive `agens` active après avoir défini le `graph_path`)._
+
+=== 3.2 AGViewer : Installation, Exécution et Visualisation [OPTIONNEL]
+
+[NOTE]
+====
+AGViewer est une application web Node.js. Les instructions suivantes sont entièrement multiplateformes et fonctionneront nativement sur **Windows, macOS et Linux**, à condition que **Node.js** (et npm) soit installé sur votre système.
+
+Assurez-vous que votre instance de base de données AgensGraph est déjà active et tourne en arrière-plan avant d'essayer de connecter le visualiseur.
+====
+
+==== Étape 3.2.1 : Installation
+1. Téléchargez le code source ou l'archive de la version d'AGViewer depuis le dépôt officiel et extrayez-le à l'emplacement de votre choix.
+2. Ouvrez votre terminal système ou votre invite de commande (ex : PowerShell, Bash) et naviguez vers le répertoire extrait :
++
+[source,bash]
+----
+cd chemin/vers/AgensGraphViewer
+----
+3. Installez les dépendances requises des modules Node.js :
++
+[source,bash]
+----
+npm run setup
+----
++
+_(Note : Si `npm run setup` échoue selon votre version, la commande standard `npm install` fonctionne généralement comme solution de repli)._
+
+==== Étape 3.2.2 : Lancement de l'application
+1. Démarrez le serveur web AGViewer. Vous pouvez le lancer en utilisant la commande standard du gestionnaire de paquets Node :
++
+[source,bash]
+----
+npm start
+----
++
+2. Une fois le serveur initialisé, ouvrez votre navigateur web préféré et accédez à l'adresse du serveur local :
++
+[source,plaintext]
+----
+http://localhost:3000
+----
+
+==== Étape 3.2.3 : Connexion à AgensGraph
+1. Sur l'écran d'accueil d'AGViewer, entrez les identifiants de connexion de votre base de données active :
+* **Type de base de données :** AgensGraph
+* **URL de connexion :** `127.0.0.1` (ou l'adresse IP spécifique de votre hôte)
+* **Port de connexion :** `5432` (ajustez à `5455` ou similaire si vous avez mappé un port différent via Docker)
+* **Nom d'utilisateur et Mot de passe :** Les identifiants de votre base de données (ex : `postgres` / `agens`)
+* **Nom de la base de données :** La base de données que vous avez créée (ex : `agens`)
+2. Cliquez sur le bouton de connexion pour établir le lien et commencer à visualiser votre chemin de graphe actif (`relgraph`).
+
+==== Étape 3.2.4 : Visualisation des Sous-Graphes Démos
+1. Une fois connecté avec succès, repérez la barre de saisie de l'**Éditeur de requêtes** (Query Editor) en haut de l'espace de travail d'AGViewer.
+2. Selon si vous avez roulé OntoRelGraph.cypher pour MONDIAL ou MPHPO copiez la requête cible correspondante  définie précédemment dans ce guide (voir <<target-cypher-query,Définition de la requête du sous-graphe>>) et collez-la directement dans l'éditeur.
+3. Cliquez sur l'icône **Run** (Exécuter). AGViewer traitera la requête et affichera dynamiquement le sous-ensemble de nœuds et de relations résultant sur le canevas situé en dessous.
