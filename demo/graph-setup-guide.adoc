@@ -135,8 +135,8 @@ CREATE DATABASE agens;
 +
 [source,sql]
 ----
-CREATE GRAPH ontorelgraph;
-SET graph_path = ontorelgraph;
+CREATE GRAPH relgraph;
+SET graph_path = relgraph;
 ----
 
 ==== Step 3.1.2: Execute openCypher Script
@@ -144,7 +144,7 @@ SET graph_path = ontorelgraph;
 +
 [source,bash]
 ----
-agens -U postgres -d agens -f /path/to/your/OntoRelGraph.cypher
+agens -U postgres -d agens -f /path/to/your/RelGraph.cypher
 ----
 +
 _(Alternatively, you can copy your script clauses and paste them directly into your active interactive `agens` prompt line after setting the `graph_path`)._

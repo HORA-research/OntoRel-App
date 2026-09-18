@@ -145,7 +145,7 @@ SET graph_path = relgraph;
 +
 [source,bash]
 ----
-agens -U postgres -d agens -f /chemin/vers/votre/OntoRelGraph.cypher
+agens -U postgres -d agens -f /chemin/vers/votre/RelGraph.cypher
 ----
 +
 _(Alternativement, vous pouvez copier les clauses de votre script et les coller directement dans votre invite interactive `agens` active après avoir défini le `graph_path`)._
