@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<!--
+  CAS 1 : Parent table direct
+  Hiérarchie :
+    C1                         (isOntoRelTuple=FALSE -> table)
+    C2                         (isOntoRelTuple=FALSE -> table)
+      C2.1                     (isOntoRelTuple=FALSE -> table)
+      C2.2                     (isOntoRelTuple=FALSE -> table)
+        C.2.2.1                (isOntoRelTuple=TRUE  -> tuple)
+        C.2.2.2                (isOntoRelTuple=TRUE  -> tuple)
+
+  Résultat attendu après génération :
+    - Tables créées (S3, via ClassTableFactory) : C1, C2, C2.1, C2.2
+    - Aucune table dictionnaire (S2) requise : l'ancêtre-table le plus proche de C.2.2.1
+      est son parent DIRECT C2.2, qui est déjà une table normale.
+    - C2.2 reçoit 2 colonnes supplémentaires (tuple_full_iri, tuple_label_<lang>)
+      ajoutées par TupleAncestorTableFactory.
+    - 1 ligne insérée dans C2.2 : (uuid, "http://www.example.org/ontology#C.2.2.1", label).
+    - FK ISA normales : C2.1 -> C2, C2.2 -> C2 (C.2.2.1 n'a pas de FK, ce n'est pas une table).
+-->
+<rdf:RDF xmlns="http://www.example.org/ontology#"
+  xml:base="http://www.example.org/ontology"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:xml="http://www.w3.org/XML/1998/namespace"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ont="http://www.example.org/ontology#">
+
+  <owl:Ontology rdf:about="http://www.example.org/ontology"/>
+
+  <!-- Propriété d'annotation personnalisée : isOntoRelTuple (booléen) -->
+  <owl:AnnotationProperty rdf:about="http://www.example.org/ontology#isOntoRelTuple"/>
+
+  <!-- C1 -->
+  <owl:Class rdf:about="http://www.example.org/ontology#C1">
+    <rdfs:label xml:lang="en">C1</rdfs:label>
+    <rdfs:label xml:lang="fr">C1</rdfs:label>
+  </owl:Class>
+
+  <!-- C2 -->
+  <owl:Class rdf:about="http://www.example.org/ontology#C2">
+    <rdfs:label xml:lang="en">C2</rdfs:label>
+    <rdfs:label xml:lang="fr">C2</rdfs:label>
+  </owl:Class>
+
+  <!-- C2.1 (Sous-classe de C2) -->
+  <owl:Class rdf:about="http://www.example.org/ontology#C2.1">
+    <rdfs:subClassOf rdf:resource="http://www.example.org/ontology#C2"/>
+    <rdfs:label xml:lang="en">C2.1</rdfs:label>
+    <rdfs:label xml:lang="fr">C2.1</rdfs:label>
+  </owl:Class>
+
+  <!-- C2.2 (Sous-classe de C2) -->
+  <owl:Class rdf:about="http://www.example.org/ontology#C2.2">
+    <rdfs:subClassOf rdf:resource="http://www.example.org/ontology#C2"/>
+    <rdfs:label xml:lang="en">C2.2</rdfs:label>
+    <rdfs:label xml:lang="fr">C2.2</rdfs:label>
+  </owl:Class>
+
+  <!-- C.2.2.1 (Sous-classe de C2.2) TUPLE : parent direct C2.2 est une table -->
+  <owl:Class rdf:about="http://www.example.org/ontology#C.2.2.1">
+    <rdfs:subClassOf rdf:resource="http://www.example.org/ontology#C2.2"/>
+    <rdfs:label xml:lang="en">C.2.2.1</rdfs:label>
+    <rdfs:label xml:lang="fr">C.2.2.1</rdfs:label>
+    <ont:isOntoRelTuple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ont:isOntoRelTuple>
+  </owl:Class>
+
+  <!-- C.2.2.2 (Sous-classe de C2.2) TUPLE : parent direct C2.2 est une table -->
+    <owl:Class rdf:about="http://www.example.org/ontology#C.2.2.2">
+      <rdfs:subClassOf rdf:resource="http://www.example.org/ontology#C2.2"/>
+      <rdfs:label xml:lang="en">C.2.2.2 @ en</rdfs:label>
+      <rdfs:label xml:lang="fr">C.2.2.2 @ fr</rdfs:label>
+      <ont:isOntoRelTuple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ont:isOntoRelTuple>
+    </owl:Class>
+
+</rdf:RDF>

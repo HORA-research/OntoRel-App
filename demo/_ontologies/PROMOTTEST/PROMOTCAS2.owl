@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<!--
+  CAS 2 : Parent tuple direct
+  Hiérarchie :
+    C1                         (isOntoRelTuple=FALSE -> table)
+    C2                         (isOntoRelTuple=FALSE -> table)
+      C2.1                     (isOntoRelTuple=FALSE -> table)
+      C2.2                     (isOntoRelTuple=TRUE  -> tuple)
+        C.2.2.1                (isOntoRelTuple=TRUE  -> tuple)
+
+  Résultat attendu après génération :
+    - Tables créées (S3, via ClassTableFactory) : C1, C2, C2.1
+    - Table dictionnaire créée (S2, via TupleTableFactory) : C2
+      (C2 est l'ancêtre-table le plus proche à la fois de C2.2 ET, en remontant
+      la chaîne, de C.2.2.1 - resolveNearestSuperClassTableSet doit résoudre les
+      DEUX classes tuples vers la MÊME table C2).
+    - C2 reçoit les colonnes tuple_full_iri / tuple_label_<lang> en plus de ses
+      colonnes normales de table (elle est à la fois une table S3-like avec ses
+      propres sous-classes ET une cible de tuples).
+    - 2 lignes insérées dans C2 : une pour C2.2, une pour C.2.2.1.
+    - FK ISA normales : C2.1 -> C2. Aucune FK pour C2.2 ni C.2.2.1 (ce sont des tuples,
+      pas des tables).
+    - Vérifie particulièrement le cas 2 du pseudocode original : une classe tuple dont
+      le PARENT DIRECT est lui-même un tuple (chaîne), donc la récursion de
+      resolveNearestSuperClassTableSet doit remonter plus d'un niveau.
+-->
+<rdf:RDF xmlns="http://www.example.org/ontology#"
+  xml:base="http://www.example.org/ontology"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:xml="http://www.w3.org/XML/1998/namespace"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ont="http://www.example.org/ontology#">
+
+  <owl:Ontology rdf:about="http://www.example.org/ontology"/>
+
+  <!-- Propriété d'annotation personnalisée : isOntoRelTuple (booléen) -->
+  <owl:AnnotationProperty rdf:about="http://www.example.org/ontology#isOntoRelTuple"/>
+
+  <!-- C1 -->
+  <owl:Class rdf:about="http://www.example.org/ontology#C1">
+    <rdfs:label xml:lang="en">C1</rdfs:label>
+    <rdfs:label xml:lang="fr">C1</rdfs:label>
+  </owl:Class>
+
+  <!-- C2 -->
+  <owl:Class rdf:about="http://www.example.org/ontology#C2">
+    <rdfs:label xml:lang="en">C2</rdfs:label>
+    <rdfs:label xml:lang="fr">C2</rdfs:label>
+  </owl:Class>
+
+  <!-- C2.1 (Sous-classe de C2) -->
+  <owl:Class rdf:about="http://www.example.org/ontology#C2.1">
+    <rdfs:subClassOf rdf:resource="http://www.example.org/ontology#C2"/>
+    <rdfs:label xml:lang="en">C2.1</rdfs:label>
+    <rdfs:label xml:lang="fr">C2.1</rdfs:label>
+  </owl:Class>
+
+  <!-- C2.2 (Sous-classe de C2) - TUPLE -->
+  <owl:Class rdf:about="http://www.example.org/ontology#C2.2">
+    <rdfs:subClassOf rdf:resource="http://www.example.org/ontology#C2"/>
+    <rdfs:label xml:lang="en">C2.2</rdfs:label>
+    <rdfs:label xml:lang="fr">C2.2</rdfs:label>
+    <ont:isOntoRelTuple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ont:isOntoRelTuple>
+  </owl:Class>
+
+  <!-- C.2.2.1 (Sous-classe de C2.2) - TUPLE : parent direct C2.2 est LUI-MÊME un tuple -->
+  <owl:Class rdf:about="http://www.example.org/ontology#C.2.2.1">
+    <rdfs:subClassOf rdf:resource="http://www.example.org/ontology#C2.2"/>
+    <rdfs:label xml:lang="en">C.2.2.1</rdfs:label>
+    <rdfs:label xml:lang="fr">C.2.2.1</rdfs:label>
+    <ont:isOntoRelTuple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ont:isOntoRelTuple>
+  </owl:Class>
+
+</rdf:RDF>

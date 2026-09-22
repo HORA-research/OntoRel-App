@@ -1,0 +1,31 @@
+ONTOLOGY :"ontology"  
+
+CLASS :"C.2.2.1"   
+  LABEL @fr 'C.2.2.1'
+    @en 'C.2.2.1'  
+  ISA :"C2.2"  
+
+CLASS :"C0"   
+  LABEL @fr 'C0'
+    @en 'C0'  
+
+CLASS :"C1"   
+  LABEL @fr 'C1'
+    @en 'C1'  
+  ISA :"C0"  
+
+CLASS :"C2"   
+  LABEL @fr 'C2'
+    @en 'C2'  
+  ISA :"C0"  
+
+CLASS :"C2.1"   
+  LABEL @fr 'C2.1'
+    @en 'C2.1'  
+  ISA :"C2"  
+
+CLASS :"C2.2"   
+  LABEL @fr 'C2.2'
+    @en 'C2.2'  
+  ISA :"C2"  
+

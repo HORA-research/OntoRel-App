@@ -1,0 +1,19 @@
+# Default database configurations
+schemaName: PROMOT
+rdbmsName:
+  - postgresql
+defaultKeyName: uid
+defaultKeyDomainName: uid_domain
+defaultKeyType: int
+defaultAttributeName : value
+defaultAttributeDomaineName: value_domain
+defaultAttributeType: TEXT
+maxIdentifierLength: 30
+useIriAsTableId: true
+normalizeDatatype: true
+generateOpTable: true
+removeThingTable: true
+languages:
+  - en
+  - fr
+  - es
